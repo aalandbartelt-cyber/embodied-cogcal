@@ -1,0 +1,49 @@
+id: eccbf_factorial_v1
+title: ECCBF matched semantic-execution factorial probe
+version: 1
+
+design:
+  factors:
+    semantic_condition:
+      levels: [neutral, conflict]
+    execution_condition:
+      levels: [nominal, perturbed]
+  matched_episode_key: [task_id, scene_id, seed]
+  train_variants: [seen_layouts, seen_objects]
+  test_variants: [unseen_layouts, unseen_objects]
+
+conditions:
+  - id: neutral_nominal
+    semantic_condition: neutral
+    execution_condition: nominal
+  - id: conflict_nominal
+    semantic_condition: conflict
+    execution_condition: nominal
+  - id: neutral_perturbed
+    semantic_condition: neutral
+    execution_condition: perturbed
+  - id: conflict_perturbed
+    semantic_condition: conflict
+    execution_condition: perturbed
+
+runtime_inputs:
+  allowed:
+    - instruction
+    - rgb_observation
+    - robot_state
+    - measured_latency
+    - camera_calibration
+  forbidden:
+    - evaluator_target_pose
+    - hidden_success_label
+    - privileged_scene_state
+
+episode_outputs:
+  - raw_action_path
+  - corrected_action_path
+  - task_success
+  - failure_reason
+  - semantic_score
+  - execution_score
+  - calibration_variant
+  - video_path
