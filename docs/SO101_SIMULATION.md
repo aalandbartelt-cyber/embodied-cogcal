@@ -46,6 +46,27 @@ python scripts/smoke_so101_mujoco.py \
 
 ### 3. 接入 ECCBF 四格实验
 
+当前仓库提供一个最小桌面场景：
+
+```text
+simulation/so101/eccbf_factorial_scene.xml
+```
+
+它复用官方 SO-101 follower 模型，加入桌面、红/蓝两个候选物体、绿色目标区域和前视/俯视
+相机。它是方法验证场景，不替代正式任务套件；正式实验前仍需把任务选择规则、物体尺寸、
+相机参数和初始状态写入 episode metadata。
+
+加载并渲染该场景：
+
+```bash
+export MUJOCO_GL=egl
+export MUJOCO_EGL_DEVICE_ID=0
+python scripts/smoke_so101_mujoco.py \
+  --scene simulation/so101/eccbf_factorial_scene.xml \
+  --render \
+  --output results/figures/eccbf_factorial_scene.png
+```
+
 实验顺序固定为：
 
 ```text

@@ -1,0 +1,44 @@
+<mujoco model="eccbf_so101_factorial">
+  <include file="../../third_party/SO-ARM100/Simulation/SO101/so101_new_calib.xml" />
+
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.002" integrator="implicitfast" gravity="0 0 -9.81" />
+
+  <visual>
+    <headlight diffuse="0.7 0.7 0.7" ambient="0.25 0.25 0.25" specular="0.1 0.1 0.1" />
+    <global azimuth="145" elevation="-25" />
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.32 0.48 0.68" rgb2="0.02 0.02 0.03" width="512" height="2048" />
+    <texture type="2d" name="table_texture" builtin="checker" rgb1="0.28 0.32 0.36" rgb2="0.12 0.15 0.18" width="256" height="256" />
+    <material name="table_material" texture="table_texture" texuniform="true" texrepeat="3 3" />
+    <material name="red_material" rgba="0.85 0.08 0.05 1" />
+    <material name="blue_material" rgba="0.05 0.20 0.85 1" />
+    <material name="goal_material" rgba="0.12 0.80 0.20 0.45" />
+  </asset>
+
+  <worldbody>
+    <light name="key" pos="0.2 -0.8 1.5" dir="0 0 -1" directional="true" />
+    <geom name="floor" type="plane" size="2 2 0.01" pos="0 0 0" material="table_material" />
+    <geom name="table" type="box" size="0.65 0.45 0.025" pos="0.18 0 0.025" material="table_material" />
+
+    <body name="red_object" pos="0.12 -0.12 0.105">
+      <freejoint />
+      <geom name="red_object_geom" type="box" size="0.035 0.035 0.035" density="300" material="red_material" />
+      <site name="red_object_site" pos="0 0 0" size="0.005" />
+    </body>
+    <body name="blue_object" pos="0.12 0.12 0.105">
+      <freejoint />
+      <geom name="blue_object_geom" type="box" size="0.035 0.035 0.035" density="300" material="blue_material" />
+      <site name="blue_object_site" pos="0 0 0" size="0.005" />
+    </body>
+    <body name="goal_region" pos="0.42 0 0.071">
+      <geom name="goal_geom" type="box" size="0.09 0.09 0.003" contype="0" conaffinity="0" material="goal_material" />
+      <site name="goal_site" pos="0 0 0.006" size="0.008" />
+    </body>
+
+    <camera name="front_camera" pos="0.78 -0.92 0.70" xyaxes="0.78 0.62 0 -0.20 0.25 0.95" />
+    <camera name="overhead_camera" pos="0.30 0 1.25" xyaxes="1 0 0 0 1 0" />
+  </worldbody>
+</mujoco>
