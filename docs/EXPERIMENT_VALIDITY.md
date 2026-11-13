@@ -2,6 +2,10 @@
 
 日期：2026-11-13。**A100 尚未部署；本文是实验约束与待冻结清单，不是实证结果，也不表示全部字段已冻结。** 保留 semantic × execution 交互与同 SO-101 仿真—真机路线。文献事实见 [原始来源核验](prior-art/verified-sources.md)，其结论是 novelty 尚未通过。
 
+2026-11-14 补核：当前候选暂停扩大正式矩阵，执行 [换方案门槛](prior-art/ROUTE_DECISION.md)。
+当前 task_id 与实际任务覆盖的差异已实测，见 [协议审计](../experiments/so101/PROTOCOL_AUDIT.md)。
+本文的两项校准任务/held-out 要求仍是待满足条件，现有两个 task_id 并未满足。
+
 审计轴：control / baseline、ablation、statistical、real-world、reproducibility / overclaimed-results、unfair-comparison / planning 与 audit。
 
 ## 1. 隐藏物理变化不能改变相同输入的首步预测

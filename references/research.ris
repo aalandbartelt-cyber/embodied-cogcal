@@ -1,0 +1,1280 @@
+TY  - CPAPER
+ID  - kim2025openvla
+TI  - OpenVLA: An Open-Source Vision-Language-Action Model
+AU  - Moo Jin Kim
+AU  - Karl Pertsch
+AU  - Siddharth Karamcheti
+AU  - Ted Xiao
+AU  - Ashwin Balakrishna
+AU  - Suraj Nair
+AU  - Rafael Rafailov
+AU  - Ethan P Foster
+AU  - Pannag R Sanketi
+AU  - Quan Vuong
+AU  - Thomas Kollar
+AU  - Benjamin Burchfiel
+AU  - Russ Tedrake
+AU  - Dorsa Sadigh
+AU  - Sergey Levine
+AU  - Percy Liang
+AU  - Chelsea Finn
+PY  - 2025
+T2  - Proceedings of The 8th Conference on Robot Learning
+VL  - 270
+SP  - 2679
+EP  - 2713
+UR  - https://proceedings.mlr.press/v270/kim25c.html
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; abstract
+ER  - 
+
+TY  - ELEC
+ID  - kim2025oft
+TI  - Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success
+AU  - Kim, Moo Jin
+AU  - Finn, Chelsea
+AU  - Liang, Percy
+PY  - 2025
+UR  - https://arxiv.org/abs/2502.19645v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - shukor2025smolvla
+TI  - SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics
+AU  - Shukor, Mustafa
+AU  - Aubakirova, Dana
+AU  - Capuano, Francesco
+AU  - Kooijmans, Pepijn
+AU  - Palma, Steven
+AU  - Zouitine, Adil
+AU  - Aractingi, Michel
+AU  - Pascal, Caroline
+AU  - Russi, Martino
+AU  - Marafioti, Andres
+AU  - Alibert, Simon
+AU  - Cord, Matthieu
+AU  - Wolf, Thomas
+AU  - Cadene, Remi
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.01844v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - black2024pi0
+TI  - $\pi_0$: A Vision-Language-Action Flow Model for General Robot Control
+AU  - Black, Kevin
+AU  - Brown, Noah
+AU  - Driess, Danny
+AU  - Esmail, Adnan
+AU  - Equi, Michael
+AU  - Finn, Chelsea
+AU  - Fusai, Niccolo
+AU  - Groom, Lachy
+AU  - Hausman, Karol
+AU  - Ichter, Brian
+AU  - Jakubczak, Szymon
+AU  - Jones, Tim
+AU  - Ke, Liyiming
+AU  - Levine, Sergey
+AU  - Li-Bell, Adrian
+AU  - Mothukuri, Mohith
+AU  - Nair, Suraj
+AU  - Pertsch, Karl
+AU  - Shi, Lucy Xiaoyang
+AU  - Tanner, James
+AU  - Vuong, Quan
+AU  - Walling, Anna
+AU  - Wang, Haohuan
+AU  - Zhilinsky, Ury
+PY  - 2024
+UR  - https://arxiv.org/abs/2410.24164v4
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - pi2025pi05
+TI  - $\pi_{0.5}$: a Vision-Language-Action Model with Open-World Generalization
+AU  - Physical Intelligence
+AU  - Black, Kevin
+AU  - Brown, Noah
+AU  - Darpinian, James
+AU  - Dhabalia, Karan
+AU  - Driess, Danny
+AU  - Esmail, Adnan
+AU  - Equi, Michael
+AU  - Finn, Chelsea
+AU  - Fusai, Niccolo
+AU  - Galliker, Manuel Y.
+AU  - Ghosh, Dibya
+AU  - Groom, Lachy
+AU  - Hausman, Karol
+AU  - Ichter, Brian
+AU  - Jakubczak, Szymon
+AU  - Jones, Tim
+AU  - Ke, Liyiming
+AU  - LeBlanc, Devin
+AU  - Levine, Sergey
+AU  - Li-Bell, Adrian
+AU  - Mothukuri, Mohith
+AU  - Nair, Suraj
+AU  - Pertsch, Karl
+AU  - Ren, Allen Z.
+AU  - Shi, Lucy Xiaoyang
+AU  - Smith, Laura
+AU  - Springenberg, Jost Tobias
+AU  - Stachowicz, Kyle
+AU  - Tanner, James
+AU  - Vuong, Quan
+AU  - Walke, Homer
+AU  - Walling, Anna
+AU  - Wang, Haohuan
+AU  - Yu, Lili
+AU  - Zhilinsky, Ury
+PY  - 2025
+UR  - https://arxiv.org/abs/2504.16054v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - octo2024
+TI  - Octo: An Open-Source Generalist Robot Policy
+AU  - Octo Model Team
+AU  - Ghosh, Dibya
+AU  - Walke, Homer
+AU  - Pertsch, Karl
+AU  - Black, Kevin
+AU  - Mees, Oier
+AU  - Dasari, Sudeep
+AU  - Hejna, Joey
+AU  - Kreiman, Tobias
+AU  - Xu, Charles
+AU  - Luo, Jianlan
+AU  - Tan, You Liang
+AU  - Chen, Lawrence Yunliang
+AU  - Sanketi, Pannag
+AU  - Vuong, Quan
+AU  - Xiao, Ted
+AU  - Sadigh, Dorsa
+AU  - Finn, Chelsea
+AU  - Levine, Sergey
+PY  - 2024
+UR  - https://arxiv.org/abs/2405.12213v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - brohan2023rt2
+TI  - RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+AU  - Brohan, Anthony
+AU  - Brown, Noah
+AU  - Carbajal, Justice
+AU  - Chebotar, Yevgen
+AU  - Chen, Xi
+AU  - Choromanski, Krzysztof
+AU  - Ding, Tianli
+AU  - Driess, Danny
+AU  - Dubey, Avinava
+AU  - Finn, Chelsea
+AU  - Florence, Pete
+AU  - Fu, Chuyuan
+AU  - Arenas, Montse Gonzalez
+AU  - Gopalakrishnan, Keerthana
+AU  - Han, Kehang
+AU  - Hausman, Karol
+AU  - Herzog, Alexander
+AU  - Hsu, Jasmine
+AU  - Ichter, Brian
+AU  - Irpan, Alex
+AU  - Joshi, Nikhil
+AU  - Julian, Ryan
+AU  - Kalashnikov, Dmitry
+AU  - Kuang, Yuheng
+AU  - Leal, Isabel
+AU  - Lee, Lisa
+AU  - Lee, Tsang-Wei Edward
+AU  - Levine, Sergey
+AU  - Lu, Yao
+AU  - Michalewski, Henryk
+AU  - Mordatch, Igor
+AU  - Pertsch, Karl
+AU  - Rao, Kanishka
+AU  - Reymann, Krista
+AU  - Ryoo, Michael
+AU  - Salazar, Grecia
+AU  - Sanketi, Pannag
+AU  - Sermanet, Pierre
+AU  - Singh, Jaspiar
+AU  - Singh, Anikait
+AU  - Soricut, Radu
+AU  - Tran, Huong
+AU  - Vanhoucke, Vincent
+AU  - Vuong, Quan
+AU  - Wahid, Ayzaan
+AU  - Welker, Stefan
+AU  - Wohlhart, Paul
+AU  - Wu, Jialin
+AU  - Xia, Fei
+AU  - Xiao, Ted
+AU  - Xu, Peng
+AU  - Xu, Sichun
+AU  - Yu, Tianhe
+AU  - Zitkovich, Brianna
+PY  - 2023
+UR  - https://arxiv.org/abs/2307.15818v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - oxe2023
+TI  - Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+AU  - Embodiment Collaboration
+AU  - O'Neill, Abby
+AU  - Rehman, Abdul
+AU  - Gupta, Abhinav
+AU  - Maddukuri, Abhiram
+AU  - Gupta, Abhishek
+AU  - Padalkar, Abhishek
+AU  - Lee, Abraham
+AU  - Pooley, Acorn
+AU  - Gupta, Agrim
+AU  - Mandlekar, Ajay
+AU  - Jain, Ajinkya
+AU  - Tung, Albert
+AU  - Bewley, Alex
+AU  - Herzog, Alex
+AU  - Irpan, Alex
+AU  - Khazatsky, Alexander
+AU  - Rai, Anant
+AU  - Gupta, Anchit
+AU  - Wang, Andrew
+AU  - Kolobov, Andrey
+AU  - Singh, Anikait
+AU  - Garg, Animesh
+AU  - Kembhavi, Aniruddha
+AU  - Xie, Annie
+AU  - Brohan, Anthony
+AU  - Raffin, Antonin
+AU  - Sharma, Archit
+AU  - Yavary, Arefeh
+AU  - Jain, Arhan
+AU  - Balakrishna, Ashwin
+AU  - Wahid, Ayzaan
+AU  - Burgess-Limerick, Ben
+AU  - Kim, Beomjoon
+AU  - Schölkopf, Bernhard
+AU  - Wulfe, Blake
+AU  - Ichter, Brian
+AU  - Lu, Cewu
+AU  - Xu, Charles
+AU  - Le, Charlotte
+AU  - Finn, Chelsea
+AU  - Wang, Chen
+AU  - Xu, Chenfeng
+AU  - Chi, Cheng
+AU  - Huang, Chenguang
+AU  - Chan, Christine
+AU  - Agia, Christopher
+AU  - Pan, Chuer
+AU  - Fu, Chuyuan
+AU  - Devin, Coline
+AU  - Xu, Danfei
+AU  - Morton, Daniel
+AU  - Driess, Danny
+AU  - Chen, Daphne
+AU  - Pathak, Deepak
+AU  - Shah, Dhruv
+AU  - Büchler, Dieter
+AU  - Jayaraman, Dinesh
+AU  - Kalashnikov, Dmitry
+AU  - Sadigh, Dorsa
+AU  - Johns, Edward
+AU  - Foster, Ethan
+AU  - Liu, Fangchen
+AU  - Ceola, Federico
+AU  - Xia, Fei
+AU  - Zhao, Feiyu
+AU  - Frujeri, Felipe Vieira
+AU  - Stulp, Freek
+AU  - Zhou, Gaoyue
+AU  - Sukhatme, Gaurav S.
+AU  - Salhotra, Gautam
+AU  - Yan, Ge
+AU  - Feng, Gilbert
+AU  - Schiavi, Giulio
+AU  - Berseth, Glen
+AU  - Kahn, Gregory
+AU  - Yang, Guangwen
+AU  - Wang, Guanzhi
+AU  - Su, Hao
+AU  - Fang, Hao-Shu
+AU  - Shi, Haochen
+AU  - Bao, Henghui
+AU  - Amor, Heni Ben
+AU  - Christensen, Henrik I
+AU  - Furuta, Hiroki
+AU  - Bharadhwaj, Homanga
+AU  - Walke, Homer
+AU  - Fang, Hongjie
+AU  - Ha, Huy
+AU  - Mordatch, Igor
+AU  - Radosavovic, Ilija
+AU  - Leal, Isabel
+AU  - Liang, Jacky
+AU  - Abou-Chakra, Jad
+AU  - Kim, Jaehyung
+AU  - Drake, Jaimyn
+AU  - Peters, Jan
+AU  - Schneider, Jan
+AU  - Hsu, Jasmine
+AU  - Vakil, Jay
+AU  - Bohg, Jeannette
+AU  - Bingham, Jeffrey
+AU  - Wu, Jeffrey
+AU  - Gao, Jensen
+AU  - Hu, Jiaheng
+AU  - Wu, Jiajun
+AU  - Wu, Jialin
+AU  - Sun, Jiankai
+AU  - Luo, Jianlan
+AU  - Gu, Jiayuan
+AU  - Tan, Jie
+AU  - Oh, Jihoon
+AU  - Wu, Jimmy
+AU  - Lu, Jingpei
+AU  - Yang, Jingyun
+AU  - Malik, Jitendra
+AU  - Silvério, João
+AU  - Hejna, Joey
+AU  - Booher, Jonathan
+AU  - Tompson, Jonathan
+AU  - Yang, Jonathan
+AU  - Salvador, Jordi
+AU  - Lim, Joseph J.
+AU  - Han, Junhyek
+AU  - Wang, Kaiyuan
+AU  - Rao, Kanishka
+AU  - Pertsch, Karl
+AU  - Hausman, Karol
+AU  - Go, Keegan
+AU  - Gopalakrishnan, Keerthana
+AU  - Goldberg, Ken
+AU  - Byrne, Kendra
+AU  - Oslund, Kenneth
+AU  - Kawaharazuka, Kento
+AU  - Black, Kevin
+AU  - Lin, Kevin
+AU  - Zhang, Kevin
+AU  - Ehsani, Kiana
+AU  - Lekkala, Kiran
+AU  - Ellis, Kirsty
+AU  - Rana, Krishan
+AU  - Srinivasan, Krishnan
+AU  - Fang, Kuan
+AU  - Singh, Kunal Pratap
+AU  - Zeng, Kuo-Hao
+AU  - Hatch, Kyle
+AU  - Hsu, Kyle
+AU  - Itti, Laurent
+AU  - Chen, Lawrence Yunliang
+AU  - Pinto, Lerrel
+AU  - Fei-Fei, Li
+AU  - Tan, Liam
+AU  - Fan, Linxi "Jim"
+AU  - Ott, Lionel
+AU  - Lee, Lisa
+AU  - Weihs, Luca
+AU  - Chen, Magnum
+AU  - Lepert, Marion
+AU  - Memmel, Marius
+AU  - Tomizuka, Masayoshi
+AU  - Itkina, Masha
+AU  - Castro, Mateo Guaman
+AU  - Spero, Max
+AU  - Du, Maximilian
+AU  - Ahn, Michael
+AU  - Yip, Michael C.
+AU  - Zhang, Mingtong
+AU  - Ding, Mingyu
+AU  - Heo, Minho
+AU  - Srirama, Mohan Kumar
+AU  - Sharma, Mohit
+AU  - Kim, Moo Jin
+AU  - Irshad, Muhammad Zubair
+AU  - Kanazawa, Naoaki
+AU  - Hansen, Nicklas
+AU  - Heess, Nicolas
+AU  - Joshi, Nikhil J
+AU  - Suenderhauf, Niko
+AU  - Liu, Ning
+AU  - Di Palo, Norman
+AU  - Shafiullah, Nur Muhammad Mahi
+AU  - Mees, Oier
+AU  - Kroemer, Oliver
+AU  - Bastani, Osbert
+AU  - Sanketi, Pannag R
+AU  - Miller, Patrick "Tree"
+AU  - Yin, Patrick
+AU  - Wohlhart, Paul
+AU  - Xu, Peng
+AU  - Fagan, Peter David
+AU  - Mitrano, Peter
+AU  - Sermanet, Pierre
+AU  - Abbeel, Pieter
+AU  - Sundaresan, Priya
+AU  - Chen, Qiuyu
+AU  - Vuong, Quan
+AU  - Rafailov, Rafael
+AU  - Tian, Ran
+AU  - Doshi, Ria
+AU  - Martín-Martín, Roberto
+AU  - Baijal, Rohan
+AU  - Scalise, Rosario
+AU  - Hendrix, Rose
+AU  - Lin, Roy
+AU  - Qian, Runjia
+AU  - Zhang, Ruohan
+AU  - Mendonca, Russell
+AU  - Shah, Rutav
+AU  - Hoque, Ryan
+AU  - Julian, Ryan
+AU  - Bustamante, Samuel
+AU  - Kirmani, Sean
+AU  - Levine, Sergey
+AU  - Lin, Shan
+AU  - Moore, Sherry
+AU  - Bahl, Shikhar
+AU  - Dass, Shivin
+AU  - Sonawani, Shubham
+AU  - Tulsiani, Shubham
+AU  - Song, Shuran
+AU  - Xu, Sichun
+AU  - Haldar, Siddhant
+AU  - Karamcheti, Siddharth
+AU  - Adebola, Simeon
+AU  - Guist, Simon
+AU  - Nasiriany, Soroush
+AU  - Schaal, Stefan
+AU  - Welker, Stefan
+AU  - Tian, Stephen
+AU  - Ramamoorthy, Subramanian
+AU  - Dasari, Sudeep
+AU  - Belkhale, Suneel
+AU  - Park, Sungjae
+AU  - Nair, Suraj
+AU  - Mirchandani, Suvir
+AU  - Osa, Takayuki
+AU  - Gupta, Tanmay
+AU  - Harada, Tatsuya
+AU  - Matsushima, Tatsuya
+AU  - Xiao, Ted
+AU  - Kollar, Thomas
+AU  - Yu, Tianhe
+AU  - Ding, Tianli
+AU  - Davchev, Todor
+AU  - Zhao, Tony Z.
+AU  - Armstrong, Travis
+AU  - Darrell, Trevor
+AU  - Chung, Trinity
+AU  - Jain, Vidhi
+AU  - Kumar, Vikash
+AU  - Vanhoucke, Vincent
+AU  - Guizilini, Vitor
+AU  - Zhan, Wei
+AU  - Zhou, Wenxuan
+AU  - Burgard, Wolfram
+AU  - Chen, Xi
+AU  - Chen, Xiangyu
+AU  - Wang, Xiaolong
+AU  - Zhu, Xinghao
+AU  - Geng, Xinyang
+AU  - Liu, Xiyuan
+AU  - Liangwei, Xu
+AU  - Li, Xuanlin
+AU  - Pang, Yansong
+AU  - Lu, Yao
+AU  - Ma, Yecheng Jason
+AU  - Kim, Yejin
+AU  - Chebotar, Yevgen
+AU  - Zhou, Yifan
+AU  - Zhu, Yifeng
+AU  - Wu, Yilin
+AU  - Xu, Ying
+AU  - Wang, Yixuan
+AU  - Bisk, Yonatan
+AU  - Dou, Yongqiang
+AU  - Cho, Yoonyoung
+AU  - Lee, Youngwoon
+AU  - Cui, Yuchen
+AU  - Cao, Yue
+AU  - Wu, Yueh-Hua
+AU  - Tang, Yujin
+AU  - Zhu, Yuke
+AU  - Zhang, Yunchu
+AU  - Jiang, Yunfan
+AU  - Li, Yunshuang
+AU  - Li, Yunzhu
+AU  - Iwasawa, Yusuke
+AU  - Matsuo, Yutaka
+AU  - Ma, Zehan
+AU  - Xu, Zhuo
+AU  - Cui, Zichen Jeff
+AU  - Zhang, Zichen
+AU  - Fu, Zipeng
+AU  - Lin, Zipeng
+PY  - 2023
+UR  - https://arxiv.org/abs/2310.08864v9
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - zhao2023act
+TI  - Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
+AU  - Zhao, Tony Z.
+AU  - Kumar, Vikash
+AU  - Levine, Sergey
+AU  - Finn, Chelsea
+PY  - 2023
+UR  - https://arxiv.org/abs/2304.13705v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - chi2023diffusion
+TI  - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
+AU  - Chi, Cheng
+AU  - Xu, Zhenjia
+AU  - Feng, Siyuan
+AU  - Cousineau, Eric
+AU  - Du, Yilun
+AU  - Burchfiel, Benjamin
+AU  - Tedrake, Russ
+AU  - Song, Shuran
+PY  - 2023
+UR  - https://arxiv.org/abs/2303.04137v5
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - CPAPER
+ID  - liu2023libero
+TI  - LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning
+AU  - Liu, Bo
+AU  - Zhu, Yifeng
+AU  - Gao, Chongkai
+AU  - Feng, Yihao
+AU  - Liu, Qiang
+AU  - Zhu, Yuke
+AU  - Stone, Peter
+PY  - 2023
+T2  - Advances in Neural Information Processing Systems 36
+DO  - 10.52202/075280-1939
+SP  - 44776
+EP  - 44791
+UR  - https://doi.org/10.52202/075280-1939
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; abstract
+ER  - 
+
+TY  - CPAPER
+ID  - fei2026liberoplus
+TI  - LIBERO-Plus: A Progressive Robustness Benchmark for Visual-Language-Action Models
+AU  - Fei, Senyu
+AU  - Wang, Siyin
+AU  - Shi, Junhao
+AU  - Dai, Zihao
+AU  - Cai, Jikun
+AU  - Qian, Pengfang
+AU  - Ji, Li
+AU  - He, Xinzhe
+AU  - Zhang, Shiduo
+AU  - Fei, Zhaoye
+AU  - Fu, Jinlan
+AU  - Gong, Jingjing
+AU  - Qiu, Xipeng
+PY  - 2026
+T2  - Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+SP  - 38574
+EP  - 38583
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - zhou2025liberopro
+TI  - LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization
+AU  - Zhou, Xueyang
+AU  - Xu, Yangming
+AU  - Tie, Guiyao
+AU  - Chen, Yongchao
+AU  - Zhang, Guowen
+AU  - Chu, Duanfeng
+AU  - Zhou, Pan
+AU  - Sun, Lichao
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.03827v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - zhou2026liberopro2
+TI  - LIBERO-Pro2.0: A Benchmark for Evaluating the Robustness of Embodied Foundation Models
+AU  - Zhou, Xueyang
+AU  - Xu, Yangming
+AU  - Li, Qianjiang
+AU  - Tie, Guiyao
+AU  - Wu, Junhao
+AU  - Huang, Ziheng
+AU  - Zhang, Guowen
+AU  - Yuan, Zhijie
+AU  - Wu, Di
+AU  - Chu, Duanfeng
+AU  - Zhou, Pan
+AU  - Sun, Lichao
+AU  - Chen, Yongchao
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.24587v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - CPAPER
+ID  - zhang2026igar
+TI  - Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration
+AU  - Zhang, Ninghao
+AU  - Zhu, Bin
+AU  - Zhou, Shijie
+AU  - Chen, Jingjing
+PY  - 2026
+T2  - Computer Vision – ECCV 2026
+DO  - 10.1007/978-3-032-37152-2_3
+SP  - 39
+EP  - 56
+UR  - https://doi.org/10.1007/978-3-032-37152-2_3
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - fang2026cag
+TI  - When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs
+AU  - Fang, Yu
+AU  - Feng, Yuchun
+AU  - Jing, Dong
+AU  - Liu, Jiaqi
+AU  - Yang, Yue
+AU  - Wei, Zhenyu
+AU  - Szafir, Daniel
+AU  - Ding, Mingyu
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.17659v3
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - liu2026basvla
+TI  - Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models
+AU  - Liu, Shuaijun
+AU  - You, Feiyang
+AU  - Wu, Chengyu
+AU  - Hao, Shuyang
+AU  - Zhang, Chenglong
+AU  - Cai, Jingyao
+AU  - Chen, Xingwei
+AU  - Sun, Li
+AU  - Su, Ningxin
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.23650v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - kwon2026correctvla
+TI  - What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies
+AU  - Kwon, Owen
+AU  - Ortega-Kral, Pablo
+AU  - Bucker, Arthur
+AU  - Oh, Jean
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.29967v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - kim2026ragu
+TI  - Zero-Shot VLA Adaptation with Retrieved Guidance
+AU  - Kim, Subin
+AU  - Pham, Anh-Quan
+AU  - Jayaraman, Dinesh
+PY  - 2026
+UR  - https://arxiv.org/abs/2611.10894v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - li2025switchvla
+TI  - SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models
+AU  - Li, Meng
+AU  - Zhao, Zhen
+AU  - Che, Zhengping
+AU  - Liao, Fei
+AU  - Wu, Kun
+AU  - Xu, Zhiyuan
+AU  - Ren, Pei
+AU  - Jin, Zhao
+AU  - Liu, Ning
+AU  - Tang, Jian
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.03574v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - black2025rtc
+TI  - Real-Time Execution of Action Chunking Flow Policies
+AU  - Black, Kevin
+AU  - Galliker, Manuel Y.
+AU  - Levine, Sergey
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.07339v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - johannink2018residual
+TI  - Residual Reinforcement Learning for Robot Control
+AU  - Johannink, Tobias
+AU  - Bahl, Shikhar
+AU  - Nair, Ashvin
+AU  - Luo, Jianlan
+AU  - Kumar, Avinash
+AU  - Loskyll, Matthias
+AU  - Ojea, Juan Aparicio
+AU  - Solowjow, Eugen
+AU  - Levine, Sergey
+PY  - 2018
+UR  - https://arxiv.org/abs/1812.03201v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - peng2017dynamics
+TI  - Sim-to-Real Transfer of Robotic Control with Dynamics Randomization
+AU  - Peng, Xue Bin
+AU  - Andrychowicz, Marcin
+AU  - Zaremba, Wojciech
+AU  - Abbeel, Pieter
+PY  - 2017
+UR  - https://arxiv.org/abs/1710.06537v3
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - tobin2017domain
+TI  - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World
+AU  - Tobin, Josh
+AU  - Fong, Rachel
+AU  - Ray, Alex
+AU  - Schneider, Jonas
+AU  - Zaremba, Wojciech
+AU  - Abbeel, Pieter
+PY  - 2017
+UR  - https://arxiv.org/abs/1703.06907v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - hickok2026so101bench
+TI  - SO-101 Bench: Accessible Spatial Manipulation
+AU  - Hickok, Truman
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.36420v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - cowling2026demonstrations
+TI  - From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $\pi_{0.5}$ Scale on a Low-Cost Arm
+AU  - Cowling, Simon
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.37170v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - agarwal2021precipice
+TI  - Deep Reinforcement Learning at the Edge of the Statistical Precipice
+AU  - Agarwal, Rishabh
+AU  - Schwarzer, Max
+AU  - Castro, Pablo Samuel
+AU  - Courville, Aaron
+AU  - Bellemare, Marc G.
+PY  - 2021
+UR  - https://arxiv.org/abs/2108.13264v4
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - pi2026pi07
+TI  - ${\pi}_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities
+AU  - Physical Intelligence
+AU  - Ai, Bo
+AU  - Amin, Ali
+AU  - Aniceto, Raichelle
+AU  - Balakrishna, Ashwin
+AU  - Balke, Greg
+AU  - Black, Kevin
+AU  - Bokinsky, George
+AU  - Cao, Shihao
+AU  - Charbonnier, Thomas
+AU  - Choudhary, Vedant
+AU  - Collins, Foster
+AU  - Conley, Ken
+AU  - Connors, Grace
+AU  - Darpinian, James
+AU  - Dhabalia, Karan
+AU  - Dhaka, Maitrayee
+AU  - DiCarlo, Jared
+AU  - Driess, Danny
+AU  - Equi, Michael
+AU  - Esmail, Adnan
+AU  - Fang, Yunhao
+AU  - Finn, Chelsea
+AU  - Glossop, Catherine
+AU  - Godden, Thomas
+AU  - Goryachev, Ivan
+AU  - Groom, Lachlan
+AU  - Habeeb, Haroun
+AU  - Hancock, Hunter
+AU  - Hausman, Karol
+AU  - Hussein, Gashon
+AU  - Hwang, Victor
+AU  - Ichter, Brian
+AU  - Jacobsen, Connor
+AU  - Jakubczak, Szymon
+AU  - Jen, Rowan
+AU  - Jones, Tim
+AU  - Kammerer, Gregg
+AU  - Katz, Ben
+AU  - Ke, Liyiming
+AU  - Khadikov, Mairbek
+AU  - Kuchi, Chandra
+AU  - Lamb, Marinda
+AU  - LeBlanc, Devin
+AU  - LeCount, Brendon
+AU  - Levine, Sergey
+AU  - Li, Xinyu
+AU  - Li-Bell, Adrian
+AU  - Lialin, Vladislav
+AU  - Liang, Zhonglin
+AU  - Lim, Wallace
+AU  - Lu, Yao
+AU  - Luo, Enyu
+AU  - Mano, Vishnu
+AU  - Marwaha, Nandan
+AU  - Mongush, Aikys
+AU  - Murphy, Liam
+AU  - Nair, Suraj
+AU  - Patterson, Tyler
+AU  - Pertsch, Karl
+AU  - Ren, Allen Z.
+AU  - Schelske, Gavin
+AU  - Sharma, Charvi
+AU  - Shi, Baifeng
+AU  - Shi, Lucy Xiaoyang
+AU  - Smith, Laura
+AU  - Springenberg, Jost Tobias
+AU  - Stachowicz, Kyle
+AU  - Stoeckle, Will
+AU  - Tang, Jiaming
+AU  - Tanner, Jimmy
+AU  - Tekeste, Shalom
+AU  - Torne, Marcel
+AU  - Vedder, Kyle
+AU  - Vuong, Quan
+AU  - Walling, Anna
+AU  - Wang, Haohuan
+AU  - Wang, Jason
+AU  - Wang, XuDong
+AU  - Whalen, Chris
+AU  - Whitmore, Samuel
+AU  - Williams, Blake
+AU  - Xu, Charles
+AU  - Yoo, Sukwon
+AU  - Yu, Lili
+AU  - Zhang, Wuming
+AU  - Zhang, Zhuoyang
+AU  - Zhilinsky, Ury
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.15483v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - agia2024sentinel
+TI  - Unpacking Failure Modes of Generative Policies: Runtime Monitoring of Consistency and Progress
+AU  - Agia, Christopher
+AU  - Sinha, Rohan
+AU  - Yang, Jingyun
+AU  - Cao, Zi-ang
+AU  - Antonova, Rika
+AU  - Pavone, Marco
+AU  - Bohg, Jeannette
+PY  - 2024
+UR  - https://arxiv.org/abs/2410.04640v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - wang2026survey
+TI  - Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines
+AU  - Wang, Ziyao
+AU  - Wang, Bingying
+AU  - Zhang, Hanrong
+AU  - Du, Tingting
+AU  - Chen, Tianyang
+AU  - Sun, Guoheng
+AU  - He, Yexiao
+AU  - Shen, Zheyu
+AU  - Ye, Wanghao
+AU  - Li, Ang
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.23001v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - CPAPER
+ID  - li2025simpler
+TI  - Evaluating Real-World Robot Manipulation Policies in Simulation
+AU  - Xuanlin Li
+AU  - Kyle Hsu
+AU  - Jiayuan Gu
+AU  - Oier Mees
+AU  - Karl Pertsch
+AU  - Homer Rich Walke
+AU  - Chuyuan Fu
+AU  - Ishikaa Lunawat
+AU  - Isabel Sieh
+AU  - Sean Kirmani
+AU  - Sergey Levine
+AU  - Jiajun Wu
+AU  - Chelsea Finn
+AU  - Hao Su
+AU  - Quan Vuong
+AU  - Ted Xiao
+PY  - 2025
+T2  - Proceedings of The 8th Conference on Robot Learning
+VL  - 270
+SP  - 3705
+EP  - 3728
+UR  - https://proceedings.mlr.press/v270/li25c.html
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; abstract
+ER  - 
+
+TY  - ELEC
+ID  - zhang2026idr
+TI  - A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models
+AU  - Zhang, Haoyu
+AU  - Wu, Yuwei
+AU  - Chen, Jin
+AU  - Zhi, Gao
+AU  - Diao, Zhenxin
+AU  - Gao, Mingyang
+AU  - Wu, Kun
+AU  - Liu, Yongchun
+AU  - Li, Fan
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.25516v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - gauge2026
+TI  - VLA-GAUGE: Systematically Evaluating Generalization and Robustness in Vision-Language-Action Models
+AU  - Xiao, Jun
+AU  - Ye, Rui
+AU  - Cao, Dong
+AU  - Gu, Jinyu
+AU  - Wang, Ying
+AU  - Zhu, Zhiliang
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.16567v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - xu2026metafine
+TI  - Beyond Binary Success: A Diagnostic Meta-Evaluation Framework for Fine-Grained Manipulation
+AU  - Xu, He-Yang
+AU  - Zhang, Pengyuan
+AU  - Ge, Zongyuan
+AU  - Hao, Xiaoshuai
+AU  - Belongie, Serge
+AU  - Geng, Xin
+AU  - Peng, Yuxin
+AU  - Wei, Xiu-Shen
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.19986v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - whichhand2026
+TI  - Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use
+AU  - Bonin, Baptiste
+AU  - Strickland, Caro
+AU  - Durand, Audrey
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.37533v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; selected_sections
+ER  - 
+
+TY  - ELEC
+ID  - zhu2026deflect
+TI  - DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs
+AU  - Zhu, Yixiang
+AU  - Chen, Yonghao
+AU  - Zou, Jiaxiang
+AU  - Hu, Yusong
+AU  - Chen, Xinyu
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.19294v3
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - yang2026leap
+TI  - Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone
+AU  - Yang, Lin
+AU  - Shen, Yunjie
+AU  - Li, Zheyu
+AU  - Tian, Zhenjie
+AU  - Wang, Yongli
+AU  - Huang, Dongze
+AU  - Wang, Weiqi
+AU  - Zhu, Yucheng
+AU  - Jiang, Zhaoquan
+AU  - Xie, Guofeng
+AU  - Fang, Peigen
+PY  - 2026
+UR  - https://arxiv.org/abs/2611.01011v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - zhang2026interpretability
+TI  - Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models
+AU  - Zhang, Hanxin
+AU  - Xu, Mingshuo
+AU  - Dhafer, Abdulqader
+AU  - Yue, Shigang
+AU  - Dong, Hongbiao
+AU  - Hao, Zhou Daniel
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.00321v2
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - sagar2024robomd
+TI  - RoboMD: Uncovering Robot Vulnerabilities through Semantic Potential Fields
+AU  - Sagar, Som
+AU  - Duan, Jiafei
+AU  - Vasudevan, Sreevishakh
+AU  - Zhou, Yifan
+AU  - Amor, Heni Ben
+AU  - Fox, Dieter
+AU  - Senanayake, Ransalu
+PY  - 2024
+UR  - https://arxiv.org/abs/2412.02818v4
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - fierl2024
+TI  - Fault Identification Enhancement with Reinforcement Learning (FIERL)
+AU  - Zaccaria, Valentina
+AU  - Sartor, Davide
+AU  - Del Favero, Simone
+AU  - Susto, Gian Antonio
+PY  - 2024
+UR  - https://arxiv.org/abs/2405.04938v1
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - ELEC
+ID  - angelopoulos2023ppi
+TI  - Prediction-Powered Inference
+AU  - Angelopoulos, Anastasios N.
+AU  - Bates, Stephen
+AU  - Fannjiang, Clara
+AU  - Jordan, Michael I.
+AU  - Zrnic, Tijana
+PY  - 2023
+UR  - https://arxiv.org/abs/2301.09633v4
+Y2  - 2026/11/14
+N1  - arxiv_record_verified_formal_status_not_checked; abstract
+ER  - 
+
+TY  - JOUR
+ID  - wilson1927
+TI  - Probable Inference, the Law of Succession, and Statistical Inference
+AU  - Wilson, Edwin B.
+PY  - 1927
+T2  - Journal of the American Statistical Association
+DO  - 10.1080/01621459.1927.10502953
+VL  - 22
+IS  - 158
+SP  - 209
+EP  - 212
+UR  - https://doi.org/10.1080/01621459.1927.10502953
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; metadata_and_abstract
+ER  - 
+
+TY  - JOUR
+ID  - mcnemar1947
+TI  - Note on the Sampling Error of the Difference Between Correlated Proportions or Percentages
+AU  - McNemar, Quinn
+PY  - 1947
+T2  - Psychometrika
+DO  - 10.1007/bf02295996
+VL  - 12
+IS  - 2
+SP  - 153
+EP  - 157
+UR  - https://doi.org/10.1007/bf02295996
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; metadata_and_abstract
+ER  - 
+
+TY  - JOUR
+ID  - efron1979
+TI  - Bootstrap Methods: Another Look at the Jackknife
+AU  - Efron, B.
+PY  - 1979
+T2  - The Annals of Statistics
+DO  - 10.1214/aos/1176344552
+VL  - 7
+IS  - 1
+SP  - 1
+EP  - 26
+UR  - https://doi.org/10.1214/aos/1176344552
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; metadata_and_abstract
+ER  - 
+
+TY  - JOUR
+ID  - knol2012interaction
+TI  - Recommendations for presenting analyses of effect modification and interaction
+AU  - Knol, Mirjam J
+AU  - VanderWeele, Tyler J
+PY  - 2012
+T2  - International Journal of Epidemiology
+DO  - 10.1093/ije/dyr218
+VL  - 41
+IS  - 2
+SP  - 514
+EP  - 520
+UR  - https://doi.org/10.1093/ije/dyr218
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; selected_sections
+ER  - 
+
+TY  - JOUR
+ID  - tversky1974
+TI  - Judgment under Uncertainty: Heuristics and Biases
+AU  - Tversky, Amos
+AU  - Kahneman, Daniel
+PY  - 1974
+T2  - Science
+DO  - 10.1126/science.185.4157.1124
+VL  - 185
+IS  - 4157
+SP  - 1124
+EP  - 1131
+UR  - https://doi.org/10.1126/science.185.4157.1124
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; metadata_and_abstract
+ER  - 
+
+TY  - JOUR
+ID  - hutchinson1996servo
+TI  - A tutorial on visual servo control
+AU  - Hutchinson, S.
+AU  - Hager, G.D.
+AU  - Corke, P.I.
+PY  - 1996
+T2  - IEEE Transactions on Robotics and Automation
+DO  - 10.1109/70.538972
+VL  - 12
+IS  - 5
+SP  - 651
+EP  - 670
+UR  - https://doi.org/10.1109/70.538972
+Y2  - 2026/11/14
+N1  - formal_publication_metadata_verified; metadata_and_abstract
+ER  - 
+
+TY  - ELEC
+ID  - lerobot_so101
+TI  - SO-101 — LeRobot Documentation
+AU  - Hugging Face
+UR  - https://huggingface.co/docs/lerobot/so101
+Y2  - 2026/11/14
+N1  - official_web_resource_not_paper; official_documentation
+ER  - 
+
+TY  - ELEC
+ID  - lerobot_smolvla
+TI  - SmolVLA — LeRobot Documentation
+AU  - Hugging Face
+UR  - https://huggingface.co/docs/lerobot/smolvla
+Y2  - 2026/11/14
+N1  - official_web_resource_not_paper; official_documentation
+ER  - 
+
+TY  - ELEC
+ID  - soarm_assets
+TI  - SO-ARM100: Standard Open SO-100 and SO-101 Arms
+AU  - TheRobotStudio
+UR  - https://github.com/TheRobotStudio/SO-ARM100/tree/a758567c3978dfeefe282ede0500085a48fe8f78
+Y2  - 2026/11/14
+N1  - official_web_resource_not_paper; official_documentation
+ER  - 

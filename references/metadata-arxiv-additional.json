@@ -1,0 +1,438 @@
+{
+  "retrieved_on": "2026-11-14",
+  "records": [
+    {
+      "id": "li2025simpler",
+      "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+      "authors": [
+        "Li, Xuanlin",
+        "Hsu, Kyle",
+        "Gu, Jiayuan",
+        "Pertsch, Karl",
+        "Mees, Oier",
+        "Walke, Homer Rich",
+        "Fu, Chuyuan",
+        "Lunawat, Ishikaa",
+        "Sieh, Isabel",
+        "Kirmani, Sean",
+        "Levine, Sergey",
+        "Wu, Jiajun",
+        "Finn, Chelsea",
+        "Su, Hao",
+        "Vuong, Quan",
+        "Xiao, Ted"
+      ],
+      "first_submitted": "2024-05-09",
+      "year": 2024,
+      "arxiv_id": "2405.05941",
+      "arxiv_version": "2405.05941v1",
+      "source_url": "https://arxiv.org/abs/2405.05941v1",
+      "metadata_source_url": "https://arxiv.org/abs/2405.05941",
+      "source_sha256": "0cec1ceacd06bf9c738a1e7e3398cb9c60764314133574c490adabe3741e5768",
+      "metadata_fields": {
+        "citation_title": [
+          "Evaluating Real-World Robot Manipulation Policies in Simulation"
+        ],
+        "citation_author": [
+          "Li, Xuanlin",
+          "Hsu, Kyle",
+          "Gu, Jiayuan",
+          "Pertsch, Karl",
+          "Mees, Oier",
+          "Walke, Homer Rich",
+          "Fu, Chuyuan",
+          "Lunawat, Ishikaa",
+          "Sieh, Isabel",
+          "Kirmani, Sean",
+          "Levine, Sergey",
+          "Wu, Jiajun",
+          "Finn, Chelsea",
+          "Su, Hao",
+          "Vuong, Quan",
+          "Xiao, Ted"
+        ],
+        "citation_date": [
+          "2024/05/09"
+        ],
+        "citation_online_date": [
+          "2024/05/09"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2405.05941"
+        ],
+        "citation_arxiv_id": [
+          "2405.05941"
+        ]
+      },
+      "category": "sim-to-real",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Evaluating+Real-World+Robot+Manipulation+Policies+in+Simulation%22"
+    },
+    {
+      "id": "zhang2026idr",
+      "title": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+      "authors": [
+        "Zhang, Haoyu",
+        "Wu, Yuwei",
+        "Chen, Jin",
+        "Zhi, Gao",
+        "Diao, Zhenxin",
+        "Gao, Mingyang",
+        "Wu, Kun",
+        "Liu, Yongchun",
+        "Li, Fan"
+      ],
+      "first_submitted": "2026-07-28",
+      "year": 2026,
+      "arxiv_id": "2607.25516",
+      "arxiv_version": "2607.25516v1",
+      "source_url": "https://arxiv.org/abs/2607.25516v1",
+      "metadata_source_url": "https://arxiv.org/abs/2607.25516",
+      "source_sha256": "44d9b0ff4e94aea99e66c72d8a3ac108464f3f1a65ffd56d9e2efd36ff4c8c21",
+      "metadata_fields": {
+        "citation_title": [
+          "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models"
+        ],
+        "citation_author": [
+          "Zhang, Haoyu",
+          "Wu, Yuwei",
+          "Chen, Jin",
+          "Zhi, Gao",
+          "Diao, Zhenxin",
+          "Gao, Mingyang",
+          "Wu, Kun",
+          "Liu, Yongchun",
+          "Li, Fan"
+        ],
+        "citation_date": [
+          "2026/07/28"
+        ],
+        "citation_online_date": [
+          "2026/07/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2607.25516"
+        ],
+        "citation_arxiv_id": [
+          "2607.25516"
+        ]
+      },
+      "category": "calibration",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22A+Causality-aware+Infer-diagnose-refine+Framework+for+Test-time+Modality+Adaptation+in+VLA+Models%22"
+    },
+    {
+      "id": "gauge2026",
+      "title": "VLA-GAUGE: Systematically Evaluating Generalization and Robustness in Vision-Language-Action Models",
+      "authors": [
+        "Xiao, Jun",
+        "Ye, Rui",
+        "Cao, Dong",
+        "Gu, Jinyu",
+        "Wang, Ying",
+        "Zhu, Zhiliang"
+      ],
+      "first_submitted": "2026-10-12",
+      "year": 2026,
+      "arxiv_id": "2610.16567",
+      "arxiv_version": "2610.16567v1",
+      "source_url": "https://arxiv.org/abs/2610.16567v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.16567",
+      "source_sha256": "0a7c8acd4c73a109d708281d7e9280b683f923043ddc2dcce14e1aff7483b203",
+      "metadata_fields": {
+        "citation_title": [
+          "VLA-GAUGE: Systematically Evaluating Generalization and Robustness in Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Xiao, Jun",
+          "Ye, Rui",
+          "Cao, Dong",
+          "Gu, Jinyu",
+          "Wang, Ying",
+          "Zhu, Zhiliang"
+        ],
+        "citation_date": [
+          "2026/10/12"
+        ],
+        "citation_online_date": [
+          "2026/10/12"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.16567"
+        ],
+        "citation_arxiv_id": [
+          "2610.16567"
+        ]
+      },
+      "category": "benchmark",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22VLA-GAUGE%3A+Systematically+Evaluating+Generalization+and+Robustness+in+Vision-Language-Action+Models%22"
+    },
+    {
+      "id": "xu2026metafine",
+      "title": "Beyond Binary Success: A Diagnostic Meta-Evaluation Framework for Fine-Grained Manipulation",
+      "authors": [
+        "Xu, He-Yang",
+        "Zhang, Pengyuan",
+        "Ge, Zongyuan",
+        "Hao, Xiaoshuai",
+        "Belongie, Serge",
+        "Geng, Xin",
+        "Peng, Yuxin",
+        "Wei, Xiu-Shen"
+      ],
+      "first_submitted": "2026-05-19",
+      "year": 2026,
+      "arxiv_id": "2605.19986",
+      "arxiv_version": "2605.19986v1",
+      "source_url": "https://arxiv.org/abs/2605.19986v1",
+      "metadata_source_url": "https://arxiv.org/abs/2605.19986",
+      "source_sha256": "4125609d0061a083eed3d900b9386275bdcde4a3c0082d274936efd71654cc8a",
+      "metadata_fields": {
+        "citation_title": [
+          "Beyond Binary Success: A Diagnostic Meta-Evaluation Framework for Fine-Grained Manipulation"
+        ],
+        "citation_author": [
+          "Xu, He-Yang",
+          "Zhang, Pengyuan",
+          "Ge, Zongyuan",
+          "Hao, Xiaoshuai",
+          "Belongie, Serge",
+          "Geng, Xin",
+          "Peng, Yuxin",
+          "Wei, Xiu-Shen"
+        ],
+        "citation_date": [
+          "2026/05/19"
+        ],
+        "citation_online_date": [
+          "2026/05/19"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2605.19986"
+        ],
+        "citation_arxiv_id": [
+          "2605.19986"
+        ]
+      },
+      "category": "benchmark",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Beyond+Binary+Success%3A+A+Diagnostic+Meta-Evaluation+Framework+for+Fine-Grained+Manipulation%22"
+    },
+    {
+      "id": "whichhand2026",
+      "title": "Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use",
+      "authors": [
+        "Bonin, Baptiste",
+        "Strickland, Caro",
+        "Durand, Audrey"
+      ],
+      "first_submitted": "2026-10-27",
+      "year": 2026,
+      "arxiv_id": "2610.37533",
+      "arxiv_version": "2610.37533v1",
+      "source_url": "https://arxiv.org/abs/2610.37533v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.37533",
+      "source_sha256": "a3f566f6f0f9d54322cc13a2cc4b26551973623f0850d8935e6841395e71f88b",
+      "metadata_fields": {
+        "citation_title": [
+          "Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use"
+        ],
+        "citation_author": [
+          "Bonin, Baptiste",
+          "Strickland, Caro",
+          "Durand, Audrey"
+        ],
+        "citation_date": [
+          "2026/10/27"
+        ],
+        "citation_online_date": [
+          "2026/10/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.37533"
+        ],
+        "citation_arxiv_id": [
+          "2610.37533"
+        ]
+      },
+      "category": "diagnosis",
+      "role": "alternative-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Which+Hand+Was+Late%3F+Diagnosis+for+Robot+Failure+Recovery+in+Bimanual+Tool+Use%22"
+    },
+    {
+      "id": "zhu2026deflect",
+      "title": "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs",
+      "authors": [
+        "Zhu, Yixiang",
+        "Chen, Yonghao",
+        "Zou, Jiaxiang",
+        "Hu, Yusong",
+        "Chen, Xinyu"
+      ],
+      "first_submitted": "2026-05-19",
+      "year": 2026,
+      "arxiv_id": "2605.19294",
+      "arxiv_version": "2605.19294v3",
+      "source_url": "https://arxiv.org/abs/2605.19294v3",
+      "metadata_source_url": "https://arxiv.org/abs/2605.19294v3",
+      "source_sha256": "814b2519039c82937e93712d2a0732433024034188356767e8adbd3bb32983ad",
+      "metadata_fields": {
+        "citation_title": [
+          "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs"
+        ],
+        "citation_author": [
+          "Zhu, Yixiang",
+          "Chen, Yonghao",
+          "Zou, Jiaxiang",
+          "Hu, Yusong",
+          "Chen, Xinyu"
+        ],
+        "citation_date": [
+          "2026/05/19"
+        ],
+        "citation_online_date": [
+          "2026/10/20"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2605.19294"
+        ],
+        "citation_arxiv_id": [
+          "2605.19294"
+        ]
+      },
+      "category": "execution",
+      "role": "alternative-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22DEFLECT%3A+Temporal+Counterfactual+Preference+Learning+for+Delay-Robust+Asynchronous+VLAs%22"
+    },
+    {
+      "id": "yang2026leap",
+      "title": "Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone",
+      "authors": [
+        "Yang, Lin",
+        "Shen, Yunjie",
+        "Li, Zheyu",
+        "Tian, Zhenjie",
+        "Wang, Yongli",
+        "Huang, Dongze",
+        "Wang, Weiqi",
+        "Zhu, Yucheng",
+        "Jiang, Zhaoquan",
+        "Xie, Guofeng",
+        "Fang, Peigen"
+      ],
+      "first_submitted": "2026-10-31",
+      "year": 2026,
+      "arxiv_id": "2611.01011",
+      "arxiv_version": "2611.01011v1",
+      "source_url": "https://arxiv.org/abs/2611.01011v1",
+      "metadata_source_url": "https://arxiv.org/abs/2611.01011",
+      "source_sha256": "122211dcca3368101d3ae83cf711833b0899f9c95c91940d30044c717f0b361f",
+      "metadata_fields": {
+        "citation_title": [
+          "Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone"
+        ],
+        "citation_author": [
+          "Yang, Lin",
+          "Shen, Yunjie",
+          "Li, Zheyu",
+          "Tian, Zhenjie",
+          "Wang, Yongli",
+          "Huang, Dongze",
+          "Wang, Weiqi",
+          "Zhu, Yucheng",
+          "Jiang, Zhaoquan",
+          "Xie, Guofeng",
+          "Fang, Peigen"
+        ],
+        "citation_date": [
+          "2026/10/31"
+        ],
+        "citation_online_date": [
+          "2026/10/31"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2611.01011"
+        ],
+        "citation_arxiv_id": [
+          "2611.01011"
+        ]
+      },
+      "category": "execution",
+      "role": "alternative-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Leap-VLA%3A+High-Rate+Robot+Control+from+a+Low-Rate+VLM+Backbone%22"
+    },
+    {
+      "id": "zhang2026interpretability",
+      "title": "Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models",
+      "authors": [
+        "Zhang, Hanxin",
+        "Xu, Mingshuo",
+        "Dhafer, Abdulqader",
+        "Yue, Shigang",
+        "Dong, Hongbiao",
+        "Hao, Zhou Daniel"
+      ],
+      "first_submitted": "2026-05-01",
+      "year": 2026,
+      "arxiv_id": "2605.00321",
+      "arxiv_version": "2605.00321v2",
+      "source_url": "https://arxiv.org/abs/2605.00321v2",
+      "metadata_source_url": "https://arxiv.org/abs/2605.00321",
+      "source_sha256": "220476dd2515b59483cd61c837d207e8e79dd2ca7dca666683b6f94ac7dd3896",
+      "metadata_fields": {
+        "citation_title": [
+          "Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Zhang, Hanxin",
+          "Xu, Mingshuo",
+          "Dhafer, Abdulqader",
+          "Yue, Shigang",
+          "Dong, Hongbiao",
+          "Hao, Zhou Daniel"
+        ],
+        "citation_date": [
+          "2026/05/01"
+        ],
+        "citation_online_date": [
+          "2026/06/10"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2605.00321"
+        ],
+        "citation_arxiv_id": [
+          "2605.00321"
+        ]
+      },
+      "category": "diagnosis",
+      "role": "alternative-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Embodied+Interpretability%3A+Linking+Causal+Understanding+to+Generalization+in+Vision-Language-Action+Models%22"
+    }
+  ],
+  "errors": []
+}

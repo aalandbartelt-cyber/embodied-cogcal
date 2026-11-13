@@ -1,0 +1,2523 @@
+{
+  "retrieved_on": "2026-11-14",
+  "records": [
+    {
+      "id": "kim2025openvla",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "authors": [
+        "Kim, Moo Jin",
+        "Pertsch, Karl",
+        "Karamcheti, Siddharth",
+        "Xiao, Ted",
+        "Balakrishna, Ashwin",
+        "Nair, Suraj",
+        "Rafailov, Rafael",
+        "Foster, Ethan",
+        "Lam, Grace",
+        "Sanketi, Pannag",
+        "Vuong, Quan",
+        "Kollar, Thomas",
+        "Burchfiel, Benjamin",
+        "Tedrake, Russ",
+        "Sadigh, Dorsa",
+        "Levine, Sergey",
+        "Liang, Percy",
+        "Finn, Chelsea"
+      ],
+      "first_submitted": "2024-06-13",
+      "year": 2024,
+      "arxiv_id": "2406.09246",
+      "arxiv_version": "2406.09246v3",
+      "source_url": "https://arxiv.org/abs/2406.09246v3",
+      "metadata_source_url": "https://arxiv.org/abs/2406.09246",
+      "source_sha256": "6eee376f1fe547b781dc37cf881690453e55929b51d7b3c00720f9c436228545",
+      "metadata_fields": {
+        "citation_title": [
+          "OpenVLA: An Open-Source Vision-Language-Action Model"
+        ],
+        "citation_author": [
+          "Kim, Moo Jin",
+          "Pertsch, Karl",
+          "Karamcheti, Siddharth",
+          "Xiao, Ted",
+          "Balakrishna, Ashwin",
+          "Nair, Suraj",
+          "Rafailov, Rafael",
+          "Foster, Ethan",
+          "Lam, Grace",
+          "Sanketi, Pannag",
+          "Vuong, Quan",
+          "Kollar, Thomas",
+          "Burchfiel, Benjamin",
+          "Tedrake, Russ",
+          "Sadigh, Dorsa",
+          "Levine, Sergey",
+          "Liang, Percy",
+          "Finn, Chelsea"
+        ],
+        "citation_date": [
+          "2024/06/13"
+        ],
+        "citation_online_date": [
+          "2024/09/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2406.09246"
+        ],
+        "citation_arxiv_id": [
+          "2406.09246"
+        ]
+      },
+      "category": "foundation",
+      "role": "base-policy",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22OpenVLA%3A+An+Open-Source+Vision-Language-Action+Model%22"
+    },
+    {
+      "id": "kim2025oft",
+      "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+      "authors": [
+        "Kim, Moo Jin",
+        "Finn, Chelsea",
+        "Liang, Percy"
+      ],
+      "first_submitted": "2025-02-27",
+      "year": 2025,
+      "arxiv_id": "2502.19645",
+      "arxiv_version": "2502.19645v2",
+      "source_url": "https://arxiv.org/abs/2502.19645v2",
+      "metadata_source_url": "https://arxiv.org/abs/2502.19645",
+      "source_sha256": "8c01e38147c6acaccfcab055a4f20fa8e75922840331e48f1d34aac417cbc05d",
+      "metadata_fields": {
+        "citation_title": [
+          "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success"
+        ],
+        "citation_author": [
+          "Kim, Moo Jin",
+          "Finn, Chelsea",
+          "Liang, Percy"
+        ],
+        "citation_date": [
+          "2025/02/27"
+        ],
+        "citation_online_date": [
+          "2025/04/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2502.19645"
+        ],
+        "citation_arxiv_id": [
+          "2502.19645"
+        ]
+      },
+      "category": "foundation",
+      "role": "implementation",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Fine-Tuning+Vision-Language-Action+Models%3A+Optimizing+Speed+and+Success%22"
+    },
+    {
+      "id": "shukor2025smolvla",
+      "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+      "authors": [
+        "Shukor, Mustafa",
+        "Aubakirova, Dana",
+        "Capuano, Francesco",
+        "Kooijmans, Pepijn",
+        "Palma, Steven",
+        "Zouitine, Adil",
+        "Aractingi, Michel",
+        "Pascal, Caroline",
+        "Russi, Martino",
+        "Marafioti, Andres",
+        "Alibert, Simon",
+        "Cord, Matthieu",
+        "Wolf, Thomas",
+        "Cadene, Remi"
+      ],
+      "first_submitted": "2025-06-02",
+      "year": 2025,
+      "arxiv_id": "2506.01844",
+      "arxiv_version": "2506.01844v1",
+      "source_url": "https://arxiv.org/abs/2506.01844v1",
+      "metadata_source_url": "https://arxiv.org/abs/2506.01844",
+      "source_sha256": "1960cb66eb6ebbc03e05c192d366ed0cffca0a236d5b3119481919d53ddbaa68",
+      "metadata_fields": {
+        "citation_title": [
+          "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics"
+        ],
+        "citation_author": [
+          "Shukor, Mustafa",
+          "Aubakirova, Dana",
+          "Capuano, Francesco",
+          "Kooijmans, Pepijn",
+          "Palma, Steven",
+          "Zouitine, Adil",
+          "Aractingi, Michel",
+          "Pascal, Caroline",
+          "Russi, Martino",
+          "Marafioti, Andres",
+          "Alibert, Simon",
+          "Cord, Matthieu",
+          "Wolf, Thomas",
+          "Cadene, Remi"
+        ],
+        "citation_date": [
+          "2025/06/02"
+        ],
+        "citation_online_date": [
+          "2025/06/02"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2506.01844"
+        ],
+        "citation_arxiv_id": [
+          "2506.01844"
+        ]
+      },
+      "category": "foundation",
+      "role": "so101-policy-candidate",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22SmolVLA%3A+A+Vision-Language-Action+Model+for+Affordable+and+Efficient+Robotics%22"
+    },
+    {
+      "id": "black2024pi0",
+      "title": "$\\pi_0$: A Vision-Language-Action Flow Model for General Robot Control",
+      "authors": [
+        "Black, Kevin",
+        "Brown, Noah",
+        "Driess, Danny",
+        "Esmail, Adnan",
+        "Equi, Michael",
+        "Finn, Chelsea",
+        "Fusai, Niccolo",
+        "Groom, Lachy",
+        "Hausman, Karol",
+        "Ichter, Brian",
+        "Jakubczak, Szymon",
+        "Jones, Tim",
+        "Ke, Liyiming",
+        "Levine, Sergey",
+        "Li-Bell, Adrian",
+        "Mothukuri, Mohith",
+        "Nair, Suraj",
+        "Pertsch, Karl",
+        "Shi, Lucy Xiaoyang",
+        "Tanner, James",
+        "Vuong, Quan",
+        "Walling, Anna",
+        "Wang, Haohuan",
+        "Zhilinsky, Ury"
+      ],
+      "first_submitted": "2024-10-31",
+      "year": 2024,
+      "arxiv_id": "2410.24164",
+      "arxiv_version": "2410.24164v4",
+      "source_url": "https://arxiv.org/abs/2410.24164v4",
+      "metadata_source_url": "https://arxiv.org/abs/2410.24164",
+      "source_sha256": "ac4d3d6e424fab1597bee3db5469e08337700c5f3ac51afd1afe8bf18938650f",
+      "metadata_fields": {
+        "citation_title": [
+          "$\\pi_0$: A Vision-Language-Action Flow Model for General Robot Control"
+        ],
+        "citation_author": [
+          "Black, Kevin",
+          "Brown, Noah",
+          "Driess, Danny",
+          "Esmail, Adnan",
+          "Equi, Michael",
+          "Finn, Chelsea",
+          "Fusai, Niccolo",
+          "Groom, Lachy",
+          "Hausman, Karol",
+          "Ichter, Brian",
+          "Jakubczak, Szymon",
+          "Jones, Tim",
+          "Ke, Liyiming",
+          "Levine, Sergey",
+          "Li-Bell, Adrian",
+          "Mothukuri, Mohith",
+          "Nair, Suraj",
+          "Pertsch, Karl",
+          "Shi, Lucy Xiaoyang",
+          "Tanner, James",
+          "Vuong, Quan",
+          "Walling, Anna",
+          "Wang, Haohuan",
+          "Zhilinsky, Ury"
+        ],
+        "citation_date": [
+          "2024/10/31"
+        ],
+        "citation_online_date": [
+          "2026/01/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2410.24164"
+        ],
+        "citation_arxiv_id": [
+          "2410.24164"
+        ]
+      },
+      "category": "foundation",
+      "role": "method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22%24%5Cpi_0%24%3A+A+Vision-Language-Action+Flow+Model+for+General+Robot+Control%22"
+    },
+    {
+      "id": "pi2025pi05",
+      "title": "$\\pi_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+      "authors": [
+        "Intelligence, Physical",
+        "Black, Kevin",
+        "Brown, Noah",
+        "Darpinian, James",
+        "Dhabalia, Karan",
+        "Driess, Danny",
+        "Esmail, Adnan",
+        "Equi, Michael",
+        "Finn, Chelsea",
+        "Fusai, Niccolo",
+        "Galliker, Manuel Y.",
+        "Ghosh, Dibya",
+        "Groom, Lachy",
+        "Hausman, Karol",
+        "Ichter, Brian",
+        "Jakubczak, Szymon",
+        "Jones, Tim",
+        "Ke, Liyiming",
+        "LeBlanc, Devin",
+        "Levine, Sergey",
+        "Li-Bell, Adrian",
+        "Mothukuri, Mohith",
+        "Nair, Suraj",
+        "Pertsch, Karl",
+        "Ren, Allen Z.",
+        "Shi, Lucy Xiaoyang",
+        "Smith, Laura",
+        "Springenberg, Jost Tobias",
+        "Stachowicz, Kyle",
+        "Tanner, James",
+        "Vuong, Quan",
+        "Walke, Homer",
+        "Walling, Anna",
+        "Wang, Haohuan",
+        "Yu, Lili",
+        "Zhilinsky, Ury"
+      ],
+      "first_submitted": "2025-04-22",
+      "year": 2025,
+      "arxiv_id": "2504.16054",
+      "arxiv_version": "2504.16054v1",
+      "source_url": "https://arxiv.org/abs/2504.16054v1",
+      "metadata_source_url": "https://arxiv.org/abs/2504.16054",
+      "source_sha256": "81f853e025529fa4a8716797d5b43e95f87115da64f26370ae5100665b826f8c",
+      "metadata_fields": {
+        "citation_title": [
+          "$\\pi_{0.5}$: a Vision-Language-Action Model with Open-World Generalization"
+        ],
+        "citation_author": [
+          "Intelligence, Physical",
+          "Black, Kevin",
+          "Brown, Noah",
+          "Darpinian, James",
+          "Dhabalia, Karan",
+          "Driess, Danny",
+          "Esmail, Adnan",
+          "Equi, Michael",
+          "Finn, Chelsea",
+          "Fusai, Niccolo",
+          "Galliker, Manuel Y.",
+          "Ghosh, Dibya",
+          "Groom, Lachy",
+          "Hausman, Karol",
+          "Ichter, Brian",
+          "Jakubczak, Szymon",
+          "Jones, Tim",
+          "Ke, Liyiming",
+          "LeBlanc, Devin",
+          "Levine, Sergey",
+          "Li-Bell, Adrian",
+          "Mothukuri, Mohith",
+          "Nair, Suraj",
+          "Pertsch, Karl",
+          "Ren, Allen Z.",
+          "Shi, Lucy Xiaoyang",
+          "Smith, Laura",
+          "Springenberg, Jost Tobias",
+          "Stachowicz, Kyle",
+          "Tanner, James",
+          "Vuong, Quan",
+          "Walke, Homer",
+          "Walling, Anna",
+          "Wang, Haohuan",
+          "Yu, Lili",
+          "Zhilinsky, Ury"
+        ],
+        "citation_date": [
+          "2025/04/22"
+        ],
+        "citation_online_date": [
+          "2025/04/22"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2504.16054"
+        ],
+        "citation_arxiv_id": [
+          "2504.16054"
+        ]
+      },
+      "category": "foundation",
+      "role": "method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22%24%5Cpi_%7B0.5%7D%24%3A+a+Vision-Language-Action+Model+with+Open-World+Generalization%22"
+    },
+    {
+      "id": "octo2024",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "authors": [
+        "Octo Model Team",
+        "Ghosh, Dibya",
+        "Walke, Homer",
+        "Pertsch, Karl",
+        "Black, Kevin",
+        "Mees, Oier",
+        "Dasari, Sudeep",
+        "Hejna, Joey",
+        "Kreiman, Tobias",
+        "Xu, Charles",
+        "Luo, Jianlan",
+        "Tan, You Liang",
+        "Chen, Lawrence Yunliang",
+        "Sanketi, Pannag",
+        "Vuong, Quan",
+        "Xiao, Ted",
+        "Sadigh, Dorsa",
+        "Finn, Chelsea",
+        "Levine, Sergey"
+      ],
+      "first_submitted": "2024-05-20",
+      "year": 2024,
+      "arxiv_id": "2405.12213",
+      "arxiv_version": "2405.12213v2",
+      "source_url": "https://arxiv.org/abs/2405.12213v2",
+      "metadata_source_url": "https://arxiv.org/abs/2405.12213",
+      "source_sha256": "cc7aa249e0d65795d8a21a62865dc289f7ae2e6af55d459f4f3e4a16781517c3",
+      "metadata_fields": {
+        "citation_title": [
+          "Octo: An Open-Source Generalist Robot Policy"
+        ],
+        "citation_author": [
+          "Octo Model Team",
+          "Ghosh, Dibya",
+          "Walke, Homer",
+          "Pertsch, Karl",
+          "Black, Kevin",
+          "Mees, Oier",
+          "Dasari, Sudeep",
+          "Hejna, Joey",
+          "Kreiman, Tobias",
+          "Xu, Charles",
+          "Luo, Jianlan",
+          "Tan, You Liang",
+          "Chen, Lawrence Yunliang",
+          "Sanketi, Pannag",
+          "Vuong, Quan",
+          "Xiao, Ted",
+          "Sadigh, Dorsa",
+          "Finn, Chelsea",
+          "Levine, Sergey"
+        ],
+        "citation_date": [
+          "2024/05/20"
+        ],
+        "citation_online_date": [
+          "2024/05/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2405.12213"
+        ],
+        "citation_arxiv_id": [
+          "2405.12213"
+        ]
+      },
+      "category": "foundation",
+      "role": "method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Octo%3A+An+Open-Source+Generalist+Robot+Policy%22"
+    },
+    {
+      "id": "brohan2023rt2",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "authors": [
+        "Brohan, Anthony",
+        "Brown, Noah",
+        "Carbajal, Justice",
+        "Chebotar, Yevgen",
+        "Chen, Xi",
+        "Choromanski, Krzysztof",
+        "Ding, Tianli",
+        "Driess, Danny",
+        "Dubey, Avinava",
+        "Finn, Chelsea",
+        "Florence, Pete",
+        "Fu, Chuyuan",
+        "Arenas, Montse Gonzalez",
+        "Gopalakrishnan, Keerthana",
+        "Han, Kehang",
+        "Hausman, Karol",
+        "Herzog, Alexander",
+        "Hsu, Jasmine",
+        "Ichter, Brian",
+        "Irpan, Alex",
+        "Joshi, Nikhil",
+        "Julian, Ryan",
+        "Kalashnikov, Dmitry",
+        "Kuang, Yuheng",
+        "Leal, Isabel",
+        "Lee, Lisa",
+        "Lee, Tsang-Wei Edward",
+        "Levine, Sergey",
+        "Lu, Yao",
+        "Michalewski, Henryk",
+        "Mordatch, Igor",
+        "Pertsch, Karl",
+        "Rao, Kanishka",
+        "Reymann, Krista",
+        "Ryoo, Michael",
+        "Salazar, Grecia",
+        "Sanketi, Pannag",
+        "Sermanet, Pierre",
+        "Singh, Jaspiar",
+        "Singh, Anikait",
+        "Soricut, Radu",
+        "Tran, Huong",
+        "Vanhoucke, Vincent",
+        "Vuong, Quan",
+        "Wahid, Ayzaan",
+        "Welker, Stefan",
+        "Wohlhart, Paul",
+        "Wu, Jialin",
+        "Xia, Fei",
+        "Xiao, Ted",
+        "Xu, Peng",
+        "Xu, Sichun",
+        "Yu, Tianhe",
+        "Zitkovich, Brianna"
+      ],
+      "first_submitted": "2023-07-28",
+      "year": 2023,
+      "arxiv_id": "2307.15818",
+      "arxiv_version": "2307.15818v1",
+      "source_url": "https://arxiv.org/abs/2307.15818v1",
+      "metadata_source_url": "https://arxiv.org/abs/2307.15818",
+      "source_sha256": "9792023270649ffc0b0767e3b2c1439ab5cb98b699fc5221826e599442bed3a2",
+      "metadata_fields": {
+        "citation_title": [
+          "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control"
+        ],
+        "citation_author": [
+          "Brohan, Anthony",
+          "Brown, Noah",
+          "Carbajal, Justice",
+          "Chebotar, Yevgen",
+          "Chen, Xi",
+          "Choromanski, Krzysztof",
+          "Ding, Tianli",
+          "Driess, Danny",
+          "Dubey, Avinava",
+          "Finn, Chelsea",
+          "Florence, Pete",
+          "Fu, Chuyuan",
+          "Arenas, Montse Gonzalez",
+          "Gopalakrishnan, Keerthana",
+          "Han, Kehang",
+          "Hausman, Karol",
+          "Herzog, Alexander",
+          "Hsu, Jasmine",
+          "Ichter, Brian",
+          "Irpan, Alex",
+          "Joshi, Nikhil",
+          "Julian, Ryan",
+          "Kalashnikov, Dmitry",
+          "Kuang, Yuheng",
+          "Leal, Isabel",
+          "Lee, Lisa",
+          "Lee, Tsang-Wei Edward",
+          "Levine, Sergey",
+          "Lu, Yao",
+          "Michalewski, Henryk",
+          "Mordatch, Igor",
+          "Pertsch, Karl",
+          "Rao, Kanishka",
+          "Reymann, Krista",
+          "Ryoo, Michael",
+          "Salazar, Grecia",
+          "Sanketi, Pannag",
+          "Sermanet, Pierre",
+          "Singh, Jaspiar",
+          "Singh, Anikait",
+          "Soricut, Radu",
+          "Tran, Huong",
+          "Vanhoucke, Vincent",
+          "Vuong, Quan",
+          "Wahid, Ayzaan",
+          "Welker, Stefan",
+          "Wohlhart, Paul",
+          "Wu, Jialin",
+          "Xia, Fei",
+          "Xiao, Ted",
+          "Xu, Peng",
+          "Xu, Sichun",
+          "Yu, Tianhe",
+          "Zitkovich, Brianna"
+        ],
+        "citation_date": [
+          "2023/07/28"
+        ],
+        "citation_online_date": [
+          "2023/07/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2307.15818"
+        ],
+        "citation_arxiv_id": [
+          "2307.15818"
+        ]
+      },
+      "category": "foundation",
+      "role": "background",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22RT-2%3A+Vision-Language-Action+Models+Transfer+Web+Knowledge+to+Robotic+Control%22"
+    },
+    {
+      "id": "oxe2023",
+      "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "authors": [
+        "Embodiment Collaboration",
+        "O'Neill, Abby",
+        "Rehman, Abdul",
+        "Gupta, Abhinav",
+        "Maddukuri, Abhiram",
+        "Gupta, Abhishek",
+        "Padalkar, Abhishek",
+        "Lee, Abraham",
+        "Pooley, Acorn",
+        "Gupta, Agrim",
+        "Mandlekar, Ajay",
+        "Jain, Ajinkya",
+        "Tung, Albert",
+        "Bewley, Alex",
+        "Herzog, Alex",
+        "Irpan, Alex",
+        "Khazatsky, Alexander",
+        "Rai, Anant",
+        "Gupta, Anchit",
+        "Wang, Andrew",
+        "Kolobov, Andrey",
+        "Singh, Anikait",
+        "Garg, Animesh",
+        "Kembhavi, Aniruddha",
+        "Xie, Annie",
+        "Brohan, Anthony",
+        "Raffin, Antonin",
+        "Sharma, Archit",
+        "Yavary, Arefeh",
+        "Jain, Arhan",
+        "Balakrishna, Ashwin",
+        "Wahid, Ayzaan",
+        "Burgess-Limerick, Ben",
+        "Kim, Beomjoon",
+        "Schölkopf, Bernhard",
+        "Wulfe, Blake",
+        "Ichter, Brian",
+        "Lu, Cewu",
+        "Xu, Charles",
+        "Le, Charlotte",
+        "Finn, Chelsea",
+        "Wang, Chen",
+        "Xu, Chenfeng",
+        "Chi, Cheng",
+        "Huang, Chenguang",
+        "Chan, Christine",
+        "Agia, Christopher",
+        "Pan, Chuer",
+        "Fu, Chuyuan",
+        "Devin, Coline",
+        "Xu, Danfei",
+        "Morton, Daniel",
+        "Driess, Danny",
+        "Chen, Daphne",
+        "Pathak, Deepak",
+        "Shah, Dhruv",
+        "Büchler, Dieter",
+        "Jayaraman, Dinesh",
+        "Kalashnikov, Dmitry",
+        "Sadigh, Dorsa",
+        "Johns, Edward",
+        "Foster, Ethan",
+        "Liu, Fangchen",
+        "Ceola, Federico",
+        "Xia, Fei",
+        "Zhao, Feiyu",
+        "Frujeri, Felipe Vieira",
+        "Stulp, Freek",
+        "Zhou, Gaoyue",
+        "Sukhatme, Gaurav S.",
+        "Salhotra, Gautam",
+        "Yan, Ge",
+        "Feng, Gilbert",
+        "Schiavi, Giulio",
+        "Berseth, Glen",
+        "Kahn, Gregory",
+        "Yang, Guangwen",
+        "Wang, Guanzhi",
+        "Su, Hao",
+        "Fang, Hao-Shu",
+        "Shi, Haochen",
+        "Bao, Henghui",
+        "Amor, Heni Ben",
+        "Christensen, Henrik I",
+        "Furuta, Hiroki",
+        "Bharadhwaj, Homanga",
+        "Walke, Homer",
+        "Fang, Hongjie",
+        "Ha, Huy",
+        "Mordatch, Igor",
+        "Radosavovic, Ilija",
+        "Leal, Isabel",
+        "Liang, Jacky",
+        "Abou-Chakra, Jad",
+        "Kim, Jaehyung",
+        "Drake, Jaimyn",
+        "Peters, Jan",
+        "Schneider, Jan",
+        "Hsu, Jasmine",
+        "Vakil, Jay",
+        "Bohg, Jeannette",
+        "Bingham, Jeffrey",
+        "Wu, Jeffrey",
+        "Gao, Jensen",
+        "Hu, Jiaheng",
+        "Wu, Jiajun",
+        "Wu, Jialin",
+        "Sun, Jiankai",
+        "Luo, Jianlan",
+        "Gu, Jiayuan",
+        "Tan, Jie",
+        "Oh, Jihoon",
+        "Wu, Jimmy",
+        "Lu, Jingpei",
+        "Yang, Jingyun",
+        "Malik, Jitendra",
+        "Silvério, João",
+        "Hejna, Joey",
+        "Booher, Jonathan",
+        "Tompson, Jonathan",
+        "Yang, Jonathan",
+        "Salvador, Jordi",
+        "Lim, Joseph J.",
+        "Han, Junhyek",
+        "Wang, Kaiyuan",
+        "Rao, Kanishka",
+        "Pertsch, Karl",
+        "Hausman, Karol",
+        "Go, Keegan",
+        "Gopalakrishnan, Keerthana",
+        "Goldberg, Ken",
+        "Byrne, Kendra",
+        "Oslund, Kenneth",
+        "Kawaharazuka, Kento",
+        "Black, Kevin",
+        "Lin, Kevin",
+        "Zhang, Kevin",
+        "Ehsani, Kiana",
+        "Lekkala, Kiran",
+        "Ellis, Kirsty",
+        "Rana, Krishan",
+        "Srinivasan, Krishnan",
+        "Fang, Kuan",
+        "Singh, Kunal Pratap",
+        "Zeng, Kuo-Hao",
+        "Hatch, Kyle",
+        "Hsu, Kyle",
+        "Itti, Laurent",
+        "Chen, Lawrence Yunliang",
+        "Pinto, Lerrel",
+        "Fei-Fei, Li",
+        "Tan, Liam",
+        "Fan, Linxi \"Jim\"",
+        "Ott, Lionel",
+        "Lee, Lisa",
+        "Weihs, Luca",
+        "Chen, Magnum",
+        "Lepert, Marion",
+        "Memmel, Marius",
+        "Tomizuka, Masayoshi",
+        "Itkina, Masha",
+        "Castro, Mateo Guaman",
+        "Spero, Max",
+        "Du, Maximilian",
+        "Ahn, Michael",
+        "Yip, Michael C.",
+        "Zhang, Mingtong",
+        "Ding, Mingyu",
+        "Heo, Minho",
+        "Srirama, Mohan Kumar",
+        "Sharma, Mohit",
+        "Kim, Moo Jin",
+        "Irshad, Muhammad Zubair",
+        "Kanazawa, Naoaki",
+        "Hansen, Nicklas",
+        "Heess, Nicolas",
+        "Joshi, Nikhil J",
+        "Suenderhauf, Niko",
+        "Liu, Ning",
+        "Di Palo, Norman",
+        "Shafiullah, Nur Muhammad Mahi",
+        "Mees, Oier",
+        "Kroemer, Oliver",
+        "Bastani, Osbert",
+        "Sanketi, Pannag R",
+        "Miller, Patrick \"Tree\"",
+        "Yin, Patrick",
+        "Wohlhart, Paul",
+        "Xu, Peng",
+        "Fagan, Peter David",
+        "Mitrano, Peter",
+        "Sermanet, Pierre",
+        "Abbeel, Pieter",
+        "Sundaresan, Priya",
+        "Chen, Qiuyu",
+        "Vuong, Quan",
+        "Rafailov, Rafael",
+        "Tian, Ran",
+        "Doshi, Ria",
+        "Martín-Martín, Roberto",
+        "Baijal, Rohan",
+        "Scalise, Rosario",
+        "Hendrix, Rose",
+        "Lin, Roy",
+        "Qian, Runjia",
+        "Zhang, Ruohan",
+        "Mendonca, Russell",
+        "Shah, Rutav",
+        "Hoque, Ryan",
+        "Julian, Ryan",
+        "Bustamante, Samuel",
+        "Kirmani, Sean",
+        "Levine, Sergey",
+        "Lin, Shan",
+        "Moore, Sherry",
+        "Bahl, Shikhar",
+        "Dass, Shivin",
+        "Sonawani, Shubham",
+        "Tulsiani, Shubham",
+        "Song, Shuran",
+        "Xu, Sichun",
+        "Haldar, Siddhant",
+        "Karamcheti, Siddharth",
+        "Adebola, Simeon",
+        "Guist, Simon",
+        "Nasiriany, Soroush",
+        "Schaal, Stefan",
+        "Welker, Stefan",
+        "Tian, Stephen",
+        "Ramamoorthy, Subramanian",
+        "Dasari, Sudeep",
+        "Belkhale, Suneel",
+        "Park, Sungjae",
+        "Nair, Suraj",
+        "Mirchandani, Suvir",
+        "Osa, Takayuki",
+        "Gupta, Tanmay",
+        "Harada, Tatsuya",
+        "Matsushima, Tatsuya",
+        "Xiao, Ted",
+        "Kollar, Thomas",
+        "Yu, Tianhe",
+        "Ding, Tianli",
+        "Davchev, Todor",
+        "Zhao, Tony Z.",
+        "Armstrong, Travis",
+        "Darrell, Trevor",
+        "Chung, Trinity",
+        "Jain, Vidhi",
+        "Kumar, Vikash",
+        "Vanhoucke, Vincent",
+        "Guizilini, Vitor",
+        "Zhan, Wei",
+        "Zhou, Wenxuan",
+        "Burgard, Wolfram",
+        "Chen, Xi",
+        "Chen, Xiangyu",
+        "Wang, Xiaolong",
+        "Zhu, Xinghao",
+        "Geng, Xinyang",
+        "Liu, Xiyuan",
+        "Liangwei, Xu",
+        "Li, Xuanlin",
+        "Pang, Yansong",
+        "Lu, Yao",
+        "Ma, Yecheng Jason",
+        "Kim, Yejin",
+        "Chebotar, Yevgen",
+        "Zhou, Yifan",
+        "Zhu, Yifeng",
+        "Wu, Yilin",
+        "Xu, Ying",
+        "Wang, Yixuan",
+        "Bisk, Yonatan",
+        "Dou, Yongqiang",
+        "Cho, Yoonyoung",
+        "Lee, Youngwoon",
+        "Cui, Yuchen",
+        "Cao, Yue",
+        "Wu, Yueh-Hua",
+        "Tang, Yujin",
+        "Zhu, Yuke",
+        "Zhang, Yunchu",
+        "Jiang, Yunfan",
+        "Li, Yunshuang",
+        "Li, Yunzhu",
+        "Iwasawa, Yusuke",
+        "Matsuo, Yutaka",
+        "Ma, Zehan",
+        "Xu, Zhuo",
+        "Cui, Zichen Jeff",
+        "Zhang, Zichen",
+        "Fu, Zipeng",
+        "Lin, Zipeng"
+      ],
+      "first_submitted": "2023-10-13",
+      "year": 2023,
+      "arxiv_id": "2310.08864",
+      "arxiv_version": "2310.08864v9",
+      "source_url": "https://arxiv.org/abs/2310.08864v9",
+      "metadata_source_url": "https://arxiv.org/abs/2310.08864",
+      "source_sha256": "3d72f9a8d65e5df0fc1217698baf9c9b9694d2df2494d8e4ce73fbd5dc0940f0",
+      "metadata_fields": {
+        "citation_title": [
+          "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
+        ],
+        "citation_author": [
+          "Embodiment Collaboration",
+          "O'Neill, Abby",
+          "Rehman, Abdul",
+          "Gupta, Abhinav",
+          "Maddukuri, Abhiram",
+          "Gupta, Abhishek",
+          "Padalkar, Abhishek",
+          "Lee, Abraham",
+          "Pooley, Acorn",
+          "Gupta, Agrim",
+          "Mandlekar, Ajay",
+          "Jain, Ajinkya",
+          "Tung, Albert",
+          "Bewley, Alex",
+          "Herzog, Alex",
+          "Irpan, Alex",
+          "Khazatsky, Alexander",
+          "Rai, Anant",
+          "Gupta, Anchit",
+          "Wang, Andrew",
+          "Kolobov, Andrey",
+          "Singh, Anikait",
+          "Garg, Animesh",
+          "Kembhavi, Aniruddha",
+          "Xie, Annie",
+          "Brohan, Anthony",
+          "Raffin, Antonin",
+          "Sharma, Archit",
+          "Yavary, Arefeh",
+          "Jain, Arhan",
+          "Balakrishna, Ashwin",
+          "Wahid, Ayzaan",
+          "Burgess-Limerick, Ben",
+          "Kim, Beomjoon",
+          "Schölkopf, Bernhard",
+          "Wulfe, Blake",
+          "Ichter, Brian",
+          "Lu, Cewu",
+          "Xu, Charles",
+          "Le, Charlotte",
+          "Finn, Chelsea",
+          "Wang, Chen",
+          "Xu, Chenfeng",
+          "Chi, Cheng",
+          "Huang, Chenguang",
+          "Chan, Christine",
+          "Agia, Christopher",
+          "Pan, Chuer",
+          "Fu, Chuyuan",
+          "Devin, Coline",
+          "Xu, Danfei",
+          "Morton, Daniel",
+          "Driess, Danny",
+          "Chen, Daphne",
+          "Pathak, Deepak",
+          "Shah, Dhruv",
+          "Büchler, Dieter",
+          "Jayaraman, Dinesh",
+          "Kalashnikov, Dmitry",
+          "Sadigh, Dorsa",
+          "Johns, Edward",
+          "Foster, Ethan",
+          "Liu, Fangchen",
+          "Ceola, Federico",
+          "Xia, Fei",
+          "Zhao, Feiyu",
+          "Frujeri, Felipe Vieira",
+          "Stulp, Freek",
+          "Zhou, Gaoyue",
+          "Sukhatme, Gaurav S.",
+          "Salhotra, Gautam",
+          "Yan, Ge",
+          "Feng, Gilbert",
+          "Schiavi, Giulio",
+          "Berseth, Glen",
+          "Kahn, Gregory",
+          "Yang, Guangwen",
+          "Wang, Guanzhi",
+          "Su, Hao",
+          "Fang, Hao-Shu",
+          "Shi, Haochen",
+          "Bao, Henghui",
+          "Amor, Heni Ben",
+          "Christensen, Henrik I",
+          "Furuta, Hiroki",
+          "Bharadhwaj, Homanga",
+          "Walke, Homer",
+          "Fang, Hongjie",
+          "Ha, Huy",
+          "Mordatch, Igor",
+          "Radosavovic, Ilija",
+          "Leal, Isabel",
+          "Liang, Jacky",
+          "Abou-Chakra, Jad",
+          "Kim, Jaehyung",
+          "Drake, Jaimyn",
+          "Peters, Jan",
+          "Schneider, Jan",
+          "Hsu, Jasmine",
+          "Vakil, Jay",
+          "Bohg, Jeannette",
+          "Bingham, Jeffrey",
+          "Wu, Jeffrey",
+          "Gao, Jensen",
+          "Hu, Jiaheng",
+          "Wu, Jiajun",
+          "Wu, Jialin",
+          "Sun, Jiankai",
+          "Luo, Jianlan",
+          "Gu, Jiayuan",
+          "Tan, Jie",
+          "Oh, Jihoon",
+          "Wu, Jimmy",
+          "Lu, Jingpei",
+          "Yang, Jingyun",
+          "Malik, Jitendra",
+          "Silvério, João",
+          "Hejna, Joey",
+          "Booher, Jonathan",
+          "Tompson, Jonathan",
+          "Yang, Jonathan",
+          "Salvador, Jordi",
+          "Lim, Joseph J.",
+          "Han, Junhyek",
+          "Wang, Kaiyuan",
+          "Rao, Kanishka",
+          "Pertsch, Karl",
+          "Hausman, Karol",
+          "Go, Keegan",
+          "Gopalakrishnan, Keerthana",
+          "Goldberg, Ken",
+          "Byrne, Kendra",
+          "Oslund, Kenneth",
+          "Kawaharazuka, Kento",
+          "Black, Kevin",
+          "Lin, Kevin",
+          "Zhang, Kevin",
+          "Ehsani, Kiana",
+          "Lekkala, Kiran",
+          "Ellis, Kirsty",
+          "Rana, Krishan",
+          "Srinivasan, Krishnan",
+          "Fang, Kuan",
+          "Singh, Kunal Pratap",
+          "Zeng, Kuo-Hao",
+          "Hatch, Kyle",
+          "Hsu, Kyle",
+          "Itti, Laurent",
+          "Chen, Lawrence Yunliang",
+          "Pinto, Lerrel",
+          "Fei-Fei, Li",
+          "Tan, Liam",
+          "Fan, Linxi \"Jim\"",
+          "Ott, Lionel",
+          "Lee, Lisa",
+          "Weihs, Luca",
+          "Chen, Magnum",
+          "Lepert, Marion",
+          "Memmel, Marius",
+          "Tomizuka, Masayoshi",
+          "Itkina, Masha",
+          "Castro, Mateo Guaman",
+          "Spero, Max",
+          "Du, Maximilian",
+          "Ahn, Michael",
+          "Yip, Michael C.",
+          "Zhang, Mingtong",
+          "Ding, Mingyu",
+          "Heo, Minho",
+          "Srirama, Mohan Kumar",
+          "Sharma, Mohit",
+          "Kim, Moo Jin",
+          "Irshad, Muhammad Zubair",
+          "Kanazawa, Naoaki",
+          "Hansen, Nicklas",
+          "Heess, Nicolas",
+          "Joshi, Nikhil J",
+          "Suenderhauf, Niko",
+          "Liu, Ning",
+          "Di Palo, Norman",
+          "Shafiullah, Nur Muhammad Mahi",
+          "Mees, Oier",
+          "Kroemer, Oliver",
+          "Bastani, Osbert",
+          "Sanketi, Pannag R",
+          "Miller, Patrick \"Tree\"",
+          "Yin, Patrick",
+          "Wohlhart, Paul",
+          "Xu, Peng",
+          "Fagan, Peter David",
+          "Mitrano, Peter",
+          "Sermanet, Pierre",
+          "Abbeel, Pieter",
+          "Sundaresan, Priya",
+          "Chen, Qiuyu",
+          "Vuong, Quan",
+          "Rafailov, Rafael",
+          "Tian, Ran",
+          "Doshi, Ria",
+          "Martín-Martín, Roberto",
+          "Baijal, Rohan",
+          "Scalise, Rosario",
+          "Hendrix, Rose",
+          "Lin, Roy",
+          "Qian, Runjia",
+          "Zhang, Ruohan",
+          "Mendonca, Russell",
+          "Shah, Rutav",
+          "Hoque, Ryan",
+          "Julian, Ryan",
+          "Bustamante, Samuel",
+          "Kirmani, Sean",
+          "Levine, Sergey",
+          "Lin, Shan",
+          "Moore, Sherry",
+          "Bahl, Shikhar",
+          "Dass, Shivin",
+          "Sonawani, Shubham",
+          "Tulsiani, Shubham",
+          "Song, Shuran",
+          "Xu, Sichun",
+          "Haldar, Siddhant",
+          "Karamcheti, Siddharth",
+          "Adebola, Simeon",
+          "Guist, Simon",
+          "Nasiriany, Soroush",
+          "Schaal, Stefan",
+          "Welker, Stefan",
+          "Tian, Stephen",
+          "Ramamoorthy, Subramanian",
+          "Dasari, Sudeep",
+          "Belkhale, Suneel",
+          "Park, Sungjae",
+          "Nair, Suraj",
+          "Mirchandani, Suvir",
+          "Osa, Takayuki",
+          "Gupta, Tanmay",
+          "Harada, Tatsuya",
+          "Matsushima, Tatsuya",
+          "Xiao, Ted",
+          "Kollar, Thomas",
+          "Yu, Tianhe",
+          "Ding, Tianli",
+          "Davchev, Todor",
+          "Zhao, Tony Z.",
+          "Armstrong, Travis",
+          "Darrell, Trevor",
+          "Chung, Trinity",
+          "Jain, Vidhi",
+          "Kumar, Vikash",
+          "Vanhoucke, Vincent",
+          "Guizilini, Vitor",
+          "Zhan, Wei",
+          "Zhou, Wenxuan",
+          "Burgard, Wolfram",
+          "Chen, Xi",
+          "Chen, Xiangyu",
+          "Wang, Xiaolong",
+          "Zhu, Xinghao",
+          "Geng, Xinyang",
+          "Liu, Xiyuan",
+          "Liangwei, Xu",
+          "Li, Xuanlin",
+          "Pang, Yansong",
+          "Lu, Yao",
+          "Ma, Yecheng Jason",
+          "Kim, Yejin",
+          "Chebotar, Yevgen",
+          "Zhou, Yifan",
+          "Zhu, Yifeng",
+          "Wu, Yilin",
+          "Xu, Ying",
+          "Wang, Yixuan",
+          "Bisk, Yonatan",
+          "Dou, Yongqiang",
+          "Cho, Yoonyoung",
+          "Lee, Youngwoon",
+          "Cui, Yuchen",
+          "Cao, Yue",
+          "Wu, Yueh-Hua",
+          "Tang, Yujin",
+          "Zhu, Yuke",
+          "Zhang, Yunchu",
+          "Jiang, Yunfan",
+          "Li, Yunshuang",
+          "Li, Yunzhu",
+          "Iwasawa, Yusuke",
+          "Matsuo, Yutaka",
+          "Ma, Zehan",
+          "Xu, Zhuo",
+          "Cui, Zichen Jeff",
+          "Zhang, Zichen",
+          "Fu, Zipeng",
+          "Lin, Zipeng"
+        ],
+        "citation_date": [
+          "2023/10/13"
+        ],
+        "citation_online_date": [
+          "2025/05/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2310.08864"
+        ],
+        "citation_arxiv_id": [
+          "2310.08864"
+        ]
+      },
+      "category": "foundation",
+      "role": "embodiment-data",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Open+X-Embodiment%3A+Robotic+Learning+Datasets+and+RT-X+Models%22"
+    },
+    {
+      "id": "zhao2023act",
+      "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+      "authors": [
+        "Zhao, Tony Z.",
+        "Kumar, Vikash",
+        "Levine, Sergey",
+        "Finn, Chelsea"
+      ],
+      "first_submitted": "2023-04-23",
+      "year": 2023,
+      "arxiv_id": "2304.13705",
+      "arxiv_version": "2304.13705v1",
+      "source_url": "https://arxiv.org/abs/2304.13705v1",
+      "metadata_source_url": "https://arxiv.org/abs/2304.13705",
+      "source_sha256": "bc5f190c682a819c21b8ad55d03079c921d89b5492a4df988490040122288282",
+      "metadata_fields": {
+        "citation_title": [
+          "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware"
+        ],
+        "citation_author": [
+          "Zhao, Tony Z.",
+          "Kumar, Vikash",
+          "Levine, Sergey",
+          "Finn, Chelsea"
+        ],
+        "citation_date": [
+          "2023/04/23"
+        ],
+        "citation_online_date": [
+          "2023/04/23"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2304.13705"
+        ],
+        "citation_arxiv_id": [
+          "2304.13705"
+        ]
+      },
+      "category": "imitation",
+      "role": "language-free-control",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Learning+Fine-Grained+Bimanual+Manipulation+with+Low-Cost+Hardware%22"
+    },
+    {
+      "id": "chi2023diffusion",
+      "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "authors": [
+        "Chi, Cheng",
+        "Xu, Zhenjia",
+        "Feng, Siyuan",
+        "Cousineau, Eric",
+        "Du, Yilun",
+        "Burchfiel, Benjamin",
+        "Tedrake, Russ",
+        "Song, Shuran"
+      ],
+      "first_submitted": "2023-03-07",
+      "year": 2023,
+      "arxiv_id": "2303.04137",
+      "arxiv_version": "2303.04137v5",
+      "source_url": "https://arxiv.org/abs/2303.04137v5",
+      "metadata_source_url": "https://arxiv.org/abs/2303.04137",
+      "source_sha256": "b8fc551fc3847a0292fa23987bf5f829a1a4f1b969715ad16ca6d176048a49eb",
+      "metadata_fields": {
+        "citation_title": [
+          "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion"
+        ],
+        "citation_author": [
+          "Chi, Cheng",
+          "Xu, Zhenjia",
+          "Feng, Siyuan",
+          "Cousineau, Eric",
+          "Du, Yilun",
+          "Burchfiel, Benjamin",
+          "Tedrake, Russ",
+          "Song, Shuran"
+        ],
+        "citation_date": [
+          "2023/03/07"
+        ],
+        "citation_online_date": [
+          "2024/03/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2303.04137"
+        ],
+        "citation_arxiv_id": [
+          "2303.04137"
+        ]
+      },
+      "category": "imitation",
+      "role": "method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Diffusion+Policy%3A+Visuomotor+Policy+Learning+via+Action+Diffusion%22"
+    },
+    {
+      "id": "liu2023libero",
+      "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+      "authors": [
+        "Liu, Bo",
+        "Zhu, Yifeng",
+        "Gao, Chongkai",
+        "Feng, Yihao",
+        "Liu, Qiang",
+        "Zhu, Yuke",
+        "Stone, Peter"
+      ],
+      "first_submitted": "2023-06-05",
+      "year": 2023,
+      "arxiv_id": "2306.03310",
+      "arxiv_version": "2306.03310v2",
+      "source_url": "https://arxiv.org/abs/2306.03310v2",
+      "metadata_source_url": "https://arxiv.org/abs/2306.03310",
+      "source_sha256": "5dcc99cc099dea6c3382c92c246181d89cc920cb2f16ed35049ead8ee5e9e590",
+      "metadata_fields": {
+        "citation_title": [
+          "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning"
+        ],
+        "citation_author": [
+          "Liu, Bo",
+          "Zhu, Yifeng",
+          "Gao, Chongkai",
+          "Feng, Yihao",
+          "Liu, Qiang",
+          "Zhu, Yuke",
+          "Stone, Peter"
+        ],
+        "citation_date": [
+          "2023/06/05"
+        ],
+        "citation_online_date": [
+          "2023/10/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2306.03310"
+        ],
+        "citation_arxiv_id": [
+          "2306.03310"
+        ]
+      },
+      "category": "benchmark",
+      "role": "benchmark-source",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22LIBERO%3A+Benchmarking+Knowledge+Transfer+for+Lifelong+Robot+Learning%22"
+    },
+    {
+      "id": "fei2026liberoplus",
+      "title": "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models",
+      "authors": [
+        "Fei, Senyu",
+        "Wang, Siyin",
+        "Shi, Junhao",
+        "Dai, Zihao",
+        "Cai, Jikun",
+        "Qian, Pengfang",
+        "Ji, Li",
+        "He, Xinzhe",
+        "Zhang, Shiduo",
+        "Fei, Zhaoye",
+        "Fu, Jinlan",
+        "Gong, Jingjing",
+        "Qiu, Xipeng"
+      ],
+      "first_submitted": "2025-10-15",
+      "year": 2025,
+      "arxiv_id": "2510.13626",
+      "arxiv_version": "2510.13626v3",
+      "source_url": "https://arxiv.org/abs/2510.13626v3",
+      "metadata_source_url": "https://arxiv.org/abs/2510.13626",
+      "source_sha256": "02aa7cc3f478655d12a82916898f5443d7ece836f52e5dabc622399bc013f893",
+      "metadata_fields": {
+        "citation_title": [
+          "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Fei, Senyu",
+          "Wang, Siyin",
+          "Shi, Junhao",
+          "Dai, Zihao",
+          "Cai, Jikun",
+          "Qian, Pengfang",
+          "Ji, Li",
+          "He, Xinzhe",
+          "Zhang, Shiduo",
+          "Fei, Zhaoye",
+          "Fu, Jinlan",
+          "Gong, Jingjing",
+          "Qiu, Xipeng"
+        ],
+        "citation_date": [
+          "2025/10/15"
+        ],
+        "citation_online_date": [
+          "2025/12/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2510.13626"
+        ],
+        "citation_arxiv_id": [
+          "2510.13626"
+        ]
+      },
+      "category": "benchmark",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22LIBERO-Plus%3A+In-depth+Robustness+Analysis+of+Vision-Language-Action+Models%22"
+    },
+    {
+      "id": "zhou2025liberopro",
+      "title": "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization",
+      "authors": [
+        "Zhou, Xueyang",
+        "Xu, Yangming",
+        "Tie, Guiyao",
+        "Chen, Yongchao",
+        "Zhang, Guowen",
+        "Chu, Duanfeng",
+        "Zhou, Pan",
+        "Sun, Lichao"
+      ],
+      "first_submitted": "2025-10-04",
+      "year": 2025,
+      "arxiv_id": "2510.03827",
+      "arxiv_version": "2510.03827v2",
+      "source_url": "https://arxiv.org/abs/2510.03827v2",
+      "metadata_source_url": "https://arxiv.org/abs/2510.03827",
+      "source_sha256": "2bac426ac8c1d98f7e7fac5e42743cd5c15d43857d2f45bb70a4f67522bdd4d9",
+      "metadata_fields": {
+        "citation_title": [
+          "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization"
+        ],
+        "citation_author": [
+          "Zhou, Xueyang",
+          "Xu, Yangming",
+          "Tie, Guiyao",
+          "Chen, Yongchao",
+          "Zhang, Guowen",
+          "Chu, Duanfeng",
+          "Zhou, Pan",
+          "Sun, Lichao"
+        ],
+        "citation_date": [
+          "2025/10/04"
+        ],
+        "citation_online_date": [
+          "2026/05/25"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2510.03827"
+        ],
+        "citation_arxiv_id": [
+          "2510.03827"
+        ]
+      },
+      "category": "benchmark",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22LIBERO-PRO%3A+Towards+Robust+and+Fair+Evaluation+of+Vision-Language-Action+Models+Beyond+Memorization%22"
+    },
+    {
+      "id": "zhou2026liberopro2",
+      "title": "LIBERO-Pro2.0: A Benchmark for Evaluating the Robustness of Embodied Foundation Models",
+      "authors": [
+        "Zhou, Xueyang",
+        "Xu, Yangming",
+        "Li, Qianjiang",
+        "Tie, Guiyao",
+        "Wu, Junhao",
+        "Huang, Ziheng",
+        "Zhang, Guowen",
+        "Yuan, Zhijie",
+        "Wu, Di",
+        "Chu, Duanfeng",
+        "Zhou, Pan",
+        "Sun, Lichao",
+        "Chen, Yongchao"
+      ],
+      "first_submitted": "2026-10-17",
+      "year": 2026,
+      "arxiv_id": "2610.24587",
+      "arxiv_version": "2610.24587v1",
+      "source_url": "https://arxiv.org/abs/2610.24587v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.24587v1",
+      "source_sha256": "4dc479e4c6c572142bbcf54eac684b9f4367d8a11fe9f027173eec7955a301e0",
+      "metadata_fields": {
+        "citation_title": [
+          "LIBERO-Pro2.0: A Benchmark for Evaluating the Robustness of Embodied Foundation Models"
+        ],
+        "citation_author": [
+          "Zhou, Xueyang",
+          "Xu, Yangming",
+          "Li, Qianjiang",
+          "Tie, Guiyao",
+          "Wu, Junhao",
+          "Huang, Ziheng",
+          "Zhang, Guowen",
+          "Yuan, Zhijie",
+          "Wu, Di",
+          "Chu, Duanfeng",
+          "Zhou, Pan",
+          "Sun, Lichao",
+          "Chen, Yongchao"
+        ],
+        "citation_date": [
+          "2026/10/17"
+        ],
+        "citation_online_date": [
+          "2026/10/17"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.24587"
+        ],
+        "citation_arxiv_id": [
+          "2610.24587"
+        ]
+      },
+      "category": "benchmark",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22LIBERO-Pro2.0%3A+A+Benchmark+for+Evaluating+the+Robustness+of+Embodied+Foundation+Models%22"
+    },
+    {
+      "id": "zhang2026igar",
+      "title": "Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration",
+      "authors": [
+        "Zhang, Ninghao",
+        "Zhu, Bin",
+        "Zhou, Shijie",
+        "Chen, Jingjing"
+      ],
+      "first_submitted": "2026-03-06",
+      "year": 2026,
+      "arxiv_id": "2603.06001",
+      "arxiv_version": "2603.06001v2",
+      "source_url": "https://arxiv.org/abs/2603.06001v2",
+      "metadata_source_url": "https://arxiv.org/abs/2603.06001v2",
+      "source_sha256": "fed548abe2169ba4551a4a10094337f4a3609a23c6d0c75a4a56a17c2e3f5684",
+      "metadata_fields": {
+        "citation_title": [
+          "Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration"
+        ],
+        "citation_author": [
+          "Zhang, Ninghao",
+          "Zhu, Bin",
+          "Zhou, Shijie",
+          "Chen, Jingjing"
+        ],
+        "citation_date": [
+          "2026/03/06"
+        ],
+        "citation_online_date": [
+          "2026/07/02"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2603.06001"
+        ],
+        "citation_arxiv_id": [
+          "2603.06001"
+        ]
+      },
+      "category": "grounding",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Restoring+Linguistic+Grounding+in+VLA+Models+via+Train-Free+Attention+Recalibration%22"
+    },
+    {
+      "id": "fang2026cag",
+      "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
+      "authors": [
+        "Fang, Yu",
+        "Feng, Yuchun",
+        "Jing, Dong",
+        "Liu, Jiaqi",
+        "Yang, Yue",
+        "Wei, Zhenyu",
+        "Szafir, Daniel",
+        "Ding, Mingyu"
+      ],
+      "first_submitted": "2026-02-19",
+      "year": 2026,
+      "arxiv_id": "2602.17659",
+      "arxiv_version": "2602.17659v3",
+      "source_url": "https://arxiv.org/abs/2602.17659v3",
+      "metadata_source_url": "https://arxiv.org/abs/2602.17659v3",
+      "source_sha256": "d738d4b17fd3926ceb7d2b7e1bedd2228cff6ff25a3b9517794a72c35dc1e5fb",
+      "metadata_fields": {
+        "citation_title": [
+          "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs"
+        ],
+        "citation_author": [
+          "Fang, Yu",
+          "Feng, Yuchun",
+          "Jing, Dong",
+          "Liu, Jiaqi",
+          "Yang, Yue",
+          "Wei, Zhenyu",
+          "Szafir, Daniel",
+          "Ding, Mingyu"
+        ],
+        "citation_date": [
+          "2026/02/19"
+        ],
+        "citation_online_date": [
+          "2026/11/04"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2602.17659"
+        ],
+        "citation_arxiv_id": [
+          "2602.17659"
+        ]
+      },
+      "category": "grounding",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22When+Vision+Overrides+Language%3A+Evaluating+and+Mitigating+Counterfactual+Failures+in+VLAs%22"
+    },
+    {
+      "id": "liu2026basvla",
+      "title": "Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models",
+      "authors": [
+        "Liu, Shuaijun",
+        "You, Feiyang",
+        "Wu, Chengyu",
+        "Hao, Shuyang",
+        "Zhang, Chenglong",
+        "Cai, Jingyao",
+        "Chen, Xingwei",
+        "Sun, Li",
+        "Su, Ningxin"
+      ],
+      "first_submitted": "2026-09-20",
+      "year": 2026,
+      "arxiv_id": "2609.23650",
+      "arxiv_version": "2609.23650v2",
+      "source_url": "https://arxiv.org/abs/2609.23650v2",
+      "metadata_source_url": "https://arxiv.org/abs/2609.23650v2",
+      "source_sha256": "6049931d8ed887ae836b8b553a702b95380643c78c8a299c6ebb90f9da16784b",
+      "metadata_fields": {
+        "citation_title": [
+          "Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models"
+        ],
+        "citation_author": [
+          "Liu, Shuaijun",
+          "You, Feiyang",
+          "Wu, Chengyu",
+          "Hao, Shuyang",
+          "Zhang, Chenglong",
+          "Cai, Jingyao",
+          "Chen, Xingwei",
+          "Sun, Li",
+          "Su, Ningxin"
+        ],
+        "citation_date": [
+          "2026/09/20"
+        ],
+        "citation_online_date": [
+          "2026/10/21"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.23650"
+        ],
+        "citation_arxiv_id": [
+          "2609.23650"
+        ]
+      },
+      "category": "calibration",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Beyond+Appearance+Shifts%3A+Task-Semantic+Action+Calibration+for+VLA+Models%22"
+    },
+    {
+      "id": "kwon2026correctvla",
+      "title": "What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies",
+      "authors": [
+        "Kwon, Owen",
+        "Ortega-Kral, Pablo",
+        "Bucker, Arthur",
+        "Oh, Jean"
+      ],
+      "first_submitted": "2026-08-30",
+      "year": 2026,
+      "arxiv_id": "2608.29967",
+      "arxiv_version": "2608.29967v2",
+      "source_url": "https://arxiv.org/abs/2608.29967v2",
+      "metadata_source_url": "https://arxiv.org/abs/2608.29967v2",
+      "source_sha256": "fe05e1185c1f8475240386de2dc805ad43b53bd3d76e73b869e55427208e0299",
+      "metadata_fields": {
+        "citation_title": [
+          "What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies"
+        ],
+        "citation_author": [
+          "Kwon, Owen",
+          "Ortega-Kral, Pablo",
+          "Bucker, Arthur",
+          "Oh, Jean"
+        ],
+        "citation_date": [
+          "2026/08/30"
+        ],
+        "citation_online_date": [
+          "2026/10/23"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2608.29967"
+        ],
+        "citation_arxiv_id": [
+          "2608.29967"
+        ]
+      },
+      "category": "calibration",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22What+Can+One+Sentence+Fix%3F+A+Failure+Taxonomy+and+a+Minimal+Language+Correction+for+Frozen+VLA+Policies%22"
+    },
+    {
+      "id": "kim2026ragu",
+      "title": "Zero-Shot VLA Adaptation with Retrieved Guidance",
+      "authors": [
+        "Kim, Subin",
+        "Pham, Anh-Quan",
+        "Jayaraman, Dinesh"
+      ],
+      "first_submitted": "2026-11-07",
+      "year": 2026,
+      "arxiv_id": "2611.10894",
+      "arxiv_version": "2611.10894v1",
+      "source_url": "https://arxiv.org/abs/2611.10894v1",
+      "metadata_source_url": "https://arxiv.org/abs/2611.10894v1",
+      "source_sha256": "5e4e56e130a11bb2229641e7a421f967333697aa070cc7454163a7cfde5b218a",
+      "metadata_fields": {
+        "citation_title": [
+          "Zero-Shot VLA Adaptation with Retrieved Guidance"
+        ],
+        "citation_author": [
+          "Kim, Subin",
+          "Pham, Anh-Quan",
+          "Jayaraman, Dinesh"
+        ],
+        "citation_date": [
+          "2026/11/07"
+        ],
+        "citation_online_date": [
+          "2026/11/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2611.10894"
+        ],
+        "citation_arxiv_id": [
+          "2611.10894"
+        ]
+      },
+      "category": "adaptation",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Zero-Shot+VLA+Adaptation+with+Retrieved+Guidance%22"
+    },
+    {
+      "id": "li2025switchvla",
+      "title": "SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models",
+      "authors": [
+        "Li, Meng",
+        "Zhao, Zhen",
+        "Che, Zhengping",
+        "Liao, Fei",
+        "Wu, Kun",
+        "Xu, Zhiyuan",
+        "Ren, Pei",
+        "Jin, Zhao",
+        "Liu, Ning",
+        "Tang, Jian"
+      ],
+      "first_submitted": "2025-06-04",
+      "year": 2025,
+      "arxiv_id": "2506.03574",
+      "arxiv_version": "2506.03574v1",
+      "source_url": "https://arxiv.org/abs/2506.03574v1",
+      "metadata_source_url": "https://arxiv.org/abs/2506.03574v1",
+      "source_sha256": "053a942720b45f858049f7024da723dfc9cd22ad80be7d7ed71021c5614dc41b",
+      "metadata_fields": {
+        "citation_title": [
+          "SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Li, Meng",
+          "Zhao, Zhen",
+          "Che, Zhengping",
+          "Liao, Fei",
+          "Wu, Kun",
+          "Xu, Zhiyuan",
+          "Ren, Pei",
+          "Jin, Zhao",
+          "Liu, Ning",
+          "Tang, Jian"
+        ],
+        "citation_date": [
+          "2025/06/04"
+        ],
+        "citation_online_date": [
+          "2025/06/04"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2506.03574"
+        ],
+        "citation_arxiv_id": [
+          "2506.03574"
+        ]
+      },
+      "category": "grounding",
+      "role": "closest-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22SwitchVLA%3A+Execution-Aware+Task+Switching+for+Vision-Language-Action+Models%22"
+    },
+    {
+      "id": "black2025rtc",
+      "title": "Real-Time Execution of Action Chunking Flow Policies",
+      "authors": [
+        "Black, Kevin",
+        "Galliker, Manuel Y.",
+        "Levine, Sergey"
+      ],
+      "first_submitted": "2025-06-09",
+      "year": 2025,
+      "arxiv_id": "2506.07339",
+      "arxiv_version": "2506.07339v2",
+      "source_url": "https://arxiv.org/abs/2506.07339v2",
+      "metadata_source_url": "https://arxiv.org/abs/2506.07339",
+      "source_sha256": "2f1f3d8d67e728f275bc32ee45a32d1065acf26b8175ba5e531ea91cb3a2acde",
+      "metadata_fields": {
+        "citation_title": [
+          "Real-Time Execution of Action Chunking Flow Policies"
+        ],
+        "citation_author": [
+          "Black, Kevin",
+          "Galliker, Manuel Y.",
+          "Levine, Sergey"
+        ],
+        "citation_date": [
+          "2025/06/09"
+        ],
+        "citation_online_date": [
+          "2025/12/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2506.07339"
+        ],
+        "citation_arxiv_id": [
+          "2506.07339"
+        ]
+      },
+      "category": "execution",
+      "role": "delay-baseline",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Real-Time+Execution+of+Action+Chunking+Flow+Policies%22"
+    },
+    {
+      "id": "johannink2018residual",
+      "title": "Residual Reinforcement Learning for Robot Control",
+      "authors": [
+        "Johannink, Tobias",
+        "Bahl, Shikhar",
+        "Nair, Ashvin",
+        "Luo, Jianlan",
+        "Kumar, Avinash",
+        "Loskyll, Matthias",
+        "Ojea, Juan Aparicio",
+        "Solowjow, Eugen",
+        "Levine, Sergey"
+      ],
+      "first_submitted": "2018-12-07",
+      "year": 2018,
+      "arxiv_id": "1812.03201",
+      "arxiv_version": "1812.03201v2",
+      "source_url": "https://arxiv.org/abs/1812.03201v2",
+      "metadata_source_url": "https://arxiv.org/abs/1812.03201",
+      "source_sha256": "9c322af717aa8ab02d8aec7ad8ce89aae2ca902675d4ff6e97afab4260918979",
+      "metadata_fields": {
+        "citation_title": [
+          "Residual Reinforcement Learning for Robot Control"
+        ],
+        "citation_author": [
+          "Johannink, Tobias",
+          "Bahl, Shikhar",
+          "Nair, Ashvin",
+          "Luo, Jianlan",
+          "Kumar, Avinash",
+          "Loskyll, Matthias",
+          "Ojea, Juan Aparicio",
+          "Solowjow, Eugen",
+          "Levine, Sergey"
+        ],
+        "citation_date": [
+          "2018/12/07"
+        ],
+        "citation_online_date": [
+          "2018/12/18"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1812.03201"
+        ],
+        "citation_arxiv_id": [
+          "1812.03201"
+        ]
+      },
+      "category": "calibration",
+      "role": "traditional-method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Residual+Reinforcement+Learning+for+Robot+Control%22"
+    },
+    {
+      "id": "peng2017dynamics",
+      "title": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization",
+      "authors": [
+        "Peng, Xue Bin",
+        "Andrychowicz, Marcin",
+        "Zaremba, Wojciech",
+        "Abbeel, Pieter"
+      ],
+      "first_submitted": "2017-10-18",
+      "year": 2017,
+      "arxiv_id": "1710.06537",
+      "arxiv_version": "1710.06537v3",
+      "source_url": "https://arxiv.org/abs/1710.06537v3",
+      "metadata_source_url": "https://arxiv.org/abs/1710.06537",
+      "source_sha256": "36694552f6439911a2bf4c90579342060d4f91269c01f0c8c0c95d67b40f51d8",
+      "metadata_fields": {
+        "citation_title": [
+          "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization"
+        ],
+        "citation_author": [
+          "Peng, Xue Bin",
+          "Andrychowicz, Marcin",
+          "Zaremba, Wojciech",
+          "Abbeel, Pieter"
+        ],
+        "citation_doi": [
+          "10.1109/ICRA.2018.8460528"
+        ],
+        "citation_date": [
+          "2017/10/18"
+        ],
+        "citation_online_date": [
+          "2018/03/03"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1710.06537"
+        ],
+        "citation_arxiv_id": [
+          "1710.06537"
+        ]
+      },
+      "category": "sim-to-real",
+      "role": "traditional-method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Sim-to-Real+Transfer+of+Robotic+Control+with+Dynamics+Randomization%22"
+    },
+    {
+      "id": "tobin2017domain",
+      "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+      "authors": [
+        "Tobin, Josh",
+        "Fong, Rachel",
+        "Ray, Alex",
+        "Schneider, Jonas",
+        "Zaremba, Wojciech",
+        "Abbeel, Pieter"
+      ],
+      "first_submitted": "2017-03-20",
+      "year": 2017,
+      "arxiv_id": "1703.06907",
+      "arxiv_version": "1703.06907v1",
+      "source_url": "https://arxiv.org/abs/1703.06907v1",
+      "metadata_source_url": "https://arxiv.org/abs/1703.06907",
+      "source_sha256": "d3ffdac6e7db209616c5fc0222350d77515efe5f0960201904312960efff8830",
+      "metadata_fields": {
+        "citation_title": [
+          "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World"
+        ],
+        "citation_author": [
+          "Tobin, Josh",
+          "Fong, Rachel",
+          "Ray, Alex",
+          "Schneider, Jonas",
+          "Zaremba, Wojciech",
+          "Abbeel, Pieter"
+        ],
+        "citation_date": [
+          "2017/03/20"
+        ],
+        "citation_online_date": [
+          "2017/03/20"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1703.06907"
+        ],
+        "citation_arxiv_id": [
+          "1703.06907"
+        ]
+      },
+      "category": "sim-to-real",
+      "role": "traditional-method-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Domain+Randomization+for+Transferring+Deep+Neural+Networks+from+Simulation+to+the+Real+World%22"
+    },
+    {
+      "id": "hickok2026so101bench",
+      "title": "SO-101 Bench: Accessible Spatial Manipulation",
+      "authors": [
+        "Hickok, Truman"
+      ],
+      "first_submitted": "2026-10-27",
+      "year": 2026,
+      "arxiv_id": "2610.36420",
+      "arxiv_version": "2610.36420v1",
+      "source_url": "https://arxiv.org/abs/2610.36420v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.36420v1",
+      "source_sha256": "f735a307607bdc87707f5f4fc6ec7006bd45483913961cc693e8a2ea8da13030",
+      "metadata_fields": {
+        "citation_title": [
+          "SO-101 Bench: Accessible Spatial Manipulation"
+        ],
+        "citation_author": [
+          "Hickok, Truman"
+        ],
+        "citation_date": [
+          "2026/10/27"
+        ],
+        "citation_online_date": [
+          "2026/10/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.36420"
+        ],
+        "citation_arxiv_id": [
+          "2610.36420"
+        ]
+      },
+      "category": "so101",
+      "role": "same-body-platform",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22SO-101+Bench%3A+Accessible+Spatial+Manipulation%22"
+    },
+    {
+      "id": "cowling2026demonstrations",
+      "title": "From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $\\pi_{0.5}$ Scale on a Low-Cost Arm",
+      "authors": [
+        "Cowling, Simon"
+      ],
+      "first_submitted": "2026-10-27",
+      "year": 2026,
+      "arxiv_id": "2610.37170",
+      "arxiv_version": "2610.37170v1",
+      "source_url": "https://arxiv.org/abs/2610.37170v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.37170",
+      "source_sha256": "b35e2339689e59820b210cfe6bdc176d3c584ce1ccdf49d2a277174215644d9b",
+      "metadata_fields": {
+        "citation_title": [
+          "From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $\\pi_{0.5}$ Scale on a Low-Cost Arm"
+        ],
+        "citation_author": [
+          "Cowling, Simon"
+        ],
+        "citation_date": [
+          "2026/10/27"
+        ],
+        "citation_online_date": [
+          "2026/10/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.37170"
+        ],
+        "citation_arxiv_id": [
+          "2610.37170"
+        ]
+      },
+      "category": "so101",
+      "role": "sample-efficiency",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22From+12+to+200+Demonstrations%3A+How+ACT%2C+Diffusion+Policy%2C+SmolVLA+and+%24%5Cpi_%7B0.5%7D%24+Scale+on+a+Low-Cost+Arm%22"
+    },
+    {
+      "id": "agarwal2021precipice",
+      "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+      "authors": [
+        "Agarwal, Rishabh",
+        "Schwarzer, Max",
+        "Castro, Pablo Samuel",
+        "Courville, Aaron",
+        "Bellemare, Marc G."
+      ],
+      "first_submitted": "2021-08-30",
+      "year": 2021,
+      "arxiv_id": "2108.13264",
+      "arxiv_version": "2108.13264v4",
+      "source_url": "https://arxiv.org/abs/2108.13264v4",
+      "metadata_source_url": "https://arxiv.org/abs/2108.13264",
+      "source_sha256": "c8adf85a4b91519556353ed8174a1f2304c842598e1bf2a05a47c03b1b20ef75",
+      "metadata_fields": {
+        "citation_title": [
+          "Deep Reinforcement Learning at the Edge of the Statistical Precipice"
+        ],
+        "citation_author": [
+          "Agarwal, Rishabh",
+          "Schwarzer, Max",
+          "Castro, Pablo Samuel",
+          "Courville, Aaron",
+          "Bellemare, Marc G."
+        ],
+        "citation_date": [
+          "2021/08/30"
+        ],
+        "citation_online_date": [
+          "2022/01/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2108.13264"
+        ],
+        "citation_arxiv_id": [
+          "2108.13264"
+        ]
+      },
+      "category": "statistics",
+      "role": "evaluation-method",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Deep+Reinforcement+Learning+at+the+Edge+of+the+Statistical+Precipice%22"
+    },
+    {
+      "id": "pi2026pi07",
+      "title": "${\\pi}_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "authors": [
+        "Intelligence, Physical",
+        "Ai, Bo",
+        "Amin, Ali",
+        "Aniceto, Raichelle",
+        "Balakrishna, Ashwin",
+        "Balke, Greg",
+        "Black, Kevin",
+        "Bokinsky, George",
+        "Cao, Shihao",
+        "Charbonnier, Thomas",
+        "Choudhary, Vedant",
+        "Collins, Foster",
+        "Conley, Ken",
+        "Connors, Grace",
+        "Darpinian, James",
+        "Dhabalia, Karan",
+        "Dhaka, Maitrayee",
+        "DiCarlo, Jared",
+        "Driess, Danny",
+        "Equi, Michael",
+        "Esmail, Adnan",
+        "Fang, Yunhao",
+        "Finn, Chelsea",
+        "Glossop, Catherine",
+        "Godden, Thomas",
+        "Goryachev, Ivan",
+        "Groom, Lachlan",
+        "Habeeb, Haroun",
+        "Hancock, Hunter",
+        "Hausman, Karol",
+        "Hussein, Gashon",
+        "Hwang, Victor",
+        "Ichter, Brian",
+        "Jacobsen, Connor",
+        "Jakubczak, Szymon",
+        "Jen, Rowan",
+        "Jones, Tim",
+        "Kammerer, Gregg",
+        "Katz, Ben",
+        "Ke, Liyiming",
+        "Khadikov, Mairbek",
+        "Kuchi, Chandra",
+        "Lamb, Marinda",
+        "LeBlanc, Devin",
+        "LeCount, Brendon",
+        "Levine, Sergey",
+        "Li, Xinyu",
+        "Li-Bell, Adrian",
+        "Lialin, Vladislav",
+        "Liang, Zhonglin",
+        "Lim, Wallace",
+        "Lu, Yao",
+        "Luo, Enyu",
+        "Mano, Vishnu",
+        "Marwaha, Nandan",
+        "Mongush, Aikys",
+        "Murphy, Liam",
+        "Nair, Suraj",
+        "Patterson, Tyler",
+        "Pertsch, Karl",
+        "Ren, Allen Z.",
+        "Schelske, Gavin",
+        "Sharma, Charvi",
+        "Shi, Baifeng",
+        "Shi, Lucy Xiaoyang",
+        "Smith, Laura",
+        "Springenberg, Jost Tobias",
+        "Stachowicz, Kyle",
+        "Stoeckle, Will",
+        "Tang, Jiaming",
+        "Tanner, Jimmy",
+        "Tekeste, Shalom",
+        "Torne, Marcel",
+        "Vedder, Kyle",
+        "Vuong, Quan",
+        "Walling, Anna",
+        "Wang, Haohuan",
+        "Wang, Jason",
+        "Wang, XuDong",
+        "Whalen, Chris",
+        "Whitmore, Samuel",
+        "Williams, Blake",
+        "Xu, Charles",
+        "Yoo, Sukwon",
+        "Yu, Lili",
+        "Zhang, Wuming",
+        "Zhang, Zhuoyang",
+        "Zhilinsky, Ury"
+      ],
+      "first_submitted": "2026-04-16",
+      "year": 2026,
+      "arxiv_id": "2604.15483",
+      "arxiv_version": "2604.15483v2",
+      "source_url": "https://arxiv.org/abs/2604.15483v2",
+      "metadata_source_url": "https://arxiv.org/abs/2604.15483",
+      "source_sha256": "d6302ff8a04896158050af7d1de54d2bfef7fec4191c1d5176c9e9ace8a742ae",
+      "metadata_fields": {
+        "citation_title": [
+          "${\\pi}_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities"
+        ],
+        "citation_author": [
+          "Intelligence, Physical",
+          "Ai, Bo",
+          "Amin, Ali",
+          "Aniceto, Raichelle",
+          "Balakrishna, Ashwin",
+          "Balke, Greg",
+          "Black, Kevin",
+          "Bokinsky, George",
+          "Cao, Shihao",
+          "Charbonnier, Thomas",
+          "Choudhary, Vedant",
+          "Collins, Foster",
+          "Conley, Ken",
+          "Connors, Grace",
+          "Darpinian, James",
+          "Dhabalia, Karan",
+          "Dhaka, Maitrayee",
+          "DiCarlo, Jared",
+          "Driess, Danny",
+          "Equi, Michael",
+          "Esmail, Adnan",
+          "Fang, Yunhao",
+          "Finn, Chelsea",
+          "Glossop, Catherine",
+          "Godden, Thomas",
+          "Goryachev, Ivan",
+          "Groom, Lachlan",
+          "Habeeb, Haroun",
+          "Hancock, Hunter",
+          "Hausman, Karol",
+          "Hussein, Gashon",
+          "Hwang, Victor",
+          "Ichter, Brian",
+          "Jacobsen, Connor",
+          "Jakubczak, Szymon",
+          "Jen, Rowan",
+          "Jones, Tim",
+          "Kammerer, Gregg",
+          "Katz, Ben",
+          "Ke, Liyiming",
+          "Khadikov, Mairbek",
+          "Kuchi, Chandra",
+          "Lamb, Marinda",
+          "LeBlanc, Devin",
+          "LeCount, Brendon",
+          "Levine, Sergey",
+          "Li, Xinyu",
+          "Li-Bell, Adrian",
+          "Lialin, Vladislav",
+          "Liang, Zhonglin",
+          "Lim, Wallace",
+          "Lu, Yao",
+          "Luo, Enyu",
+          "Mano, Vishnu",
+          "Marwaha, Nandan",
+          "Mongush, Aikys",
+          "Murphy, Liam",
+          "Nair, Suraj",
+          "Patterson, Tyler",
+          "Pertsch, Karl",
+          "Ren, Allen Z.",
+          "Schelske, Gavin",
+          "Sharma, Charvi",
+          "Shi, Baifeng",
+          "Shi, Lucy Xiaoyang",
+          "Smith, Laura",
+          "Springenberg, Jost Tobias",
+          "Stachowicz, Kyle",
+          "Stoeckle, Will",
+          "Tang, Jiaming",
+          "Tanner, Jimmy",
+          "Tekeste, Shalom",
+          "Torne, Marcel",
+          "Vedder, Kyle",
+          "Vuong, Quan",
+          "Walling, Anna",
+          "Wang, Haohuan",
+          "Wang, Jason",
+          "Wang, XuDong",
+          "Whalen, Chris",
+          "Whitmore, Samuel",
+          "Williams, Blake",
+          "Xu, Charles",
+          "Yoo, Sukwon",
+          "Yu, Lili",
+          "Zhang, Wuming",
+          "Zhang, Zhuoyang",
+          "Zhilinsky, Ury"
+        ],
+        "citation_date": [
+          "2026/04/16"
+        ],
+        "citation_online_date": [
+          "2026/04/24"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2604.15483"
+        ],
+        "citation_arxiv_id": [
+          "2604.15483"
+        ]
+      },
+      "category": "foundation",
+      "role": "recent-background",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22%24%7B%5Cpi%7D_%7B0.7%7D%24%3A+a+Steerable+Generalist+Robotic+Foundation+Model+with+Emergent+Capabilities%22"
+    },
+    {
+      "id": "agia2024sentinel",
+      "title": "Unpacking Failure Modes of Generative Policies: Runtime Monitoring of Consistency and Progress",
+      "authors": [
+        "Agia, Christopher",
+        "Sinha, Rohan",
+        "Yang, Jingyun",
+        "Cao, Zi-ang",
+        "Antonova, Rika",
+        "Pavone, Marco",
+        "Bohg, Jeannette"
+      ],
+      "first_submitted": "2024-10-06",
+      "year": 2024,
+      "arxiv_id": "2410.04640",
+      "arxiv_version": "2410.04640v2",
+      "source_url": "https://arxiv.org/abs/2410.04640v2",
+      "metadata_source_url": "https://arxiv.org/abs/2410.04640",
+      "source_sha256": "c1475465b1130744232abd6c345eb9b79374751ce96e3b0abfc6a4228030bba1",
+      "metadata_fields": {
+        "citation_title": [
+          "Unpacking Failure Modes of Generative Policies: Runtime Monitoring of Consistency and Progress"
+        ],
+        "citation_author": [
+          "Agia, Christopher",
+          "Sinha, Rohan",
+          "Yang, Jingyun",
+          "Cao, Zi-ang",
+          "Antonova, Rika",
+          "Pavone, Marco",
+          "Bohg, Jeannette"
+        ],
+        "citation_date": [
+          "2024/10/06"
+        ],
+        "citation_online_date": [
+          "2024/10/10"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2410.04640"
+        ],
+        "citation_arxiv_id": [
+          "2410.04640"
+        ]
+      },
+      "category": "monitoring",
+      "role": "observable-gate-family",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Unpacking+Failure+Modes+of+Generative+Policies%3A+Runtime+Monitoring+of+Consistency+and+Progress%22"
+    },
+    {
+      "id": "wang2026survey",
+      "title": "Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines",
+      "authors": [
+        "Wang, Ziyao",
+        "Wang, Bingying",
+        "Zhang, Hanrong",
+        "Du, Tingting",
+        "Chen, Tianyang",
+        "Sun, Guoheng",
+        "He, Yexiao",
+        "Shen, Zheyu",
+        "Ye, Wanghao",
+        "Li, Ang"
+      ],
+      "first_submitted": "2026-04-24",
+      "year": 2026,
+      "arxiv_id": "2604.23001",
+      "arxiv_version": "2604.23001v1",
+      "source_url": "https://arxiv.org/abs/2604.23001v1",
+      "metadata_source_url": "https://arxiv.org/abs/2604.23001",
+      "source_sha256": "4306baa3705a871844dc56a097867ed325084b4bd65ce91195347d7702b16c58",
+      "metadata_fields": {
+        "citation_title": [
+          "Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines"
+        ],
+        "citation_author": [
+          "Wang, Ziyao",
+          "Wang, Bingying",
+          "Zhang, Hanrong",
+          "Du, Tingting",
+          "Chen, Tianyang",
+          "Sun, Guoheng",
+          "He, Yexiao",
+          "Shen, Zheyu",
+          "Ye, Wanghao",
+          "Li, Ang"
+        ],
+        "citation_date": [
+          "2026/04/24"
+        ],
+        "citation_online_date": [
+          "2026/04/24"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2604.23001"
+        ],
+        "citation_arxiv_id": [
+          "2604.23001"
+        ]
+      },
+      "category": "survey",
+      "role": "reading-map-only",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Vision-Language-Action+in+Robotics%3A+A+Survey+of+Datasets%2C+Benchmarks%2C+and+Data+Engines%22"
+    }
+  ],
+  "errors": []
+}

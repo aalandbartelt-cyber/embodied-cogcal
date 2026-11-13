@@ -1,0 +1,22 @@
+{
+  "artifact_kind": "metadata_protocol_audit_not_policy_evaluation",
+  "generator_seed": 42,
+  "num_scenes_requested": 100,
+  "records": 400,
+  "unique_scene_ids": 100,
+  "unique_physical_placements": 8,
+  "unique_placement_target_pairs": 16,
+  "task_labels": [
+    "so101_pick_place",
+    "so101_target_selection"
+  ],
+  "instruction_templates_after_color_normalization": [
+    "Current task: pick up the COLOR block and place it in the green region."
+  ],
+  "execution_delays_control_steps": [
+    0,
+    3
+  ],
+  "generator_sha256": "4fa037ab868b1130f5651dfe95ed85c8ddac950b39871c3d43a37f75007b0f52",
+  "interpretation": "IDs and RNG seeds are not proof of independent physical resets; task label changes alone are not held-out tasks; delays in metadata are not applied interventions."
+}

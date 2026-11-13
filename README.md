@@ -5,6 +5,11 @@
 本工作区独立于 EC63 机械臂定位误差项目（`~/research/arm-error-comp`），使用独立的
 conda 环境 `cogcal`，不共享 `armec` 环境，也不改动任何原始资料。
 
+**2026-11-14 研究更新：**旧 ECCBF 组合性主张有直接近邻，当前暂停扩大旧方案正式矩阵；
+依用户要求，查新不通过就换核心方案。先读 [查新与路线决策](docs/prior-art/ROUTE_DECISION.md)、
+[研究资料入口](docs/literature/README.md) 和 [汇报准备稿](docs/report/PROGRESS_REPORT.md)。
+已整理 47 篇真实研究/方法文献与 3 项工程来源，提供 [BibTeX / RIS / CSV](references/README.md)。
+
 ## 1. 这个工作区是什么
 
 - 阅读、整理“具身认知标定”方向的文献与讨论记录；
@@ -109,10 +114,10 @@ W1 的完整八步、验收清单和常见坑见主记录第七部分（W1 环�
 - [ ] Pilot：确认语义×执行交互项与任务成功率下降
 - [ ] 正式仿真矩阵与 SO-101 真机外部效度验证
 
-公开路线图见 [docs/ROADMAP.md](docs/ROADMAP.md)。当前 B 路线的核心是
-**具身条件化认知偏差场（ECCBF）**：在同一 SO-101 数字孪生和真实 SO-101 上，分解
-语义冲突、执行误差及其交互项，并以任务成功率提升作为主结果。LIBERO/OpenVLA 作为
-次级可比基准，不替代同体仿真—真机主线。
+公开路线图见 [docs/ROADMAP.md](docs/ROADMAP.md)。B 路线保留同一 SO-101 的仿真—真机验证目标，
+**ECCBF 仅为待筛选候选工作名**；核心机制与贡献须通过最新查新和实证增量门槛。
+LIBERO/OpenVLA 作为次级可比基准，不替代同体主线。两个现有 task_id 还不代表两个不同任务，
+见 [实际协议覆盖审计](experiments/so101/PROTOCOL_AUDIT.md)。
 
 ## 7. 三条纪律
 

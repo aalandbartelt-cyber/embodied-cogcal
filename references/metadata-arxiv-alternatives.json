@@ -1,0 +1,152 @@
+{
+  "retrieved_on": "2026-11-14",
+  "records": [
+    {
+      "id": "sagar2024robomd",
+      "title": "RoboMD: Uncovering Robot Vulnerabilities through Semantic Potential Fields",
+      "authors": [
+        "Sagar, Som",
+        "Duan, Jiafei",
+        "Vasudevan, Sreevishakh",
+        "Zhou, Yifan",
+        "Amor, Heni Ben",
+        "Fox, Dieter",
+        "Senanayake, Ransalu"
+      ],
+      "first_submitted": "2024-12-03",
+      "year": 2024,
+      "arxiv_id": "2412.02818",
+      "arxiv_version": "2412.02818v4",
+      "source_url": "https://arxiv.org/abs/2412.02818v4",
+      "metadata_source_url": "https://arxiv.org/abs/2412.02818",
+      "source_sha256": "fb86656732a34145ee4b23ab3a8a9b98c9162004e53683f1d0b6b2dedaee42f6",
+      "metadata_fields": {
+        "citation_title": [
+          "RoboMD: Uncovering Robot Vulnerabilities through Semantic Potential Fields"
+        ],
+        "citation_author": [
+          "Sagar, Som",
+          "Duan, Jiafei",
+          "Vasudevan, Sreevishakh",
+          "Zhou, Yifan",
+          "Amor, Heni Ben",
+          "Fox, Dieter",
+          "Senanayake, Ransalu"
+        ],
+        "citation_date": [
+          "2024/12/03"
+        ],
+        "citation_online_date": [
+          "2026/05/18"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2412.02818"
+        ],
+        "citation_arxiv_id": [
+          "2412.02818"
+        ]
+      },
+      "category": "diagnosis",
+      "role": "alternative-prior-work",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22RoboMD%3A+Uncovering+Robot+Vulnerabilities+through+Semantic+Potential+Fields%22"
+    },
+    {
+      "id": "fierl2024",
+      "title": "Fault Identification Enhancement with Reinforcement Learning (FIERL)",
+      "authors": [
+        "Zaccaria, Valentina",
+        "Sartor, Davide",
+        "Del Favero, Simone",
+        "Susto, Gian Antonio"
+      ],
+      "first_submitted": "2024-05-08",
+      "year": 2024,
+      "arxiv_id": "2405.04938",
+      "arxiv_version": "2405.04938v1",
+      "source_url": "https://arxiv.org/abs/2405.04938v1",
+      "metadata_source_url": "https://arxiv.org/abs/2405.04938",
+      "source_sha256": "434fab1898b053236d22eeaed2c3728d574d1943b9a7d2c543862499f1b60ddb",
+      "metadata_fields": {
+        "citation_title": [
+          "Fault Identification Enhancement with Reinforcement Learning (FIERL)"
+        ],
+        "citation_author": [
+          "Zaccaria, Valentina",
+          "Sartor, Davide",
+          "Del Favero, Simone",
+          "Susto, Gian Antonio"
+        ],
+        "citation_date": [
+          "2024/05/08"
+        ],
+        "citation_online_date": [
+          "2024/05/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2405.04938"
+        ],
+        "citation_arxiv_id": [
+          "2405.04938"
+        ]
+      },
+      "category": "control",
+      "role": "traditional-active-diagnosis",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Fault+Identification+Enhancement+with+Reinforcement+Learning+%28FIERL%29%22"
+    },
+    {
+      "id": "angelopoulos2023ppi",
+      "title": "Prediction-Powered Inference",
+      "authors": [
+        "Angelopoulos, Anastasios N.",
+        "Bates, Stephen",
+        "Fannjiang, Clara",
+        "Jordan, Michael I.",
+        "Zrnic, Tijana"
+      ],
+      "first_submitted": "2023-01-23",
+      "year": 2023,
+      "arxiv_id": "2301.09633",
+      "arxiv_version": "2301.09633v4",
+      "source_url": "https://arxiv.org/abs/2301.09633v4",
+      "metadata_source_url": "https://arxiv.org/abs/2301.09633",
+      "source_sha256": "218b71a04188f683ca0ed40b77a76405766983e1bc1ea801f7c912d8da3a1fa3",
+      "metadata_fields": {
+        "citation_title": [
+          "Prediction-Powered Inference"
+        ],
+        "citation_author": [
+          "Angelopoulos, Anastasios N.",
+          "Bates, Stephen",
+          "Fannjiang, Clara",
+          "Jordan, Michael I.",
+          "Zrnic, Tijana"
+        ],
+        "citation_date": [
+          "2023/01/23"
+        ],
+        "citation_online_date": [
+          "2023/11/09"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2301.09633"
+        ],
+        "citation_arxiv_id": [
+          "2301.09633"
+        ]
+      },
+      "category": "statistics",
+      "role": "hybrid-evaluation-baseline",
+      "publication_status": "arxiv_record_verified_formal_status_not_checked",
+      "read_level": "abstract",
+      "verification_date": "2026-11-14",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Prediction-Powered+Inference%22"
+    }
+  ],
+  "errors": []
+}

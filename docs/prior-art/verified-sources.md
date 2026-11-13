@@ -1,5 +1,10 @@
 # ECCBF 原始来源核验记录
 
+后续更新：本页保留 2026-11-13 的六项核验范围。2026-11-14 新增文献与正式版本信息见
+[50 条来源目录](../literature/CATALOG.md)、[阅读卡](../literature/READING_GUIDE.md) 和
+[路线决策](ROUTE_DECISION.md)。IGAR 的正式 ECCV 2026、Plus 的正式 CVPR 2026、
+Plus/PRO2.0 组合分析及 IDR 等新近邻，不应继续按本页旧覆盖范围理解。
+
 核验日期：2026-11-13。范围：已有 `docs/prior-art` 中的近邻声明，优先核验六项，补核已有 LIBERO-Plus / PRO。检测轴：reference-audit / preprint、dataset-code / closest-prior-work / invented-or-unverified / authoritative-only。
 
 **结论：六项优先工作均有可直接访问的原始来源，但 ECCBF 的 novelty 尚未通过。** 文献存在、组件已有以及暂未找到完全同构方法，是三个不同判断。本次已直接打开摘要、六篇相关正文段落、官方项目/代码；未独立复现论文实验，未穷尽全领域检索。
