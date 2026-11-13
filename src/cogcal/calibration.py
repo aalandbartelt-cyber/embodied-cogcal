@@ -22,10 +22,13 @@ class CalibrationDecision:
 
 @dataclass(frozen=True)
 class FactorialCalibrator:
-    """A frozen additive calibrator with an explicit interaction component.
+    """Experimental correction algebra with an explicit interaction component.
 
     Scores are observable conflict estimates supplied by a runtime detector.
     Ground-truth task labels are intentionally not accepted by this interface.
+    Cells must be prevalidated target-relative residuals for correction use.
+    Raw action contrasts alone do not identify cognitive bias or justify removal
+    of the semantic component when a new instruction legitimately changes goals.
     """
 
     semantic_bias: np.ndarray
@@ -59,6 +62,8 @@ class FactorialCalibrator:
         vector = np.asarray(action, dtype=float)
         if vector.shape != self.action_shape:
             raise ValueError(f"action shape {vector.shape} does not match {self.action_shape}")
+        if not np.isfinite(vector).all():
+            raise ValueError("action must be finite")
         if not 0.0 <= semantic_score <= 1.0 or not 0.0 <= execution_score <= 1.0:
             raise ValueError("conflict scores must be between zero and one")
 

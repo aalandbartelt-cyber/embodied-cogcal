@@ -35,3 +35,11 @@ def test_success_rate_and_wilson_interval_are_bounded():
 def test_success_rate_rejects_empty_trials():
     with pytest.raises(ValueError, match="at least one"):
         success_rate([])
+
+
+@pytest.mark.parametrize("values", [[], [[np.nan, 0.0]], [[np.inf, 0.0]], [[], []]])
+def test_factorial_effects_rejects_empty_or_nonfinite_cells(values):
+    cells = {key: [[0.0, 0.0]] for key in [(0, 0), (1, 0), (0, 1), (1, 1)]}
+    cells[(1, 1)] = values
+    with pytest.raises(ValueError, match="nonempty|finite"):
+        factorial_effects(cells)

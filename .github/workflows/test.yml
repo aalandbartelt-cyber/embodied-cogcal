@@ -18,3 +18,18 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: python -m pip install -e ".[dev]"
       - run: python -m pytest
+
+  simulation:
+    runs-on: ubuntu-22.04
+    env:
+      MUJOCO_GL: osmesa
+      PYTEST_DISABLE_PLUGIN_AUTOLOAD: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update && sudo apt-get install -y libosmesa6
+      - run: python -m pip install -r requirements-sim.txt
+      - run: bash scripts/fetch_so101_assets.sh
+      - run: python -m pytest tests/test_so101_scene.py tests/test_rollout_script.py

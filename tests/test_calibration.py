@@ -47,3 +47,10 @@ def test_calibrator_rejects_action_shape_mismatch():
 def test_calibrator_rejects_missing_factorial_cells():
     with pytest.raises(ValueError, match="four factorial cells"):
         FactorialCalibrator.from_factorial({(0, 0): np.zeros(2)})
+
+
+@pytest.mark.parametrize("action", [[np.nan, 0], [0, np.inf]])
+def test_calibrator_rejects_nonfinite_action_even_below_gate(action):
+    calibrator = FactorialCalibrator.from_factorial(_cells())
+    with pytest.raises(ValueError, match="finite"):
+        calibrator.correct(action, semantic_score=0.0, execution_score=0.0)

@@ -29,6 +29,25 @@ def test_generator_is_deterministic_for_same_seed():
     assert first == second
 
 
+def test_episode_ids_are_unique_across_seed_batches():
+    records = generate_records(DEFINITION, num_scenes=2, seed=0)
+    records += generate_records(DEFINITION, num_scenes=2, seed=1)
+    assert len({row["episode_id"] for row in records}) == len(records)
+
+
+def test_generated_scene_can_be_materialized_with_explicit_current_target():
+    records = generate_records(DEFINITION, num_scenes=2, seed=42)
+    for row in records:
+        scene = row["scene_metadata"]
+        assert set(scene["object_colors"]) == {"red", "blue"}
+        assert set(scene["placements"]) == {"red", "blue", "goal"}
+        assert row["current_target_color"] in {"red", "blue"}
+        assert "Current task:" in row["instruction"]
+        assert row["execution_parameters"]["command_delay_control_steps"] == (
+            3 if row["execution_condition"] == "perturbed" else 0
+        )
+
+
 def test_generator_does_not_emit_privileged_runtime_inputs(tmp_path):
     records = generate_records(DEFINITION, num_scenes=1, seed=3)
     forbidden = {

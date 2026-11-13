@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import importlib.metadata as metadata
 import json
+import math
 import os
 import platform
 import shutil
@@ -148,7 +149,8 @@ def _check_packages(packages: dict[str, str]) -> CheckResult:
     mismatches = [
         f"{name}={packages.get(name, 'MISSING')} (expected {expected})"
         for name, expected in EXPECTED_PACKAGES.items()
-        if packages.get(name) != expected
+        # PEP 440 local labels identify builds (e.g. +cu121), not public releases.
+        if packages.get(name, "MISSING").partition("+")[0] != expected
     ]
     if mismatches:
         return CheckResult("packages", False, "version mismatch: " + "; ".join(mismatches))
@@ -176,11 +178,8 @@ def _check_runtime_environment(environment: dict[str, str]) -> CheckResult:
     for variable in ("HF_HOME", "COGCAL_STORAGE_ROOT"):
         if not environment.get(variable):
             problems.append(f"{variable} is missing")
-    try:
-        if float(environment.get("COGCAL_MIN_FREE_GB", "30")) <= 0:
-            problems.append("COGCAL_MIN_FREE_GB must be positive")
-    except ValueError:
-        problems.append("COGCAL_MIN_FREE_GB must be numeric")
+    if _minimum_free_gb(environment) is None:
+        problems.append("COGCAL_MIN_FREE_GB must be a finite positive number")
     if problems:
         return CheckResult("runtime_env", False, "; ".join(problems))
     return CheckResult("runtime_env", True, "EGL, cache and storage variables are configured")
@@ -192,14 +191,20 @@ def _check_git(git: GitInfo) -> CheckResult:
     return CheckResult("git", True, f"commit={git.commit}")
 
 
-def _check_disk(disk: DiskInfo, environment: dict[str, str]) -> CheckResult:
+def _minimum_free_gb(environment: dict[str, str]) -> float | None:
     try:
         minimum_gb = float(environment.get("COGCAL_MIN_FREE_GB", "30"))
     except ValueError:
-        minimum_gb = 30.0
-    minimum_bytes = int(minimum_gb * 1024**3)
+        return None
+    return minimum_gb if math.isfinite(minimum_gb) and minimum_gb > 0 else None
+
+
+def _check_disk(disk: DiskInfo, environment: dict[str, str]) -> CheckResult:
+    minimum_gb = _minimum_free_gb(environment)
+    if minimum_gb is None:
+        return CheckResult("disk", False, "COGCAL_MIN_FREE_GB must be a finite positive number")
     free_gb = disk.free_bytes / 1024**3
-    ok = disk.free_bytes >= minimum_bytes
+    ok = free_gb >= minimum_gb
     return CheckResult(
         "disk",
         ok,

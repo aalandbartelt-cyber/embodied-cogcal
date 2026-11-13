@@ -24,6 +24,10 @@ class FactorialEffects:
 
 def _as_mean_vector(values: Sequence[Sequence[float]] | Sequence[float]) -> np.ndarray:
     array = np.asarray(values, dtype=float)
+    if array.size == 0:
+        raise ValueError("factorial cell values must be nonempty")
+    if not np.isfinite(array).all():
+        raise ValueError("factorial cell values must be finite")
     if array.ndim == 1:
         return array
     if array.ndim == 2:

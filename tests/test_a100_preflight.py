@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
 from scripts.a100_preflight import (
     DiskInfo,
     GitInfo,
@@ -24,7 +26,7 @@ EXPECTED_PACKAGES = {
 def passing_state(tmp_path: Path) -> PreflightState:
     return PreflightState(
         python_version=(3, 10, 13),
-        packages=EXPECTED_PACKAGES,
+        packages=EXPECTED_PACKAGES.copy(),
         gpu=GpuInfo(
             available=True,
             count=1,
@@ -49,6 +51,46 @@ def test_passing_state_has_no_failed_checks(tmp_path):
     checks = run_checks(passing_state(tmp_path))
 
     assert all(check.ok for check in checks), [check.message for check in checks if not check.ok]
+
+
+def test_cuda_wheel_local_versions_satisfy_package_contract(tmp_path):
+    state = passing_state(tmp_path)
+    state.packages.update(torch="2.2.0+cu121", torchvision="0.17.0+cu121")
+
+    checks = run_checks(state)
+
+    assert next(check for check in checks if check.name == "packages").ok is True
+
+
+@pytest.mark.parametrize("version", ["2.2.1+cu121", "2.2.0rc1+cu121", "MISSING"])
+def test_incorrect_torch_public_version_is_rejected(tmp_path, version):
+    state = passing_state(tmp_path)
+    state.packages["torch"] = version
+
+    checks = run_checks(state)
+
+    assert next(check for check in checks if check.name == "packages").ok is False
+
+
+@pytest.mark.parametrize("threshold", ["nan", "inf", "-inf", "0", "-1", "invalid"])
+def test_invalid_disk_threshold_is_reported_without_crashing(tmp_path, threshold):
+    state = passing_state(tmp_path)
+    state.environment["COGCAL_MIN_FREE_GB"] = threshold
+    state.disk.free_bytes = 1000 * 1024**3
+
+    checks = run_checks(state)
+
+    assert next(check for check in checks if check.name == "runtime_env").ok is False
+    assert next(check for check in checks if check.name == "disk").ok is False
+
+
+def test_large_finite_disk_threshold_fails_without_overflow(tmp_path):
+    state = passing_state(tmp_path)
+    state.environment["COGCAL_MIN_FREE_GB"] = "1e308"
+
+    checks = run_checks(state)
+
+    assert next(check for check in checks if check.name == "disk").ok is False
 
 
 def test_non_a100_gpu_is_rejected(tmp_path):

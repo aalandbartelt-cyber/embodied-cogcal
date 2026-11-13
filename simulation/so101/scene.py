@@ -16,6 +16,7 @@ import numpy as np
 DEFAULT_SCENE = (
     Path(__file__).resolve().parents[2] / "simulation/so101/eccbf_factorial_scene.xml"
 )
+JOINT_NAMES = ("shoulder_pan", "shoulder_lift", "elbow_flex", "wrist_flex", "wrist_roll", "gripper")
 
 
 def freejoint_qpos(position: tuple[float, float, float]) -> np.ndarray:
@@ -23,6 +24,8 @@ def freejoint_qpos(position: tuple[float, float, float]) -> np.ndarray:
 
     if len(position) != 3:
         raise ValueError("free-joint position must contain three coordinates")
+    if not np.isfinite(position).all():
+        raise ValueError("free-joint position must be finite")
     return np.asarray([*position, 1.0, 0.0, 0.0, 0.0], dtype=float)
 
 
@@ -39,12 +42,14 @@ class ObjectPlacement:
             value = getattr(self, name)
             if len(value) != 3:
                 raise ValueError(f"{name} position must contain three coordinates")
+            if not np.isfinite(value).all():
+                raise ValueError(f"{name} position must be finite")
 
 
 DEFAULT_PLACEMENT = ObjectPlacement(
-    red=(0.12, -0.12, 0.105),
-    blue=(0.12, 0.12, 0.105),
-    goal=(0.42, 0.0, 0.071),
+    red=(0.12, -0.12, 0.036),
+    blue=(0.12, 0.12, 0.036),
+    goal=(0.28, 0.0, 0.003),
 )
 
 
@@ -88,4 +93,74 @@ def reset_scene(
     mujoco_module.mj_resetData(model, data)
     _set_free_body_pose(model, data, mujoco_module, "red_object", placement.red)
     _set_free_body_pose(model, data, mujoco_module, "blue_object", placement.blue)
+    model.body("goal_region").pos[:] = placement.goal
     mujoco_module.mj_forward(model, data)
+
+
+def step_joint_targets(
+    model: Any,
+    data: Any,
+    targets: Any,
+    *,
+    substeps: int = 1,
+    mujoco_module: Any | None = None,
+) -> None:
+    """Execute six SO-101 joint position targets in radians, including hinge gripper.
+
+    These are not LIBERO 7D Cartesian actions or normalized LeRobot motor values.
+    Reject bad inputs rather than silently converting, clamping, or truncating.
+    """
+    vector = np.asarray(targets, dtype=float)
+    if model.nu != 6 or vector.shape != (6,):
+        raise ValueError("SO-101 action requires six joint targets in radians")
+    if not np.isfinite(vector).all():
+        raise ValueError("joint targets must be finite")
+    if isinstance(substeps, bool) or not isinstance(substeps, int) or substeps < 1:
+        raise ValueError("substeps must be a positive integer")
+    ids = [model.actuator(name).id for name in JOINT_NAMES]
+    limits = model.actuator_ctrlrange[ids]
+    if np.any(vector < limits[:, 0]) or np.any(vector > limits[:, 1]):
+        raise ValueError("joint targets exceed model actuator limits")
+    if mujoco_module is None:
+        import mujoco as mujoco_module
+    data.ctrl[ids] = vector
+    mujoco_module.mj_step(model, data, nstep=substeps)
+    mujoco_module.mj_forward(model, data)
+
+
+def policy_observation(
+    model: Any, data: Any, renderer: Any, *, camera: str = "front_camera"
+) -> dict[str, np.ndarray]:
+    """Return only RGB and robot joints, excluding object poses and evaluator truth."""
+    addresses = [model.jnt_qposadr[model.joint(name).id] for name in JOINT_NAMES]
+    renderer.update_scene(data, camera=camera)
+    return {
+        "rgb": renderer.render().copy(),
+        "joint_positions_rad": data.qpos[addresses].copy(),
+    }
+
+
+def evaluate_placement(model: Any, data: Any, target_color: str) -> bool:
+    """Evaluator-only stable placement check, not proof of grasp/lift history.
+
+    The complete object's axis-aligned footprint must lie in the goal, its bottom
+    must be on the goal surface (12 mm tolerance), and velocities must be small.
+    A future pick/place runner must additionally record lift and release events.
+    """
+    if target_color not in {"red", "blue"}:
+        raise ValueError("target_color must be red or blue")
+    geom = model.geom(f"{target_color}_object_geom")
+    position = data.geom_xpos[geom.id]
+    rotation = data.geom_xmat[geom.id].reshape(3, 3)
+    half_size = np.abs(rotation) @ geom.size
+    goal = model.geom("goal_geom")
+    center = data.geom_xpos[goal.id]
+    inside = np.all(np.abs(position[:2] - center[:2]) + half_size[:2] <= goal.size[:2])
+    bottom = position[2] - half_size[2]
+    on_surface = abs(bottom - (center[2] + goal.size[2])) <= 0.012
+    body = model.body(f"{target_color}_object")
+    joint = int(model.body_jntadr[body.id])
+    address = int(model.jnt_dofadr[joint])
+    velocity = data.qvel[address : address + 6]
+    stable = np.linalg.norm(velocity[:3]) <= 0.02 and np.linalg.norm(velocity[3:]) <= 0.2
+    return bool(inside and on_surface and stable and np.isfinite(velocity).all())

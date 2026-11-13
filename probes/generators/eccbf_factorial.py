@@ -45,13 +45,21 @@ def load_definition(path: str | Path = DEFAULT_DEFINITION) -> dict[str, Any]:
 def _scene_metadata(rng: np.random.Generator, scene_index: int, seed: int) -> dict[str, Any]:
     """Create metadata observable by a policy without exposing evaluator state."""
 
-    colors = tuple(rng.choice(np.array(["red", "blue", "green", "yellow"]), size=2, replace=False))
+    bucket = int(rng.integers(0, 8))
+    x = 0.12 + 0.01 * (bucket // 2)
+    side = -1 if bucket % 2 else 1
     return {
-        "scene_id": f"scene-{scene_index:04d}",
+        "scene_id": f"seed-{seed}__scene-{scene_index:04d}",
         "scene_seed": int(rng.integers(0, 2**31 - 1)),
-        "layout_bucket": int(rng.integers(0, 8)),
-        "object_colors": list(colors),
-        "distractor_count": int(rng.integers(1, 4)),
+        "layout_bucket": bucket,
+        "object_colors": ["red", "blue"],
+        "distractor_count": 1,
+        # Evaluator-side construction data. Never pass scene_metadata to a policy.
+        "placements": {
+            "red": [x, side * 0.12, 0.036],
+            "blue": [x, -side * 0.12, 0.036],
+            "goal": [0.28, 0.0, 0.003],
+        },
         "generator_seed": seed,
     }
 
@@ -74,7 +82,13 @@ def generate_records(
     for scene_index in range(num_scenes):
         scene = _scene_metadata(rng, scene_index, seed)
         task_id = TASK_IDS[scene_index % len(TASK_IDS)]
+        target = ("red", "blue")[(scene_index // 2 + seed) % 2]
+        other = "blue" if target == "red" else "red"
+        current = f"Current task: pick up the {target} block and place it in the green region."
         for condition in conditions:
+            instruction = current
+            if condition["semantic_condition"] == "conflict":
+                instruction = f"Previous plan (superseded): pick up the {other} block. " + current
             record = {
                 "probe_id": definition["id"],
                 "episode_id": f"{scene['scene_id']}__{condition['id']}",
@@ -85,6 +99,14 @@ def generate_records(
                 "semantic_condition": condition["semantic_condition"],
                 "execution_condition": condition["execution_condition"],
                 "scene_metadata": scene,
+                "instruction": instruction,
+                "current_target_color": target,
+                "execution_parameters": {
+                    "command_delay_control_steps": (
+                        3 if condition["execution_condition"] == "perturbed" else 0
+                    ),
+                },
+                "protocol_status": "pilot_candidate_not_validated_on_vla",
                 "runtime_input_names": sorted(definition["runtime_inputs"]["allowed"]),
                 "expected_outputs": list(definition["episode_outputs"]),
             }

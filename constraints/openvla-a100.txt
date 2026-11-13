@@ -1,0 +1,13 @@
+# A100 OpenVLA compatibility constraints, not a full transitive lockfile.
+# OpenVLA c8f03f48af692657d3060c19588038c7220e9af9 README.md / pyproject.toml.
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+transformers==4.40.1
+tokenizers==0.19.1
+timm==0.9.10
+flash-attn==2.5.5
+# Keep the NumPy 1.x ABI for the PyTorch 2.2 environment.
+numpy<2
+# OpenVLA experiments/robot/libero/libero_requirements.txt at the same commit.
+robosuite==1.4.1

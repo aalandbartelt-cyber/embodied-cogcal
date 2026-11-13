@@ -20,20 +20,20 @@
 
   <worldbody>
     <light name="key" pos="0.2 -0.8 1.5" dir="0 0 -1" directional="true" />
-    <geom name="floor" type="plane" size="2 2 0.01" pos="0 0 0" material="table_material" />
-    <geom name="table" type="box" size="0.65 0.45 0.025" pos="0.18 0 0.025" material="table_material" />
+    <geom name="floor" type="plane" size="2 2 0.01" pos="0 0 -0.05" material="table_material" />
+    <geom name="table" type="box" size="0.65 0.45 0.025" pos="0.18 0 -0.025" material="table_material" />
 
-    <body name="red_object" pos="0.12 -0.12 0.105">
+    <body name="red_object" pos="0.12 -0.12 0.036">
       <freejoint />
       <geom name="red_object_geom" type="box" size="0.035 0.035 0.035" density="300" material="red_material" />
       <site name="red_object_site" pos="0 0 0" size="0.005" />
     </body>
-    <body name="blue_object" pos="0.12 0.12 0.105">
+    <body name="blue_object" pos="0.12 0.12 0.036">
       <freejoint />
       <geom name="blue_object_geom" type="box" size="0.035 0.035 0.035" density="300" material="blue_material" />
       <site name="blue_object_site" pos="0 0 0" size="0.005" />
     </body>
-    <body name="goal_region" pos="0.42 0 0.071">
+    <body name="goal_region" pos="0.28 0 0.003">
       <geom name="goal_geom" type="box" size="0.09 0.09 0.003" contype="0" conaffinity="0" material="goal_material" />
       <site name="goal_site" pos="0 0 0.006" size="0.008" />
     </body>

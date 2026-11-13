@@ -8,9 +8,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
+from itertools import combinations
 from pathlib import Path
 
 import numpy as np
+
+if __package__ in {None, ""}:
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 
 def interpolate_controls(start: np.ndarray, end: np.ndarray, *, steps: int) -> np.ndarray:
@@ -22,6 +27,8 @@ def interpolate_controls(start: np.ndarray, end: np.ndarray, *, steps: int) -> n
     end = np.asarray(end, dtype=float)
     if start.shape != end.shape:
         raise ValueError("start and end controls must have the same shape")
+    if not np.isfinite(start).all() or not np.isfinite(end).all():
+        raise ValueError("controls must be finite")
     return np.linspace(start, end, num=steps)
 
 
@@ -32,48 +39,59 @@ def run_rollout(scene: Path, output_video: Path, output_trace: Path, *, steps: i
     except ImportError as exc:
         raise SystemExit("cogcal-sim requires mujoco and imageio for scripted rollout") from exc
 
-    model = mujoco.MjModel.from_xml_path(str(scene))
-    data = mujoco.MjData(model)
-    mujoco.mj_resetData(model, data)
+    from simulation.so101.scene import (
+        load_scene,
+        policy_observation,
+        reset_scene,
+        step_joint_targets,
+    )
+
+    paths = [scene, output_video, output_trace]
+    if any(
+        left.resolve() == right.resolve()
+        or (left.exists() and right.exists() and left.samefile(right))
+        for left, right in combinations(paths, 2)
+    ):
+        raise ValueError("scene, video and trace paths must differ")
+    model, data = load_scene(scene, mujoco)
+    reset_scene(model, data, mujoco)
 
     # A conservative six-joint waypoint sequence for actuator and renderer checks.
     start = np.zeros(model.nu, dtype=float)
     end = np.array([0.0, -0.45, 0.75, -0.55, 0.0, 0.35], dtype=float)
     controls = interpolate_controls(start, end, steps=steps)
 
-    renderer = mujoco.Renderer(model, height=480, width=640)
     output_video.parent.mkdir(parents=True, exist_ok=True)
     output_trace.parent.mkdir(parents=True, exist_ok=True)
-    records: list[dict[str, object]] = []
-    frames: list[np.ndarray] = []
-
-    for step, control in enumerate(controls):
-        data.ctrl[:] = control
-        mujoco.mj_step(model, data)
-        renderer.update_scene(data, camera="front_camera")
-        frames.append(renderer.render().copy())
-        records.append(
-            {
+    # Render at 30 Hz of simulated time rather than playing 2 ms physics steps
+    # at 30 fps. Stream frames/records so long traces do not accumulate in RAM.
+    with (
+        mujoco.Renderer(model, height=480, width=640) as renderer,
+        imageio.get_writer(output_video, fps=30, codec="libx264") as writer,
+        output_trace.open("w", encoding="utf-8") as trace,
+    ):
+        for step, control in enumerate(controls):
+            target_time = (step + 1) / 30
+            substeps = max(1, int(np.ceil((target_time - data.time) / model.opt.timestep)))
+            step_joint_targets(model, data, control, substeps=substeps, mujoco_module=mujoco)
+            observation = policy_observation(model, data, renderer)
+            writer.append_data(observation["rgb"])
+            record = {
                 "episode_id": "so101_scripted_smoke",
+                "record_type": "step",
+                "experiment_kind": "plumbing_smoke",
                 "step": step,
-                "semantic_condition": "neutral",
-                "execution_condition": "nominal",
-                "calibration_variant": "raw",
+                "sim_time_s": float(data.time),
+                "action_space": "so101_joint_position_rad",
                 "action": control.tolist(),
                 "qpos": data.qpos.tolist(),
                 "qvel": data.qvel.tolist(),
-                "task_success": False,
                 "failure_reason": "scripted_plumbing_smoke_only",
             }
-        )
-
-    with imageio.get_writer(output_video, fps=30, codec="libx264") as writer:
-        for frame in frames:
-            writer.append_data(frame)
-    output_trace.write_text("\n".join(json.dumps(row) for row in records) + "\n", encoding="utf-8")
+            trace.write(json.dumps(record, allow_nan=False) + "\n")
     print(f"video={output_video}")
     print(f"trace={output_trace}")
-    print(f"frames={len(frames)}")
+    print(f"frames={len(controls)} sim_time_s={data.time:.3f}")
 
 
 def main() -> None:

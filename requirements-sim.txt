@@ -1,0 +1,8 @@
+# Model-free simulation/CI only. Do not install into the OpenVLA torch 2.2 env.
+# Versions measured in the isolated Python 3.12 cogcal-sim environment.
+mujoco==4.0.1
+numpy==2.5.4
+imageio==2.38.1
+imageio-ffmpeg==0.8.1
+pytest==9.0.2
+PyYAML==6.0.3

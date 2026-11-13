@@ -16,6 +16,8 @@ simulation:
   pilot_episodes_per_cell: 10
   formal_episodes_per_cell: 50
   seeds: [0, 1, 2]
+  episode_counting: per_task_per_cell_per_environment_seed
+  protocol_status: pilot_candidate_requires_policy_validation
 
 real:
   robot: so101_follower

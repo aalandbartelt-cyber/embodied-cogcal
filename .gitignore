@@ -10,6 +10,7 @@ results/videos/*
 !results/videos/.gitkeep
 *.mp4
 *.log
+results/validation/
 
 # Models, datasets, credentials and local experiment artifacts.
 data/
