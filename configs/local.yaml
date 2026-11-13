@@ -1,0 +1,40 @@
+# Local development configuration for embodied-cogcal.
+# Model inference and LIBERO evaluation run on the A100 cluster, not here.
+
+project: embodied-cogcal
+role: local-dev-analysis
+python: "3.10"
+model_runtime: "A100 40GB x2 (external)"
+
+paths:
+  docs: docs
+  reference: docs/reference
+  probes: probes
+  analysis: analysis
+  experiments: experiments
+  results: results
+  figures: results/figures
+  videos: results/videos
+
+w1:
+  target_suite: libero_spatial
+  baseline_checkpoint: openvla/openvla-7b-finetuned-libero-spatial
+  second_model: moojink/openvla-7b-oft-finetuned-libero-spatial
+  render_backend: egl
+  smoke_trials_per_task: 5
+
+logging:
+  require_git_commit: true
+  record_fields:
+    - date
+    - git_commit
+    - model
+    - checkpoint
+    - task_suite
+    - seeds
+    - trials_per_task
+    - center_crop
+    - unnorm_key
+    - render_backend
+    - success_rate
+    - notes

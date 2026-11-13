@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Large media only; experiment logs and figures stay tracked.
+results/videos/*
+!results/videos/.gitkeep
+*.mp4
+*.log
+
+# Models, datasets, credentials and local experiment artifacts.
+data/
+datasets/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.parquet
+.env
+.env.*
+*.pem
+*.key
+
+# Keep docs, code, configs and experiment summaries.
+.DS_Store

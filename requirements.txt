@@ -1,0 +1,20 @@
+# Local analysis/development stack for the cogcal environment.
+# Do NOT add torch/transformers/flash-attn here: model inference runs on the A100.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+imageio
+imageio-ffmpeg
+jupyterlab
+ipykernel
+pyyaml
+tqdm
+tabulate
+openpyxl
+pyarrow
+statsmodels
+pytest
+ruff
