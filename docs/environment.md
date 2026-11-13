@@ -8,11 +8,14 @@
 
 | 位置 | 用途 | 是否装模型 |
 |---|---|---|
-| 本地 WSL + RTX 5070 Ti | 读文档、写探针/分析代码、绘图、剪视频、维护日志 | 否 |
+| 本地 WSL + RTX 5070 Ti Laptop（实测约 12GB） | 分析、SmolVLA/LeRobot Pilot、绘图、剪视频、维护日志 | 不装 OpenVLA 7B 官方环境 |
 | 自强 5000 A100 | OpenVLA 加载、LIBERO 评测、EGL 渲染、批量实验 | 是 |
 
-原因：5070 Ti 是 Blackwell sm_120，OpenVLA 官方环境要求 torch 2.2.0（cu121），
-该组合不支持 sm_120。在本地硬装会浪费大量时间，而且不能真正跑 7B 模型。
+原因：本机是 Blackwell Compute Capability 12.0，且实测可见显存约 12GB；OpenVLA 官方仓库
+固定 PyTorch 2.2.* 和旧版依赖，不能按官方环境稳定承载 7B 主实验。本机如需模型，另建
+`cogcal-sim` 跑 SmolVLA/LeRobot，不污染 `cogcal`。
+
+本机路线详见 [LOCAL_GPU_ROUTE.md](LOCAL_GPU_ROUTE.md)。
 
 ## 2. 当前环境
 

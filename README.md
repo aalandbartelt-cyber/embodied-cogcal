@@ -14,8 +14,9 @@ conda 环境 `cogcal`，不共享 `armec` 环境，也不改动任何原始资�
 
 **它不是** OpenVLA 的模型推理环境。按研究方向记录里的铁律：
 
-> 本地 5070 Ti 是 Blackwell sm_120，OpenVLA 官方 torch 2.2.0 环境不兼容；
-> 7B 模型的加载、评测与 MuJoCo EGL 渲染全部放在自强 5000 A100 上。
+> 本地实测为 RTX 5070 Ti Laptop GPU、约 12GB 可见显存、Blackwell Compute Capability 12.0；
+> OpenVLA 官方 torch 2.2.0 环境不作为本机主线。7B 主实验放在自强 5000 A100，
+> 本机可单独跑 SmolVLA/LeRobot 的 SO-101 Pilot。
 
 本地环境因此只安装分析栈，不安装 torch / transformers / flash-attn，也不下载 15GB 检查点。
 
@@ -110,6 +111,6 @@ W1 的完整八步、验收清单和常见坑见主记录第七部分（W1 环�
 
 ## 7. 三条纪律
 
-1. **本地不跑模型**：5070 Ti 只做开发与分析；模型推理全部上 A100。
+1. **环境分开**：`cogcal` 只做分析；本机模型 Pilot 使用独立 `cogcal-sim`，OpenVLA 7B 正式实验上 A100。
 2. **笔记不等于一手证据**：`docs/reference` 是二手笔记/综述，正式引用必须回到原论文。
 3. **不越级声称**：仿真探针结果不能写成真机验证；年底目标是“可投稿实验包”，不是 SCI 录用。
