@@ -45,6 +45,14 @@ python scripts/run_so101_scripted_rollout.py \
 时直接设置 `MUJOCO_GL=osmesa` 会失败，不能视为 EGL 失败。云端 simulation job 单独
 安装该依赖后再跑物理测试。
 
+## 独立云端验证
+
+代码提交 `afe481f56fe87c948c55c2b5eb17d6b12720e456` 的
+[CI 43458874457](https://github.com/aalandbartelt-cyber/embodied-cogcal/actions/runs/43458874457)
+已通过分析和 simulation 两组检查。simulation 使用全新的 Ubuntu 22.04 / Python 3.12，
+安装 `libosmesa6` 和固定仿真依赖，重新获取固定版本官方资产，使用 OSMesa 实际运行
+物理、RGB、视频和逐步日志测试。该结果补充本地 EGL 验证，不代表 A100 模型环境已验收。
+
 ## 没有证明的事项
 
 没有证明抓取能力、真实任务准确率、VLA 交互效应或真机一致性。当前放置谓词不含

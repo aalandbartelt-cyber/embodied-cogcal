@@ -15,7 +15,15 @@
 - 场景任务：修复 goal 重置；实现不泄漏真值的 RGB/关节观测、六关节 rad 动作和稳定放置谓词。
 - 探针：跨种子 ID 唯一；红蓝候选、明确当前任务和可重建 placements；延迟参数未声称已经执行。
 - 集成：分析环境 135 passed / 9 optional MuJoCo skipped；独立仿真环境 16 passed、没有跳过；EGL 30帧/1秒 MP4+trace 已实际生成并检查。
-- OSMesa 本地缺 libOSMesa，已定位为系统依赖；CI 显式安装后验证，当前尚待云端运行。
+- OSMesa 本地缺 libOSMesa，已定位为系统依赖；CI 显式安装后已实际通过物理及渲染测试。
 - 已完成只读复核：修复 scripted runner 硬链接输出别名，避免误覆盖原场景。
 - 最终本地回归：148 passed / 9 optional skipped；独立 EGL 仿真 16 passed；Ruff 与 diff --check 均通过。
 - 汇总新增 episode 身份判重，避免重复行污染分母和置信区间；全部无 ID 的旧格式仅兼容，不作为正式实验数据格式。
+
+## 阶段收尾
+
+- `afe481f` 已提交并推送集成分支；main 已快进合并同一代码，无合并差异。
+- 云端 CI `43458874457` 的 `test (3.10)` 和 `simulation` 均成功。
+- simulation 从空环境安装系统渲染库、固定依赖并获取官方资产，避免只在已有本地环境可用。
+- 部署前准备已达到验收边界。后续按 `docs/NEXT_A100.md` 在 A100 加载模型并执行策略冒烟；
+  SO-101 本体兼容策略/动作适配、ECCBF 实际收益、查新结论和真机证据仍待验证。
