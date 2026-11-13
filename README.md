@@ -52,13 +52,16 @@ make test        # 文档归档与路径测试
 embodied-cogcal/
 ├── docs/
 │   ├── 具身认知标定_研究方向形成全记录_20261112.md   # 主记录（含六份子文档与 W1 清单）
+│   ├── CORE_HYPOTHESIS.md                         # ECCBF 核心假设与声称边界
+│   ├── ROADMAP.md                                 # 仿真—SO-101 路线
+│   ├── prior-art/                                  # 查新记录与差异矩阵
 │   ├── README.md                                   # 文档索引与阅读顺序
 │   ├── environment.md                              # 本地环境说明
 │   └── reference/                                  # 9 份参考笔记 + SHA256
-├── configs/local.yaml        # 本地角色、路径、W1 关键参数
-├── probes/                   # 偏差探针定义（W2 开始填充）
-├── analysis/                 # 分析脚本与统计契约（W2 开始填充）
-├── experiments/              # 实验日志模板与运行记录
+├── configs/                  # 本地环境与 SO-101 实验配置
+├── probes/                   # ECCBF 四格因子探针定义
+├── analysis/                 # 指标、统计契约与 episode 汇总脚本
+├── experiments/              # 实验日志模板与 SO-101 运行约定
 ├── results/
 │   ├── figures/
 │   └── videos/
@@ -94,13 +97,16 @@ W1 的完整八步、验收清单和常见坑见主记录第七部分（W1 环�
 
 - [x] 独立项目目录与 `cogcal` 环境
 - [x] 主记录 + 9 份参考文档归档（SHA256 固定）
-- [ ] A100 账号/资源申请与 `openvla` 环境（平台侧执行）
-- [ ] LIBERO 冒烟 + EGL 渲染 + 首条视频（平台侧）
-- [ ] W2：分析契约（偏差指数、条件、样本量、检验）与锚定/WYSIATI 探针设计（本地起草）
+- [x] A100 账号/资源已确认（模型运行仍在平台侧）
+- [ ] SO-101 数字孪生与 SO-101 兼容模型冒烟
+- [x] ECCBF 核心假设、查新记录模板、四格探针和统计契约已落地
+- [ ] Pilot：确认语义×执行交互项与任务成功率下降
+- [ ] 正式仿真矩阵与 SO-101 真机外部效度验证
 
-公开路线图见 [docs/ROADMAP.md](docs/ROADMAP.md)。当前采用 B 方案：锚定效应 + WYSIATI，
-先用一个模型跑通最小科学闭环，再用第二个模型做验证性复现。第一版主结果来自
-LIBERO/MuJoCo；SO-101/LeRobot 低成本真机只作为后续外部效度验证，不替代仿真主实验。
+公开路线图见 [docs/ROADMAP.md](docs/ROADMAP.md)。当前 B 路线的核心是
+**具身条件化认知偏差场（ECCBF）**：在同一 SO-101 数字孪生和真实 SO-101 上，分解
+语义冲突、执行误差及其交互项，并以任务成功率提升作为主结果。LIBERO/OpenVLA 作为
+次级可比基准，不替代同体仿真—真机主线。
 
 ## 7. 三条纪律
 

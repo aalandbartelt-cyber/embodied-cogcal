@@ -1,0 +1,32 @@
+version: 1
+unit: episode
+pairing:
+  key: [task_id, scene_id, seed]
+  require_same_initial_state: true
+
+primary_endpoint:
+  name: task_success
+  type: binary
+  comparison: paired_success_difference
+
+mechanism_endpoints:
+  - name: semantic_bias
+    formula: mean(action_conflict_nominal) - mean(action_neutral_nominal)
+  - name: execution_bias
+    formula: mean(action_neutral_perturbed) - mean(action_neutral_nominal)
+  - name: interaction_bias
+    formula: mean(action_conflict_perturbed) - mean(action_conflict_nominal) - mean(action_neutral_perturbed) + mean(action_neutral_nominal)
+  - name: nominal_retention
+    formula: success_rate_corrected_nominal - success_rate_raw_nominal
+
+statistics:
+  success_ci: wilson
+  continuous_test: paired_wilcoxon
+  binary_test: exact_mcnemar_or_paired_bootstrap
+  effect_size: paired_difference_and_confidence_interval
+  correction: holm
+
+exclusion:
+  mark_only: [render_failure, timeout, hardware_safety_stop, missing_observation]
+  never_silently_drop: true
+  report_before_after_n: true

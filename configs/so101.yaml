@@ -1,0 +1,35 @@
+project: embodied-cogcal
+route: eccbf_same_embodiment
+
+policy:
+  primary_family: smolvla
+  primary_robot: so101_follower
+  freeze_policy_during_calibration: true
+  optional_secondary: openvla-oft
+
+simulation:
+  engine: mujoco
+  robot_model: SO101
+  scene_source: TheRobotStudio/SO-ARM100/Simulation/SO101
+  semantic_conditions: [neutral, conflict]
+  execution_conditions: [nominal, perturbed]
+  pilot_episodes_per_cell: 10
+  formal_episodes_per_cell: 50
+  seeds: [0, 1, 2]
+
+real:
+  robot: so101_follower
+  camera: fixed_rgb
+  semantic_calibration_frozen: true
+  body_transform_recalibration_allowed: true
+  episodes_per_primary_cell: 20
+  episodes_per_secondary_cell: 10
+  max_joint_speed_scale: 0.25
+  require_shadow_mode: true
+
+metrics:
+  primary: task_success
+  secondary: [semantic_bias, execution_bias, interaction_bias, nominal_retention]
+  noninferiority_margin: 0.05
+  confidence_level: 0.95
+  multiple_comparison_correction: holm
