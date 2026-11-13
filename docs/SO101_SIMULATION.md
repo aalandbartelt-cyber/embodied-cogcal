@@ -56,6 +56,16 @@ simulation/so101/eccbf_factorial_scene.xml
 相机。它是方法验证场景，不替代正式任务套件；正式实验前仍需把任务选择规则、物体尺寸、
 相机参数和初始状态写入 episode metadata。
 
+场景接口位于 `simulation/so101/scene.py`，目前提供：
+
+- `load_scene()`：加载 MJCF 并创建 `MjData`；
+- `reset_scene()`：重置机器人和红/蓝物体到确定位置；
+- `ObjectPlacement`：显式记录 evaluator-side 物体初始位置；
+- `freejoint_qpos()`：统一 free joint 位姿和单位四元数格式。
+
+该接口不调用 VLA，也不把成功标签或目标位姿传给策略；它只负责环境状态和评测器侧状态。
+明天模型 runner 接入时，策略只能读取配置允许的 RGB、机器人状态和任务指令。
+
 加载并渲染该场景：
 
 ```bash
