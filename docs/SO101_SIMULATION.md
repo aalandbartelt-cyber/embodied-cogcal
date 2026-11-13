@@ -101,6 +101,18 @@ PYTHONPATH=. python -m probes.generators.eccbf_factorial \
 这一步只生成匹配场景和条件元数据，不声称产生 VLA 结果。A100 明天部署完成后，再把
 模型动作填入相同的 episode schema。
 
+模型 rollout 与 metadata 的合并由以下脚本完成：
+
+```bash
+python -m analysis.scripts.merge_rollouts \
+  /tmp/eccbf_probe.jsonl \
+  /tmp/a100_rollouts.jsonl \
+  --output /tmp/eccbf_merged.jsonl
+```
+
+脚本会严格检查 `episode_id` 缺失、重复、额外 rollout、metadata/rollout 字段覆盖和
+privileged evaluator 字段。合并成功后再运行 `analysis/scripts/summarize_runs.py`。
+
 在没有 VLA 的情况下，可以先验证动作、视频和日志链路：
 
 ```bash
