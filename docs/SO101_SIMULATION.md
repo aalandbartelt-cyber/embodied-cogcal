@@ -101,6 +101,21 @@ PYTHONPATH=. python -m probes.generators.eccbf_factorial \
 这一步只生成匹配场景和条件元数据，不声称产生 VLA 结果。A100 明天部署完成后，再把
 模型动作填入相同的 episode schema。
 
+在没有 VLA 的情况下，可以先验证动作、视频和日志链路：
+
+```bash
+conda activate cogcal-sim
+export MUJOCO_GL=egl
+export MUJOCO_EGL_DEVICE_ID=0
+python scripts/run_so101_scripted_rollout.py \
+  --steps 120 \
+  --video /tmp/so101_scripted_smoke.mp4 \
+  --trace /tmp/so101_scripted_smoke.jsonl
+```
+
+该 rollout 明确标记为 `scripted_plumbing_smoke_only`，不计入任务成功率，也不作为论文
+结果；它只验证明天模型 action 能够替换到同一动作/视频/trace 接口。
+
 ## A100 接入点
 
 明天 A100 部署完成后，不重新找模型或重建任务：
