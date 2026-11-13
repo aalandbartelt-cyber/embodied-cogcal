@@ -15,6 +15,7 @@ results/videos/*
 data/
 datasets/
 checkpoints/
+third_party/SO-ARM100/
 *.safetensors
 *.pt
 *.pth
