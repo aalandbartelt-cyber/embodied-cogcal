@@ -10,7 +10,7 @@
   "selected_sections_read": 17,
   "markdown_files_checked": 35,
   "manuscript_citation_occurrences": 34,
-  "local_file_links_checked": 126,
+  "local_file_links_checked": 127,
   "checks": [
     "unique citation IDs",
     "catalog/BibTeX/RIS title, author count, year, DOI and RIS URL correspondence",

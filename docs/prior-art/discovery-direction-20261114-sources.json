@@ -332,6 +332,105 @@
       "date": "2026/10/20",
       "url": "https://arxiv.org/abs/2610.28019v1",
       "response_sha256": "7322bbaa04e532b61308106acda41e49236d1228ce65bcfc2f0b501c94094aaf"
+    },
+    {
+      "version": "2608.02453v1",
+      "title": "Certifying Plans under Model Mismatch: A Trilemma for Reachability from Scarce Data",
+      "authors": [
+        "Huang, Yanliang",
+        "Zhang, Zhen",
+        "Hafez, Ahmad",
+        "Wu, Wenyuan",
+        "Xie, Peng",
+        "Zeng, Zhuoqi",
+        "Alanwar, Amr"
+      ],
+      "date": "2026/08/03",
+      "version_date": "2026/08/03",
+      "url": "https://arxiv.org/abs/2608.02453v1",
+      "response_sha256": "070f57cddf7800bc47d9c7b909f3d43bec0adafed3eeff319eb24b5dd9d9aeb0",
+      "read_level": "selected_sections: 2-4, Algorithm 1, 5.3, I.4",
+      "publication_status": "versioned_arxiv_source; no venue inferred from search index",
+      "fulltext_html_sha256": "f5315ca56c6f77ba37a7c56beee2c51c5c6ac1ab10fb2cdb8a8150a06f8756e1"
+    },
+    {
+      "version": "2603.20672v1",
+      "title": "Towards Certified Sim-to-Real Transfer via Stochastic Simulation-Gap Functions",
+      "authors": [
+        "Sangeerth, P",
+        "Lavaei, Abolfazl",
+        "Jagtap, Pushpak"
+      ],
+      "date": "2026/03/21",
+      "version_date": "2026/03/21",
+      "url": "https://arxiv.org/abs/2603.20672v1",
+      "response_sha256": "f636d3d107b19185f2b8eb479948419295d5321854e319803bdcb98ed79fb60b",
+      "read_level": "selected_sections: II-IV; expectation gap distinguished from pathwise bound",
+      "publication_status": "versioned_arxiv_source; no venue inferred from search index",
+      "fulltext_html_sha256": "7d54a496c3ece041daf0b4b10fb8ce7134cb34b72fd5a1ad939831b059313f10"
+    },
+    {
+      "version": "2610.08917v1",
+      "title": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
+      "authors": [
+        "Liu, Rui",
+        "Zheng, Tong",
+        "Gu, Jindong",
+        "Wang, Zhipeng"
+      ],
+      "date": "2026/10/06",
+      "version_date": "2026/10/06",
+      "url": "https://arxiv.org/abs/2610.08917v1",
+      "response_sha256": "ef6b78b12d356563dbc0a2670c3bfd0c012476b3008551b365f83410e9ac8920",
+      "read_level": "selected_sections: 3 and A.5-A.6",
+      "publication_status": "versioned_arxiv_source; no venue inferred from search index",
+      "fulltext_html_sha256": "418cef1bab9fd567c7ded209c0a78caeefc86600a2b7a4a5e72998370cc458ca"
+    },
+    {
+      "version": "2203.15661v1",
+      "title": "Temporal Robustness of Temporal Logic Specifications: Analysis and Control Design",
+      "authors": [
+        "Rodionova, Alëna",
+        "Lindemann, Lars",
+        "Morari, Manfred",
+        "Pappas, George J."
+      ],
+      "date": "2022/03/29",
+      "version_date": "2022/03/29",
+      "url": "https://arxiv.org/abs/2203.15661v1",
+      "response_sha256": "4c71eebb811118b7fb092d10ece8c8682dfd00152602ae4e3adfa5f6fd08ff4d",
+      "read_level": "selected_sections: 3-6; abstract and section definitions",
+      "publication_status": "versioned_arxiv_source; no venue inferred from search index"
+    },
+    {
+      "version": "2603.29868v1",
+      "title": "Spatiotemporal Robustness of Temporal Logic Tasks using Multi-Objective Reasoning",
+      "authors": [
+        "Schön, Oliver",
+        "Lindemann, Lars"
+      ],
+      "date": "2026/01/28",
+      "version_date": "2026/01/28",
+      "url": "https://arxiv.org/abs/2603.29868v1",
+      "response_sha256": "86aca3dc184f727bc4f0ca3c7911dca20dba035e66a4cc238f969ff7a62eee9b",
+      "read_level": "selected_sections: 2-4; abstract and formal specification",
+      "publication_status": "versioned_arxiv_source; no venue inferred from search index",
+      "metadata_note": "Original citation_date and HTML say 2026/01/28 although identifier begins 2603; preserved source fields without guessing a correction."
+    },
+    {
+      "version": "2309.10874v2",
+      "title": "Guarantees on Robot System Performance Using Stochastic Simulation Rollouts",
+      "authors": [
+        "Vincent, Joseph A.",
+        "Feldman, Aaron O.",
+        "Schwager, Mac"
+      ],
+      "date": "2023/09/19",
+      "version_date": "2024/06/13",
+      "url": "https://arxiv.org/abs/2309.10874v2",
+      "response_sha256": "c1578ce0bc0e8c3decb360ea9682a22cb4a5cf76b8b157d41b88d427e0e530a6",
+      "read_level": "selected_sections: III, VI-VIII",
+      "publication_status": "versioned_arxiv_source; no venue inferred from search index"
     }
   ],
   "github_sources": [
@@ -379,7 +478,61 @@
       "repository": "Chaowei-Cui/PACT-VLA",
       "url": "https://github.com/Chaowei-Cui/PACT-VLA",
       "license": "not reported by GitHub",
-      "checked": "gh search repos; source repository exists, license/runtime not independently verified"
+      "checked": "GitHub search result exists; author identity, official status, license and runtime not independently verified"
+    },
+    {
+      "repository": "Archerkattri/actionabi",
+      "url": "https://github.com/Archerkattri/actionabi",
+      "commit": "93cf1e154c949565a0069441fc05ed5ef9e311c0",
+      "license": "MIT",
+      "checked": "cloned pinned HEAD; LICENSE and named source sections read; not built or benchmarked",
+      "files_read": [
+        {
+          "path": "src/identifiability.cpp",
+          "sha256": "7c41d3ce3eb7aef67c4de2b5949d90f06b0b3fbf256e769de0bef9146481af62"
+        },
+        {
+          "path": "src/converter.cpp",
+          "sha256": "0f67286e6defe5eb56ddeeb66197fbb000b20414b35b169e1d670e8f81d99e27"
+        }
+      ]
+    },
+    {
+      "repository": "Archerkattri/actionshift",
+      "url": "https://github.com/Archerkattri/actionshift",
+      "commit": "999159581e2d3a30d899a53b4ada386122c6d806",
+      "license": "MIT",
+      "checked": "cloned pinned HEAD; LICENSE and named source sections read; not built or benchmarked",
+      "files_read": [
+        {
+          "path": "src/actionshift/adaptation/dualabi_adapter.py",
+          "sha256": "c603ffac54a7fcc5ae61de5f553e89d450ff431acc11e58478e9e3ebe24c47ae"
+        },
+        {
+          "path": "src/actionshift/envs/wrapper.py",
+          "sha256": "bcf6f0f288393e5aa6e14b1ba07146c9e05f6df21bfb21caf80fc2fdb98b5fed"
+        }
+      ]
+    },
+    {
+      "repository": "StanfordMSL/performance_guarantees",
+      "url": "https://github.com/StanfordMSL/performance_guarantees",
+      "checked": "linked from original paper; GitHub README inspected; not cloned or executed",
+      "license": "not independently checked"
     }
-  ]
+  ],
+  "additional_primary_sources": [
+    {
+      "title": "Robustness of temporal logic specifications",
+      "authors": [
+        "Georgios E. Fainekos",
+        "George J. Pappas"
+      ],
+      "year": 2006,
+      "doi": "10.1007/11940197_12",
+      "url": "https://asu.elsevierpure.com/en/publications/robustness-of-temporal-logic-specifications/",
+      "read_level": "author institution metadata and abstract only; not full-text audit"
+    }
+  ],
+  "audit_scope_note": "Discovery supplements are separate from the main 50-record bibliography. Formula/source reading is not independent replication or institutional novelty clearance."
 }

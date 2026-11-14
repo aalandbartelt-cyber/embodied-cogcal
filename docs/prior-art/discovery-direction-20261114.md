@@ -1,8 +1,13 @@
-# 研究方向发现：风险来源可辨识与干预选择
+# 研究方向发现记录：候选形成与淘汰
 
 日期：2026-11-14。本文是第二轮候选发现，不是机构科技查新报告，也不是已证明的新方法。
 固定约束：低成本 SO-101、A100、同体仿真—真机；研究问题可以更换。
 《思考，快与慢》的“快判断/慢验证”与工业精度补偿只作问题启发，不把心理学名称或平台当成贡献。
+
+**当前状态：本页曾推荐的风险来源 A、动态契约 D、任务裕度证书 D′均未通过选题门槛。**
+用户选择继续深审 D 后，核到 ForeReach 已有动态误差集合与任务安全距离的认证/拒绝，
+CARE 已有 VLA 整回合统计认证，ActionABI/ActionShift 相关机制也有源码。
+最新依据见 [D 深审第 9 节](deep-audit-executable-spec.md)；本页早期机会卡只保留为过程记录，不是当前推荐。
 
 ## 先淘汰的三类新候选
 
@@ -14,7 +19,7 @@
 
 这些淘汰不表示具体方法逐行相同；它们说明只改平台、增加一个 verifier、加一个 residual 或把 System 1/System 2 改名，不能通过核心创新门槛。
 
-## 正向机会卡：来源分解的风险校准
+## 历史机会卡：来源分解的风险校准（后续已降级）
 
 ### 研究问题
 
@@ -122,30 +127,32 @@ both             -> stop or human/teacher referral
 
 ## 机会判断与红队门槛
 
-### 当前排名
+### 当前裁决
 
-1. **候选 D（首要深审）**：动态 executable-policy specification 与同体等价证书，见下一节；与工业精度补偿自然相连，但仍需排除经典系统辨识和近邻拼接。
+1. **候选 D / D′（停止现有核心主张）**：契约识别被 ActionABI/ActionShift 覆盖；误差界—任务margin—预执行拒绝被 ForeReach/STL 直接覆盖。完整闭环风险另有 CARE。
 2. **候选 B（备选）**：SO-101失败/恢复评测的可复现MuJoCo扩展。可形成开源资产和数据，但benchmark本身不是核心机制，除非找到新的可验证评价对象；不作为论文方法首选。
 3. **候选 A（降级）**：来源可辨识风险校准，已被 PATCH/CommitFlow/ReTrace 等直接近邻显著压缩，不再作为主推荐。
 4. **候选 C（停止）**：记忆撤回、热补偿、慢推理、普通动作不确定性，均已有直接工作。
 
-### 在主推荐前必须完成的三项检查
+### D′ 当时的检查要求（现已触发淘汰）
 
-1. 逐式核查 Same Weights 的 static certificate、FAN、TeAR、PolicyIK、经典系统辨识/鲁棒控制，确认候选 D 的动态证书不是现成方法的改名。
-2. 检查近两年 VLA 论文和 GitHub 是否已有 dynamic executable-equivalence certificate 或同一 checkpoint 的 action-chunk/controller mismatch 证书；若有，候选 D 立即淘汰或改成其未覆盖的精确条件。
-3. 在 MuJoCo 先做不依赖大模型的 command-to-achieved dynamic mapping 反例；若静态 metadata、固定短chunk或普通线性补偿已经给出同等证书/收益，候选 D 不得立项。
+1. 逐式核查 Same Weights 的 static certificate、ActionABI/ActionShift、FAN、TeAR、PolicyIK、经典系统辨识/鲁棒控制，确认候选 D′不是现成方法的改名。
+2. 检查近两年 VLA 论文和 GitHub 是否已有 task-margin physical-fidelity certificate；若有，候选 D′立即淘汰或改成其未覆盖的精确条件。
+3. 在 MuJoCo 先做不依赖大模型的 command-to-achieved dynamic mapping 和 task-margin 反例；若静态 metadata、固定短chunk或普通线性补偿已经给出同等证书/收益，候选 D′不得立项。
 
-特别要核对 Phys2Real 和稳定残差控制：它们使“物理参数不确定性融合”和“有界执行补偿”不能再被当作候选 D 的独立贡献。
+特别要核对 Phys2Real、稳定残差控制和DVIDIA paired-trace gate：它们使“物理参数不确定性融合”“有界执行补偿”“轨迹比对”不能再被当作候选 D′的独立贡献。
 
-### 暂定决定
+### 最新决定
 
-候选 D 是目前最值得继续投入 1 个查新—否证周期的方向，**不是“查新通过”**。它比原 ECCBF 更贴近工业精度补偿与 SO-101 的真实部署障碍，中心证据是动态可执行等价证书和同体验证；但只要核心增量退化为 Same Weights+FAN+TeAR+PolicyIK 的模块拼接，就必须换题。
+已完成用户选定的 D 深审，**撤回 D′ 首推荐并停止现有方法主张**。
+Same Weights 自身 §4.4 已定义局部 action margin，ForeReach 更直接给出稀少数据的动态可达集认证与拒绝。
+研究目标仍是找到有可辨认核心增量的方向；没有把资料整理或淘汰旧题当成目标完成。
 
-## 候选 D：组合式动态可执行策略规范与同体等价证书（待深审）
+## 历史候选 D′：任务 margin 校准的真实物理 fidelity certificate（已停止）
 
 ### 中心问题
 
-同一个 checkpoint、提示和场景，在仿真与真实 SO-101 上可能因反归一化、关节零点/单位、控制频率、action chunk 保留、延迟、限幅和机械跟踪而产生不同物理策略。研究目标是估计这种动态执行映射差异，给出 rollout 前可检查的偏差/风险证书，并在证书超界时执行受限补偿或拒绝部署。
+同一个 checkpoint、提示和场景，在仿真与真实 SO-101 上可能因反归一化、关节零点/单位、控制频率、action chunk 保留、延迟、限幅和机械跟踪而产生不同物理轨迹。研究目标不是恢复隐藏契约，而是估计同一命令历史下的真实物理偏差，给出与任务/接触 margin 相关、可在 rollout 前检查的风险证书，并在证书超界时拒绝部署或进入受限补偿。
 
 它不是重新做坐标标定：论文的核心对象是**可执行策略的等价性**，主终点是组合证书对真实任务风险的预测覆盖和拒绝/补偿决策，而非单次成功率。
 
@@ -158,6 +165,7 @@ both             -> stop or human/teacher referral
 - [SO-101 Bench](https://arxiv.org/html/2610.36420v1) 证明仿真可保持策略排名但高估成功率；没有 certificate 或补偿机制。
 - [RTC](https://arxiv.org/abs/2506.07339)、[RACE](https://arxiv.org/abs/2610.05719)、[PACT-VLA](https://arxiv.org/abs/2610.28019) 已覆盖异步推理、长chunk切换、延迟下预提交候选选择；它们必须作为强运行时对照，候选D不能重复调度算法。
 - [Provael](https://github.com/provael/provael) 已将真实加载的 unnormalizer、chunk、clamp 和 controller convention 写入 deployed-policy digest；因此增加 manifest 字段本身不构成 D 的贡献。
+- [ActionABI](https://github.com/Archerkattri/actionabi) / [ActionShift](https://github.com/Archerkattri/actionshift) 已覆盖隐藏 action contract 的离线等价类/拒绝和在线有限探针适配；D′不再声称恢复、识别或适配通用 action contract。
 
 ### 最小可证伪实验
 
@@ -172,7 +180,7 @@ certificate = bound(e_exec, delay, gain, clip, measurement noise)
 
 对照必须包括：原始冻结策略、静态 metadata/零点检查、固定短 chunk、经典线性系统辨识或 DOB、受限补偿和拒绝部署。TeAR/PolicyIK只在信息和接口匹配时作为附加对照；oracle 映射只作上界。
 
-候选 D 在以下任一情况立即淘汰：静态 ExecSpec 已预测全部风险；固定短 chunk/零点校准/经典 DOB/RTC/RACE/PACT 同样有效；证书在未见布局失效；真机差异主要来自策略不会做而非执行接口；或动态证书只是把已有系统辨识输出换一个名字。
+候选 D′在以下任一情况立即淘汰：静态 ExecSpec 或 ActionABI 已预测全部风险；固定短 chunk/零点校准/经典 DOB/RTC/RACE/PACT 或 DVIDIA paired-trace gate 同样有效；证书在未见布局失效；真机差异主要来自策略不会做而非执行接口；或 task-margin certificate 只是已有系统辨识输出换一个名字。
 
 ### 可行性
 
@@ -183,4 +191,6 @@ certificate = bound(e_exec, delay, gain, clip, measurement noise)
 
 ### 当前状态
 
-**继续一轮公式级查新和无模型仿真否证；暂不写方法名、暂不采购新传感器、暂不启动大规模训练。** 若 D 通过经典系统辨识/控制和最近VLA action-interface红队，再形成设计文档；否则继续换题。
+**该轮深审已经完成，结果是停止 D / D′ 当前核心主张。**
+仿真 tracking 预检仍仅是共用工程证据；不继续为已被覆盖的证书表述扩大实验。
+后续必须从具体信息条件与已有机制的失效出发重新发现问题，不能只追加“接触/部分可观测/在线”等限定词。

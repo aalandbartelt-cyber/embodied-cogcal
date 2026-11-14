@@ -9,7 +9,8 @@
 19. [x] 扩大候选池：独立检索执行补偿、认知/记忆纠偏、选择性推理/验证三类问题，包含经典直接解法和GitHub实际状态。
 20. [x] 对候选作第一轮正向机会筛选：淘汰TeAR/REMM/CoVer/Pre-VLA/DiVeR/PATCH/CommitFlow等宽题，形成风险来源候选及动态executable-policy候选。
 21. [ ] 深审最有希望的2–3个候选：原文逐式、引用链、代码/资产/许可/资源，独立红队；被覆盖则换问题而非仅改名。
-    当前先审 D 动态 executable-policy 证书；风险来源 A 已因 PATCH/CommitFlow/ReTrace 降级。
+    D / D′ 已完成此次原文/源码深审并停止现有核心主张（ForeReach/CARE/ActionABI/ActionShift）；
+    风险来源 A 已因 PATCH/CommitFlow/ReTrace 降级。尚需正向机会发现，不能把全部否决当成选题完成。
 22. [ ] 形成主推荐与备选，给出同一SO-101仿真—真机任务和可产出证据链；验证关键实现/规模前提，不预填实验结论。
 23. [ ] 按完整目标审计：只有真实证据支持核心差异、可行性与先进性才确定方向；未满足时保持目标active，继续研究。
 

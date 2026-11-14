@@ -1,0 +1,62 @@
+{
+  "kind": "deterministic_analytical_audit_not_robot_or_VLA_experiment",
+  "purpose": "check counterexamples and sampling arithmetic used in executable-spec audit",
+  "sample_max_counterexample": {
+    "sample_locations": [
+      -1,
+      0,
+      1
+    ],
+    "residual_formula": "r_K(z)=K*z^2*(z-1)^2*(z+1)^2",
+    "K": 1,
+    "sample_values": [
+      0,
+      0,
+      0
+    ],
+    "unseen_z": 0.5,
+    "unseen_residual": 0.140625
+  },
+  "open_loop_vs_feedback": {
+    "plant": "x_next=x+u",
+    "same_initial_state": 0,
+    "frozen_policy": "u=sign(o)",
+    "observations": [
+      0.001,
+      -0.001
+    ],
+    "plant_same_command_gap": 0,
+    "next_states": [
+      1,
+      -1
+    ],
+    "next_state_distance": 2
+  },
+  "selection_counterexample": {
+    "acceptance_probability": 0.01,
+    "marginal_coverage": 0.99,
+    "miscoverage_given_acceptance": 1.0
+  },
+  "zero_failure_iid_bernoulli": [
+    {
+      "candidates": 1,
+      "per_candidate_delta": 0.05,
+      "target_failure_probability": 0.05,
+      "n_zero_failure_complete_episodes": 59,
+      "one_sided_upper_bound": 0.049507609888227,
+      "upper_at_n_minus_one": 0.05033933833042015
+    },
+    {
+      "candidates": 10,
+      "per_candidate_delta": 0.005,
+      "target_failure_probability": 0.05,
+      "n_zero_failure_complete_episodes": 104,
+      "one_sided_upper_bound": 0.04966940415125787,
+      "upper_at_n_minus_one": 0.05013933582356467
+    }
+  ],
+  "limitations": [
+    "Toy algebra only; no physical execution, controller identification or learned-policy evaluation.",
+    "Sample calculation assumes fixed policy and IID complete Bernoulli episodes; not a universal minimum for sequential or paired designs."
+  ]
+}

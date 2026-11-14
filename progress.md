@@ -87,3 +87,12 @@
 - 两位独立审阅者核总裁决与探索草案：无P0，已修正optimizer/buffer冻结推理不可识别、真机机械carry-over、实际随机分配和无更新单元不得事后选择删除四处执行边界。
 - 结构脚本实际通过；ruff通过；分析回归148 passed、9 optional MuJoCo skipped。本轮未修改物理仿真代码，未把跳过项计为物理验收。
 - 补充BibTeX/RIS各31条、SuperMimic BibTeX两条读回通过；31记录原始元数据/版本对应、下游5个固定源码hash与结构审计hash检查通过。
+
+## 用户选定 D 的后续深审
+
+- 完成 ForeReach 原文 §2–4/Algorithm 1/§5.3、CARE §3/A.5–A.6 和经典任务鲁棒性/rollout保证的定向核查；拒绝以动态误差界＋任务margin＋拒绝部署作为当前新机制。
+- 直接读 ActionABI/ActionShift 固定源码，区分实际实现、README实验报告与尚未独立复现的性能；两项目 MIT LICENSE 已读取。
+- 撤回 D/D′ 首推荐；更新 ROUTE_DECISION 和候选发现页，接触探索也没有自动恢复为主推荐。
+- 更正 Same Weights 仿射位移漏项/已有 local margin 与 RoboStress 模型归属；审计稿明确保留历史推演与当前裁决边界。
+- 新增6篇原始版本元数据，discovery补充现27条arXiv/10项GitHub；分析反例与样本规模核算单列JSON，不记机器人实验。
+- 这是一次完成的候选深审，完整“确定有先进性、可行性和核心增量的研究方向”目标仍active。

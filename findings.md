@@ -79,3 +79,15 @@
 - 现有MuJoCo场景只读预检：6关节×2方向×6执行窗共72条记录；1步窗最大跟踪误差0.079734rad，25步窗平均绝对误差0.011424rad，100步窗最大误差0.000829rad。证据 `experiments/so101/dynamic-interface-precheck.json`，仅证明可观测动态接口，不证明sim-real或VLA效果。
 - 新查到 RACE（2610.05719）、PACT-VLA（2610.28019）和RTC（2506.07339）已覆盖长chunk transition/异步延迟/预提交候选选择；候选D不再包含chunk调度，改为组合式静态+动态 executable-equivalence certificate，并将三者列强对照。
 - Provael开源Apache-2.0红队框架（主分支3ad892e）已在报告schema中记录实际加载的unnormalizer、chunk、clamp和controller convention digest；候选D不能把manifest字段记录当作核心创新，必须产生可计算的动态证书/任务margin结论。
+
+## D / D′ 的最新深审裁决（取代以上推荐顺序）
+
+- 用户选择继续深审动态 executable-policy 证书。SciSpace 提供新近邻线索后，根代理核对原始 arXiv 正文与固定 GitHub 源码；没有把生成的索引摘要当最终证据。
+- **停止 D / D′ 现有核心主张。** ActionABI/ActionShift 覆盖契约等价类、拒绝和有限 probe；ForeReach（2608.02453v1）Algorithm 1 已有 sparse target transitions、residual envelope、task-projected reachable tube 与 margin 比较，缺少有效域外结构假设时必须拒绝。SO-101 真机范围差异本身不足以构成新机制。
+- CARE（2610.08917v1）已有 VLA 整回合配对负迁移风险、FWER、序贯候选认证；不能以“局部误差认证升级为闭环统计认证”再次改名。经典 MTL/STL robustness、时序/时空 robustness 与 Vincent 等 rollout 风险界进一步压缩宽题。
+- 更正实质性错误：Same Weights displacement 漏掉 z×量程差项，已按 Eq. (9) 修复；其 §4.4 已定义 local margin，不是完全未关联；RoboStress 的 friction/backlash/compliance 模型应归 Self-compensating VLA，不能归 TeAR。
+- ActionABI 93cf1e1 与 ActionShift 9991595 已克隆到临时目录，读取 LICENSE、identifiability/converter、DualABI、held-action target-update-mask 源码；本次未构建、训练或复现其性能。
+- 四个数学缺口：有限样本最大误差不等于全域上界；same-command 开环差异不等于视觉反馈闭环等价；q 接近不约束物体/接触；边际 conformal coverage 不等于选择后的接受风险。分析核算单独存档，未当机器人实验。
+- 零失败 IID Bernoulli 完整回合的示例计算：95% 置信上界小于5%，单个固定候选需59回合；10候选简单Bonferroni示例每候选104回合。这不是普遍最小样本量或已执行结果。
+- discovery sources 现为27条版本化arXiv记录、10项GitHub来源及1项经典作者机构来源；新增6篇原始元数据独立核对。主文献库50条未改动，不把二者数量混加为全文精读数。
+- SO-101、A100、MuJoCo 与日志共用资产继续保留。尚未确定可立项主方向；不将“否决完毕/资料提交”作为持续研究目标完成。
