@@ -368,6 +368,18 @@
       "url": "https://github.com/provael/provael",
       "license": "Apache-2.0",
       "checked": "gh repo view and pinned main ref; PRIOR_ART.md confirms deployed_policy digest fields"
+    },
+    {
+      "repository": "Seonghoon-Yu/RACE-VLA",
+      "url": "https://github.com/Seonghoon-Yu/RACE-VLA",
+      "license": "not reported by GitHub",
+      "checked": "gh repo view; source repository exists for action-chunk transition baseline"
+    },
+    {
+      "repository": "Chaowei-Cui/PACT-VLA",
+      "url": "https://github.com/Chaowei-Cui/PACT-VLA",
+      "license": "not reported by GitHub",
+      "checked": "gh search repos; source repository exists, license/runtime not independently verified"
     }
   ]
 }
