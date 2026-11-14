@@ -1,0 +1,204 @@
+{
+  "kind": "adaptive_followup_workspace_qualification_not_independent_hypothesis_test",
+  "results": [
+    {
+      "case_id": "layout-00-branch-0",
+      "object_initial_xyz_m": [
+        0.2,
+        -0.075,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.175,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.6365,
+      "two_jaw_lifted_steps": 5273,
+      "wall_s": 3.2521120329984115,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-00-branch-1",
+      "object_initial_xyz_m": [
+        0.2,
+        -0.075,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.225,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.635,
+      "two_jaw_lifted_steps": 5270,
+      "wall_s": 3.1905377139992197,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-01-branch-0",
+      "object_initial_xyz_m": [
+        0.195,
+        -0.08,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.175,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.6365,
+      "two_jaw_lifted_steps": 5273,
+      "wall_s": 3.232723758999782,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-01-branch-1",
+      "object_initial_xyz_m": [
+        0.195,
+        -0.08,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.225,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.635,
+      "two_jaw_lifted_steps": 5270,
+      "wall_s": 3.4850684789998922,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-02-branch-0",
+      "object_initial_xyz_m": [
+        0.195,
+        -0.07,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.175,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.6365,
+      "two_jaw_lifted_steps": 5273,
+      "wall_s": 3.270837780997681,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-02-branch-1",
+      "object_initial_xyz_m": [
+        0.195,
+        -0.07,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.225,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.635,
+      "two_jaw_lifted_steps": 5270,
+      "wall_s": 3.647731561999535,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-03-branch-0",
+      "object_initial_xyz_m": [
+        0.205,
+        -0.08,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.175,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.6365,
+      "two_jaw_lifted_steps": 5273,
+      "wall_s": 3.2789849010005128,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-03-branch-1",
+      "object_initial_xyz_m": [
+        0.205,
+        -0.08,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.225,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.635,
+      "two_jaw_lifted_steps": 5270,
+      "wall_s": 3.453488285998901,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-04-branch-0",
+      "object_initial_xyz_m": [
+        0.205,
+        -0.07,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.175,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.6365,
+      "two_jaw_lifted_steps": 5273,
+      "wall_s": 3.1062165389994334,
+      "qualified_place": true
+    },
+    {
+      "case_id": "layout-04-branch-1",
+      "object_initial_xyz_m": [
+        0.205,
+        -0.07,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.225,
+        0.075,
+        0.014
+      ],
+      "upstream_success": true,
+      "error": null,
+      "two_jaw_lifted_duration_s": 2.635,
+      "two_jaw_lifted_steps": 5270,
+      "wall_s": 3.177211456997611,
+      "qualified_place": true
+    }
+  ],
+  "qualified_places": 10,
+  "episodes": 10,
+  "data_collection_gate_passed": true,
+  "limitations": [
+    "Adaptive scene qualification, not scientific success rate.",
+    "Scripted privileged teacher only.",
+    "Object,friction,pads differ from original TPSC and unvalidated physical hardware.",
+    "All ten cases retained; no best-layout selection."
+  ]
+}

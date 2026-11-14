@@ -1,0 +1,142 @@
+{
+  "kind": "bounded_primary_source_audit_not_novelty_clearance",
+  "saved_utc": "2026-11-14T13:48:18.252263+00:00",
+  "sources": [
+    {
+      "title": "SwitchVLA",
+      "source_url": "https://arxiv.org/html/2506.03574v1",
+      "arxiv_version": "2506.03574v1",
+      "local_cache": "data/discovery/primary-papers-20261114/switchvla-v1.html",
+      "sha256": "58ea97d1f7fbc7b543a98ecad3d3fa4dda63aaabcb9092e1f0c470c5b5bc54a5",
+      "read_scope": "Sections3.1–3.3, execution-aware switching and past/current instructions",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Is Your Robot’s Memory Just a Clock?",
+      "source_url": "https://arxiv.org/html/2611.14488v1",
+      "arxiv_version": "2611.14488v1",
+      "local_cache": "data/discovery/primary-papers-20261114/memory-clock-v1.html",
+      "sha256": "1fc96a826eabcb87a650c41960ba172312c2f25eeb2af63771b85e6daa614a63",
+      "read_scope": "Sections3–6; AppendixI.2/I.5/I.6; null-event and real-sensor limitations",
+      "reproduced_performance": false
+    },
+    {
+      "title": "RePlanMem-VLA",
+      "source_url": "https://arxiv.org/html/2610.22556v1",
+      "arxiv_version": "2610.22556v1",
+      "local_cache": "data/discovery/primary-papers-20261114/replanmem-v1.html",
+      "sha256": "b244f5f4ef3c691261d430e5bb8d6279e454fd2350aabaa1cbafa9b28791bb0e",
+      "read_scope": "Sections3.1–3.7,4.3,5; D=10 includes top visual feature; task-local calibration",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Tune to Learn",
+      "source_url": "https://arxiv.org/html/2604.02523v1",
+      "arxiv_version": "2604.02523v1",
+      "local_cache": "data/discovery/primary-papers-20261114/tune-to-learn-v1.html",
+      "sha256": "f93ebb15a5b2a89031d2c7b503cc76a91ce140e2aede39d4cda4664584ba0b68",
+      "read_scope": "SectionsIV-A,V-A,V-C,AppendixA-A; TPR Eq6 and gain/noise attenuation analysis",
+      "reproduced_performance": false
+    },
+    {
+      "title": "APEX: Adaptive Policy Execution for Precise Manipulation",
+      "source_url": "https://arxiv.org/html/2606.16504v1",
+      "arxiv_version": "2606.16504v1",
+      "local_cache": "data/discovery/primary-papers-20261114/apex-v1.html",
+      "sha256": "0afc5c3e1db9287664541d4dc721bb656b42c3f275990e346ff81ee2896324c0",
+      "read_scope": "Sections3–4,5.3–5.4,6; Eq4–7; tracking objective and adaptive law",
+      "reproduced_performance": false
+    },
+    {
+      "title": "How Should Vision-Language-Action Models Use Proprioceptive State?",
+      "source_url": "https://arxiv.org/html/2608.03052v1",
+      "arxiv_version": "2608.03052v1",
+      "local_cache": "data/discovery/primary-papers-20261114/state-interface-v1.html",
+      "sha256": "aeb7af0c23f99c6a779b18fa1997bf2c5b7e0119e9d38d1589e5e89333d4c15a",
+      "read_scope": "Introduction, RQ1–3 and slot-matched repeat-current control",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Adapt Your Body",
+      "source_url": "https://arxiv.org/html/2506.23944v1",
+      "arxiv_version": "2506.23944v1",
+      "local_cache": "data/discovery/primary-papers-20261114/adapt-your-body-v1.html",
+      "sha256": "54b88c1aa843cba55549c3f6e25ebc1c4c0376f277a08548af1c8de8b8f25b51",
+      "read_scope": "Section3.2.1–3.2.3; Wasserstein/noise two-pass training; bounded original equation review",
+      "reproduced_performance": false
+    },
+    {
+      "title": "EventVLA",
+      "source_url": "https://arxiv.org/html/2606.20092v2",
+      "arxiv_version": "2606.20092v2",
+      "local_cache": "data/discovery/primary-papers-20261114/eventvla-v2.html",
+      "sha256": "fd31eefa46877242ee1e238d370957ad8b598c95f91be01e5ac71689ce91987d",
+      "read_scope": "Sections3.1–3.3, AppendixA keyframe labels and future-chunk probabilities",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Mind the Gap: Learning Implicit Impedance via Intent-Execution Mismatch",
+      "source_url": "https://arxiv.org/html/2602.08776v1",
+      "arxiv_version": "2602.08776v1",
+      "local_cache": "data/discovery/primary-papers-20261114/mind-the-gap-v1.html",
+      "sha256": "fdd9e46228c6c992c5e900b2d29e43cbc4093c829af9cb981236983f82f4c7bb",
+      "read_scope": "SectionsIII-A/B, AppendixB-A; master vs slave, mismatch as force information",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Taming VLAs under Robot Execution Errors",
+      "source_url": "https://arxiv.org/html/2609.37334v1",
+      "arxiv_version": "2609.37334v1",
+      "local_cache": "data/discovery/primary-papers-20261114/selfcomp-v1.html",
+      "sha256": "3450073afba3540f478884272e1c78c3c1f3486c81982f9dce467482baa77f8b",
+      "read_scope": "Sections3 and AppendixB.6; correction target, LoRA buffers and pre-DOB residual convention",
+      "reproduced_performance": false
+    },
+    {
+      "title": "When would Vision-Proprioception Policies Fail in Robotic Manipulation?",
+      "source_url": "https://arxiv.org/html/2602.12032v1",
+      "arxiv_version": "2602.12032v1",
+      "local_cache": "data/discovery/primary-papers-20261114/gap-v1.html",
+      "sha256": "b563d5e797e4ad34c238174070ed45c9b28aeeb129cca73a61bf31da7e3a83bc",
+      "read_scope": "Sections3–4; controlled stage intervention, motion CPD and phase-conditioned gradient Eq5",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Measuring the Stability Assumption Behind Action Chunking",
+      "source_url": "https://arxiv.org/html/2610.01626v1",
+      "arxiv_version": "2610.01626v1",
+      "local_cache": "data/discovery/primary-papers-20261114/action-stability-v1.html",
+      "sha256": "9ab34ef235401c5b687c69f710a728bf4792d35d34597a7ffc66f1bc6360e24e",
+      "read_scope": "Sections3.1–3.3 and5; paired OL/CL perturbation probes and fitting-window limitations",
+      "reproduced_performance": false
+    },
+    {
+      "title": "TRACT",
+      "source_url": "https://arxiv.org/html/2607.29285v2",
+      "arxiv_version": "2607.29285v2",
+      "local_cache": "data/discovery/primary-papers-20261114/tract-v2.html",
+      "sha256": "3d8297be5b999f77408b79d01a6e03e8b88400ab7ff588d7ae319ca9ddcfb200",
+      "read_scope": "SectionsIII-A–D andIV; monotone future phase routing and response-deficit integrator",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
+      "source_url": "https://arxiv.org/html/2608.02547v1",
+      "arxiv_version": "2608.02547v1",
+      "local_cache": "data/discovery/primary-papers-20261114/why-chunking-v1.html",
+      "sha256": "6e5f20bc05722845b51a40346ef8c085ecb14761bb9a4ecf4419cf0e6218fba6",
+      "read_scope": "Abstract,Introduction,Sections5–7,AppendixC; bounded mechanism review not all proofs",
+      "reproduced_performance": false
+    },
+    {
+      "title": "Revisiting Open-Loop Execution in Robotics",
+      "source_url": "https://arxiv.org/html/2608.15938v1",
+      "arxiv_version": "2608.15938v1",
+      "local_cache": "data/discovery/primary-papers-20261114/revisiting-open-loop-v1.html",
+      "sha256": "fb72939ed83aab6b53cee36ffb2f1faad3e0b2f9a2abfbe2e6bcb115c5bb65c7",
+      "read_scope": "Abstract,Introduction andSection5; bounded read not full appendix",
+      "reproduced_performance": false
+    }
+  ],
+  "last_updated_utc": "2026-11-14T14:12:27.220771+00:00"
+}

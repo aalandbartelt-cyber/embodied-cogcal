@@ -1,0 +1,105 @@
+"""Collect matched ordinary BC data, after physical teacher qualification.
+
+Failed teacher episodes remain in metadata and cause collection to stop;
+they are never silently dropped or turned into successful demonstrations.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import time
+from pathlib import Path
+
+import numpy as np
+from carrier import FPS, REVISION, STEPS, TASK, Carrier, split_seeds
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--qualification", type=Path, required=True)
+    parser.add_argument("--data", type=Path, required=True)
+    parser.add_argument("--records", type=Path, required=True)
+    args = parser.parse_args()
+    qualification = json.loads(args.qualification.read_text())
+    if not qualification["passed"] or qualification["episodes"] != 4:
+        parser.error("four-case physical 30Hz teacher qualification required")
+    source_hash = hashlib.sha256(Path(__file__).with_name("carrier.py").read_bytes()).hexdigest()
+    plan = json.loads(args.qualification.with_name("qualification-plan.json").read_text())
+    if plan["carrier_sha256"] != source_hash:
+        parser.error("carrier changed after qualification")
+    args.data.mkdir(parents=True, exist_ok=False)
+    args.records.mkdir(parents=True, exist_ok=False)
+    carrier = Carrier()
+    contract = {
+        "kind": "matched_single_task_rgb_q_bc_demonstrations_not_tpsc",
+        "source_revision": REVISION, "carrier_sha256": source_hash,
+        "fps": FPS, "steps": STEPS, "task": TASK,
+        "camera_fps": 5, "camera_refresh_control_stride": 6,
+        "image_time": "latest camera refresh at or before current control; age logged",
+        "renderer": "EGL Mesa llvmpipe; shadows/reflections/fog disabled in render only",
+        "state_action_units": "six absolute joint radians, including hinge gripper",
+        "camera_order": ["front", "top"], "cameras": carrier.camera_settings,
+        "render_resolution": [128, 128],
+        "policy_inputs": ["two RGB images", "measured six robot joint positions", "constant task"],
+        "excluded_policy_inputs": ["object pose", "goal pose", "teacher phase", "elapsed time"],
+        "split_seeds": {s: split_seeds(s) for s in ["train", "val", "test"]},
+        "test_demonstrations_collected": False,
+        "limitations": [
+            "Single constant instruction; does not establish language understanding.",
+            "External collision pads/friction not validated on physical hardware.",
+            "Small workspace; no broad manipulation generalization claim.",
+        ],
+    }
+    (args.records / "collection-contract.json").write_text(json.dumps(contract, indent=2) + "\n")
+    total = 0
+    try:
+        with (args.records / "episodes.jsonl").open("x") as output:
+            for split in ["train", "val"]:
+                for seed in split_seeds(split):
+                    start = time.monotonic()
+                    carrier.reset(seed)
+                    targets = carrier.teacher_actions()
+                    images, joints, commands, ages = [], [], [], []
+                    rgb = None
+                    for control_step, target in enumerate(targets):
+                        refresh = control_step % 6 == 0
+                        observation = carrier.observe(images=refresh)
+                        if refresh:
+                            rgb = observation["rgb"]
+                        images.append(rgb)
+                        ages.append(control_step % 6)
+                        joints.append(observation["q_rad"])
+                        commands.append(carrier.step(target))
+                    outcome = carrier.outcome()
+                    path = args.data / f"{split}-{seed}.npz"
+                    np.savez_compressed(
+                        path, rgb=np.asarray(images, dtype=np.uint8),
+                        q=np.asarray(joints, dtype=np.float32),
+                        action=np.asarray(commands, dtype=np.float32),
+                        rgb_age_control_steps=np.asarray(ages, dtype=np.int32),
+                    )
+                    row = {
+                        "split": split, "seed": seed, "frames": len(images),
+                        "path": str(path), "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+                        "object_initial_xyz_m": carrier.source_xyz.tolist(),
+                        "goal_xyz_m": carrier.goal_xyz.tolist(),
+                        "wall_s": time.monotonic() - start, **outcome,
+                    }
+                    output.write(json.dumps(row) + "\n")
+                    output.flush()
+                    print(json.dumps(row), flush=True)
+                    total += 1
+                    if not outcome["task_success"]:
+                        raise RuntimeError("teacher failed; retained episode, stop before training")
+    finally:
+        carrier.close()
+    (args.records / "collection-complete.json").write_text(json.dumps({
+        "episodes": total, "frames": total * STEPS, "all_teacher_success": True,
+        "contract_sha256": hashlib.sha256((args.records / "collection-contract.json").read_bytes()).hexdigest(),
+    }, indent=2) + "\n")
+
+
+if __name__ == "__main__":
+    main()

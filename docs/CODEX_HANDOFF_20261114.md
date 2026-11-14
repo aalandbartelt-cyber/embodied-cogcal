@@ -309,3 +309,36 @@ research: resolve SmolVLA/SO-101 unit provenance and range blocker
   证据与复现脚本：`experiments/discovery/so101-upstream-contact-reproduction-20261114/README.md`。
 - 新核验的R3L已有文本轨迹共享前缀mask；DEFLECT v3已有机器人fresh/stale共同随机数和FM-DPO
   单样本surrogate范围说明；TPC-FM已有配对时间及速度一致性。不要再把通用prefix保护/噪声耦合包装成新核心。
+
+## 13. 匹配物理teacher与小BC已跑完：最新接续入口
+
+完整目标仍为确定可查新、有先进性、可产出且同题SO-101仿真—真机的研究方向。
+用户最新资源选择是本地5070Ti先探索，A100后续使用；不把打通环境当方向。
+
+- 外部b02b8b2载体的中央source资格0/10，事后发现HOME指垫初始穿透15.37mm；
+  自适应避开后的10/10仅为物理运动资格，两目标55mm成功圆重叠，不是语义配对验证。
+- 独立30Hz零阶保持teacher四例资格通过；固定单目标、35mm半径、双指持物抬升≥.5s、
+  最终无机器人接触≥.1s、最大穿透≤1.5mm后，24train/8val匹配示范32/32通过。
+- 5Hz双相机+30Hz实测q；小CNN chunk BC固定seed42、2000步最终权重，未挑best。
+  测试6100–6119全部完整运行：0/20任务成功、0/20双指抬升，2828个命令向量限幅。
+  这是独立小BC能力失败，不覆盖原SmolVLA20条，不构成TPSC或执行补偿失效证据。
+- 原小BC流水线systemd `cogcal-matched-bc-20261114.service`已正常结束，三阶段exit0；
+  不要再次启动。checkpoint SHA：
+  `f49da6e9c82c55a2478bf580e049365fbde3e3bd8bff2a8fc1bfcbe33a23e237`。
+- 同一冻结权重在既有val集诊断：执行6步0/8；执行30步4/8，后者8例均双指抬升及目标内放桌，
+  4例未释放。该诊断在看到原测试失败后启动，不能当新测试或预注册机制验证。
+  `cogcal-bc-horizon-diagnostic-20261114.service`亦已exit0。
+- 全30Hz图像采集因llvmpipe成本主动SIGINT，首条及原源码快照保留，未复用进5Hz数据。
+- 代码/证据入口：`experiments/discovery/matched_bc/`、
+  `experiments/discovery/matched-bc-lowrate-20261114/README.md`、
+  `experiments/discovery/matched-bc-horizon-diagnostic-20261114/README.md`。
+- 查新入口：`docs/prior-art/history-compensation-mechanism-screen.md`，15份有界原文读取清单。
+  SwitchVLA/MemoryClock/RePlanMem/EventVLA覆盖任务切换和事件记忆宽题；
+  APEX/Tune to Learn/NADA/GAP/Mind the Gap/自补偿VLA强约束执行补偿与本体捷径；
+  action-chunk非Markov/延迟集成/长历史/配对OL-CL探针及TRACT已有直接原文。
+  GAP仓库存在但固定入口AST失败、未找到tracked license；未修复/复用或声称复现。
+
+下一步先定位普通BC能力失败。不要盲目扩大训练、延长episode预算、放宽释放条件，
+或从一个不会做任务的策略解释补偿伤害。若采用新基线/协议，原结果保留，另设记录和测试边界。
+窄问题“精度改善是否破坏学到的阶段线索”仍未证实、未通过查新；通用gain/noise/历史解释若成立则降级。
+尚未确定方向，完整目标保持active。

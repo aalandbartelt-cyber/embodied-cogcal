@@ -144,3 +144,9 @@ env -u PYTHONPATH PYTHONNOUSERSITE=1 \
   --manifest experiments/so101/tpsc-pilot/manifest-pilot.jsonl \
   --out /tmp/tpsc-completed-run-audit-fresh.json
 ```
+
+进一步匹配物理任务的普通BC检查已在独立目录完成：teacher32/32，固定小BC测试0/20；
+同权重验证集执行长度诊断6步0/8、30步4/8。
+它们未使用或替换本pilot manifest，不提供TPSC/shared-prefix或补偿方法结论。
+当前接续见[匹配能力记录](../../discovery/matched-bc-lowrate-20261114/README.md)与
+[机制边界](../../../docs/prior-art/history-compensation-mechanism-screen.md)。

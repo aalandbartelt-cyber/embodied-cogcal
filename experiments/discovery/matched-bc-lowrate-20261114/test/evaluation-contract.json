@@ -1,0 +1,54 @@
+{
+  "kind": "fixed_final_matched_bc_capability_not_tpsc_or_new_method",
+  "worker": {
+    "ready": true,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/matched-bc-20261114/final-2000.pt",
+    "history": 8,
+    "horizon": 30,
+    "execute": 6
+  },
+  "split": "test",
+  "seeds": [
+    6100,
+    6101,
+    6102,
+    6103,
+    6104,
+    6105,
+    6106,
+    6107,
+    6108,
+    6109,
+    6110,
+    6111,
+    6112,
+    6113,
+    6114,
+    6115,
+    6116,
+    6117,
+    6118,
+    6119
+  ],
+  "fps": 30,
+  "camera_fps": 5,
+  "control_budget": 285,
+  "history": 8,
+  "horizon": 30,
+  "execute": 6,
+  "scene": "external_contact_pad_model_not_original_tpsc",
+  "checkpoint_sha256": "f49da6e9c82c55a2478bf580e049365fbde3e3bd8bff2a8fc1bfcbe33a23e237",
+  "source_sha256": {
+    "carrier.py": "ca135ddf700cc97828afc07232c11b88e133bf37f9794723c5841dd5dca374da",
+    "policy.py": "15743a8dd92834f36543708384568bcf26ca995430ca330d29b5d73c612fb6d9",
+    "evaluate.py": "9c7a7fcf4b4b179f1e0bd1805ab2ff836a4a8a2a37df9ca6db374864f4fff3f4"
+  },
+  "policy_inputs": [
+    "two_RGB",
+    "measured_q_history"
+  ],
+  "constant_instruction": true,
+  "language_understanding_claim": false,
+  "sim_pauses_during_inference": true
+}

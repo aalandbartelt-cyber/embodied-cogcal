@@ -1,0 +1,7 @@
+{
+  "kind": "bounded_scholar_access_attempt_not_exhaustive_search",
+  "observed_utc": "2026-11-14T14:19:14.340906+00:00",
+  "url": "https://scholar.google.com/scholar?q=robot+policy+tracking+proprioception+compensation+shortcut",
+  "status": 403,
+  "error": "HTTP Error 403: Forbidden"
+}

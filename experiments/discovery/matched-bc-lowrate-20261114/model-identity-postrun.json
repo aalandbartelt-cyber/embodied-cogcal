@@ -1,0 +1,24 @@
+{
+  "recording_scope": "post_run_read_only_model_identity_not_continuous_runtime_monitor",
+  "mujoco": "4.0.1",
+  "actuator_low_rad": [
+    -1.91986,
+    -1.74533,
+    -1.69,
+    -1.65806,
+    -2.74385,
+    -0.17453
+  ],
+  "actuator_high_rad": [
+    1.91986,
+    1.74533,
+    1.69,
+    1.65806,
+    2.84121,
+    1.74533
+  ],
+  "timestep_s": 0.0005,
+  "external_revision": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "xml_path": "/home/mary/research/embodied-cogcal/data/discovery/so101-manipulation-eval-20261114/assets/so101/sim_replay.xml",
+  "xml_sha256": "d68b503cd3120456cd22bad710ec775ace7ad395b0daa02402d4ddc4227cae8a"
+}

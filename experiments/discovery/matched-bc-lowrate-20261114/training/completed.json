@@ -1,0 +1,12 @@
+{
+  "kind": "ordinary_matched_chunk_bc_capability_not_new_method",
+  "step": 2000,
+  "wall_s": 24.045655319998332,
+  "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/matched-bc-20261114/final-2000.pt",
+  "checkpoint_sha256": "f49da6e9c82c55a2478bf580e049365fbde3e3bd8bff2a8fc1bfcbe33a23e237",
+  "parameters": 412292,
+  "train_episodes": 24,
+  "validation_episodes": 8,
+  "test_used": false,
+  "cuda_max_allocated_bytes": 709101568
+}

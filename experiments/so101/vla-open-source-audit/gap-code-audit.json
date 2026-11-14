@@ -1,0 +1,17 @@
+{
+  "kind": "read_only_official_code_audit_not_reproduction_or_novelty",
+  "observed_utc": "2026-11-14T14:12:21.291471+00:00",
+  "url": "https://github.com/GeWu-Lab/GAP",
+  "revision": "2f605436c68eedf328c05520d52877604af730d3",
+  "source_sha256": "713d04a56e079bb509cce715878d15c021762344a6d36cf87b39873a0d89e0fb",
+  "tracked_license_files": [],
+  "entry_point_ast_parse": {
+    "valid_python": false,
+    "error": "invalid syntax",
+    "line": 85,
+    "text": "lambda = self.cfg.lambda"
+  },
+  "observed_code_semantics": "torch.max(batch[phase]) forms one batch-wide gradient multiplier; paper describes phase-conditioned update",
+  "executed_training": false,
+  "policy": "No third-party code repaired or reused; no upstream message sent; implementation status is not scientific novelty."
+}

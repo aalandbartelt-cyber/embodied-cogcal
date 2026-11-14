@@ -1,0 +1,219 @@
+{
+  "kind": "bounded_discovery_not_novelty_clearance",
+  "searches": [
+    {
+      "query": "Which robotics and imitation learning papers published before November 14, 2026 show that improving actuator tracking accuracy or compensating execution lag can reduce a frozen visuomotor or vision-language-action policy's task success because the policy uses proprioceptive tracking lag as a learned task-phase shortcut? Distinguish this mechanism from generic dynamics mismatch, action-noise amplification and contact compliance. Return the 12 closest papers with original source links.",
+      "results": [
+        {
+          "id": "apex-adaptive-policy-execution-for-precise-manipulation-a1xt7er2f1tb",
+          "title": "APEX: Adaptive Policy Execution for Precise Manipulation",
+          "url": "https://scispace.com/papers/apex-adaptive-policy-execution-for-precise-manipulation-a1xt7er2f1tb?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "actionground-training-free-runtime-refinement-of-frozen-vla-zjjybkeuy0z6",
+          "title": "ActionGround: Training-Free Runtime Refinement of Frozen VLA Policies",
+          "url": "https://scispace.com/papers/actionground-training-free-runtime-refinement-of-frozen-vla-zjjybkeuy0z6?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "what-frozen-vlas-already-know-about-success-a-probing-study-ofct8t0k9b72",
+          "title": "What Frozen VLAs Already Know About Success: A Probing Study of Value-Like Structure in Foundation Robot Policies",
+          "url": "https://scispace.com/papers/what-frozen-vlas-already-know-about-success-a-probing-study-ofct8t0k9b72?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "taming-vlas-under-robot-execution-errors-self-compensation-wc2i10r3w84y",
+          "title": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+          "url": "https://scispace.com/papers/taming-vlas-under-robot-execution-errors-self-compensation-wc2i10r3w84y?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "mind-the-gap-learning-implicit-impedance-in-visuomotor-cqwp97fcc2qv",
+          "title": "Mind the Gap: Learning Implicit Impedance in Visuomotor Policies via Intent-Execution Mismatch",
+          "url": "https://scispace.com/papers/mind-the-gap-learning-implicit-impedance-in-visuomotor-cqwp97fcc2qv?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "register-routed-delayed-fusion-rewiring-shortcut-prone-0rf4fz1uwo2t",
+          "title": "Register-Routed Delayed Fusion: Rewiring Shortcut-Prone Observation Fusion in Visuomotor Imitation",
+          "url": "https://scispace.com/papers/register-routed-delayed-fusion-rewiring-shortcut-prone-0rf4fz1uwo2t?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "rapac-dp-response-aligned-pending-action-compensation-for-52bkotqxv0if",
+          "title": "RAPAC-DP: Response-Aligned Pending-Action Compensation for Diffusion Policies under Delayed Execution",
+          "url": "https://scispace.com/papers/rapac-dp-response-aligned-pending-action-compensation-for-52bkotqxv0if?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "deflect-temporal-counterfactual-preference-learning-for-d6qhzd6nor7p",
+          "title": "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs",
+          "url": "https://scispace.com/papers/deflect-temporal-counterfactual-preference-learning-for-d6qhzd6nor7p?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "enabling-dynamic-tracking-in-vision-language-action-models-0cb9ysqifraf",
+          "title": "Enabling Dynamic Tracking in Vision-Language-Action Models via Time-Discrete and Time-Continuous Velocity Feedforward",
+          "url": "https://scispace.com/papers/enabling-dynamic-tracking-in-vision-language-action-models-0cb9ysqifraf?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "a-latency-aware-framework-for-visuomotor-policy-learning-on-eis9ilh2e0y9",
+          "title": "A Latency-Aware Framework for Visuomotor Policy Learning on Industrial Robots",
+          "url": "https://scispace.com/papers/a-latency-aware-framework-for-visuomotor-policy-learning-on-eis9ilh2e0y9?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "tfp-temporally-conditioned-memory-fusion-policies-for-a64awa2zl7n1",
+          "title": "TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning",
+          "url": "https://scispace.com/papers/tfp-temporally-conditioned-memory-fusion-policies-for-a64awa2zl7n1?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "robopace-contact-aware-time-optimal-retiming-for-action-95i3ftuknw8v",
+          "title": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies",
+          "url": "https://scispace.com/papers/robopace-contact-aware-time-optimal-retiming-for-action-95i3ftuknw8v?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "delay-aware-diffusion-policy-bridging-the-observation-tuhwvxbb5v05",
+          "title": "Delay-Aware Diffusion Policy: Bridging the Observation-Execution Gap in Dynamic Tasks",
+          "url": "https://scispace.com/papers/delay-aware-diffusion-policy-bridging-the-observation-tuhwvxbb5v05?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "actionshift-a-benchmark-for-hidden-compositional-action-ci31qwa1hpd2",
+          "title": "ActionShift: A Benchmark for Hidden Compositional Action-Interface Adaptation in Manipulation",
+          "url": "https://scispace.com/papers/actionshift-a-benchmark-for-hidden-compositional-action-ci31qwa1hpd2?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "drc-pre-actuated-dynamic-residual-control-for-high-speed-gk2wkf7euux4",
+          "title": "DRC: pre-actuated dynamic residual control for high-speed rigid interception",
+          "url": "https://scispace.com/papers/drc-pre-actuated-dynamic-residual-control-for-high-speed-gk2wkf7euux4?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "temporal-asymmetry-as-a-control-loop-design-variable-how-heppu6ue3738",
+          "title": "Temporal Asymmetry as a Control-Loop Design Variable: How Asynchronous World-Action Modeling, Speed-Controllable Policies, Distribution-Aware Scheduling, and Architecture-Matched Monitoring Jointly Constrain Real-Time Robot Deployment",
+          "url": "https://scispace.com/papers/temporal-asymmetry-as-a-control-loop-design-variable-how-heppu6ue3738?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "pace-phase-aware-chunk-execution-for-robot-policies-with-aoqvcfydppb6",
+          "title": "PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking",
+          "url": "https://scispace.com/papers/pace-phase-aware-chunk-execution-for-robot-policies-with-aoqvcfydppb6?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "phase-conditioned-imitation-learning-with-autonomous-failure-bhagqmy8ljf5",
+          "title": "Phase-Conditioned Imitation Learning with Autonomous Failure Recovery for Robust Deformable Object Manipulation",
+          "url": "https://scispace.com/papers/phase-conditioned-imitation-learning-with-autonomous-failure-bhagqmy8ljf5?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "autointervene-calibrated-intervention-for-action-chunking-uv8wb633gmhq",
+          "title": "AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies",
+          "url": "https://scispace.com/papers/autointervene-calibrated-intervention-for-action-chunking-uv8wb633gmhq?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "tract-temporally-routed-action-chunks-with-chronological-o4wb9yjv2kdi",
+          "title": "TRACT: Temporally Routed Action Chunks with Chronological Phase Authority for Contact-Rich Manipulation",
+          "url": "https://scispace.com/papers/tract-temporally-routed-action-chunks-with-chronological-o4wb9yjv2kdi?utm_source=chatgpt&utm_medium=tool"
+        }
+      ],
+      "result_count": 20,
+      "read_level": "discovery_metadata_only; selected primary sources separately inspected"
+    },
+    {
+      "query": "Which robot policy or vision-language-action memory methods published before November 14, 2026 learn what to store by measuring an observation's effect on actions far beyond the current action-chunk horizon, rather than current plan disagreement? Include counterfactual memory deletion, future action-loss or value-of-information supervision, and return the 12 closest papers with original source links.",
+      "results": [
+        {
+          "id": "eventvla-event-driven-visual-evidence-memory-for-long-h96fru6n3gr7",
+          "title": "EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies",
+          "url": "https://scispace.com/papers/eventvla-event-driven-visual-evidence-memory-for-long-h96fru6n3gr7?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "t-2-mem-learning-test-time-memory-for-robotics-tirpqbqjwk88",
+          "title": "T$^2$Mem: Learning Test-Time Memory for Robotics",
+          "url": "https://scispace.com/papers/t-2-mem-learning-test-time-memory-for-robotics-tirpqbqjwk88?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "learning-what-to-recall-adaptive-multi-cue-episodic-memory-2w0q9adjgjvs",
+          "title": "Learning What to Recall: Adaptive Multi-Cue Episodic Memory for World Models",
+          "url": "https://scispace.com/papers/learning-what-to-recall-adaptive-multi-cue-episodic-memory-2w0q9adjgjvs?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "ecomem-explicit-concept-memory-for-memory-dependent-robot-6t8rvhfchkon",
+          "title": "ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control",
+          "url": "https://scispace.com/papers/ecomem-explicit-concept-memory-for-memory-dependent-robot-6t8rvhfchkon?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "reflective-vla-in-context-action-consequences-make-vlas-lvg9zwfr2bvz",
+          "title": "Reflective VLA: In-Context Action Consequences Make VLAs Generalize",
+          "url": "https://scispace.com/papers/reflective-vla-in-context-action-consequences-make-vlas-lvg9zwfr2bvz?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "impact-vla-interaction-aware-multimodal-propagation-llebehtoteke",
+          "title": "IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies",
+          "url": "https://scispace.com/papers/impact-vla-interaction-aware-multimodal-propagation-llebehtoteke?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "kemo-event-driven-keyframe-memory-for-long-horizon-robot-ksrk8b3cir1a",
+          "title": "KEMO: Event-Driven Keyframe Memory for Long-Horizon Robot Manipulation with VLA Policies",
+          "url": "https://scispace.com/papers/kemo-event-driven-keyframe-memory-for-long-horizon-robot-ksrk8b3cir1a?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "memoryvla-perceptual-cognitive-memory-in-vision-language-txnth5o0oj4j",
+          "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+          "url": "https://scispace.com/papers/memoryvla-perceptual-cognitive-memory-in-vision-language-txnth5o0oj4j?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "test-time-training-as-residual-memory-for-robot-policies-xnu8my2p7q5q",
+          "title": "Test-Time Training as Residual Memory for Robot Policies",
+          "url": "https://scispace.com/papers/test-time-training-as-residual-memory-for-robot-policies-xnu8my2p7q5q?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "simplememvla-a-simple-but-effective-native-video-memory-for-rlo7mm1ekcwy",
+          "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
+          "url": "https://scispace.com/papers/simplememvla-a-simple-but-effective-native-video-memory-for-rlo7mm1ekcwy?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "memoryvla-temporal-modeling-via-memory-and-imagination-in-y604bi4qdscb",
+          "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
+          "url": "https://scispace.com/papers/memoryvla-temporal-modeling-via-memory-and-imagination-in-y604bi4qdscb?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "dim-wam-world-action-modeling-with-diverse-historical-event-93vsfjb6oxtn",
+          "title": "DIM-WAM: World-Action Modeling with Diverse Historical Event Memory",
+          "url": "https://scispace.com/papers/dim-wam-world-action-modeling-with-diverse-historical-event-93vsfjb6oxtn?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "statemem-single-state-residual-memory-with-adaptive-m3najrgfqt5u",
+          "title": "StateMem: Single-State Residual Memory with Adaptive Inference for Vision-Language-Action Policies",
+          "url": "https://scispace.com/papers/statemem-single-state-residual-memory-with-adaptive-m3najrgfqt5u?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "remem-vla-empowering-vision-language-action-model-with-1468rsnao3zb",
+          "title": "ReMem-VLA: Empowering Vision-Language-Action Model with Memory via Dual-Level Recurrent Queries",
+          "url": "https://scispace.com/papers/remem-vla-empowering-vision-language-action-model-with-1468rsnao3zb?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "remm-revisable-embodied-memory-for-manipulation-gatgudopmiew",
+          "title": "REMM: Revisable Embodied Memory for Manipulation",
+          "url": "https://scispace.com/papers/remm-revisable-embodied-memory-for-manipulation-gatgudopmiew?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "deflect-temporal-counterfactual-preference-learning-for-d6qhzd6nor7p",
+          "title": "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs",
+          "url": "https://scispace.com/papers/deflect-temporal-counterfactual-preference-learning-for-d6qhzd6nor7p?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "memory-as-plans-world-action-modeling-with-memory-grounded-zrm9gq2agga6",
+          "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+          "url": "https://scispace.com/papers/memory-as-plans-world-action-modeling-with-memory-grounded-zrm9gq2agga6?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "unimpa-a-unified-memory-prediction-action-model-via-action-eqms3wldmg2p",
+          "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+          "url": "https://scispace.com/papers/unimpa-a-unified-memory-prediction-action-model-via-action-eqms3wldmg2p?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "recursive-belief-vision-language-action-models-k8eqs84jv6lp",
+          "title": "Recursive Belief Vision Language Action Models",
+          "url": "https://scispace.com/papers/recursive-belief-vision-language-action-models-k8eqs84jv6lp?utm_source=chatgpt&utm_medium=tool"
+        },
+        {
+          "id": "evomem-vla-state-evolution-memory-for-long-horizon-robot-un5tyk1zc966",
+          "title": "EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation",
+          "url": "https://scispace.com/papers/evomem-vla-state-evolution-memory-for-long-horizon-robot-un5tyk1zc966?utm_source=chatgpt&utm_medium=tool"
+        }
+      ],
+      "result_count": 20,
+      "read_level": "discovery_metadata_only; selected primary sources separately inspected"
+    }
+  ]
+}

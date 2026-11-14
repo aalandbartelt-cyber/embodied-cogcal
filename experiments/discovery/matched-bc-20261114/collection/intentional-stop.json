@@ -1,0 +1,16 @@
+{
+  "kind": "intentional_stop_after_measured_software_renderer_cost_not_training_failure",
+  "observed_utc": "2026-11-14T13:53:42.078812+00:00",
+  "pid": 4149487,
+  "start_ticks": "1894705",
+  "completed_episodes": 1,
+  "renderer": {
+    "vendor": "Mesa",
+    "device": "llvmpipe LLVM15.0.7",
+    "second_render_two_views_s": 0.6199920979997842
+  },
+  "first_episode_wall_s": 183.49786539599882,
+  "reason": "Replace full30Hz RGB with explicit5Hz camera/30Hz control contract before training; keep first run/failed partial work.",
+  "signal": "SIGINT",
+  "data_reused_in_followup": false
+}

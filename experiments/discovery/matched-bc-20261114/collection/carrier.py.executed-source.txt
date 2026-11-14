@@ -1,0 +1,224 @@
+"""Independent SO101 physical carrier for a matched RGB/q BC capability screen.
+
+External code/model are MIT/Apache-2.0; exact revision required. The privileged
+teacher is separate from observations. No original TPSC assets are changed.
+"""
+
+from __future__ import annotations
+
+import importlib.util
+import subprocess
+from pathlib import Path
+
+import mujoco
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[3]
+DEFAULT_SOURCE = ROOT / "data/discovery/so101-manipulation-eval-20261114"
+REVISION = "b02b8b2e300733dbe76cead4f3a57425c37955fe"
+TASK = "Pick up the orange cube and place it on the blue target."
+FPS = 30
+STEPS = 285
+
+
+def split_seeds(split):
+    start, count = {"train": (4100, 24), "val": (5100, 8), "test": (6100, 20)}[split]
+    return list(range(start, start + count))
+
+
+def future_chunk(actions, index, horizon):
+    indices = np.arange(index, index + horizon)
+    mask = indices < len(actions)
+    return actions[np.minimum(indices, len(actions) - 1)], mask
+
+
+class Carrier:
+    def __init__(self, source=DEFAULT_SOURCE):
+        source = Path(source).resolve()
+        revision = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=source, text=True
+        ).strip()
+        if revision != REVISION:
+            raise ValueError("uninspected external carrier revision")
+        script = source / "src/sim/mujoco_pick_place.py"
+        spec = importlib.util.spec_from_file_location("matched_upstream_teacher", script)
+        self.upstream = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.upstream)
+        self.model = mujoco.MjModel.from_xml_path(str(self.upstream.MODEL_XML))
+        self.data = mujoco.MjData(self.model)
+        self.low = self.model.actuator_ctrlrange[:, 0].copy()
+        self.high = self.model.actuator_ctrlrange[:, 1].copy()
+        self.cube_address = int(self.model.jnt_qposadr[self.model.joint("cube").id])
+        self.cube_geom = self.model.geom("cube_visual").id
+        self.fingers = {
+            self.model.geom("jaw_pad_fixed").id, self.model.geom("jaw_pad_moving").id
+        }
+        self.robot_body_ids = {
+            self.model.body(name).id for name in [
+                "base", "shoulder", "upper_arm", "lower_arm", "wrist", "gripper",
+                "moving_jaw_so101_v1",
+            ]
+        }
+        self.renderer = None
+        self.camera_settings = {
+            "front": {"lookat": [0.20, 0.0, 0.06], "distance": 0.65,
+                      "azimuth": 90.0, "elevation": -35.0},
+            "top": {"lookat": [0.20, 0.0, 0.02], "distance": 0.60,
+                    "azimuth": 90.0, "elevation": -80.0},
+        }
+
+    def reset(self, seed):
+        rng = np.random.default_rng(seed)
+        self.source_xyz = np.array([0.20, -0.075, 0.014])
+        self.source_xyz[:2] += rng.uniform(-0.005, 0.005, 2)
+        self.goal_xyz = np.array([0.20, 0.075, 0.014])
+        mujoco.mj_resetData(self.model, self.data)
+        self.data.qpos[:5] = self.upstream.HOME
+        self.data.qpos[5] = self.upstream.APPROACH_Q
+        self.data.qpos[self.cube_address:self.cube_address + 3] = self.source_xyz
+        self.data.qpos[self.cube_address + 3:self.cube_address + 7] = [1, 0, 0, 0]
+        self.data.ctrl[:] = self.data.qpos[:6]
+        mujoco.mj_forward(self.model, self.data)
+        self.controls = 0
+        self.physics_ticks = 0
+        self.clip_events = 0
+        self.object_pose_writes_during_rollout = 0
+        self.max_z = float(self.source_xyz[2])
+        self.held_run = self.longest_held_run = self.release_run = 0
+        self.max_penetration = 0.0
+        self.tracking_sum = 0.0
+        self.last_finger_count = 0
+        if self.initial_penetrations():
+            raise ValueError("invalid object/robot interpenetration at reset")
+        return self.observe()
+
+    def initial_penetrations(self):
+        result = []
+        for contact in self.data.contact:
+            if contact.geom1 == self.cube_geom or contact.geom2 == self.cube_geom:
+                other = contact.geom2 if contact.geom1 == self.cube_geom else contact.geom1
+                if self.model.geom_bodyid[other] in self.robot_body_ids and contact.dist < -0.001:
+                    result.append(float(contact.dist))
+        return result
+
+    def observe(self, images=False):
+        result = {"q_rad": self.data.qpos[:6].copy(), "task": TASK}
+        if images:
+            if self.renderer is None:
+                self.model.vis.global_.offwidth = 128
+                self.model.vis.global_.offheight = 128
+                self.model.vis.quality.shadowsize = 512
+                self.model.vis.quality.offsamples = 0
+                self.renderer = mujoco.Renderer(self.model, height=128, width=128)
+            frames = []
+            for settings in self.camera_settings.values():
+                camera = mujoco.MjvCamera()
+                camera.type = mujoco.mjtCamera.mjCAMERA_FREE
+                for key, value in settings.items():
+                    setattr(camera, key, value)
+                self.renderer.update_scene(self.data, camera=camera)
+                frames.append(self.renderer.render().copy())
+            result["rgb"] = np.stack(frames)
+        return result
+
+    def teacher_actions(self):
+        up = self.upstream
+        # IK writes only this separate scratch state, never the live world.
+        scratch = mujoco.MjData(self.model)
+        site = self.model.site(up.PINCH_SITE).id
+        q = up.HOME.copy()
+        targets = []
+        poses = [
+            self.source_xyz + [0, 0, up.APPROACH_H], self.source_xyz,
+            self.source_xyz + [0, 0, up.TRANSIT_H],
+            self.goal_xyz + [0, 0, up.TRANSIT_H], self.goal_xyz,
+        ]
+        for position in poses:
+            q, position_error, direction_error = up.solve_pose_ik(
+                self.model, scratch, site, q, position, up.APPROACH_Q, up.DOWN
+            )
+            if position_error > 0.004 or direction_error > 5:
+                raise ValueError("teacher IK outside fixed position/orientation tolerance")
+            targets.append(q.copy())
+        above, grasp, lift, carry, place = targets
+        schedule = [
+            (up.HOME, up.APPROACH_Q, 0.4), (above, up.APPROACH_Q, 1.0),
+            (grasp, up.APPROACH_Q, 1.3), (grasp, up.CLOSE_Q, 1.0),
+            (lift, up.CLOSE_Q, 1.3), (carry, up.CLOSE_Q, 1.6),
+            (place, up.CLOSE_Q, 1.2), (place, up.APPROACH_Q, 0.8),
+            (lift, up.APPROACH_Q, 0.9),
+        ]
+        actions = []
+        for step in range(STEPS):
+            elapsed = step / FPS
+            previous = np.r_[up.HOME, up.APPROACH_Q]
+            for arm, grip, seconds in schedule:
+                target = np.r_[arm, grip]
+                if elapsed < seconds:
+                    progress = np.clip(elapsed / (seconds * 0.6), 0, 1)
+                    blend = progress * progress * (3 - 2 * progress)
+                    actions.append(previous + (target - previous) * blend)
+                    break
+                elapsed -= seconds
+                previous = target
+            else:
+                actions.append(previous)
+        return np.asarray(actions)
+
+    def step(self, target):
+        target = np.asarray(target, dtype=float)
+        if target.shape != (6,) or not np.isfinite(target).all():
+            raise ValueError("expected six finite radian joint targets")
+        clipped = np.clip(target, self.low, self.high)
+        self.clip_events += int(np.any(clipped != target))
+        self.data.ctrl[:] = clipped
+        tick_goal = round((self.controls + 1) / (FPS * self.model.opt.timestep))
+        for _ in range(tick_goal - self.physics_ticks):
+            mujoco.mj_step(self.model, self.data)
+            z = float(self.data.qpos[self.cube_address + 2])
+            self.max_z = max(self.max_z, z)
+            fingers = set()
+            robot_contact = False
+            for contact in self.data.contact:
+                if contact.geom1 != self.cube_geom and contact.geom2 != self.cube_geom:
+                    continue
+                other = int(contact.geom2 if contact.geom1 == self.cube_geom else contact.geom1)
+                if other in self.fingers:
+                    fingers.add(other)
+                if self.model.geom_bodyid[other] in self.robot_body_ids:
+                    robot_contact = True
+                    self.max_penetration = max(self.max_penetration, -float(contact.dist))
+            self.last_finger_count = len(fingers)
+            held = len(fingers) == 2 and z > self.source_xyz[2] + 0.05
+            self.held_run = self.held_run + 1 if held else 0
+            self.longest_held_run = max(self.longest_held_run, self.held_run)
+            self.release_run = 0 if robot_contact else self.release_run + 1
+            self.tracking_sum += float(np.mean(np.abs(self.data.qpos[:6] - clipped)))
+        self.physics_ticks = tick_goal
+        self.controls += 1
+        if not np.isfinite(self.data.qpos).all():
+            raise ValueError("nonfinite simulation")
+        return clipped
+
+    def outcome(self):
+        position = self.data.qpos[self.cube_address:self.cube_address + 3].copy()
+        distance = float(np.linalg.norm(position[:2] - self.goal_xyz[:2]))
+        held_s = self.longest_held_run * self.model.opt.timestep
+        placed = distance <= 0.035 and abs(position[2] - 0.014) <= 0.012
+        released = self.release_run * self.model.opt.timestep >= 0.1
+        contact_valid = self.max_penetration <= 0.0015
+        return {
+            "task_success": bool(placed and released and held_s >= 0.5 and contact_valid),
+            "placed": bool(placed), "released": bool(released),
+            "longest_two_finger_lift_s": held_s,
+            "max_object_z_m": self.max_z, "final_object_xyz_m": position.tolist(),
+            "goal_error_xy_m": distance, "max_object_robot_penetration_m": self.max_penetration,
+            "clip_events": self.clip_events,
+            "mean_abs_tracking_error_rad": self.tracking_sum / max(1, self.physics_ticks),
+            "controls": self.controls, "sim_time_s": float(self.data.time),
+            "object_pose_writes_during_rollout": self.object_pose_writes_during_rollout,
+        }
+
+    def close(self):
+        if self.renderer is not None:
+            self.renderer.close()

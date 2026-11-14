@@ -1,0 +1,42 @@
+{
+  "kind": "predeclared_conservative_workspace_qualification_not_tpsc",
+  "source_commit": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "source_script_sha256": "b469e47d4626e6870dfe34aeea9e4dfcff91e73de56c50587e6884e2b3c6dedb",
+  "placements_m": [
+    [
+      0.2,
+      0.0
+    ],
+    [
+      0.195,
+      -0.005
+    ],
+    [
+      0.195,
+      0.005
+    ],
+    [
+      0.205,
+      -0.005
+    ],
+    [
+      0.205,
+      0.005
+    ]
+  ],
+  "targets_m": [
+    [
+      0.2,
+      -0.075,
+      0.014
+    ],
+    [
+      0.2,
+      0.075,
+      0.014
+    ]
+  ],
+  "decision": "Need >=9/10 successful physical place with both-finger lifted run>=0.5s before matching-data collection. No best-layout selection.",
+  "scene_differences": "External box finger pads, friction2, 28mm cube; original TPSC unchanged.",
+  "policy_inputs": "Teacher may use goal/object truth; no learned policy evaluated."
+}

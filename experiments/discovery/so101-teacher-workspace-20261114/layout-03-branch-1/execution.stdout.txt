@@ -1,0 +1,7 @@
+contact audit:
+  worst interpenetration : 15.512 mm (jaw_pad_fixed)
+  object pose writes     : 0
+  airborne steps w/ grip : 0/0
+  arm tracking error     : 37.337 mrad mean  (floor 0.20)
+  torque-saturated steps : 5539/19000
+  REJECTED: object sank 15.51 mm into jaw_pad_fixed (limit 1.5 mm)

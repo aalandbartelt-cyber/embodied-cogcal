@@ -1,0 +1,11 @@
+{
+  "kind": "30hz_teacher_qualification_for_5hz_rgb_matching",
+  "seeds": [
+    4100,
+    4101,
+    4102,
+    4103
+  ],
+  "carrier_sha256": "ca135ddf700cc97828afc07232c11b88e133bf37f9794723c5841dd5dca374da",
+  "render_only_change": "disabled shadows/reflection/fog;5Hz cameras;physics and control unchanged"
+}

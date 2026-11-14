@@ -1,0 +1,19 @@
+{
+  "kind": "ordinary_matched_chunk_bc_capability_not_new_method",
+  "seed": 42,
+  "steps": 2000,
+  "batch": 64,
+  "lr": 0.001,
+  "history": 8,
+  "horizon": 30,
+  "execute": 6,
+  "checkpoint_selection": "fixed_final_2000_not_best",
+  "input": "two_rgb_and_measured_q_history; constant_instruction_single_task",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "data_contract_sha256": "08fb5719fb33343a6a1d84c8e42cbba50211566a3678334abbdda6680aa8e3ba",
+  "source_sha256": {
+    "train.py": "3cb38fdeca3dd246758fd38a053b2b6af63a1323369bc5dadcd6a77445058a11",
+    "policy.py": "15743a8dd92834f36543708384568bcf26ca995430ca330d29b5d73c612fb6d9"
+  }
+}

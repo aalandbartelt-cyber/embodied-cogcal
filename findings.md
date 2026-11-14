@@ -132,3 +132,15 @@ MolmoAct2公开75条双YAM rollout没有成功标签，不能从固定抽帧或�
 新的积极可行性线索：固定外部SO101控制器b02b8b2在当前MuJoCo4.0.1实际抓放成功，hover负对照未通过，
 独立双指接触记录复跑最长连续持物抬升2.6365s；其显式指垫/friction2/28mm物体不同于原TPSC，不能升级为本项目
 learned能力或真机结论。R3L、DEFLECT-v3与TPC-FM进一步排除通用prefix mask、共享随机数、配对flow时间的宽创新。
+
+## 匹配载体与非Markov近邻的新证据
+
+匹配单任务的物理teacher32/32，但普通小BC固定2000步测试0/20，因此即使不再有公开数据接口混淆，
+也不能从失败解释补偿伤害。同权重val诊断执行30步4/8、执行6步0/8，提示需要检查阶段推进/闭环偏离；
+不是已确定根因。30步8/8持物抬升与放桌，失败4例未释放，不能修改成功谓词把它们算通过。
+
+Why Does Action Chunking Improve…、Revisiting Open-Loop Execution、Measuring the Stability Assumption已有
+非Markov表达、延迟集成、长历史和配对开环/闭环传播探针；TRACT已有未来phase路由与响应亏损积分。
+因此不能把本次horizon诊断直接当新研究机制。APEX/Tune to Learn/NADA/GAP等同时要求
+“精度改善破坏阶段线索”窄问题必须与传统gain/noise/contact及模态捷径解释区分；当前尚无证据。
+原文/来源缓存与固定GAP源码实现问题详见 `docs/prior-art/history-compensation-mechanism-screen.md`。

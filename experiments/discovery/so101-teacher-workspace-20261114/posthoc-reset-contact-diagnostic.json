@@ -1,0 +1,59 @@
+{
+  "kind": "posthoc_static_reset_diagnostic_not_causal_ablation",
+  "rows": [
+    {
+      "object_xyz_m": [
+        0.2,
+        0,
+        0.014
+      ],
+      "contacts_before_physics": [
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "jaw_pad_fixed",
+          "distance_m": -0.015371151769910524
+        }
+      ]
+    },
+    {
+      "object_xyz_m": [
+        0.2,
+        -0.075,
+        0.014
+      ],
+      "contacts_before_physics": [
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        },
+        {
+          "other_geom": "bench_top",
+          "distance_m": -1.734723475976807e-18
+        }
+      ]
+    }
+  ]
+}

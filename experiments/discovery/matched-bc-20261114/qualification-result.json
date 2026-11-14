@@ -1,0 +1,88 @@
+{
+  "kind": "teacher_qualification_not_learned_policy",
+  "episodes": 4,
+  "successes": 4,
+  "passed": true,
+  "rows": [
+    {
+      "seed": 4100,
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.6305,
+      "max_object_z_m": 0.08352628670315478,
+      "final_object_xyz_m": [
+        0.2150905286641009,
+        0.05923272703338442,
+        0.01399876134098688
+      ],
+      "goal_error_xy_m": 0.021825007495206425,
+      "max_object_robot_penetration_m": 8.54429313760019e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.006029974350080862,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0
+    },
+    {
+      "seed": 4101,
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.6305,
+      "max_object_z_m": 0.08351733188237384,
+      "final_object_xyz_m": [
+        0.2143263312989717,
+        0.0601176802168217,
+        0.013998761340986897
+      ],
+      "goal_error_xy_m": 0.02065737666347486,
+      "max_object_robot_penetration_m": 6.103441533238899e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.006042498138208289,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0
+    },
+    {
+      "seed": 4102,
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.6305,
+      "max_object_z_m": 0.08351987508534811,
+      "final_object_xyz_m": [
+        0.21489767894850792,
+        0.05963302541668828,
+        0.01399876134098689
+      ],
+      "goal_error_xy_m": 0.02140291442530582,
+      "max_object_robot_penetration_m": 7.164961823181472e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.006046225371530221,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0
+    },
+    {
+      "seed": 4103,
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.6310000000000002,
+      "max_object_z_m": 0.08351046598382933,
+      "final_object_xyz_m": [
+        0.21421651902090058,
+        0.06449381791429866,
+        0.013998761340986892
+      ],
+      "goal_error_xy_m": 0.01767736618078438,
+      "max_object_robot_penetration_m": 7.236437807020039e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.006074037464199329,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0
+    }
+  ]
+}

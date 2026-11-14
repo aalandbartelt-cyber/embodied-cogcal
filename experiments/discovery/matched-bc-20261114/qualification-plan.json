@@ -1,0 +1,17 @@
+{
+  "kind": "30hz_zero_order_hold_teacher_qualification_not_method",
+  "seeds": [
+    4100,
+    4101,
+    4102,
+    4103
+  ],
+  "all_four_required": true,
+  "thresholds": {
+    "goal_xy_m": 0.035,
+    "two_finger_lift_s": 0.5,
+    "max_object_robot_penetration_m": 0.0015,
+    "release_s": 0.1
+  },
+  "carrier_sha256": "7d8a7c041f88ec87dc7d3d9fec7b54a1e509eb9f2ee4071f7673c59348296588"
+}

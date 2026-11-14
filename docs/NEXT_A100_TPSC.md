@@ -10,6 +10,12 @@
 **先解决匹配任务数据/相机/关节约定及可执行teacher，不因本次失败直接迁移A100重跑或实现TPSC。**
 下文安装/训练指令保留为可复用入口，不能当作正在运行或需立即重启的任务。
 
+进一步本地匹配能力检查也已完成：物理teacher32/32；小BC固定2000步测试0/20。
+冻结权重的val执行长度诊断为6步0/8、30步4/8，仍不足以建立能力。
+见[匹配BC记录](../experiments/discovery/matched-bc-lowrate-20261114/README.md)及
+[当前机制/查新边界](prior-art/history-compensation-mechanism-screen.md)。
+这两条本地流水线均已正常结束，不据此把任务迁去A100或启动补偿方法。
+
 科学门槛更新：[固定源码损失审计](prior-art/tpsc-loss-fidelity-correction.md)已收回旧toy的一般性解释。
 后续比较必须写明per_step或flattened_chunk、完整目标preset与normalization；
 正margin惩罚不是已经测得的前缀伤害。现有本地普通载体训练不因这个更正而改名成TPSC方法实验。

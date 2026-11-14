@@ -1,0 +1,7 @@
+contact audit:
+  worst interpenetration :  0.192 mm (jaw_pad_fixed)
+  object pose writes     : 0
+  airborne steps w/ grip : 5273/5273
+  arm tracking error     :  2.179 mrad mean  (floor 0.20)
+  torque-saturated steps : 1642/19000
+  CONTACT HONEST

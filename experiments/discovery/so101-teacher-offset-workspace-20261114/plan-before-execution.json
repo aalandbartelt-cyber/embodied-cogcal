@@ -1,0 +1,41 @@
+{
+  "kind": "adaptive_followup_workspace_qualification_not_independent_hypothesis_test",
+  "source_commit": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "source_script_sha256": "b469e47d4626e6870dfe34aeea9e4dfcff91e73de56c50587e6884e2b3c6dedb",
+  "placements_m": [
+    [
+      0.2,
+      -0.075
+    ],
+    [
+      0.195,
+      -0.08
+    ],
+    [
+      0.195,
+      -0.07
+    ],
+    [
+      0.205,
+      -0.08
+    ],
+    [
+      0.205,
+      -0.07
+    ]
+  ],
+  "targets_xy_m": [
+    [
+      0.175,
+      0.075
+    ],
+    [
+      0.225,
+      0.075
+    ]
+  ],
+  "reason": "First centre-y workspace had object-finger overlap at HOME and object moved during settle. Preserve that 0/10. Now test source near original successful -.075y with two distinct goal x.",
+  "gate": "Need >=9/10 physical place AND both unique fingers while lifted >=.5s; never train if gate fails.",
+  "policy_inputs": "Privileged scripted teacher only; not learned policy.",
+  "visibility_limit": "Target graphics remain original; RGB collection must use a separately specified fixed two-goal scene."
+}

@@ -1,0 +1,21 @@
+{"step": 100, "train_normalized_mse": 0.07471319288015366, "first_val_episode_partial_mse": 0.0851360484957695, "wall_s": 14.83182765699894}
+{"step": 200, "train_normalized_mse": 0.05894600227475166, "first_val_episode_partial_mse": 0.05932703986763954, "wall_s": 15.290927180998551}
+{"step": 300, "train_normalized_mse": 0.061925094574689865, "first_val_episode_partial_mse": 0.05305880308151245, "wall_s": 15.720268850996945}
+{"step": 400, "train_normalized_mse": 0.059979841113090515, "first_val_episode_partial_mse": 0.05289901793003082, "wall_s": 16.11844560299869}
+{"step": 500, "train_normalized_mse": 0.047211527824401855, "first_val_episode_partial_mse": 0.04433957114815712, "wall_s": 16.573495787997672}
+{"step": 600, "train_normalized_mse": 0.045452285557985306, "first_val_episode_partial_mse": 0.046416059136390686, "wall_s": 17.077411190999555}
+{"step": 700, "train_normalized_mse": 0.030990153551101685, "first_val_episode_partial_mse": 0.039938244968652725, "wall_s": 17.55164476400023}
+{"step": 800, "train_normalized_mse": 0.04956160858273506, "first_val_episode_partial_mse": 0.03667742386460304, "wall_s": 18.06836793599723}
+{"step": 900, "train_normalized_mse": 0.029116779565811157, "first_val_episode_partial_mse": 0.03850194066762924, "wall_s": 18.611753698998655}
+{"step": 1000, "train_normalized_mse": 0.02355397306382656, "first_val_episode_partial_mse": 0.03294411301612854, "wall_s": 19.180199852999067}
+{"step": 1100, "train_normalized_mse": 0.02996685355901718, "first_val_episode_partial_mse": 0.03534885123372078, "wall_s": 19.769245505998697}
+{"step": 1200, "train_normalized_mse": 0.033234935253858566, "first_val_episode_partial_mse": 0.03181694447994232, "wall_s": 20.293356072997994}
+{"step": 1300, "train_normalized_mse": 0.01957661472260952, "first_val_episode_partial_mse": 0.02608412690460682, "wall_s": 20.737665061998996}
+{"step": 1400, "train_normalized_mse": 0.023976676166057587, "first_val_episode_partial_mse": 0.022938665002584457, "wall_s": 21.168783143999462}
+{"step": 1500, "train_normalized_mse": 0.017010346055030823, "first_val_episode_partial_mse": 0.022713644430041313, "wall_s": 21.564189228000032}
+{"step": 1600, "train_normalized_mse": 0.01616913452744484, "first_val_episode_partial_mse": 0.019998738542199135, "wall_s": 22.078168006999476}
+{"step": 1700, "train_normalized_mse": 0.01504327543079853, "first_val_episode_partial_mse": 0.023215405642986298, "wall_s": 22.556187809997937}
+{"step": 1800, "train_normalized_mse": 0.017973581328988075, "first_val_episode_partial_mse": 0.018594322726130486, "wall_s": 23.028447530999983}
+{"step": 1900, "train_normalized_mse": 0.02722010388970375, "first_val_episode_partial_mse": 0.020521188154816628, "wall_s": 23.52630679199865}
+{"step": 2000, "train_normalized_mse": 0.02135193534195423, "first_val_episode_partial_mse": 0.019300688058137894, "wall_s": 24.02297015399745}
+{"kind": "ordinary_matched_chunk_bc_capability_not_new_method", "step": 2000, "wall_s": 24.045655319998332, "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/matched-bc-20261114/final-2000.pt", "checkpoint_sha256": "f49da6e9c82c55a2478bf580e049365fbde3e3bd8bff2a8fc1bfcbe33a23e237", "parameters": 412292, "train_episodes": 24, "validation_episodes": 8, "test_used": false, "cuda_max_allocated_bytes": 709101568}

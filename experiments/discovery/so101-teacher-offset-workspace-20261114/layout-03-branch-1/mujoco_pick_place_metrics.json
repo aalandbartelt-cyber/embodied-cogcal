@@ -1,0 +1,31 @@
+{
+  "simulator": "MuJoCo 4.0.1",
+  "robot_model": "SO-101 calibrated MuJoCo XML from TheRobotStudio/SO-ARM100",
+  "physics_hz": 2000,
+  "video_hz": 60,
+  "source_xyz_m": [
+    0.205,
+    -0.08,
+    0.014
+  ],
+  "target_xyz_m": [
+    0.225,
+    0.075,
+    0.014
+  ],
+  "target_radius_m": 0.055,
+  "final_xyz_m": [
+    0.229714,
+    0.063467,
+    0.013999
+  ],
+  "xy_error_m": 0.012459,
+  "settled_on_table": true,
+  "detached": true,
+  "grasp_model": "friction contact between the two published jaw faces; no attachment, no pose writes",
+  "worst_interpenetration_mm": 0.0398,
+  "object_pose_writes": 0,
+  "success": true,
+  "success_contract": "cube detached, settled at table height, and centre within target radius",
+  "scenario": "place"
+}
