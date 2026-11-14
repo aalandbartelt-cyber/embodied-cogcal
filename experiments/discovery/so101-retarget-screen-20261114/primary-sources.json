@@ -1,0 +1,62 @@
+{
+  "saved_utc": "2026-11-14T15:34:59.054221+00:00",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2508.03944v1",
+      "resolved_url": "https://arxiv.org/html/2508.03944v1",
+      "read_scope": "abstract, sections 3 and 4.1-4.3",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-v1.html",
+      "sha256": "4be79528b6230d1c5619b5db11911dd1d8fb5dd6d20e1a03f05a5b09c32976c6",
+      "bytes": 206525
+    },
+    {
+      "url": "https://arxiv.org/html/2510.18316v1",
+      "resolved_url": "https://arxiv.org/html/2510.18316v1",
+      "read_scope": "abstract, section 3",
+      "cache": "data/discovery/so101-retarget-primary-20261114/momagen-v1.html",
+      "sha256": "4a17c4b0da54f4d08178180cc74c255a66a19c764adf09d28837ba943979166a",
+      "bytes": 237920
+    },
+    {
+      "url": "https://nvidia.github.io/IsaacCapture/release/1.4.x/references/retargeting/so101.html",
+      "resolved_url": "https://nvidia.github.io/IsaacCapture/release/1.4.x/references/retargeting/so101.html",
+      "read_scope": "SO101 retargeter overview and pose contract",
+      "cache": "data/discovery/so101-retarget-primary-20261114/capture-so101.html",
+      "sha256": "e55caaa481cd44a6b81e31e0586a19f4c9e899baf6e8cb52941d6c6549f4bd29",
+      "bytes": 44448
+    },
+    {
+      "url": "https://nalinraut.github.io/blog/2026/sim-to-real-so101/",
+      "resolved_url": "https://nalinraut.github.io/blog/2026/sim-to-real-so101/",
+      "read_scope": "IK account, real-evaluation table and asset links; author blog not controlled experiment",
+      "cache": "data/discovery/so101-retarget-primary-20261114/nalin-so101.html",
+      "sha256": "e867d76f29fb1f6bc9416f2311ce522569b1485f178bd9cc77961ce188458ed8",
+      "bytes": 54014
+    }
+  ],
+  "repo_metadata": [
+    {
+      "repo": "kevin-thankyou-lin/cpgen",
+      "request_url": "https://api.github.com/repos/kevin-thankyou-lin/cpgen/commits/HEAD",
+      "status_code": 200,
+      "revision": "1e7c1fc4a467c7678c8542ca762e332d1757d8d5"
+    },
+    {
+      "repo": "ChengshuLi/MoMaGen",
+      "request_url": "https://api.github.com/repos/ChengshuLi/MoMaGen/commits/HEAD",
+      "status_code": 200,
+      "revision": "5da621667669b15b97d7a220d086283b3c8ad0e5"
+    },
+    {
+      "repo": "nalinraut/Sim-to-Real-SO-101-Workshop",
+      "request_url": "https://api.github.com/repos/nalinraut/Sim-to-Real-SO-101-Workshop/commits/HEAD",
+      "status_code": 404,
+      "access_limit": "not publicly retrievable at this endpoint; no inference about deletion/private state"
+    }
+  ],
+  "limits": [
+    "No external code executed or copied into tracked source.",
+    "No full-paper reading/reproduction claimed.",
+    "Blog numbers and run labels have unresolved internal inconsistencies; not our evidence."
+  ]
+}

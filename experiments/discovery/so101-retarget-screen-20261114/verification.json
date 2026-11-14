@@ -1,0 +1,17 @@
+{
+  "kind": "artifact_integrity_not_task_or_novelty_validation",
+  "fresh_numeric_recheck_equal": true,
+  "configurations": 24,
+  "finite_difference_columns": 120,
+  "primary_cache_files_verified": 11,
+  "relative_links_checked": 6,
+  "protected_original_sha256": {
+    "experiments/so101/smolvla-interface-preflight/summary-degree-assumption.json": "48fce62e85353a8dc0c81214bd8c6f8963ca8e5745226c2b40824af85b4b3a81",
+    "experiments/so101/tpsc-pilot/manifest-pilot.jsonl": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+    "experiments/so101/tpsc-pilot/manifest-full.jsonl": "ced15f2b419275c89cff76516e17d2468324512eb7b32e10002a4148f6be39e5"
+  },
+  "limits": [
+    "No closed-loop retargeted manipulation episode or learned policy result.",
+    "No method novelty or hardware feasibility certified."
+  ]
+}

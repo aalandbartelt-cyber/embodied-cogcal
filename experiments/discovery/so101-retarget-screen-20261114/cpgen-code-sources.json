@@ -1,0 +1,60 @@
+{
+  "repo": "kevin-thankyou-lin/cpgen",
+  "revision": "1e7c1fc4a467c7678c8542ca762e332d1757d8d5",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/LICENSE",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/LICENSE",
+      "bytes": 1075,
+      "sha256": "6874b71de012716c7ec907593ce6eac8ed48703266f1ba84571b25980fc56b02"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/README.md",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/README.md",
+      "bytes": 2512,
+      "sha256": "96a5482ee0892ff86ec813d64ce139a3f95a975803997dca87bf82bebb178845"
+    },
+    {
+      "path": "demo_aug/augmentor/augmentor.py",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/demo_aug/augmentor/augmentor.py",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/demo_aug__augmentor__augmentor.py",
+      "bytes": 86964,
+      "sha256": "c1342ccf1777768207d845fd809a189b54a86979df2884b642da98abc8976f8d"
+    },
+    {
+      "path": "demo_aug/annotators/constraints.py",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/demo_aug/annotators/constraints.py",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/demo_aug__annotators__constraints.py",
+      "bytes": 20109,
+      "sha256": "713c36ae96bbf9543a19e6a35e485558d068d9aae622f9326ee235a522a4fdee"
+    },
+    {
+      "path": "demo_aug/configs/robot_configs.py",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/demo_aug/configs/robot_configs.py",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/demo_aug__configs__robot_configs.py",
+      "bytes": 14103,
+      "sha256": "e924ed99aee2105d14fa5962bf62307adc0d9c9e17351ccf68d6f48f531c8d23"
+    },
+    {
+      "path": "demo_aug/utils/drake_utils.py",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/demo_aug/utils/drake_utils.py",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/demo_aug__utils__drake_utils.py",
+      "bytes": 16431,
+      "sha256": "621b0a221ea1efd72e0e00ca96b1f8db944e47d37878285802697fa8aaea4344"
+    },
+    {
+      "path": "demo_aug/utils/snopt_utils.py",
+      "url": "https://raw.githubusercontent.com/kevin-thankyou-lin/cpgen/1e7c1fc4a467c7678c8542ca762e332d1757d8d5/demo_aug/utils/snopt_utils.py",
+      "cache": "data/discovery/so101-retarget-primary-20261114/cpgen-read/demo_aug__utils__snopt_utils.py",
+      "bytes": 3447,
+      "sha256": "25a369dab3366bc497a4ad666d0ee66ec6be6aafdaf82d34357292fdb51ad533"
+    }
+  ],
+  "read_scope": "targeted keyword/method reads; not complete code audit",
+  "limits": [
+    "Read-only, not executed, not a reproduced baseline.",
+    "Root license does not establish every component or dependency license."
+  ]
+}
