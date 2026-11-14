@@ -49,8 +49,12 @@ A^B=(1,1,1,+1,+1,0).
 | [PHASER，2606.03598v1](https://arxiv.org/html/2606.03598v1) | phase boundary、阶段中心经验回放、自动动作信号+VLM分段 | 不能把阶段分段或 phase-aware replay 直接包装为新机制；可作 phase-label/分叉时刻强基线 |
 | [Hide-and-Seek，2605.30834v1](https://arxiv.org/abs/2605.30834) | 轨迹级标签下用 inter/intra trajectory contrastive loss 定位 failure onset，无逐步标签 | 不能把“从粗标签定位时间窗口”当首次；可借其 onset 评估，但本候选需证明语义共享前缀的正例约束不同 |
 | [Generative Failure-to-Success Bridging](https://junhahyung.github.io/FailureToSuccess/) | 失败 prefix 与成功 suffix 的语义阶段对齐、恢复窗口选择 | 不能把 prefix/suffix 对齐术语当新点；该线是恢复数据生成，不是 semantic calibration loss |
+| [AtomSkill，2512.18368v2](https://arxiv.org/html/2512.18368) | 以 gripper keyframe 切分可变长度技能，并用语义对比损失同时约束语义一致性和时间一致性；用 keypose 触发技能切换 | 不能把“语义＋时间一致性”或显式技能边界当新点；候选必须处理**无 gripper 事件但任务结果尚未分叉**的动作窗口 |
+| [TRA，2502.05454v2](https://arxiv.org/html/2502.05454) | 对当前状态、未来状态、目标和语言作时间对齐，改善组合任务；已有时间对比表示和理论/实验 | 不能把未来状态对齐或组合泛化当新点；候选的差异必须落在 paired-task 的当前动作保持/分叉监督，而非一般表示学习 |
+| [REFACTOR-VLA，2609.01215v1](https://arxiv.org/html/2609.01215) | 用学习到的世界模型 rollout、return preservation 和行为等价核判断动作片段是否等价，明确讨论“相同物理效果、不同动作路径” | 不能把“用结果判断动作等价”直接包装为新点；若继续，必须证明 paired-language temporal support 比片段聚类/等价核解决了不同问题，并在固定世界模型误差下成立 |
 
-目前未发现上述来源已经明确提出“任务语义分叉时刻支持的动作分离/保持损失”，但这只是本轮定向检索结论，
+目前未发现上述来源已经明确提出“任务语义分叉时刻支持的动作分离/保持损失”，但 AtomSkill、TRA 和 REFACTOR-VLA
+已经覆盖了语义/时间对齐、组合表示和基于结果的行为等价三块相邻机制。这只是本轮定向检索结论，
 不是机构查新或穷尽证明。
 
 ## 3. 候选核心机制（只有在失效复现后才可设计）
@@ -62,7 +66,10 @@ A^B=(1,1,1,+1,+1,0).
 3. **irrelevant support**：动作差异不影响当前任务谓词，不能作为语义校准的主要监督。
 
 令 \(d_t\in\{0,1,?\}\) 是由任务结构、状态转移或独立可行性检查得到的支持标签；问号表示信息不足，
-不能强制保持或分离。候选损失的概念形式为
+不能强制保持或分离。当前真正有可能形成方法差异的版本，不是手工填写阶段 mask，而是用**当前动作对未来任务结果分布的差异**推断
+\(d_t\)：如果在两个任务条件下执行同一当前动作，未来任务损失分布近似相同，则该时刻支持保持；只有未来结果分布出现可验证差异时才支持分离。
+这会把候选推进到一个需要世界模型或短 rollout 误差界的 outcome-conditioned support estimator；若实现退化成人工 mask，方法主张停止。
+候选损失的概念形式为
 
 \[
 L_{\rm div}=\sum_t d_t\,[m-\|a^A_t-a^B_t\|]_+,
@@ -73,12 +80,14 @@ L_{\rm inv}=\sum_t(1-d_t)\,w_t\|a^A_t-a^B_t\|^2,
 但这两个式子本身不是创新。真正需要证明的是：
 
 - \(d_t\) 能在部署信息下获得或安全拒绝，不能读取不可用的 oracle 任务真值；
+- \(d_t\) 不是由标签阶段或动作距离反推，而是由同一当前动作在两任务下的未来结果差异支持；估计器错误时能 abstain；
 - 支持标签与最终任务结果相关，而非只由动作差异反推；
 - 只在必须分叉的时刻施加分离，相比 BAS-VLA 的全时刻/统一 margin，能减少错误纠偏；
+- 相比 REFACTOR-VLA 的片段级行为等价核，能够在**同一当前状态、不同语言任务**下给出逐时刻保持/分叉决策；
 - 在 no-common-prefix、shared-prefix、multi-valid-action 三类任务上都不产生新的错误。
 
-如果最终只是给每个时刻乘一个人工 mask，方法贡献不足；需要从可观测状态和任务约束推导其适用条件，
-或者把它限定为一项经过验证的失效分析/数据标注协议，而非新算法。
+如果最终只是给每个时刻乘一个人工 mask，方法贡献不足；如果 outcome-conditioned support 只是把 REFACTOR-VLA 的
+行为等价核换成 paired-language 记号，也不能立项。届时应把成果限定为经过验证的失效分析/评测协议，而非新算法。
 
 ## 4. 最小否证实验
 
@@ -132,6 +141,7 @@ L_{\rm inv}=\sum_t(1-d_t)\,w_t\|a^A_t-a^B_t\|^2,
 ## 6. 当前裁决
 
 **候选 TPSC（暂称）比 RCBT 更接近一个单一机制，但仍未通过查新。**
-它有明确的数学反例和可执行的 SO-101 任务族；同时被 BAS-VLA、One Word、Stage-Aware、RT-H、PHASER、Hide-and-Seek 等近邻强约束。
+它有明确的数学反例和可执行的 SO-101 任务族；同时被 BAS-VLA、One Word、AtomSkill、TRA、REFACTOR-VLA、Stage-Aware、RT-H、PHASER、Hide-and-Seek 等近邻强约束。
 下一步应先做小规模、只测失效机制的仿真预检；不先训练大模型、不先采购新传感器、不把“共享前缀”写成论文贡献。
+载体预检可使用公开的 SmolVLA/SO-101 路径，见 [A100 交接单](../NEXT_A100_TPSC.md)；先验证普通基线和数据接口，不能把基线可运行误读为候选成立。
 

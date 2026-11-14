@@ -101,4 +101,7 @@
 - 新候选单独报告：`docs/prior-art/temporal-prefix-calibration-audit.md`。核心只暂称 outcome-aligned temporal semantic calibration/TPSC，必须先证明 uniform separation 在 shared-prefix 上造成错误纠偏，并超过 action-only mask/阶段状态/层级语言等强基线。
 - 新增分析核算 `experiments/so101/shared-prefix-separation-audit.json`：6 步 toy chunk、3 步共享前缀、分叉支持 2 步；统一 margin 的 toy penalty 2.0、只在分叉支持上施加分离时 penalty 0.0。这是目标函数几何，不是策略实验。
 - `mechanism-first-sources-20261114.json` 已补齐 One Word、RT-H、Acting While Understanding、PHASER、Hide-and-Seek 和 Still Grounded 的 6 个版本化 arXiv 元数据；哈希只证明取到的 API 响应可追溯，不证明已完成全文复现。
+- 新一轮原文审计加入 AtomSkill（2512.18368v2）、TRA（2502.05454v2）、Counterfactual Memory Audit（2609.27247v1）和 REFACTOR-VLA（2609.01215v1）。AtomSkill/TRA/REFACTOR-VLA 分别压缩语义时间对齐、组合表示和结果型行为等价的宽泛新意；TPSC 只能继续审计 paired-language 的逐时刻保持/分叉支持。
+- CriticHack（2610.02527v1）已把视觉 reward 错误对象放大、总体指标掩盖语义误排和 task-specific verifier 修正做成闭环 MuJoCo 实验；完成判定线降为强对照/复现线，不再作为主创新候选。
+- 载体可行性新增可核验证据：`lerobot/smolvla_base`（450M 级、Apache-2.0 模型卡）和 `lerobot/svla_so101_pickplace`（Apache-2.0 数据卡）均为公开、非 gated Hub 资产；官方文档给出 SO-101/多相机/状态/语言/action-chunk 微调路径。它只证明可启动基线，不证明本项目方法或仿真—真机一致性。
 - 完整研究目标仍 active；当前候选未查新通过、未实现、未获得 A100/VLA/真机结果。

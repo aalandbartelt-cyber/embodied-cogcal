@@ -16,8 +16,12 @@ ActionABI/ActionShift 已有契约识别/主动适配源码，CARE 已有 VLA �
 见 [独立复核](review-deepseek-rcbt.md)：单一参考动作可能将正确多模态行为记成偏差，GP/元残差迁移也已有直接近邻；
 同时从 BAS-VLA 原文发现“语义不同但当前 chunk 可共用”的条件反例线索，实际失效尚待验证。
 当前优先做 [共享前缀语义校准](temporal-prefix-calibration-audit.md) 的小规模否证；
-[完成判定的动作表象捷径](mechanism-first-completion-verification.md) 保留为并行备选，已有静态 SO-101 几何对照但无 critic/真机结果。
+[完成判定的动作表象捷径](mechanism-first-completion-verification.md) 降为强对照/复现实验线：CriticHack 已在 MuJoCo 闭环展示视觉奖励错误对象放大并用 verifier 修正；本项目若继续只能查不同的可识别边界，不能再把“加 verifier/robot mask”当主方法。
 这些是待验证问题，不自动替代当前否决结论，也未宣称查新通过。
+
+**共享前缀候选的最新降级边界：**AtomSkill 已覆盖语义/时间一致性技能对比，TRA 已覆盖时间对齐表示与组合泛化，
+REFACTOR-VLA 已覆盖基于世界模型结果的行为等价核。TPSC 只有在“同一当前状态、不同语言任务”的逐时刻保持/分叉支持
+由未来结果差异自动推断，并且优于人工阶段 mask/片段等价聚类时，才可能形成方法差异；否则只保留为失效分析或评测协议。
 
 **决定：停止将当前 ECCBF 作为论文核心方法；撤回初轮“优先 C、其次 B”的推荐。**
 三个宽泛候选的核心机制都已有直接解法。目前没有一条替代方法通过我们的选题门槛。

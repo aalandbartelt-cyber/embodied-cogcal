@@ -283,6 +283,81 @@
       "url": "https://arxiv.org/abs/2610.00542v1",
       "response_sha256": "64a4ac281cc27aeccc439ed7f46a1a784c7fcad9004d47c6a81fe1ddaf9f8fd6",
       "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    },
+    {
+      "version": "2512.18368",
+      "title": "Learning Semantic Atomic Skills for Multi-Task Robotic Manipulation",
+      "authors": [
+        "Yihang Zhu",
+        "Weiqing Wang",
+        "Shijie Wu",
+        "Ye Shi",
+        "Jingya Wang"
+      ],
+      "first_date": "2025/12/20",
+      "version_date": "2026/07/02",
+      "url": "https://arxiv.org/abs/2512.18368",
+      "response_sha256": "2d3cbf4fc8cef3a2c1053ed2d2bf37190be6858016842729c711a945b9997c7f",
+      "read_level": "full HTML targeted audit of method and limitations; no local reproduction"
+    },
+    {
+      "version": "2502.05454",
+      "title": "Temporal Representation Alignment: Successor Features Enable Emergent Compositionality in Robot Instruction Following",
+      "authors": [
+        "Vivek Myers",
+        "Bill Chunyuan Zheng",
+        "Anca Dragan",
+        "Kuan Fang",
+        "Sergey Levine"
+      ],
+      "first_date": "2025/02/08",
+      "version_date": "2025/02/13",
+      "url": "https://arxiv.org/abs/2502.05454",
+      "response_sha256": "637bec5150599312bb199a44ba7d2f12b71e0227b418d96e80672760346f55ee",
+      "read_level": "full HTML targeted audit of method and limitations; no local reproduction"
+    },
+    {
+      "version": "2609.27247",
+      "title": "Memory That Changes Action Is Not Memory That Guides It: Counterfactual Auditing of History-Conditioned Robot Policies",
+      "authors": [
+        "Jiajie Zhang",
+        "Yankai Xiang",
+        "Changhao Chen"
+      ],
+      "first_date": "2026/09/23",
+      "version_date": "2026/09/23",
+      "url": "https://arxiv.org/abs/2609.27247",
+      "response_sha256": "08888c069984aa96e278524371abed75a63f5e6b27e341af31b3678952195a53",
+      "read_level": "full HTML targeted audit of method and limitations; no local reproduction"
+    },
+    {
+      "version": "2609.01215",
+      "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+      "authors": [
+        "Riyaaz Shaik",
+        "Chandru Venkataraman"
+      ],
+      "first_date": "2026/09/01",
+      "version_date": "2026/09/01",
+      "url": "https://arxiv.org/abs/2609.01215",
+      "response_sha256": "3584b7a393f74bbcb18da0dfee6ab11bc35e0bca583bd566d6176c3d07435e99",
+      "read_level": "full HTML targeted audit of method and limitations; no local reproduction"
+    },
+    {
+      "version": "2610.02527v1",
+      "title": "CriticHack: Evaluating Visual Rewards Under Robot Policy Optimization",
+      "authors": [
+        "Jiaxuan Luo",
+        "Xingguo Xu",
+        "Shanshan Wang",
+        "Yuhan Zhou",
+        "Zhen Zhang"
+      ],
+      "first_date": "2026/10/01",
+      "version_date": "2026/10/01",
+      "url": "https://arxiv.org/abs/2610.02527",
+      "response_sha256": "4418ef215d7ed992dfdc6fb42e1eb5ead43c1796004b89fdc5f8f82a88e56522",
+      "read_level": "full HTML targeted audit of failure mechanism, controls and scope; no local reproduction"
     }
   ],
   "additional_primary_sources": [
@@ -349,6 +424,26 @@
       "model_or_dataset_card_license": "apache-2.0",
       "response_sha256": "7bfaa22832a9ceb302b2a628f85fd366ad98815c778b426b483c68ea0302f4ab",
       "verified": "HTTP metadata only; weights/videos not downloaded or executed"
+    },
+    {
+      "id": "lerobot/smolvla_base",
+      "url": "https://huggingface.co/api/models/lerobot/smolvla_base",
+      "revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+      "gated": false,
+      "private": false,
+      "model_or_dataset_card_license": "apache-2.0",
+      "response_sha256": "2fa384530548919a677da0c048e9e25c81065014f3be49b398691dda24a84859",
+      "verified": "HTTP metadata only; weights/data not downloaded or executed"
+    },
+    {
+      "id": "lerobot/svla_so101_pickplace",
+      "url": "https://huggingface.co/api/datasets/lerobot/svla_so101_pickplace",
+      "revision": "f641879e22172be7e8161d5e6c1503c2d2feb657",
+      "gated": false,
+      "private": false,
+      "model_or_dataset_card_license": "apache-2.0",
+      "response_sha256": "e2aeeac25c5ad9266b31340603a859a875f3edb43743feb4a8884cc48d8e0888",
+      "verified": "HTTP metadata only; weights/data not downloaded or executed"
     }
   ],
   "source_repository": {
