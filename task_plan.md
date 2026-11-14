@@ -18,6 +18,11 @@ SAGE/GapONet 和 SimuGuard 进一步限制后接补偿、仿真假失败审计�
 见[本轮实际数值与判断](experiments/discovery/so101-retarget-screen-20261114/README.md)。
 它与未证实的“精度改善破坏阶段线索”均不是主推荐；不新增方法名或启动训练。
 
+物理接续已完成：独立见证5/5、identity2/2、完整位姿与简单方向IK各4/4，15条/4275命令。
+本工作区未观察到候选任务损害；按执行前规则停止该核心，降为载体工具，不扩大扰动找失败。
+见[全部物理结果与范围](experiments/discovery/so101-retarget-physical-20261114/README.md)。
+最终物体误差6.38–33.34mm，不称精度补偿成果；没有learned policy/真机结果。完整选题仍未完成。
+
 ## 当前结论优先入口（2026-11-14 23:00）
 
 完整研究目标仍active；本地5070Ti优先是用户最新决定，A100是后续资源。

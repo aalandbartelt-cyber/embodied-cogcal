@@ -1,0 +1,30 @@
+{
+  "name": "identity-task_direction",
+  "source_xyz_m": [
+    0.2,
+    -0.075,
+    0.014
+  ],
+  "goal_xyz_m": [
+    0.2,
+    0.075,
+    0.014
+  ],
+  "task_success": true,
+  "placed": true,
+  "released": true,
+  "longest_two_finger_lift_s": 2.6305,
+  "max_object_z_m": 0.08351740004433844,
+  "final_object_xyz_m": [
+    0.2144279414239481,
+    0.060108841384795636,
+    0.013998761340986892
+  ],
+  "goal_error_xy_m": 0.020734321754908032,
+  "max_object_robot_penetration_m": 6.157463424996825e-05,
+  "clip_events": 0,
+  "mean_abs_tracking_error_rad": 0.006049695224568612,
+  "controls": 285,
+  "sim_time_s": 9.500000000000119,
+  "object_pose_writes_during_rollout": 0
+}

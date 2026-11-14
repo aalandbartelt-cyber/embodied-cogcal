@@ -421,3 +421,16 @@ CP-Gen / MoMaGen / Isaac Capture 强对照，以及作者博客资产不能复�
 目前没有此证据；关键点/约束优化已经存在，不能改IK或换SO101便立项。
 如继续先做同源/同场景/同预算的生成方法比较，并保留直接成功见证；强简单对照能解决则停止该核心。
 不要为此重启小BC/下载大模型；本轮没有策略训练或真机结果。完整选题仍未完成。
+
+## 17. 位姿重定向物理检查已完成，勿再把该线当待运行
+
+`experiments/discovery/so101-retarget-physical-20261114/README.md` 为最新入口。
+源与四目标的teacher见证5/5；两种identity2/2；完整位姿与简单方向IK各4/4。
+共15条/4275个命令，正常exit0，全部trace/原始stdout/IK诊断/绑定源码与执行前计划保存。
+独立audit从trace复算成功谓词及身份/时序/限幅，当前 `verification-v2.json` 通过；v1及原脚本保留。
+
+**当前决定：本工作区未见候选任务损害，停止该核心，降为载体工具；不扩大扰动制造失败。**
+源码在 `experiments/discovery/retarget_physical/`，非learned/VLA，也不是忠实CP-Gen实现。
+最终物体误差6.38–33.34mm，不能称精度补偿成果；无真机/新方法/数据覆盖损害结果。
+SciPy1.16.3只以 --no-deps补装到cogcal-sim，NumPy/MuJoCo未改；原source模型及受保护文件未改。
+完整目标仍active，尚无可确定方向；下一步应寻找不同具体问题，不重启已结束BC或此15条筛查。

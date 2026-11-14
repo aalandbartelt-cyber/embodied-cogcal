@@ -1,0 +1,105 @@
+{
+  "kind": "trace_integrity_and_predicate_audit_not_novelty_or_vla_validation",
+  "passed": true,
+  "episodes": 15,
+  "controls": 4275,
+  "ik_optimizer_attempts": 100,
+  "rows": [
+    {
+      "name": "witness-source",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.020734321753553227
+    },
+    {
+      "name": "witness-target-0",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.029741410323682153
+    },
+    {
+      "name": "witness-target-1",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.012682735458858643
+    },
+    {
+      "name": "witness-target-2",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.02601275369604047
+    },
+    {
+      "name": "witness-target-3",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.013784995874381915
+    },
+    {
+      "name": "identity-full_pose",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.020734321754908032
+    },
+    {
+      "name": "identity-task_direction",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.020734321754908032
+    },
+    {
+      "name": "retarget-0-full_pose",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.03333786031032303
+    },
+    {
+      "name": "retarget-0-task_direction",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.02805194097623443
+    },
+    {
+      "name": "retarget-1-full_pose",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.007585569900019365
+    },
+    {
+      "name": "retarget-1-task_direction",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.008988735402553738
+    },
+    {
+      "name": "retarget-2-full_pose",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.026126018669077402
+    },
+    {
+      "name": "retarget-2-task_direction",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.02183163483747298
+    },
+    {
+      "name": "retarget-3-full_pose",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.01620768589457022
+    },
+    {
+      "name": "retarget-3-task_direction",
+      "task_success_recomputed": true,
+      "controls": 285,
+      "final_goal_error_m": 0.006378495941929385
+    }
+  ],
+  "protected_original_sha256": {
+    "experiments/so101/smolvla-interface-preflight/summary-degree-assumption.json": "48fce62e85353a8dc0c81214bd8c6f8963ca8e5745226c2b40824af85b4b3a81",
+    "experiments/so101/tpsc-pilot/manifest-pilot.jsonl": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+    "experiments/so101/tpsc-pilot/manifest-full.jsonl": "ced15f2b419275c89cff76516e17d2468324512eb7b32e10002a4148f6be39e5"
+  },
+  "audit_source_sha256": "7bef85ee1b19480cc230949351402e6e2f4c9759f592ed6708d45820251dc714"
+}

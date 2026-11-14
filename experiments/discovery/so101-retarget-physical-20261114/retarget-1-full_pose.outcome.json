@@ -1,0 +1,30 @@
+{
+  "name": "retarget-1-full_pose",
+  "source_xyz_m": [
+    0.195,
+    -0.07,
+    0.014
+  ],
+  "goal_xyz_m": [
+    0.225,
+    0.075,
+    0.014
+  ],
+  "task_success": true,
+  "placed": true,
+  "released": true,
+  "longest_two_finger_lift_s": 2.6285,
+  "max_object_z_m": 0.08392117766186964,
+  "final_object_xyz_m": [
+    0.22582307888193703,
+    0.0674592167606946,
+    0.013998761340986892
+  ],
+  "goal_error_xy_m": 0.007585569900019365,
+  "max_object_robot_penetration_m": 9.769308626084881e-05,
+  "clip_events": 0,
+  "mean_abs_tracking_error_rad": 0.006059656902695775,
+  "controls": 285,
+  "sim_time_s": 9.500000000000119,
+  "object_pose_writes_during_rollout": 0
+}

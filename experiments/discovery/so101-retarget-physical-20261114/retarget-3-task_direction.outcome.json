@@ -1,0 +1,30 @@
+{
+  "name": "retarget-3-task_direction",
+  "source_xyz_m": [
+    0.205,
+    -0.07,
+    0.014
+  ],
+  "goal_xyz_m": [
+    0.225,
+    0.075,
+    0.014
+  ],
+  "task_success": true,
+  "placed": true,
+  "released": true,
+  "longest_two_finger_lift_s": 2.628,
+  "max_object_z_m": 0.08348495099788178,
+  "final_object_xyz_m": [
+    0.22708727178422897,
+    0.06897268658688041,
+    0.013998761340986883
+  ],
+  "goal_error_xy_m": 0.006378495941929385,
+  "max_object_robot_penetration_m": 5.991029961539395e-05,
+  "clip_events": 0,
+  "mean_abs_tracking_error_rad": 0.0059756121822636616,
+  "controls": 285,
+  "sim_time_s": 9.500000000000119,
+  "object_pose_writes_during_rollout": 0
+}

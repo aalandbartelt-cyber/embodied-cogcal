@@ -1,0 +1,281 @@
+{
+  "mode": "task_direction",
+  "anchors": [
+    {
+      "anchor_index": 0,
+      "q_rad": [
+        0.4471625972247421,
+        -0.18357240185973245,
+        0.1842801399300913,
+        1.5700855159736824,
+        0.4383015726954476
+      ],
+      "target_xyz_m": [
+        0.19999329504224408,
+        -0.07499676112857499,
+        0.07399433069851424
+      ],
+      "target_rotation": [
+        [
+          2.7706307647524706e-06,
+          0.057508792680598164,
+          0.9983449998656491
+        ],
+        [
+          -1.328684680432235e-06,
+          0.9983449998688113,
+          -0.057508792677092926
+        ],
+        [
+          -0.9999999999952787,
+          -1.1671500768743737e-06,
+          2.8424564222983098e-06
+        ]
+      ],
+      "position_error_m": 0.0,
+      "rotation_error_rad": 0.0,
+      "approach_error_deg": 1.7075472925031877e-06,
+      "attempts": [
+        {
+          "cost": 0.0,
+          "nfev": 1,
+          "residual_calls_including_numeric_jacobian": 6,
+          "optimizer_success": true,
+          "status": 1
+        },
+        {
+          "cost": 1.6473449212423647e-24,
+          "nfev": 8,
+          "residual_calls_including_numeric_jacobian": 48,
+          "optimizer_success": true,
+          "status": 1
+        }
+      ]
+    },
+    {
+      "anchor_index": 1,
+      "q_rad": [
+        0.4471639772525368,
+        -0.08767676889200568,
+        0.5351871324827876,
+        1.123290054920131,
+        0.43834032231161635
+      ],
+      "target_xyz_m": [
+        0.2000076427406992,
+        -0.07500367922854233,
+        0.014003074706585558
+      ],
+      "target_rotation": [
+        [
+          -3.6894064351702667e-06,
+          0.05747148490000131,
+          0.9983471482454267
+        ],
+        [
+          1.7692993304341265e-06,
+          0.9983471482510338,
+          -0.057471484893785625
+        ],
+        [
+          -0.9999999999916283,
+          1.5543392747272011e-06,
+          -3.7849926530439675e-06
+        ]
+      ],
+      "position_error_m": 0.0,
+      "rotation_error_rad": 0.0,
+      "approach_error_deg": 2.699869328381916e-06,
+      "attempts": [
+        {
+          "cost": 0.0,
+          "nfev": 1,
+          "residual_calls_including_numeric_jacobian": 6,
+          "optimizer_success": true,
+          "status": 1
+        },
+        {
+          "cost": 3.02834179705329e-26,
+          "nfev": 12,
+          "residual_calls_including_numeric_jacobian": 67,
+          "optimizer_success": true,
+          "status": 1
+        }
+      ]
+    },
+    {
+      "anchor_index": 2,
+      "q_rad": [
+        0.44716238733598895,
+        -0.17703771706139707,
+        0.10309160657742145,
+        1.6447394976408558,
+        0.4382926325801451
+      ],
+      "target_xyz_m": [
+        0.19999331431052478,
+        -0.07499678310905529,
+        0.08399374830444635
+      ],
+      "target_rotation": [
+        [
+          2.650606160051498e-06,
+          0.05751750845629251,
+          0.9983444977631479
+        ],
+        [
+          -1.2711249535307667e-06,
+          0.9983444977660422,
+          -0.05751750845308442
+        ],
+        [
+          -0.9999999999956779,
+          -1.1165643411109594e-06,
+          2.7193300158958895e-06
+        ]
+      ],
+      "position_error_m": 0.0,
+      "rotation_error_rad": 0.0,
+      "approach_error_deg": 3.91248236030638e-06,
+      "attempts": [
+        {
+          "cost": 0.0,
+          "nfev": 1,
+          "residual_calls_including_numeric_jacobian": 6,
+          "optimizer_success": true,
+          "status": 1
+        },
+        {
+          "cost": 2.0607153966372494e-24,
+          "nfev": 7,
+          "residual_calls_including_numeric_jacobian": 42,
+          "optimizer_success": true,
+          "status": 1
+        }
+      ]
+    },
+    {
+      "anchor_index": 3,
+      "q_rad": [
+        -0.45259325194461636,
+        -0.1746106665004961,
+        0.10052012182833252,
+        1.644884046047415,
+        -0.4555896322989457
+      ],
+      "target_xyz_m": [
+        0.19999358815610235,
+        0.07499686236528615,
+        0.08399400279009804
+      ],
+      "target_rotation": [
+        [
+          2.540945377278454e-06,
+          0.051652899074257796,
+          0.9986650980237409
+        ],
+        [
+          1.23555362441935e-06,
+          0.9986650980260404,
+          -0.0516528990775204
+        ],
+        [
+          -0.9999999999960084,
+          1.3651514765775086e-06,
+          2.473733537615701e-06
+        ]
+      ],
+      "position_error_m": 0.0,
+      "rotation_error_rad": 0.0,
+      "approach_error_deg": 0.0,
+      "attempts": [
+        {
+          "cost": 0.0,
+          "nfev": 1,
+          "residual_calls_including_numeric_jacobian": 6,
+          "optimizer_success": true,
+          "status": 1
+        },
+        {
+          "cost": 2.536689036047221e-25,
+          "nfev": 10,
+          "residual_calls_including_numeric_jacobian": 60,
+          "optimizer_success": true,
+          "status": 1
+        }
+      ]
+    },
+    {
+      "anchor_index": 4,
+      "q_rad": [
+        -0.45259515564768416,
+        -0.08540106928852263,
+        0.5325787361716138,
+        1.1236227500720986,
+        -0.45565467052902936
+      ],
+      "target_xyz_m": [
+        0.2000077288171451,
+        0.07500374105300067,
+        0.014002949110190552
+      ],
+      "target_rotation": [
+        [
+          -3.6783436009815576e-06,
+          0.051715949217982546,
+          0.998661834948623
+        ],
+        [
+          -1.788630643231176e-06,
+          0.9986618349534414,
+          -0.051715949224820076
+        ],
+        [
+          -0.9999999999916344,
+          -1.976466191117715e-06,
+          -3.5809206386303158e-06
+        ]
+      ],
+      "position_error_m": 0.0,
+      "rotation_error_rad": 0.0,
+      "approach_error_deg": 2.831646840510158e-06,
+      "attempts": [
+        {
+          "cost": 0.0,
+          "nfev": 1,
+          "residual_calls_including_numeric_jacobian": 6,
+          "optimizer_success": true,
+          "status": 1
+        },
+        {
+          "cost": 7.42514746544161e-21,
+          "nfev": 19,
+          "residual_calls_including_numeric_jacobian": 94,
+          "optimizer_success": true,
+          "status": 1
+        }
+      ]
+    }
+  ],
+  "source_schedule_reconstruction_max_error_rad": 1.1102230246251565e-16,
+  "reference": "source command FK, not measured executed FK",
+  "orientation_length_m": 0.1,
+  "source_joint_prior_m_per_rad": 0.001,
+  "bounds_rad": {
+    "low": [
+      -1.91986,
+      -1.7453292519943224,
+      -1.69,
+      -1.65806,
+      -2.7438472969992493
+    ],
+    "high": [
+      1.91986,
+      1.7453292519943366,
+      1.69,
+      1.65806,
+      2.841206309382605
+    ]
+  },
+  "identity_command_max_difference_rad": 1.1102230246251565e-16
+}

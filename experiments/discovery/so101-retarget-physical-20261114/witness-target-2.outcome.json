@@ -1,0 +1,30 @@
+{
+  "name": "witness-target-2",
+  "source_xyz_m": [
+    0.205,
+    -0.08,
+    0.014
+  ],
+  "goal_xyz_m": [
+    0.175,
+    0.075,
+    0.014
+  ],
+  "task_success": true,
+  "placed": true,
+  "released": true,
+  "longest_two_finger_lift_s": 2.63,
+  "max_object_z_m": 0.0842457035715857,
+  "final_object_xyz_m": [
+    0.19617056278375572,
+    0.059884755170030356,
+    0.013998761340986885
+  ],
+  "goal_error_xy_m": 0.02601275369604047,
+  "max_object_robot_penetration_m": 0.00010923614618735624,
+  "clip_events": 0,
+  "mean_abs_tracking_error_rad": 0.006368344104274166,
+  "controls": 285,
+  "sim_time_s": 9.500000000000119,
+  "object_pose_writes_during_rollout": 0
+}

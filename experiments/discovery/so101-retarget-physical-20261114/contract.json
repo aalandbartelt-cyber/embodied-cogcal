@@ -1,0 +1,87 @@
+{
+  "kind": "privileged_scripted_generation_screen_not_learned_policy_or_method_evaluation",
+  "started_utc": "2026-11-14T15:53:16.562062+00:00",
+  "bindings_sha256": {
+    "experiments/discovery/retarget_physical/run_screen.py": "0c808937b84798f967ce391a4e95672eaa69f63e58fd1beaa30d7c85e9bfa9bb",
+    "experiments/discovery/retarget_physical/retarget.py": "537472729e7643c0006533139305a2b2de4e8d363498ceccb3cc3743edf4da01",
+    "experiments/discovery/matched_bc/carrier.py": "ca135ddf700cc97828afc07232c11b88e133bf37f9794723c5841dd5dca374da"
+  },
+  "plan_sha256": "67eb9a7e38c87d309d9df859f24b8beffe2c425e6fa02e90356b5f68c3a17dc9",
+  "source_xyz_m": [
+    0.2,
+    -0.075,
+    0.014
+  ],
+  "goal_xyz_m": [
+    0.2,
+    0.075,
+    0.014
+  ],
+  "cases": [
+    [
+      [
+        0.195,
+        -0.08,
+        0.014
+      ],
+      [
+        0.175,
+        0.075,
+        0.014
+      ]
+    ],
+    [
+      [
+        0.195,
+        -0.07,
+        0.014
+      ],
+      [
+        0.225,
+        0.075,
+        0.014
+      ]
+    ],
+    [
+      [
+        0.205,
+        -0.08,
+        0.014
+      ],
+      [
+        0.175,
+        0.075,
+        0.014
+      ]
+    ],
+    [
+      [
+        0.205,
+        -0.07,
+        0.014
+      ],
+      [
+        0.225,
+        0.075,
+        0.014
+      ]
+    ]
+  ],
+  "mujoco": "4.0.1",
+  "numpy": "2.5.4",
+  "scipy": "1.16.3",
+  "dependency_added": "scipy==1.16.3 --no-deps; numpy and mujoco unchanged",
+  "external_revision": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "model_xml_sha256": {
+    "data/discovery/so101-manipulation-eval-20261114/assets/so101/sim_replay.xml": "d68b503cd3120456cd22bad710ec775ace7ad395b0daa02402d4ddc4227cae8a",
+    "data/discovery/so101-manipulation-eval-20261114/assets/so101/so101_new_calib.xml": "ef1c54a2eb7654ba8062541a7b5a2b7c0c2fcc466dd6c07509f84be5c89ba2cf"
+  },
+  "physics_timestep_s": 0.0005,
+  "limits": [
+    "Four hand-selected geometric layouts, not independent stochastic replications.",
+    "Source command FK and fixed privileged subtask boundaries, not observed-state reconstruction.",
+    "Ordinary IK controls, not faithful CP-Gen/MoMaGen implementations.",
+    "Goal graphics unchanged, no RGB used; no semantic instruction comparison.",
+    "External pads/friction not hardware-calibrated; 35mm is qualification not precision."
+  ]
+}
