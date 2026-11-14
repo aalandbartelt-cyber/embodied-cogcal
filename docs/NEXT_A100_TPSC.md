@@ -1,6 +1,6 @@
-# A100 上的 TPSC 载体预检
+# TPSC 载体预检（当前先用本地 5070 Ti）
 
-日期：2026-11-14。本文只建立可运行的 SO-101 SmolVLA 基线，不代表 TPSC 已立项或查新通过。
+日期：2026-11-14。用户最新决定选题阶段先用本地 RTX 5070 Ti；A100 路径保留用于后续规模实验。本文只建立可运行的 SO-101 SmolVLA 基线，不代表 TPSC 已立项或查新通过。
 第一阶段的目标是确认“策略能在同体数据协议上运行”，第二阶段才检验 shared-prefix 失效。
 
 ## 已核验的公开载体
@@ -120,3 +120,28 @@ nvidia-smi
 - [SmolVLA 公开 SO-101 训练示例](https://github.com/ArmDeveloperEcosystem/arm-learning-paths/blob/main/content/learning-paths/laptops-and-desktops/finetune-smolvla-lerobot/6-finetune-smolvla.md)
 - [共享前缀候选审计](prior-art/temporal-prefix-calibration-audit.md)
 
+
+## Codex 恢复后的本地执行入口
+
+原资产已 review/提交为 `af47281`，保全和问题说明见
+[`tpsc-pilot/REVIEW.md`](../experiments/so101/tpsc-pilot/REVIEW.md)。
+本轮指定 carrier 固定为 `ngocthuong2212/so101_mujoco_follower_7_31` 的
+`de301f7afe016cef14ac46a238714f52e15bf932`；旧 `svla` 只保留异构负对照。
+
+- 数据/模型已下载到忽略目录 `data/tpsc-carrier` / `checkpoints/smolvla_base`，
+  22 个文件的 SHA256 与 revision 见 `experiments/so101/tpsc-pilot/carrier-assets.json`。
+- LeRobot 固定 tag v0.4.3 的 commit `0b067df57d21d3a02d6c511f1609172fa39ac29b`。
+- 先运行 `scripts/tpsc_carrier_smoke.py --output <新的结果路径>`，验收真实视频解码、CUDA 前向/反向与 action chunk。
+- 普通训练入口 `scripts/tpsc_train_local.sh`，默认 batch=4、seed=42、固定终点 20,000 steps；
+  载体训练不等于 TPSC 任务对训练。尚未验证的运行项以实时日志为准。
+- `learned_rollout.py` / `policy_worker.py` 用双进程保持原 MuJoCo 4.0.1；
+  输入边界仅 RGB、六关节、指令与注册随机种子，物体/目标真值仅在 evaluator 中。
+- 该 carrier 的 gripper 数据含 -10，旧 handoff 中 `gripper_0_100` 不适用；
+  全六通道 degree 转 rad 当前仍标注为模拟载体假设。未核实 source/camera 对应前，不能提升为已验证同体适配。
+- 当前只有程序与资产检查；20 条 learned-policy、物理任务能力和 uniform separation 对比尚未完成，
+  不可预填 shared-prefix/伤害结论。
+
+本地实际检查已完成：carrier视频解码、strict权重加载、CUDA有限前反向、[1,50,6] chunk与跨进程加载均通过。
+20-step资源试跑完成，固定20k训练运行中。结果和限制见
+[本轮go/no-go](../experiments/so101/tpsc-pilot/runs/local-5070ti/go-no-go.md)。
+20条物理pilot、语言配对结果、uniform separation干预均未完成，不能由这些工程检查推出。

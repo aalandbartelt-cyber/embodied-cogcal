@@ -124,8 +124,9 @@ MuJoCo 4.0.1 场景 reset 与评估器 smoke 通过；20k 关节采样下 240 �
 
 - [x] 读取 handoff、review 原资产并记录问题，保全 degree-assumption 原记录。
 - [x] 重跑分析/仿真测试、manifest 校验和场景 smoke。
-- [ ] 提交现有资产，后续修复单独版本，不覆盖历史实验记录。
-- [ ] 核验指定 MuJoCo carrier 的夹爪、相机与模型/processor，冻结 revision。
-- [ ] A100 普通 SmolVLA 载体验收；先询问已有访问入口。
+- [x] 提交现有资产 af47281；后续修复单独版本，不覆盖历史实验记录。
+- [x] 冻结指定carrier/SmolVLA revision并下载、哈希；夹爪/相机等价性仍明确待核验。
+- [x] 本地5070Ti真实视频/SmolVLA CUDA前反向与20-step资源试跑。
+- [ ] 固定20k终点普通carrier训练：session74436/PID87789在运行，须先核验后接续，不重复启动。
 - [ ] 20 条 learned-policy rollout、配对 prefix 报告与能力判定。
 - [ ] 只有能力合格且共享前缀成立才检验 uniform separation 伤害；否则 go/no-go 记不可判定。

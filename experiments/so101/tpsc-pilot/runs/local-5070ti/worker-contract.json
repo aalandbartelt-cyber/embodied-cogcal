@@ -1,0 +1,30 @@
+{
+  "kind": "cross_environment_ipc_smoke_not_episode_result",
+  "parent_python": "3.12",
+  "worker_python": "3.10",
+  "checkpoint_role": "20_step_resource_probe_only",
+  "input_keys": [
+    "images",
+    "joint_positions_deg",
+    "task",
+    "seed"
+  ],
+  "blank_image_fixture": true,
+  "chunk_shape": [
+    50,
+    6
+  ],
+  "chunk_finite": true,
+  "ready": {
+    "ready": true,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "checkpoint": "checkpoints/tpsc-resource-probe/checkpoints/last/pretrained_model",
+    "image_keys": [
+      "observation.images.camera1",
+      "observation.images.camera2",
+      "observation.images.camera3",
+      "observation.images.empty_camera_0"
+    ]
+  },
+  "claim": "protocol_only_no_task_competence_or_tpsc_effect"
+}

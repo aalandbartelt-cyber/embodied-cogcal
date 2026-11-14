@@ -1,0 +1,6 @@
+/home/mary/.cache/cogcal/venvs/tpsc-policy/lib/python3.10/site-packages/torchvision/io/_video_deprecation_warning.py:5: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+DECODE_OK 60245 200
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+{"kind": "carrier_cuda_forward_backward_not_policy_result", "dataset_robot_type": "so_follower", "dataset_episodes": 200, "dataset_frames": 60245, "sample_index": 0, "torch": "2.7.1+cu128", "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU", "cuda_capability": [12, 0], "normalizer": "explicit carrier dataset mean/std for initialization smoke only", "adapter": "no physics executed; carrier all-six-degree interpretation remains unverified", "loss": 0.17151522636413574, "finite_gradients": true, "gradient_parameters": 99880992, "forward_backward_s": 16.376970934999918, "chunk_shape": [1, 50, 6], "chunk_finite": true, "inference_s": 0.3156418519993167, "peak_allocated_bytes": 1461431808, "model_sha256": null, "claim": "carrier_loader_model_gradient_smoke_not_task_success_or_tpsc_effect"}

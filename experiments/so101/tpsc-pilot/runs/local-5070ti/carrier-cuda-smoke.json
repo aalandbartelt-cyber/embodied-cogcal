@@ -1,0 +1,29 @@
+{
+  "kind": "carrier_cuda_forward_backward_not_policy_result",
+  "dataset_robot_type": "so_follower",
+  "dataset_episodes": 200,
+  "dataset_frames": 60245,
+  "sample_index": 0,
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "cuda_capability": [
+    12,
+    0
+  ],
+  "normalizer": "explicit carrier dataset mean/std for initialization smoke only",
+  "adapter": "no physics executed; carrier all-six-degree interpretation remains unverified",
+  "loss": 0.17151522636413574,
+  "finite_gradients": true,
+  "gradient_parameters": 99880992,
+  "forward_backward_s": 16.376970934999918,
+  "chunk_shape": [
+    1,
+    50,
+    6
+  ],
+  "chunk_finite": true,
+  "inference_s": 0.3156418519993167,
+  "peak_allocated_bytes": 1461431808,
+  "model_sha256": null,
+  "claim": "carrier_loader_model_gradient_smoke_not_task_success_or_tpsc_effect"
+}

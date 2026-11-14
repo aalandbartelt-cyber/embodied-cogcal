@@ -1,0 +1,50 @@
+{
+  "kind": "immutable_startup_log_snapshots_not_completed_training",
+  "files": {
+    "worker-contract.stderr.txt": {
+      "bytes": 81,
+      "sha256": "3aa0bdb7f34d62fb22265223c4fa183c06ca0bf17c790589220799a410a873ad"
+    },
+    "worker-contract.stdout.txt": {
+      "bytes": 6400,
+      "sha256": "f01aea98b0236ac3b49f1e8d8ebbfc17ba5221c2c75e151743a811b12087d581"
+    },
+    "runtime-env.json": {
+      "bytes": 584,
+      "sha256": "1f7ef1b7415c2ea5351cfa7aabf46ed0a01a60df65378c5c2b4f6830a650112a"
+    },
+    "training-resource-probe.stdout.txt": {
+      "bytes": 9552,
+      "sha256": "29be4c526866a857f8912428f718a1e545bb75adf9c617c698437c1b0e80d2e3"
+    },
+    "carrier-cuda-smoke-attempt2.stdout.txt": {
+      "bytes": 1333,
+      "sha256": "d00501c04a0335672e7e8328cedfb2fc2a3c71f7e2e08cd5b15a7078c705371a"
+    },
+    "worker-contract.json": {
+      "bytes": 763,
+      "sha256": "686ef08448f5adfde8ac6940a867af60041ab7c9f821f319e982994a981fd28e"
+    },
+    "carrier-cuda-smoke.json": {
+      "bytes": 861,
+      "sha256": "3a1b203abf0588b9e77723a7c11d9bad78120c7a8a4e123a5e6960b0533f0180"
+    },
+    "training-20k-startup.stdout.txt": {
+      "bytes": 10625,
+      "sha256": "697d46b503d4d48842f41b446e06620912aeb39b41cd07c1cf79fc76a95c67cc"
+    },
+    "training-process.json": {
+      "bytes": 1184,
+      "sha256": "ebc7cf21a510e34c76a815e30169f93dcefafdf3e530968f559a934fa45a3147"
+    },
+    "go-no-go.md": {
+      "bytes": 2035,
+      "sha256": "1e81c49ad4dde111205c352057989168020952d368afc6b1131ce5833d3a5849"
+    },
+    "carrier-cuda-smoke.stdout.txt": {
+      "bytes": 1679,
+      "sha256": "370f49e09d1c905225e23378f1f3028bf1384fe21ccd9f954b5538e7f0cbba98"
+    }
+  },
+  "live_log": "training-20k.live.log"
+}

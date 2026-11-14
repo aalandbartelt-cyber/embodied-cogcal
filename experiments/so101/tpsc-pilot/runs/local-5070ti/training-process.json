@@ -1,0 +1,10 @@
+{
+  "kind": "last_verified_process_observation_not_completion",
+  "pid": 87789,
+  "exec_session_id": 74436,
+  "observed_utc": "2026-11-14T10:17:54.369578+00:00",
+  "proc_start_ticks": "580460",
+  "command": "/home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python -u -m lerobot.scripts.lerobot_train --policy.path=/home/mary/research/embodied-cogcal/checkpoints/smolvla_base --policy.load_vlm_weights=false --policy.device=cuda --policy.push_to_hub=false --policy.use_amp=true --policy.empty_cameras=1 --rename_map={\"observation.images.top\":\"observation.images.camera1\",\"observation.images.front\":\"observation.images.camera2\"} --dataset.repo_id=ngocthuong2212/so101_mujoco_follower_7_31 --dataset.revision=de301f7afe016cef14ac46a238714f52e15bf932 --dataset.root=/home/mary/research/embodied-cogcal/data/tpsc-carrier --dataset.video_backend=pyav --output_dir=/home/mary/research/embodied-cogcal/checkpoints/tpsc-carrier-20k --job_name=tpsc-carrier-local --seed=42 --num_workers=0 --batch_size=4 --steps=20000 --save_checkpoint=true --save_freq=1000 --log_freq=20 --eval_freq=0 --wandb.enable=false ",
+  "live_log": "training-20k.live.log",
+  "revalidate_before_resuming": true
+}

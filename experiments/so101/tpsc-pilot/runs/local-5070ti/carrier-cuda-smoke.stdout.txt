@@ -1,0 +1,19 @@
+/home/mary/.cache/cogcal/venvs/tpsc-policy/lib/python3.10/site-packages/torchvision/io/_video_deprecation_warning.py:5: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+DECODE_OK 60245 200
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Traceback (most recent call last):
+  File "/home/mary/research/embodied-cogcal/scripts/tpsc_carrier_smoke.py", line 98, in <module>
+    main()
+  File "/home/mary/research/embodied-cogcal/scripts/tpsc_carrier_smoke.py", line 47, in main
+    loss, _ = policy(batch)
+  File "/home/mary/.cache/cogcal/venvs/tpsc-policy/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/mary/.cache/cogcal/venvs/tpsc-policy/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/tmp/tpsc-lerobot-v043/src/lerobot/policies/smolvla/modeling_smolvla.py", line 380, in forward
+    losses = self.model.forward(images, img_masks, lang_tokens, lang_masks, state, actions, noise, time)
+  File "/tmp/tpsc-lerobot-v043/src/lerobot/policies/smolvla/modeling_smolvla.py", line 774, in forward
+    pad_masks = torch.cat([prefix_pad_masks, suffix_pad_masks], dim=1)
+RuntimeError: Sizes of tensors must match except in dimension 1. Expected size 1 but got size 50 for tensor number 1 in the list.

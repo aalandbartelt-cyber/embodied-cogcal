@@ -95,3 +95,23 @@ env -u PYTHONPATH PYTHONNOUSERSITE=1 PYTHONPATH=. \
 - **没有测到 learned policy 的 shared prefix**；TPSC 的科学问题仍需 VLA rollout。
 - 没有证明 TPSC 的失效机制；`scene-smoke.json` 不是科学结果。
 - qpos=0 渲染只用于检查场景布局，不代表机器人可达姿态。
+
+## 恢复后的审阅与 learned pilot
+
+先保存的原资产提交为 `af47281`，审阅限制见 [REVIEW.md](REVIEW.md)。
+原 `scripted-prefix-*.json` 不覆盖；其 pair 表存在“最后重复覆盖”的限制。
+新 `analysis/tpsc_prefix.py` 按 case/repeat 身份保留全部配对，拒绝重复/缺分支/种子不匹配，
+且在任务能力或独立分叉时刻缺失时返回不可判定。原始 degree-assumption 的 SHA256 保持不变。
+
+用户已选择本地 RTX 5070 Ti 进行选题实验。载体小型元数据/模型/视频已固定 revision 下载，
+见 [carrier-assets.json](carrier-assets.json)；下载不等于策略运行。
+`policy_worker.py` 和 `learned_rollout.py` 是待运行的真实 SmolVLA / MuJoCo 双环境入口，
+每次要求新输出目录，完整保存 episode 和 chunk，不执行 kinematic carry。
+下一步依实际 CUDA loader/forward/backward 结果更新训练与 20 条 rollout 状态。
+
+本次实际运行更新：`runs/local-5070ti/carrier-cuda-smoke.json` 证明指定数据可解码，
+SmolVLA strict load、CUDA前向/反向、有限[1,50,6] chunk通过。
+`worker-contract.json` 证明跨Python环境真实模型IPC通过（黑图fixture，非episode）。
+20-step资源试跑完成；20k固定终点训练已启动，持续日志为`runs/local-5070ti/training-20k.live.log`
+（大模型/数据/实时日志留本地；提交startup快照与hash）。
+当前裁决见 [`go-no-go.md`](runs/local-5070ti/go-no-go.md)。20条物理pilot尚未执行。

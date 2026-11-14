@@ -1,0 +1,120 @@
+{
+  "dataset": "ngocthuong2212/so101_mujoco_follower_7_31",
+  "dataset_revision": "de301f7afe016cef14ac46a238714f52e15bf932",
+  "model": "lerobot/smolvla_base",
+  "model_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "lerobot_commit": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+  "assets": [
+    {
+      "path": "data/tpsc-carrier/.gitattributes",
+      "bytes": 2504,
+      "sha256": "9e75dd981de037ec3769f24f790e126bc5a160b6871f510214e68dc70649aeeb"
+    },
+    {
+      "path": "data/tpsc-carrier/README.md",
+      "bytes": 4901,
+      "sha256": "3b155fde08df8f8471c70c150ddd26acdbbfa777ff377d8e780b1902c25a86a7"
+    },
+    {
+      "path": "data/tpsc-carrier/data/chunk-000/file-000.parquet",
+      "bytes": 24055,
+      "sha256": "98211d1b55e1970026a310291df48e659a2615b5be59055fd1d53ffe1192d936"
+    },
+    {
+      "path": "data/tpsc-carrier/data/chunk-000/file-001.parquet",
+      "bytes": 4101162,
+      "sha256": "f2da7424c534968a90e13894563ba36b6546728d6dee219939be09ecd918f819"
+    },
+    {
+      "path": "data/tpsc-carrier/meta/episodes/chunk-000/file-000.parquet",
+      "bytes": 52670,
+      "sha256": "5c376d5c00e72ae8eb1675d755f5cee418b6461207bee989467b6196ef308fa3"
+    },
+    {
+      "path": "data/tpsc-carrier/meta/episodes/chunk-000/file-001.parquet",
+      "bytes": 853436,
+      "sha256": "5371fe0c0676c08f904bef4768a2996baa198b13c7274d608861c5d900bf746f"
+    },
+    {
+      "path": "data/tpsc-carrier/meta/info.json",
+      "bytes": 3823,
+      "sha256": "9d2c79001fbc6c7df11889666c42046de4cf022d3e8fe29523a8e3e9e15435fd"
+    },
+    {
+      "path": "data/tpsc-carrier/meta/matrix_random_placements.jsonl",
+      "bytes": 128761,
+      "sha256": "ea2a2d6f35b0dd671b6bb8b3e0360a9b04111d2c4eba0d55f32b3a44d511b4cd"
+    },
+    {
+      "path": "data/tpsc-carrier/meta/stats.json",
+      "bytes": 13762,
+      "sha256": "4f287b821817fdea3ae81af08c5d5fa4a3eb79d4b73628793e628d5ed52cc71f"
+    },
+    {
+      "path": "data/tpsc-carrier/meta/tasks.parquet",
+      "bytes": 2255,
+      "sha256": "e7c3e0816b82f2ade7ef537f443932c2e2868f04fffca17969cebf04a7906d84"
+    },
+    {
+      "path": "data/tpsc-carrier/videos/observation.images.front/chunk-000/file-000.mp4",
+      "bytes": 716765,
+      "sha256": "dc34487201ca0f880bcce663867cd3741e139515d548de3689e5ce24e06aa940"
+    },
+    {
+      "path": "data/tpsc-carrier/videos/observation.images.front/chunk-000/file-001.mp4",
+      "bytes": 133665036,
+      "sha256": "4b6022d59d19187d3015d188e2b5a19ba6884bf7298a4913a046a849c5daac6f"
+    },
+    {
+      "path": "data/tpsc-carrier/videos/observation.images.top/chunk-000/file-000.mp4",
+      "bytes": 913252,
+      "sha256": "e506a64f7145e06025bd7286f20d0ad749a6377fb017ef4e985901bd4727ba1b"
+    },
+    {
+      "path": "data/tpsc-carrier/videos/observation.images.top/chunk-000/file-001.mp4",
+      "bytes": 164156346,
+      "sha256": "b68fe093dec24633c9431a5d26342e86d51bf9fe5760d0e4d72f62b9d0113750"
+    },
+    {
+      "path": "checkpoints/smolvla_base/.gitattributes",
+      "bytes": 1573,
+      "sha256": "32949ddb126c25a78e757b890078c46d0c8f8e899e56510a1efef817233149f9"
+    },
+    {
+      "path": "checkpoints/smolvla_base/README.md",
+      "bytes": 4680,
+      "sha256": "1c4eab155e159a5fd3fd6c4d5f770c43f056665d73e11c0584e47f8b824d3c98"
+    },
+    {
+      "path": "checkpoints/smolvla_base/config.json",
+      "bytes": 2299,
+      "sha256": "650584b56c104720f7a3c91d1ec6bec9e8de8ac11e60c92ba2fa82d93eda147d"
+    },
+    {
+      "path": "checkpoints/smolvla_base/model.safetensors",
+      "bytes": 906712520,
+      "sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb"
+    },
+    {
+      "path": "checkpoints/smolvla_base/policy_postprocessor.json",
+      "bytes": 660,
+      "sha256": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b"
+    },
+    {
+      "path": "checkpoints/smolvla_base/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "bytes": 640,
+      "sha256": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8"
+    },
+    {
+      "path": "checkpoints/smolvla_base/policy_preprocessor.json",
+      "bytes": 1872,
+      "sha256": "7683d648280a72f0d51e869fb8dd1596beed90b7f84849330cf1bc26634a4bd6"
+    },
+    {
+      "path": "checkpoints/smolvla_base/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "bytes": 640,
+      "sha256": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8"
+    }
+  ],
+  "claim": "local_asset_inventory_not_a_policy_result"
+}

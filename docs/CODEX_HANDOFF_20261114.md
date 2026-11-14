@@ -234,3 +234,20 @@ research: resolve SmolVLA/SO-101 unit provenance and range blocker
 - Reject same-body claim; restrict the public data to carrier smoke tests.
 - Preserve the original preflight summary and add the range-mismatch analysis.
 ```
+
+## 8. Codex 恢复后的当前状态（覆盖前文“未提交”状态）
+
+- 已完成 review 并提交 `af47281`（按用户建议消息）；原始 degree-assumption 与全部 manifest/JSON 保留。
+- review 发现的范围限制见 `experiments/so101/tpsc-pilot/REVIEW.md`，尤其是 pair 汇总仅保留最后重复。
+- 用户最新明确：研究方向尚在预实验阶段，先用本机 RTX 5070 Ti，不等待 A100。
+- 本机 torch sm_120 GPU 矩阵计算已实际通过；独立 policy 环境建立中。
+- 指定 carrier 的原始 gripper 范围 -10..64.45，不能直接继承 SO-100 0–100 夹爪适配。
+
+## 9. 本地 GPU 接续（当前）
+
+- 用户已明确先用5070Ti；源资产提交af47281并已推送。
+- 真实CUDA smoke和资源试跑结果：`experiments/so101/tpsc-pilot/runs/local-5070ti/`。
+- 20k carrier训练session74436 / PID87789，日志`training-20k.live.log`；先检查进程和日志再继续，观察超时不能据此重启。
+- 固定最终20k checkpoint：`checkpoints/tpsc-carrier-20k/checkpoints/last/pretrained_model`，不使用资源试跑checkpoint作TPSC正式结果。
+- 20条能力screen入口`learned_rollout.py` / `policy_worker.py`；尚未执行，先完成训练并核查单位/相机适用范围。
+- 当期go/no-go页在上述runs目录；shared-prefix与uniform separation伤害均为不可判定/未测试。

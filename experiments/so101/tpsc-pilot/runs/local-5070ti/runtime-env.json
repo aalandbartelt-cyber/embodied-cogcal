@@ -1,0 +1,17 @@
+{
+  "lerobot": "0.4.3",
+  "torch": "2.7.1+cu128",
+  "torchvision": "0.22.1+cu128",
+  "torchcodec": "0.3.0",
+  "transformers": "4.57.1",
+  "huggingface-hub": "0.35.3",
+  "accelerate": "1.15.0",
+  "av": "15.1.0",
+  "datasets": "4.1.1",
+  "safetensors": "0.8.0",
+  "policy_python": "/home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python",
+  "simulation_python": "/home/mary/miniconda3/envs/cogcal-sim/bin/python",
+  "simulation_mujoco": "4.0.1",
+  "backbone_metadata_revision": "4cde9d208e19519c36917aa170fffc7e381aa0ad",
+  "lerobot_commit": "0b067df57d21d3a02d6c511f1609172fa39ac29b"
+}

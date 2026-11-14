@@ -122,3 +122,16 @@
 - 发现 scripted pair 汇总只保留最后重复、executed qpos 混合物体状态、自然任务对同时改变 RGB、kinematic place 显式重设终点；历史 JSON/manifest 不重写。
 - 分析回归 153 passed / 11 optional skipped；仿真 23 passed；20/120 validator、120 reset/predicate smoke 通过。
 - A100 尚无已配置作业入口；本机 RTX 5070 Ti，已向用户询问 A100 入口并继续本地可做项。
+
+- 用户明确当前选题阶段改用本地 5070 Ti。已验证 torch CUDA sm_120 矩阵乘法；建立独立 tpsc-policy venv，避免修改原分析/仿真环境。
+- 指定 carrier 的 gripper 数值含 -10，前序 handoff 的 `gripper_0_100` 不能直接沿用；此为适配检查，不重复已完成的查新。
+
+## 本地 learned carrier 实际启动
+
+- PyTorch 2.7.1+cu128 / torchvision0.22.1 / LeRobot0.4.3 环境已建立，解决 nightly VideoReader API 删除。MuJoCo仍独立4.0.1。
+- 指定carrier已实际解码（200 eps /60245帧）；SmolVLA严格加载、CUDA前反向有限，chunk[1,50,6]，99,880,992参数有梯度；原batch形状失败日志保留。
+- batch4的20-step普通训练试跑完成；固定seed42、20k终点的载体训练已启动（session74436，PID87789；运行状态须实时核验）。这不是TPSC任务对训练。
+- learned rollout与配对报告入口已实现，但尚未执行20条正式能力screen；shared-prefix和uniform-separation伤害均未验证。
+
+- Python3.12仿真侧→Python3.10GPU侧的真实IPC检查已通过：读取已保存的20-step资源checkpoint及其processor，返回有限[50,6] chunk。输入为黑图fixture，只证明通信与加载，不计episode/成功率。
+- 增加“预测chunk未来分叉不等于实际执行分叉”的回归；5项契约测试和全量158 passed/11 optional skipped通过，Ruff通过；policy环境pip check无损坏依赖。
