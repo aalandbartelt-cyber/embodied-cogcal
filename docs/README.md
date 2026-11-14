@@ -2,7 +2,8 @@
 
 ## 当前阅读入口（2026-11-14）
 
-1. [查新与换方案裁决](prior-art/ROUTE_DECISION.md)：三个宽泛方案停止作为核心；[限时探索](prior-art/EXPLORATION_PROTOCOL.md)尚未通过新颖性门槛。
+1. [查新与换方案裁决](prior-art/ROUTE_DECISION.md)：旧宽泛方案停止；当前继续审查动态 executable-policy 证书候选。
+2. [候选发现报告](prior-art/discovery-direction-20261114.md)与[候选D深审](prior-art/deep-audit-executable-spec.md)。
 2. [研究现状/文献库](literature/README.md)：47 篇论文/方法文献 + 3 项工程来源，含可导入引用。
 3. [导师汇报提纲与问答](report/PROGRESS_REPORT.md)、[论文相关工作准备稿](paper/RELATED_WORK_DRAFT.md)。
 4. [研究准备度与剩余工作](RESEARCH_READINESS.md)、[主张—证据表](paper/CLAIM_EVIDENCE_MATRIX.md)。

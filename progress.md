@@ -1,5 +1,16 @@
 # A100 前准备进度
 
+## 持续目标：真正确定研究方向（2026-11-14）
+
+- 新目标active，完整保留科研方向、查新、可行性、先进性、突出问题、突破机会与Scholar/GitHub要求。
+- 上一目标回合产生87871e3约束记录，判为progress；不能以已完成的资料整理提前结束本目标。
+- 本轮先做三域候选发现与GitHub可实现性核查，不直接实现新的机器人算法。
+- 三域线索初筛完成：执行补偿TeAR、可修改记忆REMM、验证/不确定性CoVer/Pre-VLA/DiVeR/VFD均有强近邻；新增风险来源分解候选，正在做正向机会审计。
+- 当前候选并未确定；是否只是模块组合/经典主动诊断的重命名，需继续查原文公式、GitHub可运行性和否证实验。
+- 风险来源分解候选被PATCH、CommitFlow、ReTrace、RoboValue等新作进一步压缩，降为背景/对照。
+- 新增首要候选D：动态executable-policy specification与同体等价证书；直接边界来自Same Weights的静态ExecSpec限制、FAN、TeAR、PolicyIK和SO-101 Bench。
+- 新增候选发现报告 `docs/prior-art/discovery-direction-20261114.md` 及18条arXiv元数据/固定GitHub来源；D仍需公式级经典控制红队，不是查新通过。
+
 ## 用户后续确认（2026-11-14）
 
 - 换题时保留SO-101、A100和同体仿真—真机，允许更换核心研究问题；已写入路线决策。

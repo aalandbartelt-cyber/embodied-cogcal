@@ -1,6 +1,7 @@
 # 研究资料入口
 
-先读 [深审裁决](../prior-art/ROUTE_DECISION.md) 与 [深审阅读入口](DEEP_AUDIT_READING_GUIDE.md)，
+先读 [深审裁决](../prior-art/ROUTE_DECISION.md)、[候选发现报告](../prior-art/discovery-direction-20261114.md)
+与 [深审阅读入口](DEEP_AUDIT_READING_GUIDE.md)，
 再读 [研究现状](RESEARCH_STATUS.md) 和 [初轮近邻阅读卡](READING_GUIDE.md)。
 完整题名/来源见 [50 条目录](CATALOG.md)，导入文件见 [references](../../references/README.md)。
 
@@ -20,3 +21,5 @@
 
 当前结论是停止 ECCBF 及两个宽泛备选的核心创新主张；接触替代也不能直接立新方法。
 主库原有17篇相关正文阅读；本轮新增原文/公式定位单列在四份深审，不冒充全库通读或独立复现。
+当前持续审查的首要候选是动态 executable-policy 规范/证书；其可行性预检和否证条件见
+[候选 D 深审](../prior-art/deep-audit-executable-spec.md)。

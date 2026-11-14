@@ -1,5 +1,11 @@
 # 准备阶段事实与边界
 
+## 新目标启动的实际检索（2026-11-14）
+
+- 再次直接访问Scholar：VLA calibration/compensation 与 selective reasoning/uncertainty 两个查询均被工具返回不可访问；未看到Scholar结果列表。
+- 当前全目标是确定方向；前轮文献准备已完成并不证明新方向成立。不得沿用旧目标complete状态替代新目标。
+- 工作树基线87871e3，干净；旧ECCBF、迁移差值、主动诊断、接触补偿的宽题否决继续作为候选筛选约束。
+
 - 用户已选择 A100 做模型运行，本地 `cogcal-sim` 仅验证物理资产和日志，不安装 OpenVLA 7B。
 - 已有 SO-101 本体资产固定在 a758567c3978dfeefe282ede0500085a48fe8f78。
 - 上一阶段审计起点的 `scene.py` 只有 load/reset；现已补齐基础观测/动作/放置接口并验收，完整任务历史判定仍待实现。
@@ -52,3 +58,22 @@
 - 保留低成本 SO-101、A100、同体仿真—真机；核心研究问题可以更换。
 - 后续不以保留认知偏差/语言冲突/ECCBF为筛选前提；先找精确科学缺口，再判断同平台可实现性。
 - 用户确认的是约束，不是选择接触适配或其他候选；此前四份否决审计继续有效。
+
+## 新一轮候选发现：风险来源而非单一置信度（2026-11-14）
+
+- 直接Scholar查询仍不可访问；GitHub/arXiv/项目原始页面可访问，未把搜索摘要当作正式查新结论。
+- TeAR（arXiv:2609.36182v1）已做遥测条件动作整流和SO-ARM101五自由度物理评估；“热/电流/电压补偿”宽题淘汰。
+- REMM（arXiv:2610.12710v1）已做证据链接、依赖撤回和恢复队列；“可修改具身记忆/错误结论撤回”宽题淘汰。
+- CoVer（arXiv:2602.12281v1）已做语言重述×动作采样验证，Pre-VLA（2605.22446v1）已做候选动作的critic/安全预验证与重采样，DiVeR（2610.04933v1）已用动作表征离散度分配verifier学习权重，GeoAAC（2609.20776v1）已做按可靠性自适应action horizon；“慢推理/多采样/动作置信门控”宽题淘汰。
+- VFD/UQ-VLA（2606.18043v1；官方代码 https://github.com/learnsyslab/uq_vla，Apache-2.0）已做流模型ensemble epistemic uncertainty、失败检测和主动示教；其明确局限是只用初始观测不确定性作任务难度proxy、未处理任务间信息依赖，真实机器人代码不公开。
+- SO-101 failure/recovery benchmark（2606.08881v2）将失败分为semantic/execution两层，并报告恢复率很低；局限写明只覆盖单一SO-101和桌面任务，未来需要区分硬件特有因素与政策结构因素。官方SO-101 Bench（https://github.com/5hadytru/so101_bench，Apache-2.0）则证明仿真可能高估成功率但保持策略排名，不能替代风险校准。
+- 一个仍值得公式级查新的窄候选是：同一失败表象下，策略生成不确定性和执行映射不确定性是否可被识别；在固定算力/动作预算下，按来源选择重采样、缩短chunk、执行整流或暂停，是否比单一verifier/单一rectifier更有效。它不是“把VFD+TeAR拼起来”的贡献；必须证明来源可辨识条件、干预映射和固定预算下的可证伪增量，否则淘汰。
+
+## 风险来源候选的继续检索与降级
+
+- PATCH（2606.16690v1）已做 action-chunk 条件 latent-patch innovation monitor 和暂停/恢复路由；CommitFlow（2609.21908v1）已做 semantic commitment monitor、物理条件验证和局部修正；ReTrace（2610.15814v1）已做跨阶段失败归因与后续修正。因此“策略风险 vs 执行风险监测/归因”不再是主推荐。
+- RoboValue（2610.26663v1）和 RoboLongR（2610.33863v1）进一步覆盖 value consistency、有效执行顺序和因果进度奖励；不要把顺序敏感的进度模型改名为新记忆机制。
+- `Same Weights, Different Robot`（2606.03724v1）给出静态 normalization metadata 的 ExecSpec certificate，但原文限制明确留下 control frequency、action chunk execution、controller convention、contact/hardware；这成为当前新的首要候选边界。
+- PolicyIK（2611.05372v1，Apache-2.0 GitHub固定提交）已覆盖高精度IK/反馈残差；TeAR已覆盖telemetry动作整流，FAN已覆盖continual action normalization。新候选必须是动态 executable-equivalence certificate和证书指导的拒绝/受限补偿，不能是三者拼接。
+- 当前推荐顺序改为：D 动态可执行策略规范/同体等价证书 > B 评测资产；风险来源分解降级为背景/强对照。D尚未查新通过。
+- 现有MuJoCo场景只读预检：6关节×2方向×6执行窗共72条记录；1步窗最大跟踪误差0.079734rad，25步窗平均绝对误差0.011424rad，100步窗最大误差0.000829rad。证据 `experiments/so101/dynamic-interface-precheck.json`，仅证明可观测动态接口，不证明sim-real或VLA效果。

@@ -1,0 +1,323 @@
+{
+  "verified_on": "2026-11-14",
+  "scope": "direction discovery metadata only; not novelty certification",
+  "scholar_attempts": [
+    {
+      "url": "https://scholar.google.com/scholar?q=robot+vision+language+action+calibration+compensation",
+      "outcome": "tool inaccessible; no result page"
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=robot+vision+language+action+selective+reasoning+uncertainty",
+      "outcome": "tool inaccessible; no result page"
+    }
+  ],
+  "arxiv_records": [
+    {
+      "version": "2606.08881v2",
+      "title": "Benchmarking Vision-Language-Action Models on SO-101: Failure and Recovery Analysis",
+      "authors": [
+        "Yu, Yi",
+        "Qiu, Xinchuan"
+      ],
+      "date": "2026/06/07",
+      "url": "https://arxiv.org/abs/2606.08881v2",
+      "response_sha256": "3fa4d3fd012acf0a5dc7c4d847ecc57b6721b1a3caa6debab5c3a363b02bc5a6"
+    },
+    {
+      "version": "2609.36182v1",
+      "title": "Test-Time Adaptation of Manipulation Policies Under Actuator Degradation",
+      "authors": [
+        "Sagar, Som",
+        "Senanayake, Ransalu"
+      ],
+      "date": "2026/09/28",
+      "url": "https://arxiv.org/abs/2609.36182v1",
+      "response_sha256": "1bb46d2a4eb15b8bfa82b83bc1908c7e292d6d28ec09955f120a5209adab8f3d"
+    },
+    {
+      "version": "2610.12710v1",
+      "title": "REMM: Revisable Embodied Memory for Manipulation",
+      "authors": [
+        "Senthilkumaran, Revanth Krishna",
+        "Wickramarachchi, Ruwan",
+        "Oltramari, Alessandro",
+        "Francis, Jonathan"
+      ],
+      "date": "2026/10/08",
+      "url": "https://arxiv.org/abs/2610.12710v1",
+      "response_sha256": "3a43cbf11bbb50e9f941755ad0796c1a689fc8857bd662c40be7ef2d4395e8cd"
+    },
+    {
+      "version": "2602.12281v1",
+      "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
+      "authors": [
+        "Kwok, Jacky",
+        "Zhang, Xilun",
+        "Xu, Mengdi",
+        "Liu, Yuejiang",
+        "Mirhoseini, Azalia",
+        "Finn, Chelsea",
+        "Pavone, Marco"
+      ],
+      "date": "2026/02/12",
+      "url": "https://arxiv.org/abs/2602.12281v1",
+      "response_sha256": "6d2a0600b4805915fdb9d0243f056e4d32733335c86132af9d3cce611493757b"
+    },
+    {
+      "version": "2605.22446v1",
+      "title": "Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts",
+      "authors": [
+        "Sun, Zhen",
+        "Guo, Yongjian",
+        "Sun, Haoran",
+        "Wang, Luqiao",
+        "Lu, Wei",
+        "Ji, Jiachi",
+        "Ji, Shengzhe",
+        "Xiong, Junwu",
+        "Meng, Zhijun"
+      ],
+      "date": "2026/05/21",
+      "url": "https://arxiv.org/abs/2605.22446v1",
+      "response_sha256": "4b3f33fff91fa4a453a40fe29b97eb6d7b6cdafc820bd59bdd5001a1d939255c"
+    },
+    {
+      "version": "2606.18043v1",
+      "title": "Uncertainty Quantification for Flow-Based Vision-Language-Action Models",
+      "authors": [
+        "Römer, Ralf",
+        "Seeliger, Maximilian",
+        "Liu, Saida",
+        "Sturgis, Ben",
+        "Bagatella, Marco",
+        "Marta, Daniel",
+        "Krause, Andreas",
+        "Schoellig, Angela P."
+      ],
+      "date": "2026/06/16",
+      "url": "https://arxiv.org/abs/2606.18043v1",
+      "response_sha256": "a9c01ad0db15bd5dc28901c2faeca762d38899bc16168851604933e274c91bad"
+    },
+    {
+      "version": "2610.29730v1",
+      "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
+      "authors": [
+        "Keller, Johannes",
+        "Bloße, Albrecht M.",
+        "Lindenmeyer, Adrian",
+        "Neumuth, Thomas",
+        "Schneider, Daniel"
+      ],
+      "date": "2026/10/21",
+      "url": "https://arxiv.org/abs/2610.29730v1",
+      "response_sha256": "f40af6530766f186d35e6143cfc2ddae6b8f0d40dc5b95dcd5bd02f2e9dbeb01"
+    },
+    {
+      "version": "2610.04933v1",
+      "title": "DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling",
+      "authors": [
+        "Park, Seongheon",
+        "Kim, Heecheol",
+        "Tian, Shulin",
+        "Makabe, Lilika",
+        "Saito, Namiko",
+        "Ikeuchi, Katsushi",
+        "Li, Sharon",
+        "Matsushita, Yasuyuki"
+      ],
+      "date": "2026/10/04",
+      "url": "https://arxiv.org/abs/2610.04933v1",
+      "response_sha256": "da6480793f73dfb9b339adaaa96668cc087103740c45c23c0e47dafeacabc908"
+    },
+    {
+      "version": "2609.20776v1",
+      "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
+      "authors": [
+        "Chen, Xin",
+        "Chen, Sen",
+        "Ding, Yujuan",
+        "Liu, Jian",
+        "Wang, Guoqing",
+        "Ye, Wei",
+        "Shen, Heng Tao",
+        "Bin, Yi"
+      ],
+      "date": "2026/09/17",
+      "url": "https://arxiv.org/abs/2609.20776v1",
+      "response_sha256": "c3ac5066d48e121a0c82da94721699cb2c9dfaade55dde17fd5ea2cdca7ccbc2"
+    },
+    {
+      "version": "2510.11689v2",
+      "title": "Phys2Real: Fusing VLM Priors with Interactive Online Adaptation for Uncertainty-Aware Sim-to-Real Manipulation",
+      "authors": [
+        "Wang, Maggie",
+        "Tian, Stephen",
+        "Swann, Aiden",
+        "Shorinwa, Ola",
+        "Wu, Jiajun",
+        "Schwager, Mac"
+      ],
+      "date": "2025/10/13",
+      "url": "https://arxiv.org/abs/2510.11689v2",
+      "response_sha256": "ec2d36c8e253553a176d165d4345f2ad0725bffdd3c213a733c8bd6355943588"
+    },
+    {
+      "version": "2609.21307v1",
+      "title": "Stability-aware Residual Reinforcement Learning Framework for Robotic Manipulator Disturbance Compensation",
+      "authors": [
+        "Kim, Jihong",
+        "Kwon, Joonhyuk",
+        "Kim, Hwa Soo",
+        "Seo, TaeWon",
+        "Seo, Hyung-Tae"
+      ],
+      "date": "2026/09/18",
+      "url": "https://arxiv.org/abs/2609.21307v1",
+      "response_sha256": "3bbbaeb5c1b61267913fc2778fe2b27cc03a443fbd8bfaade662aa5e07e14c77"
+    },
+    {
+      "version": "2606.03724v1",
+      "title": "Same Weights, Different Robot: A Deployment Safety View of VLA Policies",
+      "authors": [
+        "Tai, Jianwei"
+      ],
+      "date": "2026/06/02",
+      "url": "https://arxiv.org/abs/2606.03724v1",
+      "response_sha256": "7713f0ba4cc7d04e039f03b756081e4965f79a42a2951d36269a6d3fa5126aeb"
+    },
+    {
+      "version": "2611.05372v1",
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "authors": [
+        "Liu, Yuhan",
+        "Liu, Xinqi",
+        "Dong, Zixuan",
+        "Ross, Keith W.",
+        "Wan, Shenji"
+      ],
+      "date": "2026/11/03",
+      "url": "https://arxiv.org/abs/2611.05372v1",
+      "response_sha256": "0b868616951e47a44742ef1cf511b5689e50a6680b57514006d6d10ef10d4cfd"
+    },
+    {
+      "version": "2609.21908v1",
+      "title": "CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution",
+      "authors": [
+        "Zhao, Zixiang",
+        "Feng, Yansong",
+        "Yang, Yang",
+        "Wang, Chaoyu",
+        "Xiao, Haoran",
+        "Zhang, Hui",
+        "Cheng, Chuang",
+        "Ma, Jianjun"
+      ],
+      "date": "2026/09/18",
+      "url": "https://arxiv.org/abs/2609.21908v1",
+      "response_sha256": "18adcaf88c2e8da2a2272adf11b03be7b216a8cc0188983b76794d25520b684f"
+    },
+    {
+      "version": "2606.16690v1",
+      "title": "PATCH: Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation",
+      "authors": [
+        "Zhou, Yanan",
+        "Qiu, Ranpeng",
+        "Chen, Yincong",
+        "Cui, Jiajie",
+        "Zhi, Weiming"
+      ],
+      "date": "2026/06/15",
+      "url": "https://arxiv.org/abs/2606.16690v1",
+      "response_sha256": "73aa2175948a99dba63fa2bd9d9a9f94ba2b5c6128dce27dcf929ab11a0ec958"
+    },
+    {
+      "version": "2610.15814v1",
+      "title": "ReTrace: Cross-Stage Failure Attribution for Self-Improving Robotic Manipulation",
+      "authors": [
+        "Yu, Yue",
+        "Zhu, Bin",
+        "Li, Junhui",
+        "Wang, Jiayu",
+        "Zhou, Shijie",
+        "Chen, Jingjing"
+      ],
+      "date": "2026/10/11",
+      "url": "https://arxiv.org/abs/2610.15814v1",
+      "response_sha256": "970e04543f05521dfa6ba5198f7c0cf658dcc3d793855a4fbeb4655a55eedcc3"
+    },
+    {
+      "version": "2610.33863v1",
+      "title": "RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation",
+      "authors": [
+        "Chen, Zixuan",
+        "Cao, Lin",
+        "Zhang, Fenggang",
+        "Zhang, Haotong",
+        "Chen, Yangtao",
+        "Shi, Jieqi",
+        "Huo, Jing",
+        "Gao, Yang"
+      ],
+      "date": "2026/10/24",
+      "url": "https://arxiv.org/abs/2610.33863v1",
+      "response_sha256": "41b1e8140371e1dbbfbbe6a68d6e7c256e0efa7a6627bfbd87b5437b214540fb"
+    },
+    {
+      "version": "2610.26663v1",
+      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+      "authors": [
+        "Liu, Shengbang",
+        "Du, Zhengye",
+        "Wan, Zhilong",
+        "Su, Honghao",
+        "Xia, Chenxiang",
+        "Ge, Chang",
+        "Xiao, Jinyang",
+        "Wang, Nan",
+        "Hu, Zhipeng",
+        "Yuan, Huining",
+        "Yu, Shu'ang",
+        "Chen, Yue",
+        "Chen, Tianxing",
+        "Li, Chuankang",
+        "Yao, Maoqing",
+        "Ding, Wenbo",
+        "Wang, Yu",
+        "Ren, Guanghui",
+        "Yu, Chao"
+      ],
+      "date": "2026/10/19",
+      "url": "https://arxiv.org/abs/2610.26663v1",
+      "response_sha256": "a8e7bc243672454eba0ff311e2e04a06b076160bc75abcfde2d8d0a9aa60dcc3"
+    }
+  ],
+  "github_sources": [
+    {
+      "repository": "learnsyslab/uq_vla",
+      "commit": "bcc2433d2549afee27bf5d0a73ae528375bca686",
+      "url": "https://github.com/learnsyslab/uq_vla",
+      "license": "Apache-2.0",
+      "checked": "gh repo view and pinned git ref; README says real-robot code/checkpoints absent"
+    },
+    {
+      "repository": "5hadytru/so101_bench",
+      "commit": "470e09e2b66658049e1248378f20ce39bd134ad6",
+      "url": "https://github.com/5hadytru/so101_bench",
+      "license": "Apache-2.0",
+      "checked": "gh repo view and README; Isaac Sim 5.1/Isaac Lab 0.54, not MuJoCo"
+    },
+    {
+      "repository": "phys2real/phys2real",
+      "url": "https://github.com/phys2real/phys2real",
+      "license": "not reported by gh repo search output; verify before dependency",
+      "checked": "GitHub search found official code; no clone/runtime"
+    },
+    {
+      "repository": "Tinaliu0123/PolicyIK",
+      "commit": "22f3a5cddc674e88995cae18b93cd5a5cb3ddb86",
+      "url": "https://github.com/Tinaliu0123/PolicyIK",
+      "license": "Apache-2.0",
+      "checked": "gh repo view and pinned git ref"
+    }
+  ]
+}
