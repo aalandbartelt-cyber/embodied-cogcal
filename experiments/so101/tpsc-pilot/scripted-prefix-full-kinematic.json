@@ -1,0 +1,197 @@
+{
+  "kind": "tpsc_scripted_prefix_smoke_not_vla_result",
+  "manifest": "experiments/so101/tpsc-pilot/manifest-full.jsonl",
+  "mode": "full",
+  "kinematic_carry": true,
+  "episodes": 120,
+  "successes": 56,
+  "success_rate": 0.4666666666666667,
+  "place_successes": 120,
+  "place_success_rate": 1.0,
+  "ik_max_error_m": 0.00864500228167206,
+  "ik_failures": [
+    {
+      "episode_id": "shared_left_right_0000_left",
+      "waypoint": "grasp",
+      "error_m": 0.007229194448395505,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0000_right",
+      "waypoint": "grasp",
+      "error_m": 0.007229194448395505,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0001_left",
+      "waypoint": "grasp",
+      "error_m": 0.00864500228167206,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0001_right",
+      "waypoint": "grasp",
+      "error_m": 0.00864500228167206,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0003_left",
+      "waypoint": "grasp",
+      "error_m": 0.007722216048857169,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0003_right",
+      "waypoint": "grasp",
+      "error_m": 0.007722216048857169,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0004_left",
+      "waypoint": "grasp",
+      "error_m": 0.008528285026225988,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0004_right",
+      "waypoint": "grasp",
+      "error_m": 0.008528285026225988,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0005_left",
+      "waypoint": "grasp",
+      "error_m": 0.0074918218845878865,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0005_right",
+      "waypoint": "grasp",
+      "error_m": 0.0074918218845878865,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0006_left",
+      "waypoint": "grasp",
+      "error_m": 0.007518533975131735,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0006_right",
+      "waypoint": "grasp",
+      "error_m": 0.007518533975131735,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0007_left",
+      "waypoint": "grasp",
+      "error_m": 0.004018899512858909,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0007_right",
+      "waypoint": "grasp",
+      "error_m": 0.004018899512858909,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0008_left",
+      "waypoint": "grasp",
+      "error_m": 0.006853239616098213,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0008_right",
+      "waypoint": "grasp",
+      "error_m": 0.006853239616098213,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0009_left",
+      "waypoint": "grasp",
+      "error_m": 0.006832996209309879,
+      "iterations": 240
+    },
+    {
+      "episode_id": "shared_left_right_0009_right",
+      "waypoint": "grasp",
+      "error_m": 0.006832996209309879,
+      "iterations": 240
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "multi_valid_center",
+      "family": "multi_valid",
+      "divergence_waypoint": "route",
+      "prefix_steps": 40,
+      "prefix_target_max_diff": 0.0,
+      "prefix_executed_max_diff": 0.0,
+      "route_target_max_diff": 1.1921849734613494,
+      "left_success": true,
+      "right_success": false
+    },
+    {
+      "pair_id": "multi_valid_offset",
+      "family": "multi_valid",
+      "divergence_waypoint": "route",
+      "prefix_steps": 40,
+      "prefix_target_max_diff": 0.0,
+      "prefix_executed_max_diff": 0.0,
+      "route_target_max_diff": 1.1512329600628526,
+      "left_success": false,
+      "right_success": false
+    },
+    {
+      "pair_id": "no_common_red_blue",
+      "family": "no_common_prefix",
+      "divergence_waypoint": "above_object",
+      "prefix_steps": 40,
+      "prefix_target_max_diff": 1.7519656350248005,
+      "prefix_executed_max_diff": 1.8940990055043319,
+      "route_target_max_diff": null,
+      "left_success": true,
+      "right_success": true
+    },
+    {
+      "pair_id": "no_common_red_blue_02",
+      "family": "no_common_prefix",
+      "divergence_waypoint": "above_object",
+      "prefix_steps": 40,
+      "prefix_target_max_diff": 1.2031623261396884,
+      "prefix_executed_max_diff": 1.285370068244144,
+      "route_target_max_diff": null,
+      "left_success": true,
+      "right_success": false
+    },
+    {
+      "pair_id": "shared_left_right",
+      "family": "shared_prefix",
+      "divergence_waypoint": "above_goal",
+      "prefix_steps": 40,
+      "prefix_target_max_diff": 0.0,
+      "prefix_executed_max_diff": 0.0,
+      "route_target_max_diff": null,
+      "left_success": true,
+      "right_success": true
+    },
+    {
+      "pair_id": "shared_left_right_02",
+      "family": "shared_prefix",
+      "divergence_waypoint": "above_goal",
+      "prefix_steps": 40,
+      "prefix_target_max_diff": 0.0,
+      "prefix_executed_max_diff": 0.0,
+      "route_target_max_diff": null,
+      "left_success": false,
+      "right_success": true
+    }
+  ],
+  "limitations": [
+    "Scripted IK controller, not a VLA/policy result.",
+    "Success is a physics smoke result, not a benchmark; low grasp success is allowed.",
+    "The prefix comparison proves task geometry/waypoint sharing, not that a learned policy shares the prefix.",
+    "No collision avoidance, camera visibility, or domain randomization is modeled.",
+    "Kinematic carry keeps the object at a fixed jaw offset; it is not a physics grasp."
+  ]
+}

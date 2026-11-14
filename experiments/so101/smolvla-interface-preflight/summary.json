@@ -1,0 +1,217 @@
+{
+  "kind": "smolvla_so101_interface_preflight_not_policy_result",
+  "dataset": {
+    "robot_type": "so100_follower",
+    "dataset_name": "svla_so101_pickplace",
+    "dataset_robot_type_warning": "metadata says so100_follower; do not assume SO-101 mechanical identity without calibration evidence",
+    "codebase_version": "v3.0",
+    "total_episodes": 50,
+    "total_frames": 11939,
+    "fps": 30,
+    "action_shape": [
+      6
+    ],
+    "state_shape": [
+      6
+    ],
+    "action_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "state_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "public_units": {
+      "body_joints": "degrees (dataset-era LeRobot calibration; rotations in [-180,180])",
+      "gripper": "0..100"
+    },
+    "lerobot_source_commit_audited": "fe1c54594f6ba275fccf210b9f7b11f0e2324b89",
+    "lerobot_source_evidence": {
+      "current_config": "src/lerobot/robots/so_follower/config_so_follower.py:use_degrees=True (current default; documented as backward compatibility with previous policies/datasets)",
+      "dataset_era_config": "old lerobot/common/robot_devices/robots/manipulator.py:294-297 (2025-05-23): rotations in degrees [-180,180], gripper [0,100]",
+      "later_change": "v0.3.2 (2025-08-01) introduced use_degrees=False as the SO100 default, after this dataset was created"
+    },
+    "dataset_provenance": {
+      "created_at": "2025-05-23",
+      "lerobot_commit_at_creation": "6163daaaa4fa193d0e37468a94d90e07ef3c95ce",
+      "unit_evidence": {
+        "manipulator.py:294-297": "Rotations are expressed in degrees in nominal range of [-180, 180], and linear motions (like gripper of Aloha) in nominal range of [0, 100].",
+        "feetech_calibration.py:490": "Joints with rotational motions are expressed in degrees in nominal range of [-180, 180].",
+        "later_change": "LeRobot v0.3.2 (2025-08-01) introduced use_degrees=False as the SO100 default; the current default True is documented as backward compatibility with previous policies/datasets."
+      },
+      "robot_type": "so100_follower",
+      "same_body_so101": false,
+      "same_body_reason": "metadata says so100_follower; public elbow/wrist reach 100/99.49 degrees and exceed the SO-101 XML limits; the dataset does not include its calibration file."
+    }
+  },
+  "scene": {
+    "mujoco_version": "4.0.1",
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "public_interface": "six radian hinge position targets",
+    "actuator_ctrlrange_rad": {
+      "shoulder_pan.pos": [
+        -1.91986,
+        1.91986
+      ],
+      "shoulder_lift.pos": [
+        -1.74533,
+        1.74533
+      ],
+      "elbow_flex.pos": [
+        -1.69,
+        1.69
+      ],
+      "wrist_flex.pos": [
+        -1.65806,
+        1.65806
+      ],
+      "wrist_roll.pos": [
+        -2.74385,
+        2.84121
+      ],
+      "gripper.pos": [
+        -0.17453,
+        1.74533
+      ]
+    }
+  },
+  "dataset_action_range_public": {
+    "shoulder_pan.pos": [
+      -93.45587921142578,
+      88.01470947265625
+    ],
+    "shoulder_lift.pos": [
+      -100.0,
+      8.12631607055664
+    ],
+    "elbow_flex.pos": [
+      12.972234725952148,
+      100.0
+    ],
+    "wrist_flex.pos": [
+      33.53166198730469,
+      99.4900131225586
+    ],
+    "wrist_roll.pos": [
+      -92.77167510986328,
+      -20.0
+    ],
+    "gripper.pos": [
+      0.0,
+      32.99845504760742
+    ]
+  },
+  "dataset_action_range_mapped_to_scene": {
+    "shoulder_pan.pos": [
+      -1.6311127975855018,
+      1.5361464704840937
+    ],
+    "shoulder_lift.pos": [
+      -1.7453292519943295,
+      0.14183097148894122
+    ],
+    "elbow_flex.pos": [
+      0.2264082073094093,
+      1.7453292519943295
+    ],
+    "wrist_flex.pos": [
+      0.5852379053442919,
+      1.7364283018410123
+    ],
+    "wrist_roll.pos": [
+      -1.6191711832575864,
+      -0.3490658503988659
+    ],
+    "gripper.pos": [
+      -0.17453,
+      0.45899413907699593
+    ]
+  },
+  "mapped_range_inside_scene": {
+    "shoulder_pan.pos": true,
+    "shoulder_lift.pos": true,
+    "elbow_flex.pos": false,
+    "wrist_flex.pos": false,
+    "wrist_roll.pos": true,
+    "gripper.pos": true
+  },
+  "range_overflow": {
+    "shoulder_pan.pos": {
+      "low_rad": 0.0,
+      "high_rad": 0.0,
+      "low_deg": 0.0,
+      "high_deg": 0.0
+    },
+    "shoulder_lift.pos": {
+      "low_rad": 0.0,
+      "high_rad": 0.0,
+      "low_deg": 0.0,
+      "high_deg": 0.0
+    },
+    "elbow_flex.pos": {
+      "low_rad": 0.0,
+      "high_rad": 0.05532925199432959,
+      "low_deg": 0.0,
+      "high_deg": 3.1701326228908786
+    },
+    "wrist_flex.pos": {
+      "low_rad": 0.0,
+      "high_rad": 0.07836830184101218,
+      "low_deg": 0.0,
+      "high_deg": 4.490172943097317
+    },
+    "wrist_roll.pos": {
+      "low_rad": 0.0,
+      "high_rad": 0.0,
+      "low_deg": 0.0,
+      "high_deg": 0.0
+    },
+    "gripper.pos": {
+      "low_rad": 0.0,
+      "high_rad": 0.0,
+      "low_deg": 0.0,
+      "high_deg": 0.0
+    }
+  },
+  "decision": {
+    "same_body_so101_claim": false,
+    "reason": "metadata says so100_follower; public elbow_flex/wrist_flex reach 100.0/99.49 degrees and exceed the SO-101 XML upper limits (96.83/95.01 degrees) by 3.17/4.49 degrees; the dataset does not include its calibration file.",
+    "allowed_use": "carrier smoke test only, with an explicit degree->radian and gripper adapter; count and report every clip event.",
+    "not_allowed_use": "same-body SO-101 training/evaluation, or attributing A100/VLA failures to TPSC before the interface is resolved.",
+    "required_before_tpsc": [
+      "collect project-owned SO-101 demonstrations with the project's calibration and record the calibration file/revision",
+      "or obtain a public dataset that declares robot_type=so101_follower and includes calibration metadata",
+      "re-run this audit with the actual calibration range, not a range-matching assumption"
+    ]
+  },
+  "required_adapter": [
+    "Record the dataset-era degree convention (created 2025-05-23, before LeRobot v0.3.2) and re-check it for any newer dataset.",
+    "Convert the first five public joint values from degrees to radians.",
+    "Map the public gripper 0..100 convention to the scene hinge range; do not pass it as radians.",
+    "Do not silently clip elbow_flex/wrist_flex; count and report any clip events.",
+    "Resolve the SO-100 vs SO-101 body/calibration mismatch before claiming same-body simulation; prefer project-owned SO-101 data for TPSC."
+  ],
+  "limitations": [
+    "Degree values are relative to the dataset's own calibration; without the calibration file they do not identify the project SO-101 zero/range.",
+    "The public dataset is a SO-100 carrier (metadata), not a same-body SO-101 dataset.",
+    "Range conversion does not prove kinematic or dynamic equivalence.",
+    "The public dataset contains one task_index only; it is a carrier smoke-test asset, not the TPSC task matrix.",
+    "No weights were loaded and no policy action was executed."
+  ]
+}

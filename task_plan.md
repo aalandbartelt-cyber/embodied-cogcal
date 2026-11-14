@@ -22,6 +22,24 @@
 最新查新边界：AtomSkill、TRA、REFACTOR-VLA 已压缩 TPSC 的语义/时间对齐与行为等价宽泛表述；
 CriticHack 已压缩视觉 reward/verifier 宽泛表述。当前只保留 TPSC 的条件版本：由同一当前动作在两语言任务下的未来结果差异
 自动推断逐时刻保持/分叉支持，人工 phase mask 或片段聚类不能作为核心方法。A100 载体预检入口为 `docs/NEXT_A100_TPSC.md`。
+接口前置条件新增：公开 LeRobot 数据的角度/夹爪表示必须显式转换到 MuJoCo 弧度接口，且 elbow/wrist 范围差异需先解决；
+未解决前不得启动可解释的 VLA 失效实验。
+接续结论：公开数据创建于 2025-05-23，旧版 LeRobot 用 degrees（[-180,180]）+ gripper 0–100；
+`elbow_flex`/`wrist_flex` 真实越界 +3.17°/+4.49°，且 `robot_type=so100_follower`，不能声称 SO-101 同体。
+该数据只作 carrier smoke test；TPSC 同体实验需项目自有 SO-101 校准数据。详见
+`experiments/so101/smolvla-interface-preflight/range-mismatch-analysis.md`。
+公开载体更新：优先 `ngocthuong2212/so101_mujoco_follower_7_31`（MuJoCo SO-101，200 eps）
+做仿真 smoke test；`kristaqp/so101-pick-place`（真实 `so101_follower`，50 eps）做真实参考；
+`svla` 保留 SO-100 负对照。真实 SO-101 elbow 也到 100°，XML 96.83° 是保守限位；
+wrist 4.49° 未复现。详见 `public-dataset-scan.md`。
+TPSC 数据协议已写下（`experiments/so101/tpsc-data-protocol.md`）：三族任务对、校准/单位契约、
+`episodes_meta.jsonl`、拒绝准则、2 周 120-episode 资源盒；先 20-episode 管线试跑。
+TPSC pilot 场景/manifest 已落地：`simulation/so101/tpsc_scene.xml/.py`、
+`probes/generators/tpsc_pairs.py`、`experiments/so101/tpsc-pilot/`。20/120 条几何/配对校验通过，
+MuJoCo 4.0.1 场景 reset 与评估器 smoke 通过；20k 关节采样下 240 个目标物体/goal 点均在夹爪
+5 cm 内（最差约 3.5 cm，几何 proxy）。Scripted IK full 120：shared prefix diff 0、no-common
+>1.2 rad、multi route >1.15 rad；kinematic place 120/120、物理抓取 0/20、final 56/120。
+仍无 VLA/learned policy rollout。
 
 本次启动：上一轮对用户约束的落盘属于实际进展（87871e3），不是已选定方向。研究/代码实施的设计先明确，
 不因硬件适配困难把目标缩成仅能通过现有测试的小任务。
@@ -101,3 +119,13 @@ CriticHack 已压缩视觉 reward/verifier 宽泛表述。当前只保留 TPSC �
 - 文献库可导入，DOI、作者、会议信息不猜填；预印本和正式发表状态分开。
 - 汇报与论文材料区分他人结果、当前工程证据和待检验假设，无虚构本项目实验数字。
 - 查新保持有范围的证据判断，不能承诺机构查新通过。
+
+## 用户交接的 TPSC pilot 执行（恢复后）
+
+- [x] 读取 handoff、review 原资产并记录问题，保全 degree-assumption 原记录。
+- [x] 重跑分析/仿真测试、manifest 校验和场景 smoke。
+- [ ] 提交现有资产，后续修复单独版本，不覆盖历史实验记录。
+- [ ] 核验指定 MuJoCo carrier 的夹爪、相机与模型/processor，冻结 revision。
+- [ ] A100 普通 SmolVLA 载体验收；先询问已有访问入口。
+- [ ] 20 条 learned-policy rollout、配对 prefix 报告与能力判定。
+- [ ] 只有能力合格且共享前缀成立才检验 uniform separation 伤害；否则 go/no-go 记不可判定。

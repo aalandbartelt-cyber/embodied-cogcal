@@ -1,0 +1,152 @@
+{
+  "kind": "smolvla_so101_interface_preflight_not_policy_result",
+  "dataset": {
+    "robot_type": "so100_follower",
+    "dataset_name": "svla_so101_pickplace",
+    "dataset_robot_type_warning": "metadata says so100_follower; do not assume SO-101 mechanical identity without calibration evidence",
+    "codebase_version": "v3.0",
+    "total_episodes": 50,
+    "total_frames": 11939,
+    "fps": 30,
+    "action_shape": [
+      6
+    ],
+    "state_shape": [
+      6
+    ],
+    "action_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "state_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "public_units": {
+      "body_joints": "degrees (LeRobot SO follower use_degrees=true)",
+      "gripper": "0..100"
+    },
+    "lerobot_source_commit_audited": "fe1c54594f6ba275fccf210b9f7b11f0e2324b89",
+    "lerobot_source_evidence": {
+      "config": "src/lerobot/robots/so_follower/config_so_follower.py:use_degrees=True",
+      "motor_setup": "src/lerobot/robots/so_follower/so_follower.py:MotorNormMode.DEGREES and gripper RANGE_0_100"
+    }
+  },
+  "scene": {
+    "mujoco_version": "4.0.1",
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "public_interface": "six radian hinge position targets",
+    "actuator_ctrlrange_rad": {
+      "shoulder_pan.pos": [
+        -1.91986,
+        1.91986
+      ],
+      "shoulder_lift.pos": [
+        -1.74533,
+        1.74533
+      ],
+      "elbow_flex.pos": [
+        -1.69,
+        1.69
+      ],
+      "wrist_flex.pos": [
+        -1.65806,
+        1.65806
+      ],
+      "wrist_roll.pos": [
+        -2.74385,
+        2.84121
+      ],
+      "gripper.pos": [
+        -0.17453,
+        1.74533
+      ]
+    }
+  },
+  "dataset_action_range_public": {
+    "shoulder_pan.pos": [
+      -93.45587921142578,
+      88.01470947265625
+    ],
+    "shoulder_lift.pos": [
+      -100.0,
+      8.12631607055664
+    ],
+    "elbow_flex.pos": [
+      12.972234725952148,
+      100.0
+    ],
+    "wrist_flex.pos": [
+      33.53166198730469,
+      99.4900131225586
+    ],
+    "wrist_roll.pos": [
+      -92.77167510986328,
+      -20.0
+    ],
+    "gripper.pos": [
+      0.0,
+      32.99845504760742
+    ]
+  },
+  "dataset_action_range_mapped_to_scene": {
+    "shoulder_pan.pos": [
+      -1.6311127975855018,
+      1.5361464704840937
+    ],
+    "shoulder_lift.pos": [
+      -1.7453292519943295,
+      0.14183097148894122
+    ],
+    "elbow_flex.pos": [
+      0.2264082073094093,
+      1.7453292519943295
+    ],
+    "wrist_flex.pos": [
+      0.5852379053442919,
+      1.7364283018410123
+    ],
+    "wrist_roll.pos": [
+      -1.6191711832575864,
+      -0.3490658503988659
+    ],
+    "gripper.pos": [
+      -0.17453,
+      0.45899413907699593
+    ]
+  },
+  "mapped_range_inside_scene": {
+    "shoulder_pan.pos": true,
+    "shoulder_lift.pos": true,
+    "elbow_flex.pos": false,
+    "wrist_flex.pos": false,
+    "wrist_roll.pos": true,
+    "gripper.pos": true
+  },
+  "required_adapter": [
+    "Convert the first five public joint values from degrees to radians.",
+    "Map the public gripper 0..100 convention to the scene hinge range; do not pass it as radians.",
+    "Record the exact LeRobot processor/normalizer and calibration revision.",
+    "Resolve the elbow_flex and wrist_flex range mismatches before claiming same-body simulation."
+  ],
+  "limitations": [
+    "Range conversion does not prove kinematic or dynamic equivalence.",
+    "The public dataset contains one task_index only; it is a carrier smoke-test asset, not the TPSC task matrix.",
+    "No weights were loaded and no policy action was executed."
+  ]
+}

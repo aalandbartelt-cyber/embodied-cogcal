@@ -1,0 +1,2652 @@
+{
+  "kind": "tpsc_reachability_proxy_not_policy_result",
+  "manifest": "experiments/so101/tpsc-pilot/manifest-full.jsonl",
+  "samples": 20000,
+  "seed": 42,
+  "threshold_m": 0.05,
+  "points": 240,
+  "unreachable": 0,
+  "ok": true,
+  "results": [
+    {
+      "episode_id": "shared_left_right_0000_left",
+      "kind": "target_object",
+      "position": [
+        0.1427885359691577,
+        -0.018999569791093324,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011670673207821742,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0000_left",
+      "kind": "goal",
+      "position": [
+        0.29550058636738236,
+        0.1689284295259529,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011259849689984225,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0000_right",
+      "kind": "target_object",
+      "position": [
+        0.1427885359691577,
+        -0.018999569791093324,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011670673207821742,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0000_right",
+      "kind": "goal",
+      "position": [
+        0.30472942428328026,
+        -0.17293202050308354,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008223311639932507,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0001_left",
+      "kind": "target_object",
+      "position": [
+        0.14784359135409691,
+        -0.016522446694823355,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.015614276297475539,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0001_left",
+      "kind": "goal",
+      "position": [
+        0.2984384363937054,
+        0.1611918887775228,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011132524038139777,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0001_right",
+      "kind": "target_object",
+      "position": [
+        0.14784359135409691,
+        -0.016522446694823355,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.015614276297475539,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0001_right",
+      "kind": "goal",
+      "position": [
+        0.29437275949607206,
+        -0.1797857884758655,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011399665089453065,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0002_left",
+      "kind": "target_object",
+      "position": [
+        0.13053071939367727,
+        -0.01204649397253406,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010077657929228932,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0002_left",
+      "kind": "goal",
+      "position": [
+        0.30299768875559047,
+        0.18179765922412866,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.024281842612978874,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0002_right",
+      "kind": "target_object",
+      "position": [
+        0.13053071939367727,
+        -0.01204649397253406,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010077657929228932,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0002_right",
+      "kind": "goal",
+      "position": [
+        0.2944088124408139,
+        -0.17642937264496364,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011018516910425108,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0003_left",
+      "kind": "target_object",
+      "position": [
+        0.14618860913355655,
+        -0.01974004961287756,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013627251914696593,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0003_left",
+      "kind": "goal",
+      "position": [
+        0.30611638503665617,
+        0.18792557579952907,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.02978450879725624,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0003_right",
+      "kind": "target_object",
+      "position": [
+        0.14618860913355655,
+        -0.01974004961287756,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013627251914696593,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0003_right",
+      "kind": "goal",
+      "position": [
+        0.29680501033035983,
+        -0.19378082000752872,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014049241978096996,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0004_left",
+      "kind": "target_object",
+      "position": [
+        0.14914426144413565,
+        -0.006536218195494929,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.015245772961427366,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0004_left",
+      "kind": "goal",
+      "position": [
+        0.29185491686760295,
+        0.16386865507333856,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00794585438594314,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0004_right",
+      "kind": "target_object",
+      "position": [
+        0.14914426144413565,
+        -0.006536218195494929,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.015245772961427366,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0004_right",
+      "kind": "goal",
+      "position": [
+        0.30694988732694917,
+        -0.17585095874532436,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00810675337598451,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0005_left",
+      "kind": "target_object",
+      "position": [
+        0.14614256546548762,
+        0.009189271467752714,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010551531731825972,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0005_left",
+      "kind": "goal",
+      "position": [
+        0.300724561829094,
+        0.1989246305591748,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.02911517762929809,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0005_right",
+      "kind": "target_object",
+      "position": [
+        0.14614256546548762,
+        0.009189271467752714,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010551531731825972,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0005_right",
+      "kind": "goal",
+      "position": [
+        0.29757068754416705,
+        -0.1779183747490709,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008844152495028278,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0006_left",
+      "kind": "target_object",
+      "position": [
+        0.14658809328505992,
+        0.004740790094569843,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010815277229650234,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0006_left",
+      "kind": "goal",
+      "position": [
+        0.3072341380062155,
+        0.18309408581027048,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.027735082090337083,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0006_right",
+      "kind": "target_object",
+      "position": [
+        0.14658809328505992,
+        0.004740790094569843,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010815277229650234,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0006_right",
+      "kind": "goal",
+      "position": [
+        0.30409143672429845,
+        -0.1981670246537735,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.018280755793193007,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0007_left",
+      "kind": "target_object",
+      "position": [
+        0.13455796551303095,
+        -0.008424481455915714,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013046673536149266,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0007_left",
+      "kind": "goal",
+      "position": [
+        0.2915958395384725,
+        0.1693116354544412,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.010164123656531996,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0007_right",
+      "kind": "target_object",
+      "position": [
+        0.13455796551303095,
+        -0.008424481455915714,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013046673536149266,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0007_right",
+      "kind": "goal",
+      "position": [
+        0.2920200285881946,
+        -0.1888810558755963,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.013827842836881548,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0008_left",
+      "kind": "target_object",
+      "position": [
+        0.14271368888528801,
+        -0.005406712841196631,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013905873302164017,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0008_left",
+      "kind": "goal",
+      "position": [
+        0.29740361934233767,
+        0.1683802812308595,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012051144949032729,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0008_right",
+      "kind": "target_object",
+      "position": [
+        0.14271368888528801,
+        -0.005406712841196631,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013905873302164017,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0008_right",
+      "kind": "goal",
+      "position": [
+        0.29533955644098225,
+        -0.16253381649150023,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.010404907061520068,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0009_left",
+      "kind": "target_object",
+      "position": [
+        0.14296070770493188,
+        0.004365240226679529,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007830988614153043,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0009_left",
+      "kind": "goal",
+      "position": [
+        0.2934227729639619,
+        0.18916507191801396,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01948862203168278,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0009_right",
+      "kind": "target_object",
+      "position": [
+        0.14296070770493188,
+        0.004365240226679529,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007830988614153043,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_0009_right",
+      "kind": "goal",
+      "position": [
+        0.2932680498752386,
+        -0.1848217823296941,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01429168696701535,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0000_left",
+      "kind": "target_object",
+      "position": [
+        0.1297904670127319,
+        0.025599990394163715,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011035791587022808,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0000_left",
+      "kind": "goal",
+      "position": [
+        0.28113899487549293,
+        0.15738457003959497,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012546863983586565,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0000_right",
+      "kind": "target_object",
+      "position": [
+        0.1297904670127319,
+        0.025599990394163715,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011035791587022808,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0000_right",
+      "kind": "goal",
+      "position": [
+        0.2868570384037962,
+        -0.1389600035381502,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009377776779890608,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0001_left",
+      "kind": "target_object",
+      "position": [
+        0.11458096143928208,
+        0.001284009756161511,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006364533677559906,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0001_left",
+      "kind": "goal",
+      "position": [
+        0.2763090609611817,
+        0.1407096350390281,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01793697901234905,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0001_right",
+      "kind": "target_object",
+      "position": [
+        0.11458096143928208,
+        0.001284009756161511,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006364533677559906,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0001_right",
+      "kind": "goal",
+      "position": [
+        0.27421965687172656,
+        -0.1322836114265978,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01797855436966922,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0002_left",
+      "kind": "target_object",
+      "position": [
+        0.12752735252945338,
+        0.012587115231939117,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00404262062086803,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0002_left",
+      "kind": "goal",
+      "position": [
+        0.2831087733058976,
+        0.14582527604242657,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.015332397220607683,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0002_right",
+      "kind": "target_object",
+      "position": [
+        0.12752735252945338,
+        0.012587115231939117,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00404262062086803,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0002_right",
+      "kind": "goal",
+      "position": [
+        0.2882909517948109,
+        -0.15164592589650405,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.016741928621185776,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0003_left",
+      "kind": "target_object",
+      "position": [
+        0.11529760332996104,
+        0.009865100307759339,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00603064347966316,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0003_left",
+      "kind": "goal",
+      "position": [
+        0.28122736268326304,
+        0.1405096643409174,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01919256288221451,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0003_right",
+      "kind": "target_object",
+      "position": [
+        0.11529760332996104,
+        0.009865100307759339,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00603064347966316,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0003_right",
+      "kind": "goal",
+      "position": [
+        0.28169171980447083,
+        -0.1340870846559009,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011456898130731802,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0004_left",
+      "kind": "target_object",
+      "position": [
+        0.11798801010280793,
+        0.008772830366291333,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004628425483240147,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0004_left",
+      "kind": "goal",
+      "position": [
+        0.28995075212990223,
+        0.15038105174705857,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00793196516354439,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0004_right",
+      "kind": "target_object",
+      "position": [
+        0.11798801010280793,
+        0.008772830366291333,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004628425483240147,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0004_right",
+      "kind": "goal",
+      "position": [
+        0.2718181882434759,
+        -0.16811534498301062,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.010535195496598426,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0005_left",
+      "kind": "target_object",
+      "position": [
+        0.11219298260701317,
+        0.0250978416681236,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00947095029064912,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0005_left",
+      "kind": "goal",
+      "position": [
+        0.28584158728725934,
+        0.14688639867198736,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012432233245432881,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0005_right",
+      "kind": "target_object",
+      "position": [
+        0.11219298260701317,
+        0.0250978416681236,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00947095029064912,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0005_right",
+      "kind": "goal",
+      "position": [
+        0.2712705541230392,
+        -0.15473522853973853,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012375993313791005,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0006_left",
+      "kind": "target_object",
+      "position": [
+        0.12992242760480194,
+        0.02116457380396548,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007148339460074449,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0006_left",
+      "kind": "goal",
+      "position": [
+        0.2894215675522724,
+        0.16443118808937993,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.007820532824820526,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0006_right",
+      "kind": "target_object",
+      "position": [
+        0.12992242760480194,
+        0.02116457380396548,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007148339460074449,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0006_right",
+      "kind": "goal",
+      "position": [
+        0.2702296204388564,
+        -0.14117112722559222,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01824371308107355,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0007_left",
+      "kind": "target_object",
+      "position": [
+        0.12363420738053149,
+        0.021478813216351807,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010394155896295408,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0007_left",
+      "kind": "goal",
+      "position": [
+        0.2753365037990509,
+        0.1556384719431923,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008741455554975039,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0007_right",
+      "kind": "target_object",
+      "position": [
+        0.12363420738053149,
+        0.021478813216351807,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010394155896295408,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0007_right",
+      "kind": "goal",
+      "position": [
+        0.27223104347191757,
+        -0.1526093899732358,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.013645616241456562,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0008_left",
+      "kind": "target_object",
+      "position": [
+        0.11907447412658412,
+        0.038152637100843205,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007552494347376709,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0008_left",
+      "kind": "goal",
+      "position": [
+        0.2875170588075639,
+        0.14053556203004364,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01414261147191055,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0008_right",
+      "kind": "target_object",
+      "position": [
+        0.11907447412658412,
+        0.038152637100843205,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007552494347376709,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0008_right",
+      "kind": "goal",
+      "position": [
+        0.280011722261006,
+        -0.16285392477879473,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.006870886358268061,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0009_left",
+      "kind": "target_object",
+      "position": [
+        0.1282525567868964,
+        0.03482074279347068,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010645611682553981,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0009_left",
+      "kind": "goal",
+      "position": [
+        0.27596889582897266,
+        0.1555579797946402,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00921842549019787,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0009_right",
+      "kind": "target_object",
+      "position": [
+        0.1282525567868964,
+        0.03482074279347068,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010645611682553981,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "shared_left_right_02_0009_right",
+      "kind": "goal",
+      "position": [
+        0.2821794042287635,
+        -0.1638864292580146,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.0076206501091849455,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0000_red",
+      "kind": "target_object",
+      "position": [
+        0.14525021600150304,
+        -0.11842483879521497,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.008311880430776152,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0000_red",
+      "kind": "goal",
+      "position": [
+        0.29001143792255885,
+        -0.18703375771981307,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012501719628601034,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0000_blue",
+      "kind": "target_object",
+      "position": [
+        0.1455725295726112,
+        0.1212141468878071,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006072198517136112,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0000_blue",
+      "kind": "goal",
+      "position": [
+        0.2903895348477166,
+        0.19716394465058468,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.023738252197548652,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0001_red",
+      "kind": "target_object",
+      "position": [
+        0.1475744375564637,
+        -0.10673337882555282,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00805870821095287,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0001_red",
+      "kind": "goal",
+      "position": [
+        0.3075601919840808,
+        -0.16212202218808022,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00746763161008655,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0001_blue",
+      "kind": "target_object",
+      "position": [
+        0.13615028250805325,
+        0.10231700665976749,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005372617294684456,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0001_blue",
+      "kind": "goal",
+      "position": [
+        0.2917130690413576,
+        0.17943961853266455,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.013534854281293484,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0002_red",
+      "kind": "target_object",
+      "position": [
+        0.13138425036936768,
+        -0.10957591338971073,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0087758452021838,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0002_red",
+      "kind": "goal",
+      "position": [
+        0.2995056475619746,
+        -0.17800785626020224,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.007834913436556196,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0002_blue",
+      "kind": "target_object",
+      "position": [
+        0.14531668858613978,
+        0.1051356585799905,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.009742402840452358,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0002_blue",
+      "kind": "goal",
+      "position": [
+        0.2953011325788012,
+        0.19489732164341028,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.02480561504008751,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0003_red",
+      "kind": "target_object",
+      "position": [
+        0.13846275880401776,
+        -0.1315280717823167,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.012339107285866614,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0003_red",
+      "kind": "goal",
+      "position": [
+        0.2940230212677939,
+        -0.1875313483479642,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01550328615261121,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0003_blue",
+      "kind": "target_object",
+      "position": [
+        0.14078592177558918,
+        0.12919724276359904,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.015223343993718651,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0003_blue",
+      "kind": "goal",
+      "position": [
+        0.3099029871332179,
+        0.18599512230557813,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.03154107194730585,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0004_red",
+      "kind": "target_object",
+      "position": [
+        0.1387620016782901,
+        -0.11929696635857637,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007500331348159745,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0004_red",
+      "kind": "goal",
+      "position": [
+        0.2967617112429491,
+        -0.17646765126171066,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009315617941007773,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0004_blue",
+      "kind": "target_object",
+      "position": [
+        0.13242008391736532,
+        0.10898789348126228,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.008809444449996548,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0004_blue",
+      "kind": "goal",
+      "position": [
+        0.29460229465193155,
+        0.16880869537806237,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01077596559814952,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0005_red",
+      "kind": "target_object",
+      "position": [
+        0.13141986172018066,
+        -0.11475588170919604,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0045239974629806175,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0005_red",
+      "kind": "goal",
+      "position": [
+        0.3071927080050749,
+        -0.19716570600445385,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.02063442279364603,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0005_blue",
+      "kind": "target_object",
+      "position": [
+        0.1345788356762231,
+        0.13621680052024512,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.02037126599521047,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0005_blue",
+      "kind": "goal",
+      "position": [
+        0.2947600926873799,
+        0.18675911113185123,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.019149906235638687,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0006_red",
+      "kind": "target_object",
+      "position": [
+        0.1342847361474088,
+        -0.134707526050999,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01214642003767083,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0006_red",
+      "kind": "goal",
+      "position": [
+        0.29945342052623586,
+        -0.16861522302836987,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011386597180518147,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0006_blue",
+      "kind": "target_object",
+      "position": [
+        0.14871028481161344,
+        0.12284172373301137,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00769237035203499,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0006_blue",
+      "kind": "goal",
+      "position": [
+        0.30614993995533285,
+        0.1676163965744751,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.018564919554901516,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0007_red",
+      "kind": "target_object",
+      "position": [
+        0.13193861628457648,
+        -0.1227579527037449,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0062955668335480846,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0007_red",
+      "kind": "goal",
+      "position": [
+        0.304581516989197,
+        -0.17306541810826792,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008128115209014608,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0007_blue",
+      "kind": "target_object",
+      "position": [
+        0.13847157246039843,
+        0.118680986721467,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.009222698299652873,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0007_blue",
+      "kind": "goal",
+      "position": [
+        0.3096833042273193,
+        0.16393671484607836,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.018290140456060353,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0008_red",
+      "kind": "target_object",
+      "position": [
+        0.1380524256420454,
+        -0.12642789578420147,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010181684451839706,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0008_red",
+      "kind": "goal",
+      "position": [
+        0.2938041781688162,
+        -0.18205545808667473,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012575532914604793,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0008_blue",
+      "kind": "target_object",
+      "position": [
+        0.14723345072705585,
+        0.10994625335681142,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005385962619738815,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0008_blue",
+      "kind": "goal",
+      "position": [
+        0.29843763279668806,
+        0.17114180578667762,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014146983941584465,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0009_red",
+      "kind": "target_object",
+      "position": [
+        0.13499612895764201,
+        -0.10306937602895948,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011767450410404912,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0009_red",
+      "kind": "goal",
+      "position": [
+        0.30100650624899694,
+        -0.19797646681900474,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.0161203804356889,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0009_blue",
+      "kind": "target_object",
+      "position": [
+        0.13886261490106916,
+        0.13445396419047323,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.019682174153490543,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_0009_blue",
+      "kind": "goal",
+      "position": [
+        0.3099856493682545,
+        0.19344110340319806,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.03520546481319416,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0000_red",
+      "kind": "target_object",
+      "position": [
+        0.16937992514569503,
+        -0.0829453206796749,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01045525427656541,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0000_red",
+      "kind": "goal",
+      "position": [
+        0.2797128225090144,
+        -0.15145010803203274,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.013823517064327637,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0000_blue",
+      "kind": "target_object",
+      "position": [
+        0.16697391468828612,
+        0.08665244442415657,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.017510320068902973,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0000_blue",
+      "kind": "goal",
+      "position": [
+        0.2780208058509891,
+        0.12234541599888717,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01674871716716935,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0001_red",
+      "kind": "target_object",
+      "position": [
+        0.15757946237953832,
+        -0.08058764624881097,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.014960429447486578,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0001_red",
+      "kind": "goal",
+      "position": [
+        0.2791001673467829,
+        -0.14307970056039349,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.016122558152907706,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0001_blue",
+      "kind": "target_object",
+      "position": [
+        0.15530406116344303,
+        0.11136282407794278,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005854220535862772,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0001_blue",
+      "kind": "goal",
+      "position": [
+        0.2891463528171935,
+        0.15981690757970857,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00823895471575276,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0002_red",
+      "kind": "target_object",
+      "position": [
+        0.16111536646811236,
+        -0.09126366898814697,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005351997118696174,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0002_red",
+      "kind": "goal",
+      "position": [
+        0.2893741872993832,
+        -0.13683278836734977,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.0077930236980332515,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0002_blue",
+      "kind": "target_object",
+      "position": [
+        0.15309593650548128,
+        0.09186831301978257,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004470541743221228,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0002_blue",
+      "kind": "goal",
+      "position": [
+        0.2808439040274855,
+        0.14991902241516258,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01650094655878988,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0003_red",
+      "kind": "target_object",
+      "position": [
+        0.15114330545814966,
+        -0.09663289622164116,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006639735869420644,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0003_red",
+      "kind": "goal",
+      "position": [
+        0.27314865455878967,
+        -0.121568843869022,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.020145926766780394,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0003_blue",
+      "kind": "target_object",
+      "position": [
+        0.16005700765839026,
+        0.11410879568193143,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0023030171107807185,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0003_blue",
+      "kind": "goal",
+      "position": [
+        0.27160222930481176,
+        0.12743299843922895,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01723610009586641,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0004_red",
+      "kind": "target_object",
+      "position": [
+        0.16190070212900057,
+        -0.0929914978558364,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004740960503875384,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0004_red",
+      "kind": "goal",
+      "position": [
+        0.28780574628258876,
+        -0.15015138608845502,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01757008323086386,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0004_blue",
+      "kind": "target_object",
+      "position": [
+        0.15470407790001864,
+        0.08479546455788498,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.009011958547758133,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0004_blue",
+      "kind": "goal",
+      "position": [
+        0.2818903830706688,
+        0.14477526041328415,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.016806233606408715,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0005_red",
+      "kind": "target_object",
+      "position": [
+        0.15838449830671744,
+        -0.09665310842835101,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0013817073673938751,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0005_red",
+      "kind": "goal",
+      "position": [
+        0.27408518398847076,
+        -0.13135232796842342,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.018230215221072123,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0005_blue",
+      "kind": "target_object",
+      "position": [
+        0.16045565431063918,
+        0.1173882503094571,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0018388344051677725,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0005_blue",
+      "kind": "goal",
+      "position": [
+        0.27477371905231696,
+        0.1358314338716502,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.02087455729934291,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0006_red",
+      "kind": "target_object",
+      "position": [
+        0.16343380445919942,
+        -0.10800011680804952,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010209008117039817,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0006_red",
+      "kind": "goal",
+      "position": [
+        0.27145086228986315,
+        -0.14166857909525657,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.019119891835580955,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0006_blue",
+      "kind": "target_object",
+      "position": [
+        0.1563235439254371,
+        0.1100745796965761,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006399259935451807,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0006_blue",
+      "kind": "goal",
+      "position": [
+        0.2899690888170889,
+        0.1598438579142038,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008192545650946473,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0007_red",
+      "kind": "target_object",
+      "position": [
+        0.15146521442199268,
+        -0.11147382750931839,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0098473165154974,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0007_red",
+      "kind": "goal",
+      "position": [
+        0.28761728347372884,
+        -0.1248291903006183,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012339034600485932,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0007_blue",
+      "kind": "target_object",
+      "position": [
+        0.15530400829500804,
+        0.11733037511974836,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004304208742208738,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0007_blue",
+      "kind": "goal",
+      "position": [
+        0.27739054177477773,
+        0.1263098732942893,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01890760036487657,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0008_red",
+      "kind": "target_object",
+      "position": [
+        0.16667489909279615,
+        -0.09185840299650516,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00915042485217173,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0008_red",
+      "kind": "goal",
+      "position": [
+        0.2830795263542147,
+        -0.1596870757139137,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008933369100778474,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0008_blue",
+      "kind": "target_object",
+      "position": [
+        0.162233555314519,
+        0.11948932254526018,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0038254638607400117,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0008_blue",
+      "kind": "goal",
+      "position": [
+        0.28634208270230926,
+        0.13197515008799912,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.021543343202204617,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0009_red",
+      "kind": "target_object",
+      "position": [
+        0.16326777429932154,
+        -0.08244279984291585,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.012177980503953757,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0009_red",
+      "kind": "goal",
+      "position": [
+        0.2721407195541884,
+        -0.1378710543646074,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01940545460210145,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0009_blue",
+      "kind": "target_object",
+      "position": [
+        0.15268582228786737,
+        0.08461714681676409,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007952320469215396,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "no_common_red_blue_02_0009_blue",
+      "kind": "goal",
+      "position": [
+        0.27544696424629633,
+        0.14419319308120898,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01535350159013282,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0000_left",
+      "kind": "target_object",
+      "position": [
+        0.12435224374277595,
+        -0.011856107506901883,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01180670171835639,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0000_left",
+      "kind": "goal",
+      "position": [
+        0.3126847591777016,
+        -0.009440643934783624,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011807218907106332,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0000_right",
+      "kind": "target_object",
+      "position": [
+        0.12435224374277595,
+        -0.011856107506901883,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01180670171835639,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0000_right",
+      "kind": "goal",
+      "position": [
+        0.3126847591777016,
+        -0.009440643934783624,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.011807218907106332,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0001_left",
+      "kind": "target_object",
+      "position": [
+        0.1269220742658971,
+        -0.016308061291490664,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007866313998636033,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0001_left",
+      "kind": "goal",
+      "position": [
+        0.30847151545127455,
+        -0.008932791041109934,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.013028759020699512,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0001_right",
+      "kind": "target_object",
+      "position": [
+        0.1269220742658971,
+        -0.016308061291490664,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.007866313998636033,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0001_right",
+      "kind": "goal",
+      "position": [
+        0.30847151545127455,
+        -0.008932791041109934,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.013028759020699512,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0002_left",
+      "kind": "target_object",
+      "position": [
+        0.12274226754602759,
+        -0.009521789502626072,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013824454261406754,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0002_left",
+      "kind": "goal",
+      "position": [
+        0.3148246181669586,
+        0.0020672168450556506,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01916566927344903,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0002_right",
+      "kind": "target_object",
+      "position": [
+        0.12274226754602759,
+        -0.009521789502626072,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.013824454261406754,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0002_right",
+      "kind": "goal",
+      "position": [
+        0.3148246181669586,
+        0.0020672168450556506,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01916566927344903,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0003_left",
+      "kind": "target_object",
+      "position": [
+        0.11150487720147534,
+        0.015324255732005718,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010746238023122858,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0003_left",
+      "kind": "goal",
+      "position": [
+        0.3180785714311979,
+        0.0018236115682208932,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.018411952183534423,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0003_right",
+      "kind": "target_object",
+      "position": [
+        0.11150487720147534,
+        0.015324255732005718,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.010746238023122858,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0003_right",
+      "kind": "goal",
+      "position": [
+        0.3180785714311979,
+        0.0018236115682208932,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.018411952183534423,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0004_left",
+      "kind": "target_object",
+      "position": [
+        0.11296187571134965,
+        -0.01490217922871445,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005373580287150084,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0004_left",
+      "kind": "goal",
+      "position": [
+        0.3061651669986027,
+        0.015959259549703602,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014341023810544768,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0004_right",
+      "kind": "target_object",
+      "position": [
+        0.11296187571134965,
+        -0.01490217922871445,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005373580287150084,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0004_right",
+      "kind": "goal",
+      "position": [
+        0.3061651669986027,
+        0.015959259549703602,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014341023810544768,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0005_left",
+      "kind": "target_object",
+      "position": [
+        0.1279784927305295,
+        -0.011596938466409839,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011115889015031617,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0005_left",
+      "kind": "goal",
+      "position": [
+        0.3049905947844585,
+        -0.015888255133128575,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.006617787698022043,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0005_right",
+      "kind": "target_object",
+      "position": [
+        0.1279784927305295,
+        -0.011596938466409839,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011115889015031617,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0005_right",
+      "kind": "goal",
+      "position": [
+        0.3049905947844585,
+        -0.015888255133128575,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.006617787698022043,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0006_left",
+      "kind": "target_object",
+      "position": [
+        0.11812754779664233,
+        0.004826460406028511,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006574198519944841,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0006_left",
+      "kind": "goal",
+      "position": [
+        0.3030910667666441,
+        0.017195240627746976,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014599473387297997,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0006_right",
+      "kind": "target_object",
+      "position": [
+        0.11812754779664233,
+        0.004826460406028511,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006574198519944841,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0006_right",
+      "kind": "goal",
+      "position": [
+        0.3030910667666441,
+        0.017195240627746976,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014599473387297997,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0007_left",
+      "kind": "target_object",
+      "position": [
+        0.12621543439880795,
+        0.015256648186532978,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006346376127217036,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0007_left",
+      "kind": "goal",
+      "position": [
+        0.30049572723796375,
+        0.009462578870203284,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01601576007791581,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0007_right",
+      "kind": "target_object",
+      "position": [
+        0.12621543439880795,
+        0.015256648186532978,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.006346376127217036,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0007_right",
+      "kind": "goal",
+      "position": [
+        0.30049572723796375,
+        0.009462578870203284,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.01601576007791581,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0008_left",
+      "kind": "target_object",
+      "position": [
+        0.12604470277874277,
+        0.014562561135011174,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005977863078622403,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0008_left",
+      "kind": "goal",
+      "position": [
+        0.31621498633148776,
+        -0.00932777161622112,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012390882237376334,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0008_right",
+      "kind": "target_object",
+      "position": [
+        0.12604470277874277,
+        0.014562561135011174,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005977863078622403,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0008_right",
+      "kind": "goal",
+      "position": [
+        0.31621498633148776,
+        -0.00932777161622112,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.012390882237376334,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0009_left",
+      "kind": "target_object",
+      "position": [
+        0.1274433356581218,
+        0.014343730053511267,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00558450379965231,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0009_left",
+      "kind": "goal",
+      "position": [
+        0.3044486743509133,
+        0.012663464223877156,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.015377650152008425,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0009_right",
+      "kind": "target_object",
+      "position": [
+        0.1274433356581218,
+        0.014343730053511267,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.00558450379965231,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_center_0009_right",
+      "kind": "goal",
+      "position": [
+        0.3044486743509133,
+        0.012663464223877156,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.015377650152008425,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0000_left",
+      "kind": "target_object",
+      "position": [
+        0.12590690998305723,
+        0.009103819496310814,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0021678094877034095,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0000_left",
+      "kind": "goal",
+      "position": [
+        0.300473288694029,
+        -0.03227480846689165,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009793623847084432,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0000_right",
+      "kind": "target_object",
+      "position": [
+        0.12590690998305723,
+        0.009103819496310814,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.0021678094877034095,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0000_right",
+      "kind": "goal",
+      "position": [
+        0.300473288694029,
+        -0.03227480846689165,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009793623847084432,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0001_left",
+      "kind": "target_object",
+      "position": [
+        0.12933778208096722,
+        0.011164999708874856,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.003548917855936846,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0001_left",
+      "kind": "goal",
+      "position": [
+        0.31282963477215253,
+        -0.024012864625597565,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.005247556817661375,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0001_right",
+      "kind": "target_object",
+      "position": [
+        0.12933778208096722,
+        0.011164999708874856,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.003548917855936846,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0001_right",
+      "kind": "goal",
+      "position": [
+        0.31282963477215253,
+        -0.024012864625597565,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.005247556817661375,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0002_left",
+      "kind": "target_object",
+      "position": [
+        0.12878474280649432,
+        0.0046136700740571045,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004953908039588352,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0002_left",
+      "kind": "goal",
+      "position": [
+        0.31940801222044457,
+        -0.03285728735310146,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014502592709503648,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0002_right",
+      "kind": "target_object",
+      "position": [
+        0.12878474280649432,
+        0.0046136700740571045,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.004953908039588352,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0002_right",
+      "kind": "goal",
+      "position": [
+        0.31940801222044457,
+        -0.03285728735310146,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014502592709503648,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0003_left",
+      "kind": "target_object",
+      "position": [
+        0.11216805094429422,
+        0.017382550342585776,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011532905392238477,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0003_left",
+      "kind": "goal",
+      "position": [
+        0.3145709012130541,
+        -0.02745290743220035,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008136602094720242,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0003_right",
+      "kind": "target_object",
+      "position": [
+        0.11216805094429422,
+        0.017382550342585776,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.011532905392238477,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0003_right",
+      "kind": "goal",
+      "position": [
+        0.3145709012130541,
+        -0.02745290743220035,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008136602094720242,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0004_left",
+      "kind": "target_object",
+      "position": [
+        0.11770390866689454,
+        0.023063521739863983,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.014232795912952262,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0004_left",
+      "kind": "goal",
+      "position": [
+        0.30509445012277164,
+        -0.011648588646633175,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009369379105956028,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0004_right",
+      "kind": "target_object",
+      "position": [
+        0.11770390866689454,
+        0.023063521739863983,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.014232795912952262,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0004_right",
+      "kind": "goal",
+      "position": [
+        0.30509445012277164,
+        -0.011648588646633175,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009369379105956028,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0005_left",
+      "kind": "target_object",
+      "position": [
+        0.12076903994185584,
+        0.02877719996579382,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01467988614316402,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0005_left",
+      "kind": "goal",
+      "position": [
+        0.3148390015567895,
+        -0.013174859822680022,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00862488220721423,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0005_right",
+      "kind": "target_object",
+      "position": [
+        0.12076903994185584,
+        0.02877719996579382,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01467988614316402,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0005_right",
+      "kind": "goal",
+      "position": [
+        0.3148390015567895,
+        -0.013174859822680022,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.00862488220721423,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0006_left",
+      "kind": "target_object",
+      "position": [
+        0.12328475369822545,
+        0.013208001441703856,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005356685123856106,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0006_left",
+      "kind": "goal",
+      "position": [
+        0.3062783129011672,
+        -0.006079388819746581,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014624950091693742,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0006_right",
+      "kind": "target_object",
+      "position": [
+        0.12328475369822545,
+        0.013208001441703856,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.005356685123856106,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0006_right",
+      "kind": "goal",
+      "position": [
+        0.3062783129011672,
+        -0.006079388819746581,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.014624950091693742,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0007_left",
+      "kind": "target_object",
+      "position": [
+        0.11618569324417306,
+        0.016335716344768676,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.008645379163046392,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0007_left",
+      "kind": "goal",
+      "position": [
+        0.3080480077411545,
+        -0.02817379189896212,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009807718662720738,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0007_right",
+      "kind": "target_object",
+      "position": [
+        0.11618569324417306,
+        0.016335716344768676,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.008645379163046392,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0007_right",
+      "kind": "goal",
+      "position": [
+        0.3080480077411545,
+        -0.02817379189896212,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.009807718662720738,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0008_left",
+      "kind": "target_object",
+      "position": [
+        0.12880727341460366,
+        0.027092717810909318,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01255766159554524,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0008_left",
+      "kind": "goal",
+      "position": [
+        0.31805611091465164,
+        -0.01537940336194478,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008371963075976875,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0008_right",
+      "kind": "target_object",
+      "position": [
+        0.12880727341460366,
+        0.027092717810909318,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01255766159554524,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0008_right",
+      "kind": "goal",
+      "position": [
+        0.31805611091465164,
+        -0.01537940336194478,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.008371963075976875,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0009_left",
+      "kind": "target_object",
+      "position": [
+        0.11000811879394574,
+        0.011476548674757088,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01061303268561243,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0009_left",
+      "kind": "goal",
+      "position": [
+        0.3085977629997967,
+        -0.01680060875217272,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.0068945297917081955,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0009_right",
+      "kind": "target_object",
+      "position": [
+        0.11000811879394574,
+        0.011476548674757088,
+        0.036
+      ],
+      "min_gripper_distance_m": 0.01061303268561243,
+      "reachable_proxy": true
+    },
+    {
+      "episode_id": "multi_valid_offset_0009_right",
+      "kind": "goal",
+      "position": [
+        0.3085977629997967,
+        -0.01680060875217272,
+        0.003
+      ],
+      "min_gripper_distance_m": 0.0068945297917081955,
+      "reachable_proxy": true
+    }
+  ]
+}

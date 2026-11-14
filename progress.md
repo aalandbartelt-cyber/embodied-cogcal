@@ -108,3 +108,17 @@
 - 定向查新继续发现 AtomSkill、TRA、REFACTOR-VLA 与 Counterfactual Memory Audit；已将 TPSC 的必要条件收窄为 outcome-conditioned temporal support，人工 phase mask 或片段级行为等价不能作为核心方法。
 - CriticHack 原文审计完成；完成判定/视觉 reward 线已降为复现与强对照，不再并列主推荐。
 - 核验公开 SmolVLA/SO-101 Hub revision 与官方 A100 微调路径，新增 `docs/NEXT_A100_TPSC.md`；载体基线可以先在 A100 验收，候选损失仍冻结。
+- 下载并哈希校验公开数据的 `meta/info.json`/`meta/stats.json`，完成 6 维字段、单位转换和 MuJoCo actuator 范围审计；发现 elbow/wrist range mismatch，已将其列为 A100 前置阻塞项，避免把接口错误当科学现象。
+- 接续 Codex 的接口预检：用 2025-05-23 旧版 LeRobot 证据确认数据集单位为 degrees；量化 `elbow_flex` +3.17°、`wrist_flex` +4.49° 越界；`robot_type=so100_follower` 不支持 SO-101 同体。原始 `summary.json` 保留为 `summary-degree-assumption.json`；新分析见 `range-mismatch-analysis.md`。A100 只验证 LeRobot/SmolVLA 训练链路，TPSC 同体实验需项目自有 SO-101 数据。
+- 完成公开 SO-101/SmolVLA 数据集扫描：`kristaqp/so101-pick-place`（真实 `so101_follower`，50 eps，elbow 100°）、`ngocthuong2212/so101_mujoco_follower_7_31`（MuJoCo SO-101，200 eps，范围与 XML 吻合）、`svla`（SO-100 负对照）；新增 `public-dataset-scan.md`、`audit_real_so101_range.py`、`real-so101-reference.json`，更新 A100 交接与 Codex handoff 的 P1/P2。
+- 新增 TPSC 项目自有 SO-101 数据采集协议 `experiments/so101/tpsc-data-protocol.md`：shared-prefix/no-common-prefix/multi-valid 三族任务对、校准/单位契约、`episodes_meta.jsonl`、拒绝准则、2 周 120-episode 资源盒；先 20-episode 管线试跑。
+- TPSC pilot 资产落地：`simulation/so101/tpsc_scene.xml/.py`、`probes/generators/tpsc_pairs.py`、`experiments/so101/tpsc-pilot/`（20/120 manifest、validator、MuJoCo scene smoke、README、6 张渲染）。20/120 条几何/配对校验通过；MuJoCo 4.0.1 逐条 reset 与目标入 goal 的评估器 smoke 通过；尚无策略 rollout。
+- 可达性 proxy：20k 关节采样，240 个目标物体/goal 点均在夹爪 5 cm 内，最差约 3.5 cm（`reachability.json`）。这只是几何 proxy，不证明抓取/放置或碰撞安全。
+- Scripted IK full 120：shared-prefix 的 target/executed prefix diff = 0.0；no-common 从 above_object 起 diff >1.2 rad；multi-valid prefix 0、route diff >1.15 rad。kinematic-carry place 120/120，物理抓取 pilot 0/20，final 56/120。只验证任务结构/路径，不是 learned policy 或物理抓取 benchmark。
+
+## Codex 恢复后 review / 保全提交
+
+- 按用户交接先审阅未提交资产；完整审阅见 `experiments/so101/tpsc-pilot/REVIEW.md`。
+- 发现 scripted pair 汇总只保留最后重复、executed qpos 混合物体状态、自然任务对同时改变 RGB、kinematic place 显式重设终点；历史 JSON/manifest 不重写。
+- 分析回归 153 passed / 11 optional skipped；仿真 23 passed；20/120 validator、120 reset/predicate smoke 通过。
+- A100 尚无已配置作业入口；本机 RTX 5070 Ti，已向用户询问 A100 入口并继续本地可做项。

@@ -1,0 +1,14 @@
+{
+  "kind": "tpsc_scene_smoke_not_policy_result",
+  "manifest": "experiments/so101/tpsc-pilot/manifest-full.jsonl",
+  "mode": "full",
+  "records_checked": 120,
+  "families": [
+    "multi_valid",
+    "no_common_prefix",
+    "shared_prefix"
+  ],
+  "mujoco_version": "4.0.1",
+  "errors": [],
+  "ok": true
+}

@@ -10,6 +10,17 @@
   [`mechanism-first-sources-20261114.json`](prior-art/mechanism-first-sources-20261114.json)。
 - 参考数据：[`lerobot/svla_so101_pickplace`](https://huggingface.co/datasets/lerobot/svla_so101_pickplace)，
   revision `f641879e22172be7e8161d5e6c1503c2d2feb657`，数据卡 Apache-2.0。
+  注意：该 revision 的 `meta/info.json` 将 `robot_type` 标为 `so100_follower`；名称和字段兼容不等于
+  与本项目 SO-101 网格/校准完全相同。它只作 SO-100/异构负对照。
+- **仿真同模型载体（优先）**：[`ngocthuong2212/so101_mujoco_follower_7_31`](https://huggingface.co/datasets/ngocthuong2212/so101_mujoco_follower_7_31)，
+  revision `de301f7afe016cef14ac46a238714f52e15bf932`，200 episodes / 60,245 帧 / 30 Hz，
+  MuJoCo，标签含 `so101`、`degree`，top/front 双相机，Apache-2.0；action 范围与
+  `so101_new_calib.xml` 逐关节吻合。适合 loader/字段/单位/SmolVLA 训练链路 smoke test；
+  只有单任务，不是 TPSC 的 shared-prefix 任务对。
+- **真实 SO-101 参考**：[`kristaqp/so101-pick-place`](https://huggingface.co/datasets/kristaqp/so101-pick-place)，
+  revision `994aa6d4f68e33ac93c410085eca4beb9cc14aea`，50 episodes / 17,505 帧，
+  `so101_follower`，side/wrist 双相机，Apache-2.0；50 集 action 的 elbow 最大 100.0°，
+  说明 XML 的 96.83° 是保守限位，不是 SO-100 独有。无校准文件，不能声称完全同体。
 - 官方文档说明 SmolVLA 输入包含多相机、机器人状态和自然语言，输出 action chunk；其示例以
   20,000 steps 作为起点，并给出单 A100 的约 4 小时量级估计。实际时间以本次 A100 日志为准，
   不预填成功率或训练时长。
@@ -19,6 +30,25 @@
 在 A100 节点建立独立 LeRobot 环境，固定 LeRobot commit、模型 revision、数据 revision 和本仓库
 commit。不要把 `simulation/so101/scene.py` 的 6 个弧度关节目标直接当作 LeRobot 的归一化 action；
 先从数据中的 `state/action` 元数据核对单位、顺序、相机字段和 gripper 处理。
+
+本地接口预检已确认：该数据集创建于 2025-05-23（早于 LeRobot v0.3.2），旧版 LeRobot 用
+degrees（[-180,180]）+ gripper 0–100；转换到当前 MuJoCo 场景后，`elbow_flex` 上界超出
+**+3.17°**、`wrist_flex` 超出 **+4.49°**。这不是单位误读，而是真实范围差异；且
+`meta/info.json` 的 `robot_type=so100_follower`，不能声称 SO-101 同体。详见
+[`range-mismatch-analysis.md`](../experiments/so101/smolvla-interface-preflight/range-mismatch-analysis.md)。
+
+决策：优先用 `ngocthuong2212` 做仿真 smoke test（范围吻合，无需 elbow 裁剪）；
+`kristaqp` 做真实 SO-101 单位/范围参考；`svla` 只作 SO-100 负对照。公开数据只作
+**carrier smoke test**，显式做角度→弧度/gripper 适配并报告 clip（`kristaqp` 的 elbow
+裁剪也要计数）。TPSC 的同体实验必须使用本项目 SO-101 自有数据（记录校准文件/revision、
+`use_degrees`、关节限位），或使用明确声明 `robot_type=so101_follower` 且带校准元数据的
+公开数据。未满足前，A100 只验证 LeRobot/SmolVLA 训练链路，不用公开数据跑 TPSC 失效实验，
+也不把结果解释为 SO-101 同体性能。
+
+> 命名提醒：下面的 `smolvla-so101-baseline` 只是原交接单的名字；按本次审计，建议改为
+> `smolvla-so100-carrier-smoke`，并在日志中记录 `dataset_robot_type=so100_follower`、
+> `adapter=degrees_to_radians+gripper_0_100`、`clip_events=<count>`、
+> `claim=carrier_smoke_test_not_so101_same_body`。
 
 示例命令（需根据实际数据字段检查 `rename_map`，不要盲目复制）：
 
