@@ -1,0 +1,58 @@
+{
+  "kind": "upstream_contract_audit_not_checkpoint_evaluation",
+  "checked_at_utc": "2026-11-14T11:26:36.704785+00:00",
+  "repo": "Shuaijun/BAS-VLA",
+  "revision": "d5e05c8b74bc8d8f1a831151a432f73158831f85",
+  "metadata_files": [
+    {
+      "path": "adapter/adapter_metadata.json",
+      "sha256": "d48259e31dd11ac56e898fc48b12d8229c4e4bdabc5a360ae704496147219a0e",
+      "url": "https://huggingface.co/Shuaijun/BAS-VLA/blob/d5e05c8b74bc8d8f1a831151a432f73158831f85/adapter/adapter_metadata.json"
+    },
+    {
+      "path": "data/cases.json",
+      "sha256": "9df4a7aee05486147ef282784f99ceeab192815d0f4b0e703f403864e50748fc",
+      "url": "https://huggingface.co/Shuaijun/BAS-VLA/blob/d5e05c8b74bc8d8f1a831151a432f73158831f85/data/cases.json"
+    },
+    {
+      "path": "data/manifest.json",
+      "sha256": "0729148377bab90e26a9ef80a42a3e6b34b48aadfb7684dd18acde2c4432ff2d",
+      "url": "https://huggingface.co/Shuaijun/BAS-VLA/blob/d5e05c8b74bc8d8f1a831151a432f73158831f85/data/manifest.json"
+    },
+    {
+      "path": "training_config.json",
+      "sha256": "c96cc9b41aef7d766a1ea1f9fc5616c736112d36a65f050f9cf6ca1d536d085a",
+      "url": "https://huggingface.co/Shuaijun/BAS-VLA/blob/d5e05c8b74bc8d8f1a831151a432f73158831f85/training_config.json"
+    }
+  ],
+  "carrier": "openvla/openvla-7b",
+  "action_layout": "per_step",
+  "action_space": "openvla_libero10_unnormalized_sign_gripper_offline",
+  "output_dim": 7,
+  "objective_config": {
+    "objective_preset": "legacy",
+    "overrides": {
+      "squared_error_reduction": "mean",
+      "lambda_imitation": 1.0,
+      "lambda_expert_margin": 1.0,
+      "hidden_dim": 128,
+      "delta_scale": 0.8,
+      "margin": 0.3,
+      "lambda_consistency": 0.5,
+      "lambda_margin": 2.0,
+      "lambda_anchor": 0.05,
+      "lr": 0.002,
+      "epochs": 100,
+      "batch_size": 64
+    }
+  },
+  "seed": null,
+  "seed_provenance": "The original results file omits the run seed; the source trainer parser defaults to 7.",
+  "num_records": 400,
+  "split_counts": {
+    "train": 240,
+    "val": 80,
+    "test": 80
+  },
+  "claim": "Metadata establishes a released per-step legacy objective, not a compatible SO101 baseline or measured prefix damage."
+}

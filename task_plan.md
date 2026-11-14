@@ -20,8 +20,9 @@
 当前完成判定的动作表象捷径（已构造静态几何对照，尚无模型结果）。不将三者合成一个闭环。
 
 最新查新边界：AtomSkill、TRA、REFACTOR-VLA 已压缩 TPSC 的语义/时间对齐与行为等价宽泛表述；
-CriticHack 已压缩视觉 reward/verifier 宽泛表述。当前只保留 TPSC 的条件版本：由同一当前动作在两语言任务下的未来结果差异
-自动推断逐时刻保持/分叉支持，人工 phase mask 或片段聚类不能作为核心方法。A100 载体预检入口为 `docs/NEXT_A100_TPSC.md`。
+CriticHack 已压缩视觉 reward/verifier 宽泛表述。当前只保留 TPSC 的条件版本：有两任务分别成功续接证据的保持/分叉支持；
+等未来损失条件已撤回（可能同样失败）。人工 phase mask 或片段聚类不能作为核心方法。
+A100 载体预检入口为 `docs/NEXT_A100_TPSC.md`，用户已授权选题阶段先用本地5070Ti。
 接口前置条件新增：公开 LeRobot 数据的角度/夹爪表示必须显式转换到 MuJoCo 弧度接口，且 elbow/wrist 范围差异需先解决；
 未解决前不得启动可解释的 VLA 失效实验。
 接续结论：公开数据创建于 2025-05-23，旧版 LeRobot 用 degrees（[-180,180]）+ gripper 0–100；
@@ -130,3 +131,15 @@ MuJoCo 4.0.1 场景 reset 与评估器 smoke 通过；20k 关节采样下 240 �
 - [ ] 固定20k终点普通carrier训练：session74436/PID87789在运行，须先核验后接续，不重复启动。
 - [ ] 20 条 learned-policy rollout、配对 prefix 报告与能力判定。
 - [ ] 只有能力合格且共享前缀成立才检验 uniform separation 伤害；否则 go/no-go 记不可判定。
+
+## 机制可信性与用户新开源线索
+
+- [x] 核到BAS-VLA v2与固定源码，实际CPU调用paper_three_component并核对输出梯度；逐步toy与chunk目标区别已更正，原记录不覆盖。
+- [x] 核到公开BAS artifact元数据的per_step/legacy/7D约定；不把它直接加载到SO101。
+- [x] 读入用户`docs/VLAkaiyuanxiangmu.md`；核验15个原始仓库revision和README哈希。
+- [x] 完成本轮MolmoAct2/TurboVLA等的接口/资源定向审计，更新选题边界；不以开源盘点替代查新。
+- [x] 检查旧scripted物理teacher前提：实测EGL与FK，发现夹爪张合反置及IK点相距官方TCP8.207cm；原记录保留，不冒充抓取成功。
+- [ ] 最终20k checkpoint后的20条能力screen：已设有完成/步数/哈希门槛的v2队列session57985，尚未执行；运行前后须核真实状态。
+
+用户再次强调完整目标：确定经得起查新、有先进性、可产出同体仿真—真机成果的核心科学问题。
+工程资产只作支撑，不能把训练完成、环境打通、资料提交或已有方向被否决当作目标完成。

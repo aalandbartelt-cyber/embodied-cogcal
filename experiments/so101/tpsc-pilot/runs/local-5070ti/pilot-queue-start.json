@@ -1,0 +1,35 @@
+{
+  "kind": "queued_capability_screen_not_completed_experiment",
+  "created_utc": "2026-11-14T11:38:01.217975+00:00",
+  "queue_pid": 2560451,
+  "training_pid": 87789,
+  "training_start_ticks": "580460",
+  "manifest_sha256": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+  "checkpoint_required_step": 20000,
+  "command": [
+    "/home/mary/miniconda3/envs/cogcal-sim/bin/python",
+    "experiments/so101/tpsc-pilot/learned_rollout.py",
+    "--manifest",
+    "/home/mary/research/embodied-cogcal/experiments/so101/tpsc-pilot/manifest-pilot.jsonl",
+    "--checkpoint",
+    "/home/mary/research/embodied-cogcal/checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model",
+    "--policy-python",
+    "/home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python",
+    "--out",
+    "/home/mary/research/embodied-cogcal/experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k",
+    "--control-steps",
+    "300",
+    "--execute-steps",
+    "10"
+  ],
+  "queue_script_sha256": "7ba16dd613b109e25f3ab51580b4e7ae3b194a3acc476262edc5a96f0ec277da",
+  "guards": [
+    "training process exits",
+    "End of training log marker",
+    "exact 020000 training_step.json step=20000",
+    "all required model assets exist",
+    "manifest unchanged",
+    "fresh output directory"
+  ],
+  "claim": "Interface-unverified capability screen only; no prefix damage or TPSC method claim."
+}

@@ -135,3 +135,15 @@
 
 - Python3.12仿真侧→Python3.10GPU侧的真实IPC检查已通过：读取已保存的20-step资源checkpoint及其processor，返回有限[50,6] chunk。输入为黑图fixture，只证明通信与加载，不计episode/成功率。
 - 增加“预测chunk未来分叉不等于实际执行分叉”的回归；5项契约测试和全量158 passed/11 optional skipped通过，Ruff通过；policy环境pip check无损坏依赖。
+
+## 目标门槛复核：损失忠实性与用户开源材料
+
+- 用户再次明确目标是确定有核心增量、可查新、能产出同题仿真—真机成果的研究方向；训练/环境/盘点不算完成。
+- 固定BAS-VLA v2和源码51f0dab，实际CPU调用compute_losses：旧toy逐步hinge求和2.0，按展平chunk求距为0；完全共享坐标的直接梯度也为0。撤回一般性“已发现前作伤害”解释，保留原JSON。
+- 公开BAS artifact固定revision的实际布局为per_step/legacy/7D；仍保留为忠实比较对象，不能把chunk更正误写成不存在逐步基线。
+- 修正候选定义：“未来损失相同”可能意味着同样失败，不能证明共同行动可行；方法实现继续冻结。
+- 读取用户新材料docs/VLAkaiyuanxiangmu.md，核验15个原始仓库revision/README哈希；补充MolmoAct2真实5.44B规模/normalizer和SO100同体验证局限、TurboVLA 7D/chunk12对照、StarVLA的SO101未完成状态。详见review-vla-open-source-20261114.md。
+- 本地训练原进程87789仍在运行，约13k/20k（日志显示值为缩写，精确完成看checkpoint步数）。训练未重启；固定最终checkpoint后才进行能力screen。
+- 自动screen v1因未验证的OSMesa约定在episode前取消并保留记录；EGL实测三图通过，v2队列session57985/PID2595058接续等待，输出未产生前不称pilot完成。
+- 额外机械检查发现旧脚本OPEN/CLOSED反置、IK用夹爪转轴body原点且与官方gripperframe差8.207cm。只证明teacher未就绪，不把0/20归因VLA/TPSC，也不声称修正后已能抓取。
+- 本轮全量分析pytest进程14734退出0，11项可选仿真跳过；新CPU代数/autograd断言通过、Ruff通过。没有把这些检查计为方法优势或真机证据。

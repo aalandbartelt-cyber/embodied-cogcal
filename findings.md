@@ -109,3 +109,11 @@
 - 公开数据集扫描补充：真实 `so101_follower` 数据 `kristaqp/so101-pick-place`（50 eps）elbow 也到 100.0°，复现 +3.17° 越界；说明 XML 96.83° 是保守限位，不是 SO-100 独有。`ngocthuong2212/so101_mujoco_follower_7_31`（200 eps、MuJoCo、SO-101、degrees）action 范围与 XML 逐关节吻合，作仿真载体首选；`kristaqp` 作真实参考；`svla` 保留 SO-100 负对照。证据 `real-so101-reference.json` / `public-dataset-scan.md`。
 - TPSC pilot 的 scripted IK 检查：full 120 中 shared-prefix 的 target/executed prefix diff = 0；no-common 从 `above_object` 起 diff >1.2 rad；multi-valid prefix 0、route diff >1.15 rad。kinematic-carry `place_success=120/120`，物理抓取 pilot 0/20、final 56/120。它验证任务结构与路径，不是 learned policy 的 shared prefix，也不是物理抓取 benchmark。
 - 完整研究目标仍 active；当前候选未查新通过、未实现、未获得 A100/VLA/真机结果。
+
+## 2026-11-14 后续关键更正（优先于上文旧候选描述）
+
+- 真正调用固定BAS-VLA源码后，旧6步toy的2.0只对应逐步hinge求和；展平chunk损失0。正惩罚不意味着非零输出梯度或任务伤害。公开artifact仍是per_step，必须区分布局与完整损失preset。
+- 等未来损失不能作为shared-correct-action判据：同样失败也可等损失；需要分别成功续接的证据，且“允许共用”不等于强制多模态策略输出同一动作。
+- 用户15项目盘点带来强对照与载体线索，没有自动带来新方法。MolmoAct2-SO100_101为5.44B、q01/q99、horizon30，与当前角度零位/normalizer不同；TurboVLA的公开LIBERO为7D、H12；StarVLA的SO101待支持。原始revision和hash已落盘。
+- 原scripted物理teacher前提有具体错误：OPEN0/CLOSED1.4与实测张合相反；IK追踪转轴而不是官方TCP，相距8.207cm。原数学共享路径不能升级成成功物理共享前缀。
+- 本地EGL实测通过，OSMesa库缺失；队列v1取消、v2等待训练完成后才执行20条。载体未就绪时科学结论仍不可辨识；完整选题目标active。

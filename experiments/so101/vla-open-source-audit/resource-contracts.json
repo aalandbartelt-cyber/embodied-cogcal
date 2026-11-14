@@ -1,0 +1,81 @@
+{
+  "kind": "metadata_resource_and_interface_audit_not_model_execution",
+  "molmoact2_so100_101": {
+    "repo": "allenai/MolmoAct2-SO100_101",
+    "revision": "152569fe57914d97be91055800035f54e250d009",
+    "gated": false,
+    "parameter_count": 5442196272,
+    "stored_parameter_dtypes": {
+      "F32": 5442196272
+    },
+    "bf16_parameter_storage_GiB_lower_bound": 10.136880487203598,
+    "config": {
+      "dtype": "float32",
+      "max_action_dim": 32,
+      "max_action_horizon": 30,
+      "n_obs_steps": 1,
+      "enable_depth_reasoning": false,
+      "norm_stats_filename": "norm_stats.json"
+    },
+    "normalizer": {
+      "format": "molmoact2_norm_stats.v1",
+      "norm_mode": "q01_q99",
+      "tag": "so100_so101_molmoact2",
+      "normalize_gripper": true,
+      "action_horizon": 30,
+      "n_action_steps": 30,
+      "control_mode": "absolute joint pose",
+      "action_names": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "action_q01": [
+        -42.1300246338976,
+        45.18258358164995,
+        35.40059182962813,
+        4.929781836327758,
+        -65.57568617645342,
+        -0.3016556932619033
+      ],
+      "action_q99": [
+        48.55349563198916,
+        186.10646680077767,
+        173.6076722013997,
+        93.41056417929472,
+        43.53107398260694,
+        44.74649336930881
+      ]
+    },
+    "local_5070ti_inference": "not_run_no_fit_claim",
+    "so101_simulator_adapter": "not_validated_do_not_reuse_current_degrees_adapter"
+  },
+  "tree_checks": [
+    {
+      "repo": "allenai/molmoact2",
+      "sha256": "8baa98fc26b9baf12e2fffbf08560ced932911835a57a0ea39f5e5ce64e15da1",
+      "entries": 1061,
+      "truncated": false
+    },
+    {
+      "repo": "OpenWAM-Official/OpenWAM",
+      "sha256": "db9793284df4a8af095116ae03769726552ff88ea5b192aca6b9164b41963e2d",
+      "entries": 651,
+      "truncated": false
+    },
+    {
+      "repo": "H-EmbodVis/TurboVLA",
+      "sha256": "e59857a8cde27305f1a5494f7bf18ce5f53a6ba33ab0b451bed635f1a4b0e2a7",
+      "entries": 148,
+      "truncated": false
+    }
+  ],
+  "limitations": [
+    "15 repository revisions and READMEs inspected; this is not a 15-paper full-text novelty review or execution test.",
+    "GitHub recursive tree calls for Qwen, tau0, StarVLA and evaluation harness returned HTTP403 rate limit. Qwen pinned archive was inspected instead.",
+    "Model card timings, memory and success rates are source-reported, not independently reproduced."
+  ]
+}

@@ -1,11 +1,16 @@
 # 共享前缀与语义分叉：机制级查新审计
 
 日期：2026-11-14。状态：**新候选的公式级/近邻级审计，尚未立项、尚未查新通过、尚未测得 VLA 失效。**
-固定约束：SO-101、A100、同体 MuJoCo—真机；先验证失效机制，再决定是否实现针对性方法。
+固定约束：SO-101、同体 MuJoCo—真机；用户已授权选题预实验先用本地 5070 Ti，A100 留作后续规模实验。
+
+**更正（后续核验优先）：**[损失忠实性审计](tpsc-loss-fidelity-correction.md) 已实际调用固定上游源码。
+下文旧 toy 的 2.0 是逐步 hinge 求和；同一轨迹按整 chunk 求距时损失为 0，不能据此断言 BAS-VLA
+普遍误伤前缀。公开 artifact 确有 per_step / legacy 版本，仍须作为明确布局的基线。正损失不等于非零
+梯度或任务伤害；原始 toy JSON 保留。下文方法描述是待检验草案，不是已经成立的创新。
 
 ## 当前判断
 
-这是目前比 DeepSeek 的 RCBT 更清晰的正向候选，但仍不能冻结为论文方向。
+这是待做能力与机制验证的候选；关键损失解释已收窄，不能冻结为论文方向。
 
 候选科学问题是：
 
@@ -31,7 +36,8 @@ A^B=(1,1,1,+1,+1,0).
 如果使用任务结构给出的 divergence support \(d=(0,0,0,1,1,0)\)，只在必须分叉的时刻要求分离，总和为 0。
 
 该核算记录在 [shared-prefix-separation-audit.json](../../experiments/so101/shared-prefix-separation-audit.json)。
-它是目标函数几何反例，不是 BAS-VLA 训练错误、不是策略成功率，也不是新方法结果。
+它只针对逐步 hinge 布局，是目标函数几何检查，不是 BAS-VLA 一般反例、策略成功率或新方法结果。
+源码按 records 求平均；6 条单步 records 的值为 1/3，一个展平 chunk 的值为 0。
 若两个任务从一开始就要求不同动作，或任务正确动作集合本来不允许共享前缀，该反例不适用。
 
 还有一个更基本的限制：不同正确动作模式可能都成功。相对一条示范动作求均值再补偿会把多模态行为推向失败，
@@ -41,7 +47,7 @@ A^B=(1,1,1,+1,+1,0).
 
 | 来源 | 已经覆盖 | 本候选必须避开的表述 |
 |---|---|---|
-| [BAS-VLA，2609.23650v1 §4.1–4.3、C.2](https://arxiv.org/html/2609.23650v1) | frozen VLA 上 clean/control/break triplet、动作 residual、semantic separation margin、选择性 preserving gate；附录给出 margin implication | 不能声称“首次做语义动作校准/保持—破坏分离”；候选要检验其逐时刻分离是否误伤共享前缀，并以结果/时间支持作不同对象 |
+| [BAS-VLA，2609.23650v2 §3–4、C.2](https://arxiv.org/html/2609.23650v2) | frozen VLA 上 triplet、动作 residual、semantic margin；输出可为单步或 chunk；公开权重为 per_step / legacy | 不能声称其必然在 chunk 内逐时刻分离；必须记录实际 layout、完整 preset、normalization 并验证结果伤害 |
 | [One Word, Different Action，2609.05260v1](https://arxiv.org/html/2609.05260v1) | 真实机器人 Decision Invariance / Decision Sensitivity；物理决策状态下任务保持和任务改变指令对 | 不能声称首次研究语言变化导致动作保持/改变；它是基准/诊断，候选的窄差异是时间分叉支持和训练损失机制 |
 | [Stage-Aware VLA](https://icloud.eurekamag.com/research/112/001/112001979.php) | 长任务中多个有效子任务顺序造成 one-to-many supervision，显式 progress state 消歧 | 不能把“加阶段状态解决一对多”当新点；需要比较其阶段条件与分叉支持是否解决同一误伤 |
 | [RT-H，2403.01823v1](https://arxiv.org/html/2403.01823v1) | 用 language motion 作为高层任务与低层动作之间的共享结构，支持人类语言干预 | 不能把共享低层动作/层级语言表示当新点；RT-H 未直接等同本候选的 triplet 分叉损失，但必须列强基线 |
@@ -61,14 +67,14 @@ A^B=(1,1,1,+1,+1,0).
 
 对成对任务 \(x^A,x^B\) 和时刻 \(t\)，不要固定要求全程分离，而定义三类支持：
 
-1. **shared support**：在当前状态和动作窗口内，两个任务有共同的任务可行动作集合；要求保持等价或允许小距离。
+1. **shared support**：在当前状态和动作窗口内，两个任务有共同的任务可行动作集合；允许共用，不推出必须输出同一向量。
 2. **branch support**：从该时刻起，若任务目标不同，动作/结果必须出现可验证差异。
 3. **irrelevant support**：动作差异不影响当前任务谓词，不能作为语义校准的主要监督。
 
 令 \(d_t\in\{0,1,?\}\) 是由任务结构、状态转移或独立可行性检查得到的支持标签；问号表示信息不足，
-不能强制保持或分离。当前真正有可能形成方法差异的版本，不是手工填写阶段 mask，而是用**当前动作对未来任务结果分布的差异**推断
-\(d_t\)：如果在两个任务条件下执行同一当前动作，未来任务损失分布近似相同，则该时刻支持保持；只有未来结果分布出现可验证差异时才支持分离。
-这会把候选推进到一个需要世界模型或短 rollout 误差界的 outcome-conditioned support estimator；若实现退化成人工 mask，方法主张停止。
+不能强制保持或分离。原“未来损失分布相同即可支持保持”的条件已撤回：两任务同样失败也满足等损失，
+并不能证明存在共同可行动作。若继续，需要同一当前动作在两任务下分别存在成功续接的证据与不确定性，
+并与 viability / 行为等价近邻区分；详见更正报告。outcome-conditioned support 暂不实现。
 候选损失的概念形式为
 
 \[
@@ -80,9 +86,9 @@ L_{\rm inv}=\sum_t(1-d_t)\,w_t\|a^A_t-a^B_t\|^2,
 但这两个式子本身不是创新。真正需要证明的是：
 
 - \(d_t\) 能在部署信息下获得或安全拒绝，不能读取不可用的 oracle 任务真值；
-- \(d_t\) 不是由标签阶段或动作距离反推，而是由同一当前动作在两任务下的未来结果差异支持；估计器错误时能 abstain；
+- \(d_t\) 不是由标签阶段或动作距离反推；共享判据要有两任务的成功续接证据，不能仅用等损失，估计器错误时能 abstain；
 - 支持标签与最终任务结果相关，而非只由动作差异反推；
-- 只在必须分叉的时刻施加分离，相比 BAS-VLA 的全时刻/统一 margin，能减少错误纠偏；
+- 相比忠实 BAS-VLA 的明确单步或 chunk 布局、匹配 margin 作用强度，能减少实测错误纠偏；
 - 相比 REFACTOR-VLA 的片段级行为等价核，能够在**同一当前状态、不同语言任务**下给出逐时刻保持/分叉决策；
 - 在 no-common-prefix、shared-prefix、multi-valid-action 三类任务上都不产生新的错误。
 
@@ -109,7 +115,7 @@ L_{\rm inv}=\sum_t(1-d_t)\,w_t\|a^A_t-a^B_t\|^2,
 | 组 | 方法 | 目的 |
 |---|---|---|
 | 0 | frozen/普通 BC | 基础能力和自然共享前缀 |
-| 1 | BAS-VLA uniform triplet separation | 最近强基线 |
+| 1 | BAS-VLA 明确 per_step / flattened_chunk 的 triplet 目标 | 记录完整 preset / normalization；手写逐步损失不得冒称完整 BAS |
 | 2 | action-only phase mask | 判断收益是否只是手工 mask |
 | 3 | Stage-Aware/progress-conditioned | 排除显式阶段状态已足够 |
 | 4 | RT-H/共享 primitive（可复现时） | 排除层级语言共享结构 |
@@ -141,7 +147,7 @@ L_{\rm inv}=\sum_t(1-d_t)\,w_t\|a^A_t-a^B_t\|^2,
 ## 6. 当前裁决
 
 **候选 TPSC（暂称）比 RCBT 更接近一个单一机制，但仍未通过查新。**
-它有明确的数学反例和可执行的 SO-101 任务族；同时被 BAS-VLA、One Word、AtomSkill、TRA、REFACTOR-VLA、Stage-Aware、RT-H、PHASER、Hide-and-Seek 等近邻强约束。
-下一步应先做小规模、只测失效机制的仿真预检；不先训练大模型、不先采购新传感器、不把“共享前缀”写成论文贡献。
+它有布局相关的代数检查和 SO-101 任务族；尚无忠实前作训练失效证据，同时被 BAS-VLA、One Word、AtomSkill、TRA、REFACTOR-VLA、Stage-Aware、RT-H、PHASER、Hide-and-Seek 等近邻强约束。
+本地普通载体训练已启动；下一步先查任务能力，再做小规模机制否证，不把“共享前缀”写成论文贡献。
 载体预检可使用公开的 SmolVLA/SO-101 路径，见 [A100 交接单](../NEXT_A100_TPSC.md)；先验证普通基线和数据接口，不能把基线可运行误读为候选成立。
 

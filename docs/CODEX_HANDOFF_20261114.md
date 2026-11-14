@@ -251,3 +251,25 @@ research: resolve SmolVLA/SO-101 unit provenance and range blocker
 - 固定最终20k checkpoint：`checkpoints/tpsc-carrier-20k/checkpoints/last/pretrained_model`，不使用资源试跑checkpoint作TPSC正式结果。
 - 20条能力screen入口`learned_rollout.py` / `policy_worker.py`；尚未执行，先完成训练并核查单位/相机适用范围。
 - 当期go/no-go页在上述runs目录；shared-prefix与uniform separation伤害均为不可判定/未测试。
+
+## 10. 接续时先读的科学更正
+
+- `docs/prior-art/tpsc-loss-fidelity-correction.md`：固定上游源码实际CPU/autograd核算。
+- 原toy 2.0仅为逐步hinge求和；展平chunk对应0，公开BAS权重为per_step/legacy，两者不得混称。
+- 在完全相同动作点，PyTorch范数次梯度为0；正目标值不证明会产生前缀更新，更不证明任务伤害。
+- “等未来损失→支持保持”已撤回，因为两任务可能同样失败；需要分别成功续接的证据。
+- 原toy与degree-assumption JSON均保留；新计算写入`experiments/so101/tpsc-loss-fidelity/`。
+- 用户新材料`docs/VLAkaiyuanxiangmu.md`已读取，原文不改；15个原始仓库revision/README哈希见
+  `experiments/so101/vla-open-source-audit/repository-inventory.json`。模型/框架开放不等于SO101即插即用。
+
+## 11. 训练完成后的自动能力screen
+
+- 当前是队列v2：session57985 / PID2595058，启动契约`runs/local-5070ti/pilot-queue-v2-start.json`。
+  `/tmp/tpsc-final-pilot-queue-v2.py`等待原训练PID退出，不重启/终止训练；核`End of training`、
+  `020000/training_state/training_step.json=20000`、manifest哈希与模型文件，再哈希checkpoint并运行20条。
+- 输出目录预定`runs/local-5070ti/pilot-20k/`，输出日志`pilot-20k.live.log`；队列状态`pilot-queue.live.log`。
+  目前仅排队，是否已运行必须核进程/日志/输出，不能把启动快照当完成。
+- v1因本地没有OSMesa，在episode开始前取消；原记录保留。v2使用刚实测通过的EGL。
+- 新机械检查：旧scripted OPEN/CLOSED与渲染张合方向相反；IK追踪夹爪转轴body原点，
+  与官方gripperframe相距8.207cm。证据`experiments/so101/tpsc-pilot/gripper-readiness-audit/`。
+  旧脚本不是可用物理teacher，8.6mm不是指尖对物误差；不覆盖原代码或旧JSON。

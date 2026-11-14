@@ -1,0 +1,95 @@
+[
+  {
+    "repo": "allenai/molmoact2",
+    "path": "experiments/README.md",
+    "revision": "6070080a20321b4f498ab30f28e1d09ac465edb7",
+    "sha256": "52622531aff0113a81b425939f8c0de4a0700807dd5aeb245b8510739cd2a2ff",
+    "url": "https://raw.githubusercontent.com/allenai/molmoact2/6070080a20321b4f498ab30f28e1d09ac465edb7/experiments/README.md"
+  },
+  {
+    "repo": "allenai/molmoact2",
+    "path": "experiments/lerobot/docs/source/molmoact2.mdx",
+    "revision": "6070080a20321b4f498ab30f28e1d09ac465edb7",
+    "sha256": "3d26274eb90021c7770e731889ccb069997dcdd6f8ac8aea96f306ed5fbd3560",
+    "url": "https://raw.githubusercontent.com/allenai/molmoact2/6070080a20321b4f498ab30f28e1d09ac465edb7/experiments/lerobot/docs/source/molmoact2.mdx"
+  },
+  {
+    "repo": "H-EmbodVis/TurboVLA",
+    "path": "experiments/libero/README.md",
+    "revision": "650a288f829f549bea18e2173d3f51e77d3fbb74",
+    "sha256": "6b093f9881ec520aea2fa61ce9fa38544274ef1470090b01e8216af311492a67",
+    "url": "https://raw.githubusercontent.com/H-EmbodVis/TurboVLA/650a288f829f549bea18e2173d3f51e77d3fbb74/experiments/libero/README.md"
+  },
+  {
+    "repo": "H-EmbodVis/TurboVLA",
+    "path": "turbovla/models/configuration.py",
+    "revision": "650a288f829f549bea18e2173d3f51e77d3fbb74",
+    "sha256": "7b4eb14971370452f45693f7173f0b52979661745a4423dd45b110e402e9ab4f",
+    "url": "https://raw.githubusercontent.com/H-EmbodVis/TurboVLA/650a288f829f549bea18e2173d3f51e77d3fbb74/turbovla/models/configuration.py"
+  },
+  {
+    "repo": "H-EmbodVis/TurboVLA",
+    "path": "turbovla/models/action_head.py",
+    "revision": "650a288f829f549bea18e2173d3f51e77d3fbb74",
+    "sha256": "ed20bdec949f7d031c4784f01189485825d1043407dba2f99bfd36ec23cd658a",
+    "url": "https://raw.githubusercontent.com/H-EmbodVis/TurboVLA/650a288f829f549bea18e2173d3f51e77d3fbb74/turbovla/models/action_head.py"
+  },
+  {
+    "repo": "allenai/vla-evaluation-harness",
+    "path": "docs/reproductions/lerobot.md",
+    "revision": "505ae54c1c9ba07cb3aec82ce2808402acd43035",
+    "sha256": "321bcff20d2f4e7bdc6b204bab149059fff9270d50b8249a2120b53aad0e22ff",
+    "url": "https://raw.githubusercontent.com/allenai/vla-evaluation-harness/505ae54c1c9ba07cb3aec82ce2808402acd43035/docs/reproductions/lerobot.md"
+  },
+  {
+    "repo": "sii-research/tau-0-vla",
+    "path": "high_level/README.md",
+    "revision": "d804047f7b2d61c45077daada3183703aeed8cf5",
+    "sha256": "114022afd6d05035b402a9e8576e4afa3775a2aa5713276342fe96058105fbab",
+    "url": "https://raw.githubusercontent.com/sii-research/tau-0-vla/d804047f7b2d61c45077daada3183703aeed8cf5/high_level/README.md"
+  },
+  {
+    "repo": "allenai/MolmoAct2-SO100_101",
+    "path": "model-api.json",
+    "revision": "152569fe57914d97be91055800035f54e250d009",
+    "sha256": "cf923cae89296a7c878e1052f63b90e5c5f16e75fd4a747a9b9d9599a6d3ca0c",
+    "url": "https://huggingface.co/api/models/allenai/MolmoAct2-SO100_101/revision/152569fe57914d97be91055800035f54e250d009"
+  },
+  {
+    "repo": "allenai/MolmoAct2-SO100_101",
+    "path": "config.json",
+    "revision": "152569fe57914d97be91055800035f54e250d009",
+    "sha256": "12bb27d584b3b91ebf86b6f85327a3f934f239b5fcdf5f89298e91d7c9516112",
+    "url": "https://huggingface.co/allenai/MolmoAct2-SO100_101/blob/152569fe57914d97be91055800035f54e250d009/config.json"
+  },
+  {
+    "repo": "allenai/MolmoAct2-SO100_101",
+    "path": "README.md",
+    "revision": "152569fe57914d97be91055800035f54e250d009",
+    "sha256": "ffef948df9ceeb22dbf2a623457f6f6fbf845a4ad5f99b49a571b5c6a2aaea0f",
+    "url": "https://huggingface.co/allenai/MolmoAct2-SO100_101/blob/152569fe57914d97be91055800035f54e250d009/README.md"
+  },
+  {
+    "repo": "allenai/MolmoAct2-SO100_101",
+    "path": "norm_stats.json",
+    "revision": "152569fe57914d97be91055800035f54e250d009",
+    "sha256": "825903255eb1c8406b906472e11a1fbee7a55e381eda049f61650ad273318420",
+    "url": "https://huggingface.co/allenai/MolmoAct2-SO100_101/blob/152569fe57914d97be91055800035f54e250d009/norm_stats.json"
+  },
+  {
+    "repo": "QwenLM/Qwen-VLA",
+    "revision": "fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3",
+    "url": "https://codeload.github.com/QwenLM/Qwen-VLA/zip/fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3",
+    "archive_sha256": "3f07015e9271d9bfd96f264ca8e00c6ef82f443397863e4fc12144bbc0842e8e",
+    "archive_file_paths": [
+      "Qwen-VLA-fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3/",
+      "Qwen-VLA-fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3/README.md",
+      "Qwen-VLA-fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3/assets/",
+      "Qwen-VLA-fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3/assets/demo_95m.mp4",
+      "Qwen-VLA-fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3/assets/qwen-logo.png",
+      "Qwen-VLA-fa25ab1e69fd9d4318aa0fc5d3f2114a443f78d3/assets/qwenvla_overview.png"
+    ],
+    "python_files": 0,
+    "reason": "GitHub recursive tree API was rate limited; inspected pinned source archive instead."
+  }
+]

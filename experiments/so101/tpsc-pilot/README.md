@@ -115,3 +115,7 @@ SmolVLA strict load、CUDA前向/反向、有限[1,50,6] chunk通过。
 20-step资源试跑完成；20k固定终点训练已启动，持续日志为`runs/local-5070ti/training-20k.live.log`
 （大模型/数据/实时日志留本地；提交startup快照与hash）。
 当前裁决见 [`go-no-go.md`](runs/local-5070ti/go-no-go.md)。20条物理pilot尚未执行。
+
+后续科学比较须先读[损失忠实性更正](../../../docs/prior-art/tpsc-loss-fidelity-correction.md)：
+逐步records与展平chunk的margin并不相同，旧toy不支持一般的BAS前缀伤害断言。
+只有能力和正确共享前缀成立，才比较明确布局、完整preset、归一化和匹配预算的分离干预。

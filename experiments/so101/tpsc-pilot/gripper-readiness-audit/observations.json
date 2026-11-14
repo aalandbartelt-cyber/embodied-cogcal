@@ -1,0 +1,62 @@
+{
+  "kind": "static_fk_and_render_not_grasp_experiment",
+  "mujoco": "4.0.1",
+  "backend": "egl",
+  "arm_deg": [
+    -12,
+    -70,
+    70,
+    60,
+    80
+  ],
+  "observations": [
+    {
+      "angle_rad": 0.0,
+      "jaw_joint_origin": [
+        0.1310802536977504,
+        0.04381904625809986,
+        0.10650242684866452
+      ],
+      "gripperframe": [
+        0.18464149380483208,
+        0.022884795375152853,
+        0.047949596555910856
+      ],
+      "distance_origin_to_tcp_m": 0.08206998986920028,
+      "path": "/tmp/tpsc-gripper-audit/gripper-0.0.png",
+      "image_sha256": "222888dffd0752e1e1868ac6e44de61764156486f7241c092e8c288ae9aee68e"
+    },
+    {
+      "angle_rad": 0.7,
+      "jaw_joint_origin": [
+        0.1310802536977504,
+        0.04381904625809986,
+        0.10650242684866452
+      ],
+      "gripperframe": [
+        0.18464149380483208,
+        0.022884795375152853,
+        0.047949596555910856
+      ],
+      "distance_origin_to_tcp_m": 0.08206998986920028,
+      "path": "/tmp/tpsc-gripper-audit/gripper-0.7.png",
+      "image_sha256": "5da85b53b0d8d153048e3b14f467ac9d93ee7b4b1624f4d18900dc4725b1818f"
+    },
+    {
+      "angle_rad": 1.4,
+      "jaw_joint_origin": [
+        0.1310802536977504,
+        0.04381904625809986,
+        0.10650242684866452
+      ],
+      "gripperframe": [
+        0.18464149380483208,
+        0.022884795375152853,
+        0.047949596555910856
+      ],
+      "distance_origin_to_tcp_m": 0.08206998986920028,
+      "path": "/tmp/tpsc-gripper-audit/gripper-1.4.png",
+      "image_sha256": "9bd98c0025d231b0289a2b6083b4dd1445c40fd09da33a57c1a441c8e870619c"
+    }
+  ]
+}

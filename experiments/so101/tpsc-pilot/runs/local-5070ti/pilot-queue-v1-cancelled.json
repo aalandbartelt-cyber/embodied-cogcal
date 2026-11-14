@@ -1,0 +1,10 @@
+{
+  "kind": "cancelled_before_any_rollout",
+  "time_utc": "2026-11-14T11:41:30.216539+00:00",
+  "queue_pid": 2560451,
+  "training_process_untouched": 87789,
+  "reason": "Local libOSMesa absent; original queue used unverified OSMesa. No episode was run. Replacement uses actually tested EGL.",
+  "osmesa_error": "AttributeError: NoneType object has no attribute glGetError",
+  "egl_render_smoke": "passed MuJoCo4.0.1, three 640x480 images",
+  "replacement_script_sha256": "0e4aba1a32608e2a6b364a5d61402dda838d062093ab3e283bf564d691ebe780"
+}

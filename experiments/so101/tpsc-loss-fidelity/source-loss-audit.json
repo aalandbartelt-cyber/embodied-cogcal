@@ -1,0 +1,438 @@
+{
+  "kind": "source_faithful_algebra_and_cpu_autograd_not_policy_training",
+  "repository": "https://github.com/NEBULIS-Lab/Beyond-Appearance-Shifts",
+  "revision": "51f0dab5b2edab6539f3bccda7a04b3cb1d52a6c",
+  "sources": [
+    {
+      "path": "bas_vla/breaking/training.py",
+      "sha256": "515f4ff3dd7eb6c7952c2cd887617e6065cbd06f252a19b3e00484a0c78b36b2",
+      "url": "https://github.com/NEBULIS-Lab/Beyond-Appearance-Shifts/blob/51f0dab5b2edab6539f3bccda7a04b3cb1d52a6c/bas_vla/breaking/training.py"
+    },
+    {
+      "path": "bas_vla/breaking/residual_adapter.py",
+      "sha256": "d980768f256bd40fa08e13a6e829a48a0930d74bda66fe376c0887f5954bbc79",
+      "url": "https://github.com/NEBULIS-Lab/Beyond-Appearance-Shifts/blob/51f0dab5b2edab6539f3bccda7a04b3cb1d52a6c/bas_vla/breaking/residual_adapter.py"
+    },
+    {
+      "path": "docs/training.md",
+      "sha256": "87073acbbd03f9afb1ade57a396cbf064bfb495ed0bb98d90495a727dff49f43",
+      "url": "https://github.com/NEBULIS-Lab/Beyond-Appearance-Shifts/blob/51f0dab5b2edab6539f3bccda7a04b3cb1d52a6c/docs/training.md"
+    }
+  ],
+  "python": "3.10.19",
+  "torch": "2.7.1+cu128",
+  "device": "cpu",
+  "project_commit_at_run": "01295461c66ec42ba7c30a13518c0f58d0955771",
+  "script_sha256": "1659e637b02192d346355a855b5191179e15491f6ee978cf5aa929b398df5f1c",
+  "original_toy_sha256": "03101e8d792f111d5aca4812972389fd0f601b70f71b1944c074d9e35f48c965",
+  "objective_config": {
+    "objective_preset": "paper_three_component",
+    "squared_error_reduction": "sum_last_mean",
+    "lambda_imitation": 1.0,
+    "lambda_expert_margin": 0.0,
+    "hidden_dim": 64,
+    "delta_scale": 0.35,
+    "margin": 0.5,
+    "lambda_consistency": 0.5,
+    "lambda_margin": 1.0,
+    "lambda_anchor": 0.0,
+    "lr": 0.002,
+    "epochs": 60,
+    "batch_size": 64
+  },
+  "cases": [
+    {
+      "name": "branch_inside_flattened_chunk",
+      "record_shape": [
+        1,
+        6
+      ],
+      "clean": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "control": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "break": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "metrics": {
+        "loss_total": 0.0,
+        "loss_clean_mse": 0.0,
+        "loss_control_mse": 0.0,
+        "loss_consistency": 0.0,
+        "loss_margin_clean": 0.0,
+        "loss_margin_expert": 0.0,
+        "loss_anchor": 0.0
+      },
+      "break_gradient": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "direct_prefix_gradient_max_abs": 0.0,
+      "distance_per_record": [
+        2.8284271247461903
+      ]
+    },
+    {
+      "name": "same_six_steps_as_six_records",
+      "record_shape": [
+        6,
+        1
+      ],
+      "clean": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          -1.0
+        ],
+        [
+          -1.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "control": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          -1.0
+        ],
+        [
+          -1.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "break": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "metrics": {
+        "loss_total": 0.3333333333333333,
+        "loss_clean_mse": 0.0,
+        "loss_control_mse": 0.0,
+        "loss_consistency": 0.0,
+        "loss_margin_clean": 0.3333333333333333,
+        "loss_margin_expert": 0.3333333333333333,
+        "loss_anchor": 0.0
+      },
+      "break_gradient": [
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "direct_prefix_gradient_max_abs": 0.0,
+      "distance_per_record": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "chunk_entirely_before_branch",
+      "record_shape": [
+        1,
+        3
+      ],
+      "clean": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "control": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "break": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "metrics": {
+        "loss_total": 0.5,
+        "loss_clean_mse": 0.0,
+        "loss_control_mse": 0.0,
+        "loss_consistency": 0.0,
+        "loss_margin_clean": 0.5,
+        "loss_margin_expert": 0.5,
+        "loss_anchor": 0.0
+      },
+      "break_gradient": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "direct_prefix_gradient_max_abs": 0.0,
+      "distance_per_record": [
+        0.0
+      ]
+    },
+    {
+      "name": "active_margin_but_exact_shared_prefix",
+      "record_shape": [
+        1,
+        6
+      ],
+      "clean": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "control": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "break": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -0.95,
+          -0.95,
+          0.0
+        ]
+      ],
+      "metrics": {
+        "loss_total": 0.42928932188134517,
+        "loss_clean_mse": 0.0,
+        "loss_control_mse": 0.0,
+        "loss_consistency": 0.0,
+        "loss_margin_clean": 0.42928932188134517,
+        "loss_margin_expert": 0.42928932188134517,
+        "loss_anchor": 0.0
+      },
+      "break_gradient": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "direct_prefix_gradient_max_abs": 0.0,
+      "distance_per_record": [
+        0.07071067811865482
+      ]
+    },
+    {
+      "name": "active_margin_with_tiny_prefix_difference",
+      "record_shape": [
+        1,
+        6
+      ],
+      "clean": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "control": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "break": [
+        [
+          1.01,
+          1.01,
+          1.01,
+          -0.95,
+          -0.95,
+          0.0
+        ]
+      ],
+      "metrics": {
+        "loss_total": 0.4271989011071947,
+        "loss_clean_mse": 0.0,
+        "loss_control_mse": 0.0,
+        "loss_consistency": 0.0,
+        "loss_margin_clean": 0.4271989011071947,
+        "loss_margin_expert": 0.4271989011071947,
+        "loss_anchor": 0.0
+      },
+      "break_gradient": [
+        [
+          -0.137360563948689,
+          -0.137360563948689,
+          -0.137360563948689,
+          -0.686802819743445,
+          -0.686802819743445,
+          0.0
+        ]
+      ],
+      "direct_prefix_gradient_max_abs": 0.137360563948689,
+      "distance_per_record": [
+        0.07280109889280525
+      ]
+    }
+  ],
+  "horizon_checks": [
+    {
+      "horizon": 1,
+      "per_step_difference": 0.1,
+      "flattened_l2": 0.1,
+      "separation_loss": 0.4
+    },
+    {
+      "horizon": 4,
+      "per_step_difference": 0.1,
+      "flattened_l2": 0.2,
+      "separation_loss": 0.3
+    },
+    {
+      "horizon": 25,
+      "per_step_difference": 0.1,
+      "flattened_l2": 0.5,
+      "separation_loss": 0.0
+    },
+    {
+      "horizon": 50,
+      "per_step_difference": 0.1,
+      "flattened_l2": 0.7071067811865476,
+      "separation_loss": 0.0
+    }
+  ],
+  "equal_loss_counterexample": {
+    "loss_A": {
+      "left": 0.0,
+      "right": 1.0,
+      "drop": 1.0
+    },
+    "loss_B": {
+      "left": 1.0,
+      "right": 0.0,
+      "drop": 1.0
+    },
+    "same_candidate": "drop",
+    "viable_A": [
+      "left"
+    ],
+    "viable_B": [
+      "right"
+    ],
+    "intersection": [],
+    "same_candidate_success": false
+  },
+  "checks": {
+    "original_toy_per_step_sum": 2.0,
+    "faithful_flattened_chunk_loss": 0.0,
+    "hand_values_and_gradients_verified": true
+  },
+  "conclusion": "Original toy is layout-conditional; it does not establish BAS-VLA prefix damage.",
+  "limits": [
+    "Uses upstream paper_three_component preset, not an evaluated upstream checkpoint.",
+    "Identity adapter isolates output-space derivatives; shared neural parameters can couple coordinates.",
+    "Exact-zero norm subgradient is the inspected PyTorch convention, not an impossibility theorem.",
+    "Margin 0.5 reproduces the old toy, not upstream numeric default 0.15.",
+    "No VLA rollout, optimizer training, success effect or novelty clearance is measured."
+  ]
+}
