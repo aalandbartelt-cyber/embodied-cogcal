@@ -1,0 +1,25 @@
+{
+  "kind": "analytical_counterexample_not_a_robot_experiment",
+  "task_success_action_set": [
+    -1,
+    1
+  ],
+  "policy_actions": [
+    -1,
+    1
+  ],
+  "policy_action_probabilities": [
+    0.5,
+    0.5
+  ],
+  "single_reference_action": 1,
+  "policy_mean": 0,
+  "estimated_bias_mean_minus_reference": -1,
+  "compensated_actions": [
+    0,
+    2
+  ],
+  "original_success_probability": 1,
+  "compensated_success_probability": 0,
+  "point": "Different successful modes can be mislabeled as signed bias relative to one expert; subtracting that bias can destroy success."
+}

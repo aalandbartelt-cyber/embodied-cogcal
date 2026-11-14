@@ -91,3 +91,14 @@
 - 零失败 IID Bernoulli 完整回合的示例计算：95% 置信上界小于5%，单个固定候选需59回合；10候选简单Bonferroni示例每候选104回合。这不是普遍最小样本量或已执行结果。
 - discovery sources 现为27条版本化arXiv记录、10项GitHub来源及1项经典作者机构来源；新增6篇原始元数据独立核对。主文献库50条未改动，不把二者数量混加为全文精读数。
 - SO-101、A100、MuJoCo 与日志共用资产继续保留。尚未确定可立项主方向；不将“否决完毕/资料提交”作为持续研究目标完成。
+
+## DeepSeek 提案与共享前缀候选的后续审计
+
+- 用户提供了 DeepSeek 扫描；原稿保存在 `docs/prior-art/cognitive-compensation-scan-20261114.md`，独立复核见 `review-deepseek-rcbt.md`。没有把其关键词未命中和自评评分当作查新证据。
+- RCBT 的“参考类＋分层 GP＋残差迁移”被 NIPS 2007 MTGP、AAAI 2010 AT-GP、UAI 2018 latent-GP meta-RL、ALPaCA 和 RA-L 2022 MRPL 直接约束；单示范均值偏差会破坏多模态正确动作，反例已存 JSON。
+- BAS-VLA 原文 §4.2/C.2 已证明统一 semantic separation margin 的局部性质；构造了共享动作前缀任务的目标函数反例，但尚未测 BAS-VLA 训练/真实失效。
+- One Word, Different Action（2609.05260）已提供真实机器人 Decision Invariance/Sensitivity 基准；RT-H 已共享语言动作层；Stage-Aware VLA 处理长任务 one-to-many；Acting While Understanding 处理 stale semantics；PHASER/Hide-and-Seek 处理 phase/failure onset。新候选不能宣称首次研究这些宽问题。
+- 新候选单独报告：`docs/prior-art/temporal-prefix-calibration-audit.md`。核心只暂称 outcome-aligned temporal semantic calibration/TPSC，必须先证明 uniform separation 在 shared-prefix 上造成错误纠偏，并超过 action-only mask/阶段状态/层级语言等强基线。
+- 新增分析核算 `experiments/so101/shared-prefix-separation-audit.json`：6 步 toy chunk、3 步共享前缀、分叉支持 2 步；统一 margin 的 toy penalty 2.0、只在分叉支持上施加分离时 penalty 0.0。这是目标函数几何，不是策略实验。
+- `mechanism-first-sources-20261114.json` 已补齐 One Word、RT-H、Acting While Understanding、PHASER、Hide-and-Seek 和 Still Grounded 的 6 个版本化 arXiv 元数据；哈希只证明取到的 API 响应可追溯，不证明已完成全文复现。
+- 完整研究目标仍 active；当前候选未查新通过、未实现、未获得 A100/VLA/真机结果。

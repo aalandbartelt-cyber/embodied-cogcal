@@ -96,3 +96,12 @@
 - 更正 Same Weights 仿射位移漏项/已有 local margin 与 RoboStress 模型归属；审计稿明确保留历史推演与当前裁决边界。
 - 新增6篇原始版本元数据，discovery补充现27条arXiv/10项GitHub；分析反例与样本规模核算单列JSON，不记机器人实验。
 - 这是一次完成的候选深审，完整“确定有先进性、可行性和核心增量的研究方向”目标仍active。
+
+## DeepSeek 扫描纳入与机制候选收敛
+
+- 用户提供 DeepSeek 探索稿；原稿保留，独立复核补充经典 MTGP/AT-GP/latent-GP/ALPaCA/MRPL 近邻，并加入单参考动作多模态反例。
+- 用户选择“先验证失效机制，再提出方法”。从 BAS-VLA 原文公式抽出 shared-prefix 目标函数条件反例；定向核到 One Word、Stage-Aware、RT-H、Acting While Understanding、PHASER、Hide-and-Seek，更新边界。
+- 完成 SO-101 静态可见性预检和来源核验；新渲染记录只证明对照可构造，不证明 reward model 误判或策略 reward hacking。
+- 当前更值得小规模否证的是 temporal-prefix calibration，而非 RCBT GP 配方或完成判定模型；尚未确定主方向，未进入方法实现。
+- 复核后补齐 6 个时序/共享动作近邻的 arXiv API 元数据与响应哈希；修正共享前缀玩具核算，使分离损失只在必需分叉支持上计数（统一 margin=2.0、支持掩码=0.0）。
+- 清理路线决策中的重复段落；当前下一步仍是冻结任务对、验证 uniform separation 是否真的造成前缀误纠偏，再决定是否值得实现方法。

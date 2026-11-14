@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-14",
+  "scope": "mechanism-first candidate screening and DeepSeek proposal review; not institutional novelty clearance or model replication",
+  "user_reference": {
+    "path": "docs/prior-art/cognitive-compensation-scan-20261114.md",
+    "sha256": "3071d4527149d73027f88f97457850120a3ecd6f8918f8f89714e00060b326e3",
+    "treatment": "user-supplied DeepSeek candidate scan; preserved unchanged; unverified claims are not adopted as results"
+  },
+  "arxiv_records": [
+    {
+      "version": "2609.20106v1",
+      "title": "AnyviewMeter: Adapting Robotic Reward Models with Camera Geometry and Multi-View Attention",
+      "authors": [
+        "Tu, Yuang",
+        "Tan, Runjia",
+        "Yan, Yujie",
+        "Hu, Jinghan",
+        "Lv, Chen"
+      ],
+      "first_date": "2026/09/17",
+      "version_date": "2026/09/17",
+      "url": "https://arxiv.org/abs/2609.20106v1",
+      "response_sha256": "bc6537281c96f9eb487f03cad41f1f90e4e144bacd44777c2d4eaddad3910a41",
+      "read_level": "selected sections III and IV"
+    },
+    {
+      "version": "2603.02115v1",
+      "title": "Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons",
+      "authors": [
+        "Liang, Anthony",
+        "Korkmaz, Yigit",
+        "Zhang, Jiahui",
+        "Hwang, Minyoung",
+        "Anwar, Abrar",
+        "Kaushik, Sidhant",
+        "Shah, Aditya",
+        "Huang, Alex S.",
+        "Zettlemoyer, Luke",
+        "Fox, Dieter",
+        "Xiang, Yu",
+        "Li, Anqi",
+        "Bobu, Andreea",
+        "Gupta, Abhishek",
+        "Tu, Stephen",
+        "Biyik, Erdem",
+        "Zhang, Jesse"
+      ],
+      "first_date": "2026/03/02",
+      "version_date": "2026/03/02",
+      "url": "https://arxiv.org/abs/2603.02115v1",
+      "response_sha256": "ff660a614af5160679ad3c07afe1efc2449d44962281875502878e7452cbb26f",
+      "read_level": "selected sections III, V, B.3 and E.2"
+    },
+    {
+      "version": "2601.00675v2",
+      "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+      "authors": [
+        "Lee, Tony",
+        "Wagenmaker, Andrew",
+        "Pertsch, Karl",
+        "Liang, Percy",
+        "Levine, Sergey",
+        "Finn, Chelsea"
+      ],
+      "first_date": "2026/01/02",
+      "version_date": "2026/01/08",
+      "url": "https://arxiv.org/abs/2601.00675v2",
+      "response_sha256": "a1e1e8974f2304eb67f8d4e92230ee39cf1d2fe7201fe7532765f5e96b13f4af",
+      "read_level": "selected section 4.2 and scoring rubric"
+    },
+    {
+      "version": "2608.03753v1",
+      "title": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
+      "authors": [
+        "Protopapa, Andrea",
+        "Buoso, Davide",
+        "Pistilli, Francesca",
+        "Chalvatzaki, Georgia",
+        "Averta, Giuseppe"
+      ],
+      "first_date": "2026/08/04",
+      "version_date": "2026/08/04",
+      "url": "https://arxiv.org/abs/2608.03753v1",
+      "response_sha256": "63fb40258b1c20eca03d5802887b14bd8a91cb3f3a04620b36505ebb91609dd3",
+      "read_level": "selected sections III and IV.B"
+    },
+    {
+      "version": "2501.13011v1",
+      "title": "MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking",
+      "authors": [
+        "Farquhar, Sebastian",
+        "Varma, Vikrant",
+        "Lindner, David",
+        "Elson, David",
+        "Biddulph, Caleb",
+        "Goodfellow, Ian",
+        "Shah, Rohin"
+      ],
+      "first_date": "2025/01/22",
+      "version_date": "2025/01/22",
+      "url": "https://arxiv.org/abs/2501.13011v1",
+      "response_sha256": "7b51fff99bb6c331f008a87b2ef435f22fdff4a77d4b0dad7a3dd94dc173906e",
+      "read_level": "selected sections 4 and C.3"
+    },
+    {
+      "version": "2611.03168v1",
+      "title": "Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks",
+      "authors": [
+        "Selvaraj, Praveen",
+        "Uttini, Lorenzo",
+        "Kuosmanen, Ville"
+      ],
+      "first_date": "2026/11/02",
+      "version_date": "2026/11/02",
+      "url": "https://arxiv.org/abs/2611.03168v1",
+      "response_sha256": "fa93843126e590e25daf5f013ea36e1b1b771b40cf284119b91e9d6ebeeb1d49",
+      "read_level": "main text including collection, schema and limitations"
+    },
+    {
+      "version": "2607.24481v1",
+      "title": "ArmnetBench v0.1: Parallel Real-World Evaluation of Manipulation Policies on a Low-Cost Arm Farm",
+      "authors": [
+        "Selvaraj, Praveen",
+        "Uttini, Lorenzo",
+        "Kuosmanen, Ville"
+      ],
+      "first_date": "2026/07/27",
+      "version_date": "2026/07/27",
+      "url": "https://arxiv.org/abs/2607.24481v1",
+      "response_sha256": "18a73a7d7e39d7017c968d2aa1d198cef7461bf85311b117379cc11c17d89cb1",
+      "read_level": "metadata only"
+    },
+    {
+      "version": "1807.08912v1",
+      "title": "Meta-Learning Priors for Efficient Online Bayesian Regression",
+      "authors": [
+        "Harrison, James",
+        "Sharma, Apoorva",
+        "Pavone, Marco"
+      ],
+      "first_date": "2018/07/24",
+      "version_date": "2018/07/24",
+      "url": "https://arxiv.org/abs/1807.08912v1",
+      "response_sha256": "43c19e6e7b954a3d3fdf290bc9dd3426853bc2fef06680b1779185f7c697454e",
+      "read_level": "abstract only"
+    },
+    {
+      "version": "1803.07551v1",
+      "title": "Meta Reinforcement Learning with Latent Variable Gaussian Processes",
+      "authors": [
+        "Sæmundsson, Steindór",
+        "Hofmann, Katja",
+        "Deisenroth, Marc Peter"
+      ],
+      "first_date": "2018/03/20",
+      "version_date": "2018/03/20",
+      "url": "https://arxiv.org/abs/1803.07551v1",
+      "response_sha256": "82949bb6a3440170fd1f078a444f72a6c9fd9251a5a7442548d88884ab0ec785",
+      "read_level": "official PMLR abstract only"
+    },
+    {
+      "version": "2609.23650v1",
+      "title": "Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models",
+      "authors": [
+        "Liu, Shuaijun",
+        "You, Feiyang",
+        "Wu, Chengyu",
+        "Hao, Shuyang",
+        "Zhang, Chenglong",
+        "Cai, Jingyao",
+        "Chen, Xingwei",
+        "Su, Ningxin"
+      ],
+      "first_date": "2026/09/20",
+      "version_date": "2026/09/20",
+      "url": "https://arxiv.org/abs/2609.23650v1",
+      "response_sha256": "22dded2f21b88563cbf78d518b746fc85f2284c7a7123cd1d3f0423fa8cff803",
+      "read_level": "problem formulation and introduction; full method comparison pending"
+    },
+    {
+      "version": "2609.05260v1",
+      "title": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
+      "authors": [
+        "Yiwei Liu",
+        "Luwei Yang",
+        "Shunbo Lei"
+      ],
+      "first_date": "2026/09/04",
+      "version_date": "2026/09/13",
+      "url": "https://arxiv.org/abs/2609.05260v1",
+      "response_sha256": "db6b33e6489cf2f4e1d7adb55a9636efce7f44b8fdd0be15e934e67a1b25f528",
+      "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    },
+    {
+      "version": "2403.01823v1",
+      "title": "RT-H: Action Hierarchies Using Language",
+      "authors": [
+        "Suneel Belkhale",
+        "Tianli Ding",
+        "Ted Xiao",
+        "Pierre Sermanet",
+        "Quon Vuong",
+        "Jonathan Tompson",
+        "Yevgen Chebotar",
+        "Debidatta Dwibedi",
+        "Dorsa Sadigh"
+      ],
+      "first_date": "2024/03/04",
+      "version_date": "2024/06/01",
+      "url": "https://arxiv.org/abs/2403.01823v1",
+      "response_sha256": "dceb95f9dd62b951e0c5a198823251ae59237d408caab7c0be601d7df7511898",
+      "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    },
+    {
+      "version": "2606.15285v1",
+      "title": "Acting While Understanding: Asynchronous Semantic-Action Decoupling for Real-Time Vision-Language-Action Models",
+      "authors": [
+        "Shenhao Yan",
+        "Ge Wang",
+        "Qi Liu",
+        "Weilin Meng",
+        "Jiahao Yang",
+        "Chengsi Yao",
+        "Fan Feng",
+        "Xiaoguang Ma",
+        "Yiming Zhao",
+        "Yatong Han"
+      ],
+      "first_date": "2026/06/13",
+      "version_date": "2026/06/13",
+      "url": "https://arxiv.org/abs/2606.15285v1",
+      "response_sha256": "9d868fd6da77887d5d9f190af5ca9d43fe7a6005147d8b43a1036fbd65ed8cb4",
+      "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    },
+    {
+      "version": "2606.03598v1",
+      "title": "PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models",
+      "authors": [
+        "Ziyang Chen",
+        "Shaoguang Wang",
+        "Weiyu Guo",
+        "Qianyi Cai",
+        "He Zhang",
+        "Pengteng Li",
+        "Yiren Zhao",
+        "Yandong Guo"
+      ],
+      "first_date": "2026/06/02",
+      "version_date": "2026/06/03",
+      "url": "https://arxiv.org/abs/2606.03598v1",
+      "response_sha256": "c09e6234dd398dfaa3f23b2bc809c33a1905a5c15fd592f1e0ef30764163a177",
+      "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    },
+    {
+      "version": "2605.30834v1",
+      "title": "Hide-and-Seek in Trajectories: Discovering Failure Signals for VLA Runtime Monitoring",
+      "authors": [
+        "Seongheon Park",
+        "Wendi Li",
+        "Changdae Oh",
+        "Samuel Yeh",
+        "Zsolt Kira",
+        "Michael Hagenow",
+        "Sharon Li"
+      ],
+      "first_date": "2026/05/29",
+      "version_date": "2026/09/25",
+      "url": "https://arxiv.org/abs/2605.30834v1",
+      "response_sha256": "94e0023d416937e72efcd8755e7ce7c53ad33cbed29bfe387e996d4b0cc2ff4b",
+      "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    },
+    {
+      "version": "2610.00542v1",
+      "title": "Does Continual Imitation Learning Remain Grounded? A Language-Perturbed Benchmark for Robotic Task Retention",
+      "authors": [
+        "Siddeshwar Raghavan",
+        "Ziqin Yuan",
+        "Fengqing Zhu",
+        "Byung-Cheol Min"
+      ],
+      "first_date": "2026/09/30",
+      "version_date": "2026/09/30",
+      "url": "https://arxiv.org/abs/2610.00542v1",
+      "response_sha256": "64a4ac281cc27aeccc439ed7f46a1a784c7fcad9004d47c6a81fe1ddaf9f8fd6",
+      "read_level": "metadata and targeted abstract/near-neighbor audit; full method replication pending"
+    }
+  ],
+  "additional_primary_sources": [
+    {
+      "title": "Multi-task Gaussian Process Prediction",
+      "authors": [
+        "Edwin V. Bonilla",
+        "Kian M. Chai",
+        "Christopher Williams"
+      ],
+      "year": 2007,
+      "url": "https://proceedings.neurips.cc/paper/2007/hash/66368270ffd51418ec58bd793f2d9b1b-Abstract.html",
+      "read_level": "official abstract only"
+    },
+    {
+      "title": "Adaptive Transfer Learning",
+      "authors": [
+        "Bin Cao",
+        "Sinno Jialin Pan",
+        "Yu Zhang",
+        "Dit-Yan Yeung",
+        "Qiang Yang"
+      ],
+      "year": 2010,
+      "doi": "10.1609/aaai.v24i1.7682",
+      "url": "https://www.cse.ust.hk/~qyang/Docs/2010/1823-8130-1-PB.pdf",
+      "read_level": "original author-copy abstract; not full formula audit; AAAI site denied automated access"
+    },
+    {
+      "title": "Meta-Residual Policy Learning: Zero-Trial Robot Skill Adaptation via Knowledge Fusion",
+      "year": 2022,
+      "doi": "10.1109/LRA.2022.3146916",
+      "url": "https://ieeexplore.ieee.org/document/9697332/",
+      "read_level": "publisher search-index abstract and author repository README only; article page requires anti-bot validation; no code replication"
+    }
+  ],
+  "hub_assets": [
+    {
+      "id": "robometer/Robometer-4B",
+      "url": "https://huggingface.co/api/models/robometer/Robometer-4B",
+      "revision": "beef63bc914c5c189329d49c6d712d96d632aa34",
+      "gated": false,
+      "private": false,
+      "model_or_dataset_card_license": "apache-2.0",
+      "response_sha256": "bf3d6ecee165d68c9066193d7caa1ee24042a55b97a036609570952b36e289ca",
+      "verified": "HTTP metadata only; weights/videos not downloaded or executed"
+    },
+    {
+      "id": "teetone/RoboReward-4B",
+      "url": "https://huggingface.co/api/models/teetone/RoboReward-4B",
+      "revision": "4dec8af8d89d214de7028d70f9f9aee3b3a44c3d",
+      "gated": false,
+      "private": false,
+      "model_or_dataset_card_license": "cc-by-4.0",
+      "response_sha256": "08f139569dc8e7158539c8169a9b010a440f7ed7e1f07e71942f574e2b4b1607",
+      "verified": "HTTP metadata only; weights/videos not downloaded or executed"
+    },
+    {
+      "id": "armnet/armnetbench_v01_lerobot_so101",
+      "url": "https://huggingface.co/api/datasets/armnet/armnetbench_v01_lerobot_so101",
+      "revision": "1db69c82b589c7172ee31a6b8f7ef58d1fc2c663",
+      "gated": false,
+      "private": false,
+      "model_or_dataset_card_license": "apache-2.0",
+      "response_sha256": "7bfaa22832a9ceb302b2a628f85fd366ad98815c778b426b483c68ea0302f4ab",
+      "verified": "HTTP metadata only; weights/videos not downloaded or executed"
+    }
+  ],
+  "source_repository": {
+    "url": "https://github.com/robometer/robometer",
+    "revision": "352d160389daa964788de1ec933d1925f3a6de4f",
+    "files_read": [
+      "README.md",
+      "pyproject.toml",
+      "scripts/example_inference_local.py",
+      "robometer/utils/save.py"
+    ],
+    "license_note": "README declares MIT; GitHub licenseInfo is null and root LICENSE file not present in cloned revision. Model weights have separately verified Apache-2.0 card.",
+    "executed": false
+  }
+}

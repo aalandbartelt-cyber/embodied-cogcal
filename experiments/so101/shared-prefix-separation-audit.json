@@ -1,0 +1,56 @@
+{
+  "kind": "analytical_objective_geometry_not_policy_training",
+  "horizon": 6,
+  "semantic_branch_onset": 3,
+  "margin": 0.5,
+  "task_A_action_chunk": [
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0
+  ],
+  "task_B_action_chunk": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "shared_prefix_length": 3,
+  "required_divergence_support": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "naive_per_timestep_separation_penalty": [
+    0.5,
+    0.5,
+    0.5,
+    0,
+    0,
+    0.5
+  ],
+  "prefix_aware_penalty": [
+    0.0,
+    0.0,
+    0.0,
+    0,
+    0,
+    0.0
+  ],
+  "naive_total": 2.0,
+  "prefix_aware_total": 0.0,
+  "interpretation": "The clean/control/break action separation term can penalize identical correct prefixes before the task-relevant branch. This is a toy algebraic counterexample, not evidence that BAS-VLA trains incorrectly or that a new method works.",
+  "required_followups": [
+    "Construct matched manipulation tasks with independently annotated earliest semantic divergence time.",
+    "Compare rollout outcomes, not only action distance.",
+    "Include BAS-VLA and standard behavioral cloning as baselines.",
+    "Test one-to-many valid actions and no-common-prefix controls."
+  ]
+}
