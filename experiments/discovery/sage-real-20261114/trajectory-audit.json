@@ -1,0 +1,330 @@
+{
+  "kind": "public_real_data_descriptive_not_our_hardware_or_vla_mechanism",
+  "source_revision": "5b31cfa35416d1300b5099557049bd8e9cb4507d",
+  "rows": [
+    {
+      "motion": "pick_place",
+      "rows": 4840,
+      "joint_order": [
+        "Rotation",
+        "Pitch",
+        "Elbow",
+        "Wrist_Pitch",
+        "Wrist_Roll",
+        "Jaw"
+      ],
+      "columns": {
+        "control": [
+          "type",
+          "timestamp",
+          "positions"
+        ],
+        "state": [
+          "type",
+          "timestamp",
+          "positions",
+          "velocities",
+          "torques"
+        ]
+      },
+      "duration_s": 97.07159360009246,
+      "period_s_quantiles_p0_p50_p95_p100": [
+        0.020010078907958473,
+        0.020059291971847415,
+        0.020067994110286237,
+        0.02011306199710816
+      ],
+      "descriptive_median_hz": 49.85220821370308,
+      "exact_equal_command_state_timestamps": true,
+      "arm_command_min_rad": [
+        -0.5,
+        0.0,
+        0.5,
+        -0.4,
+        0.0
+      ],
+      "arm_command_max_rad": [
+        0.5,
+        0.4,
+        0.9,
+        0.0,
+        0.0
+      ],
+      "arm_state_min_rad": [
+        -0.49010686172946233,
+        0.01380582709097077,
+        0.5760097858510582,
+        -0.380427235395639,
+        -0.01380582709097077
+      ],
+      "arm_state_max_rad": [
+        0.4931748233052336,
+        0.40190296642603796,
+        0.8904758473676146,
+        -0.0015339807878856412,
+        -0.006135923151542565
+      ],
+      "row_matched_arm_residual_mean_rad": [
+        0.0009674239775664422,
+        0.040683240100168674,
+        0.010702035381700753,
+        0.007468751311586147,
+        -0.007933596504619108
+      ],
+      "row_matched_arm_residual_rmse_rad": [
+        0.021718508121389955,
+        0.05339460825363069,
+        0.03148920109422808,
+        0.02146752790639916,
+        0.008316228814917581
+      ],
+      "row_matched_gripper_residual_rmse_normalized": 0.012511378389361888,
+      "gripper_command_range_normalized": [
+        0.2,
+        0.9
+      ],
+      "gripper_state_range_normalized": [
+        0.19960604070912671,
+        0.8975705843729481
+      ],
+      "events": [
+        {
+          "type": "EVENT",
+          "timestamp": "0",
+          "event": "CONTROL_MODE_ENABLE"
+        },
+        {
+          "type": "EVENT",
+          "timestamp": "5.007954314351082",
+          "event": "MOTION_START"
+        },
+        {
+          "type": "EVENT",
+          "timestamp": "97071598.60804677",
+          "event": "DISABLE"
+        }
+      ],
+      "success_labels_present": false
+    },
+    {
+      "motion": "backlash_detection",
+      "rows": 6000,
+      "joint_order": [
+        "Rotation",
+        "Pitch",
+        "Elbow",
+        "Wrist_Pitch",
+        "Wrist_Roll",
+        "Jaw"
+      ],
+      "columns": {
+        "control": [
+          "type",
+          "timestamp",
+          "positions"
+        ],
+        "state": [
+          "type",
+          "timestamp",
+          "positions",
+          "velocities",
+          "torques"
+        ]
+      },
+      "duration_s": 120.34030554699712,
+      "period_s_quantiles_p0_p50_p95_p100": [
+        0.02001058403402567,
+        0.020058835973017608,
+        0.0200674220453962,
+        0.020619952003457342
+      ],
+      "descriptive_median_hz": 49.85334150721221,
+      "exact_equal_command_state_timestamps": true,
+      "arm_command_min_rad": [
+        -0.04,
+        -0.03968,
+        0.46,
+        -0.03968,
+        -0.04
+      ],
+      "arm_command_max_rad": [
+        0.04,
+        0.03968,
+        0.54,
+        0.03968,
+        0.04
+      ],
+      "arm_state_min_rad": [
+        -0.03144660615165564,
+        0.0030679615757712823,
+        0.5284563814266033,
+        -0.010737865515199488,
+        -0.023009711818284616
+      ],
+      "arm_state_max_rad": [
+        0.029912625363770002,
+        0.047553404424454875,
+        0.5714078434874014,
+        0.026077673394055898,
+        0.019941750242513333
+      ],
+      "row_matched_arm_residual_mean_rad": [
+        -0.0010402946376511125,
+        0.04066506369645442,
+        0.034638324001782496,
+        0.008389340928946543,
+        -0.0023055731241921123
+      ],
+      "row_matched_arm_residual_rmse_rad": [
+        0.020874289464713612,
+        0.04741573094163785,
+        0.04180659883595984,
+        0.026033832706447605,
+        0.024887036541057617
+      ],
+      "row_matched_gripper_residual_rmse_normalized": 0.025877897021419113,
+      "gripper_command_range_normalized": [
+        0.4616,
+        0.5384
+      ],
+      "gripper_state_range_normalized": [
+        0.47406434668417596,
+        0.5246224556795798
+      ],
+      "events": [
+        {
+          "type": "EVENT",
+          "timestamp": "0",
+          "event": "CONTROL_MODE_ENABLE"
+        },
+        {
+          "type": "EVENT",
+          "timestamp": "4.898058250546455",
+          "event": "MOTION_START"
+        },
+        {
+          "type": "EVENT",
+          "timestamp": "120340310.44505537",
+          "event": "DISABLE"
+        }
+      ],
+      "success_labels_present": false
+    },
+    {
+      "motion": "actuator_bandwidth",
+      "rows": 6000,
+      "joint_order": [
+        "Rotation",
+        "Pitch",
+        "Elbow",
+        "Wrist_Pitch",
+        "Wrist_Roll",
+        "Jaw"
+      ],
+      "columns": {
+        "control": [
+          "type",
+          "timestamp",
+          "positions"
+        ],
+        "state": [
+          "type",
+          "timestamp",
+          "positions",
+          "velocities",
+          "torques"
+        ]
+      },
+      "duration_s": 120.34090837999248,
+      "period_s_quantiles_p0_p50_p95_p100": [
+        0.020005995989777148,
+        0.02005902596282283,
+        0.02006742984520855,
+        0.020275937975384295
+      ],
+      "descriptive_median_hz": 49.852869319446945,
+      "exact_equal_command_state_timestamps": true,
+      "arm_command_min_rad": [
+        -0.15,
+        -0.15,
+        0.35,
+        -0.15,
+        -0.15
+      ],
+      "arm_command_max_rad": [
+        0.15,
+        0.15,
+        0.65,
+        0.15,
+        0.15
+      ],
+      "arm_state_min_rad": [
+        -0.14342720366730743,
+        -0.0859029241215959,
+        0.4210777262746085,
+        -0.1273204053945082,
+        -0.1380582709097077
+      ],
+      "arm_state_max_rad": [
+        0.1449611844551931,
+        0.15493205957644976,
+        0.6465729020937977,
+        0.14266021327336462,
+        0.13652429012182207
+      ],
+      "row_matched_arm_residual_mean_rad": [
+        -0.0007227606145587849,
+        0.038268474378847554,
+        0.033731997019606746,
+        0.008791755222301908,
+        -0.0020943951023931913
+      ],
+      "row_matched_arm_residual_rmse_rad": [
+        0.01732616448793806,
+        0.054029936715836786,
+        0.05206827228168318,
+        0.023387696562385873,
+        0.019464929683038285
+      ],
+      "row_matched_gripper_residual_rmse_normalized": 0.0127583395416002,
+      "gripper_command_range_normalized": [
+        0.35,
+        0.65
+      ],
+      "gripper_state_range_normalized": [
+        0.3565331582403152,
+        0.6421536441234406
+      ],
+      "events": [
+        {
+          "type": "EVENT",
+          "timestamp": "0",
+          "event": "CONTROL_MODE_ENABLE"
+        },
+        {
+          "type": "EVENT",
+          "timestamp": "7.100985385477543",
+          "event": "MOTION_START"
+        },
+        {
+          "type": "EVENT",
+          "timestamp": "120340915.48097786",
+          "event": "DISABLE"
+        }
+      ],
+      "success_labels_present": false
+    }
+  ],
+  "recordings": 3,
+  "frames_total_descriptive_only": 16840,
+  "causal_delay_estimate": "not_identifiable_from_shared_loop_start_timestamps",
+  "readout_note": "Same-row q-command error includes unresolved sensing/dispatch timing; not isolated mechanics.",
+  "source_sha256": "9cf7af0b6609c92c98bbf02d682d975d2701b77ee3e1e8a59937bd2a3fbd03b3",
+  "limits": [
+    "Three preselected recordings, not independent frame-level replications.",
+    "No RGB/task success/closed-loop policy trace; motion filename is not a successful task label.",
+    "No matched sim output, so no sim-real gap is computed.",
+    "Estimated torques are not calibrated force measurements.",
+    "Current collector snapshot does not establish historical recording provenance."
+  ]
+}

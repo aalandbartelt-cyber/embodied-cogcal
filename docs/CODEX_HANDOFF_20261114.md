@@ -393,3 +393,19 @@ N1.6检查点10000元数据含RELATIVE arm/ABSOLUTE gripper、processor16与conf
 资源边界另核到Isaac Sim5.1官方要求不支持无RT Cores的A100/H100、列16GB最低显存；
 本机5070Ti Laptop12GB未验证该栈。SAGE绑定5.0.0的requirements地址404已记录，
 不声称运行过或将5.1要求冒充5.0测试。仍保留MuJoCo，不自动转Isaac/A100渲染。
+
+## 15. 用户再次提醒完整目标后的接续
+
+优先看 [RESEARCH_READINESS 当前结论](RESEARCH_READINESS.md) 与
+[本轮执行证据边界](prior-art/execution-evidence-followup.md)。未确定方向，目标仍 active；
+后续最多同时深入两个具体问题，不能以工程/资料数量或全数否决替代正向选题。
+
+SAGE 三类公开真实记录已读，共 16,840 行，来源及自有审计在
+`experiments/discovery/sage-real-20261114/`。有离线建模入口，但没有 RGB/任务成功/匹配 sim。
+命令和状态逐行同时间戳；当前 collector 是先发后逐电机读、同记循环起点，历史版本未知。
+未估计纯机械延迟、sim-real gap 或补偿收益。原始源 CSV 留在忽略目录，不复制公开。
+
+SimuGuard 已有假失败监测、精确重放和物理窗口干预；不能泛称新问题。
+GapONet 作者页可核到出版条目，OpenReview 全文仍为浏览器验证，不能写成逐式深审完成。
+“执行精度改善破坏阶段线索”仍未实测、未过查新。不要重启已结束的小 BC 试验或运行补偿干预，
+也不自动下载 GR00T / 安装 Isaac。受保护原 JSON、manifest、官方 XML 未改。

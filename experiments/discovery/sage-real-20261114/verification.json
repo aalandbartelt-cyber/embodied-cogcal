@@ -1,0 +1,17 @@
+{
+  "kind": "evidence_integrity_not_scientific_validation",
+  "fresh_audit_equals_preserved": true,
+  "recordings": 3,
+  "descriptive_frames_not_independent_n": 16840,
+  "protected_original_sha256": {
+    "experiments/so101/smolvla-interface-preflight/summary-degree-assumption.json": "48fce62e85353a8dc0c81214bd8c6f8963ca8e5745226c2b40824af85b4b3a81",
+    "experiments/so101/tpsc-pilot/manifest-pilot.jsonl": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+    "experiments/so101/tpsc-pilot/manifest-full.jsonl": "ced15f2b419275c89cff76516e17d2468324512eb7b32e10002a4148f6be39e5"
+  },
+  "primary_caches_verified": 2,
+  "relative_links_checked": 18,
+  "limits": [
+    "No policy training or compensation intervention run.",
+    "No novel mechanism, task benefit or real hardware performance certified."
+  ]
+}

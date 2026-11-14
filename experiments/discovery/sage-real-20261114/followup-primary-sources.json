@@ -1,0 +1,33 @@
+{
+  "saved_utc": "2026-11-14T15:17:55.238738+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.41857v1",
+      "resolved_url": "https://arxiv.org/html/2610.41857v1",
+      "status_code": 200,
+      "cache": "data/discovery/sage-simuguard-primary-20261114/simuguard-arxiv-v1.html",
+      "sha256": "739e8d84c498aad35479a8ba9b1558571a94ed6b729102bdaea1135acfd6220d",
+      "bytes": 444381,
+      "read_scope": "Abstract, introduction, sections 3.4-3.6 and 4.1-4.3; not full-paper audit or reproduction"
+    },
+    {
+      "url": "https://yutang-lin.github.io/publications/",
+      "resolved_url": "https://yutang-lin.github.io/publications/",
+      "status_code": 200,
+      "cache": "data/discovery/sage-simuguard-primary-20261114/gaponet-author-publications.html",
+      "sha256": "2a519d2b13171bf452469de6c33db9081645e71fdf1571570f60aeb5518fcb7b",
+      "bytes": 30692,
+      "read_scope": "GapONet entry only; author-reported metadata/method summary; not paper full text"
+    }
+  ],
+  "limits": [
+    "Full GapONet OpenReview text returned browser verification during prior tool reads; no claim of full-text reading.",
+    "Source caching is not experimental replication.",
+    "Three narrow search queries returned no primary direct hit on the proposed tracking/phase hypothesis; this is not novelty clearance."
+  ],
+  "search_queries": [
+    "robot policy \"tracking error\" \"shortcut\" compensation",
+    "robot policy \"better tracking\" \"performance\" imitation",
+    "VLA \"proprioception\" \"compensation\" phase"
+  ]
+}

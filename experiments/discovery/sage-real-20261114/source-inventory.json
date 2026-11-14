@@ -1,0 +1,143 @@
+{
+  "kind": "public_real_trajectory_source_not_our_hardware_or_vla",
+  "saved_utc": "2026-11-14T15:09:36.627625+00:00",
+  "repo": "https://github.com/isaac-sim2real/sage",
+  "revision": "5b31cfa35416d1300b5099557049bd8e9cb4507d",
+  "all_real_motion_names": [
+    "actuator_bandwidth",
+    "backlash_detection",
+    "boundary_exploration",
+    "center_workspace",
+    "chirp_sweep",
+    "circular_motion",
+    "coupled_joints",
+    "custom_motion",
+    "diagonal_sweep",
+    "dual_joint_elbow_wrist",
+    "dual_joint_rotation_pitch",
+    "end_effector",
+    "fast_transitions",
+    "figure_eight",
+    "frequency_sweep",
+    "friction_gravity",
+    "gripper_cycles",
+    "hold_under_gravity",
+    "hover_positions",
+    "inertia_coupling",
+    "large_amplitude",
+    "lissajous_pattern",
+    "multisine",
+    "oscillation_low_freq",
+    "oscillation_med_freq",
+    "perturbation_test",
+    "pick_place",
+    "prbs_excitation",
+    "ramp_motion",
+    "random_waypoints",
+    "reach_and_return",
+    "reaching_points",
+    "repetitive_motion",
+    "single_joint_elbow",
+    "single_joint_rotation",
+    "single_joint_wrist_pitch",
+    "single_joint_wrist_roll",
+    "sinusoidal_sweep",
+    "slow_precision",
+    "spiral_motion",
+    "square_pattern",
+    "staircase_motion",
+    "static_holding",
+    "step_response",
+    "symmetric_motion",
+    "trapezoidal_profile",
+    "triangle_wave",
+    "velocity_ramp",
+    "wave_motion",
+    "workspace_sweep"
+  ],
+  "selected_before_data_read": [
+    "pick_place",
+    "backlash_detection",
+    "actuator_bandwidth"
+  ],
+  "selection_reason": "pick/place plus backlash and bandwidth diagnostics, three task types, not chosen by error",
+  "files": [
+    {
+      "path": "output/real/so101/custom/pick_place/control.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/pick_place/control.csv",
+      "sha256": "9cd0e3d038c84b4e4153032d2b86d1806ddaabf3fb0410d4aa886be654e248c1",
+      "bytes": 350365
+    },
+    {
+      "path": "output/real/so101/custom/pick_place/state_motor.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/pick_place/state_motor.csv",
+      "sha256": "865bdb444b3a6f50607fb48083b54011aea09000a668da999618b2d9c5df238e",
+      "bytes": 1284029
+    },
+    {
+      "path": "output/real/so101/custom/pick_place/event.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/pick_place/event.csv",
+      "sha256": "7cc0d0de54b8fa49e7f8d175c4604133ea5f370385eccfa07b9fb9bb50c1d4c5",
+      "bytes": 122
+    },
+    {
+      "path": "output/real/so101/custom/pick_place/joint_list.txt",
+      "cache": "data/discovery/sage-real-readonly-20261114/pick_place/joint_list.txt",
+      "sha256": "3eb4c51245e3b4a480a161673572ce5b50ae0079f878815ec482f68370a5593d",
+      "bytes": 48
+    },
+    {
+      "path": "output/real/so101/custom/backlash_detection/control.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/backlash_detection/control.csv",
+      "sha256": "daec0b6d5f718e57211f0a02c23b4b32a6eb30d9211fcbe2eec8e20fd9dc2432",
+      "bytes": 496209
+    },
+    {
+      "path": "output/real/so101/custom/backlash_detection/state_motor.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/backlash_detection/state_motor.csv",
+      "sha256": "de47b14babdb2cd7453395f4119f6c8eeecee0e237134b48651b53ecdc9df2b1",
+      "bytes": 1864645
+    },
+    {
+      "path": "output/real/so101/custom/backlash_detection/event.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/backlash_detection/event.csv",
+      "sha256": "4d0995d17f3529afbd098ff5633320dcab0e0e3583892b1bf99a20e22b706770",
+      "bytes": 123
+    },
+    {
+      "path": "output/real/so101/custom/backlash_detection/joint_list.txt",
+      "cache": "data/discovery/sage-real-readonly-20261114/backlash_detection/joint_list.txt",
+      "sha256": "3eb4c51245e3b4a480a161673572ce5b50ae0079f878815ec482f68370a5593d",
+      "bytes": 48
+    },
+    {
+      "path": "output/real/so101/custom/actuator_bandwidth/control.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/actuator_bandwidth/control.csv",
+      "sha256": "ad0d14eeb9ed78834211f5847226e20f7852264ca2deaa3c6f9e08e7fa14ffe2",
+      "bytes": 441690
+    },
+    {
+      "path": "output/real/so101/custom/actuator_bandwidth/state_motor.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/actuator_bandwidth/state_motor.csv",
+      "sha256": "964e6155fe860930a7d7715318c1ed2c9912f24c6b9bd85559c1825946f41323",
+      "bytes": 2003727
+    },
+    {
+      "path": "output/real/so101/custom/actuator_bandwidth/event.csv",
+      "cache": "data/discovery/sage-real-readonly-20261114/actuator_bandwidth/event.csv",
+      "sha256": "d287ec29418e4fef424b74acf7636dd0fc25b815693a3855843ccc094f949695",
+      "bytes": 123
+    },
+    {
+      "path": "output/real/so101/custom/actuator_bandwidth/joint_list.txt",
+      "cache": "data/discovery/sage-real-readonly-20261114/actuator_bandwidth/joint_list.txt",
+      "sha256": "3eb4c51245e3b4a480a161673572ce5b50ae0079f878815ec482f68370a5593d",
+      "bytes": 48
+    }
+  ],
+  "limits": [
+    "No RGB/success labels/our hardware execution",
+    "No sim trace downloaded or paired gap computed",
+    "Collector code and recordings may have different provenance"
+  ]
+}
