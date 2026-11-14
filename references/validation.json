@@ -8,9 +8,9 @@
   "ris_parsed_records": 50,
   "arxiv_original_records": 41,
   "selected_sections_read": 17,
-  "markdown_files_checked": 33,
+  "markdown_files_checked": 35,
   "manuscript_citation_occurrences": 34,
-  "local_file_links_checked": 120,
+  "local_file_links_checked": 126,
   "checks": [
     "unique citation IDs",
     "catalog/BibTeX/RIS title, author count, year, DOI and RIS URL correspondence",
