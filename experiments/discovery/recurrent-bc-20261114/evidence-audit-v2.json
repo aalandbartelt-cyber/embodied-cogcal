@@ -1,0 +1,66 @@
+{
+  "kind": "scoped_raw_evidence_integrity_not_scientific_completion",
+  "passed": true,
+  "unchanged_bound_sources": {
+    "experiments/discovery/recurrent-bc-20261114": 8,
+    "experiments/discovery/anchor-bc-20261114": 16
+  },
+  "runs": {
+    "experiments/discovery/recurrent-bc-20261114/test-carry": {
+      "episodes": 20,
+      "successes": 11,
+      "capability_gate": false,
+      "commands": 5700,
+      "chunks": 960,
+      "clip_events": 295,
+      "failure_counts": {
+        "two_finger_lift_not_established": 8,
+        "success": 11,
+        "placement_not_achieved": 1
+      }
+    },
+    "experiments/discovery/recurrent-bc-20261114/test-reset": {
+      "episodes": 20,
+      "successes": 4,
+      "capability_gate": false,
+      "commands": 5700,
+      "chunks": 960,
+      "clip_events": 164,
+      "failure_counts": {
+        "success": 4,
+        "two_finger_lift_not_established": 13,
+        "release_not_verified": 1,
+        "placement_not_achieved": 2
+      }
+    },
+    "experiments/discovery/anchor-bc-20261114/test": {
+      "episodes": 20,
+      "successes": 15,
+      "capability_gate": false,
+      "commands": 5700,
+      "chunks": 960,
+      "clip_events": 43,
+      "failure_counts": {
+        "placement_not_achieved": 4,
+        "success": 15,
+        "two_finger_lift_not_established": 1
+      }
+    }
+  },
+  "paired_success_table": {
+    "carry_0_reset_1": 2,
+    "carry_1_reset_0": 9,
+    "carry_0_reset_0": 7,
+    "carry_1_reset_1": 2
+  },
+  "initialization_and_sampling_matched": true,
+  "all_capability_gates_failed": true,
+  "compensation_interventions": 0,
+  "primary_cache_hashes": 4,
+  "auditor_sha256": "97e5c2be97f72d15fd94c1fe4dadb7f0448f72d1cd2d3f8aaa0d4417f93a53f9",
+  "limits": [
+    "Single training seed and conservative single task; no population advantage claim.",
+    "Sparse traces do not independently recompute continuous dual-contact duration.",
+    "No physical calibration, scientific novelty or mechanism established."
+  ]
+}

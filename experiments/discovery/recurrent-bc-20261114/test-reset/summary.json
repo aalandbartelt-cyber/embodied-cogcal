@@ -1,0 +1,655 @@
+{
+  "kind": "ordinary_bc_new_fixed_capability_test_not_method_effect",
+  "mode": "reset",
+  "episodes": 20,
+  "successes": 4,
+  "rows": [
+    {
+      "seed": 7100,
+      "wall_s": 8.35146572499798,
+      "source_xyz_m": [
+        0.19778770420912006,
+        -0.07557136534579996,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 1.377,
+      "max_object_z_m": 0.0836751841533439,
+      "final_object_xyz_m": [
+        0.21972493350674932,
+        0.05201356190367988,
+        0.013998761340986895
+      ],
+      "goal_error_xy_m": 0.03028942617815066,
+      "max_object_robot_penetration_m": 0.00032151241942629294,
+      "clip_events": 6,
+      "mean_abs_tracking_error_rad": 0.008301653802698173,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    },
+    {
+      "seed": 7101,
+      "wall_s": 6.93436197200208,
+      "source_xyz_m": [
+        0.19758327775378656,
+        -0.07272741835876714,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.014,
+      "final_object_xyz_m": [
+        0.19758327775794754,
+        -0.07272741835817886,
+        0.013998761340986914
+      ],
+      "goal_error_xy_m": 0.14774718501943662,
+      "max_object_robot_penetration_m": 0.0,
+      "clip_events": 30,
+      "mean_abs_tracking_error_rad": 0.025376105821315244,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7102,
+      "wall_s": 6.18980646899945,
+      "source_xyz_m": [
+        0.19762695980745157,
+        -0.07646724413191656,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 1.3775,
+      "max_object_z_m": 0.08369669459898918,
+      "final_object_xyz_m": [
+        0.21450235476127427,
+        0.07511325884078145,
+        0.013998761340986892
+      ],
+      "goal_error_xy_m": 0.014502797012537596,
+      "max_object_robot_penetration_m": 0.0003826618540738923,
+      "clip_events": 12,
+      "mean_abs_tracking_error_rad": 0.008897614074179603,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    },
+    {
+      "seed": 7103,
+      "wall_s": 5.985216041997774,
+      "source_xyz_m": [
+        0.19664951865636743,
+        -0.07314752275017017,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.014,
+      "final_object_xyz_m": [
+        0.19664951865330021,
+        -0.07314752275304483,
+        0.013998761340986909
+      ],
+      "goal_error_xy_m": 0.14818540489237972,
+      "max_object_robot_penetration_m": 0.0,
+      "clip_events": 30,
+      "mean_abs_tracking_error_rad": 0.027754373031600547,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7104,
+      "wall_s": 5.994371166998462,
+      "source_xyz_m": [
+        0.19966332379096277,
+        -0.07699427240316349,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.01949742178672204,
+      "final_object_xyz_m": [
+        0.20211160667194616,
+        -0.09169389174979807,
+        0.01399876134098689
+      ],
+      "goal_error_xy_m": 0.16670726567678568,
+      "max_object_robot_penetration_m": 0.0002526466706898765,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.01773905897774434,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7105,
+      "wall_s": 6.02289511699928,
+      "source_xyz_m": [
+        0.20382387544284528,
+        -0.0771061719867541,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.015235040825510247,
+      "final_object_xyz_m": [
+        0.2100152912358923,
+        -0.0833597594442547,
+        0.013998761340986897
+      ],
+      "goal_error_xy_m": 0.15867614650533315,
+      "max_object_robot_penetration_m": 0.0003395100800805192,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.014653202247991373,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7106,
+      "wall_s": 5.927606820998335,
+      "source_xyz_m": [
+        0.19892729904594125,
+        -0.07223274310375599,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.014,
+      "final_object_xyz_m": [
+        0.19892729904189654,
+        -0.07223274310496763,
+        0.01399876134098686
+      ],
+      "goal_error_xy_m": 0.14723665076861436,
+      "max_object_robot_penetration_m": 0.0,
+      "clip_events": 24,
+      "mean_abs_tracking_error_rad": 0.017429302868102757,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7107,
+      "wall_s": 5.78847800800213,
+      "source_xyz_m": [
+        0.19966517206513765,
+        -0.07949193500462623,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.023527103836762698,
+      "final_object_xyz_m": [
+        0.23555869252971814,
+        -0.08903613077368552,
+        0.013998761340986914
+      ],
+      "goal_error_xy_m": 0.1678459794383669,
+      "max_object_robot_penetration_m": 0.00039673255855343507,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.01780490921710556,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7108,
+      "wall_s": 5.669751379002264,
+      "source_xyz_m": [
+        0.19921754015072074,
+        -0.0743968737938697,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.019189864941317955,
+      "final_object_xyz_m": [
+        0.22876156704949283,
+        -0.09071450325226041,
+        0.013998761340986909
+      ],
+      "goal_error_xy_m": 0.16819192705741226,
+      "max_object_robot_penetration_m": 0.00022531414679303016,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.014192723728114722,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7109,
+      "wall_s": 5.767516930001875,
+      "source_xyz_m": [
+        0.19517741666315794,
+        -0.0752966660731075,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.015667927550991244,
+      "final_object_xyz_m": [
+        0.2031826249171614,
+        -0.08512533150864662,
+        0.01399876134098688
+      ],
+      "goal_error_xy_m": 0.16015695705187868,
+      "max_object_robot_penetration_m": 0.00030356063136430527,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.014556015735185689,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7110,
+      "wall_s": 5.8758417749995715,
+      "source_xyz_m": [
+        0.20026467856775437,
+        -0.07585842717762502,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": true,
+      "released": false,
+      "longest_two_finger_lift_s": 2.4285,
+      "max_object_z_m": 0.08487175622457338,
+      "final_object_xyz_m": [
+        0.19495210118918307,
+        0.06617965268229968,
+        0.013769076546833885
+      ],
+      "goal_error_xy_m": 0.010162667425883336,
+      "max_object_robot_penetration_m": 0.00020735872615198442,
+      "clip_events": 1,
+      "mean_abs_tracking_error_rad": 0.006947609130282954,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "release_not_verified"
+    },
+    {
+      "seed": 7111,
+      "wall_s": 5.733726498001488,
+      "source_xyz_m": [
+        0.19570982934505857,
+        -0.07196390235025116,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 1.87,
+      "max_object_z_m": 0.08434076491224585,
+      "final_object_xyz_m": [
+        0.2063215055640995,
+        0.08228630079358955,
+        0.013998761340986881
+      ],
+      "goal_error_xy_m": 0.009646326339680024,
+      "max_object_robot_penetration_m": 0.00017296105227260542,
+      "clip_events": 16,
+      "mean_abs_tracking_error_rad": 0.009905517089731579,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    },
+    {
+      "seed": 7112,
+      "wall_s": 5.781115842000872,
+      "source_xyz_m": [
+        0.19752497479840986,
+        -0.0783595669778874,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.020642777381090573,
+      "final_object_xyz_m": [
+        0.21766878283877425,
+        -0.0818477353944579,
+        0.013998761340986909
+      ],
+      "goal_error_xy_m": 0.15783978581261965,
+      "max_object_robot_penetration_m": 0.00018631115336336542,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.013934327587977264,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7113,
+      "wall_s": 5.9251115870029025,
+      "source_xyz_m": [
+        0.19793627532748953,
+        -0.07521797570586782,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 1.1175,
+      "max_object_z_m": 0.08598068134433,
+      "final_object_xyz_m": [
+        0.239031301052672,
+        0.05513753188214205,
+        0.013998761340986841
+      ],
+      "goal_error_xy_m": 0.043794521365089004,
+      "max_object_robot_penetration_m": 0.00028626756841601845,
+      "clip_events": 9,
+      "mean_abs_tracking_error_rad": 0.009571447957249133,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "placement_not_achieved"
+    },
+    {
+      "seed": 7114,
+      "wall_s": 6.0272364579977875,
+      "source_xyz_m": [
+        0.19715134290171024,
+        -0.0785558668727829,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.015499836543449162,
+      "final_object_xyz_m": [
+        0.21581501936234404,
+        -0.07874859867894328,
+        0.01399876134098688
+      ],
+      "goal_error_xy_m": 0.15455984741571815,
+      "max_object_robot_penetration_m": 0.00020884254535399324,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.012944731460226198,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7115,
+      "wall_s": 6.106839899999613,
+      "source_xyz_m": [
+        0.19687708405015636,
+        -0.07544191756845078,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 2.221,
+      "max_object_z_m": 0.0863296741483736,
+      "final_object_xyz_m": [
+        0.2394437095003741,
+        0.05511428401079742,
+        0.013998761340986899
+      ],
+      "goal_error_xy_m": 0.04417293197822767,
+      "max_object_robot_penetration_m": 0.0005438403766222913,
+      "clip_events": 16,
+      "mean_abs_tracking_error_rad": 0.00938280744248483,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "placement_not_achieved"
+    },
+    {
+      "seed": 7116,
+      "wall_s": 5.75406733699856,
+      "source_xyz_m": [
+        0.20073725991272198,
+        -0.0727637880333772,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.4175,
+      "max_object_z_m": 0.08653581774163611,
+      "final_object_xyz_m": [
+        0.23157958455454258,
+        0.06407021299723266,
+        0.013998761340986876
+      ],
+      "goal_error_xy_m": 0.03341751643320259,
+      "max_object_robot_penetration_m": 0.00044528972174523386,
+      "clip_events": 20,
+      "mean_abs_tracking_error_rad": 0.008961863213069009,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    },
+    {
+      "seed": 7117,
+      "wall_s": 5.892114991002018,
+      "source_xyz_m": [
+        0.19932540846829255,
+        -0.07820814352636253,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.01976255904951478,
+      "final_object_xyz_m": [
+        0.20559878577893162,
+        -0.09001315174125321,
+        0.013998761340986892
+      ],
+      "goal_error_xy_m": 0.16510810594813394,
+      "max_object_robot_penetration_m": 0.00019894365335777309,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.017248424781179637,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7118,
+      "wall_s": 5.796004037001694,
+      "source_xyz_m": [
+        0.1995471271044708,
+        -0.07428699520969097,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.016004765061298654,
+      "final_object_xyz_m": [
+        0.21951754577821186,
+        -0.078042994191076,
+        0.013998761340980218
+      ],
+      "goal_error_xy_m": 0.15428250926198447,
+      "max_object_robot_penetration_m": 0.0003862427413237682,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.013997614622886682,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    },
+    {
+      "seed": 7119,
+      "wall_s": 5.701078474001406,
+      "source_xyz_m": [
+        0.200320654792555,
+        -0.07741960786867558,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "task_success": false,
+      "placed": false,
+      "released": true,
+      "longest_two_finger_lift_s": 0.0,
+      "max_object_z_m": 0.01938887375286912,
+      "final_object_xyz_m": [
+        0.21147736182435758,
+        -0.08685555243483824,
+        0.013998761340986857
+      ],
+      "goal_error_xy_m": 0.16226197856686542,
+      "max_object_robot_penetration_m": 0.0003648696655709023,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.01740441948445333,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "two_finger_lift_not_established"
+    }
+  ],
+  "failure_mechanism": "not_identified",
+  "novelty": "not_established",
+  "limits": [
+    "Conservative fixed single task; possible implicit query clock.",
+    "No matched hardware calibration or language comprehension.",
+    "No compensation or TPSC intervention; simulation pauses for inference."
+  ]
+}

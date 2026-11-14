@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/anchor-bc-20261114/final-2000.pt",
+  "checkpoint_sha256": "c73f669e7e8f8d74bb37fdef463d00e20a7a35887bdcd9ddea06415ee9cc2dc7",
+  "step": 2000,
+  "parameters": 285956,
+  "wall_s": 17.578600302000268,
+  "cuda_max_allocated_bytes": 364711424,
+  "sample_indices_sha256": "5ef229199b1c81d5bdcabe0d9439f21a438cdf3cd2cdaa378bd92ee2eb18d91a",
+  "test_used": false
+}

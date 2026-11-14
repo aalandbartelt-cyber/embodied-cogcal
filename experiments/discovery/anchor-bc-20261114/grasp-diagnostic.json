@@ -1,0 +1,504 @@
+{
+  "kind": "posthoc_logged_state_fk_diagnostic_not_causal_failure_proof",
+  "groups_by_final_success": {
+    "False": {
+      "episodes": 5,
+      "with_close_event": 5,
+      "median_xy_error_m": 0.0056473005194721485
+    },
+    "True": {
+      "episodes": 15,
+      "with_close_event": 15,
+      "median_xy_error_m": 0.003376125836673638
+    }
+  },
+  "rows": [
+    {
+      "seed": 8100,
+      "task_success": false,
+      "failure_reason": "placement_not_achieved",
+      "source_xyz_m": [
+        0.1998037996324104,
+        -0.07369183808430621,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.20066458973701484,
+        -0.07176915405544813,
+        0.014844222077690344
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19871372812464236,
+        -0.07403066871518667,
+        0.014178950948706383
+      ],
+      "pinch_object_xy_error_m": 0.0029866887328345525,
+      "pinch_object_z_error_m": 0.0006652711289839609,
+      "pinch_down_direction_error_deg": 90.41209801674793
+    },
+    {
+      "seed": 8101,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19714452316639933,
+        -0.07812660604708739,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 91,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19565719429792153,
+        -0.07732729451543721,
+        0.013841880684811833
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19298163923073441,
+        -0.0793863308792503,
+        0.014388636203623007
+      ],
+      "pinch_object_xy_error_m": 0.003376125836673638,
+      "pinch_object_z_error_m": -0.000546755518811174,
+      "pinch_down_direction_error_deg": 90.21652556398614
+    },
+    {
+      "seed": 8102,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.2049084036386049,
+        -0.0780231519703335,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.2045854066464779,
+        -0.07366835762020536,
+        0.014220529371581941
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.2022654506829892,
+        -0.07752091568041723,
+        0.014303322876492029
+      ],
+      "pinch_object_xy_error_m": 0.004497154575932451,
+      "pinch_object_z_error_m": -8.27935049100871e-05,
+      "pinch_down_direction_error_deg": 90.05345162868687
+    },
+    {
+      "seed": 8103,
+      "task_success": false,
+      "failure_reason": "two_finger_lift_not_established",
+      "source_xyz_m": [
+        0.1976757886000406,
+        -0.07986241775590575,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 98,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.192589408089636,
+        -0.06738616278873584,
+        0.012805106968945795
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19448702290894604,
+        -0.09098708060958452,
+        0.01399597638423834
+      ],
+      "pinch_object_xy_error_m": 0.023677083097140953,
+      "pinch_object_z_error_m": -0.001190869415292544,
+      "pinch_down_direction_error_deg": 89.38026439510288
+    },
+    {
+      "seed": 8104,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19540398689137137,
+        -0.07058653106220475,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19628814150608603,
+        -0.0699282518276831,
+        0.014522700388109905
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19415409042250326,
+        -0.07014332050818674,
+        0.01426532192707406
+      ],
+      "pinch_object_xy_error_m": 0.0021448609662806594,
+      "pinch_object_z_error_m": 0.000257378461035844,
+      "pinch_down_direction_error_deg": 90.38824139972378
+    },
+    {
+      "seed": 8105,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.20351384581472848,
+        -0.0789314534850697,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.2036225712250403,
+        -0.0751579995184001,
+        0.014587139625893183
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.2015464417539656,
+        -0.07852303561662338,
+        0.0144419905766922
+      ],
+      "pinch_object_xy_error_m": 0.003953957703745781,
+      "pinch_object_z_error_m": 0.00014514904920098423,
+      "pinch_down_direction_error_deg": 90.29405948441087
+    },
+    {
+      "seed": 8106,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19913555694749888,
+        -0.07983314326989815,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19936049269029527,
+        -0.07699338007160651,
+        0.01438562039584329
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.1976246575534623,
+        -0.08006149659403014,
+        0.014482436710456912
+      ],
+      "pinch_object_xy_error_m": 0.003525118808981157,
+      "pinch_object_z_error_m": -9.681631461362118e-05,
+      "pinch_down_direction_error_deg": 90.48474741647826
+    },
+    {
+      "seed": 8107,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.2036403758611888,
+        -0.07451991314407021,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.20426324168515841,
+        -0.07175799628915544,
+        0.015731278173177446
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.20230217273640608,
+        -0.07456486803460081,
+        0.014520602754582963
+      ],
+      "pinch_object_xy_error_m": 0.003424079499243579,
+      "pinch_object_z_error_m": 0.0012106754185944833,
+      "pinch_down_direction_error_deg": 90.50379536148071
+    },
+    {
+      "seed": 8108,
+      "task_success": false,
+      "failure_reason": "placement_not_achieved",
+      "source_xyz_m": [
+        0.19551402958212788,
+        -0.07805721968887448,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 91,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19382427270443806,
+        -0.07660845757650556,
+        0.01382064033242797
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.18995784193631116,
+        -0.0804484229613128,
+        0.014004789628198677
+      ],
+      "pinch_object_xy_error_m": 0.005449277111804482,
+      "pinch_object_z_error_m": -0.00018414929577070804,
+      "pinch_down_direction_error_deg": 90.20273431455557
+    },
+    {
+      "seed": 8109,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19786731930862556,
+        -0.0705672071355268,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19895502603101375,
+        -0.07076867432724669,
+        0.014711993674791396
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19707684728200345,
+        -0.07097497722939738,
+        0.014126641516054842
+      ],
+      "pinch_object_xy_error_m": 0.0018894751389393082,
+      "pinch_object_z_error_m": 0.0005853521587365542,
+      "pinch_down_direction_error_deg": 90.41927591708847
+    },
+    {
+      "seed": 8110,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.20442571851466712,
+        -0.07558667289618264,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.20507687302817312,
+        -0.07402508156274715,
+        0.014636443752630929
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.20294279378129396,
+        -0.07490850227813906,
+        0.014530501647101065
+      ],
+      "pinch_object_xy_error_m": 0.002309702663189334,
+      "pinch_object_z_error_m": 0.00010594210552986386,
+      "pinch_down_direction_error_deg": 90.24288926710896
+    },
+    {
+      "seed": 8111,
+      "task_success": false,
+      "failure_reason": "placement_not_achieved",
+      "source_xyz_m": [
+        0.19506529613052365,
+        -0.0794004428071035,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 91,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19369380289601845,
+        -0.0766765039085339,
+        0.013765499185314542
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.18965626200217828,
+        -0.08200048740510461,
+        0.014378343745852375
+      ],
+      "pinch_object_xy_error_m": 0.00668180639806251,
+      "pinch_object_z_error_m": -0.0006128445605378327,
+      "pinch_down_direction_error_deg": 90.17823771498193
+    },
+    {
+      "seed": 8112,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19834144064206516,
+        -0.07865303515191581,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 91,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19749278222271172,
+        -0.07747586944946064,
+        0.01381302757011657
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19449987018944814,
+        -0.07973731377895392,
+        0.014313346862848391
+      ],
+      "pinch_object_xy_error_m": 0.0037512201873858603,
+      "pinch_object_z_error_m": -0.0005003192927318205,
+      "pinch_down_direction_error_deg": 90.2235570567365
+    },
+    {
+      "seed": 8113,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.20135284736725256,
+        -0.07455655586485124,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.20246164430413843,
+        -0.07123499484850962,
+        0.015401027192473368
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.200428507499953,
+        -0.07458855462603425,
+        0.014386070816425539
+      ],
+      "pinch_object_xy_error_m": 0.003921735387040337,
+      "pinch_object_z_error_m": 0.0010149563760478292,
+      "pinch_down_direction_error_deg": 90.51568814371011
+    },
+    {
+      "seed": 8114,
+      "task_success": false,
+      "failure_reason": "placement_not_achieved",
+      "source_xyz_m": [
+        0.1950947742341099,
+        -0.07507606530721952,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.1961229667701119,
+        -0.06981923228804697,
+        0.014538901227562726
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19392361717011933,
+        -0.07502066136996695,
+        0.014179504235902108
+      ],
+      "pinch_object_xy_error_m": 0.0056473005194721485,
+      "pinch_object_z_error_m": 0.0003593969916606179,
+      "pinch_down_direction_error_deg": 90.36970299723805
+    },
+    {
+      "seed": 8115,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19698776562414375,
+        -0.07160037725625495,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19728426525543227,
+        -0.07037959630795981,
+        0.01471131255911061
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19539798672196057,
+        -0.07130202554733743,
+        0.014272836660133998
+      ],
+      "pinch_object_xy_error_m": 0.0020997434146806907,
+      "pinch_object_z_error_m": 0.00043847589897661084,
+      "pinch_down_direction_error_deg": 90.38278175381674
+    },
+    {
+      "seed": 8116,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.2007900232526229,
+        -0.07254325261686874,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.20181218466636552,
+        -0.07126863258309685,
+        0.01519616166671256
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.1998364378866895,
+        -0.07290796631314862,
+        0.014315410797078787
+      ],
+      "pinch_object_xy_error_m": 0.0025672924289775845,
+      "pinch_object_z_error_m": 0.0008807508696337726,
+      "pinch_down_direction_error_deg": 90.46635184336553
+    },
+    {
+      "seed": 8117,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.1975270945485698,
+        -0.07419944806800666,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19859332303612534,
+        -0.07091597662185872,
+        0.014677670903947754
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19660851286309056,
+        -0.0745688295900289,
+        0.014185844310686806
+      ],
+      "pinch_object_xy_error_m": 0.004157259461478448,
+      "pinch_object_z_error_m": 0.0004918265932609481,
+      "pinch_down_direction_error_deg": 90.4116740430392
+    },
+    {
+      "seed": 8118,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.19750702953006619,
+        -0.07551783530304686,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 91,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.19686902618536897,
+        -0.07631854397810907,
+        0.013849838801299322
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.19409488933516156,
+        -0.0774374981139744,
+        0.014077929425578997
+      ],
+      "pinch_object_xy_error_m": 0.002991302997332243,
+      "pinch_object_z_error_m": -0.00022809062427967507,
+      "pinch_down_direction_error_deg": 90.16901912623115
+    },
+    {
+      "seed": 8119,
+      "task_success": true,
+      "failure_reason": null,
+      "source_xyz_m": [
+        0.20366424709285086,
+        -0.07555452300452994,
+        0.014
+      ],
+      "first_command_le_0p2_rad_step": 90,
+      "pinch_xyz_m_at_logged_after_state": [
+        0.20383453559689746,
+        -0.0749177125080723,
+        0.014627869091704146
+      ],
+      "object_xyz_m_at_same_after_state": [
+        0.20177990684866154,
+        -0.07516371465052112,
+        0.01447806972139176
+      ],
+      "pinch_object_xy_error_m": 0.0020693033482713234,
+      "pinch_object_z_error_m": 0.00014979937031238573,
+      "pinch_down_direction_error_deg": 90.30331147546006
+    }
+  ],
+  "definition": "first command gripper<=.2rad; FK and object from same after-control state",
+  "source_sha256": "2a4b30781e14179ca3403aa5bf14880c8a749976f313197fd0fd1ea07bc0794c",
+  "limits": [
+    "Threshold selected for descriptive investigation after observing failures.",
+    "Contact may already have displaced the object; does not identify perception error.",
+    "FK scratch writes are offline only; no rollout is altered."
+  ]
+}

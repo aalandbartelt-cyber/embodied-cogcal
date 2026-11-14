@@ -1,0 +1,147 @@
+{
+  "kind": "fixed_source_inventory_read_only_not_reproduction",
+  "saved_utc": "2026-11-14T15:01:18.503274+00:00",
+  "repositories": [
+    {
+      "repo": "sage",
+      "revision": "5b31cfa35416d1300b5099557049bd8e9cb4507d",
+      "tracked_files": 423,
+      "sources": [
+        {
+          "path": "README.md",
+          "sha256": "4c541f40a0872e2b8d0d20ffbe63e173d9ecbe54db0007f8df20e874451064ff",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/sage__README.md",
+          "bytes": 16778
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/sage__LICENSE",
+          "bytes": 11357
+        },
+        {
+          "path": "docs/LEROBOT_REAL.md",
+          "sha256": "68a5bc1040a6765259f7cdcb9098ed553e9bda60ef583e78f69e584515119125",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/sage__docs__LEROBOT_REAL.md",
+          "bytes": 2259
+        },
+        {
+          "path": "sage/real_so101/so101_lerobot_collector.py",
+          "sha256": "335b3f7bfaba50e32cd87e1778e3da41dce865518845610c99b27b65fd3eb4a1",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/sage__sage__real_so101__so101_lerobot_collector.py",
+          "bytes": 23956
+        },
+        {
+          "path": "sage/analysis.py",
+          "sha256": "6bbd34648abc5a938af99743d7a58204b45c75a7a1193fa7a11c1130a911d2a6",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/sage__sage__analysis.py",
+          "bytes": 44006
+        },
+        {
+          "path": "sage/assets.py",
+          "sha256": "aa9ad0faadacb8485538b03a6dba23008ca6a86457ae7dec52b504fe6f2bb994",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/sage__sage__assets.py",
+          "bytes": 7318
+        }
+      ]
+    },
+    {
+      "repo": "gaponet",
+      "revision": "91eb8819c3156b46fdb3266a048600c67c9adf5d",
+      "tracked_files": 931,
+      "sources": [
+        {
+          "path": "README.md",
+          "sha256": "d53c926c9796f06b973c0e24eb91a9b96e77cd9024ba6e085ed3ffcf155aebae",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/gaponet__README.md",
+          "bytes": 10720
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c675b12253b87f76909882c8838339d03886201edbc8f86974044230b1f67d54",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/gaponet__LICENSE",
+          "bytes": 1564
+        },
+        {
+          "path": "LICENCE",
+          "sha256": "b0cc61522063924d9f562c494f78a7e653e018ca39e1c940fd328bacc0c5dedc",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/gaponet__LICENCE",
+          "bytes": 1078
+        },
+        {
+          "path": "configs/train_default.json",
+          "sha256": "07fb502cfdeaaab1d94be391d5d0053caa470b9552daa8c79f9a69c3f092f891",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/gaponet__configs__train_default.json",
+          "bytes": 299
+        },
+        {
+          "path": "source/sim2real/sim2real/tasks/humanoid_operator/humanoid_operator_env_cfg.py",
+          "sha256": "d34fad2b9039e26c8219cabd7620aed2a12ef01397a148eca321b3fc4875819f",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/gaponet__source__sim2real__sim2real__tasks__humanoid_operator__humanoid_operator_env_cfg.py",
+          "bytes": 6518
+        },
+        {
+          "path": "source/sim2real/sim2real/tasks/humanoid_operator/humanoid_operator_env.py",
+          "sha256": "c7f046d48d85d544905f9a75eac573fef06e420cff4602086ae0f3a27ee6d832",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/gaponet__source__sim2real__sim2real__tasks__humanoid_operator__humanoid_operator_env.py",
+          "bytes": 56104
+        }
+      ]
+    },
+    {
+      "repo": "workshop",
+      "revision": "ce807d99724cb65671abec01f908a2fcb4a6eab7",
+      "tracked_files": 106,
+      "sources": [
+        {
+          "path": "README.md",
+          "sha256": "11ac6dd4fd5e226938c7fab7920c1dcab88d1da23ff257706c9b3f61c0511257",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__README.md",
+          "bytes": 5046
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "44f34066c5f9eb67fafc559c38c885d4677ea59409f4eb69ec23c61997234345",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__LICENSE",
+          "bytes": 11431
+        },
+        {
+          "path": "source/sim_to_real_so101/assets/so101.py",
+          "sha256": "7b80505080db52f0f176976cb104e77f7f9e559f47763fa4bb958604460ac07c",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__source__sim_to_real_so101__assets__so101.py",
+          "bytes": 3832
+        },
+        {
+          "path": "source/sim_to_real_so101/tasks/so101_env_cfg.py",
+          "sha256": "090c44463e52d7ab813421c6b721bdbc29627b06d3c4675b24b79e6e75dc5b3a",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__source__sim_to_real_so101__tasks__so101_env_cfg.py",
+          "bytes": 5003
+        },
+        {
+          "path": "source/sim_to_real_so101/scripts/lerobot_eval.py",
+          "sha256": "f24cbf4c09ccf9ff0d26b98ffdc23c2c43f4fe9f4998adc3c5d6e7adeefcc452",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__source__sim_to_real_so101__scripts__lerobot_eval.py",
+          "bytes": 8378
+        },
+        {
+          "path": "source/sim_to_real_so101/utils/lerobot_interface.py",
+          "sha256": "a1040ca706263cc3c5f7eda9fce380bb2732cc2ac8f3bd9716c7f5837b4583e1",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__source__sim_to_real_so101__utils__lerobot_interface.py",
+          "bytes": 18706
+        },
+        {
+          "path": "docker/real/scripts/so101_eval.py",
+          "sha256": "01c4a95b14853bb7a98a9eb874547c801f46da6d8fcb4d5e8ad6a6464148e27b",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/read-sources/workshop__docker__real__scripts__so101_eval.py",
+          "bytes": 9215
+        }
+      ]
+    }
+  ],
+  "not_done": [
+    "No Isaac stack installed",
+    "No model weights downloaded",
+    "No hardware commands",
+    "No novelty clearance"
+  ]
+}

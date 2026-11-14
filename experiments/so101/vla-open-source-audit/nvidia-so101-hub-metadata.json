@@ -1,0 +1,53 @@
+{
+  "kind": "metadata_only_no_weights_or_rollouts",
+  "saved_utc": "2026-11-14T15:00:08.124768+00:00",
+  "sources": [
+    {
+      "kind": "dataset",
+      "repo": "sreetz-nv/so101_teleop_vials_rack_left",
+      "revision": "69802873f4a26bffb716fca1f4fb1bb0e3d2a07a",
+      "api_sha256": "74463bad0d06e5afaeff6fd8605b391b0c73bb85063ec2c441f2f34633e161ed",
+      "files": 904,
+      "gated": false,
+      "private": false,
+      "safetensors": null,
+      "cache": "data/discovery/nvidia-so101-audit-20261114/dataset-api.json",
+      "metadata": [
+        {
+          "file": "meta/info.json",
+          "sha256": "3fb593e58716c58329638f75924e89c684ca7cba9ac0bf2afcc2dc161ea7f25a",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/dataset-meta_info.json"
+        },
+        {
+          "file": "meta/stats.json",
+          "sha256": "9444b782974cf3b76b99743816b9f7bf8a8550cc7f65df9fcb9a91da72b96046",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/dataset-meta_stats.json"
+        }
+      ]
+    },
+    {
+      "kind": "model",
+      "repo": "aravindhs-NV/grootn16-finetune_sreetz-so101_teleop_vials_rack_left",
+      "revision": "7efab50dfd58cd8f1831035fd86b65410b98c448",
+      "api_sha256": "91305c107d2d9724f01fc0eeacb859ff2dc54230c13e3288fa2a0361f7588668",
+      "files": 51,
+      "gated": false,
+      "private": false,
+      "safetensors": {
+        "parameters": {
+          "F32": 1619968000,
+          "BF16": 1666640832
+        },
+        "total": 3286608832
+      },
+      "cache": "data/discovery/nvidia-so101-audit-20261114/model-api.json",
+      "metadata": [
+        {
+          "file": "config.json",
+          "sha256": "cd265fe9f1c037188a09d317155d3a4c28d1db1a5d8f0bb129934b5e170fdd27",
+          "cache": "data/discovery/nvidia-so101-audit-20261114/model-config.json"
+        }
+      ]
+    }
+  ]
+}

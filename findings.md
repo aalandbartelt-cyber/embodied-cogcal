@@ -144,3 +144,22 @@ Why Does Action Chunking Improve…、Revisiting Open-Loop Execution、Measuring
 因此不能把本次horizon诊断直接当新研究机制。APEX/Tune to Learn/NADA/GAP等同时要求
 “精度改善破坏阶段线索”窄问题必须与传统gain/noise/contact及模态捷径解释区分；当前尚无证据。
 原文/来源缓存与固定GAP源码实现问题详见 `docs/prior-art/history-compensation-mechanism-screen.md`。
+
+## 普通循环BC与初始视觉特征的实际边界
+
+相同初始化/采样/参数量的carry/reset在新20个相同初态上为11/20、4/20；
+carry独成功9、reset独成功2，共同成功2、共同失败7。单训练seed只支持此设定下的观察，
+不证明记忆含正确事实或旧CNN失败由非Markov性唯一导致。
+固定初始RGB特征版本在另20个新初态为15/20，19/20持物抬升，仍未达16/20资格门槛。
+不把15/20近似算通过；按计划停止继续微调此小模型，补偿干预仍未运行。
+
+全24train最近的完整输入没有严格相等；近似输入/不同未来chunk不能冒充不可辨识证明。
+初始固定颜色定位的val误差1.49mm只表明图像含位置信息，不是硬件/学习策略定位精度。
+Copycat已有前动作捷径及目标条件对抗器；CSA已有单因素算子混合偏移和延迟顺序；
+IMEP已有事实/同事实/重复/最小扰动对照与delivery、决策/执行分离，不能把这些机制包装成新方向。
+见 `docs/prior-art/feedback-memory-followup.md` 及两组独立能力记录。
+
+新增直接近邻SAGE/GapONet与官方SO101教程，固定源码和检查点契约见
+`docs/prior-art/nvidia-so101-sage-gaponet-audit.md`。不能再把配对sim-real间隙采集、
+历史执行模型、VLA后接神经补偿及同体展示当核心新意；官方SO101闭环集成本身仍为future work。
+新入口有匹配场景/75sim示范/N1.6权重元数据，可作为下一步成熟基线审查对象，但本轮未加载或验证能力。

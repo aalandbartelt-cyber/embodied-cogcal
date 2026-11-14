@@ -1,0 +1,39 @@
+{
+  "kind": "ordinary_initial_rgb_feature_bc_capability_not_method",
+  "seed": 42,
+  "steps": 2000,
+  "batch_episodes": 8,
+  "lr": 0.001,
+  "execute": 6,
+  "horizon": 30,
+  "camera_query_hz": 5,
+  "control_hz": 30,
+  "queries_per_episode": 48,
+  "test_used": false,
+  "selection": "fixed_final_2000_not_best",
+  "initial_color_features": "fixed mask from prior train/val diagnostic; cached initial RGB only",
+  "initial_feature_stats": "24train only",
+  "normalizer_source_sha256": "f49da6e9c82c55a2478bf580e049365fbde3e3bd8bff2a8fc1bfcbe33a23e237",
+  "source_hashes": {
+    "train.py": "57fc72ec68680d451ec7ebc2e3ecce2b34518e3da2e3d9fc853cc32788ec7d84",
+    "evaluate_anchor.py": "10c041a6e284fc63e612e36d98a1028f92c7e7b7f1880d71f71c89ab5aa9061a",
+    "observability_audit.py": "8178b2143116f6fce57733a2bdb1c84cdae3d560e49b87a0a78d06dfa3a350cb",
+    "memory_policy.py": "9ef211c65b65db458d23ceeeaab678c49400bc6930d6756acc12b33773d5f425",
+    "run_screen.py": "d6531fe7fa1eb8c5c660badf3d720f8f8c76cc8e7190f3c42abd0b77cb2cccc1",
+    "anchor_policy.py": "b488adf49fc50479fffb12cda4ec487cd301bc4a927a8ef650f04b4099d6d5f7",
+    "run_anchor.py": "87e4c76eb659691316a0af976600ade2e35a70abefea7f9451d1cf2c533d0f83",
+    "test_memory.py": "cf155f82b0798262477fbc01c5a32f083e3fea8c25b92bef813f942e1fcd37ea",
+    "evaluate.py": "72960173518c86181aee23640444fc93e71c346af2858fde5e941236c5e251c3",
+    "color_localization_audit.py": "12a6fb938936fe20fc367efba3f82a187cede1c2e13e4d200ed765b0b225bb41",
+    "train_anchor.py": "338295ee91d61a307669cdccd1cb846f0132b10048447cc5170131760dd4a9a4",
+    "grasp_trace_audit.py": "2a4b30781e14179ca3403aa5bf14880c8a749976f313197fd0fd1ea07bc0794c",
+    "test_anchor.py": "de403e50e6c08a19537dddf6d6a5022fa93bac8bb703073977c61b3822b7c076"
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "limitations": [
+    "Fixed colors/cameras/narrow task, possible implicit query clock.",
+    "Changes representation and parameter count; no pure causal memory contrast.",
+    "No novel method, hardware precision or language claim."
+  ]
+}

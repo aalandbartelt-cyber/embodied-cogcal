@@ -150,3 +150,7 @@ env -u PYTHONPATH PYTHONNOUSERSITE=1 \
 它们未使用或替换本pilot manifest，不提供TPSC/shared-prefix或补偿方法结论。
 当前接续见[匹配能力记录](../../discovery/matched-bc-lowrate-20261114/README.md)与
 [机制边界](../../../docs/prior-art/history-compensation-mechanism-screen.md)。
+
+后续独立普通GRU/视觉特征能力对照已完成60条：carry11/20、reset4/20、
+初始视觉特征15/20，均未达事前16/20；按计划停止继续微调该小模型，不进入TPSC/补偿干预。
+本pilot原始文件未改，最新接续见handoff §14。

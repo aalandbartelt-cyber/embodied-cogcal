@@ -1,0 +1,39 @@
+{
+  "kind": "one_explicit_checkpoint_metadata_not_selection_or_load",
+  "repo": "aravindhs-NV/grootn16-finetune_sreetz-so101_teleop_vials_rack_left",
+  "revision": "7efab50dfd58cd8f1831035fd86b65410b98c448",
+  "checkpoint": "checkpoint-10000",
+  "saved_utc": "2026-11-14T15:01:27.627526+00:00",
+  "files": [
+    {
+      "path": "checkpoint-10000/config.json",
+      "cache": "data/discovery/nvidia-so101-audit-20261114/model-checkpoint-10000_config.json",
+      "sha256": "cd265fe9f1c037188a09d317155d3a4c28d1db1a5d8f0bb129934b5e170fdd27",
+      "bytes": 1839
+    },
+    {
+      "path": "checkpoint-10000/processor_config.json",
+      "cache": "data/discovery/nvidia-so101-audit-20261114/model-checkpoint-10000_processor_config.json",
+      "sha256": "4938f5671528480ce8a54f6d292e64d0486a576729db542032a198d86bed4891",
+      "bytes": 11088
+    },
+    {
+      "path": "checkpoint-10000/statistics.json",
+      "cache": "data/discovery/nvidia-so101-audit-20261114/model-checkpoint-10000_statistics.json",
+      "sha256": "f07c00f4d9679b4d28251dfd8b7d7ac68a623e8f5528fe9995a76d641650fdf9",
+      "bytes": 283677
+    },
+    {
+      "path": "checkpoint-10000/embodiment_id.json",
+      "cache": "data/discovery/nvidia-so101-audit-20261114/model-checkpoint-10000_embodiment_id.json",
+      "sha256": "c6d8153e98bf568a9770ce8c439f959272a7ee555b77a5666200641da14fc128",
+      "bytes": 172
+    },
+    {
+      "path": "checkpoint-10000/model.safetensors.index.json",
+      "cache": "data/discovery/nvidia-so101-audit-20261114/model-checkpoint-10000_model.safetensors.index.json",
+      "sha256": "e990f96cb8663eba1fa901b4491fe70e2003d847f49f62a6a6e825a58ea2e0e2",
+      "bytes": 121820
+    }
+  ]
+}

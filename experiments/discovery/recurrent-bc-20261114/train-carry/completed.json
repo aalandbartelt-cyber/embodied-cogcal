@@ -1,0 +1,12 @@
+{
+  "mode": "carry",
+  "step": 2000,
+  "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/recurrent-bc-20261114/carry-2000.pt",
+  "checkpoint_sha256": "a5d006d0b9194e671c8f1e008af3006df7e78aa7a831b7ca19a0bc5adfaa653f",
+  "wall_s": 24.396146786999452,
+  "initial_parameter_sha256": "5f5221d2153b9008d1ff8622ec061f53a5725fe4fbe2fb6a9389272b8a9ce65c",
+  "sample_indices_sha256": "5ef229199b1c81d5bdcabe0d9439f21a438cdf3cd2cdaa378bd92ee2eb18d91a",
+  "parameters": 285188,
+  "cuda_max_allocated_bytes": 365249536,
+  "test_used": false
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "ordinary_bc_new_fixed_capability_test_not_method_effect",
+  "worker": {
+    "ready": true,
+    "mode": "carry",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "horizon": 30,
+    "execute": 6,
+    "inputs": [
+      "RGB",
+      "measured_q_history"
+    ],
+    "clock_or_phase_input": false
+  },
+  "seeds": [
+    7100,
+    7101,
+    7102,
+    7103,
+    7104,
+    7105,
+    7106,
+    7107,
+    7108,
+    7109,
+    7110,
+    7111,
+    7112,
+    7113,
+    7114,
+    7115,
+    7116,
+    7117,
+    7118,
+    7119
+  ],
+  "checkpoint_sha256": "a5d006d0b9194e671c8f1e008af3006df7e78aa7a831b7ca19a0bc5adfaa653f",
+  "control_hz": 30,
+  "query_and_camera_hz": 5,
+  "execute": 6,
+  "horizon": 30,
+  "control_budget": 285,
+  "q_history": 8,
+  "policy_inputs": [
+    "two_RGB",
+    "measured_q_history"
+  ],
+  "episode_reset_signal": "clears hidden; never a neural input feature",
+  "clock_or_phase_or_object_input": false,
+  "sim_pauses_during_inference": true,
+  "source_sha256": {
+    "experiments/discovery/recurrent_bc/train.py": "57fc72ec68680d451ec7ebc2e3ecce2b34518e3da2e3d9fc853cc32788ec7d84",
+    "experiments/discovery/recurrent_bc/memory_policy.py": "9ef211c65b65db458d23ceeeaab678c49400bc6930d6756acc12b33773d5f425",
+    "experiments/discovery/recurrent_bc/run_screen.py": "d6531fe7fa1eb8c5c660badf3d720f8f8c76cc8e7190f3c42abd0b77cb2cccc1",
+    "experiments/discovery/recurrent_bc/test_memory.py": "cf155f82b0798262477fbc01c5a32f083e3fea8c25b92bef813f942e1fcd37ea",
+    "experiments/discovery/recurrent_bc/evaluate.py": "72960173518c86181aee23640444fc93e71c346af2858fde5e941236c5e251c3",
+    "experiments/discovery/matched_bc/carrier.py": "ca135ddf700cc97828afc07232c11b88e133bf37f9794723c5841dd5dca374da",
+    "experiments/discovery/matched_bc/policy.py": "15743a8dd92834f36543708384568bcf26ca995430ca330d29b5d73c612fb6d9"
+  }
+}

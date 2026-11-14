@@ -1,0 +1,12 @@
+{
+  "kind": "official_requirements_read_not_local_runtime_test",
+  "url": "https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html",
+  "cache": "data/discovery/nvidia-so101-audit-20261114/isaacsim-5.1.0-requirements.html",
+  "sha256": "025889f5f854c7a926eadc1e90cb5116435686faea9e135ca0d46ae250542e64",
+  "read_scope": "System requirements table and GPU RT-core footnote",
+  "earlier_5p0_url_attempt": {
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/requirements.html",
+    "status": 404
+  },
+  "scope_limit": "5.1.0 requirements, not a successful run of the SAGE pinned5.0 stack"
+}

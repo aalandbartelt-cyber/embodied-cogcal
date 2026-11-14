@@ -342,3 +342,54 @@ research: resolve SmolVLA/SO-101 unit provenance and range blocker
 或从一个不会做任务的策略解释补偿伤害。若采用新基线/协议，原结果保留，另设记录和测试边界。
 窄问题“精度改善是否破坏学到的阶段线索”仍未证实、未通过查新；通用gain/noise/历史解释若成立则降级。
 尚未确定方向，完整目标保持active。
+
+## 14. 进一步能力对照已完成：停止继续微调该小模型
+
+本轮实际进展是60条完整learned rollout与新的原文约束，不是方向已确定。
+旧章节的“下一步定位小BC”已经执行，接续不能再次启动相同基线。
+
+- 同一GRU结构/初始化/参数量/采样序列、固定2000更新：carry11/20，reset4/20，
+  新测试7100–7119。均未达16/20能力门槛。carry独成功9、reset独成功2，共同成功2、共同失败7；单训练seed不作总体优势主张。
+- 全24train近似观测诊断发现短历史接近/未来动作不同，但没有完整输入严格相等，不能称不可辨识定理。
+  首两条严格RGB筛选0命中及后续连续距离分析的事后性质有记录。
+- carry8条抬升失败均在闭爪前已有物体>2mm XY位移。离线FK/颜色定位仅诊断，
+  未把感知不足定为唯一根因。初始图像固定颜色定位val8条平均1.49mm不是硬件精度结果。
+- 独立初始RGB颜色特征＋普通GRU、固定2000更新、新8100–8119：15/20完整成功、19/20抬升；
+  4放置失败、1未抬升。仍未过门槛，不延长episode、不放宽条件、不挑checkpoint。
+  按执行前计划停止继续微调此小模型架构。不是统计证明不可行，也不能把15/20近似算通过。
+- 原SmolVLA0/20、普通CNN0/20、val16条及本轮60条均保留，不互相覆盖；补偿/TPSC干预仍为0。
+- 权重SHA与完整记录：`experiments/discovery/recurrent-bc-20261114/README.md`、
+  `experiments/discovery/anchor-bc-20261114/README.md`。
+- systemd `cogcal-recurrent-bc-20261114.service` 与 `cogcal-anchor-bc-20261114.service`
+  均inactive、MainPID0、ExecMainStatus0；不要从日志或计划误判仍在训练/需重启。
+- `experiments/discovery/recurrent_bc/audit_evidence.py`核查60episode/17100命令/2880chunk、
+  q历史连续、限幅、hidden reset/携带、初始缓存、最终权重和绑定源码。当前证据为 `evidence-audit-v2.json`。
+- 新核到Copycat/因果混淆、CSA组合偏移、IMEP记忆干预评测，读取范围/限制在
+  `docs/prior-art/feedback-memory-followup.md`。不把普通history/残差/组合补偿/记忆干预再当创新。
+
+当前决定：暂停该小模型的架构/超参数试错，优先收窄值得验证的具体科学问题；
+如未来需要新carrier，先审查成熟策略/匹配数据并写新资源边界，而非盲目增加训练步数。
+“提高执行精度破坏阶段线索”仍是未证伪的问题，既未实测也未通过查新，不应写成主推荐。
+完整目标不变，尚未达到完成条件；不把工程产物、普通BC成功或已否决方向数当科研成果。
+
+### 新发现的优先查新/载体入口（本轮末）
+
+NVIDIA官方SO101教程及SAGE/GapONet/Workshop已核到固定源码，见
+`docs/prior-art/nvidia-so101-sage-gaponet-audit.md`。
+这进一步排除“同动作测间隙＋神经补偿＋VLA后接补偿＋同体sim-real”的宽题新意，
+同时提供匹配vial/rack场景、75条sim数据和N1.6检查点入口，值得先读而非继续自己调小BC。
+SAGE revision `5b31cfa35416d1300b5099557049bd8e9cb4507d`；
+GapONet `91eb8819c3156b46fdb3266a048600c67c9adf5d`；
+Workshop `ce807d99724cb65671abec01f908a2fcb4a6eab7`。
+只读缓存在被忽略的 `data/discovery/nvidia-so101-audit-20261114/`；三个git clone是no-checkout，
+用git show固定revision读取19份指定源码，没有安装/执行它们。
+
+注意：官方SO101 GapONet＋GR00T集成仍列future work，不能写成现成可运行策略。
+SAGE的五轴rad＋gripper0–1与Workshop五轴原始−100…100＋gripper0…100不是同一契约。
+N1.6检查点10000元数据含RELATIVE arm/ABSOLUTE gripper、processor16与config50的horizon边界，
+需要完整解码核验。没有下载权重或迁移环境；每checkpoint权重文件约9.81GB，不能保证12GB装下。
+官方数据行18250帧与页面18326行、co-train的5/50real条数不一致均保留未决。
+下一步优先审查SAGE真实轨迹/单位/时钟与当前窄问题的实质差异；不把metadata核验当性能复现或查新通过。
+资源边界另核到Isaac Sim5.1官方要求不支持无RT Cores的A100/H100、列16GB最低显存；
+本机5070Ti Laptop12GB未验证该栈。SAGE绑定5.0.0的requirements地址404已记录，
+不声称运行过或将5.1要求冒充5.0测试。仍保留MuJoCo，不自动转Isaac/A100渲染。

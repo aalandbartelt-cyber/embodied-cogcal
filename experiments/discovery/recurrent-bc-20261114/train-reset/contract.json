@@ -1,0 +1,34 @@
+{
+  "kind": "ordinary_memory_bc_capability_not_new_method",
+  "mode": "reset",
+  "seed": 42,
+  "steps": 2000,
+  "batch_episodes": 8,
+  "queries_per_episode": 48,
+  "prediction_horizon": 30,
+  "execute": 6,
+  "lr": 0.001,
+  "sampling": "full episode at query steps 0,6,...,282; replacement episode sampling",
+  "sampling_generator": "dedicated CUDA Generator seed42, separate from model RNG",
+  "checkpoint_selection": "fixed_final_2000_not_best",
+  "initial_parameter_sha256": "5f5221d2153b9008d1ff8622ec061f53a5725fe4fbe2fb6a9389272b8a9ce65c",
+  "normalizer_source_sha256": "f49da6e9c82c55a2478bf580e049365fbde3e3bd8bff2a8fc1bfcbe33a23e237",
+  "normalizer_train_only": true,
+  "source_hashes": {
+    "train.py": "57fc72ec68680d451ec7ebc2e3ecce2b34518e3da2e3d9fc853cc32788ec7d84",
+    "memory_policy.py": "9ef211c65b65db458d23ceeeaab678c49400bc6930d6756acc12b33773d5f425",
+    "run_screen.py": "d6531fe7fa1eb8c5c660badf3d720f8f8c76cc8e7190f3c42abd0b77cb2cccc1",
+    "test_memory.py": "cf155f82b0798262477fbc01c5a32f083e3fea8c25b92bef813f942e1fcd37ea",
+    "evaluate.py": "72960173518c86181aee23640444fc93e71c346af2858fde5e941236c5e251c3"
+  },
+  "data_contract_sha256": "08fb5719fb33343a6a1d84c8e42cbba50211566a3678334abbdda6680aa8e3ba",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "teacher_forced_training": true,
+  "test_used": false,
+  "limitations": [
+    "Implicit query counting is possible.",
+    "Different architecture/query sampling from previous failed CNN baseline.",
+    "No language, compensation, TPSC or novelty claim."
+  ]
+}
