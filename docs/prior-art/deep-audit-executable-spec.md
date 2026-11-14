@@ -6,9 +6,9 @@
 ## 结论
 
 **候选 D 目前是最值得继续一轮验证的方向，但尚未通过查新。** 它有一条清晰的技术边界：
-从已有的静态 action-metadata mismatch certificate，推进到包含 action chunk、控制频率/保持、时延、限幅和关节跟踪的**动态 executable-equivalence certificate**，并用证书决定受限补偿或拒绝部署。
+从已有的静态 action-metadata mismatch certificate，推进到包含 action chunk、控制频率/保持、时延、限幅和关节跟踪的**组合式动态 executable-equivalence certificate**，并用证书决定受限补偿或拒绝部署。
 
-这不是把 `Same Weights`、FAN、TeAR、PolicyIK 拼接成流程。若最终实现只是四者并列，或传统系统辨识已经给出同样证书与风险预测，候选 D 应淘汰。当前报告只证明存在一个原论文明确留下的边界和可否证问题，不证明边界无人解决。
+这不是把 `Same Weights`、FAN、TeAR、PolicyIK、RTC/RACE/PACT 拼接成流程。若最终实现只是这些组件并列，或传统系统辨识/鲁棒控制已经给出同样的组合证书与风险预测，候选 D 应淘汰。当前报告只证明存在一个原论文明确留下的边界和可否证问题，不证明边界无人解决。
 
 ## 1. 直接最近工作：Same Weights 的精确范围
 
@@ -43,6 +43,7 @@
 | [FAN](https://arxiv.org/html/2609.21358v1) | 任务流中的 action normalization consistency/coverage/causality，固定统计量减少坐标漂移 | 它不是仿真—真机 command-to-achieved 动态映射，也不给接触/时延/限幅证书 |
 | [TeAR](https://arxiv.org/html/2609.36182v1) | 冻结策略+telemetry 条件动作整流；SO-ARM101物理评估 | 它是 test-time rectifier，主要用 OSC/温度电流电压；不提供 rollout 前 executable equivalence certificate |
 | [PolicyIK](https://arxiv.org/html/2611.05372v1)；[代码](https://github.com/Tinaliu0123/PolicyIK) | q/pose feedback、误差相关增益、高精度 IK/holding，仿真和真实机械臂 | 上游 VLA action metadata、chunk timing、控制器约定和 sim-real policy identity 不在其问题内 |
+| [RTC](https://arxiv.org/abs/2506.07339)、[RACE](https://arxiv.org/abs/2610.05719)、[PACT-VLA](https://arxiv.org/abs/2610.28019) | 处理异步推理、长chunk transition timing、pre-commit observation 的候选选择 | 它们改变运行时 chunk 执行/选择；不等于组合静态+动态物理语义证书，候选 D必须把它们作为强基线 |
 | [SO-101 Bench](https://arxiv.org/html/2610.36420v1)；[代码](https://github.com/5hadytru/so101_bench) | 数字孪生、真实策略排序保持、仿真成功率偏乐观 | 相关性/排名不是逐 action 执行等价；无证书指导拒绝/补偿 |
 | [TeAR 的执行退化模型] | state/history-dependent friction/backlash/compliance/gravity-like execution error | 候选 D不能重新提出“执行误差存在”或“残差可补偿”；必须提供可预部署的接口风险证书 |
 | 经典系统辨识、DOB、feed-forward、工业机器人标定 | 动力学/伺服误差估计、跟踪补偿和稳定性边界 | 这是最大红队；如果只需低阶 sysid + 误差阈值，D不构成VLA研究创新。 |
@@ -64,7 +65,22 @@ q^r_{t:t+H}=G_r(u_{t:t+H},x_t).
 
 > 在未见任务布局上，动态接口证书是否能在执行前预测“同 checkpoint 在 sim 与 real 的物理动作语义会越过任务/接触 margin”，并优于静态 metadata 检查、固定短 chunk 和普通 residual；当证书超界时，受限补偿或拒绝部署是否降低风险且不损害可执行任务覆盖？
 
-新意若成立，应来自**可检验的等价性对象和证书—任务 margin 映射**，而不是“先校准再验证”的流程。
+新意若成立，应来自**可检验的组合等价性对象和证书—任务 margin 映射**，而不是“先校准再验证”的流程。
+
+一个可被经典方法直接击穿、但能明确检验的组合式候选是
+
+\[
+\Gamma_W(Z)=\sup_{u\in Z}\left\|W\left[C_rU_r(u)-C_sU_s(u)\right]\right\|,
+\]
+
+其中 (U) 是归一化/零点/单位映射，(C) 是 chunk 保持、时延、限幅和伺服响应的有限窗口算子，(W) 是关节或末端任务权重。用短校准轨迹得到 \(\hat\Gamma\) 和不确定半径 \(b_\delta\)，再与任务/接触 margin (m(x)) 比较：
+
+```text
+certificate_safe if Γhat + bδ < m(x)
+otherwise reject or use a bounded correction
+```
+
+这不是已成立定理。它只有在能定义可测的 (m(x))、独立的校准/测试轨迹和覆盖保证时才有科学意义；否则只是把系统辨识误差换成符号。经典鲁棒控制/诱导范数界、DOB 和在线 system identification 是必须先击穿它的强对照。
 
 ## 4. 最小反例和强基线
 
@@ -111,7 +127,7 @@ q^r_{t:t+H}=G_r(u_{t:t+H},x_t).
 
 ## 7. 深审结论
 
-候选 D 的最强依据是最近论文自己公开的边界：static normalization certificate 不能覆盖 dynamic controller/chunk/contact/hardware。最强反对意见是：工业系统辨识、DOB、TeAR、PolicyIK 和已有 deployment manifests 可能已足够解决。下一阶段必须先做经典 baseline 和无模型反例，再决定是否值得写设计文档；在此之前不命名算法、不采购传感器、不宣称新颖性。
+候选 D 的最强依据是最近论文自己公开的边界：static normalization certificate 不能覆盖 dynamic controller/chunk/contact/hardware。最强反对意见是：工业系统辨识、DOB、TeAR、PolicyIK、RTC/RACE/PACT 和已有 deployment manifests 可能已足够解决。下一阶段必须先做经典 baseline 和无模型反例，再决定是否值得写设计文档；在此之前不命名算法、不采购传感器、不宣称新颖性。
 
 ## 8. 本仓库的无模型可行性预检
 

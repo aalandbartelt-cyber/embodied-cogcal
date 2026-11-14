@@ -289,6 +289,49 @@
       "date": "2026/10/19",
       "url": "https://arxiv.org/abs/2610.26663v1",
       "response_sha256": "a8e7bc243672454eba0ff311e2e04a06b076160bc75abcfde2d8d0a9aa60dcc3"
+    },
+    {
+      "version": "2506.07339v2",
+      "title": "Real-Time Execution of Action Chunking Flow Policies",
+      "authors": [
+        "Black, Kevin",
+        "Galliker, Manuel Y.",
+        "Levine, Sergey"
+      ],
+      "date": "2025/06/09",
+      "url": "https://arxiv.org/abs/2506.07339v2",
+      "response_sha256": "134c4e2cc40431577f8454939cc201ef527a9cf127f7e7fffba79c362724f7cd"
+    },
+    {
+      "version": "2610.05719v1",
+      "title": "When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models",
+      "authors": [
+        "Yu, Seonghoon",
+        "Kim, Dongwon",
+        "Jung, HyungRok",
+        "Baek, Yoonjae",
+        "Lee, Byung-kwan",
+        "Kwak, Suha",
+        "Son, Jeany"
+      ],
+      "date": "2026/10/05",
+      "url": "https://arxiv.org/abs/2610.05719v1",
+      "response_sha256": "4ebfaea880d59f23117fae9860a198fae8438f84e6db63ed85fa6554f946e560"
+    },
+    {
+      "version": "2610.28019v1",
+      "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
+      "authors": [
+        "Zhu, Yixiang",
+        "Wu, Ruilong",
+        "Chen, Yonghao",
+        "Zou, Jiaxiang",
+        "Hu, Yusong",
+        "Chen, Xinyu"
+      ],
+      "date": "2026/10/20",
+      "url": "https://arxiv.org/abs/2610.28019v1",
+      "response_sha256": "7322bbaa04e532b61308106acda41e49236d1228ce65bcfc2f0b501c94094aaf"
     }
   ],
   "github_sources": [

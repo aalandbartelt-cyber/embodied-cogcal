@@ -141,13 +141,13 @@ both             -> stop or human/teacher referral
 
 候选 D 是目前最值得继续投入 1 个查新—否证周期的方向，**不是“查新通过”**。它比原 ECCBF 更贴近工业精度补偿与 SO-101 的真实部署障碍，中心证据是动态可执行等价证书和同体验证；但只要核心增量退化为 Same Weights+FAN+TeAR+PolicyIK 的模块拼接，就必须换题。
 
-## 候选 D：动态可执行策略规范与同体等价证书（待深审）
+## 候选 D：组合式动态可执行策略规范与同体等价证书（待深审）
 
 ### 中心问题
 
 同一个 checkpoint、提示和场景，在仿真与真实 SO-101 上可能因反归一化、关节零点/单位、控制频率、action chunk 保留、延迟、限幅和机械跟踪而产生不同物理策略。研究目标是估计这种动态执行映射差异，给出 rollout 前可检查的偏差/风险证书，并在证书超界时执行受限补偿或拒绝部署。
 
-它不是重新做坐标标定：论文的核心对象是**可执行策略的等价性**，主终点是证书对真实任务风险的预测覆盖和拒绝/补偿决策，而非单次成功率。
+它不是重新做坐标标定：论文的核心对象是**可执行策略的等价性**，主终点是组合证书对真实任务风险的预测覆盖和拒绝/补偿决策，而非单次成功率。
 
 ### 近邻边界
 
@@ -156,6 +156,7 @@ both             -> stop or human/teacher referral
 - [TeAR](https://arxiv.org/html/2609.36182v1) 做 telemetry-conditioned rectification，并有 SO-ARM101实验；它是整流方法，不是 rollout 前等价证书，且主信号含 telemetry/OSC 设置。
 - [PolicyIK](https://arxiv.org/html/2611.05372v1) 做高精度 IK/反馈补偿；它解决末端到关节控制，不审计上游 VLA 的 action metadata、chunk timing 与 sim-real executable semantics。
 - [SO-101 Bench](https://arxiv.org/html/2610.36420v1) 证明仿真可保持策略排名但高估成功率；没有 certificate 或补偿机制。
+- [RTC](https://arxiv.org/abs/2506.07339)、[RACE](https://arxiv.org/abs/2610.05719)、[PACT-VLA](https://arxiv.org/abs/2610.28019) 已覆盖异步推理、长chunk切换、延迟下预提交候选选择；它们必须作为强运行时对照，候选D不能重复调度算法。
 
 ### 最小可证伪实验
 
@@ -170,7 +171,7 @@ certificate = bound(e_exec, delay, gain, clip, measurement noise)
 
 对照必须包括：原始冻结策略、静态 metadata/零点检查、固定短 chunk、经典线性系统辨识或 DOB、受限补偿和拒绝部署。TeAR/PolicyIK只在信息和接口匹配时作为附加对照；oracle 映射只作上界。
 
-候选 D 在以下任一情况立即淘汰：静态 ExecSpec 已预测全部风险；固定短 chunk/零点校准/经典 DOB 同样有效；证书在未见布局失效；真机差异主要来自策略不会做而非执行接口；或动态证书只是把已有系统辨识输出换一个名字。
+候选 D 在以下任一情况立即淘汰：静态 ExecSpec 已预测全部风险；固定短 chunk/零点校准/经典 DOB/RTC/RACE/PACT 同样有效；证书在未见布局失效；真机差异主要来自策略不会做而非执行接口；或动态证书只是把已有系统辨识输出换一个名字。
 
 ### 可行性
 
