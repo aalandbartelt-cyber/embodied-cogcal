@@ -36,3 +36,16 @@
 
 原始引用键用于 `docs/paper` 中的 `[@key]`；这是写作准备语法，不是已经排版的最终编号。
 SIMPLER 也按已核对的 PMLR 2025 正式版引用，其预印本年为 2024。
+
+## 后续独立补充
+
+- `supplement-deep-audit.bib` / `.ris` / `supplement-deep-audit-metadata.json`：31条固定版本记录，
+  对应30篇新增论文（Ao 的v1/v2题名与方法变化，刻意分开保留）。与主库不重复；
+  完整作者、原始 citation meta、来源哈希、Scholar 入口保留。
+  [深审阅读入口](../docs/literature/DEEP_AUDIT_READING_GUIDE.md)区分正文阅读与仅元数据核验。
+  其中 Continual VLA 的 ICML2026/PMLR 正式版已核实；其他正式发表状态未逐项检查。
+  Ao v1 的 abs 元数据漏词，导出题名从原始全文核实并保存覆盖依据，不猜填。
+  实际读回与来源对应检查见 [supplement-validation.json](supplement-validation.json)；不是Zotero GUI导入或论文复现。
+
+- `supplement-supermimic.bib` / `supplement-supermimic-metadata.json`：用户追加的原始 SuperMimic 论文和 UniSuperMimic 独立复现，
+  不并入上述冻结 50 条。[适用性评估](../docs/literature/UNISUPERMIMIC_ASSESSMENT.md) 明确静态核验与运行边界。

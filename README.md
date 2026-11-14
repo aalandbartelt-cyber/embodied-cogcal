@@ -5,10 +5,10 @@
 本工作区独立于 EC63 机械臂定位误差项目（`~/research/arm-error-comp`），使用独立的
 conda 环境 `cogcal`，不共享 `armec` 环境，也不改动任何原始资料。
 
-**2026-11-14 研究更新：**旧 ECCBF 组合性主张有直接近邻，当前暂停扩大旧方案正式矩阵；
-依用户要求，查新不通过就换核心方案。先读 [查新与路线决策](docs/prior-art/ROUTE_DECISION.md)、
+**2026-11-14 深审裁决：**停止当前 ECCBF 核心创新主张；迁移可信性、主动辨因两个宽泛备选也未通过。
+先读 [查新与路线决策](docs/prior-art/ROUTE_DECISION.md)、[限时探索方案](docs/prior-art/EXPLORATION_PROTOCOL.md)、
 [研究资料入口](docs/literature/README.md) 和 [汇报准备稿](docs/report/PROGRESS_REPORT.md)。
-已整理 47 篇真实研究/方法文献与 3 项工程来源，提供 [BibTeX / RIS / CSV](references/README.md)。
+主库为47篇论文/方法文献与3项工程来源；另有深审和 SuperMimic 独立补充库，提供 [可导入引用](references/README.md)。
 
 ## 1. 这个工作区是什么
 
@@ -115,7 +115,7 @@ W1 的完整八步、验收清单和常见坑见主记录第七部分（W1 环�
 - [ ] 正式仿真矩阵与 SO-101 真机外部效度验证
 
 公开路线图见 [docs/ROADMAP.md](docs/ROADMAP.md)。B 路线保留同一 SO-101 的仿真—真机验证目标，
-**ECCBF 仅为待筛选候选工作名**；核心机制与贡献须通过最新查新和实证增量门槛。
+**ECCBF 已停止作为当前论文核心方法**；保留历史实现和共用平台，新问题尚未冻结为创新。
 LIBERO/OpenVLA 作为次级可比基准，不替代同体主线。两个现有 task_id 还不代表两个不同任务，
 见 [实际协议覆盖审计](experiments/so101/PROTOCOL_AUDIT.md)。
 

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "scope": "structural audit only; synthetic algebra witness and public text; no VLA, physics, success rates or hardware",
+  "source_sha256": {
+    "src/cogcal/calibration.py": "80a46fc5bb10dcde29a891885447413230b378e8efb57c93e557bdd6805668f6",
+    "src/cogcal/metrics.py": "d9144ae20b81dbf426eb3af56faf2ce96d4c08bf405e2ae6d2c3b0d46e864a2f",
+    "probes/generators/eccbf_factorial.py": "4fa037ab868b1130f5651dfe95ed85c8ddac950b39871c3d43a37f75007b0f52"
+  },
+  "algebra": {
+    "synthetic_seed": 20261114,
+    "action_dimensions": 6,
+    "samples_per_cell": 11,
+    "corner_checks": 4,
+    "corner_identity_max_abs_error": 1.1102230246251565e-16,
+    "continuous_score_checks": 1000,
+    "bilinear_identity_max_abs_error": 4.440892098500626e-16,
+    "meaning": "current correction is a gated bilinear conditional residual; at binary corners it is the cell mean minus baseline mean"
+  },
+  "prompts": {
+    "generator_seed": 42,
+    "scene_ids": 100,
+    "records": 400,
+    "canonicalized_equal_to_matched_neutral": 400,
+    "transform": "keep the substring beginning at the explicit Current task: marker",
+    "transform_inputs": [
+      "instruction string only"
+    ],
+    "limitation": "exact for this generator; not evidence for arbitrary language, physical recovery or VLA task competence"
+  }
+}

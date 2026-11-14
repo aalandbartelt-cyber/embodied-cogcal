@@ -62,3 +62,21 @@ Scholar 列表。采用普通检索定位原始来源，并到 arXiv、正式会
   无结果的窄关键词查询不作为“该方向没人做”的依据。
 - 追加后三份 arXiv 元数据快照共有 41 篇；加 6 篇独立 Crossref 经典/方法论文，主库为 47 篇文献 + 3 项工程来源。
 - 本轮没有完成全领域 citation snowballing，没有正式查新报告；候选 B/C 都保持未通过状态。
+
+## 用户要求进一步深入后的第二轮
+
+- 三个独立域分别审计ECCBF、增益迁移估计、主动辨因；后追加接触自适配，四份报告给出原文节/式与读取边界。
+- 根代理复核IMPACT-VLA闭环干预、Fly-by-Code物理Probe、Ao v2改题和Self-comp §3/B.6；
+  继续检索 `robot vision language action continual test time adaptation contact pseudo label drift negative transfer task switching`、
+  `robot manipulation online adaptation contact catastrophic forgetting`、`robot execution residual pseudo adaptation contact`、
+  `pseudo-control hedging contact robot adaptation`、`VLA adaptation training signal hedging`。
+- 新增SALT、FAN、Continual VLA、ViTaR、Instruction–Action Binding等原始工作；前四者不支持把漂移/接触门控直接当新机制。
+  控制理论引用链追到经典决策论排障、主动故障诊断、training-signal hedging、anti-windup和deadzone。
+- 各审计继续实际尝试Scholar，仍未取得结果页；不能声称完成Scholar前向/后向引文网络或穷尽查新。
+- 本轮补充31条arXiv固定版本记录、30篇新增论文（Ao v1/v2同篇分开），原始citation元数据全部成功获取。
+  元数据核验与正文阅读不同，逐篇阅读范围见深审报告。
+- 元数据异常：Ao v1 abs题名漏Audits，但原始全文题名完整；保存覆盖来源与hash。
+  Continual VLA的PMLR正式出版页核实ICML2026、作者/页码；作者逗号格式归一比对后匹配。
+- UniSuperMimic原始论文与独立下游repo单列补充；固定代码静态确认MuJoCo backend，未安装/训练。
+- 当前科研裁决：停止旧ECCBF核心及两个宽泛备选；接触替代也没有通过的新方法。
+  限时观测草案只检验是否值得继续研究，不以“没有找到完全同样标题”宣称创新。

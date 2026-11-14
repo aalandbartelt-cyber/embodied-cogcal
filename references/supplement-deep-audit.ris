@@ -1,0 +1,420 @@
+TY  - GEN
+ID  - deep1703_01250v1
+TI  - Virtual vs. Real: Trading Off Simulations and Physical Experiments in Reinforcement Learning with Bayesian Optimization
+AU  - Marco, Alonso
+AU  - Berkenkamp, Felix
+AU  - Hennig, Philipp
+AU  - Schoellig, Angela P.
+AU  - Krause, Andreas
+AU  - Schaal, Stefan
+AU  - Trimpe, Sebastian
+PY  - 2017
+UR  - https://arxiv.org/abs/1703.01250v1
+N1  - arXiv 1703.01250v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2111_00765v3
+TI  - Validate on Sim, Detect on Real -- Model Selection for Domain Randomization
+AU  - Leibovich, Gal
+AU  - Jacob, Guy
+AU  - Endrawis, Shadi
+AU  - Novik, Gal
+AU  - Tamar, Aviv
+PY  - 2021
+UR  - https://arxiv.org/abs/2111.00765v3
+N1  - arXiv 2111.00765v3; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2303_17476v1
+TI  - Differentiable Environment Primitives for Contact State Estimation
+AU  - Haninger, Kevin
+AU  - Samuel, Kangwagye
+AU  - Rozzi, Filippo
+AU  - Oh, Sehoon
+AU  - Roveda, Loris
+PY  - 2023
+UR  - https://arxiv.org/abs/2303.17476v1
+N1  - arXiv 2303.17476v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2309_16598v2
+TI  - Cross-Prediction-Powered Inference
+AU  - Zrnic, Tijana
+AU  - Candès, Emmanuel J.
+PY  - 2023
+UR  - https://arxiv.org/abs/2309.16598v2
+N1  - arXiv 2309.16598v2; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2311_01453v2
+TI  - PPI++: Efficient Prediction-Powered Inference
+AU  - Angelopoulos, Anastasios N.
+AU  - Duchi, John C.
+AU  - Zrnic, Tijana
+PY  - 2023
+UR  - https://arxiv.org/abs/2311.01453v2
+N1  - arXiv 2311.01453v2; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2401_05782v1
+TI  - Online input design for discrimination of linear models using concave minimization
+AU  - Noom, Jacques
+AU  - Soloviev, Oleg
+AU  - Smith, Carlas
+AU  - Verhaegen, Michel
+PY  - 2024
+UR  - https://arxiv.org/abs/2401.05782v1
+N1  - arXiv 2401.05782v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2403_03208v3
+TI  - Active Statistical Inference
+AU  - Zrnic, Tijana
+AU  - Candès, Emmanuel J.
+PY  - 2024
+UR  - https://arxiv.org/abs/2403.03208v3
+N1  - arXiv 2403.03208v3; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2410_00371v1
+TI  - AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation
+AU  - Duan, Jiafei
+AU  - Pumacay, Wilbert
+AU  - Kumar, Nishanth
+AU  - Wang, Yi Ru
+AU  - Tian, Shulin
+AU  - Yuan, Wentao
+AU  - Krishna, Ranjay
+AU  - Fox, Dieter
+AU  - Mandlekar, Ajay
+AU  - Guo, Yijie
+PY  - 2024
+UR  - https://arxiv.org/abs/2410.00371v1
+N1  - arXiv 2410.00371v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2502_09829v1
+TI  - Efficient Evaluation of Multi-Task Robot Policies With Active Experiment Selection
+AU  - Anwar, Abrar
+AU  - Gupta, Rohan
+AU  - Merchant, Zain
+AU  - Ghosh, Sayan
+AU  - Neiswanger, Willie
+AU  - Thomason, Jesse
+PY  - 2025
+UR  - https://arxiv.org/abs/2502.09829v1
+N1  - arXiv 2502.09829v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2505_12224v5
+TI  - RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction
+AU  - Ye, Zewei
+AU  - Lu, Weifeng
+AU  - Ye, Minghao
+AU  - Lin, Tao
+AU  - Yang, Shuo
+AU  - Yan, Junchi
+AU  - Zhao, Bo
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.12224v5
+N1  - arXiv 2505.12224v5; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2507_20068v3
+TI  - PERRY: Policy Evaluation with Confidence Intervals using Auxiliary Data
+AU  - Mandyam, Aishwarya
+AU  - Meng, Jason
+AU  - Gao, Ge
+AU  - Sun, Jiankai
+AU  - Schwager, Mac
+AU  - Engelhardt, Barbara E.
+AU  - Brunskill, Emma
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.20068v3
+N1  - arXiv 2507.20068v3; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2512_02787v3
+TI  - Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols
+AU  - Zeng, Xianchao
+AU  - Zhou, Xinyu
+AU  - Li, Youcheng
+AU  - Shi, Jiayou
+AU  - Li, Tianle
+AU  - Chen, Liangming
+AU  - Ren, Lei
+AU  - Li, Yong-Lu
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.02787v3
+N1  - arXiv 2512.02787v3; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2601_21471v1
+TI  - Best Arm Identification with LLM Judges and Limited Human Audits
+AU  - Ao, Ruicheng
+AU  - Chen, Hongyu
+AU  - Gao, Siyang
+AU  - Li, Hanwei
+AU  - Simchi-Levi, David
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.21471v1
+N1  - arXiv 2601.21471v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2601_21471v2
+TI  - Designing Service Systems from Textual Evidence
+AU  - Ao, Ruicheng
+AU  - Chen, Hongyu
+AU  - Gao, Siyang
+AU  - Li, Hanwei
+AU  - Simchi-Levi, David
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.21471v2
+N1  - arXiv 2601.21471v2; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2602_12405v2
+TI  - Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning
+AU  - Qi, Carl
+AU  - Wang, Xiaojie
+AU  - Yong, Silong
+AU  - Sheng, Stephen
+AU  - Mao, Huitan
+AU  - Srinivasan, Sriram
+AU  - Nambi, Manikantan
+AU  - Zhang, Amy
+AU  - Dattatreya, Yesh
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.12405v2
+N1  - arXiv 2602.12405v2; fixed version; formal status see source metadata
+ER  - 
+
+TY  - CONF
+ID  - deep2603_03818v2
+TI  - Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning
+AU  - Liu, Huihan
+AU  - Kim, Changyeon
+AU  - Liu, Bo
+AU  - Liu, Minghuan
+AU  - Zhu, Yuke
+PY  - 2026
+UR  - https://proceedings.mlr.press/v306/liu26bu.html
+N1  - arXiv 2603.03818v2; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2603_24584v1
+TI  - TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models
+AU  - Zhou, Jiaying
+AU  - Zhan, Zhihao
+AU  - Zhai, Ruifeng
+AU  - Lyu, Qinhan
+AU  - Liu, Hao
+AU  - Wang, Keze
+AU  - Lin, Liang
+AU  - Wang, Guangrun
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.24584v1
+N1  - arXiv 2603.24584v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2606_09740v1
+TI  - ProbeAct: Probe-Guided Training-Free Failure Recovery in Vision-Language-Action Models
+AU  - Zhang, Fan
+AU  - Park, Seongbin
+AU  - Mirzasoleiman, Baharan
+AU  - Talebi, Shariar
+AU  - Sehatbakhsh, Nader
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.09740v1
+N1  - arXiv 2606.09740v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2607_08347v1
+TI  - Prediction-Powered Active Testing
+AU  - Ashouritaklimi, Kianoosh
+AU  - Kilian, Valentin
+AU  - Huang, Daolang
+AU  - Rainforth, Tom
+AU  - Caron, François
+PY  - 2026
+UR  - https://arxiv.org/abs/2607.08347v1
+N1  - arXiv 2607.08347v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2608_15816v1
+TI  - ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation
+AU  - Wang, Yi
+AU  - Wu, Renjun
+AU  - Liu, Jinyan
+AU  - Li, Xuesong
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.15816v1
+N1  - arXiv 2608.15816v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2609_15005v1
+TI  - IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies
+AU  - Kim, Jinwoong
+AU  - Park, Sangjin
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.15005v1
+N1  - arXiv 2609.15005v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2609_21358v1
+TI  - FAN: Foresight Action Normalization for Continual Adaptation of Vision-Language-Action Models
+AU  - Hong, Yijun
+AU  - Zhu, Jiarun
+AU  - Sun, Xiaoquan
+AU  - Xu, Le
+AU  - He, Qijun
+AU  - Jin, Xin
+AU  - Yuan, Mingqi
+AU  - Zeng, Wenjun
+AU  - Chen, Jiayu
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.21358v1
+N1  - arXiv 2609.21358v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2609_37334v1
+TI  - Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing
+AU  - Lee, Sohyun
+AU  - Baek, Yoonjae
+AU  - Won, Jaesang
+AU  - Kim, Jinnyeong
+AU  - Hyunwoo, Kang
+AU  - Baek, Seung-Hwan
+AU  - Laptev, Ivan
+AU  - Kwak, Suha
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.37334v1
+N1  - arXiv 2609.37334v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2609_39971v1
+TI  - When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models
+AU  - Chen, Hung-Jen
+AU  - Hou, Yu-Hsun
+AU  - Chen, Yan-Hong
+AU  - Chen, Yan-Fu
+AU  - Cai, Binghua
+AU  - Sun, Min
+AU  - Lee, Chun-Yi
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.39971v1
+N1  - arXiv 2609.39971v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_07946v1
+TI  - Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution
+AU  - Lee, Ahin
+AU  - Seo, Jinwoo
+AU  - Jang, Youngsoo
+AU  - Gong, Taesik
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.07946v1
+N1  - arXiv 2610.07946v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_09533v1
+TI  - Contact-Aware Imitation Learning Through Contact Factorization
+AU  - Hong, Jiho
+AU  - Song, Daeun
+AU  - Kim, Sanghyun
+AU  - Seo, Mingyo
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.09533v1
+N1  - arXiv 2610.09533v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_09696v1
+TI  - RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies
+AU  - Shirasaka, Mimo
+AU  - Ohkawa, Takehiko
+AU  - Okubo, Takuya
+AU  - Scianca, Nicola
+AU  - Matsushima, Tatsuya
+AU  - Ota, Kei
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.09696v1
+N1  - arXiv 2610.09696v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_12332v1
+TI  - Prediction-Powered Data Fusion for Treatment Effect Estimation
+AU  - Jung, Yonghan
+AU  - Yang, Shu
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.12332v1
+N1  - arXiv 2610.12332v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_12549v1
+TI  - Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback
+AU  - Lee, Jaewoo
+AU  - Seo, Jeongyeon
+AU  - Cho, Sihyun
+AU  - Choe, Gyeongrak
+AU  - Wang, Yutong
+AU  - Saravanan, Bavin
+AU  - Huang, Jia-Bin
+AU  - Huang, Furong
+AU  - Scherer, Sebastian
+AU  - Shi, Guanya
+AU  - Kim, H. Jin
+AU  - Lee, Seungjae
+AU  - Lee, Dongjae
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.12549v1
+N1  - arXiv 2610.12549v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_27389v1
+TI  - Fixed-Size Active Statistical Inference
+AU  - Skalnes, Erik
+AU  - Oberst, Michael
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.27389v1
+N1  - arXiv 2610.27389v1; fixed version; formal status see source metadata
+ER  - 
+
+TY  - GEN
+ID  - deep2610_34681v1
+TI  - Pro-Active Inference
+AU  - Wu, Skyler
+AU  - Nair, Yash
+AU  - Maechler, Antoine
+AU  - Candès, Emmanuel J.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.34681v1
+N1  - arXiv 2610.34681v1; fixed version; formal status see source metadata
+ER  - 

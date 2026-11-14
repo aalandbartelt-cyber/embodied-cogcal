@@ -1,0 +1,70 @@
+{
+  "verification_date": "2026-11-14",
+  "paper": {
+    "id": "liao2026supermimic",
+    "version": "2610.28480v2",
+    "source_url": "https://arxiv.org/abs/2610.28480v2",
+    "response_sha256": "529b2f4fdc0106e68c7d0f423ce85ab0948e4dae2a3cf99681ef291371c51aa8",
+    "metadata_fields": {
+      "citation_title": [
+        "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model"
+      ],
+      "citation_author": [
+        "Liao, Qiayuan",
+        "Shao, Yiyang",
+        "Long, Junfeng",
+        "Zakka, Kevin",
+        "Horowitz, Roberto",
+        "Abbeel, Pieter",
+        "Sreenath, Koushil"
+      ],
+      "citation_date": [
+        "2026/10/20"
+      ],
+      "citation_online_date": [
+        "2026/11/09"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2610.28480"
+      ],
+      "citation_arxiv_id": [
+        "2610.28480"
+      ]
+    },
+    "read_level": "abstract_and_metadata",
+    "formal_proceedings_not_independently_verified": true
+  },
+  "downstream_repository": {
+    "url": "https://github.com/Motphys/Uni-SuperMimic",
+    "commit": "d78a5e2bc26ee26c3a94ae10418b7fb9018836ee",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "ec822ec883496a08962d75e7a12828888295b0d23720d3ed93ff0ad3f18d8c12",
+        "url": "https://github.com/Motphys/Uni-SuperMimic/blob/d78a5e2bc26ee26c3a94ae10418b7fb9018836ee/pyproject.toml"
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "de14f923f8b41f399bfed236e079a41cc04a46740d307267e84440e0fed069d3",
+        "url": "https://github.com/Motphys/Uni-SuperMimic/blob/d78a5e2bc26ee26c3a94ae10418b7fb9018836ee/uv.lock"
+      },
+      {
+        "path": "src/unisupermimic/tasks/motion_tracking/g1/supermimic/env.py",
+        "sha256": "22b9a4f6dcb075c45dd166c9f3ea9afd6ee7bf2a6c2b00afc0c2710e0d3ab42c",
+        "url": "https://github.com/Motphys/Uni-SuperMimic/blob/d78a5e2bc26ee26c3a94ae10418b7fb9018836ee/src/unisupermimic/tasks/motion_tracking/g1/supermimic/env.py"
+      },
+      {
+        "path": "src/unisupermimic/conf/supermimic/task/g1_super_mimic/mujoco.yaml",
+        "sha256": "62d5514f863c879e043a7846223b55298e1aaaa0708e88d91f6b0800cfbba1d5",
+        "url": "https://github.com/Motphys/Uni-SuperMimic/blob/d78a5e2bc26ee26c3a94ae10418b7fb9018836ee/src/unisupermimic/conf/supermimic/task/g1_super_mimic/mujoco.yaml"
+      },
+      {
+        "path": "src/unisupermimic/tasks/motion_tracking/g1/supermimic/manager_terms.py",
+        "sha256": "4bae851ff006e30c2445bb3f0a8d8820dff4ca356a1f0f7fdbd89ddd3fe9aa37",
+        "url": "https://github.com/Motphys/Uni-SuperMimic/blob/d78a5e2bc26ee26c3a94ae10418b7fb9018836ee/src/unisupermimic/tasks/motion_tracking/g1/supermimic/manager_terms.py"
+      }
+    ],
+    "evidence_level": "source_inspected_not_executed"
+  },
+  "runtime_validation": false
+}

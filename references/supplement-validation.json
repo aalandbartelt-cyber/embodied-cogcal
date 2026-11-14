@@ -1,0 +1,27 @@
+{
+  "verified_on": "2026-11-14",
+  "deep_supplement_version_records": 31,
+  "deep_supplement_unique_papers": 30,
+  "deep_bibtex_parsed": 31,
+  "deep_ris_parsed": 31,
+  "supermimic_bibtex_parsed": 2,
+  "pinned_downstream_code_hashes_checked": 5,
+  "checks": [
+    "metadata title/full authors/year/hash correspondence; documented Ao title override",
+    "BibTeX/RIS title, author count, year, source URL and version correspondence",
+    "no arXiv-paper overlap with frozen main library",
+    "SuperMimic original-paper title/author count and pinned downstream source hashes",
+    "ECCBF structural-audit source hashes and 400/400 public-text equality"
+  ],
+  "parsers": {
+    "bibtexparser": "1.4.3",
+    "rispy": "0.10.0"
+  },
+  "limitations": [
+    "Not a Zotero GUI or complete LaTeX build.",
+    "Metadata and static-source checks do not reproduce external algorithms or establish novelty.",
+    "Scholar result pages inaccessible; classic sources are documented in individual reports, not all imported in this supplement.",
+    "Exploration protocol is a draft; no VLA or hardware results."
+  ],
+  "errors": []
+}

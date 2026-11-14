@@ -2,7 +2,7 @@
 
 ## 当前阅读入口（2026-11-14）
 
-1. [查新与换方案决策](prior-art/ROUTE_DECISION.md)：旧 ECCBF 正式矩阵暂缓，比较三个候选问题。
+1. [查新与换方案裁决](prior-art/ROUTE_DECISION.md)：三个宽泛方案停止作为核心；[限时探索](prior-art/EXPLORATION_PROTOCOL.md)尚未通过新颖性门槛。
 2. [研究现状/文献库](literature/README.md)：47 篇论文/方法文献 + 3 项工程来源，含可导入引用。
 3. [导师汇报提纲与问答](report/PROGRESS_REPORT.md)、[论文相关工作准备稿](paper/RELATED_WORK_DRAFT.md)。
 4. [研究准备度与剩余工作](RESEARCH_READINESS.md)、[主张—证据表](paper/CLAIM_EVIDENCE_MATRIX.md)。
@@ -20,7 +20,7 @@
 
 这份记录保留历史讨论；当前选题以本页最新阅读入口为准，执行约束见 [实验效度](EXPERIMENT_VALIDITY.md)。
 
-## 0.1 当前实验主线
+## 0.1 历史 ECCBF 设计（已停止作为当前核心）
 
 - [核心假设](CORE_HYPOTHESIS.md)：ECCBF 的科学命题、因子定义和声称边界。
 - [研究路线](ROADMAP.md)：SO-101 同体数字孪生、正式实验、真机和投稿门槛。

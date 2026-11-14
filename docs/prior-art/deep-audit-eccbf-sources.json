@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-14",
+  "scope": "independent ECCBF novelty and algebra red-team; selected original sections; no model loaded; no independent paper reproduction",
+  "scholar_attempts": [
+    {
+      "url": "https://scholar.google.com/scholar?q=%22ECCBF%22+robot+counterfactual",
+      "outcome": "web open: not accessible; no results list seen"
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=%22Task-Semantic+Action+Calibration%22",
+      "outcome": "web open: not accessible; no results list seen"
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=%22A+Causality-aware+Infer-diagnose-refine%22",
+      "outcome": "web open: not accessible; no results list seen"
+    }
+  ],
+  "web_search_queries": [
+    "\"vision-language-action\" \"semantic\" \"execution\" \"interaction\" counterfactual",
+    "robot VLA \"superseded\" instruction",
+    "\"vision-language-action\" \"factorial\" calibration residual"
+  ],
+  "primary_sources": [
+    {
+      "label": "IDR",
+      "url": "https://arxiv.org/html/2607.25516v1",
+      "title": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+      "version": "2607.25516v1",
+      "locators": [
+        "IV-A",
+        "IV-B Eq6-13",
+        "II-B",
+        "VI"
+      ],
+      "reading_level": "selected original sections; formulas read"
+    },
+    {
+      "label": "BAS-VLA",
+      "url": "https://arxiv.org/html/2609.23650v2",
+      "title": "Beyond Appearance Shifts: Task-Semantic Action Calibration for VLA Models",
+      "version": "2609.23650v2",
+      "locators": [
+        "3",
+        "4.1-4.4 Eq1-6",
+        "A.5-A.7"
+      ],
+      "reading_level": "selected original sections; formulas read"
+    },
+    {
+      "label": "CAG",
+      "url": "https://arxiv.org/html/2602.17659v3",
+      "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
+      "version": "2602.17659v3",
+      "locators": [
+        "4",
+        "5.1 Eq2",
+        "5.2"
+      ],
+      "reading_level": "selected original sections; formulas read"
+    },
+    {
+      "label": "Plus",
+      "url": "https://arxiv.org/html/2510.13626v3",
+      "title": "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models",
+      "version": "2510.13626v3",
+      "locators": [
+        "5.1 Eq3-8",
+        "5.2",
+        "Appendix F.1-F.2"
+      ],
+      "reading_level": "selected original sections; formulas and exclusion of language dimension read"
+    },
+    {
+      "label": "PRO2.0",
+      "url": "https://arxiv.org/html/2610.24587v1",
+      "title": "LIBERO-Pro2.0: A Benchmark for Evaluating the Robustness of Embodied Foundation Models",
+      "version": "2610.24587v1",
+      "locators": [
+        "4.3",
+        "4.4",
+        "A.4 Table13",
+        "C.2 Table15",
+        "C.3 Table16",
+        "C.5 execution horizon configuration"
+      ],
+      "reading_level": "selected original sections; composition entries and definitions cross-checked"
+    },
+    {
+      "label": "IMPACT-VLA",
+      "url": "https://arxiv.org/html/2609.15005v1",
+      "title": "IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies",
+      "version": "2609.15005v1",
+      "locators": [
+        "III-C Eq6-9",
+        "III-D Eq10",
+        "III-E Eq11-16",
+        "IV-A",
+        "IV-E",
+        "V"
+      ],
+      "reading_level": "selected original sections; closed-loop mechanism and equations read; attribution not deployed action repair"
+    },
+    {
+      "label": "TAG",
+      "url": "https://arxiv.org/html/2603.24584v1",
+      "title": "TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models",
+      "version": "2603.24584v1",
+      "locators": [
+        "3.1",
+        "3.2 Eq2"
+      ],
+      "reading_level": "selected original method equations"
+    },
+    {
+      "label": "IGAR/ICBench",
+      "url": "https://arxiv.org/html/2603.06001v2",
+      "title": "Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration",
+      "version": "2603.06001v2",
+      "locators": [
+        "3.1",
+        "3.2"
+      ],
+      "reading_level": "selected original benchmark definitions"
+    },
+    {
+      "label": "RSS",
+      "url": "https://aclanthology.org/2026.acl-long.190/",
+      "title": "Stable Language Guidance for Vision–Language–Action Models",
+      "locators": [
+        "official metadata",
+        "abstract"
+      ],
+      "reading_level": "metadata and abstract only; no formula-level duplication conclusion"
+    }
+  ],
+  "local_inspection": [
+    "src/cogcal/calibration.py",
+    "src/cogcal/metrics.py",
+    "probes/generators/eccbf_factorial.py",
+    "probes/definitions/eccbf_factorial.yaml",
+    "docs/CORE_HYPOTHESIS.md",
+    "docs/prior-art/ROUTE_DECISION.md",
+    "docs/paper/CLAIM_EVIDENCE_MATRIX.md",
+    "docs/EXPERIMENT_VALIDITY.md",
+    "experiments/so101/PROTOCOL_AUDIT.md"
+  ],
+  "checks": {
+    "exact_rational_binary_lookup_equivalence": "PASS, 4 corners",
+    "exact_rational_continuous_bilinear_equivalence": "PASS, one rational interior point; general derivation in report",
+    "clip_only_interaction_example": "-1/5, no VLA involved",
+    "canonicalizer_recovers_neutral": "PASS for red and blue target templates; pure text check only"
+  },
+  "limitations": [
+    "Google Scholar unavailable; no result-list screening claimed",
+    "Not a systematic exhaustive survey or institutional novelty certificate",
+    "No patent-database search",
+    "No model loading, robot trial or independently reproduced published numbers"
+  ]
+}

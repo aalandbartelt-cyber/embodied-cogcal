@@ -1,0 +1,1464 @@
+{
+  "verified_on": "2026-11-14",
+  "scope": "Deep-audit supplement; separate from frozen 50-record main library. Two Ao versions are intentionally separate historical records, not two papers.",
+  "records": [
+    {
+      "id": "deep1703_01250v1",
+      "title": "Virtual vs. Real: Trading Off Simulations and Physical Experiments in Reinforcement Learning with Bayesian Optimization",
+      "authors": [
+        "Marco, Alonso",
+        "Berkenkamp, Felix",
+        "Hennig, Philipp",
+        "Schoellig, Angela P.",
+        "Krause, Andreas",
+        "Schaal, Stefan",
+        "Trimpe, Sebastian"
+      ],
+      "year": 2017,
+      "arxiv_id": "1703.01250",
+      "arxiv_version": "1703.01250v1",
+      "source_url": "https://arxiv.org/abs/1703.01250v1",
+      "metadata_source_url": "https://arxiv.org/abs/1703.01250v1",
+      "source_sha256": "a128bfe2383edf099ea892b63474d8ec1b0d516a857b0c6b8b7b83281ebc9c7e",
+      "metadata_fields": {
+        "citation_title": [
+          "Virtual vs. Real: Trading Off Simulations and Physical Experiments in Reinforcement Learning with Bayesian Optimization"
+        ],
+        "citation_author": [
+          "Marco, Alonso",
+          "Berkenkamp, Felix",
+          "Hennig, Philipp",
+          "Schoellig, Angela P.",
+          "Krause, Andreas",
+          "Schaal, Stefan",
+          "Trimpe, Sebastian"
+        ],
+        "citation_doi": [
+          "10.1109/ICRA.2017.7989186"
+        ],
+        "citation_date": [
+          "2017/03/03"
+        ],
+        "citation_online_date": [
+          "2017/03/03"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1703.01250"
+        ],
+        "citation_arxiv_id": [
+          "1703.01250"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Virtual+vs.+Real%3A+Trading+Off+Simulations+and+Physical+Experiments+in+Reinforcement+Learning+with+Bayesian+Optimization%22"
+    },
+    {
+      "id": "deep2111_00765v3",
+      "title": "Validate on Sim, Detect on Real -- Model Selection for Domain Randomization",
+      "authors": [
+        "Leibovich, Gal",
+        "Jacob, Guy",
+        "Endrawis, Shadi",
+        "Novik, Gal",
+        "Tamar, Aviv"
+      ],
+      "year": 2021,
+      "arxiv_id": "2111.00765",
+      "arxiv_version": "2111.00765v3",
+      "source_url": "https://arxiv.org/abs/2111.00765v3",
+      "metadata_source_url": "https://arxiv.org/abs/2111.00765v3",
+      "source_sha256": "ca2d134008822868068d4fae271f13f156534ecfc3ef007312218d0c12e62280",
+      "metadata_fields": {
+        "citation_title": [
+          "Validate on Sim, Detect on Real -- Model Selection for Domain Randomization"
+        ],
+        "citation_author": [
+          "Leibovich, Gal",
+          "Jacob, Guy",
+          "Endrawis, Shadi",
+          "Novik, Gal",
+          "Tamar, Aviv"
+        ],
+        "citation_date": [
+          "2021/11/01"
+        ],
+        "citation_online_date": [
+          "2022/03/01"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2111.00765"
+        ],
+        "citation_arxiv_id": [
+          "2111.00765"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Validate+on+Sim%2C+Detect+on+Real+--+Model+Selection+for+Domain+Randomization%22"
+    },
+    {
+      "id": "deep2303_17476v1",
+      "title": "Differentiable Environment Primitives for Contact State Estimation",
+      "authors": [
+        "Haninger, Kevin",
+        "Samuel, Kangwagye",
+        "Rozzi, Filippo",
+        "Oh, Sehoon",
+        "Roveda, Loris"
+      ],
+      "year": 2023,
+      "arxiv_id": "2303.17476",
+      "arxiv_version": "2303.17476v1",
+      "source_url": "https://arxiv.org/abs/2303.17476v1",
+      "metadata_source_url": "https://arxiv.org/abs/2303.17476v1",
+      "source_sha256": "c8781c885c2220c60c66705872c9cb5cfa0e7345e724a580fda4414699de6649",
+      "metadata_fields": {
+        "citation_title": [
+          "Differentiable Environment Primitives for Contact State Estimation"
+        ],
+        "citation_author": [
+          "Haninger, Kevin",
+          "Samuel, Kangwagye",
+          "Rozzi, Filippo",
+          "Oh, Sehoon",
+          "Roveda, Loris"
+        ],
+        "citation_date": [
+          "2023/03/30"
+        ],
+        "citation_online_date": [
+          "2023/03/30"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2303.17476"
+        ],
+        "citation_arxiv_id": [
+          "2303.17476"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Differentiable+Environment+Primitives+for+Contact+State+Estimation%22"
+    },
+    {
+      "id": "deep2309_16598v2",
+      "title": "Cross-Prediction-Powered Inference",
+      "authors": [
+        "Zrnic, Tijana",
+        "Candès, Emmanuel J."
+      ],
+      "year": 2023,
+      "arxiv_id": "2309.16598",
+      "arxiv_version": "2309.16598v2",
+      "source_url": "https://arxiv.org/abs/2309.16598v2",
+      "metadata_source_url": "https://arxiv.org/abs/2309.16598v2",
+      "source_sha256": "4ea6fda01f4fd4ef831b2568548b96da1c985c358a3a6f5dc438c066fa63557f",
+      "metadata_fields": {
+        "citation_title": [
+          "Cross-Prediction-Powered Inference"
+        ],
+        "citation_author": [
+          "Zrnic, Tijana",
+          "Candès, Emmanuel J."
+        ],
+        "citation_date": [
+          "2023/09/28"
+        ],
+        "citation_online_date": [
+          "2023/10/11"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2309.16598"
+        ],
+        "citation_arxiv_id": [
+          "2309.16598"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Cross-Prediction-Powered+Inference%22"
+    },
+    {
+      "id": "deep2311_01453v2",
+      "title": "PPI++: Efficient Prediction-Powered Inference",
+      "authors": [
+        "Angelopoulos, Anastasios N.",
+        "Duchi, John C.",
+        "Zrnic, Tijana"
+      ],
+      "year": 2023,
+      "arxiv_id": "2311.01453",
+      "arxiv_version": "2311.01453v2",
+      "source_url": "https://arxiv.org/abs/2311.01453v2",
+      "metadata_source_url": "https://arxiv.org/abs/2311.01453v2",
+      "source_sha256": "af9dd19e23180fd2d1a4e21d9d1311ca4f9371cdf5d884f80351ed9db3b1aa6c",
+      "metadata_fields": {
+        "citation_title": [
+          "PPI++: Efficient Prediction-Powered Inference"
+        ],
+        "citation_author": [
+          "Angelopoulos, Anastasios N.",
+          "Duchi, John C.",
+          "Zrnic, Tijana"
+        ],
+        "citation_date": [
+          "2023/11/02"
+        ],
+        "citation_online_date": [
+          "2024/03/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2311.01453"
+        ],
+        "citation_arxiv_id": [
+          "2311.01453"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22PPI%2B%2B%3A+Efficient+Prediction-Powered+Inference%22"
+    },
+    {
+      "id": "deep2401_05782v1",
+      "title": "Online input design for discrimination of linear models using concave minimization",
+      "authors": [
+        "Noom, Jacques",
+        "Soloviev, Oleg",
+        "Smith, Carlas",
+        "Verhaegen, Michel"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.05782",
+      "arxiv_version": "2401.05782v1",
+      "source_url": "https://arxiv.org/abs/2401.05782v1",
+      "metadata_source_url": "https://arxiv.org/abs/2401.05782",
+      "source_sha256": "be1c9d88b182f723db5d67de7cb1f501565e1c5363e9ac61b2d040c49d4465d0",
+      "metadata_fields": {
+        "citation_title": [
+          "Online input design for discrimination of linear models using concave minimization"
+        ],
+        "citation_author": [
+          "Noom, Jacques",
+          "Soloviev, Oleg",
+          "Smith, Carlas",
+          "Verhaegen, Michel"
+        ],
+        "citation_date": [
+          "2024/01/11"
+        ],
+        "citation_online_date": [
+          "2024/01/11"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2401.05782"
+        ],
+        "citation_arxiv_id": [
+          "2401.05782"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Online+input+design+for+discrimination+of+linear+models+using+concave+minimization%22"
+    },
+    {
+      "id": "deep2403_03208v3",
+      "title": "Active Statistical Inference",
+      "authors": [
+        "Zrnic, Tijana",
+        "Candès, Emmanuel J."
+      ],
+      "year": 2024,
+      "arxiv_id": "2403.03208",
+      "arxiv_version": "2403.03208v3",
+      "source_url": "https://arxiv.org/abs/2403.03208v3",
+      "metadata_source_url": "https://arxiv.org/abs/2403.03208",
+      "source_sha256": "7dfc187ab46a004702ddc68472a15acf7417ba1237c06a8000c3c18bb62250d7",
+      "metadata_fields": {
+        "citation_title": [
+          "Active Statistical Inference"
+        ],
+        "citation_author": [
+          "Zrnic, Tijana",
+          "Candès, Emmanuel J."
+        ],
+        "citation_date": [
+          "2024/03/05"
+        ],
+        "citation_online_date": [
+          "2026/04/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2403.03208"
+        ],
+        "citation_arxiv_id": [
+          "2403.03208"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Active+Statistical+Inference%22"
+    },
+    {
+      "id": "deep2410_00371v1",
+      "title": "AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation",
+      "authors": [
+        "Duan, Jiafei",
+        "Pumacay, Wilbert",
+        "Kumar, Nishanth",
+        "Wang, Yi Ru",
+        "Tian, Shulin",
+        "Yuan, Wentao",
+        "Krishna, Ranjay",
+        "Fox, Dieter",
+        "Mandlekar, Ajay",
+        "Guo, Yijie"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.00371",
+      "arxiv_version": "2410.00371v1",
+      "source_url": "https://arxiv.org/abs/2410.00371v1",
+      "metadata_source_url": "https://arxiv.org/abs/2410.00371",
+      "source_sha256": "2aa960287894ab22a7c782e2d3429ee649ae9a7eaa22b654e636be294cfdadda",
+      "metadata_fields": {
+        "citation_title": [
+          "AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation"
+        ],
+        "citation_author": [
+          "Duan, Jiafei",
+          "Pumacay, Wilbert",
+          "Kumar, Nishanth",
+          "Wang, Yi Ru",
+          "Tian, Shulin",
+          "Yuan, Wentao",
+          "Krishna, Ranjay",
+          "Fox, Dieter",
+          "Mandlekar, Ajay",
+          "Guo, Yijie"
+        ],
+        "citation_date": [
+          "2024/10/01"
+        ],
+        "citation_online_date": [
+          "2024/10/01"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2410.00371"
+        ],
+        "citation_arxiv_id": [
+          "2410.00371"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22AHA%3A+A+Vision-Language-Model+for+Detecting+and+Reasoning+Over+Failures+in+Robotic+Manipulation%22"
+    },
+    {
+      "id": "deep2502_09829v1",
+      "title": "Efficient Evaluation of Multi-Task Robot Policies With Active Experiment Selection",
+      "authors": [
+        "Anwar, Abrar",
+        "Gupta, Rohan",
+        "Merchant, Zain",
+        "Ghosh, Sayan",
+        "Neiswanger, Willie",
+        "Thomason, Jesse"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.09829",
+      "arxiv_version": "2502.09829v1",
+      "source_url": "https://arxiv.org/abs/2502.09829v1",
+      "metadata_source_url": "https://arxiv.org/abs/2502.09829",
+      "source_sha256": "0e4a24eef84e5a4bbf9a0e017dc0e07f56bdb2086db538448205bf11e1eb1761",
+      "metadata_fields": {
+        "citation_title": [
+          "Efficient Evaluation of Multi-Task Robot Policies With Active Experiment Selection"
+        ],
+        "citation_author": [
+          "Anwar, Abrar",
+          "Gupta, Rohan",
+          "Merchant, Zain",
+          "Ghosh, Sayan",
+          "Neiswanger, Willie",
+          "Thomason, Jesse"
+        ],
+        "citation_date": [
+          "2025/02/14"
+        ],
+        "citation_online_date": [
+          "2025/02/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2502.09829"
+        ],
+        "citation_arxiv_id": [
+          "2502.09829"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Efficient+Evaluation+of+Multi-Task+Robot+Policies+With+Active+Experiment+Selection%22"
+    },
+    {
+      "id": "deep2505_12224v5",
+      "title": "RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction",
+      "authors": [
+        "Ye, Zewei",
+        "Lu, Weifeng",
+        "Ye, Minghao",
+        "Lin, Tao",
+        "Yang, Shuo",
+        "Yan, Junchi",
+        "Zhao, Bo"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.12224",
+      "arxiv_version": "2505.12224v5",
+      "source_url": "https://arxiv.org/abs/2505.12224v5",
+      "metadata_source_url": "https://arxiv.org/abs/2505.12224v5",
+      "source_sha256": "ab7eccae34ee93eb1d1c3e5c62daeeef96f81be3e7a12d3a99fa38643159704f",
+      "metadata_fields": {
+        "citation_title": [
+          "RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction"
+        ],
+        "citation_author": [
+          "Ye, Zewei",
+          "Lu, Weifeng",
+          "Ye, Minghao",
+          "Lin, Tao",
+          "Yang, Shuo",
+          "Yan, Junchi",
+          "Zhao, Bo"
+        ],
+        "citation_date": [
+          "2025/05/18"
+        ],
+        "citation_online_date": [
+          "2026/10/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2505.12224"
+        ],
+        "citation_arxiv_id": [
+          "2505.12224"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22RoboFAC%3A+A+Comprehensive+Framework+for+Robotic+Failure+Analysis+and+Correction%22"
+    },
+    {
+      "id": "deep2507_20068v3",
+      "title": "PERRY: Policy Evaluation with Confidence Intervals using Auxiliary Data",
+      "authors": [
+        "Mandyam, Aishwarya",
+        "Meng, Jason",
+        "Gao, Ge",
+        "Sun, Jiankai",
+        "Schwager, Mac",
+        "Engelhardt, Barbara E.",
+        "Brunskill, Emma"
+      ],
+      "year": 2025,
+      "arxiv_id": "2507.20068",
+      "arxiv_version": "2507.20068v3",
+      "source_url": "https://arxiv.org/abs/2507.20068v3",
+      "metadata_source_url": "https://arxiv.org/abs/2507.20068",
+      "source_sha256": "97f9c61c8ebd26168977eeceb540551db6456a63cd98f951533f3dcc5644d3e4",
+      "metadata_fields": {
+        "citation_title": [
+          "PERRY: Policy Evaluation with Confidence Intervals using Auxiliary Data"
+        ],
+        "citation_author": [
+          "Mandyam, Aishwarya",
+          "Meng, Jason",
+          "Gao, Ge",
+          "Sun, Jiankai",
+          "Schwager, Mac",
+          "Engelhardt, Barbara E.",
+          "Brunskill, Emma"
+        ],
+        "citation_date": [
+          "2025/07/26"
+        ],
+        "citation_online_date": [
+          "2026/06/23"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2507.20068"
+        ],
+        "citation_arxiv_id": [
+          "2507.20068"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22PERRY%3A+Policy+Evaluation+with+Confidence+Intervals+using+Auxiliary+Data%22"
+    },
+    {
+      "id": "deep2512_02787v3",
+      "title": "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols",
+      "authors": [
+        "Zeng, Xianchao",
+        "Zhou, Xinyu",
+        "Li, Youcheng",
+        "Shi, Jiayou",
+        "Li, Tianle",
+        "Chen, Liangming",
+        "Ren, Lei",
+        "Li, Yong-Lu"
+      ],
+      "year": 2025,
+      "arxiv_id": "2512.02787",
+      "arxiv_version": "2512.02787v3",
+      "source_url": "https://arxiv.org/abs/2512.02787v3",
+      "metadata_source_url": "https://arxiv.org/abs/2512.02787",
+      "source_sha256": "6cc10072fc09d64a2c7f75c1287edd2e96e8b124ba9b34144d03717b6402e279",
+      "metadata_fields": {
+        "citation_title": [
+          "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols"
+        ],
+        "citation_author": [
+          "Zeng, Xianchao",
+          "Zhou, Xinyu",
+          "Li, Youcheng",
+          "Shi, Jiayou",
+          "Li, Tianle",
+          "Chen, Liangming",
+          "Ren, Lei",
+          "Li, Yong-Lu"
+        ],
+        "citation_date": [
+          "2025/12/02"
+        ],
+        "citation_online_date": [
+          "2026/03/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2512.02787"
+        ],
+        "citation_arxiv_id": [
+          "2512.02787"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Diagnose%2C+Correct%2C+and+Learn+from+Manipulation+Failures+via+Visual+Symbols%22"
+    },
+    {
+      "id": "deep2601_21471v1",
+      "title": "Best Arm Identification with LLM Judges and Limited Human Audits",
+      "authors": [
+        "Ao, Ruicheng",
+        "Chen, Hongyu",
+        "Gao, Siyang",
+        "Li, Hanwei",
+        "Simchi-Levi, David"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.21471",
+      "arxiv_version": "2601.21471v1",
+      "source_url": "https://arxiv.org/abs/2601.21471v1",
+      "metadata_source_url": "https://arxiv.org/abs/2601.21471v1",
+      "source_sha256": "4a8a463e29023f943cd47219d1b5dc9dd64774c1419b38498a1c56a3ba3243ee",
+      "metadata_fields": {
+        "citation_title": [
+          "Best Arm Identification with LLM Judges and Limited Human"
+        ],
+        "citation_author": [
+          "Ao, Ruicheng",
+          "Chen, Hongyu",
+          "Gao, Siyang",
+          "Li, Hanwei",
+          "Simchi-Levi, David"
+        ],
+        "citation_date": [
+          "2026/01/29"
+        ],
+        "citation_online_date": [
+          "2026/01/29"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2601.21471"
+        ],
+        "citation_arxiv_id": [
+          "2601.21471"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Best+Arm+Identification+with+LLM+Judges+and+Limited+Human%22",
+      "title_override_provenance": {
+        "reason": "abs-page citation title omits final Audits; full original HTML title independently checked",
+        "source_url": "https://arxiv.org/html/2601.21471v1",
+        "source_sha256": "a81e51837f27597629e4cc592a039de7ecbff8f0c8bfc60ee335e87aa38857dc"
+      }
+    },
+    {
+      "id": "deep2601_21471v2",
+      "title": "Designing Service Systems from Textual Evidence",
+      "authors": [
+        "Ao, Ruicheng",
+        "Chen, Hongyu",
+        "Gao, Siyang",
+        "Li, Hanwei",
+        "Simchi-Levi, David"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.21471",
+      "arxiv_version": "2601.21471v2",
+      "source_url": "https://arxiv.org/abs/2601.21471v2",
+      "metadata_source_url": "https://arxiv.org/abs/2601.21471v2",
+      "source_sha256": "ed7e31b231dd0b009308074880ce1e9aa9d9ec63f897a6dbcf09b9e2bbcb347d",
+      "metadata_fields": {
+        "citation_title": [
+          "Designing Service Systems from Textual Evidence"
+        ],
+        "citation_author": [
+          "Ao, Ruicheng",
+          "Chen, Hongyu",
+          "Gao, Siyang",
+          "Li, Hanwei",
+          "Simchi-Levi, David"
+        ],
+        "citation_date": [
+          "2026/01/29"
+        ],
+        "citation_online_date": [
+          "2026/11/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2601.21471"
+        ],
+        "citation_arxiv_id": [
+          "2601.21471"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Designing+Service+Systems+from+Textual+Evidence%22"
+    },
+    {
+      "id": "deep2602_12405v2",
+      "title": "Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning",
+      "authors": [
+        "Qi, Carl",
+        "Wang, Xiaojie",
+        "Yong, Silong",
+        "Sheng, Stephen",
+        "Mao, Huitan",
+        "Srinivasan, Sriram",
+        "Nambi, Manikantan",
+        "Zhang, Amy",
+        "Dattatreya, Yesh"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.12405",
+      "arxiv_version": "2602.12405v2",
+      "source_url": "https://arxiv.org/abs/2602.12405v2",
+      "metadata_source_url": "https://arxiv.org/abs/2602.12405v2",
+      "source_sha256": "966b33faee52ed0b0b04c793b0c30cfc907be18e0c94568c2d66ff9d19b1ad42",
+      "metadata_fields": {
+        "citation_title": [
+          "Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning"
+        ],
+        "citation_author": [
+          "Qi, Carl",
+          "Wang, Xiaojie",
+          "Yong, Silong",
+          "Sheng, Stephen",
+          "Mao, Huitan",
+          "Srinivasan, Sriram",
+          "Nambi, Manikantan",
+          "Zhang, Amy",
+          "Dattatreya, Yesh"
+        ],
+        "citation_date": [
+          "2026/02/12"
+        ],
+        "citation_online_date": [
+          "2026/10/15"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2602.12405"
+        ],
+        "citation_arxiv_id": [
+          "2602.12405"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Self-Refining+Vision+Language+Model+for+Robotic+Failure+Detection+and+Reasoning%22"
+    },
+    {
+      "id": "deep2603_03818v2",
+      "title": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
+      "authors": [
+        "Liu, Huihan",
+        "Kim, Changyeon",
+        "Liu, Bo",
+        "Liu, Minghuan",
+        "Zhu, Yuke"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.03818",
+      "arxiv_version": "2603.03818v2",
+      "source_url": "https://arxiv.org/abs/2603.03818v2",
+      "metadata_source_url": "https://arxiv.org/abs/2603.03818v2",
+      "source_sha256": "4b26358a00dcb738d90c8161eb4cc1638081919b9f23ebcf7a78f2c424f84f92",
+      "metadata_fields": {
+        "citation_title": [
+          "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning"
+        ],
+        "citation_author": [
+          "Liu, Huihan",
+          "Kim, Changyeon",
+          "Liu, Bo",
+          "Liu, Minghuan",
+          "Zhu, Yuke"
+        ],
+        "citation_date": [
+          "2026/03/04"
+        ],
+        "citation_online_date": [
+          "2026/03/17"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2603.03818"
+        ],
+        "citation_arxiv_id": [
+          "2603.03818"
+        ]
+      },
+      "formal_status": "ICML2026_PMLR306_original_publisher_verified",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Pretrained+Vision-Language-Action+Models+are+Surprisingly+Resistant+to+Forgetting+in+Continual+Learning%22",
+      "formal_url": "https://proceedings.mlr.press/v306/liu26bu.html"
+    },
+    {
+      "id": "deep2603_24584v1",
+      "title": "TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models",
+      "authors": [
+        "Zhou, Jiaying",
+        "Zhan, Zhihao",
+        "Zhai, Ruifeng",
+        "Lyu, Qinhan",
+        "Liu, Hao",
+        "Wang, Keze",
+        "Lin, Liang",
+        "Wang, Guangrun"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.24584",
+      "arxiv_version": "2603.24584v1",
+      "source_url": "https://arxiv.org/abs/2603.24584v1",
+      "metadata_source_url": "https://arxiv.org/abs/2603.24584v1",
+      "source_sha256": "f0ab1953fdaa8a3a2ed9f3b22fd0d3ac28510496a2c072e7011bb3b4c5a565cb",
+      "metadata_fields": {
+        "citation_title": [
+          "TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Zhou, Jiaying",
+          "Zhan, Zhihao",
+          "Zhai, Ruifeng",
+          "Lyu, Qinhan",
+          "Liu, Hao",
+          "Wang, Keze",
+          "Lin, Liang",
+          "Wang, Guangrun"
+        ],
+        "citation_date": [
+          "2026/03/25"
+        ],
+        "citation_online_date": [
+          "2026/03/25"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2603.24584"
+        ],
+        "citation_arxiv_id": [
+          "2603.24584"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22TAG%3A+Target-Agnostic+Guidance+for+Stable+Object-Centric+Inference+in+Vision-Language-Action+Models%22"
+    },
+    {
+      "id": "deep2606_09740v1",
+      "title": "ProbeAct: Probe-Guided Training-Free Failure Recovery in Vision-Language-Action Models",
+      "authors": [
+        "Zhang, Fan",
+        "Park, Seongbin",
+        "Mirzasoleiman, Baharan",
+        "Talebi, Shariar",
+        "Sehatbakhsh, Nader"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.09740",
+      "arxiv_version": "2606.09740v1",
+      "source_url": "https://arxiv.org/abs/2606.09740v1",
+      "metadata_source_url": "https://arxiv.org/abs/2606.09740v1",
+      "source_sha256": "84fd4ce120361baa554f40bcc230f138547f9d3d736e6a8737e7cdf6e4969149",
+      "metadata_fields": {
+        "citation_title": [
+          "ProbeAct: Probe-Guided Training-Free Failure Recovery in Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Zhang, Fan",
+          "Park, Seongbin",
+          "Mirzasoleiman, Baharan",
+          "Talebi, Shariar",
+          "Sehatbakhsh, Nader"
+        ],
+        "citation_date": [
+          "2026/06/08"
+        ],
+        "citation_online_date": [
+          "2026/06/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2606.09740"
+        ],
+        "citation_arxiv_id": [
+          "2606.09740"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22ProbeAct%3A+Probe-Guided+Training-Free+Failure+Recovery+in+Vision-Language-Action+Models%22"
+    },
+    {
+      "id": "deep2607_08347v1",
+      "title": "Prediction-Powered Active Testing",
+      "authors": [
+        "Ashouritaklimi, Kianoosh",
+        "Kilian, Valentin",
+        "Huang, Daolang",
+        "Rainforth, Tom",
+        "Caron, François"
+      ],
+      "year": 2026,
+      "arxiv_id": "2607.08347",
+      "arxiv_version": "2607.08347v1",
+      "source_url": "https://arxiv.org/abs/2607.08347v1",
+      "metadata_source_url": "https://arxiv.org/abs/2607.08347",
+      "source_sha256": "1cb23319a65095a1caeec535881245d281256be3cc345299d0d677c101457aeb",
+      "metadata_fields": {
+        "citation_title": [
+          "Prediction-Powered Active Testing"
+        ],
+        "citation_author": [
+          "Ashouritaklimi, Kianoosh",
+          "Kilian, Valentin",
+          "Huang, Daolang",
+          "Rainforth, Tom",
+          "Caron, François"
+        ],
+        "citation_date": [
+          "2026/07/09"
+        ],
+        "citation_online_date": [
+          "2026/07/09"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2607.08347"
+        ],
+        "citation_arxiv_id": [
+          "2607.08347"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Prediction-Powered+Active+Testing%22"
+    },
+    {
+      "id": "deep2608_15816v1",
+      "title": "ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation",
+      "authors": [
+        "Wang, Yi",
+        "Wu, Renjun",
+        "Liu, Jinyan",
+        "Li, Xuesong"
+      ],
+      "year": 2026,
+      "arxiv_id": "2608.15816",
+      "arxiv_version": "2608.15816v1",
+      "source_url": "https://arxiv.org/abs/2608.15816v1",
+      "metadata_source_url": "https://arxiv.org/abs/2608.15816v1",
+      "source_sha256": "2b5604595a41e0e2ed77b509aeb01373c245a11e856a095a3b1f91d06507e301",
+      "metadata_fields": {
+        "citation_title": [
+          "ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation"
+        ],
+        "citation_author": [
+          "Wang, Yi",
+          "Wu, Renjun",
+          "Liu, Jinyan",
+          "Li, Xuesong"
+        ],
+        "citation_date": [
+          "2026/08/16"
+        ],
+        "citation_online_date": [
+          "2026/08/16"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2608.15816"
+        ],
+        "citation_arxiv_id": [
+          "2608.15816"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22ViTaR%3A+Visuo-Tactile+Residual+Adaptation+for+Foundation+VLA+Manipulation%22"
+    },
+    {
+      "id": "deep2609_15005v1",
+      "title": "IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies",
+      "authors": [
+        "Kim, Jinwoong",
+        "Park, Sangjin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.15005",
+      "arxiv_version": "2609.15005v1",
+      "source_url": "https://arxiv.org/abs/2609.15005v1",
+      "metadata_source_url": "https://arxiv.org/abs/2609.15005v1",
+      "source_sha256": "ed69de7da697c2532a4aa8f1066c549cb85c9d87b3e0650e6e218fb4f85070c3",
+      "metadata_fields": {
+        "citation_title": [
+          "IMPACT-VLA: Interaction-aware Multimodal Propagation Attribution via Counterfactual Trajectories for Vision-Language-Action Policies"
+        ],
+        "citation_author": [
+          "Kim, Jinwoong",
+          "Park, Sangjin"
+        ],
+        "citation_date": [
+          "2026/09/14"
+        ],
+        "citation_online_date": [
+          "2026/09/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.15005"
+        ],
+        "citation_arxiv_id": [
+          "2609.15005"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22IMPACT-VLA%3A+Interaction-aware+Multimodal+Propagation+Attribution+via+Counterfactual+Trajectories+for+Vision-Language-Action+Policies%22"
+    },
+    {
+      "id": "deep2609_21358v1",
+      "title": "FAN: Foresight Action Normalization for Continual Adaptation of Vision-Language-Action Models",
+      "authors": [
+        "Hong, Yijun",
+        "Zhu, Jiarun",
+        "Sun, Xiaoquan",
+        "Xu, Le",
+        "He, Qijun",
+        "Jin, Xin",
+        "Yuan, Mingqi",
+        "Zeng, Wenjun",
+        "Chen, Jiayu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.21358",
+      "arxiv_version": "2609.21358v1",
+      "source_url": "https://arxiv.org/abs/2609.21358v1",
+      "metadata_source_url": "https://arxiv.org/abs/2609.21358v1",
+      "source_sha256": "7afb90afc9de8599880e55f5ebee8e7869354cb920885b14b4e479e082ea8da3",
+      "metadata_fields": {
+        "citation_title": [
+          "FAN: Foresight Action Normalization for Continual Adaptation of Vision-Language-Action Models"
+        ],
+        "citation_author": [
+          "Hong, Yijun",
+          "Zhu, Jiarun",
+          "Sun, Xiaoquan",
+          "Xu, Le",
+          "He, Qijun",
+          "Jin, Xin",
+          "Yuan, Mingqi",
+          "Zeng, Wenjun",
+          "Chen, Jiayu"
+        ],
+        "citation_date": [
+          "2026/09/18"
+        ],
+        "citation_online_date": [
+          "2026/09/18"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.21358"
+        ],
+        "citation_arxiv_id": [
+          "2609.21358"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22FAN%3A+Foresight+Action+Normalization+for+Continual+Adaptation+of+Vision-Language-Action+Models%22"
+    },
+    {
+      "id": "deep2609_37334v1",
+      "title": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+      "authors": [
+        "Lee, Sohyun",
+        "Baek, Yoonjae",
+        "Won, Jaesang",
+        "Kim, Jinnyeong",
+        "Hyunwoo, Kang",
+        "Baek, Seung-Hwan",
+        "Laptev, Ivan",
+        "Kwak, Suha"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.37334",
+      "arxiv_version": "2609.37334v1",
+      "source_url": "https://arxiv.org/abs/2609.37334v1",
+      "metadata_source_url": "https://arxiv.org/abs/2609.37334v1",
+      "source_sha256": "6d305ed44034bbc1a0ab49bd57fab6ffe162bede4ab7e71bc0702b3ce1ce7e0b",
+      "metadata_fields": {
+        "citation_title": [
+          "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing"
+        ],
+        "citation_author": [
+          "Lee, Sohyun",
+          "Baek, Yoonjae",
+          "Won, Jaesang",
+          "Kim, Jinnyeong",
+          "Hyunwoo, Kang",
+          "Baek, Seung-Hwan",
+          "Laptev, Ivan",
+          "Kwak, Suha"
+        ],
+        "citation_date": [
+          "2026/09/29"
+        ],
+        "citation_online_date": [
+          "2026/09/29"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.37334"
+        ],
+        "citation_arxiv_id": [
+          "2609.37334"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Taming+VLAs+under+Robot+Execution+Errors%3A+Self-Compensation+and+Stress+Testing%22"
+    },
+    {
+      "id": "deep2609_39971v1",
+      "title": "When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models",
+      "authors": [
+        "Chen, Hung-Jen",
+        "Hou, Yu-Hsun",
+        "Chen, Yan-Hong",
+        "Chen, Yan-Fu",
+        "Cai, Binghua",
+        "Sun, Min",
+        "Lee, Chun-Yi"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.39971",
+      "arxiv_version": "2609.39971v1",
+      "source_url": "https://arxiv.org/abs/2609.39971v1",
+      "metadata_source_url": "https://arxiv.org/abs/2609.39971v1",
+      "source_sha256": "b5685593a1163c69f78a1404f9a1b3aa265caf18a93468972c0a67f4b920ac3f",
+      "metadata_fields": {
+        "citation_title": [
+          "When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models"
+        ],
+        "citation_author": [
+          "Chen, Hung-Jen",
+          "Hou, Yu-Hsun",
+          "Chen, Yan-Hong",
+          "Chen, Yan-Fu",
+          "Cai, Binghua",
+          "Sun, Min",
+          "Lee, Chun-Yi"
+        ],
+        "citation_date": [
+          "2026/09/30"
+        ],
+        "citation_online_date": [
+          "2026/09/30"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.39971"
+        ],
+        "citation_arxiv_id": [
+          "2609.39971"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22When+Instructions+Retrieve+Trajectories%3A+Diagnosing+and+Mitigating+Generalization+Failures+in+VLA+Models%22"
+    },
+    {
+      "id": "deep2610_07946v1",
+      "title": "Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution",
+      "authors": [
+        "Lee, Ahin",
+        "Seo, Jinwoo",
+        "Jang, Youngsoo",
+        "Gong, Taesik"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.07946",
+      "arxiv_version": "2610.07946v1",
+      "source_url": "https://arxiv.org/abs/2610.07946v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.07946v1",
+      "source_sha256": "cda32e163a1321c9a71f6bbbfb1e482fc07c9f8a8d1a7b5d2deee058c1b90d88",
+      "metadata_fields": {
+        "citation_title": [
+          "Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution"
+        ],
+        "citation_author": [
+          "Lee, Ahin",
+          "Seo, Jinwoo",
+          "Jang, Youngsoo",
+          "Gong, Taesik"
+        ],
+        "citation_date": [
+          "2026/10/06"
+        ],
+        "citation_online_date": [
+          "2026/10/06"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.07946"
+        ],
+        "citation_arxiv_id": [
+          "2610.07946"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Adapting+Vision-Language-Action+Models+to+Unknown+Visual+Disruptions+During+Execution%22"
+    },
+    {
+      "id": "deep2610_09533v1",
+      "title": "Contact-Aware Imitation Learning Through Contact Factorization",
+      "authors": [
+        "Hong, Jiho",
+        "Song, Daeun",
+        "Kim, Sanghyun",
+        "Seo, Mingyo"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.09533",
+      "arxiv_version": "2610.09533v1",
+      "source_url": "https://arxiv.org/abs/2610.09533v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.09533v1",
+      "source_sha256": "9952ecf8bf948762edb0dd675885efa4de1a48094b44a7d9502a91e6fbe8b462",
+      "metadata_fields": {
+        "citation_title": [
+          "Contact-Aware Imitation Learning Through Contact Factorization"
+        ],
+        "citation_author": [
+          "Hong, Jiho",
+          "Song, Daeun",
+          "Kim, Sanghyun",
+          "Seo, Mingyo"
+        ],
+        "citation_date": [
+          "2026/10/07"
+        ],
+        "citation_online_date": [
+          "2026/10/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.09533"
+        ],
+        "citation_arxiv_id": [
+          "2610.09533"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Contact-Aware+Imitation+Learning+Through+Contact+Factorization%22"
+    },
+    {
+      "id": "deep2610_09696v1",
+      "title": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies",
+      "authors": [
+        "Shirasaka, Mimo",
+        "Ohkawa, Takehiko",
+        "Okubo, Takuya",
+        "Scianca, Nicola",
+        "Matsushima, Tatsuya",
+        "Ota, Kei"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.09696",
+      "arxiv_version": "2610.09696v1",
+      "source_url": "https://arxiv.org/abs/2610.09696v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.09696v1",
+      "source_sha256": "796ae951c022cffe74beac0a6a474eb2495ac95fdc1bec8ddb4def7352239ef5",
+      "metadata_fields": {
+        "citation_title": [
+          "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies"
+        ],
+        "citation_author": [
+          "Shirasaka, Mimo",
+          "Ohkawa, Takehiko",
+          "Okubo, Takuya",
+          "Scianca, Nicola",
+          "Matsushima, Tatsuya",
+          "Ota, Kei"
+        ],
+        "citation_date": [
+          "2026/10/07"
+        ],
+        "citation_online_date": [
+          "2026/10/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.09696"
+        ],
+        "citation_arxiv_id": [
+          "2610.09696"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22RoboPace%3A+Contact-Aware+Time-Optimal+Retiming+for+Action-Chunk+Policies%22"
+    },
+    {
+      "id": "deep2610_12332v1",
+      "title": "Prediction-Powered Data Fusion for Treatment Effect Estimation",
+      "authors": [
+        "Jung, Yonghan",
+        "Yang, Shu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.12332",
+      "arxiv_version": "2610.12332v1",
+      "source_url": "https://arxiv.org/abs/2610.12332v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.12332v1",
+      "source_sha256": "b5ed71ae55b0ebb874f3f14b975621c5f0ed0e9e9f32af16a67835930e7dd36e",
+      "metadata_fields": {
+        "citation_title": [
+          "Prediction-Powered Data Fusion for Treatment Effect Estimation"
+        ],
+        "citation_author": [
+          "Jung, Yonghan",
+          "Yang, Shu"
+        ],
+        "citation_date": [
+          "2026/10/08"
+        ],
+        "citation_online_date": [
+          "2026/10/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.12332"
+        ],
+        "citation_arxiv_id": [
+          "2610.12332"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Prediction-Powered+Data+Fusion+for+Treatment+Effect+Estimation%22"
+    },
+    {
+      "id": "deep2610_12549v1",
+      "title": "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback",
+      "authors": [
+        "Lee, Jaewoo",
+        "Seo, Jeongyeon",
+        "Cho, Sihyun",
+        "Choe, Gyeongrak",
+        "Wang, Yutong",
+        "Saravanan, Bavin",
+        "Huang, Jia-Bin",
+        "Huang, Furong",
+        "Scherer, Sebastian",
+        "Shi, Guanya",
+        "Kim, H. Jin",
+        "Lee, Seungjae",
+        "Lee, Dongjae"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.12549",
+      "arxiv_version": "2610.12549v1",
+      "source_url": "https://arxiv.org/abs/2610.12549v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.12549v1",
+      "source_sha256": "806a062274e161640ac60b0babe87401651c6d1ef394cc12fbad42a432275484",
+      "metadata_fields": {
+        "citation_title": [
+          "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback"
+        ],
+        "citation_author": [
+          "Lee, Jaewoo",
+          "Seo, Jeongyeon",
+          "Cho, Sihyun",
+          "Choe, Gyeongrak",
+          "Wang, Yutong",
+          "Saravanan, Bavin",
+          "Huang, Jia-Bin",
+          "Huang, Furong",
+          "Scherer, Sebastian",
+          "Shi, Guanya",
+          "Kim, H. Jin",
+          "Lee, Seungjae",
+          "Lee, Dongjae"
+        ],
+        "citation_date": [
+          "2026/10/08"
+        ],
+        "citation_online_date": [
+          "2026/10/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.12549"
+        ],
+        "citation_arxiv_id": [
+          "2610.12549"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Fly-by-Code%3A+Embodied+Coding+Agents+for+Aerial+Manipulation+with+Active+Visual+and+Physical+Feedback%22"
+    },
+    {
+      "id": "deep2610_27389v1",
+      "title": "Fixed-Size Active Statistical Inference",
+      "authors": [
+        "Skalnes, Erik",
+        "Oberst, Michael"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.27389",
+      "arxiv_version": "2610.27389v1",
+      "source_url": "https://arxiv.org/abs/2610.27389v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.27389v1",
+      "source_sha256": "3a9f74d9110ab67c56189c703842980ef3aaf477a2e93f774bcfe8be4480b585",
+      "metadata_fields": {
+        "citation_title": [
+          "Fixed-Size Active Statistical Inference"
+        ],
+        "citation_author": [
+          "Skalnes, Erik",
+          "Oberst, Michael"
+        ],
+        "citation_date": [
+          "2026/10/19"
+        ],
+        "citation_online_date": [
+          "2026/10/19"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.27389"
+        ],
+        "citation_arxiv_id": [
+          "2610.27389"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Fixed-Size+Active+Statistical+Inference%22"
+    },
+    {
+      "id": "deep2610_34681v1",
+      "title": "Pro-Active Inference",
+      "authors": [
+        "Wu, Skyler",
+        "Nair, Yash",
+        "Maechler, Antoine",
+        "Candès, Emmanuel J."
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.34681",
+      "arxiv_version": "2610.34681v1",
+      "source_url": "https://arxiv.org/abs/2610.34681v1",
+      "metadata_source_url": "https://arxiv.org/abs/2610.34681",
+      "source_sha256": "a723e6e17c9215ba14172ea9731a680006ab183898a5c46e29865491c5b48125",
+      "metadata_fields": {
+        "citation_title": [
+          "Pro-Active Inference"
+        ],
+        "citation_author": [
+          "Wu, Skyler",
+          "Nair, Yash",
+          "Maechler, Antoine",
+          "Candès, Emmanuel J."
+        ],
+        "citation_date": [
+          "2026/10/26"
+        ],
+        "citation_online_date": [
+          "2026/10/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2610.34681"
+        ],
+        "citation_arxiv_id": [
+          "2610.34681"
+        ]
+      },
+      "formal_status": "not_checked_except_separate_publisher_record",
+      "reading_scope": "See individual deep-audit reports; metadata collection itself is not full-text reading",
+      "scholar_url": "https://scholar.google.com/scholar?q=%22Pro-Active+Inference%22"
+    }
+  ],
+  "publisher_records": [
+    {
+      "source_url": "https://proceedings.mlr.press/v306/liu26bu.html",
+      "source_sha256": "342d3e16bf8fe384cc4a99db476ded8637bd27d072457ad4c20c4e40ae071f93",
+      "metadata_fields": {
+        "citation_publisher": [
+          "PMLR"
+        ],
+        "citation_title": [
+          "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning"
+        ],
+        "citation_language": [
+          "en"
+        ],
+        "citation_abstract_html_url": [
+          "https://proceedings.mlr.press/v306/liu26bu.html"
+        ],
+        "citation_pdf_url": [
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26bu/liu26bu.pdf"
+        ],
+        "citation_firstpage": [
+          "77119"
+        ],
+        "citation_lastpage": [
+          "77140"
+        ],
+        "citation_author": [
+          "Huihan Liu",
+          "Changyeon Kim",
+          "Bo Liu",
+          "Minghuan Liu",
+          "Yuke Zhu"
+        ],
+        "citation_publication_date": [
+          "2026/09/29"
+        ],
+        "citation_inbook_title": [
+          "International Conference on Machine Learning"
+        ],
+        "citation_conference_title": [
+          "International Conference on Machine Learning"
+        ],
+        "citation_issn": [
+          "2640-3498"
+        ]
+      }
+    }
+  ],
+  "errors": []
+}
