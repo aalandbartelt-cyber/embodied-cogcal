@@ -1,0 +1,8 @@
+{
+  "kind": "queue_process_missing_after_turn_interruption",
+  "old_queue_pid": 2595058,
+  "old_queue_session": 57985,
+  "observed_utc": "2026-11-14T12:23:17.999636+00:00",
+  "no_rollout_directory": true,
+  "normal_training_completion_absent": true
+}

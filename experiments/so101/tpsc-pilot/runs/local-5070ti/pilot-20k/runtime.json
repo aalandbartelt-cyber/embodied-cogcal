@@ -1,0 +1,19 @@
+{
+  "worker": {
+    "ready": true,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model",
+    "image_keys": [
+      "observation.images.camera1",
+      "observation.images.camera2",
+      "observation.images.camera3",
+      "observation.images.empty_camera_0"
+    ]
+  },
+  "mujoco_version": "4.0.1",
+  "manifest_sha256": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+  "dataset_robot_type": "so_follower",
+  "adapter": "simulation_all_6_degrees_to_radians_UNVERIFIED_SOURCE",
+  "claim": "capability_screen_not_tpsc_result",
+  "fps": 30
+}

@@ -1,0 +1,163 @@
+{
+  "kind": "fixed_first_five_episode_visual_screen_not_success_labels",
+  "fractions": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    0.98
+  ],
+  "frames": {
+    "0": {
+      "episode_index": 0,
+      "column": 0,
+      "time_s": 0.0
+    },
+    "223": {
+      "episode_index": 0,
+      "column": 1,
+      "time_s": 7.446666666666667
+    },
+    "447": {
+      "episode_index": 0,
+      "column": 2,
+      "time_s": 14.893333333333334
+    },
+    "670": {
+      "episode_index": 0,
+      "column": 3,
+      "time_s": 22.34
+    },
+    "894": {
+      "episode_index": 0,
+      "column": 4,
+      "time_s": 29.78666666666667
+    },
+    "1095": {
+      "episode_index": 0,
+      "column": 5,
+      "time_s": 36.48866666666667
+    },
+    "1117": {
+      "episode_index": 1,
+      "column": 0,
+      "time_s": 37.233333333333334
+    },
+    "1364": {
+      "episode_index": 1,
+      "column": 1,
+      "time_s": 45.46666666666667
+    },
+    "1611": {
+      "episode_index": 1,
+      "column": 2,
+      "time_s": 53.7
+    },
+    "1858": {
+      "episode_index": 1,
+      "column": 3,
+      "time_s": 61.93333333333334
+    },
+    "2105": {
+      "episode_index": 1,
+      "column": 4,
+      "time_s": 70.16666666666667
+    },
+    "2327": {
+      "episode_index": 1,
+      "column": 5,
+      "time_s": 77.57666666666667
+    },
+    "2352": {
+      "episode_index": 2,
+      "column": 0,
+      "time_s": 78.4
+    },
+    "2595": {
+      "episode_index": 2,
+      "column": 1,
+      "time_s": 86.49333333333334
+    },
+    "2838": {
+      "episode_index": 2,
+      "column": 2,
+      "time_s": 94.58666666666667
+    },
+    "3080": {
+      "episode_index": 2,
+      "column": 3,
+      "time_s": 102.68
+    },
+    "3323": {
+      "episode_index": 2,
+      "column": 4,
+      "time_s": 110.77333333333334
+    },
+    "3542": {
+      "episode_index": 2,
+      "column": 5,
+      "time_s": 118.05733333333333
+    },
+    "3566": {
+      "episode_index": 3,
+      "column": 0,
+      "time_s": 118.86666666666667
+    },
+    "3806": {
+      "episode_index": 3,
+      "column": 1,
+      "time_s": 126.86666666666667
+    },
+    "4046": {
+      "episode_index": 3,
+      "column": 2,
+      "time_s": 134.86666666666667
+    },
+    "4286": {
+      "episode_index": 3,
+      "column": 3,
+      "time_s": 142.86666666666667
+    },
+    "4526": {
+      "episode_index": 3,
+      "column": 4,
+      "time_s": 150.86666666666667
+    },
+    "4742": {
+      "episode_index": 3,
+      "column": 5,
+      "time_s": 158.06666666666666
+    },
+    "4766": {
+      "episode_index": 4,
+      "column": 0,
+      "time_s": 158.86666666666667
+    },
+    "5008": {
+      "episode_index": 4,
+      "column": 1,
+      "time_s": 166.94
+    },
+    "5250": {
+      "episode_index": 4,
+      "column": 2,
+      "time_s": 175.01333333333335
+    },
+    "5493": {
+      "episode_index": 4,
+      "column": 3,
+      "time_s": 183.08666666666667
+    },
+    "5735": {
+      "episode_index": 4,
+      "column": 4,
+      "time_s": 191.16000000000003
+    },
+    "5953": {
+      "episode_index": 4,
+      "column": 5,
+      "time_s": 198.42600000000002
+    }
+  }
+}

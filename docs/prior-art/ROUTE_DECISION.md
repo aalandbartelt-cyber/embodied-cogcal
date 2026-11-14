@@ -6,7 +6,15 @@
 **最新更正：**[TPSC 损失忠实性审计](tpsc-loss-fidelity-correction.md) 发现旧 toy 的逐步 hinge
 不能代表所有 BAS-VLA chunk 布局：同一例子按展平 chunk 求距时损失为 0。公开 artifact 是 per_step，
 仍保留为明确布局的比较对象；尚无策略伤害证据。等未来损失也不能证明共同正确动作（可能共同失败）。
-因此 TPSC 的失效和方法主张继续冻结，不把旧数学例子作为立项证据。本地5070Ti普通载体训练继续。
+因此 TPSC 的失效和方法主张继续冻结，不把旧数学例子作为立项证据。
+本地5070Ti已完成20k普通训练和原20条能力pilot：**0/20任务成功，载体未就绪**。
+见[当前go/no-go](../../experiments/so101/tpsc-pilot/runs/local-5070ti/go-no-go.md)。
+这不支持TPSC失效或改进结论，也不支持立即扩大训练；当前没有可以冻结的新方法方向。
+
+**支持集合再更正：**[交集非空不等于必须动作相同](tpsc-support-identifiability-correction.md)。
+原脚本的共享/早分叉标签不能充当“所有正确策略”的oracle；偏离单一teacher不等于任务伤害。
+新增[经典对照与真实rollout审计](tpsc-classical-controls-and-discovery.md)要求同池配对BC、
+合理margin与多模态等对照。当前尚无可冻结的新方法方向。
 
 **用户确认的换题约束（2026-11-14）：**保留低成本 SO-101、A100、同体仿真—真机；
 核心研究问题可以更换。后续检索不要求延续 ECCBF、认知偏差、语言冲突或校准主题。

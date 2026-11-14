@@ -3,6 +3,13 @@
 日期：2026-11-14。用户最新决定选题阶段先用本地 RTX 5070 Ti；A100 路径保留用于后续规模实验。本文只建立可运行的 SO-101 SmolVLA 基线，不代表 TPSC 已立项或查新通过。
 第一阶段的目标是确认“策略能在同体数据协议上运行”，第二阶段才检验 shared-prefix 失效。
 
+**当前结果：本地固定20k普通训练和原20条learned pilot均已完成，任务成功0/20。**
+训练中断后从最新完整18k状态续跑到20k，未挑best checkpoint；采样器恢复限制有记录。
+见[go/no-go](../experiments/so101/tpsc-pilot/runs/local-5070ti/go-no-go.md)。
+当前判定载体未就绪；正确共享前缀不可识别，uniform separation未测试。
+**先解决匹配任务数据/相机/关节约定及可执行teacher，不因本次失败直接迁移A100重跑或实现TPSC。**
+下文安装/训练指令保留为可复用入口，不能当作正在运行或需立即重启的任务。
+
 科学门槛更新：[固定源码损失审计](prior-art/tpsc-loss-fidelity-correction.md)已收回旧toy的一般性解释。
 后续比较必须写明per_step或flattened_chunk、完整目标preset与normalization；
 正margin惩罚不是已经测得的前缀伤害。现有本地普通载体训练不因这个更正而改名成TPSC方法实验。

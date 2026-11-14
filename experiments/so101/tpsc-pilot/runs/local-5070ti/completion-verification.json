@@ -1,0 +1,59 @@
+{
+  "observed_utc": "2026-11-14T13:10:53.493092+00:00",
+  "kind": "bounded_completion_verification_not_research_goal_completion",
+  "analysis_python": "/home/mary/miniconda3/envs/cogcal/bin/python",
+  "checks": [
+    {
+      "command": "pytest tests/test_docs.py tests/test_tpsc_policy_contract.py -o addopts= -q (plugin autoload disabled)",
+      "exit_code": 0,
+      "passed": 9
+    },
+    {
+      "command": "ruff check audit_learned_run.py and reproduce_with_contact_trace.py",
+      "exit_code": 0
+    },
+    {
+      "command": "audit_learned_run.py against original pilot manifest",
+      "exit_code": 0,
+      "episodes": 20,
+      "pairs": 10,
+      "chunks": 600,
+      "successes": 0
+    },
+    {
+      "command": "Preserved degree-assumption and both original manifest hashes",
+      "files": 3,
+      "passed": true
+    },
+    {
+      "command": "Raw experiment inventories, resolving paths according to each inventory schema",
+      "files": 68,
+      "passed": true
+    },
+    {
+      "command": "JSON/JSONL parse and recursive finite float check across new raw directories",
+      "files": 76,
+      "passed": true
+    },
+    {
+      "command": "External source hashes and reproduction output hashes",
+      "source_files": 8,
+      "output_files": 19,
+      "passed": true
+    },
+    {
+      "command": "Local Markdown links in nine updated entry/decision documents",
+      "links": 58,
+      "passed": true
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "limits": [
+    "No new full-suite or cloud-CI run in this bounded completion check.",
+    "Formal TPSC intervention, A100 and physical hardware not run.",
+    "Full research-direction goal remains active and unsatisfied."
+  ]
+}

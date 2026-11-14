@@ -1,0 +1,159 @@
+{
+  "kind": "exploratory_correct_tcp_and_gripper_physics_probe_not_vla_or_teacher_qualification",
+  "manifest_sha256": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+  "episode_id": "shared_left_right_0000_left",
+  "mujoco_version": "4.0.1",
+  "gripper_open_rad": 1.4,
+  "gripper_closed_target_rad": -0.17,
+  "tcp_site": "gripperframe",
+  "fixed_trials": 5,
+  "geometry_control": {
+    "red_full_size_m": [
+      0.025,
+      0.025,
+      0.07
+    ],
+    "red_mass_kg": 0.10290000000000003,
+    "original_red_mass_kg": 0.10290000000000003,
+    "original_XML_and_manifest_unchanged": true
+  },
+  "variant": "low_vertical_approach_position_only_lift",
+  "grasp_target_z_m": 0.055,
+  "results": [
+    {
+      "trial": 0,
+      "offset_m": -0.035,
+      "ik": {
+        "above": {
+          "error_m": 0.012848441946908562,
+          "axis_down_cosine": 0.9977359212327589
+        },
+        "grasp": {
+          "error_m": 0.0004497253009913945,
+          "axis_down_cosine": 0.9999999973978919
+        },
+        "lift": {
+          "error_m": 0.001918458576223414,
+          "axis_down_cosine": 0.5149672269389359
+        }
+      },
+      "final_target_xyz": [
+        0.14278837154161267,
+        -0.018999579383601407,
+        0.03489224457978382
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 1,
+      "offset_m": -0.02,
+      "ik": {
+        "above": {
+          "error_m": 0.017517300973254556,
+          "axis_down_cosine": 0.9990955876241325
+        },
+        "grasp": {
+          "error_m": 4.8779139310694547e-05,
+          "axis_down_cosine": 0.9999999998830995
+        },
+        "lift": {
+          "error_m": 0.0018276902520783882,
+          "axis_down_cosine": 0.5203685931730448
+        }
+      },
+      "final_target_xyz": [
+        0.13958018149125792,
+        -0.018647088355306325,
+        0.03489224457978377
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 2,
+      "offset_m": 0.0,
+      "ik": {
+        "above": {
+          "error_m": 0.019463253449952474,
+          "axis_down_cosine": 0.9951623405902479
+        },
+        "grasp": {
+          "error_m": 2.9898724998197196e-05,
+          "axis_down_cosine": 0.9999999998247517
+        },
+        "lift": {
+          "error_m": 0.0018893500634733136,
+          "axis_down_cosine": 0.5000362195636604
+        }
+      },
+      "final_target_xyz": [
+        0.15946702837858984,
+        -0.020784173598300842,
+        0.012392244579783832
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 3,
+      "offset_m": 0.02,
+      "ik": {
+        "above": {
+          "error_m": 0.026825484487651617,
+          "axis_down_cosine": 0.9896161052864084
+        },
+        "grasp": {
+          "error_m": 0.000929707567904332,
+          "axis_down_cosine": 0.9999999905822256
+        },
+        "lift": {
+          "error_m": 0.002079130562544878,
+          "axis_down_cosine": 0.44542308789636215
+        }
+      },
+      "final_target_xyz": [
+        0.14926815275431413,
+        -0.04095672135057893,
+        0.03489224457978387
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 4,
+      "offset_m": 0.035,
+      "ik": {
+        "above": {
+          "error_m": 0.03422186574683356,
+          "axis_down_cosine": 0.9853831095761257
+        },
+        "grasp": {
+          "error_m": 0.0016434530705866843,
+          "axis_down_cosine": 0.9999476865689333
+        },
+        "lift": {
+          "error_m": 0.0019976321671010913,
+          "axis_down_cosine": 0.42690322331310515
+        }
+      },
+      "final_target_xyz": [
+        0.12058949278293721,
+        0.011813365098036752,
+        0.012392244579783832
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    }
+  ],
+  "limitations": [
+    "Only first manifest episode tested; offsets exploratory, no success-rate claim.",
+    "No object pose reset, carry or attachment during dynamics; reset only before each trial.",
+    "No place or release phase; even a held lift does not qualify a pick-place teacher."
+  ]
+}

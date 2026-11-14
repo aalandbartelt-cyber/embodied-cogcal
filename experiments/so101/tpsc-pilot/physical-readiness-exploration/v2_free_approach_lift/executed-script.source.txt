@@ -1,0 +1,47 @@
+import sys,pathlib,json,time,hashlib
+sys.path.insert(0,'/home/mary/research/embodied-cogcal')
+import mujoco,numpy as np
+from simulation.so101.tpsc_scene import load_tpsc_scene,reset_tpsc_scene,placement_from_record
+from simulation.so101.scene import JOINT_NAMES,step_joint_targets
+root=pathlib.Path('/home/mary/research/embodied-cogcal');manifest=root/'experiments/so101/tpsc-pilot/manifest-pilot.jsonl';record=json.loads(manifest.read_text().splitlines()[0]);placement=placement_from_record(record);model,data=load_tpsc_scene();ik=mujoco.MjData(model)
+addr=[int(model.jnt_qposadr[model.joint(n).id]) for n in JOINT_NAMES];dofs=[int(model.jnt_dofadr[model.joint(n).id]) for n in JOINT_NAMES[:5]];sid=model.site('gripperframe').id
+low=model.actuator_ctrlrange[:5,0];high=model.actuator_ctrlrange[:5,1];down=np.array([0.,0.,-1.]);objid=model.body('red_object').id;fixed=model.body('gripper').id;moving=model.body('moving_jaw_so101_v1').id
+out=pathlib.Path('/tmp/tpsc-tcp-physics-probe-v2');out.mkdir(exist_ok=False)
+def skew(x):return np.array([[0,-x[2],x[1]],[x[2],0,-x[0]],[-x[1],x[0],0]])
+def solve(target,start,offset,orientation_weight=.08):
+ q=np.clip(start.copy(),low,high);best=None
+ for iteration in range(300):
+  ik.qpos[addr[:5]]=q;ik.qpos[addr[5]]=1.4;mujoco.mj_forward(model,ik)
+  R=ik.site_xmat[sid].reshape(3,3);axis=R[:,0];lateral=R[:,2];center=ik.site_xpos[sid]+offset*lateral
+  ep=target-center;eo=down-axis;err=np.r_[ep,orientation_weight*eo];score=float(err@err)
+  if best is None or score<best[0]:best=(score,q.copy(),float(np.linalg.norm(ep)),float(axis@down))
+  if np.linalg.norm(ep)<.002 and (orientation_weight==0 or axis@down>.995):break
+  jp=np.zeros((3,model.nv));jr=np.zeros((3,model.nv));mujoco.mj_jacSite(model,ik,jp,jr,sid)
+  jac=np.vstack((jp[:,dofs]-offset*skew(lateral)@jr[:,dofs],-orientation_weight*skew(axis)@jr[:,dofs]))
+  dq=jac.T@np.linalg.solve(jac@jac.T+1e-5*np.eye(6),err);norm=np.linalg.norm(dq)
+  if norm>.15:dq*=.15/norm
+  q=np.clip(q+dq,low,high)
+ return best[1],{'error_m':best[2],'axis_down_cosine':best[3]}
+results=[]
+for trial,offset in enumerate([-.035,-.02,0.,.02,.035]):
+ reset_tpsc_scene(model,data,placement);ik.qpos[:]=data.qpos
+ pan=np.arctan2(placement.red[1],placement.red[0]);starts=[np.array([pan,-.6,1.3,.8,0.]),np.array([pan,.6,-1.3,-.8,0.]),np.zeros(5)]
+ xyz=np.asarray(placement.red);above=xyz+np.array([0,0,.18]);options=[solve(above,s,offset,0.) for s in starts];q_above,meta_above=min(options,key=lambda x:x[1]['error_m']+.08*(1-x[1]['axis_down_cosine']))
+ q_grasp,meta_grasp=solve(np.array([xyz[0],xyz[1],.055]),q_above,offset);q_lift,meta_lift=solve(np.array([xyz[0],xyz[1],.19]),q_grasp,offset,0.)
+ phases=[('open',np.r_[np.zeros(5),1.4],1.),('approach',np.r_[q_above,1.4],2.),('descend',np.r_[q_grasp,1.4],1.5),('close',np.r_[q_grasp,0.],1.),('lift',np.r_[q_lift,0.],2.),('hold',np.r_[q_lift,0.],1.)]
+ trace=[];control_start=np.zeros(6);ticks=0;step=0
+ for phase,target,seconds in phases:
+  controls=np.linspace(control_start,target,round(seconds*30)+1)[1:]
+  for action in controls:
+   step+=1;goal=round(step/(30*model.opt.timestep));step_joint_targets(model,data,action,substeps=goal-ticks);ticks=goal
+   contacts=set()
+   for c in data.contact:
+    a,b=int(model.geom_bodyid[c.geom1]),int(model.geom_bodyid[c.geom2])
+    if a==objid:contacts.add(b)
+    if b==objid:contacts.add(a)
+   trace.append({'phase':phase,'sim_time':float(data.time),'q_rad':data.qpos[addr].tolist(),'command_rad':action.tolist(),'object_xyz':data.body('red_object').xpos.tolist(),'object_contact_fixed_finger':fixed in contacts,'object_contact_moving_finger':moving in contacts})
+  control_start=target
+ tail=trace[-15:];z=[r['object_xyz'][2] for r in tail];both=sum(r['object_contact_fixed_finger'] and r['object_contact_moving_finger'] for r in tail)
+ result={'trial':trial,'offset_m':offset,'ik':{'above':meta_above,'grasp':meta_grasp,'lift':meta_lift},'final_target_xyz':trace[-1]['object_xyz'],'tail15_z_range_m':float(np.ptp(z)),'tail15_both_finger_contacts':both,'held_lift_candidate':min(z)>.12 and np.ptp(z)<.005 and both>=10}
+ results.append(result);(out/f'trial-{trial}.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in trace));print(result,flush=True)
+(out/'summary.json').write_text(json.dumps({'kind':'exploratory_correct_tcp_and_gripper_physics_probe_not_vla_or_teacher_qualification','manifest_sha256':hashlib.sha256(manifest.read_bytes()).hexdigest(),'episode_id':record['episode_id'],'mujoco_version':mujoco.__version__,'gripper_open_rad':1.4,'gripper_closed_target_rad':0.,'tcp_site':'gripperframe','fixed_trials':5,'variant':'position_only_approach_and_lift_vertical_grasp','grasp_target_z_m':.055,'results':results,'limitations':['Only first manifest episode tested; offsets exploratory, no success-rate claim.','No object pose reset, carry or attachment during dynamics; reset only before each trial.','No place or release phase; even a held lift does not qualify a pick-place teacher.']},indent=2)+'\n')

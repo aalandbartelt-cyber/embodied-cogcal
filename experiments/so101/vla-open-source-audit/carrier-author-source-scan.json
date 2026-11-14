@@ -1,0 +1,41 @@
+{
+  "kind": "bounded_public_carrier_author_source_scan_not_comprehensive",
+  "observed_utc": "2026-11-14T13:06:49.201592+00:00",
+  "profile": "https://huggingface.co/ngocthuong2212",
+  "github_identity_source": "HF profile directly links thuongtran21112004-star",
+  "repositories": [
+    {
+      "repo": "thuongtran21112004-star/Mujoco-tutorial-AiR-lab",
+      "url": "https://github.com/thuongtran21112004-star/Mujoco-tutorial-AiR-lab",
+      "license": null,
+      "default_branch": "main",
+      "revision": "5750dc82e71d8478433114a228a245757922df8d",
+      "files": [
+        "README.md"
+      ],
+      "tree_truncated": false
+    },
+    {
+      "repo": "thuongtran21112004-star/realtosim",
+      "url": "https://github.com/thuongtran21112004-star/realtosim",
+      "license": null,
+      "default_branch": "main",
+      "revision": null,
+      "branch_http_status": 404,
+      "reading": "GitHub web page explicitly states repository empty; not a missing-repository inference."
+    },
+    {
+      "repo": "thuongtran21112004-star/Lerobot-act",
+      "url": "https://github.com/thuongtran21112004-star/Lerobot-act",
+      "license": null,
+      "default_branch": "main",
+      "revision": "457f063ca0c090e6ea3fb8053177ae0ec2539c50",
+      "files": [
+        "README.md"
+      ],
+      "tree_truncated": false
+    }
+  ],
+  "result": "These three public repositories do not provide the original recording scene/camera/controller/calibration source. Other repositories not inspected.",
+  "tpsc_data_or_scene_changed": false
+}

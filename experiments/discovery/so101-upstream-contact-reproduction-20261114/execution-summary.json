@@ -1,0 +1,84 @@
+{
+  "kind": "independent_upstream_controller_reproduction_not_tpsc_or_policy",
+  "revision": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "results": [
+    {
+      "scenario": "place",
+      "gate_error": null,
+      "metrics": {
+        "simulator": "MuJoCo 4.0.1",
+        "robot_model": "SO-101 calibrated MuJoCo XML from TheRobotStudio/SO-ARM100",
+        "physics_hz": 2000,
+        "video_hz": 60,
+        "source_xyz_m": [
+          0.2,
+          -0.075,
+          0.014
+        ],
+        "target_xyz_m": [
+          0.2,
+          0.075,
+          0.014
+        ],
+        "target_radius_m": 0.055,
+        "final_xyz_m": [
+          0.211224,
+          0.055722,
+          0.013999
+        ],
+        "xy_error_m": 0.022308,
+        "settled_on_table": true,
+        "detached": true,
+        "grasp_model": "friction contact between the two published jaw faces; no attachment, no pose writes",
+        "worst_interpenetration_mm": 0.0548,
+        "object_pose_writes": 0,
+        "success": true,
+        "success_contract": "cube detached, settled at table height, and centre within target radius",
+        "scenario": "place"
+      },
+      "wall_s": 1.6138321889993676
+    },
+    {
+      "scenario": "hover",
+      "gate_error": null,
+      "metrics": {
+        "simulator": "MuJoCo 4.0.1",
+        "robot_model": "SO-101 calibrated MuJoCo XML from TheRobotStudio/SO-ARM100",
+        "physics_hz": 2000,
+        "video_hz": 60,
+        "source_xyz_m": [
+          0.2,
+          -0.075,
+          0.014
+        ],
+        "target_xyz_m": [
+          0.2,
+          0.075,
+          0.014
+        ],
+        "target_radius_m": 0.055,
+        "final_xyz_m": [
+          0.195942,
+          0.075388,
+          0.083635
+        ],
+        "xy_error_m": 0.004076,
+        "settled_on_table": false,
+        "detached": false,
+        "grasp_model": "friction contact between the two published jaw faces; no attachment, no pose writes",
+        "worst_interpenetration_mm": 0.0399,
+        "object_pose_writes": 0,
+        "success": false,
+        "success_contract": "cube detached, settled at table height, and centre within target radius",
+        "scenario": "hover"
+      },
+      "wall_s": 1.4836889010002778
+    }
+  ],
+  "limitations": [
+    "Upstream box contact pads and friction2 differ from our official model.",
+    "One deterministic place and hover each; not benchmark success rate.",
+    "Goal/object coordinates are privileged scripted inputs; not learned policy.",
+    "No original project XML,manifest or formal 20-row result changed."
+  ]
+}

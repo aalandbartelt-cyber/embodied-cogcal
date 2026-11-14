@@ -25,10 +25,24 @@
 场景：`simulation/so101/tpsc_scene.xml`；接口：`simulation/so101/tpsc_scene.py`；
 生成器：`probes/generators/tpsc_pairs.py`；测试：`tests/test_tpsc_scene.py`。
 
+## 最新learned pilot结果（2026-11-14）
+
+本地RTX5070Ti完成固定20k普通carrier训练，并执行原20条manifest：**任务成功0/20、抬升0/20、放置0/20**。
+全部20条/10对/600个chunk与实测q已核验，未扩展120条。当前是**载体未就绪**，
+不能从动作差异推出正确共享前缀或uniform separation伤害；后者没有测试，TPSC方法未实现。
+完整选题目标尚未完成。
+
+结果入口：[一页go/no-go](runs/local-5070ti/go-no-go.md)、
+[全部10对距离与分叉表](runs/local-5070ti/pilot-20k-prefix-report.md)、
+[原始episode](runs/local-5070ti/pilot-20k/episodes.jsonl)、
+[完成证据hash](runs/local-5070ti/completed-evidence-inventory.json)。
+下文scripted结果与“未执行”段落保留历史，不代表当前状态。
+
 ## 三族任务
 
 - **shared_prefix**：红方块同一初始位置；左/右目标不同；抓取/抬升前缀相同。
-- **no_common_prefix**：红/蓝目标物体位置不同；从第一帧起接近动作就不同。
+- **no_common_prefix**：红/蓝目标物体位置不同；原脚本从第一帧起接近动作不同。
+  这不是所有成功策略无共同前缀的证明；仍可能共同等待/开爪，见[支持集合更正](../../../docs/prior-art/tpsc-support-identifiability-correction.md)。
 - **multi_valid**：红方块同一目标；中间 barrier；左/右两条路线都可成功。
 
 ## 复现
@@ -74,7 +88,7 @@ env -u PYTHONPATH PYTHONNOUSERSITE=1 PYTHONPATH=. \
   --kinematic-carry --out experiments/so101/tpsc-pilot/scripted-prefix-full-kinematic.json
 ```
 
-## 当前验证了什么
+## 原scripted资产验证了什么
 
 - MuJoCo 4.0.1 能加载 TPSC 场景（SO-101 XML + 双物体 + 可移动 goal/barrier）。
 - 20/120 条 manifest 的配对与桌面几何通过校验。
@@ -87,7 +101,7 @@ env -u PYTHONPATH PYTHONNOUSERSITE=1 PYTHONPATH=. \
   物理模式 pilot 0/20，说明当前脚本的抓取姿态尚未解决；这不影响 prefix 结构检查。
 - IK 最大误差 8.6 mm；720 个 waypoint 中 18 个未达到 4 mm 容差，已逐条记录。
 
-## 没验证什么
+## 原scripted资产没有验证什么
 
 - 没有 VLA/SmolVLA/BC 策略；scripted IK 只验证任务路径/前缀，不是策略行为。
 - kinematic-carry 不是物理抓取；final 56/120 是释放/接触结果，不是抓取 benchmark。
@@ -96,7 +110,7 @@ env -u PYTHONPATH PYTHONNOUSERSITE=1 PYTHONPATH=. \
 - 没有证明 TPSC 的失效机制；`scene-smoke.json` 不是科学结果。
 - qpos=0 渲染只用于检查场景布局，不代表机器人可达姿态。
 
-## 恢复后的审阅与 learned pilot
+## 恢复后的审阅与 learned pilot（历史启动记录）
 
 先保存的原资产提交为 `af47281`，审阅限制见 [REVIEW.md](REVIEW.md)。
 原 `scripted-prefix-*.json` 不覆盖；其 pair 表存在“最后重复覆盖”的限制。
@@ -119,3 +133,14 @@ SmolVLA strict load、CUDA前向/反向、有限[1,50,6] chunk通过。
 后续科学比较须先读[损失忠实性更正](../../../docs/prior-art/tpsc-loss-fidelity-correction.md)：
 逐步records与展平chunk的margin并不相同，旧toy不支持一般的BAS前缀伤害断言。
 只有能力和正确共享前缀成立，才比较明确布局、完整preset、归一化和匹配预算的分离干预。
+
+复核已完成的正式输出（不会改写原JSONL；`--out`必须不存在）：
+
+```bash
+env -u PYTHONPATH PYTHONNOUSERSITE=1 \
+  /home/mary/miniconda3/envs/cogcal/bin/python \
+  experiments/so101/tpsc-pilot/audit_learned_run.py \
+  --run experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k \
+  --manifest experiments/so101/tpsc-pilot/manifest-pilot.jsonl \
+  --out /tmp/tpsc-completed-run-audit-fresh.json
+```

@@ -1,0 +1,38 @@
+{
+  "kind": "external_scripted_contact_check_not_learned_policy_or_tpsc",
+  "repo": "https://github.com/FERBIN12/so101-manipulation-eval",
+  "revision": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "mujoco_version": "4.0.1",
+  "source_sha256": "b469e47d4626e6870dfe34aeea9e4dfcff91e73de56c50587e6884e2b3c6dedb",
+  "instrumentation_sha256": "df09ae1b209c908c5c5d1d1f0b201cfc354bbd7126c1454484e71fd6de8176a5",
+  "results": [
+    {
+      "scenario": "place",
+      "upstream_task_success": true,
+      "gate_error": null,
+      "physics_steps": 19000,
+      "unique_two_jaw_contact_while_lifted_steps": 5273,
+      "longest_two_jaw_lifted_duration_s": 2.6365,
+      "max_object_z_m": 0.08349789704414441,
+      "sample_stride_physics_steps": 33
+    },
+    {
+      "scenario": "hover",
+      "upstream_task_success": false,
+      "gate_error": null,
+      "physics_steps": 19000,
+      "unique_two_jaw_contact_while_lifted_steps": 6361,
+      "longest_two_jaw_lifted_duration_s": 2.6365,
+      "max_object_z_m": 0.08368481998661582,
+      "sample_stride_physics_steps": 33
+    }
+  ],
+  "limitations": [
+    "Two deterministic scenarios; no independent-episode success rate.",
+    "External collision pads/friction and 28mm cube differ from the original TPSC scene.",
+    "The teacher reads privileged object/goal positions; it is not an RGB/q/language policy.",
+    "Contact counters observe state after each physics step and do not change physics.",
+    "The external gate counts any jaw contact; our additional counter requires both unique jaws.",
+    "No real-hardware or same-contact-model equivalence has been established."
+  ]
+}

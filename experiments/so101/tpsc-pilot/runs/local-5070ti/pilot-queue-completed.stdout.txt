@@ -1,0 +1,8 @@
+{"time_utc": "2026-11-14T11:38:01.218661+00:00", "event": "queued", "training_pid": 87789, "queue_pid": 2560451}
+{"event": "queue_v1_cancelled_before_rollout", "time_utc": "2026-11-14T11:40:56.298686+00:00", "queue_pid": 2560451, "reason": "OSMesa unavailable locally; replace renderer with tested EGL. Training PID87789 untouched."}
+{"time_utc": "2026-11-14T11:41:30.281672+00:00", "event": "queued", "training_pid": 87789, "queue_pid": 2595058}
+{"event": "queue_v2_interrupted_no_rollout_resuming_from_latest_complete_18k", "old_training_pid": 87789, "resumed_training_pid": 3726809, "time_utc": "2026-11-14T12:23:17.999999+00:00"}
+{"time_utc": "2026-11-14T12:23:18.031491+00:00", "event": "queued", "training_pid": 3726809, "queue_pid": 3745766}
+{"time_utc": "2026-11-14T12:38:28.690004+00:00", "event": "starting_capability_screen", "command": ["/home/mary/miniconda3/envs/cogcal-sim/bin/python", "experiments/so101/tpsc-pilot/learned_rollout.py", "--manifest", "/home/mary/research/embodied-cogcal/experiments/so101/tpsc-pilot/manifest-pilot.jsonl", "--checkpoint", "/home/mary/research/embodied-cogcal/checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model", "--policy-python", "/home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python", "--out", "/home/mary/research/embodied-cogcal/experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k", "--control-steps", "300", "--execute-steps", "10"]}
+{"time_utc": "2026-11-14T12:44:24.774266+00:00", "event": "capability_screen_exit", "exit_code": 0}
+{"time_utc": "2026-11-14T12:44:24.782750+00:00", "event": "complete", "episodes": 20, "task_successes": 0, "capability_gate": "not_established_until_camera_and_adapter_validated", "shared_prefix_verdict": "not_identified_capability_not_established"}

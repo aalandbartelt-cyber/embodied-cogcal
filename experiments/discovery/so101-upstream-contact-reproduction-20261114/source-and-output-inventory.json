@@ -1,0 +1,156 @@
+{
+  "kind": "independent_external_controller_reproduction_source_and_output_inventory",
+  "repo": "https://github.com/FERBIN12/so101-manipulation-eval",
+  "revision": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "licenses": {
+    "code": "MIT",
+    "robot_assets": "Apache-2.0, upstream attribution retained"
+  },
+  "source_cache": "data/discovery/so101-manipulation-eval-20261114",
+  "source_files": [
+    {
+      "path": "src/sim/mujoco_pick_place.py",
+      "bytes": 8909,
+      "sha256": "b469e47d4626e6870dfe34aeea9e4dfcff91e73de56c50587e6884e2b3c6dedb"
+    },
+    {
+      "path": "src/sim/so101_kinematics.py",
+      "bytes": 4378,
+      "sha256": "fefb7659c6c9f2c789f7f0ef81b2c9ec9bf860d6a4d0da9154a38d3bb2961bb2"
+    },
+    {
+      "path": "src/sim/check_contact.py",
+      "bytes": 9403,
+      "sha256": "e6f9c507a6b238322b4d75028b5af5c681eb34b849cf3d7b31986a3630cb4331"
+    },
+    {
+      "path": "src/sim/cinecam.py",
+      "bytes": 4946,
+      "sha256": "484f075d63a1daf2dc464afa293a0099b0bd04b153de005085131a32d7f75fd6"
+    },
+    {
+      "path": "assets/so101/sim_replay.xml",
+      "bytes": 9361,
+      "sha256": "d68b503cd3120456cd22bad710ec775ace7ad395b0daa02402d4ddc4227cae8a"
+    },
+    {
+      "path": "assets/so101/so101_new_calib.xml",
+      "bytes": 16080,
+      "sha256": "ef1c54a2eb7654ba8062541a7b5a2b7c0c2fcc466dd6c07509f84be5c89ba2cf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1071,
+      "sha256": "bb7135a08032e73b8a888000ffe238cd689083ac13799db5954c0bdce85f9695"
+    },
+    {
+      "path": "assets/SO_ARM100_APACHE-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "execution-summary.json",
+      "bytes": 2571,
+      "sha256": "25f1332b2f2a1720b23c5277de298022ed0d0be48f87558b7a11b09dae31964b"
+    },
+    {
+      "path": "hover/execution-result.json",
+      "bytes": 897,
+      "sha256": "68fad172fcd74e37c2e70002db89a006559edeba09d1d89b5af3138fc73f9337"
+    },
+    {
+      "path": "hover/execution.stdout.txt",
+      "bytes": 248,
+      "sha256": "2d6526c528d25343ed5bdc8bfe72f384758e9f3c0033cec3f0a6986448575640"
+    },
+    {
+      "path": "hover/mujoco_hover_metrics.json",
+      "bytes": 743,
+      "sha256": "456e2383e9bfbcf3047d57078af07e65b8f8403e27906ee21c007b0076f8dc5a"
+    },
+    {
+      "path": "hover/mujoco_hover_trace.json",
+      "bytes": 159537,
+      "sha256": "1ddb3ac79c4243cdb0ad956a8871891213c4c7028966b75a996b9e9bd3cc0d8a"
+    },
+    {
+      "path": "instrumented/hover/execution.stdout.txt",
+      "bytes": 248,
+      "sha256": "2d6526c528d25343ed5bdc8bfe72f384758e9f3c0033cec3f0a6986448575640"
+    },
+    {
+      "path": "instrumented/hover/measured-contacts.trace.jsonl",
+      "bytes": 269274,
+      "sha256": "83435df90ca8c324e5386059e498f79a3c47ad2d283ce7d4fd5140a9eab2377c"
+    },
+    {
+      "path": "instrumented/hover/mujoco_hover_metrics.json",
+      "bytes": 743,
+      "sha256": "456e2383e9bfbcf3047d57078af07e65b8f8403e27906ee21c007b0076f8dc5a"
+    },
+    {
+      "path": "instrumented/hover/mujoco_hover_trace.json",
+      "bytes": 159537,
+      "sha256": "1ddb3ac79c4243cdb0ad956a8871891213c4c7028966b75a996b9e9bd3cc0d8a"
+    },
+    {
+      "path": "instrumented/independent-contact-audit.json",
+      "bytes": 1632,
+      "sha256": "ff16e1d8286bba628b1f917cf09602e46d9b0f11c7e756b323759a00594c87f0"
+    },
+    {
+      "path": "instrumented/place/execution.stdout.txt",
+      "bytes": 247,
+      "sha256": "ccf8e9dace94c43c6e5bd9ed6395b32f78df827c94b8ff892696e595cb5125c0"
+    },
+    {
+      "path": "instrumented/place/measured-contacts.trace.jsonl",
+      "bytes": 269652,
+      "sha256": "1e253d7be084103cf3aa9ae033c9208a7c37dd73cc4c3019bb8a7924413522af"
+    },
+    {
+      "path": "instrumented/place/mujoco_pick_place_metrics.json",
+      "bytes": 740,
+      "sha256": "0467e9100e4ebcc34bf0e764b8795054f42e3561a75f29d2423b1dabe979aadb"
+    },
+    {
+      "path": "instrumented/place/mujoco_pick_place_trace.json",
+      "bytes": 159469,
+      "sha256": "cd519eeafad9f7c828db4b80ca901f7b71723a7b46c0e44e7b5b88b616c951b4"
+    },
+    {
+      "path": "place/execution-result.json",
+      "bytes": 894,
+      "sha256": "1660aef57bec45d3c8c376a584bb298187f44881713fb581bf92e84f373b7826"
+    },
+    {
+      "path": "place/execution.stdout.txt",
+      "bytes": 247,
+      "sha256": "ccf8e9dace94c43c6e5bd9ed6395b32f78df827c94b8ff892696e595cb5125c0"
+    },
+    {
+      "path": "place/mujoco_pick_place_metrics.json",
+      "bytes": 740,
+      "sha256": "0467e9100e4ebcc34bf0e764b8795054f42e3561a75f29d2423b1dabe979aadb"
+    },
+    {
+      "path": "place/mujoco_pick_place_trace.json",
+      "bytes": 159469,
+      "sha256": "cd519eeafad9f7c828db4b80ca901f7b71723a7b46c0e44e7b5b88b616c951b4"
+    },
+    {
+      "path": "reproduce_with_contact_trace.py",
+      "bytes": 6165,
+      "sha256": "df09ae1b209c908c5c5d1d1f0b201cfc354bbd7126c1454484e71fd6de8176a5"
+    }
+  ],
+  "upstream_source_git_status": "",
+  "limitations": [
+    "No model source files copied into the public project; fetch exact revision to reproduce.",
+    "The external model adds explicit pads, a pinch-centre site and collision filtering; friction2.0 and physics2kHz are not hardware calibrated.",
+    "The upstream gate is a heuristic; both-unique-finger counts were additionally instrumented independently.",
+    "Does not replace or modify the frozen TPSC task/rollout."
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "kind": "adaptive_controller_debugging_not_independent_episode_experiment",
+  "saved_utc": "2026-11-14T12:25:41.221603+00:00",
+  "variants": [
+    {
+      "variant": "v1_vertical_all",
+      "trials": 5,
+      "held_lift_candidates": 0,
+      "same_single_episode_id": "shared_left_right_0000_left",
+      "script_sha256": "83d9faddb621a9511a1496e8fcf02aa476c4608b49c29a23bc1c4542a4fb72e8",
+      "summary_sha256": "402dd087a93724a89ec52870cb3e6932f7e0fc3b03c3b86fcfae1598d5550f82"
+    },
+    {
+      "variant": "v2_free_approach_lift",
+      "trials": 5,
+      "held_lift_candidates": 0,
+      "same_single_episode_id": "shared_left_right_0000_left",
+      "script_sha256": "124f5a3c484a1532695a0d8321dc9200dda4578cf0bd9e46836f81f8ac8e9792",
+      "summary_sha256": "17fe958a6d26407b5d39d6c153f67146d54e09609ef7c9ca48af0faa1ae2018e"
+    },
+    {
+      "variant": "v3_width_control",
+      "trials": 5,
+      "held_lift_candidates": 0,
+      "same_single_episode_id": "shared_left_right_0000_left",
+      "script_sha256": "2fdbaeabb2692bcbb5e9143ff99e5ed4a86ac811e17803e31a711f75d1d02dcd",
+      "summary_sha256": "a2cf1bfd87b7773b996fe70ec3a7c39f6e4abd4f9ffaa688f3dfbb8a9284b1e1"
+    },
+    {
+      "variant": "v4_width_close_control",
+      "trials": 5,
+      "held_lift_candidates": 0,
+      "same_single_episode_id": "shared_left_right_0000_left",
+      "script_sha256": "eb1c6200973223ee74229fb56e7cd6b9ba6cf0c7da93cdecfa82f4e8f8651b5e",
+      "summary_sha256": "a31e317af21a319ba89afa454ea02e738671015dc7cc1fb2acb51c0fdc15118a"
+    },
+    {
+      "variant": "v5_low_vertical_approach",
+      "trials": 5,
+      "held_lift_candidates": 0,
+      "same_single_episode_id": "shared_left_right_0000_left",
+      "script_sha256": "6ec88c0af247fb68548f924293c795ff49d6206ec69acc41299036c753e31b35",
+      "summary_sha256": "c3ea457063ec6c8965eb58af9cead96fe398fe12eb528b12c2236de10c075d70"
+    }
+  ],
+  "total_debug_trials": 25,
+  "independent_initial_cases": 1,
+  "original_scene_sha256": "29134859f807b65612838e7ab6cac4482ba050960f9db971a8cc5d2a81ce5692",
+  "original_manifest_sha256": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+  "files": [
+    {
+      "path": "v1_vertical_all/executed-script.source.txt",
+      "bytes": 4834,
+      "sha256": "83d9faddb621a9511a1496e8fcf02aa476c4608b49c29a23bc1c4542a4fb72e8"
+    },
+    {
+      "path": "v1_vertical_all/summary.json",
+      "bytes": 4075,
+      "sha256": "402dd087a93724a89ec52870cb3e6932f7e0fc3b03c3b86fcfae1598d5550f82"
+    },
+    {
+      "path": "v1_vertical_all/trial-0.jsonl",
+      "bytes": 119031,
+      "sha256": "a060af7f43bba5cbbee745a72bd9276e89ba03e435941eaeafe880724c801ffb"
+    },
+    {
+      "path": "v1_vertical_all/trial-1.jsonl",
+      "bytes": 118365,
+      "sha256": "61dbbf810693fc2025c94dad505a0d2587d3d59747693b7a134ab533dbb5cd47"
+    },
+    {
+      "path": "v1_vertical_all/trial-2.jsonl",
+      "bytes": 118081,
+      "sha256": "472ebfc46a9f2a0b7451c61911ce7aa5d590c6eb9dceae584116dc13b9a0c650"
+    },
+    {
+      "path": "v1_vertical_all/trial-3.jsonl",
+      "bytes": 118297,
+      "sha256": "e85bdbdd848b9e4e8db349f675109cc6d01dc3f5fa98bc192b2cbdaa067134a0"
+    },
+    {
+      "path": "v1_vertical_all/trial-4.jsonl",
+      "bytes": 118504,
+      "sha256": "dde045333fdc2da3ed5d4f49650f1144672ff8ff962d3594651f88b0fffbc5b2"
+    },
+    {
+      "path": "v2_free_approach_lift/executed-script.source.txt",
+      "bytes": 4982,
+      "sha256": "124f5a3c484a1532695a0d8321dc9200dda4578cf0bd9e46836f81f8ac8e9792"
+    },
+    {
+      "path": "v2_free_approach_lift/kinematic-grasp-g0.0.png",
+      "bytes": 75539,
+      "sha256": "1e3f2bb774da56eca4cf03f71d4be0a71fbbf45bd463884cecabd0fce02f0ab0"
+    },
+    {
+      "path": "v2_free_approach_lift/kinematic-grasp-g1.4.png",
+      "bytes": 79160,
+      "sha256": "7e07fbfc27b5e403dd721200e2f726c4776a0a41661446d8c1455d3c7b597d34"
+    },
+    {
+      "path": "v2_free_approach_lift/summary.json",
+      "bytes": 4169,
+      "sha256": "17fe958a6d26407b5d39d6c153f67146d54e09609ef7c9ca48af0faa1ae2018e"
+    },
+    {
+      "path": "v2_free_approach_lift/trial-0.jsonl",
+      "bytes": 118340,
+      "sha256": "35bba47c5029c8a25172a20fda54859c9e47066b9300a5588e0f0a918c8539df"
+    },
+    {
+      "path": "v2_free_approach_lift/trial-1.jsonl",
+      "bytes": 118249,
+      "sha256": "3b843ba48effba8cc1f10754ec157edd007446538b5d3e6eddc79b3d55eca299"
+    },
+    {
+      "path": "v2_free_approach_lift/trial-2.jsonl",
+      "bytes": 118173,
+      "sha256": "e9b621a65633aceeef8d697ddb4221c301f78b7840e47d8a6423a956e1e6d138"
+    },
+    {
+      "path": "v2_free_approach_lift/trial-3.jsonl",
+      "bytes": 117981,
+      "sha256": "5ce8d32e328261b94cfa983cb115a48f5e18656d32a3722709a0fc0cf56c4ad4"
+    },
+    {
+      "path": "v2_free_approach_lift/trial-4.jsonl",
+      "bytes": 116353,
+      "sha256": "7a11a7b5825b7c09b2d81ec51607ffaf5ddc85a067ec3b0987a25410d6454b51"
+    },
+    {
+      "path": "v3_width_control/executed-script.source.txt",
+      "bytes": 5455,
+      "sha256": "2fdbaeabb2692bcbb5e9143ff99e5ed4a86ac811e17803e31a711f75d1d02dcd"
+    },
+    {
+      "path": "v3_width_control/summary.json",
+      "bytes": 4401,
+      "sha256": "a2cf1bfd87b7773b996fe70ec3a7c39f6e4abd4f9ffaa688f3dfbb8a9284b1e1"
+    },
+    {
+      "path": "v3_width_control/trial-0.jsonl",
+      "bytes": 118291,
+      "sha256": "15acc470205ae7a857a2f748dce9918de3e9cea277fc013356d621860a8cdd20"
+    },
+    {
+      "path": "v3_width_control/trial-1.jsonl",
+      "bytes": 118141,
+      "sha256": "804a4c9298ff9b99264c1a48fec8b2f3d51dcb75c3962d0a42a690a1fed5fa8e"
+    },
+    {
+      "path": "v3_width_control/trial-2.jsonl",
+      "bytes": 118107,
+      "sha256": "92a86f2d3cb0d93fdae13b219bd200d8b81e8131803e69aa1040f88fe89d347c"
+    },
+    {
+      "path": "v3_width_control/trial-3.jsonl",
+      "bytes": 117872,
+      "sha256": "b5af12e9160e753a7ef87678321824c1dec63f6790da7531bafa33494a1d277d"
+    },
+    {
+      "path": "v3_width_control/trial-4.jsonl",
+      "bytes": 116138,
+      "sha256": "0580f0c1451c6691bbf245f97c729a2d2c2e1bcdad638881b6422dc333cd76cf"
+    },
+    {
+      "path": "v4_width_close_control/executed-script.source.txt",
+      "bytes": 5469,
+      "sha256": "eb1c6200973223ee74229fb56e7cd6b9ba6cf0c7da93cdecfa82f4e8f8651b5e"
+    },
+    {
+      "path": "v4_width_close_control/summary.json",
+      "bytes": 4406,
+      "sha256": "a31e317af21a319ba89afa454ea02e738671015dc7cc1fb2acb51c0fdc15118a"
+    },
+    {
+      "path": "v4_width_close_control/trial-0.jsonl",
+      "bytes": 118398,
+      "sha256": "8ae66d05648de082e449b57ae79926e7f61aabb334bc3470ac6b8bd22ddc02a6"
+    },
+    {
+      "path": "v4_width_close_control/trial-1.jsonl",
+      "bytes": 118219,
+      "sha256": "497aa4483bc867474664c900ef64ededcf4b6543517f58a74a2fe3db6a2d99dd"
+    },
+    {
+      "path": "v4_width_close_control/trial-2.jsonl",
+      "bytes": 118032,
+      "sha256": "900d8af8425d8567316f4374fa2ed8f6eb3dc624951869595de28aeb08ed9492"
+    },
+    {
+      "path": "v4_width_close_control/trial-3.jsonl",
+      "bytes": 117885,
+      "sha256": "8d0a56ebb2314afde652ed6eeb66170c984870b7a67217de05a3de8274018f0b"
+    },
+    {
+      "path": "v4_width_close_control/trial-4.jsonl",
+      "bytes": 116196,
+      "sha256": "0b9a16c788df0d36c7e6a2ac8bb42e3746e057b85e40c0803e973dccc7e649e1"
+    },
+    {
+      "path": "v5_low_vertical_approach/executed-script.source.txt",
+      "bytes": 5453,
+      "sha256": "6ec88c0af247fb68548f924293c795ff49d6206ec69acc41299036c753e31b35"
+    },
+    {
+      "path": "v5_low_vertical_approach/summary.json",
+      "bytes": 4394,
+      "sha256": "c3ea457063ec6c8965eb58af9cead96fe398fe12eb528b12c2236de10c075d70"
+    },
+    {
+      "path": "v5_low_vertical_approach/trial-0.jsonl",
+      "bytes": 118018,
+      "sha256": "c1ae54632f17b29e80889f7f75aef79c2a1cec4111e83656fffce24ba458e7be"
+    },
+    {
+      "path": "v5_low_vertical_approach/trial-1.jsonl",
+      "bytes": 117715,
+      "sha256": "d8b90620e70e63748004e988110e872f2b4a896e3b0e8807b33ae912e6a396ab"
+    },
+    {
+      "path": "v5_low_vertical_approach/trial-2.jsonl",
+      "bytes": 117940,
+      "sha256": "2b69b519374d0dc2412d8d7ac2e9c2c60b1932fa25bc0ad1c4b9c4623f0130c8"
+    },
+    {
+      "path": "v5_low_vertical_approach/trial-3.jsonl",
+      "bytes": 117664,
+      "sha256": "5a8b7cb0fda4654be87db02c946e89fa9de4a230db686ba6d78479259631c0a6"
+    },
+    {
+      "path": "v5_low_vertical_approach/trial-4.jsonl",
+      "bytes": 116443,
+      "sha256": "b54253e5b7cf494a0b1a0ee140a7668c85d007ef88590f4270144a90aaba7286"
+    }
+  ],
+  "warning": "These are exploratory debug variants, not 25 independent episodes, a VLA failure rate, or a qualified teacher. Width controls change runtime geometry only; original XML and manifest are unchanged."
+}

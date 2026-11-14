@@ -1,7 +1,8 @@
 # Codex 交接：SmolVLA/SO-101 接口预检接续
 
 日期：2026-11-14。交接对象：Codex 线程 `01a1d541-f599-7ec0-8e72-e53e68ae6395`。
-状态：**接口审计接续完成，未提交；等待 Codex/用户 review。**
+最新状态：**本地20k普通训练与原20条learned pilot已完成，任务成功0/20；载体未就绪，TPSC不进入方法实现。**
+当前事实、文件与下一步见§12；§0–11保留接续历史，旧进程号不是当前运行状态。
 本文不是查新报告，不是 TPSC 立项依据，也不是 A100/VLA 结果。
 
 ## 0. 为什么有这份交接
@@ -243,7 +244,7 @@ research: resolve SmolVLA/SO-101 unit provenance and range blocker
 - 本机 torch sm_120 GPU 矩阵计算已实际通过；独立 policy 环境建立中。
 - 指定 carrier 的原始 gripper 范围 -10..64.45，不能直接继承 SO-100 0–100 夹爪适配。
 
-## 9. 本地 GPU 接续（当前）
+## 9. 本地 GPU 接续（历史启动状态）
 
 - 用户已明确先用5070Ti；源资产提交af47281并已推送。
 - 真实CUDA smoke和资源试跑结果：`experiments/so101/tpsc-pilot/runs/local-5070ti/`。
@@ -273,3 +274,38 @@ research: resolve SmolVLA/SO-101 unit provenance and range blocker
 - 新机械检查：旧scripted OPEN/CLOSED与渲染张合方向相反；IK追踪夹爪转轴body原点，
   与官方gripperframe相距8.207cm。证据`experiments/so101/tpsc-pilot/gripper-readiness-audit/`。
   旧脚本不是可用物理teacher，8.6mm不是指尖对物误差；不覆盖原代码或旧JSON。
+
+## 12. 已完成20k与20条pilot：接续时以本节为准
+
+- 原训练和v2队列在用户中断轮次后均已消失；最近完整训练状态为018000。核实记录为
+  `runs/local-5070ti/training-interruption-18000.json`。从该状态恢复模型/optimizer/scheduler/RNG，
+  固定seed42、batch4、20k终点；数据采样器位置不恢复，因此不声称与不中断训练逐位等价。
+- 恢复训练session3899正常退出0，日志20:38:16出现`End of training`；训练状态确认为20000。
+  **不要重启训练或旧队列。** 选用精确`checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model`，
+  不是事后挑best。权重SHA256：`af89ed56d0d804ac0acdd1ee7ed4008d8ec3ad4a24e7fa5fea6330c9dda6f257`。
+- v3队列session15171退出0；20:38:28–20:44:24使用EGL执行原20条manifest，策略只接收RGB/q/语言/seed。
+  全部20条、10个pair、600个chunk、6000个控制目标均已保存并核验，没有执行120条扩展。
+- 实测任务成功**0/20**、抬升0/20、放置0/20；全部失败记录为`stable_placement_not_achieved`。
+  55个控制目标向量被裁剪。左右初始q和seed相同，RGB与语言同时变化。
+  首chunk平均距离0.202309–1.080547rad；每对实测q首次分叉只可定位到(0,10]控制步。
+  这些描述值不能识别**正确**共享前缀或语义的因果伤害。
+- 原始记录/核验/全部pair表/完成日志与hash在
+  `experiments/so101/tpsc-pilot/runs/local-5070ti/`，入口为`go-no-go.md`与`completed-evidence-inventory.json`。
+  正式原始JSONL不覆盖，checkpoint/data留在本地忽略目录；本轮不是A100结果。
+- 明确限制：公开数据只有green→container单任务，与本项目红物体/中文左右任务不匹配；
+  相机、零位与夹爪适配尚未源级核验。batch4×20k仅约1.33数据遍历，不能等同batch64×20k。
+  训练loss是flow速度回归，不是解码动作误差；推理时仿真暂停，不声称真机实时性。
+- **判定：载体未就绪；正确共享前缀不可识别；uniform separation未测试；不实现TPSC方法。**
+  这不是TPSC被科学否证，也不是通过查新。完整选题目标继续active。
+- 同期新增[支持集合更正](prior-art/tpsc-support-identifiability-correction.md)和
+  [经典对照/问题发现](prior-art/tpsc-classical-controls-and-discovery.md)：共同可行动作存在不强制点态一致；
+  需普通BC、同池配对BC、合理margin与多模态等强对照。ECT噪声耦合仅是机制分解问题，
+  通用antithetic flow训练已非空白，不能直接升格为新方法。
+- 物理teacher的25次单初态debug仍未得到合格双指抬升，不计独立样本或VLA失败率。
+  新的选题证据必须来自有能力的策略/有效任务和具体可重复失效，不能继续从接口失败提炼创新。
+- 新的独立载体线索：固定外部`FERBIN12/so101-manipulation-eval` b02b8b2，原样place成功、hover不算放置；
+  独立双指接触记录复跑亦成立，双指且抬升最长2.6365s。该模型有盒状指垫、friction2和28mm物体，
+  与原TPSC接触模型不同；只提供资格场景的可行路径，不替代原20条0/20或真机证据。
+  证据与复现脚本：`experiments/discovery/so101-upstream-contact-reproduction-20261114/README.md`。
+- 新核验的R3L已有文本轨迹共享前缀mask；DEFLECT v3已有机器人fresh/stale共同随机数和FM-DPO
+  单样本surrogate范围说明；TPC-FM已有配对时间及速度一致性。不要再把通用prefix保护/噪声耦合包装成新核心。

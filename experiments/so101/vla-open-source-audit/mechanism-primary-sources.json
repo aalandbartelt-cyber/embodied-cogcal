@@ -1,0 +1,120 @@
+{
+  "kind": "primary_source_reading_and_snapshot_inventory_not_novelty_clearance",
+  "saved_utc": "2026-11-14T12:29:26.512964+00:00",
+  "sources": [
+    {
+      "title": "Supervised Contrastive Learning",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf",
+      "status": "NeurIPS 2020",
+      "local_cache": "data/discovery/primary-papers-20261114/supcon.pdf",
+      "sha256": "3da9d0812b27de20e3623ea0f71933dd866f10459fdf04e1129f9f5abdc093cd",
+      "read_scope": "Sections 3.1–3.2, especially multiple-positive objective",
+      "independent_reproduction": false
+    },
+    {
+      "title": "Debiased Contrastive Learning",
+      "source_url": "https://papers.neurips.cc/paper_files/paper/2020/file/63c3ddcc7b23daa1e42dc41f9a44a873-Paper.pdf",
+      "status": "NeurIPS 2020",
+      "local_cache": "data/discovery/primary-papers-20261114/dcl.pdf",
+      "sha256": "4e999a39783ae2c61c189ef1128efa4ff3c1be9bf0365e140d513f25333a3f1e",
+      "read_scope": "Sections 3–4, mixture assumptions and estimator",
+      "independent_reproduction": false
+    },
+    {
+      "title": "FALCON: False-Negative Aware Learning of Contrastive Negatives in Vision-Language Pretraining",
+      "source_url": "https://arxiv.org/html/2505.11192v1",
+      "status": "arXiv v1 2025",
+      "local_cache": "data/discovery/primary-papers-20261114/falcon.html",
+      "sha256": "12e5ea91c80a202db1a4454dabd1d1a68bd80201aa6e765b6312873d7c19b0c4",
+      "read_scope": "Sections 2–3, scheduler/proxy feedback; do not conflate later title/version",
+      "independent_reproduction": false
+    },
+    {
+      "title": "When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models",
+      "source_url": "https://arxiv.org/html/2609.39971v1",
+      "status": "arXiv v1 2026",
+      "local_cache": "data/discovery/primary-papers-20261114/ect.html",
+      "sha256": "9bf118a5b4dd5ab309d6484e128e195997a31293bac403c98338f779c051f71f",
+      "read_scope": "Sections 5.1, F.1, G.3, K: valid pairs, co-presentation/noise/time confounds",
+      "independent_reproduction": false
+    },
+    {
+      "title": "IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation",
+      "source_url": "https://arxiv.org/html/2605.14712v1",
+      "status": "arXiv v1 2026",
+      "local_cache": "data/discovery/primary-papers-20261114/intentvla.html",
+      "sha256": "680c078efd0371fe033560ca7e3433eebac8def1270dc8d5e62303a2eb495066",
+      "read_scope": "Abstract plus targeted history/flow objective passages; repository scope verified separately",
+      "independent_reproduction": false
+    },
+    {
+      "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
+      "source_url": "https://arxiv.org/html/2608.17717v1",
+      "status": "arXiv v1 2026",
+      "local_cache": "data/discovery/primary-papers-20261114/compcpz.html",
+      "sha256": "af1569a74c068daddd2076aeadf3572b12aa8ee3f03fc6a55a842bd6a6db09d6",
+      "read_scope": "Abstract/introduction, sound-set scope and limitations; not full theorem verification",
+      "independent_reproduction": false
+    },
+    {
+      "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+      "source_url": "https://arxiv.org/html/2610.09496v1",
+      "status": "arXiv v1 2026",
+      "local_cache": "data/discovery/primary-papers-20261114/soul.html",
+      "sha256": "3816cf3a76515c2e6058a51881695531c828abf4c94154094773c8c8769d1822",
+      "read_scope": "Primary abstract checked; do not claim full method reproduction",
+      "independent_reproduction": false
+    },
+    {
+      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+      "source_url": "https://arxiv.org/html/2611.14432v1",
+      "status": "arXiv v1 2026",
+      "local_cache": "data/discovery/primary-papers-20261114/behavior100.html",
+      "sha256": "f38c31431065713d353f32aee08b51f127e5dd2922072754ad4973def4d1e635",
+      "read_scope": "Section 5.1–5.4, stratified time and antithetic flow noise already used in robot policy",
+      "independent_reproduction": false
+    },
+    {
+      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "source_url": "https://arxiv.org/html/2605.02881",
+      "status": "arXiv HTML returned current version; snapshot pinned by hash",
+      "local_cache": "data/discovery/primary-papers-20261114/molmoact2.html",
+      "sha256": "661ac228ae5a664c6d4af4af5884c20340e6f4c436b1adf0a4f0b5f1b0fa75dd",
+      "read_scope": "Appendix C.3–C.4 and partial-credit metric context; not per-episode labels",
+      "independent_reproduction": false
+    },
+    {
+      "title": "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs",
+      "source_url": "https://arxiv.org/html/2605.19294v3",
+      "status": "arXiv v3, 2026-10-20",
+      "local_cache": "data/discovery/primary-papers-20261114/deflect-v3.html",
+      "sha256": "7e268390d3958f05ecf7646e6b89564279cacbefd5545917561c05c048def607",
+      "read_scope": "Sections 3.1–3.2, Appendix B loss reduction, Algorithm 1 and Appendix D Monte Carlo scope",
+      "independent_reproduction": false
+    },
+    {
+      "title": "R3L: Reflect-then-Retry Reinforcement Learning with Language-Guided Exploration, Pivotal Credit, and Positive Amplification",
+      "source_url": "https://arxiv.org/html/2601.03715v1",
+      "status": "arXiv v1, 2026-01-07",
+      "local_cache": "data/discovery/primary-papers-20261114/r3l-v1.html",
+      "sha256": "eef870485b2112623cf01c97d39542cab656b6b3ed1e50a5b278ad666475bc2e",
+      "read_scope": "Section 4.2 Eq10 and Algorithm1 pivotal credit; discrete text tasks, no continuous robot-policy reproduction",
+      "independent_reproduction": false
+    },
+    {
+      "title": "Temporal Pair Consistency for Variance-Reduced Flow Matching",
+      "source_url": "https://arxiv.org/html/2602.04908v1",
+      "status": "arXiv v1, 2026-02-04",
+      "local_cache": "data/discovery/primary-papers-20261114/tpc-fm-v1.html",
+      "sha256": "5c9c1164723c11bad3d53ae1415cb7a1d98320210bd7cb1fffbcfb2442fde849",
+      "read_scope": "Section 3.1–3.2 paired loss and added consistency term; not full theorem verification",
+      "independent_reproduction": false
+    }
+  ],
+  "scholar_attempt": {
+    "url": "https://scholar.google.com/scholar?q=%22robot%22+%22contrastive%22+%22false+negatives%22",
+    "result": "HTTP403 Forbidden",
+    "fallback": "SciSpace for discovery only, then primary publisher/arXiv sources"
+  },
+  "discovery_searches": "mechanism-discovery-searches.json"
+}

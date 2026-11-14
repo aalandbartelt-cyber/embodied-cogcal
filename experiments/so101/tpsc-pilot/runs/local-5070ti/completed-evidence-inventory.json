@@ -1,0 +1,172 @@
+{
+  "kind": "completed_20k_and_all_20_episode_frozen_raw_inventory",
+  "observed_utc": "2026-11-14T12:55:30.508321+00:00",
+  "training_step": 20000,
+  "training_end_marker": "2026-11-14 20:38:16 local",
+  "pilot_exit_code": 0,
+  "episodes": 20,
+  "successes": 0,
+  "claims": [
+    "carrier_not_ready",
+    "correct_shared_prefix_not_identified",
+    "uniform_separation_not_tested"
+  ],
+  "files": [
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/completed-run-audit.json",
+      "bytes": 17342,
+      "sha256": "abf4562730f8ceac170be30428746d9b3c3099a6920b424e1ca2bc12be3b6850"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/episodes.jsonl",
+      "bytes": 888673,
+      "sha256": "10490ddfedb26e3b0bc7be5fdc57edabcae995750059edde69f701a2ec863309"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/prefix-report.json",
+      "bytes": 5175,
+      "sha256": "fc1180f2e22dbc06b9b677550fff4d03fef2007c40181f5696f9b8f123952491"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/runtime.json",
+      "bytes": 678,
+      "sha256": "32e526e2b5955d810fefe41e7f22eaa32a0d3cdbba4cbdf76a63c7777a4d6027"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0000_left.trace.jsonl",
+      "bytes": 246587,
+      "sha256": "869c800e049ab1448f5d9c5f714fefa22951f1d4ee28102dca4e4de59c69d9f3"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0000_right.trace.jsonl",
+      "bytes": 245836,
+      "sha256": "de756684114ff4447aa749474b0759e76c71e128559f8c0fbba3266b9a367bf9"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0001_left.trace.jsonl",
+      "bytes": 246210,
+      "sha256": "ec349f614407b9cd4a78705e309f639f9fbc2c9eccc6699e4ba9321a7fcd0641"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0001_right.trace.jsonl",
+      "bytes": 245890,
+      "sha256": "bd727caf97faab2a98f1feefe78f1c7e914963793e4fb7e30f40e7cecb2fdb45"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0002_left.trace.jsonl",
+      "bytes": 246302,
+      "sha256": "249572eae06dd8636b394836863dd45eedee1a1e196fea9e84107316ea01fa2b"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0002_right.trace.jsonl",
+      "bytes": 245875,
+      "sha256": "8d246147d1ace1341597d71b75c7ec2db350232a25a965e86740ba7f563c1805"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0003_left.trace.jsonl",
+      "bytes": 246171,
+      "sha256": "98ad7bce46257d51faa430fbb484d61f82774e520e8e09f12cb96b54fabba5c4"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0003_right.trace.jsonl",
+      "bytes": 246059,
+      "sha256": "b69bb14ca99e42b725c5ebb25ebfa9a3cfee24ec3db3e3000f82d5ef488e65d8"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0004_left.trace.jsonl",
+      "bytes": 246238,
+      "sha256": "a5467854e6dcc8fbb8ca9ccf1485a5e909e8fb7f22584d7e2267fc76b70d87e7"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0004_right.trace.jsonl",
+      "bytes": 246112,
+      "sha256": "4d2e03f8206400a5097433f42d9d0afe097530d1d8e088df9ec92cf8e7a26270"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0005_left.trace.jsonl",
+      "bytes": 246368,
+      "sha256": "894480f547ea7c80511dfdb1b27e0d006bcd2d606f14ec4b1ed32a302a2f5e1f"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0005_right.trace.jsonl",
+      "bytes": 246066,
+      "sha256": "91ca900b4f06e81aa36e7fe7c15b6b47b96a9a1d055ae09c48ef939ea21c5fef"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0006_left.trace.jsonl",
+      "bytes": 246207,
+      "sha256": "f03099055ab6f4c2e1619333ffe83ea79587c856c9de37d2c410b5cc02bf88b1"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0006_right.trace.jsonl",
+      "bytes": 246041,
+      "sha256": "152eb8bfe758e2ceb7a02af20613fcdd6622ab338d77bb2625f27f46446835e2"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0007_left.trace.jsonl",
+      "bytes": 246626,
+      "sha256": "bc671f49a03a4784f7ac659a87d7e41406283d697553e77c9defbdb468600134"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0007_right.trace.jsonl",
+      "bytes": 245946,
+      "sha256": "3c64c77f6d2c151e201ebe9554a0ee87c5849c9d9b37e839f20c3a82992e0925"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0008_left.trace.jsonl",
+      "bytes": 247019,
+      "sha256": "89b67a545181a0820e9c590fe728ef489b6c8f677a1e8a796b5afa871edfba79"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0008_right.trace.jsonl",
+      "bytes": 245991,
+      "sha256": "6175e8deea67d48cffb01af932e5891ed235476b66298a3b82654b9ea59615de"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0009_left.trace.jsonl",
+      "bytes": 246333,
+      "sha256": "c01371c0c87153d9cb46dd3fdb4e1f2fee51b4c71e27c084888a5eb3fdaa0446"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/shared_left_right_0009_right.trace.jsonl",
+      "bytes": 245903,
+      "sha256": "2754b52e0ab73330695eef2b977666855a5244b771fe20a009b676b095907e88"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k/worker.stderr.log",
+      "bytes": 81,
+      "sha256": "3aa0bdb7f34d62fb22265223c4fa183c06ca0bf17c790589220799a410a873ad"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/training-20k-completed.stdout.txt",
+      "bytes": 159461,
+      "sha256": "9d2ca5a299eb19dde9c91f92c6e172ddd3a1ba17951f8f544f3565bc419ea13b"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k-completed.stdout.txt",
+      "bytes": 1530,
+      "sha256": "2a795f67a3321018f7b2e2881db142fc4efcb9b9f0f5b741b3b0cb2a48c6da62"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-queue-completed.stdout.txt",
+      "bytes": 1758,
+      "sha256": "48832ff1d86e4eb0b57c377dce71eedd0b2b4a0672f3b3b64a384c75f3bfe386"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k-checkpoint.json",
+      "bytes": 1775,
+      "sha256": "ff3753e6fe0b8efdda22b3a6fc5bd990a215072e31e99383cea0a5d0cd553b62"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/runs/local-5070ti/pilot-20k-prefix-report.md",
+      "bytes": 2467,
+      "sha256": "d3e460afbde741070454262232743fd18c6d0f2a894381c8e103d920ee8a3c15"
+    },
+    {
+      "path": "experiments/so101/tpsc-pilot/audit_learned_run.py",
+      "bytes": 7239,
+      "sha256": "7d1e8c4c6cf52a73a70a3eadd23b5e9b19ff5f816f7c600d02c3a2c5ccc3d85c"
+    }
+  ],
+  "large_artifacts": "Checkpoint weights/data remain local ignored; fixed weight hash in pilot-20k-checkpoint.json."
+}

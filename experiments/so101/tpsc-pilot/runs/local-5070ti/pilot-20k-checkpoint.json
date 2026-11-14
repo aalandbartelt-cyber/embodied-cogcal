@@ -1,0 +1,42 @@
+{
+  "time_utc": "2026-11-14T12:38:28.099940+00:00",
+  "kind": "fixed_20k_checkpoint_provenance_before_screen",
+  "training_step": 20000,
+  "files": [
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/config.json",
+      "bytes": 2661,
+      "sha256": "63d6ac77518f147e6b80a9922a27347dc1be7c8c09904c68b668178931f52ccd"
+    },
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/model.safetensors",
+      "bytes": 1197789224,
+      "sha256": "af89ed56d0d804ac0acdd1ee7ed4008d8ec3ad4a24e7fa5fea6330c9dda6f257"
+    },
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/policy_postprocessor.json",
+      "bytes": 660,
+      "sha256": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b"
+    },
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "bytes": 7536,
+      "sha256": "5474670345f8731c347bdc3437447aff9b663a0f8613dc2632edf2d8f0f56b3e"
+    },
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/policy_preprocessor.json",
+      "bytes": 2222,
+      "sha256": "98d46c469d1c9e68bf33f566fafe0f2f150b2c7d4d4a0e719246f512a80fc881"
+    },
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "bytes": 7536,
+      "sha256": "5474670345f8731c347bdc3437447aff9b663a0f8613dc2632edf2d8f0f56b3e"
+    },
+    {
+      "path": "checkpoints/tpsc-carrier-20k/checkpoints/020000/pretrained_model/train_config.json",
+      "bytes": 7169,
+      "sha256": "6edf42000c13401a837f8b367eaa7af9190f93440c8af5a3c46536b174152937"
+    }
+  ]
+}

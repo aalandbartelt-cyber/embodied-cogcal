@@ -1,0 +1,241 @@
+{
+  "kind": "finite_stipulated_support_logic_check_not_robot_or_policy_experiment",
+  "created_utc": "2026-11-14T12:36:49.817177+00:00",
+  "control_equals_clean": true,
+  "units": "dimensionless abstract actions, not a chosen SO101 margin",
+  "examples": [
+    {
+      "case": "wide_overlapping_support",
+      "valid_A": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "valid_B": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "margin": 0.5,
+      "shared_actions": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "maximum_valid_separation": 2.0,
+      "minimum_valid_hinge": 0.0,
+      "pairs_satisfying_margin": 6,
+      "pairs": [
+        {
+          "a": -1.0,
+          "b": -1.0,
+          "distance": 0.0,
+          "hinge": 0.5
+        },
+        {
+          "a": -1.0,
+          "b": 0.0,
+          "distance": 1.0,
+          "hinge": 0.0
+        },
+        {
+          "a": -1.0,
+          "b": 1.0,
+          "distance": 2.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 0.0,
+          "b": -1.0,
+          "distance": 1.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 0.0,
+          "b": 0.0,
+          "distance": 0.0,
+          "hinge": 0.5
+        },
+        {
+          "a": 0.0,
+          "b": 1.0,
+          "distance": 1.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 1.0,
+          "b": -1.0,
+          "distance": 2.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 1.0,
+          "b": 0.0,
+          "distance": 1.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 1.0,
+          "b": 1.0,
+          "distance": 0.0,
+          "hinge": 0.5
+        }
+      ]
+    },
+    {
+      "case": "narrow_shared_support",
+      "valid_A": [
+        -0.05,
+        0.0,
+        0.05
+      ],
+      "valid_B": [
+        -0.05,
+        0.0,
+        0.05
+      ],
+      "margin": 0.5,
+      "shared_actions": [
+        -0.05,
+        0.0,
+        0.05
+      ],
+      "maximum_valid_separation": 0.1,
+      "minimum_valid_hinge": 0.4,
+      "pairs_satisfying_margin": 0,
+      "pairs": [
+        {
+          "a": -0.05,
+          "b": -0.05,
+          "distance": 0.0,
+          "hinge": 0.5
+        },
+        {
+          "a": -0.05,
+          "b": 0.0,
+          "distance": 0.05,
+          "hinge": 0.45
+        },
+        {
+          "a": -0.05,
+          "b": 0.05,
+          "distance": 0.1,
+          "hinge": 0.4
+        },
+        {
+          "a": 0.0,
+          "b": -0.05,
+          "distance": 0.05,
+          "hinge": 0.45
+        },
+        {
+          "a": 0.0,
+          "b": 0.0,
+          "distance": 0.0,
+          "hinge": 0.5
+        },
+        {
+          "a": 0.0,
+          "b": 0.05,
+          "distance": 0.05,
+          "hinge": 0.45
+        },
+        {
+          "a": 0.05,
+          "b": -0.05,
+          "distance": 0.1,
+          "hinge": 0.4
+        },
+        {
+          "a": 0.05,
+          "b": 0.0,
+          "distance": 0.05,
+          "hinge": 0.45
+        },
+        {
+          "a": 0.05,
+          "b": 0.05,
+          "distance": 0.0,
+          "hinge": 0.5
+        }
+      ]
+    },
+    {
+      "case": "disjoint_small_distance",
+      "valid_A": [
+        0.0
+      ],
+      "valid_B": [
+        0.01
+      ],
+      "margin": 0.5,
+      "shared_actions": [],
+      "maximum_valid_separation": 0.01,
+      "minimum_valid_hinge": 0.49,
+      "pairs_satisfying_margin": 0,
+      "pairs": [
+        {
+          "a": 0.0,
+          "b": 0.01,
+          "distance": 0.01,
+          "hinge": 0.49
+        }
+      ]
+    },
+    {
+      "case": "multimodal_valid_both",
+      "valid_A": [
+        -1.0,
+        1.0
+      ],
+      "valid_B": [
+        -1.0,
+        1.0
+      ],
+      "margin": 0.5,
+      "shared_actions": [
+        -1.0,
+        1.0
+      ],
+      "maximum_valid_separation": 2.0,
+      "minimum_valid_hinge": 0.0,
+      "pairs_satisfying_margin": 2,
+      "pairs": [
+        {
+          "a": -1.0,
+          "b": -1.0,
+          "distance": 0.0,
+          "hinge": 0.5
+        },
+        {
+          "a": -1.0,
+          "b": 1.0,
+          "distance": 2.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 1.0,
+          "b": -1.0,
+          "distance": 2.0,
+          "hinge": 0.0
+        },
+        {
+          "a": 1.0,
+          "b": 1.0,
+          "distance": 0.0,
+          "hinge": 0.5
+        }
+      ]
+    }
+  ],
+  "conclusions": [
+    "Nonempty overlap does not imply that separating valid actions is impossible or harmful.",
+    "A too-large margin can conflict with narrow valid support even when supports are disjoint; this is not specific to shared prefixes.",
+    "Multiple valid actions do not justify forcing identical vectors or averaging their modes."
+  ],
+  "limits": [
+    "Finite valid sets are stipulated for logic checks, not estimated from rollout data.",
+    "No task success, learned-policy effect or novelty result is measured.",
+    "For general noncompact sets, a supremum bound alone needs attainment/approximation care."
+  ]
+}

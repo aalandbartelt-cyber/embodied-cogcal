@@ -1,0 +1,707 @@
+{
+  "kind": "episode_level_terminal_low_motion_screen_not_failure_labels_or_causal_effect",
+  "rule": "max tail5s/whole-episode per-joint peak-to-peak ratio <0.01 for BOTH recorded q and actions; exclude two gripper channels; exploratory threshold",
+  "units": "raw recorded units; no robot unit adapter applied",
+  "episodes": [
+    {
+      "episode_index": 0,
+      "length": 1179,
+      "duration_s": 39.3,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.03433281183242798,
+      "tail5_action_joint_max_ptp_raw": 0.03692018985748291,
+      "tail5_q_to_episode_range_max_ratio": 0.5000003051711247,
+      "tail5_action_to_episode_range_max_ratio": 0.9223937039190765,
+      "tail5_action_minus_state_abs_max_raw": 0.027132511138916016,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 1,
+      "length": 1220,
+      "duration_s": 40.666666666666664,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.024795889854431152,
+      "tail5_action_joint_max_ptp_raw": 0.028120994567871094,
+      "tail5_q_to_episode_range_max_ratio": 0.5000003051711247,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.025409355759620667,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 2,
+      "length": 1342,
+      "duration_s": 44.733333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.030517995357513428,
+      "tail5_action_joint_max_ptp_raw": 0.03565406799316406,
+      "tail5_q_to_episode_range_max_ratio": 0.3333333333333333,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.031572937965393066,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 3,
+      "length": 1304,
+      "duration_s": 43.46666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.03471428155899048,
+      "tail5_action_joint_max_ptp_raw": 0.03938925266265869,
+      "tail5_q_to_episode_range_max_ratio": 0.33333306207016655,
+      "tail5_action_to_episode_range_max_ratio": 0.6925253946077577,
+      "tail5_action_minus_state_abs_max_raw": 0.02882629632949829,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 4,
+      "length": 1303,
+      "duration_s": 43.43333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.017929375171661377,
+      "tail5_action_joint_max_ptp_raw": 0.023783192038536072,
+      "tail5_q_to_episode_range_max_ratio": 0.3333333333333333,
+      "tail5_action_to_episode_range_max_ratio": 0.9608490892695337,
+      "tail5_action_minus_state_abs_max_raw": 0.02675485610961914,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 5,
+      "length": 1163,
+      "duration_s": 38.766666666666666,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.011062800884246826,
+      "tail5_action_joint_max_ptp_raw": 0.04168081283569336,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8005052013352232,
+      "tail5_action_minus_state_abs_max_raw": 0.02707815170288086,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 6,
+      "length": 1263,
+      "duration_s": 42.1,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.030136585235595703,
+      "tail5_action_joint_max_ptp_raw": 0.053638458251953125,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.036821842193603516,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 7,
+      "length": 1220,
+      "duration_s": 40.666666666666664,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.047302961349487305,
+      "tail5_action_joint_max_ptp_raw": 0.06607937812805176,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.045122623443603516,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 8,
+      "length": 1275,
+      "duration_s": 42.5,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.027847707271575928,
+      "tail5_action_joint_max_ptp_raw": 0.0504051148891449,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.034523725509643555,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 9,
+      "length": 1253,
+      "duration_s": 41.766666666666666,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.020981192588806152,
+      "tail5_action_joint_max_ptp_raw": 0.02940744161605835,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.020844221115112305,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 10,
+      "length": 1174,
+      "duration_s": 39.13333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.012207210063934326,
+      "tail5_action_joint_max_ptp_raw": 0.03262758255004883,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.025107860565185547,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 11,
+      "length": 1223,
+      "duration_s": 40.766666666666666,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.019073784351348877,
+      "tail5_action_joint_max_ptp_raw": 0.0355532169342041,
+      "tail5_q_to_episode_range_max_ratio": 0.4999996948288753,
+      "tail5_action_to_episode_range_max_ratio": 0.8968231726972997,
+      "tail5_action_minus_state_abs_max_raw": 0.037764787673950195,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 12,
+      "length": 1232,
+      "duration_s": 41.06666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.03509575198404491,
+      "tail5_action_joint_max_ptp_raw": 0.06424778699874878,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8201085610309858,
+      "tail5_action_minus_state_abs_max_raw": 0.03784510400146246,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 13,
+      "length": 1237,
+      "duration_s": 41.233333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.022888541221618652,
+      "tail5_action_joint_max_ptp_raw": 0.03539840877056122,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.023322582244873047,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 14,
+      "length": 1268,
+      "duration_s": 42.266666666666666,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.024032950401306152,
+      "tail5_action_joint_max_ptp_raw": 0.030599355697631836,
+      "tail5_q_to_episode_range_max_ratio": 0.4999996948288753,
+      "tail5_action_to_episode_range_max_ratio": 0.9200176328744356,
+      "tail5_action_minus_state_abs_max_raw": 0.02737116813659668,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 15,
+      "length": 1154,
+      "duration_s": 38.46666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.021362662315368652,
+      "tail5_action_joint_max_ptp_raw": 0.042356252670288086,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.7351563444055074,
+      "tail5_action_minus_state_abs_max_raw": 0.03356170654296875,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 16,
+      "length": 1123,
+      "duration_s": 37.43333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.023270010948181152,
+      "tail5_action_joint_max_ptp_raw": 0.03730730712413788,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 0.983725995914907,
+      "tail5_action_minus_state_abs_max_raw": 0.02501630038022995,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 17,
+      "length": 1136,
+      "duration_s": 37.86666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.022888541221618652,
+      "tail5_action_joint_max_ptp_raw": 0.037958383560180664,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.9462130402188518,
+      "tail5_action_minus_state_abs_max_raw": 0.035600900650024414,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 18,
+      "length": 1153,
+      "duration_s": 38.43333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.0316624641418457,
+      "tail5_action_joint_max_ptp_raw": 0.04730939865112305,
+      "tail5_q_to_episode_range_max_ratio": 0.4999996948288753,
+      "tail5_action_to_episode_range_max_ratio": 0.8186454653725976,
+      "tail5_action_minus_state_abs_max_raw": 0.03381085395812988,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 19,
+      "length": 1107,
+      "duration_s": 36.9,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.0164034366607666,
+      "tail5_action_joint_max_ptp_raw": 0.03667616844177246,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.026670217514038086,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 20,
+      "length": 1147,
+      "duration_s": 38.233333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.03471428155899048,
+      "tail5_action_joint_max_ptp_raw": 0.04044163227081299,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.02993643283843994,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 21,
+      "length": 1262,
+      "duration_s": 42.06666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.4142824411392212,
+      "tail5_action_joint_max_ptp_raw": 0.43402552604675293,
+      "tail5_q_to_episode_range_max_ratio": 0.5397614304393602,
+      "tail5_action_to_episode_range_max_ratio": 0.6967867664672893,
+      "tail5_action_minus_state_abs_max_raw": 0.13878560066223145,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 22,
+      "length": 1018,
+      "duration_s": 33.93333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 1.0105286836624146,
+      "tail5_action_joint_max_ptp_raw": 0.9703987836837769,
+      "tail5_q_to_episode_range_max_ratio": 0.4614178319815754,
+      "tail5_action_to_episode_range_max_ratio": 0.44017663597732065,
+      "tail5_action_minus_state_abs_max_raw": 0.2630828619003296,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 23,
+      "length": 1158,
+      "duration_s": 38.6,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 2.1381705589592457,
+      "tail5_action_joint_max_ptp_raw": 2.134443094022572,
+      "tail5_q_to_episode_range_max_ratio": 0.9025765353831049,
+      "tail5_action_to_episode_range_max_ratio": 0.9072026055287772,
+      "tail5_action_minus_state_abs_max_raw": 0.3500460982322693,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 24,
+      "length": 1087,
+      "duration_s": 36.233333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.5340657830238342,
+      "tail5_action_joint_max_ptp_raw": 0.47985154390335083,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.9962409906159239,
+      "tail5_action_minus_state_abs_max_raw": 0.18726325035095215,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 25,
+      "length": 1256,
+      "duration_s": 41.86666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 2.034027701243758,
+      "tail5_action_joint_max_ptp_raw": 2.0516825215891004,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.33406007289886475,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 26,
+      "length": 1244,
+      "duration_s": 41.46666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.32883191108703613,
+      "tail5_action_joint_max_ptp_raw": 0.3009305000305176,
+      "tail5_q_to_episode_range_max_ratio": 0.5912486546154787,
+      "tail5_action_to_episode_range_max_ratio": 0.79614052597611,
+      "tail5_action_minus_state_abs_max_raw": 0.20934271812438965,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 27,
+      "length": 1158,
+      "duration_s": 38.6,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.46807050704956055,
+      "tail5_action_joint_max_ptp_raw": 0.4738531708717346,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.9836615881202138,
+      "tail5_action_minus_state_abs_max_raw": 0.20952636003494263,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 28,
+      "length": 1137,
+      "duration_s": 37.9,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.30251026153564453,
+      "tail5_action_joint_max_ptp_raw": 0.23391008377075195,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8230649911781452,
+      "tail5_action_minus_state_abs_max_raw": 0.22003817558288574,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 29,
+      "length": 1105,
+      "duration_s": 36.833333333333336,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.4875257611274719,
+      "tail5_action_joint_max_ptp_raw": 0.4701941907405853,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8927778308419695,
+      "tail5_action_minus_state_abs_max_raw": 0.21412324905395508,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 30,
+      "length": 1236,
+      "duration_s": 41.2,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.5245288610458374,
+      "tail5_action_joint_max_ptp_raw": 0.4527779221534729,
+      "tail5_q_to_episode_range_max_ratio": 0.6666668022983052,
+      "tail5_action_to_episode_range_max_ratio": 0.8967622304367197,
+      "tail5_action_minus_state_abs_max_raw": 0.19933128356933594,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 31,
+      "length": 1232,
+      "duration_s": 41.06666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.5046921372413635,
+      "tail5_action_joint_max_ptp_raw": 0.4168637990951538,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8665072812207903,
+      "tail5_action_minus_state_abs_max_raw": 0.20328950881958008,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 32,
+      "length": 1254,
+      "duration_s": 41.8,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.33417272567749023,
+      "tail5_action_joint_max_ptp_raw": 0.26123619079589844,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.9911652570640515,
+      "tail5_action_minus_state_abs_max_raw": 0.23816847801208496,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 33,
+      "length": 1219,
+      "duration_s": 40.63333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.5077439546585083,
+      "tail5_action_joint_max_ptp_raw": 0.48405832052230835,
+      "tail5_q_to_episode_range_max_ratio": 0.5773086599014251,
+      "tail5_action_to_episode_range_max_ratio": 0.8289017398973701,
+      "tail5_action_minus_state_abs_max_raw": 0.2166583240032196,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 34,
+      "length": 1058,
+      "duration_s": 35.266666666666666,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.43678948283195496,
+      "tail5_action_joint_max_ptp_raw": 0.40071165561676025,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.68795684316982,
+      "tail5_action_minus_state_abs_max_raw": 0.22375202178955078,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 35,
+      "length": 1105,
+      "duration_s": 36.833333333333336,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.4112306237220764,
+      "tail5_action_joint_max_ptp_raw": 0.3907214105129242,
+      "tail5_q_to_episode_range_max_ratio": 0.6666669379298334,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.20625734329223633,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 36,
+      "length": 1116,
+      "duration_s": 37.2,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.35782408714294434,
+      "tail5_action_joint_max_ptp_raw": 0.32648617029190063,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8333671158698962,
+      "tail5_action_minus_state_abs_max_raw": 0.22109699249267578,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 37,
+      "length": 1197,
+      "duration_s": 39.9,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.2903028726577759,
+      "tail5_action_joint_max_ptp_raw": 0.288052499294281,
+      "tail5_q_to_episode_range_max_ratio": 0.6303879278593967,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.2069258689880371,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 38,
+      "length": 1122,
+      "duration_s": 37.4,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.4753185510635376,
+      "tail5_action_joint_max_ptp_raw": 0.42138269543647766,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.19327116012573242,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 39,
+      "length": 1211,
+      "duration_s": 40.36666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.3898680508136749,
+      "tail5_action_joint_max_ptp_raw": 0.3780568540096283,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.20331168174743652,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 40,
+      "length": 1185,
+      "duration_s": 39.5,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.7751582860946655,
+      "tail5_action_joint_max_ptp_raw": 0.7974079847335815,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.32957708835601807,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 41,
+      "length": 1166,
+      "duration_s": 38.86666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.8869307041168213,
+      "tail5_action_joint_max_ptp_raw": 0.9049803018569946,
+      "tail5_q_to_episode_range_max_ratio": 0.4125266431693202,
+      "tail5_action_to_episode_range_max_ratio": 0.4195900241282922,
+      "tail5_action_minus_state_abs_max_raw": 0.21957683563232422,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 42,
+      "length": 1249,
+      "duration_s": 41.63333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.9937437772750854,
+      "tail5_action_joint_max_ptp_raw": 1.0340707302093506,
+      "tail5_q_to_episode_range_max_ratio": 0.6666667751719598,
+      "tail5_action_to_episode_range_max_ratio": 0.7641975480589076,
+      "tail5_action_minus_state_abs_max_raw": 0.2926318645477295,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 43,
+      "length": 1167,
+      "duration_s": 38.9,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 2.1663995515555143,
+      "tail5_action_joint_max_ptp_raw": 2.1582854287698865,
+      "tail5_q_to_episode_range_max_ratio": 0.9240155426647747,
+      "tail5_action_to_episode_range_max_ratio": 0.9180993945320135,
+      "tail5_action_minus_state_abs_max_raw": 0.4289935231208801,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 44,
+      "length": 1236,
+      "duration_s": 41.2,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.9018082022666931,
+      "tail5_action_joint_max_ptp_raw": 0.9345419406890869,
+      "tail5_q_to_episode_range_max_ratio": 0.4151738922707848,
+      "tail5_action_to_episode_range_max_ratio": 0.42814684930154684,
+      "tail5_action_minus_state_abs_max_raw": 0.23675751686096191,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 45,
+      "length": 1262,
+      "duration_s": 42.06666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 1.416418731212616,
+      "tail5_action_joint_max_ptp_raw": 1.406322419643402,
+      "tail5_q_to_episode_range_max_ratio": 0.5957958740153698,
+      "tail5_action_to_episode_range_max_ratio": 0.5927088485436609,
+      "tail5_action_minus_state_abs_max_raw": 0.30307304859161377,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 46,
+      "length": 1192,
+      "duration_s": 39.733333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.8735790252685547,
+      "tail5_action_joint_max_ptp_raw": 0.8925857543945312,
+      "tail5_q_to_episode_range_max_ratio": 0.4483163863938241,
+      "tail5_action_to_episode_range_max_ratio": 0.45253221114503844,
+      "tail5_action_minus_state_abs_max_raw": 0.2536652088165283,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 47,
+      "length": 1196,
+      "duration_s": 39.86666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.99298095703125,
+      "tail5_action_joint_max_ptp_raw": 1.0060545206069946,
+      "tail5_q_to_episode_range_max_ratio": 0.5023350169411692,
+      "tail5_action_to_episode_range_max_ratio": 0.5098626292763483,
+      "tail5_action_minus_state_abs_max_raw": 0.3014798164367676,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 48,
+      "length": 1190,
+      "duration_s": 39.666666666666664,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.8720530867576599,
+      "tail5_action_joint_max_ptp_raw": 0.9186379313468933,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.3727695941925049,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 49,
+      "length": 1151,
+      "duration_s": 38.36666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.8133059144020081,
+      "tail5_action_joint_max_ptp_raw": 0.8207967877388,
+      "tail5_q_to_episode_range_max_ratio": 0.3937211522071407,
+      "tail5_action_to_episode_range_max_ratio": 0.3959674364407242,
+      "tail5_action_minus_state_abs_max_raw": 0.22209584712982178,
+      "terminal_low_motion_candidate": false
+    }
+  ]
+}

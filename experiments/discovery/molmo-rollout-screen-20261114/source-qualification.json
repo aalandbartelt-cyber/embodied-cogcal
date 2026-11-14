@@ -1,0 +1,212 @@
+{
+  "kind": "public_real_policy_rollout_source_qualification_and_exploratory_visual_screen",
+  "saved_utc": "2026-11-14T12:27:04.084498+00:00",
+  "datasets": [
+    {
+      "repo": "allenai/eval_molmoact_candy_sorting_in-distribution",
+      "revision": "b68b2df889134d23751ee09f3abc00b2cb94be71",
+      "source_url": "https://huggingface.co/datasets/allenai/eval_molmoact_candy_sorting_in-distribution/tree/b68b2df889134d23751ee09f3abc00b2cb94be71",
+      "license_metadata": "apache-2.0",
+      "robot_type": "bi_yam_follower",
+      "episodes": 50,
+      "frames": 59645,
+      "tasks": [
+        {
+          "task_index": 0,
+          "__index_level_0__": "Sort Candy"
+        }
+      ],
+      "frame_fields": [
+        "action",
+        "observation.state",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ],
+      "episode_non_stats_fields": [
+        "data/chunk_index",
+        "meta/episodes/file_index",
+        "videos/observation.images.left/from_timestamp",
+        "episode_index",
+        "videos/observation.images.right/to_timestamp",
+        "videos/observation.images.top/to_timestamp",
+        "videos/observation.images.top/from_timestamp",
+        "dataset_from_index",
+        "tasks",
+        "videos/observation.images.top/chunk_index",
+        "videos/observation.images.top/file_index",
+        "videos/observation.images.right/from_timestamp",
+        "length",
+        "dataset_to_index",
+        "videos/observation.images.left/chunk_index",
+        "videos/observation.images.right/file_index",
+        "videos/observation.images.right/chunk_index",
+        "data/file_index",
+        "videos/observation.images.left/to_timestamp",
+        "videos/observation.images.left/file_index",
+        "meta/episodes/chunk_index"
+      ],
+      "outcome_label_fields": [],
+      "strict_exploratory_tail_rule_candidates": 0,
+      "independent_source_annotation": "absent; do not manufacture success labels",
+      "structural_checks": "Unique episode IDs, complete row intervals and lengths, exact frame identities, finite (N,14) q/action arrays checked; bimanual YAM only.",
+      "assets": [
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/api.json",
+          "bytes": 2361,
+          "sha256": "3472379080e4b9bd70adf6742d8d69091221e17b4b87677538333ed2e54d5f11"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/meta/info.json",
+          "bytes": 4474,
+          "sha256": "b3ac644d2845101658821867ed6c8c49dcd8a1e97d762c7e0aec2b322dbc98e4"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/meta/stats.json",
+          "bytes": 20961,
+          "sha256": "1d9beb1bb2b999f9ef2e100dba1e0e0d18ae840f662c0e40a1a1281fd5ca1831"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/meta/tasks.parquet",
+          "bytes": 2146,
+          "sha256": "de049afedaa466ac1ea8e0e759181de17690c5204ea5909d53a4806229833fd1"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/meta/episodes/chunk-000/file-000.parquet",
+          "bytes": 240208,
+          "sha256": "f02c5f16ce5c1994ca9bf01be765995616ec7ce43d852201ba80e1d7c1a86923"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/data/chunk-000/file-000.parquet",
+          "bytes": 4987040,
+          "sha256": "4c647ae26840a19c6fb9ad898cd3fa61c3e659449123d243fb97964f7661a63a"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/videos/observation.images.top/chunk-000/file-000.mp4",
+          "bytes": 165773517,
+          "sha256": "9ab6dbd254a4a510c5a54816dfe0e2528af81e494e9e1bf0685142f3d2f23cae"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_in-distribution/first-five-fixed-time-contact-sheet.jpg",
+          "bytes": 494811,
+          "sha256": "105f8a0ee756b7e55735f40500f25575c83ed520fcb5b0f7bcb8cb39d8f54cee"
+        }
+      ]
+    },
+    {
+      "repo": "allenai/eval_molmoact_candy_sorting_ood",
+      "revision": "0ebe2b5468a8e40d268c13bc87fccebc4de9332d",
+      "source_url": "https://huggingface.co/datasets/allenai/eval_molmoact_candy_sorting_ood/tree/0ebe2b5468a8e40d268c13bc87fccebc4de9332d",
+      "license_metadata": "apache-2.0",
+      "robot_type": "bi_yam_follower",
+      "episodes": 25,
+      "frames": 29901,
+      "tasks": [
+        {
+          "task_index": 0,
+          "__index_level_0__": "Sort Candy"
+        },
+        {
+          "task_index": 1,
+          "__index_level_0__": "Place The Candies Into The Boxes From Left To Right In The Order Of Orange, Blue, And Gold"
+        },
+        {
+          "task_index": 2,
+          "__index_level_0__": "Keep The Candies Into The Boxes By Type"
+        }
+      ],
+      "frame_fields": [
+        "action",
+        "observation.state",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ],
+      "episode_non_stats_fields": [
+        "videos/observation.images.left/to_timestamp",
+        "videos/observation.images.top/to_timestamp",
+        "videos/observation.images.left/file_index",
+        "dataset_to_index",
+        "data/chunk_index",
+        "episode_index",
+        "dataset_from_index",
+        "videos/observation.images.right/file_index",
+        "videos/observation.images.left/from_timestamp",
+        "tasks",
+        "videos/observation.images.top/file_index",
+        "videos/observation.images.right/from_timestamp",
+        "meta/episodes/file_index",
+        "length",
+        "meta/episodes/chunk_index",
+        "data/file_index",
+        "videos/observation.images.right/to_timestamp",
+        "videos/observation.images.top/from_timestamp",
+        "videos/observation.images.right/chunk_index",
+        "videos/observation.images.top/chunk_index",
+        "videos/observation.images.left/chunk_index"
+      ],
+      "outcome_label_fields": [],
+      "strict_exploratory_tail_rule_candidates": 0,
+      "independent_source_annotation": "absent; do not manufacture success labels",
+      "structural_checks": "Unique episode IDs, complete row intervals and lengths, exact frame identities, finite (N,14) q/action arrays checked; bimanual YAM only.",
+      "assets": [
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/api.json",
+          "bytes": 2056,
+          "sha256": "660d9224cc5bc380829083ac9ba71b1a79bca35931ef5128f8702bd9079f3dea"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/meta/info.json",
+          "bytes": 4474,
+          "sha256": "92deb20e8e1d164947a8b83001e95d1df0e33af2cbf1bffee24eb86bc167fc31"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/meta/stats.json",
+          "bytes": 20956,
+          "sha256": "94ade88347d0adbafbb976bc471a7dc35d3dfc084ba0e891dccd0235b453c481"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/meta/tasks.parquet",
+          "bytes": 2333,
+          "sha256": "9a42aa50f982420804c4adc399f7587e7c2afd1420e6babe9892ac6fbceaac01"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/meta/episodes/chunk-000/file-000.parquet",
+          "bytes": 180548,
+          "sha256": "414aeac93c48dacc7c84cd1cdd3e0297b7eea953119ca53ece079d0791ae297a"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/data/chunk-000/file-000.parquet",
+          "bytes": 3015524,
+          "sha256": "19e22d3d942eeb572c54bc75d607ff30aa884c3f3601ca50db49bcec3dd8f7e0"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/videos/observation.images.top/chunk-000/file-000.mp4",
+          "bytes": 206233581,
+          "sha256": "1ceed97b7434bb51a26a39211ec23dfec5fde285b44db552481cb7b03b8740da"
+        },
+        {
+          "path": "data/discovery/molmo-rollouts-20261114/eval_molmoact_candy_sorting_ood/first-five-fixed-time-contact-sheet.jpg",
+          "bytes": 503282,
+          "sha256": "715da1e006595f3b9de023c9781d8250eff2007d6dc2f44a51b0268f8ddfb417"
+        }
+      ]
+    }
+  ],
+  "episodes_total": 75,
+  "frames_total": 89546,
+  "visual_selection": "First five episodes in increasing source episode_index in each dataset; fractions 0,.2,.4,.6,.8,.98. No outcome-based selection.",
+  "observation": "In first five ID fixed-time sheets, arm stays near the bin in later snapshots while multiple candies remain on the table. Raw joints still vary slightly. This is a visual stagnation candidate, not a source success label, state hallucination diagnosis or causal attribution.",
+  "initial_metric_warning": "The strict max-per-coordinate tail-range ratio screen flags zero episodes. Almost-static joints with small ranges dominate this maximum; do not tune thresholds after looking to manufacture a failure rate.",
+  "limitations": [
+    "This is YAM data, not SO101 same-body validation and not TPSC paired data.",
+    "ID/OOD rows are not matched counterfactual interventions; no group causal success comparison.",
+    "No success/failure labels, inference-chunk boundaries or observation/dispatch-age logs in inspected files.",
+    "Short fixed-time sheets cannot establish complete task outcomes or the cause of stagnation."
+  ],
+  "tpsc_data_mixed": false
+}

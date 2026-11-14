@@ -117,3 +117,18 @@
 - 用户15项目盘点带来强对照与载体线索，没有自动带来新方法。MolmoAct2-SO100_101为5.44B、q01/q99、horizon30，与当前角度零位/normalizer不同；TurboVLA的公开LIBERO为7D、H12；StarVLA的SO101待支持。原始revision和hash已落盘。
 - 原scripted物理teacher前提有具体错误：OPEN0/CLOSED1.4与实测张合相反；IK追踪转轴而不是官方TCP，相距8.207cm。原数学共享路径不能升级成成功物理共享前缀。
 - 本地EGL实测通过，OSMesa库缺失；队列v1取消、v2等待训练完成后才执行20条。载体未就绪时科学结论仍不可辨识；完整选题目标active。
+
+## 20k/20条正式能力screen的最新结论
+
+固定20k checkpoint已完成原20条learned pilot，任务成功/抬升/放置均0/20，10对全部保留。
+本轮只证明这套公开单任务训练与当前未验证适配的任务载体未就绪；不支持正确共享前缀、
+语义因果作用或uniform separation伤害。后者未运行，TPSC不进入方法实现。
+
+进一步修正：共同可行动作存在不强制点态一致，强制分离不一定伤害正确性；过大margin也不专属共享前缀问题。
+ECT配对普通imitation是必须比较的简单强基线；通用antithetic flow训练已有机器人工作。
+MolmoAct2公开75条双YAM rollout没有成功标签，不能从固定抽帧或停滞proxy宣称state hallucination。
+当前仍没有通过选题门槛的方向，研究目标active。新证据必须来自合格策略的具体机制和超出强简单对照的结果。
+
+新的积极可行性线索：固定外部SO101控制器b02b8b2在当前MuJoCo4.0.1实际抓放成功，hover负对照未通过，
+独立双指接触记录复跑最长连续持物抬升2.6365s；其显式指垫/friction2/28mm物体不同于原TPSC，不能升级为本项目
+learned能力或真机结论。R3L、DEFLECT-v3与TPC-FM进一步排除通用prefix mask、共享随机数、配对flow时间的宽创新。

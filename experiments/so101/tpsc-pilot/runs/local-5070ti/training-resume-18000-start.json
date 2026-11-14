@@ -1,0 +1,18 @@
+{
+  "kind": "resumed_latest_complete_training_state_not_new_seed",
+  "observed_utc": "2026-11-14T12:23:17.999310+00:00",
+  "exec_session_id": 3899,
+  "pid": 3726809,
+  "start_ticks": "1372787",
+  "state": "R",
+  "args": [
+    "/home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python",
+    "-u",
+    "-m",
+    "lerobot.scripts.lerobot_train",
+    "--config_path=/home/mary/research/embodied-cogcal/checkpoints/tpsc-carrier-20k/checkpoints/018000/pretrained_model/train_config.json",
+    "--resume=true"
+  ],
+  "resumed_checkpoint_step": 18000,
+  "target_step": 20000
+}

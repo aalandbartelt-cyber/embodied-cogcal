@@ -1,0 +1,357 @@
+{
+  "kind": "episode_level_terminal_low_motion_screen_not_failure_labels_or_causal_effect",
+  "rule": "max tail5s/whole-episode per-joint peak-to-peak ratio <0.01 for BOTH recorded q and actions; exclude two gripper channels; exploratory threshold",
+  "units": "raw recorded units; no robot unit adapter applied",
+  "episodes": [
+    {
+      "episode_index": 0,
+      "length": 1117,
+      "duration_s": 37.233333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.028610706329345703,
+      "tail5_action_joint_max_ptp_raw": 0.04834681749343872,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 0.9882517876863071,
+      "tail5_action_minus_state_abs_max_raw": 0.0358409583568573,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 1,
+      "length": 1235,
+      "duration_s": 41.166666666666664,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.038147568702697754,
+      "tail5_action_joint_max_ptp_raw": 0.05000723898410797,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 0.40413995601516073,
+      "tail5_action_minus_state_abs_max_raw": 0.033614397048950195,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 2,
+      "length": 1214,
+      "duration_s": 40.46666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.7213702201843262,
+      "tail5_action_joint_max_ptp_raw": 0.7240976095199585,
+      "tail5_q_to_episode_range_max_ratio": 0.40463456977958606,
+      "tail5_action_to_episode_range_max_ratio": 0.43134925529059265,
+      "tail5_action_minus_state_abs_max_raw": 0.21895289421081543,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 3,
+      "length": 1200,
+      "duration_s": 40.0,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.6992447376251221,
+      "tail5_action_joint_max_ptp_raw": 0.7012653350830078,
+      "tail5_q_to_episode_range_max_ratio": 0.9166667344824584,
+      "tail5_action_to_episode_range_max_ratio": 0.8570218130340886,
+      "tail5_action_minus_state_abs_max_raw": 0.20853149890899658,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 4,
+      "length": 1211,
+      "duration_s": 40.36666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 1.3298238143324852,
+      "tail5_action_joint_max_ptp_raw": 1.3290589828975499,
+      "tail5_q_to_episode_range_max_ratio": 0.6398104389489666,
+      "tail5_action_to_episode_range_max_ratio": 0.6237733178841884,
+      "tail5_action_minus_state_abs_max_raw": 0.29744619131088257,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 5,
+      "length": 1156,
+      "duration_s": 38.53333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 1.9726101011037827,
+      "tail5_action_joint_max_ptp_raw": 1.9753460884094238,
+      "tail5_q_to_episode_range_max_ratio": 0.8511934213196276,
+      "tail5_action_to_episode_range_max_ratio": 0.8541344795708041,
+      "tail5_action_minus_state_abs_max_raw": 0.3392913341522217,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 6,
+      "length": 1216,
+      "duration_s": 40.53333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 2.028686852194369,
+      "tail5_action_joint_max_ptp_raw": 2.0623105065897107,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 1.0,
+      "tail5_action_minus_state_abs_max_raw": 0.25185978412628174,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 7,
+      "length": 1249,
+      "duration_s": 41.63333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.037384629249572754,
+      "tail5_action_joint_max_ptp_raw": 0.05014500021934509,
+      "tail5_q_to_episode_range_max_ratio": 0.3333336045966105,
+      "tail5_action_to_episode_range_max_ratio": 0.4864087207534903,
+      "tail5_action_minus_state_abs_max_raw": 0.0395512580871582,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 8,
+      "length": 1240,
+      "duration_s": 41.333333333333336,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.03471427410840988,
+      "tail5_action_joint_max_ptp_raw": 0.0602649450302124,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 0.5312413462128834,
+      "tail5_action_minus_state_abs_max_raw": 0.035363029688596725,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 9,
+      "length": 1089,
+      "duration_s": 36.3,
+      "task": [
+        "Place The Candies Into The Boxes From Left To Right In The Order Of Orange, Blue, And Gold"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.040436387062072754,
+      "tail5_action_joint_max_ptp_raw": 0.062404632568359375,
+      "tail5_q_to_episode_range_max_ratio": 0.25,
+      "tail5_action_to_episode_range_max_ratio": 0.7593862587177058,
+      "tail5_action_minus_state_abs_max_raw": 0.04316749423742294,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 10,
+      "length": 1209,
+      "duration_s": 40.3,
+      "task": [
+        "Place The Candies Into The Boxes From Left To Right In The Order Of Orange, Blue, And Gold"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.5184252262115479,
+      "tail5_action_joint_max_ptp_raw": 0.5668045282363892,
+      "tail5_q_to_episode_range_max_ratio": 0.5321011898926362,
+      "tail5_action_to_episode_range_max_ratio": 0.5418810166963789,
+      "tail5_action_minus_state_abs_max_raw": 0.16205692291259766,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 11,
+      "length": 1147,
+      "duration_s": 38.233333333333334,
+      "task": [
+        "Place The Candies Into The Boxes From Left To Right In The Order Of Orange, Blue, And Gold"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.07667658512946218,
+      "tail5_action_joint_max_ptp_raw": 0.09598936140537262,
+      "tail5_q_to_episode_range_max_ratio": 0.4999996948288753,
+      "tail5_action_to_episode_range_max_ratio": 0.582854253879043,
+      "tail5_action_minus_state_abs_max_raw": 0.06781123857945204,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 12,
+      "length": 1221,
+      "duration_s": 40.7,
+      "task": [
+        "Keep The Candies Into The Boxes By Type"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.028610706329345703,
+      "tail5_action_joint_max_ptp_raw": 0.0409085750579834,
+      "tail5_q_to_episode_range_max_ratio": 0.10000006103422494,
+      "tail5_action_to_episode_range_max_ratio": 0.46627102924590436,
+      "tail5_action_minus_state_abs_max_raw": 0.026102542877197266,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 13,
+      "length": 1296,
+      "duration_s": 43.2,
+      "task": [
+        "Keep The Candies Into The Boxes By Type"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.9636072516441345,
+      "tail5_action_joint_max_ptp_raw": 0.9947462677955627,
+      "tail5_q_to_episode_range_max_ratio": 0.4600136596178843,
+      "tail5_action_to_episode_range_max_ratio": 0.4606419685761391,
+      "tail5_action_minus_state_abs_max_raw": 0.24574291706085205,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 14,
+      "length": 1064,
+      "duration_s": 35.46666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.32845044136047363,
+      "tail5_action_joint_max_ptp_raw": 0.34102869033813477,
+      "tail5_q_to_episode_range_max_ratio": 0.3508772043372724,
+      "tail5_action_to_episode_range_max_ratio": 0.6600835368402549,
+      "tail5_action_minus_state_abs_max_raw": 0.20340776443481445,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 15,
+      "length": 1168,
+      "duration_s": 38.93333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.7660027742385864,
+      "tail5_action_joint_max_ptp_raw": 0.781240701675415,
+      "tail5_q_to_episode_range_max_ratio": 0.6666665988508473,
+      "tail5_action_to_episode_range_max_ratio": 0.5250949143807679,
+      "tail5_action_minus_state_abs_max_raw": 0.21440529823303223,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 16,
+      "length": 1199,
+      "duration_s": 39.96666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.8045318126678467,
+      "tail5_action_joint_max_ptp_raw": 0.797859787940979,
+      "tail5_q_to_episode_range_max_ratio": 0.4999996948288753,
+      "tail5_action_to_episode_range_max_ratio": 0.6943673010254536,
+      "tail5_action_minus_state_abs_max_raw": 0.23881542682647705,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 17,
+      "length": 1179,
+      "duration_s": 39.3,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.6187533140182495,
+      "tail5_action_joint_max_ptp_raw": 0.619522213935852,
+      "tail5_q_to_episode_range_max_ratio": 0.3011511190961746,
+      "tail5_action_to_episode_range_max_ratio": 0.8510688315703363,
+      "tail5_action_minus_state_abs_max_raw": 0.2703324556350708,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 18,
+      "length": 1192,
+      "duration_s": 39.733333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.6836042404174805,
+      "tail5_action_joint_max_ptp_raw": 0.698727011680603,
+      "tail5_q_to_episode_range_max_ratio": 0.5803393233475769,
+      "tail5_action_to_episode_range_max_ratio": 0.8653954134019918,
+      "tail5_action_minus_state_abs_max_raw": 0.18957388401031494,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 19,
+      "length": 1202,
+      "duration_s": 40.06666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.9670405387878418,
+      "tail5_action_joint_max_ptp_raw": 0.9629977941513062,
+      "tail5_q_to_episode_range_max_ratio": 1.0,
+      "tail5_action_to_episode_range_max_ratio": 0.8322323648440194,
+      "tail5_action_minus_state_abs_max_raw": 0.2735586166381836,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 20,
+      "length": 1247,
+      "duration_s": 41.56666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.13580529764294624,
+      "tail5_action_joint_max_ptp_raw": 0.15746456384658813,
+      "tail5_q_to_episode_range_max_ratio": 0.40044995666940714,
+      "tail5_action_to_episode_range_max_ratio": 0.8712028146550027,
+      "tail5_action_minus_state_abs_max_raw": 0.10371164977550507,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 21,
+      "length": 1244,
+      "duration_s": 41.46666666666667,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.9281299710273743,
+      "tail5_action_joint_max_ptp_raw": 0.9696400761604309,
+      "tail5_q_to_episode_range_max_ratio": 0.6666661241403331,
+      "tail5_action_to_episode_range_max_ratio": 0.9229021202706631,
+      "tail5_action_minus_state_abs_max_raw": 0.26920902729034424,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 22,
+      "length": 1207,
+      "duration_s": 40.233333333333334,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.5111771821975708,
+      "tail5_action_joint_max_ptp_raw": 0.5328261852264404,
+      "tail5_q_to_episode_range_max_ratio": 0.4008714040919591,
+      "tail5_action_to_episode_range_max_ratio": 0.4144483502391434,
+      "tail5_action_minus_state_abs_max_raw": 0.1889406442642212,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 23,
+      "length": 1276,
+      "duration_s": 42.53333333333333,
+      "task": [
+        "Sort Candy"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.07362478226423264,
+      "tail5_action_joint_max_ptp_raw": 0.09016045928001404,
+      "tail5_q_to_episode_range_max_ratio": 0.33333329942543405,
+      "tail5_action_to_episode_range_max_ratio": 0.7403040962366786,
+      "tail5_action_minus_state_abs_max_raw": 0.06788146030157804,
+      "terminal_low_motion_candidate": false
+    },
+    {
+      "episode_index": 24,
+      "length": 1123,
+      "duration_s": 37.43333333333333,
+      "task": [
+        "Place The Candies Into The Boxes From Left To Right In The Order Of Orange, Blue, And Gold"
+      ],
+      "tail5_q_joint_max_ptp_raw": 0.09842061996459961,
+      "tail5_action_joint_max_ptp_raw": 0.12809419631958008,
+      "tail5_q_to_episode_range_max_ratio": 0.5,
+      "tail5_action_to_episode_range_max_ratio": 0.5438124460071332,
+      "tail5_action_minus_state_abs_max_raw": 0.0643763542175293,
+      "terminal_low_motion_candidate": false
+    }
+  ]
+}

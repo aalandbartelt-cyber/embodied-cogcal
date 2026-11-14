@@ -1,0 +1,148 @@
+{
+  "kind": "exploratory_correct_tcp_and_gripper_physics_probe_not_vla_or_teacher_qualification",
+  "manifest_sha256": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+  "episode_id": "shared_left_right_0000_left",
+  "mujoco_version": "4.0.1",
+  "gripper_open_rad": 1.4,
+  "gripper_closed_target_rad": 0.0,
+  "tcp_site": "gripperframe",
+  "fixed_trials": 5,
+  "grasp_target_z_m": 0.055,
+  "results": [
+    {
+      "trial": 0,
+      "offset_m": -0.035,
+      "ik": {
+        "above": {
+          "error_m": 0.0916306004851598,
+          "axis_down_cosine": 0.9093175792705317
+        },
+        "grasp": {
+          "error_m": 9.630048951815162e-05,
+          "axis_down_cosine": 0.999999999505848
+        },
+        "lift": {
+          "error_m": 0.07999922820502427,
+          "axis_down_cosine": 0.9503101955344974
+        }
+      },
+      "final_target_xyz": [
+        0.1261667194198825,
+        -0.019421038551267863,
+        0.0348922445797838
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 1,
+      "offset_m": -0.02,
+      "ik": {
+        "above": {
+          "error_m": 0.08912786435668547,
+          "axis_down_cosine": 0.900309805031331
+        },
+        "grasp": {
+          "error_m": 0.0005217583430812787,
+          "axis_down_cosine": 0.9999999999829248
+        },
+        "lift": {
+          "error_m": 0.07769408682340068,
+          "axis_down_cosine": 0.9465685099053595
+        }
+      },
+      "final_target_xyz": [
+        0.12054902499063767,
+        -0.021269471777513937,
+        0.03489224457978384
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 2,
+      "offset_m": 0.0,
+      "ik": {
+        "above": {
+          "error_m": 0.08701238491265244,
+          "axis_down_cosine": 0.8849714974508601
+        },
+        "grasp": {
+          "error_m": 0.0011809300428684139,
+          "axis_down_cosine": 0.9999999990158132
+        },
+        "lift": {
+          "error_m": 0.07544216423255003,
+          "axis_down_cosine": 0.9368594376601717
+        }
+      },
+      "final_target_xyz": [
+        0.1413949617189133,
+        -0.01900987923490269,
+        0.03489224457978384
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 3,
+      "offset_m": 0.02,
+      "ik": {
+        "above": {
+          "error_m": 0.08708364205015272,
+          "axis_down_cosine": 0.8706982158530976
+        },
+        "grasp": {
+          "error_m": 5.873855630865742e-05,
+          "axis_down_cosine": 0.9999999996681215
+        },
+        "lift": {
+          "error_m": 0.07439770668353714,
+          "axis_down_cosine": 0.9205947644353474
+        }
+      },
+      "final_target_xyz": [
+        0.14189128743769408,
+        -0.02084483784465406,
+        0.03489224457978382
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    },
+    {
+      "trial": 4,
+      "offset_m": 0.035,
+      "ik": {
+        "above": {
+          "error_m": 0.08847998324079506,
+          "axis_down_cosine": 0.8598804663710963
+        },
+        "grasp": {
+          "error_m": 0.00020429816602977673,
+          "axis_down_cosine": 0.999999999950643
+        },
+        "lift": {
+          "error_m": 0.07415875938186339,
+          "axis_down_cosine": 0.9035469950267705
+        }
+      },
+      "final_target_xyz": [
+        0.1420578170000173,
+        -0.019703841461059145,
+        0.0348922445797838
+      ],
+      "tail15_z_range_m": 0.0,
+      "tail15_both_finger_contacts": 0,
+      "held_lift_candidate": false
+    }
+  ],
+  "limitations": [
+    "Only first manifest episode tested; offsets exploratory, no success-rate claim.",
+    "No object pose reset, carry or attachment during dynamics; reset only before each trial.",
+    "No place or release phase; even a held lift does not qualify a pick-place teacher."
+  ]
+}

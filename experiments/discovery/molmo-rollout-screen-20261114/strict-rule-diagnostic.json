@@ -1,0 +1,21 @@
+{
+  "kind": "explanation_of_initial_metric_not_new_failure_classifier",
+  "episode_index": 0,
+  "repo": "allenai/eval_molmoact_candy_sorting_in-distribution",
+  "max_ratio_coordinates": [
+    {
+      "series": "q",
+      "max_ratio_joint": "right_joint_4.pos",
+      "whole_range_raw": 0.0007629510946571827,
+      "tail_range_raw": 0.000381475780159235,
+      "ratio": 0.5000003051711247
+    },
+    {
+      "series": "action",
+      "max_ratio_joint": "right_joint_1.pos",
+      "whole_range_raw": 0.011427192948758602,
+      "tail_range_raw": 0.0105403708294034,
+      "ratio": 0.9223937039190765
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "kind": "discovery_index_results_not_primary_source_verification",
+  "search_engine": "SciSpace",
+  "runs": [
+    {
+      "query_run_key": "scispace_direction_0",
+      "results": [
+        {
+          "id": "conflictvla-bench-benchmarking-behavioral-responses-of-kqvfzkzzcg8p",
+          "title": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+          "url": "https://scispace.com/papers/conflictvla-bench-benchmarking-behavioral-responses-of-kqvfzkzzcg8p?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "0b4225436f5a5a440b4f88f04bb3dce65645e53c11ecf371e2255468bd0a198a",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "sparse-feature-policy-unlearning-mitigates-state-6g51ycmz0y7i",
+          "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+          "url": "https://scispace.com/papers/sparse-feature-policy-unlearning-mitigates-state-6g51ycmz0y7i?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "54962d8202648be310d24493a7dc57eafc2167d9e2af53471997024908d3ed64",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "vla-corrector-stage-aware-observable-state-understanding-for-3qbro08occwb",
+          "title": "VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies",
+          "url": "https://scispace.com/papers/vla-corrector-stage-aware-observable-state-understanding-for-3qbro08occwb?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "0bb4557d0a1c3256ce68a78dbb3777b9b064ae17f5c19a05ce314b61fb2a84fa",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "revip-reducing-false-completion-in-vision-language-action-ez9d6j4uu9nx",
+          "title": "ReViP: Reducing False Completion in Vision-Language-Action Models with Vision-Proprioception Rebalance",
+          "url": "https://scispace.com/papers/revip-reducing-false-completion-in-vision-language-action-ez9d6j4uu9nx?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "0acbd3c03a0004b5069f68e4501d706d94b70d575abc57904d5bd1e1b1f78280",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "seqvla-sequential-task-execution-for-long-horizon-qik6xa6uq7we",
+          "title": "SeqVLA: Sequential Task Execution for Long-Horizon Manipulation with Completion-Aware Vision-Language-Action Model",
+          "url": "https://scispace.com/papers/seqvla-sequential-task-execution-for-long-horizon-qik6xa6uq7we?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "46f2465c51f4fa5907ee1d73cf7d377f08c7bace3957c1d31b8fcf4f0aa41a49",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "agm-achievement-grounded-memory-for-closed-loop-agents-with-6mb2t71093wy",
+          "title": "AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies",
+          "url": "https://scispace.com/papers/agm-achievement-grounded-memory-for-closed-loop-agents-with-6mb2t71093wy?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "075f6b19db79e97bad44409bc210b2b6450461d037a323f8a9c7e01b76c12676",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "helm-harness-enhanced-long-horizon-memory-for-vision-kz7zgyzt2mzw",
+          "title": "HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation",
+          "url": "https://scispace.com/papers/helm-harness-enhanced-long-horizon-memory-for-vision-kz7zgyzt2mzw?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "f01e6185942dc8f41e9e4d22908c7e59dff2019987da879ddc1b1ff2de1e6436",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "checkvla-execution-time-verification-with-action-conditioned-k4wogcsdwdtx",
+          "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
+          "url": "https://scispace.com/papers/checkvla-execution-time-verification-with-action-conditioned-k4wogcsdwdtx?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "de215bd19f287937ed48c1a0d3c33bff5c402eed5f13a979997497d6c0729b47",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "cyclevla-proactive-self-correcting-vision-language-action-v7m50a37uero",
+          "title": "CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding",
+          "url": "https://scispace.com/papers/cyclevla-proactive-self-correcting-vision-language-action-v7m50a37uero?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "9bb75af1a15bdcd977ca28bf26fb4dfc2e5e93cfaee00f8bb8571db622925e78",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "stage-aware-vision-language-action-model-for-long-horizon-bnhrdwrhtnmd",
+          "title": "Stage-Aware Vision-Language-Action Model for Long-Horizon Robotic Manipulation",
+          "url": "https://scispace.com/papers/stage-aware-vision-language-action-model-for-long-horizon-bnhrdwrhtnmd?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "dd93e8944fa87fa73a3cf9c211e6ea07d025971bdd01cc826159bf9ab5cf8319",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "failurespot-label-efficient-timestamp-level-failure-ypl4zx1x90wu",
+          "title": "FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models",
+          "url": "https://scispace.com/papers/failurespot-label-efficient-timestamp-level-failure-ypl4zx1x90wu?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "6a8df0d1e25d5a27b2ae3d936d221b2c4c38d05338d40e71d1c54b4182459f57",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "care-experience-guided-atomic-corrective-execution-for-sf3bhmlrfelz",
+          "title": "CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies",
+          "url": "https://scispace.com/papers/care-experience-guided-atomic-corrective-execution-for-sf3bhmlrfelz?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "ae3dbb4037783f24fe0328b31f3523b876b23d3bd884eda0b212c01851b32097",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        }
+      ]
+    },
+    {
+      "query_run_key": "scispace_direction_1",
+      "results": [
+        {
+          "id": "long-horizon-language-conditioned-imitation-learning-for-kuw3rszm9824",
+          "title": "Long-Horizon Language-Conditioned Imitation Learning for Robotic Manipulation",
+          "url": "https://scispace.com/papers/long-horizon-language-conditioned-imitation-learning-for-kuw3rszm9824?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "e6169847844f41076477660822a94a0ddbbcc3d4a4f9d3357914bcc0425b5ef2",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "permvla-factorization-order-as-a-regularizer-for-vla-3lhn02155ujo",
+          "title": "PermVLA: Factorization Order as a Regularizer for VLA Learning",
+          "url": "https://scispace.com/papers/permvla-factorization-order-as-a-regularizer-for-vla-3lhn02155ujo?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "6ff404448310ed920ae7686a01a9e25405c7891382fc62b274cbbfde5313d1fb",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "language-conditioned-representations-and-mixture-of-experts-q6agzodbul0m",
+          "title": "Language-Conditioned Representations and Mixture-of-Experts Policy for Robust Multi-Task Robotic Manipulation",
+          "url": "https://scispace.com/papers/language-conditioned-representations-and-mixture-of-experts-q6agzodbul0m?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "233b8b15aad11375dbeafe5832fcce266ae1c8c4e389beb357790762db916d74",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "language-conditioned-representations-and-mixture-of-experts-2omxvv0deyxi",
+          "title": "Language-Conditioned Representations and Mixture-of-Experts Policy for Robust Multi-Task Robotic Manipulation",
+          "url": "https://scispace.com/papers/language-conditioned-representations-and-mixture-of-experts-2omxvv0deyxi?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "7c85404271e5d212a43af7239b901102cca005ce7f1f3297cdac4742e2dd998c",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "what-matters-in-language-conditioned-robotic-imitation-212csv7t",
+          "title": "What Matters in Language Conditioned Robotic Imitation Learning over\n  Unstructured Data",
+          "url": "https://scispace.com/papers/what-matters-in-language-conditioned-robotic-imitation-212csv7t?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "9bcec956e22a2ffa1169735d51680f184dad5e7e4d5368ccd959bc5796d7acbc",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "language-conditioned-imitation-learning-for-robot-4rt0y2e7uu",
+          "title": "Language-Conditioned Imitation Learning for Robot Manipulation Tasks",
+          "url": "https://scispace.com/papers/language-conditioned-imitation-learning-for-robot-4rt0y2e7uu?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "4428923d8a2088493b93dc8c43ecbebc5a320aa0ed2c388d95ea9688796f50d5",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "what-matters-in-language-conditioned-robotic-imitation-3mtpe11i",
+          "title": "What Matters in Language Conditioned Robotic Imitation Learning Over Unstructured Data",
+          "url": "https://scispace.com/papers/what-matters-in-language-conditioned-robotic-imitation-3mtpe11i?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "84d2532cd3ae26f1d4ea2d25ab3990fccd3f3bb5902ac05af85542e72c1f13c5",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "intentvla-short-horizon-intent-modeling-for-aliased-robot-vom9ii938f73",
+          "title": "IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation",
+          "url": "https://scispace.com/papers/intentvla-short-horizon-intent-modeling-for-aliased-robot-vom9ii938f73?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "b9c3f80cc299713911b8c43dc5add27a5ef0b86cec88e5a6c51c04d5939b3cc8",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "compcpz-preserving-multi-modal-intent-in-language-guided-0pi7l7kj8j9b",
+          "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
+          "url": "https://scispace.com/papers/compcpz-preserving-multi-modal-intent-in-language-guided-0pi7l7kj8j9b?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "aabe1c5e68f42e81a015359be997ee21f49eebe231cd4973b12db35fee06bb3d",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "language-conditioned-imitation-learning-over-unstructured-3jp4k4mqwa",
+          "title": "Language Conditioned Imitation Learning Over Unstructured Data",
+          "url": "https://scispace.com/papers/language-conditioned-imitation-learning-over-unstructured-3jp4k4mqwa?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "b29a5ef29420a581d6d2344f240dfaa4c5ea56c6b4d71603678c153f05208cd8",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "when-instructions-retrieve-trajectories-diagnosing-and-lk6swwg4e914",
+          "title": "When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models",
+          "url": "https://scispace.com/papers/when-instructions-retrieve-trajectories-diagnosing-and-lk6swwg4e914?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "217072d490c0d7ade27b20e3e4012ce73d789fd249fe3e54f0713bff69eb05be",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "language-conditioned-imitation-learning-over-unstructured-32uw1gkca4",
+          "title": "Language Conditioned Imitation Learning over Unstructured Data",
+          "url": "https://scispace.com/papers/language-conditioned-imitation-learning-over-unstructured-32uw1gkca4?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "7f8926554f235a05b20dd6eeab1b05fd036098faeb4c7f7b6c8fa8fa74fe59cc",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        }
+      ]
+    },
+    {
+      "query_run_key": "coupling_audit_0",
+      "results": [
+        {
+          "id": "multisample-flow-matching-straightening-flows-with-minibatch-1tl0geqn",
+          "title": "Multisample Flow Matching: Straightening Flows with Minibatch Couplings",
+          "url": "https://scispace.com/papers/multisample-flow-matching-straightening-flows-with-minibatch-1tl0geqn?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "1db2ef62733542476bbf97164dea6338a114c45572f0008913a16024308616e2",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "temporal-pair-consistency-for-variance-reduced-flow-matching-nabf2ydl8qvn",
+          "title": "Temporal Pair Consistency for Variance-Reduced Flow Matching",
+          "url": "https://scispace.com/papers/temporal-pair-consistency-for-variance-reduced-flow-matching-nabf2ydl8qvn?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "db238ede79d1dcceaac1aa704d3ea5c5faa706e2b7def967923cd8fea4a8a549",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "multisample-flow-matching-straightening-flows-with-minibatch-1p95zgyc",
+          "title": "Multisample Flow Matching: Straightening Flows with Minibatch Couplings",
+          "url": "https://scispace.com/papers/multisample-flow-matching-straightening-flows-with-minibatch-1p95zgyc?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "f19a29930867a7ef3b9e32ced69e373381a0f1fb5003d560ebe54d949b9f0ffc",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "variance-reduction-principles-across-generative-inference-juooiav6wsik",
+          "title": "Variance Reduction Principles Across Generative Inference: Antithetic Sampling, Amortized Proposals, and Diffusion-Augmented Reasoning Chains",
+          "url": "https://scispace.com/papers/variance-reduction-principles-across-generative-inference-juooiav6wsik?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "6066183658da55ce9c57a7bc4b5c4ac7e9459a5f71806dd09382702835e4a76f",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "counterfactual-generation-via-flow-matching-coupling-96caol82h1ac",
+          "title": "Counterfactual Generation via Flow Matching: Coupling-Sensitive End-to-End Rates",
+          "url": "https://scispace.com/papers/counterfactual-generation-via-flow-matching-coupling-96caol82h1ac?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "cd60323ad9ae298b87a932595e632366fc0591e782bb57fea032094e8154a1fa",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "noise-schedule-optimization-in-tabular-flow-matching-for-ci1njppvz3sz",
+          "title": "Noise Schedule Optimization in Tabular Flow Matching for Convergence and Sample Quality",
+          "url": "https://scispace.com/papers/noise-schedule-optimization-in-tabular-flow-matching-for-ci1njppvz3sz?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "355d37cf5dd5a9575d94a15d43adf38be332ec2ef7693a80aef1457467934ace",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "antithetic-noise-in-diffusion-models-xfio6tjeca15",
+          "title": "Antithetic Noise in Diffusion Models",
+          "url": "https://scispace.com/papers/antithetic-noise-in-diffusion-models-xfio6tjeca15?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "cc4f4c7cb0cd4939245dc739630ffc8adc3910222fc1b8901b790aa502daa534",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "posterior-augmented-flow-matching-11vyhw6ef900",
+          "title": "Posterior Augmented Flow Matching",
+          "url": "https://scispace.com/papers/posterior-augmented-flow-matching-11vyhw6ef900?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "c2032a20011881b4316e29596ae5e3414ed0cf2dac499cbd1b76896fd71f8fcb",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "same-flow-different-paths-variance-reduction-in-flow-vcjwb34pi6i1",
+          "title": "Same Flow, Different Paths: Variance Reduction in Flow Matching",
+          "url": "https://scispace.com/papers/same-flow-different-paths-variance-reduction-in-flow-vcjwb34pi6i1?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "d0a2a37e8dfb860f3a2938cac65f0499b4ba6320a381b6f3ce4efc9b556b603b",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "faster-inference-of-flow-based-generative-models-via-j3c97j4gvpe3",
+          "title": "Faster Inference of Flow-Based Generative Models via Improved Data-Noise Coupling",
+          "url": "https://scispace.com/papers/faster-inference-of-flow-based-generative-models-via-j3c97j4gvpe3?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "6be4ab10420c2cd2fc4b31d9fdffdfa914012fca167a07119babdfb5ffa8b687",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "stable-velocity-a-variance-perspective-on-flow-matching-mmvwy74hijob",
+          "title": "Stable Velocity: A Variance Perspective on Flow Matching",
+          "url": "https://scispace.com/papers/stable-velocity-a-variance-perspective-on-flow-matching-mmvwy74hijob?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "21bbab1ab915b6715c0a1efaeb2094b6436f8eefa14a1ccb996da7c4e66d27a7",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "beyond-random-couplings-contrastive-noise-alignment-in-0h0epml163z6",
+          "title": "Beyond Random Couplings: Contrastive Noise Alignment in Generative Flows",
+          "url": "https://scispace.com/papers/beyond-random-couplings-contrastive-noise-alignment-in-0h0epml163z6?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "d094bd6bbca79909172a63c412ad20af35804e52ba55684170532bbc9353f631",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "debiased-counterfactual-generation-via-flow-matching-from-1nxl3161ms9k",
+          "title": "Debiased Counterfactual Generation via Flow Matching from Observations",
+          "url": "https://scispace.com/papers/debiased-counterfactual-generation-via-flow-matching-from-1nxl3161ms9k?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "d3389797d1737517d3fbcf75f9872dd0dcc3768354cf76d8b5e5d9aa29e3f9ae",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "one-sided-quantile-coupling-for-flow-matching-td5pbpw748mz",
+          "title": "One-Sided Quantile Coupling for Flow Matching",
+          "url": "https://scispace.com/papers/one-sided-quantile-coupling-for-flow-matching-td5pbpw748mz?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "6dbb009ff27f4b8c223b8ab37d37a331c4bb0871fbff5b4b544eb9d2af45ba93",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        },
+        {
+          "id": "on-variance-reduction-in-learning-mean-flows-hyn0tjkpyuf6",
+          "title": "On Variance Reduction in Learning Mean Flows",
+          "url": "https://scispace.com/papers/on-variance-reduction-in-learning-mean-flows-hyn0tjkpyuf6?utm_source=chatgpt&utm_medium=tool",
+          "search_excerpt_sha256": "d1f31874e0ed7d1617a21d009e51177660b24b29aa38a3cdaf38141c11ecd8e3",
+          "verification": "discovery_only_unless_separately_primary_audited"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "verified_interruption_before_20k_not_normal_completion",
+  "time_utc": "2026-11-14T12:21:58.990298+00:00",
+  "old_training_pid": 87789,
+  "old_training_session": 74436,
+  "old_queue_pid": 2595058,
+  "old_queue_session": 57985,
+  "processes_absent": true,
+  "tool_handles": "both unknown after intentional turn interruption",
+  "latest_complete_checkpoint": "checkpoints/tpsc-carrier-20k/checkpoints/018000",
+  "checkpoint_step": 18000,
+  "target_step": 20000,
+  "training_log_before_resume_sha256": "f1f7b28edbed7fe3cf06d038715800ab693ed1a7566be985c62e6b35ebee1fd3",
+  "claim": "Resume latest complete state, not best checkpoint. No final 20k or rollout existed at observation.",
+  "resume_limit": "Upstream restores model/optimizer/scheduler/RNG, then builds a new data loader; sampler position is not restored. Not bitwise equivalent to uninterrupted training."
+}

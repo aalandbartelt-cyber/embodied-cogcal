@@ -147,3 +147,17 @@
 - 自动screen v1因未验证的OSMesa约定在episode前取消并保留记录；EGL实测三图通过，v2队列session57985/PID2595058接续等待，输出未产生前不称pilot完成。
 - 额外机械检查发现旧脚本OPEN/CLOSED反置、IK用夹爪转轴body原点且与官方gripperframe差8.207cm。只证明teacher未就绪，不把0/20归因VLA/TPSC，也不声称修正后已能抓取。
 - 本轮全量分析pytest进程14734退出0，11项可选仿真跳过；新CPU代数/autograd断言通过、Ruff通过。没有把这些检查计为方法优势或真机证据。
+
+## 2026-11-14 最终20k与原20条能力pilot完成
+
+- 原训练/队列在用户轮次中断后消失，核实最近完整18k状态后续跑至20k，正常退出0；保留中断/恢复记录，明确采样器位置未恢复。没有挑best seed/checkpoint。
+- EGL正式执行原20条manifest，20:44:24完成，退出0；20条/10对/600chunk/6000控制目标身份与轨迹通过核验。任务成功、抬升、放置均0/20，55个目标向量裁剪事件。
+- 左右首chunk存在差异，初始q/seed相同但RGB/语言同时变化；实测q每10步记录。正确共享前缀不可识别，uniform separation未测试，不从无能力策略提取前缀伤害。
+- 模型权重hash、原始episode/chunk/q、全部10对表、完成stdout与hash清单已保存。当前一页go/no-go：载体未就绪；不实现TPSC，不直接扩大120条或迁移A100。
+- 支持集合量词更正：VA∩VB非空不强制两个正确动作相同；过大margin也可损伤无共同支持任务。原manifest中的no_common仅描述脚本早分叉，不证明必要分叉边界。
+- 核验SupCon/DCL/FALCON/ECT/IntentVLA/CompCPZ等原始近邻，要求同池配对BC等强简单对照；ECT训练因素尚未拆解仅是研究问题，BEHAVIOR2026已覆盖机器人antithetic/分层flow训练，不能包装通用噪声方法。
+- 独立读取MolmoAct2公开双YAM rollout共75条/89546帧，元数据无success标签；固定抽帧停滞只作线索，初始严格tail规则0条，不事后调阈值或混入TPSC。
+- 物理teacher单初态5变体×5offset全部保留，仍没有合格双指抬升；接触/IK失败不作认知偏差或VLA结果。
+- 完整目标仍active：尚未确定可经查新、可实现、有核心增量的研究方向，工程/文献产物不算完成。
+- 后续积极可行性检查：固定外部SO101控制器b02b8b2，原样及独立接触记录复跑均为place成功/hover失败；双指接触且抬升最长2.6365s。原模型有显式盒状指垫、friction2及28mm物体，与本项目原场景不同，只作独立资格线索。
+- 作者HF主页追到公开GitHub身份，定向3仓库为两README/一空仓库，未取到原carrier录制源码；局限与请求结果落盘。新增R3L/DEFLECT-v3/TPC-FM原文快照与方法定位，进一步排除通用prefix mask/共享noise的宽泛创新。
