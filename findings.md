@@ -78,3 +78,4 @@
 - 当前推荐顺序改为：D 动态可执行策略规范/同体等价证书 > B 评测资产；风险来源分解降级为背景/强对照。D尚未查新通过。
 - 现有MuJoCo场景只读预检：6关节×2方向×6执行窗共72条记录；1步窗最大跟踪误差0.079734rad，25步窗平均绝对误差0.011424rad，100步窗最大误差0.000829rad。证据 `experiments/so101/dynamic-interface-precheck.json`，仅证明可观测动态接口，不证明sim-real或VLA效果。
 - 新查到 RACE（2610.05719）、PACT-VLA（2610.28019）和RTC（2506.07339）已覆盖长chunk transition/异步延迟/预提交候选选择；候选D不再包含chunk调度，改为组合式静态+动态 executable-equivalence certificate，并将三者列强对照。
+- Provael开源Apache-2.0红队框架（主分支3ad892e）已在报告schema中记录实际加载的unnormalizer、chunk、clamp和controller convention digest；候选D不能把manifest字段记录当作核心创新，必须产生可计算的动态证书/任务margin结论。

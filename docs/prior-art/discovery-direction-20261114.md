@@ -157,6 +157,7 @@ both             -> stop or human/teacher referral
 - [PolicyIK](https://arxiv.org/html/2611.05372v1) 做高精度 IK/反馈补偿；它解决末端到关节控制，不审计上游 VLA 的 action metadata、chunk timing 与 sim-real executable semantics。
 - [SO-101 Bench](https://arxiv.org/html/2610.36420v1) 证明仿真可保持策略排名但高估成功率；没有 certificate 或补偿机制。
 - [RTC](https://arxiv.org/abs/2506.07339)、[RACE](https://arxiv.org/abs/2610.05719)、[PACT-VLA](https://arxiv.org/abs/2610.28019) 已覆盖异步推理、长chunk切换、延迟下预提交候选选择；它们必须作为强运行时对照，候选D不能重复调度算法。
+- [Provael](https://github.com/provael/provael) 已将真实加载的 unnormalizer、chunk、clamp 和 controller convention 写入 deployed-policy digest；因此增加 manifest 字段本身不构成 D 的贡献。
 
 ### 最小可证伪实验
 

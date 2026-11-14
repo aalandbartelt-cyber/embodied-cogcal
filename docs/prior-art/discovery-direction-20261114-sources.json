@@ -361,6 +361,13 @@
       "url": "https://github.com/Tinaliu0123/PolicyIK",
       "license": "Apache-2.0",
       "checked": "gh repo view and pinned git ref"
+    },
+    {
+      "repository": "provael/provael",
+      "commit": "3ad892ef51a5e0cdb671682505006a2d0dc56b1a",
+      "url": "https://github.com/provael/provael",
+      "license": "Apache-2.0",
+      "checked": "gh repo view and pinned main ref; PRIOR_ART.md confirms deployed_policy digest fields"
     }
   ]
 }

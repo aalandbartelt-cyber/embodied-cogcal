@@ -44,6 +44,7 @@
 | [TeAR](https://arxiv.org/html/2609.36182v1) | 冻结策略+telemetry 条件动作整流；SO-ARM101物理评估 | 它是 test-time rectifier，主要用 OSC/温度电流电压；不提供 rollout 前 executable equivalence certificate |
 | [PolicyIK](https://arxiv.org/html/2611.05372v1)；[代码](https://github.com/Tinaliu0123/PolicyIK) | q/pose feedback、误差相关增益、高精度 IK/holding，仿真和真实机械臂 | 上游 VLA action metadata、chunk timing、控制器约定和 sim-real policy identity 不在其问题内 |
 | [RTC](https://arxiv.org/abs/2506.07339)、[RACE](https://arxiv.org/abs/2610.05719)、[PACT-VLA](https://arxiv.org/abs/2610.28019) | 处理异步推理、长chunk transition timing、pre-commit observation 的候选选择 | 它们改变运行时 chunk 执行/选择；不等于组合静态+动态物理语义证书，候选 D必须把它们作为强基线 |
+| [Provael](https://github.com/provael/provael) | Apache-2.0开源红队框架已在报告中记录实际 unnormalizer、chunk、clamp 和 controller convention 的 deployed-policy digest | 说明“把接口字段记录进manifest”已是工程实践；D不能以新增manifest字段作为核心贡献，必须提供可计算证书/覆盖或任务margin结论 |
 | [SO-101 Bench](https://arxiv.org/html/2610.36420v1)；[代码](https://github.com/5hadytru/so101_bench) | 数字孪生、真实策略排序保持、仿真成功率偏乐观 | 相关性/排名不是逐 action 执行等价；无证书指导拒绝/补偿 |
 | [TeAR 的执行退化模型] | state/history-dependent friction/backlash/compliance/gravity-like execution error | 候选 D不能重新提出“执行误差存在”或“残差可补偿”；必须提供可预部署的接口风险证书 |
 | 经典系统辨识、DOB、feed-forward、工业机器人标定 | 动力学/伺服误差估计、跟踪补偿和稳定性边界 | 这是最大红队；如果只需低阶 sysid + 误差阈值，D不构成VLA研究创新。 |
