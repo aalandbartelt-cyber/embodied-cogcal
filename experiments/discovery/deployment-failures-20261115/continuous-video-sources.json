@@ -1,0 +1,18 @@
+[
+  {
+    "camera": "front",
+    "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/videos/observation.images.front/chunk-000/file-011.mp4",
+    "cache_path": "data/discovery/deployment-failures-20261115/armnet-front-file011.mp4",
+    "bytes": 93156054,
+    "sha256": "9ded72fecd2c418a75b82685450c07a8f0c9d906392a7819b56f62df342b1e31",
+    "dataset_revision": "1db69c82b589c7172ee31a6b8f7ef58d1fc2c663"
+  },
+  {
+    "camera": "wrist",
+    "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/videos/observation.images.wrist/chunk-000/file-012.mp4",
+    "cache_path": "data/discovery/deployment-failures-20261115/armnet-wrist-file012.mp4",
+    "bytes": 108839727,
+    "sha256": "30e4863acbee60914f04b23270600389a90d7c07fd6b2f0b0909289bfe588739",
+    "dataset_revision": "1db69c82b589c7172ee31a6b8f7ef58d1fc2c663"
+  }
+]

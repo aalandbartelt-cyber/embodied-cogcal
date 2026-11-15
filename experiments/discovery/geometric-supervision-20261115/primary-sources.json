@@ -1,0 +1,68 @@
+[
+  {
+    "path": "data/discovery/geometric-supervision-20261115/rfm-v3.html",
+    "url": "https://arxiv.org/html/2302.03660v3",
+    "bytes": 574543,
+    "sha256": "517f98efe4abf9290cb98f5a4da8ab82a02b6f8a39f3710501086f8eae138972"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/kadp.pdf",
+    "url": "https://kinematics-aware-diffusion-policy.github.io/docs/manuscript.pdf",
+    "bytes": 4811891,
+    "sha256": "9c576a45708b7efce935eaafb5e4fa09e62d265aa3eb3da348ec85a5e1fd6b1a"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/stg-dp.pdf",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lv_Spatial-Temporal_Graph_Diffusion_Policy_with_Kinematic_Modeling_for_Bimanual_Robotic_CVPR_2025_paper.pdf",
+    "bytes": 2217369,
+    "sha256": "1ab42c60907091c63796976ee4ce1f59d1cc8df8fea19d410a4f8368eadcdf9f"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/kstar-commit.json",
+    "url": "https://api.github.com/repos/iLearn-Lab/CVPR25-KStar-Diffuser/commits/HEAD",
+    "bytes": 134436,
+    "sha256": "31e21f20a455930ec188afb43acca033b7beab74b5b3c9870136d052c2c57266"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/kstar-tree.json",
+    "url": "https://api.github.com/repos/iLearn-Lab/CVPR25-KStar-Diffuser/git/trees/cb0e850afcb2286873c1d9ec9ad5bd92679cbd46?recursive=1",
+    "bytes": 6711,
+    "sha256": "2413e858739d8e45986ac5fc839ddcb62ef0e7a4f1388fa59f3c472d806b17f0"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/kstar-readme.md",
+    "url": "https://raw.githubusercontent.com/iLearn-Lab/CVPR25-KStar-Diffuser/cb0e850afcb2286873c1d9ec9ad5bd92679cbd46/README.md",
+    "bytes": 11973,
+    "sha256": "dbe35c5855ceb5774dd3e29308a6cc999459a5570ee944bcba2f84754fd2216b"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/kstar-model-utils.py",
+    "url": "https://raw.githubusercontent.com/iLearn-Lab/CVPR25-KStar-Diffuser/cb0e850afcb2286873c1d9ec9ad5bd92679cbd46/src/utils/model_utils.py",
+    "bytes": 4449,
+    "sha256": "c9a71843341ee9c386b58f6acc9278361a3014d8a1a3abdf7863e73f1665a8d0"
+  },
+  {
+    "path": "data/discovery/geometric-supervision-20261115/kstar-license",
+    "url": "https://raw.githubusercontent.com/iLearn-Lab/CVPR25-KStar-Diffuser/cb0e850afcb2286873c1d9ec9ad5bd92679cbd46/LICENSE",
+    "bytes": 10784,
+    "sha256": "997578399edd95a605f126accc867414ad021f20f0d3fbe119426149ef00556c"
+  },
+  {
+    "path": "data/discovery/deployment-failures-20261115/grasp-v1.html",
+    "reference": "previous pinned source, reused read-only",
+    "bytes": 191496,
+    "sha256": "9a8d490abba369855060adf7d691b22b2ddb10f39baec288ef8e984b3fdcf9f5"
+  },
+  {
+    "path": "data/discovery/deployment-failures-20261115/preconditioned-fm-v5.html",
+    "reference": "previous pinned source, reused read-only",
+    "bytes": 1020110,
+    "sha256": "c1d7b84196d532a36ffbeb4f19cc1c35f433cfd18912dcd395dc49e31563f500"
+  },
+  {
+    "path": "data/discovery/deployment-failures-20261115/penalty-fm-v1.html",
+    "reference": "previous pinned source, reused read-only",
+    "bytes": 859906,
+    "sha256": "0e1d75b1a82d96f740252da986420eeff9680cea93209427ff890479b1a97ed9"
+  }
+]

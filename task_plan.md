@@ -56,6 +56,13 @@ SO-101显式双物体场景实际正反扫描均抬升两对象，各1.241秒；
 GRASP公式提供问题来源，显式penalty/RFM/预条件化为直接近邻；尚无任务损害或独立创新证据。
 不将Armnet的失败当GRASP结果，不先实现修正模块，不扩大无任务后果的解析扫描。
 
+本轮[几何监督有界检查](experiments/discovery/geometric-supervision-20261115/README.md)更新上述优先级：
+受限单坐标梯度非零，但10步仅一个分位数支持损失，100/1000步消失；
+独立MuJoCo/SO3优化与Brent全10步对照通过，无实际任务损害/独立贡献。
+降为诊断储备，不扩大参数或解析扫描，不启动新修正训练。
+后续按[事前规则](experiments/discovery/deployment-failures-20261115/PLAN-continuous-review.md)
+复核最早成功225/失败226的front/top/wrist固定0.5秒网格；不预填接触/滑移/机械根因。
+
 ## 当前结论优先入口（2026-11-14 23:00）
 
 完整研究目标仍active；本地5070Ti优先是用户最新决定，A100是后续资源。

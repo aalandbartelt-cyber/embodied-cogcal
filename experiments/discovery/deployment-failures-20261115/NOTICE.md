@@ -1,6 +1,6 @@
 # Derived data images
 
-The three PNG contact sheets in `visual/` are derived from the public ArmnetBench v0.1
+The three PNG contact sheets in `visual/` and seven in `process-visual/` are derived from the public ArmnetBench v0.1
 single-arm SO-101 dataset, published by Armnet:
 
 https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/tree/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663
@@ -14,6 +14,8 @@ sheets, and labels showing dataset episode/outcome/time. No image generation or
 object/robot alteration was performed. Outcomes are the dataset operator's labels.
 
 `visual-samples-manifest.json` binds the source video, exact samples and hashes.
+`process-samples-manifest.json` binds the additional fixed 0.5s, front/top/wrist
+review of episodes 225 and 226. `continuous-video-sources.json` pins the two added videos.
 The original video, native extracted frames, third-party papers and source code
 remain in the ignored research cache. This is an analysis of public records, not a
 claim that embodied-cogcal conducted these real-robot trials.

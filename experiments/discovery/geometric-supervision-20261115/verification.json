@@ -1,0 +1,17 @@
+{
+  "source_cache_hashes_verified": 11,
+  "fresh_population_byte_identical": true,
+  "independent_optimizer_and_brent_source_binding": true,
+  "v1_v2_preserved_numerically_identical": true,
+  "native_frames_sha_verified": 306,
+  "copied_sheets_sha_verified": 7,
+  "source_videos_sha_verified": 3,
+  "new_videos_lfs_size_and_hash_verified": 2,
+  "old_tracked_assets_byte_identical": 216,
+  "three_protected_originals_sha_verified": true,
+  "official_xml_worktree_clean": true,
+  "previous_real_and_checkpoint_raw_assets_unchanged": 33,
+  "new_policy_training_inference_physics_or_hardware_runs": 0,
+  "ruff": "3 active own scripts passed; v1 preserved byte-identically as verifier-v1-source.py.txt",
+  "git_diff_check": "pass"
+}

@@ -19,9 +19,14 @@
 固定同一π0.5/SO101套环任务，事前取6成功/6失败，实际核对5421行和72张指定顶视图；
 看到了正确套环与环移到另一侧凹槽的可见差异，尚不能归因于机械/感知/决策。
 旧20k SmolVLA的pre/post stats与固定数据一致；不因外部issue猜测就换stats或重训。
-下一项优先科学核查是[配对几何监督与CFM条件均值](../experiments/discovery/deployment-failures-20261115/QUESTION-geometric-supervision.md)，
-独立来自GRASP公式，**不是上述真实失败的已知原因或已通过查新的新方向**。
-普通FK损失、预条件化与约束penalty已有近邻；先核数学对象与零效应对照，再谈任务后果和方法。
+[配对几何监督与CFM最小检查](../experiments/discovery/geometric-supervision-20261115/README.md)已完成：
+原权重下受限单坐标的总体梯度非零，负对照/独立FK/求解核验通过。
+10步非对称采样有一个确定性分位数点离开预定合法带；100/1000步差异消失。
+没有实际机器人任务损害或独立方法增量，**该线降为诊断储备，停止扩展解析反例或训练修正模块**。
+这不是Armnet真实失败的解释，也不是否定GRASP。接着按事前选择核真实失败的多视角过程。
+该[多视角复核](../experiments/discovery/deployment-failures-20261115/process-review.md)现已完成306帧/7页：
+成功记录也有取环区域停留，失败后段仍在该区域且日志命令/状态并非恒定；
+没有据此识别滑移、机械误差或记忆缺失。下一步先分清抓持前/后失败，再检查可区分的干预。
 
 位姿重定向线已实际完成15条物理回放：两种普通IK各4/4，本工作区没有任务损害，停止当前核心。
 新检查的[flow分歧测量机制](../experiments/discovery/vfd-quadrature-20261115/README.md)

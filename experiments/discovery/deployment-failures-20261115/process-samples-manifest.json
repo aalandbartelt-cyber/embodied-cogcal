@@ -1,0 +1,3139 @@
+{
+  "source_code_sha256": "709bcea7f7df9fc8ddd7f3638e067e4a6a65008accc043b9eebcdab6b692f1b9",
+  "selection_sha256": "0f34992d04cf0343524e9b6671bcc221938b71e4b3aa734c4e1b3ba32fb61c92",
+  "plan_sha256": "9184d84214d5a35964351338d859608e1cdf2e794efa26b05de07ed1535a127b",
+  "sources": [
+    {
+      "camera": "front",
+      "cache_path": "data/discovery/deployment-failures-20261115/armnet-front-file011.mp4",
+      "sha256": "9ded72fecd2c418a75b82685450c07a8f0c9d906392a7819b56f62df342b1e31",
+      "bytes": 93156054,
+      "width": 1024,
+      "height": 576,
+      "time_base": "1/10240",
+      "average_rate": "20"
+    },
+    {
+      "camera": "top",
+      "cache_path": "data/discovery/deployment-failures-20261115/armnet-top-file014.mp4",
+      "sha256": "13b2e1bd78f4618f8ff285e8cb806fd4219c5a2352e63ef4f04ff8b85baa19c3",
+      "bytes": 110353625,
+      "width": 1024,
+      "height": 576,
+      "time_base": "1/10240",
+      "average_rate": "20"
+    },
+    {
+      "camera": "wrist",
+      "cache_path": "data/discovery/deployment-failures-20261115/armnet-wrist-file012.mp4",
+      "sha256": "30e4863acbee60914f04b23270600389a90d7c07fd6b2f0b0909289bfe588739",
+      "bytes": 108839727,
+      "width": 1280,
+      "height": 720,
+      "time_base": "1/10240",
+      "average_rate": "20"
+    }
+  ],
+  "av_version": "15.1.0",
+  "samples": [
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0000-front.png",
+      "sha256": "b8f92cccf93c13037a309957556507fa3a767d508dabcdf3b21a186b94c239f8",
+      "pts": 0,
+      "time_base": "1/10240",
+      "video_seconds": 0.0,
+      "episode_index": 225,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0010-front.png",
+      "sha256": "cac045a0b1900fe0b4e6451e547122c3fc2479ff4360296dcad95bdfdae48e93",
+      "pts": 5120,
+      "time_base": "1/10240",
+      "video_seconds": 0.5,
+      "episode_index": 225,
+      "relative_seconds": 0.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0020-front.png",
+      "sha256": "bca6e136313f44d788a6a8fe7fe0cfce97e608f7c07ed3cb3ff7606d37794a0e",
+      "pts": 10240,
+      "time_base": "1/10240",
+      "video_seconds": 1.0,
+      "episode_index": 225,
+      "relative_seconds": 1.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0030-front.png",
+      "sha256": "754dd03f02c60633c03dd07847e9027d808a866eca82b1868316e29ff07b226c",
+      "pts": 15360,
+      "time_base": "1/10240",
+      "video_seconds": 1.5,
+      "episode_index": 225,
+      "relative_seconds": 1.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0040-front.png",
+      "sha256": "24ead5d1f9911051e598e5f43284fdda8e2e366f0d6418750531056261a1a609",
+      "pts": 20480,
+      "time_base": "1/10240",
+      "video_seconds": 2.0,
+      "episode_index": 225,
+      "relative_seconds": 2.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0050-front.png",
+      "sha256": "82944eff16c752aa35a58d6de3bb2a3bd525d4e8a6eca57d828c01ec67448579",
+      "pts": 25600,
+      "time_base": "1/10240",
+      "video_seconds": 2.5,
+      "episode_index": 225,
+      "relative_seconds": 2.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0060-front.png",
+      "sha256": "21e87582bbc246e06e52d128d3f2c9b7ed3177d2c621d525afc180be25605e82",
+      "pts": 30720,
+      "time_base": "1/10240",
+      "video_seconds": 3.0,
+      "episode_index": 225,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0070-front.png",
+      "sha256": "de64c3b381f3d279b735e5621933fb8d1f2aa78cd772dca74e1feba7f645f4a8",
+      "pts": 35840,
+      "time_base": "1/10240",
+      "video_seconds": 3.5,
+      "episode_index": 225,
+      "relative_seconds": 3.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0080-front.png",
+      "sha256": "742260059d82dcc5af12623e6a6d94080b1bfb30b763de14f8b590a14ef42ad1",
+      "pts": 40960,
+      "time_base": "1/10240",
+      "video_seconds": 4.0,
+      "episode_index": 225,
+      "relative_seconds": 4.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0090-front.png",
+      "sha256": "54c9ba2fe8921a73f5eed9e2156a91f076012e69e768e0c4147c350aa176fd67",
+      "pts": 46080,
+      "time_base": "1/10240",
+      "video_seconds": 4.5,
+      "episode_index": 225,
+      "relative_seconds": 4.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0100-front.png",
+      "sha256": "ecd384a66668067111e016c5aecc72ffaae5b03685765cd8c33804eaaa3ced7f",
+      "pts": 51200,
+      "time_base": "1/10240",
+      "video_seconds": 5.0,
+      "episode_index": 225,
+      "relative_seconds": 5.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0110-front.png",
+      "sha256": "090ab2444f5582c42397ff3f087adc74b38fbb0834846789141f49045b0bd2ed",
+      "pts": 56320,
+      "time_base": "1/10240",
+      "video_seconds": 5.5,
+      "episode_index": 225,
+      "relative_seconds": 5.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0120-front.png",
+      "sha256": "8dee8fb38e31904efe7e60d46e485e2a80d37a18a792d37a22ca566ce9e69d04",
+      "pts": 61440,
+      "time_base": "1/10240",
+      "video_seconds": 6.0,
+      "episode_index": 225,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0130-front.png",
+      "sha256": "52dc8e34e1fb5ecfece7d29f4bd340e0b5165054dbe569ff0967c4675ae78e68",
+      "pts": 66560,
+      "time_base": "1/10240",
+      "video_seconds": 6.5,
+      "episode_index": 225,
+      "relative_seconds": 6.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0140-front.png",
+      "sha256": "1da2244a387cc24a6d235f0b7a7476a5f54fbfe9913f3d24bc1e1b382ac2fb8d",
+      "pts": 71680,
+      "time_base": "1/10240",
+      "video_seconds": 7.0,
+      "episode_index": 225,
+      "relative_seconds": 7.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0150-front.png",
+      "sha256": "b5d1c906bbcf54f597af3232929e3ec9d634b79cfe675bdc24ef542e3472f2b3",
+      "pts": 76800,
+      "time_base": "1/10240",
+      "video_seconds": 7.5,
+      "episode_index": 225,
+      "relative_seconds": 7.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0160-front.png",
+      "sha256": "f96cc4ec288b0700f7396421a8dc5fc5249e47901c0c2a977fe806400f7f7082",
+      "pts": 81920,
+      "time_base": "1/10240",
+      "video_seconds": 8.0,
+      "episode_index": 225,
+      "relative_seconds": 8.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0170-front.png",
+      "sha256": "8c2f01f85c1286b1ead8b00ee412f6608eb9090820e66897fe2fe094602c7eaf",
+      "pts": 87040,
+      "time_base": "1/10240",
+      "video_seconds": 8.5,
+      "episode_index": 225,
+      "relative_seconds": 8.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0180-front.png",
+      "sha256": "411206c2e99b8471995ec94d33be0d92fe8ae1ba81ae660895a4e56096d6c4dc",
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0,
+      "episode_index": 225,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0190-front.png",
+      "sha256": "7daa3624f73cb73695c97bdd53da4e1960e37c8ccb2e42a795b4862ee689e936",
+      "pts": 97280,
+      "time_base": "1/10240",
+      "video_seconds": 9.5,
+      "episode_index": 225,
+      "relative_seconds": 9.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0200-front.png",
+      "sha256": "6c8cf91f11ef81c00bcc1d8310303371e8c42758a6ac056d0fa1c8268af71db9",
+      "pts": 102400,
+      "time_base": "1/10240",
+      "video_seconds": 10.0,
+      "episode_index": 225,
+      "relative_seconds": 10.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0210-front.png",
+      "sha256": "9c13108a695d028643af66ae73cd992c91530781c8c1cf2b1a49de8c56be3db4",
+      "pts": 107520,
+      "time_base": "1/10240",
+      "video_seconds": 10.5,
+      "episode_index": 225,
+      "relative_seconds": 10.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0220-front.png",
+      "sha256": "92449f1733f8be4ef2ccad44dcf3ef27f786e286f53f6a56069c781b07096255",
+      "pts": 112640,
+      "time_base": "1/10240",
+      "video_seconds": 11.0,
+      "episode_index": 225,
+      "relative_seconds": 11.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0230-front.png",
+      "sha256": "aff75583d6c5cd48cd753593f6e243330dfca790c98654cfd147f7e36b0a6d84",
+      "pts": 117760,
+      "time_base": "1/10240",
+      "video_seconds": 11.5,
+      "episode_index": 225,
+      "relative_seconds": 11.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0240-front.png",
+      "sha256": "0c9e29e1b9ff01b38ae3b739cf9da09cc00db111ca5896e6c731ae65bbf0d148",
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0,
+      "episode_index": 225,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0250-front.png",
+      "sha256": "556a5339a36928384b78d9be80c8b59814bd0aff4c48e064e842c944b14f6397",
+      "pts": 128000,
+      "time_base": "1/10240",
+      "video_seconds": 12.5,
+      "episode_index": 225,
+      "relative_seconds": 12.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0260-front.png",
+      "sha256": "90332d7738253df5703c482b4d5df215be581e9ad20cfa4f4d8ffffe70469bd9",
+      "pts": 133120,
+      "time_base": "1/10240",
+      "video_seconds": 13.0,
+      "episode_index": 225,
+      "relative_seconds": 13.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0270-front.png",
+      "sha256": "4e63f7a2a0b400dbbbddbbc4873bd8a2614883f02229c3e02ff1ef17494ee099",
+      "pts": 138240,
+      "time_base": "1/10240",
+      "video_seconds": 13.5,
+      "episode_index": 225,
+      "relative_seconds": 13.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0280-front.png",
+      "sha256": "020827624a8976e9ceef0b063d2f6c2dce5e4cab3a172e3856ba3e11a3a3c394",
+      "pts": 143360,
+      "time_base": "1/10240",
+      "video_seconds": 14.0,
+      "episode_index": 225,
+      "relative_seconds": 14.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0290-front.png",
+      "sha256": "4159df57003774bb6c8d7ed6768341c34c20aab3143dc0b8620a8feba849f361",
+      "pts": 148480,
+      "time_base": "1/10240",
+      "video_seconds": 14.5,
+      "episode_index": 225,
+      "relative_seconds": 14.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0300-front.png",
+      "sha256": "1ce7000f0de4d264f96dc5acc9cbf8f6b560799d7e617d3a9758174e32932258",
+      "pts": 153600,
+      "time_base": "1/10240",
+      "video_seconds": 15.0,
+      "episode_index": 225,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0310-front.png",
+      "sha256": "7024006573f4628595e77e3e1771877b1a529152536137ce500dfe81c6d144ff",
+      "pts": 158720,
+      "time_base": "1/10240",
+      "video_seconds": 15.5,
+      "episode_index": 225,
+      "relative_seconds": 15.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0320-front.png",
+      "sha256": "fecbc81cac7911f27d60eea064d70465b6d9aa51d1bafd038f306e8a048af19a",
+      "pts": 163840,
+      "time_base": "1/10240",
+      "video_seconds": 16.0,
+      "episode_index": 225,
+      "relative_seconds": 16.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0330-front.png",
+      "sha256": "94d5a6bdab0760e4b66b5a59cd23629e4aad307fccc2047ea8857b6afa148e3f",
+      "pts": 168960,
+      "time_base": "1/10240",
+      "video_seconds": 16.5,
+      "episode_index": 225,
+      "relative_seconds": 16.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0340-front.png",
+      "sha256": "6427a041162bf612007e5c1223318500ad3f4afdc01ea1586cba710cc2f9acaa",
+      "pts": 174080,
+      "time_base": "1/10240",
+      "video_seconds": 17.0,
+      "episode_index": 225,
+      "relative_seconds": 17.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0350-front.png",
+      "sha256": "4de72abfa7fe57444cb12ad2a41a3932a1a8ef9bae7ff3ef84b302fdfa2b491a",
+      "pts": 179200,
+      "time_base": "1/10240",
+      "video_seconds": 17.5,
+      "episode_index": 225,
+      "relative_seconds": 17.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0360-front.png",
+      "sha256": "0ab482d420b155680846b13e064e23000fdbe3ece71b5a97bd064433b7a985af",
+      "pts": 184320,
+      "time_base": "1/10240",
+      "video_seconds": 18.0,
+      "episode_index": 225,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0370-front.png",
+      "sha256": "30dac7ebc73f6070549b6a805c050a1f2b9747b9674b938e9c7e77be9a4f26d3",
+      "pts": 189440,
+      "time_base": "1/10240",
+      "video_seconds": 18.5,
+      "episode_index": 225,
+      "relative_seconds": 18.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0380-front.png",
+      "sha256": "bd8f3665547e470552e8d04ac0cfcc3cb7602b27d70c86854c7515d96e6a1f5d",
+      "pts": 194560,
+      "time_base": "1/10240",
+      "video_seconds": 19.0,
+      "episode_index": 225,
+      "relative_seconds": 19.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0390-front.png",
+      "sha256": "07353eb2a0f4332cdfde0950316f705ab4a7d8ccbc40117d5747d028eeef6a3e",
+      "pts": 199680,
+      "time_base": "1/10240",
+      "video_seconds": 19.5,
+      "episode_index": 225,
+      "relative_seconds": 19.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0400-front.png",
+      "sha256": "67586c0c12620d48e6a1763d5bd716c323d92ab6de30eade9df0a4f35f29f92d",
+      "pts": 204800,
+      "time_base": "1/10240",
+      "video_seconds": 20.0,
+      "episode_index": 225,
+      "relative_seconds": 20.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0410-front.png",
+      "sha256": "e2e744e82fa47c7fd47c433e87157db642f339dde8ef13a2a735ab502903b425",
+      "pts": 209920,
+      "time_base": "1/10240",
+      "video_seconds": 20.5,
+      "episode_index": 225,
+      "relative_seconds": 20.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0420-front.png",
+      "sha256": "1d13f6914128171a22b1800bfb98317c2b05e9d4f54236f98f7676e053853a19",
+      "pts": 215040,
+      "time_base": "1/10240",
+      "video_seconds": 21.0,
+      "episode_index": 225,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0425-front.png",
+      "sha256": "c38f4915c8d1377bb2938dd8760464e9c6d04bb5a4d8c19e7befebca8906f931",
+      "pts": 217600,
+      "time_base": "1/10240",
+      "video_seconds": 21.25,
+      "episode_index": 225,
+      "relative_seconds": 21.25
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0000-front.png",
+      "sha256": "037b56eea1c84bb170231cd2b180ce969d609bee86c5580a1c2a1cb406aad7b1",
+      "pts": 218112,
+      "time_base": "1/10240",
+      "video_seconds": 21.3,
+      "episode_index": 226,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0010-front.png",
+      "sha256": "4af1765dd936af2fe448d385ffbf4f2689a80f41fb441da30f322233432211f4",
+      "pts": 223232,
+      "time_base": "1/10240",
+      "video_seconds": 21.8,
+      "episode_index": 226,
+      "relative_seconds": 0.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0020-front.png",
+      "sha256": "d1318269deb16984a35102acf93010f56edf2d2279587ae84c8892d8dd35c386",
+      "pts": 228352,
+      "time_base": "1/10240",
+      "video_seconds": 22.3,
+      "episode_index": 226,
+      "relative_seconds": 1.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0030-front.png",
+      "sha256": "e7e4806fa39d25cc6e647aa8cc62e1835c992616df838631f3ca68a9dee5d85c",
+      "pts": 233472,
+      "time_base": "1/10240",
+      "video_seconds": 22.8,
+      "episode_index": 226,
+      "relative_seconds": 1.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0040-front.png",
+      "sha256": "fa83128be31de1dfe7620245e72d58649ff4ff4c69d378c309f6d9d8f06960fd",
+      "pts": 238592,
+      "time_base": "1/10240",
+      "video_seconds": 23.3,
+      "episode_index": 226,
+      "relative_seconds": 2.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0050-front.png",
+      "sha256": "0a9116a98ffea2bdea8955bd647fe4fbc7153eea027e5d2d2499a57d3314ef58",
+      "pts": 243712,
+      "time_base": "1/10240",
+      "video_seconds": 23.8,
+      "episode_index": 226,
+      "relative_seconds": 2.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0060-front.png",
+      "sha256": "db5fbf5ddefa07fda8e5d560d6cd07822ad207238bb91c959c5c81b3874865cb",
+      "pts": 248832,
+      "time_base": "1/10240",
+      "video_seconds": 24.3,
+      "episode_index": 226,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0070-front.png",
+      "sha256": "7321fe3976d287054ca19960d7135ba94cdf8affa372aa4fca83dcf959f10303",
+      "pts": 253952,
+      "time_base": "1/10240",
+      "video_seconds": 24.8,
+      "episode_index": 226,
+      "relative_seconds": 3.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0080-front.png",
+      "sha256": "33773a16001c2a548c527bf7af3222a225b77c673753d46ce81cb0428d4bf82c",
+      "pts": 259072,
+      "time_base": "1/10240",
+      "video_seconds": 25.3,
+      "episode_index": 226,
+      "relative_seconds": 4.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0090-front.png",
+      "sha256": "6652824f0206cd941f13fcb3129321ee9aabb2aed8b06047d2a24d2b7380995a",
+      "pts": 264192,
+      "time_base": "1/10240",
+      "video_seconds": 25.8,
+      "episode_index": 226,
+      "relative_seconds": 4.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0100-front.png",
+      "sha256": "cf0936662249797db2021d2b6f7775a0f6caeeab63327d8bcd87e4c552fdedfe",
+      "pts": 269312,
+      "time_base": "1/10240",
+      "video_seconds": 26.3,
+      "episode_index": 226,
+      "relative_seconds": 5.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0110-front.png",
+      "sha256": "bfd8ea91c481319c6654b70daaed9cfb13c9d8667495070f33ca33f7a82f7794",
+      "pts": 274432,
+      "time_base": "1/10240",
+      "video_seconds": 26.8,
+      "episode_index": 226,
+      "relative_seconds": 5.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0120-front.png",
+      "sha256": "8c416b2860305fc363db519758154901151e3e9365d1e9e304aebaa65455cf92",
+      "pts": 279552,
+      "time_base": "1/10240",
+      "video_seconds": 27.3,
+      "episode_index": 226,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0130-front.png",
+      "sha256": "4f3a252f182e91e51bc4ca9a65b8f5cb9885e3ed3a2d7dbeb7245918bf311b64",
+      "pts": 284672,
+      "time_base": "1/10240",
+      "video_seconds": 27.8,
+      "episode_index": 226,
+      "relative_seconds": 6.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0140-front.png",
+      "sha256": "8291fd7ab0a9403f0a8270612349615965a653a1ad1fdb074c44b77e4f35c818",
+      "pts": 289792,
+      "time_base": "1/10240",
+      "video_seconds": 28.3,
+      "episode_index": 226,
+      "relative_seconds": 7.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0150-front.png",
+      "sha256": "11652e86df740346e935044d6e645fe1b63f967c657731eefa4c66b1442d7268",
+      "pts": 294912,
+      "time_base": "1/10240",
+      "video_seconds": 28.8,
+      "episode_index": 226,
+      "relative_seconds": 7.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0160-front.png",
+      "sha256": "4ae064232cdc98e0aece804e0847d8a116e0bf16ee2ca396bebdd5cc7fc22e6b",
+      "pts": 300032,
+      "time_base": "1/10240",
+      "video_seconds": 29.3,
+      "episode_index": 226,
+      "relative_seconds": 8.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0170-front.png",
+      "sha256": "1bc28ca5d53eeffb9a1da46cafedfdddec92a0767e822265eb0ef3504b0f5372",
+      "pts": 305152,
+      "time_base": "1/10240",
+      "video_seconds": 29.8,
+      "episode_index": 226,
+      "relative_seconds": 8.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0180-front.png",
+      "sha256": "f4d70cac44edfbb6957fa09614665556adabf62f13cd6ed50d4df365710ffbf1",
+      "pts": 310272,
+      "time_base": "1/10240",
+      "video_seconds": 30.3,
+      "episode_index": 226,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0190-front.png",
+      "sha256": "693919a5c179119f41e3e1e583d763b11f570383513826ebfa4cc9e747e77b6c",
+      "pts": 315392,
+      "time_base": "1/10240",
+      "video_seconds": 30.8,
+      "episode_index": 226,
+      "relative_seconds": 9.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0200-front.png",
+      "sha256": "ce6a05f912ce584c128d53a52839f331ec1df05e7b7252cc7efa860ba9cc2148",
+      "pts": 320512,
+      "time_base": "1/10240",
+      "video_seconds": 31.3,
+      "episode_index": 226,
+      "relative_seconds": 10.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0210-front.png",
+      "sha256": "31074f1dc3e2d29cd6d592a5420407895ef77203e9b6b9da795a5854c42d00b3",
+      "pts": 325632,
+      "time_base": "1/10240",
+      "video_seconds": 31.8,
+      "episode_index": 226,
+      "relative_seconds": 10.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0220-front.png",
+      "sha256": "8a48194a1e567e9b0a8d56b0a13f0c39d31edc3524cf78384f4efddd2ae8bad8",
+      "pts": 330752,
+      "time_base": "1/10240",
+      "video_seconds": 32.3,
+      "episode_index": 226,
+      "relative_seconds": 11.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0230-front.png",
+      "sha256": "7ebe11bd5a60fe4d28e125139d4dc8b0794bfe89641ea13c46ad57e3aef3a3c0",
+      "pts": 335872,
+      "time_base": "1/10240",
+      "video_seconds": 32.8,
+      "episode_index": 226,
+      "relative_seconds": 11.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0240-front.png",
+      "sha256": "323386a834af550573c7014bf1976084801f57dc1f85fb24f20fc3278e24ad7d",
+      "pts": 340992,
+      "time_base": "1/10240",
+      "video_seconds": 33.3,
+      "episode_index": 226,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0250-front.png",
+      "sha256": "70e3a98a853d8975a5034692fdc82bbec9004d5fa6850aa698ab6f24059591a2",
+      "pts": 346112,
+      "time_base": "1/10240",
+      "video_seconds": 33.8,
+      "episode_index": 226,
+      "relative_seconds": 12.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0260-front.png",
+      "sha256": "d714b5e8ac329ab18b900077404c104b5e66e5fb7308d0faae67fe8d6ddd9bf9",
+      "pts": 351232,
+      "time_base": "1/10240",
+      "video_seconds": 34.3,
+      "episode_index": 226,
+      "relative_seconds": 13.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0270-front.png",
+      "sha256": "9a78faa97c1280ace8b51bfd3de8256dfcff953452d6cea9abdc6fd42ebfe481",
+      "pts": 356352,
+      "time_base": "1/10240",
+      "video_seconds": 34.8,
+      "episode_index": 226,
+      "relative_seconds": 13.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0280-front.png",
+      "sha256": "561a2a832879397047aac71775d4c1345dae1a0229cad18a929202503b579cd8",
+      "pts": 361472,
+      "time_base": "1/10240",
+      "video_seconds": 35.3,
+      "episode_index": 226,
+      "relative_seconds": 14.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0290-front.png",
+      "sha256": "f1dfec5f151990dd84f59c48bba30ab320bbd002b0e12c53723fc16a583297c0",
+      "pts": 366592,
+      "time_base": "1/10240",
+      "video_seconds": 35.8,
+      "episode_index": 226,
+      "relative_seconds": 14.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0300-front.png",
+      "sha256": "d61405536523c64a6b29298b8c391599dd41d605451a3b7ea980950ac588157f",
+      "pts": 371712,
+      "time_base": "1/10240",
+      "video_seconds": 36.3,
+      "episode_index": 226,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0310-front.png",
+      "sha256": "feef968a0fa1f560b0e255bbd604817cfd44f053691de18125442ecc3530c5ef",
+      "pts": 376832,
+      "time_base": "1/10240",
+      "video_seconds": 36.8,
+      "episode_index": 226,
+      "relative_seconds": 15.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0320-front.png",
+      "sha256": "8bfa0cfe195a850d05a3d25a9de69d22e3227d94dfc8a37cfa85fa4d9cf3cd37",
+      "pts": 381952,
+      "time_base": "1/10240",
+      "video_seconds": 37.3,
+      "episode_index": 226,
+      "relative_seconds": 16.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0330-front.png",
+      "sha256": "37d2003416edec96811f0c4c0706480ed20110201c3a190511f0f9118bd23d6a",
+      "pts": 387072,
+      "time_base": "1/10240",
+      "video_seconds": 37.8,
+      "episode_index": 226,
+      "relative_seconds": 16.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0340-front.png",
+      "sha256": "e45ca27dab68ba157cbd13de13bc1d2f0e725dedb778dec04ea9eff39b7e4016",
+      "pts": 392192,
+      "time_base": "1/10240",
+      "video_seconds": 38.3,
+      "episode_index": 226,
+      "relative_seconds": 17.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0350-front.png",
+      "sha256": "fe3a90493a7064e82d3bd8ec7fceeacef9e6826ec7145db5d500c2545fb670bf",
+      "pts": 397312,
+      "time_base": "1/10240",
+      "video_seconds": 38.8,
+      "episode_index": 226,
+      "relative_seconds": 17.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0360-front.png",
+      "sha256": "38b64ed80af08c5574fc10d0fe18ac6af47c1d67f27bf36639ffd694664d50dd",
+      "pts": 402432,
+      "time_base": "1/10240",
+      "video_seconds": 39.3,
+      "episode_index": 226,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0370-front.png",
+      "sha256": "ad882133b66be3f101c6fddfb93a5a9fc00ced18c639ddfbd442b2b1dc624820",
+      "pts": 407552,
+      "time_base": "1/10240",
+      "video_seconds": 39.8,
+      "episode_index": 226,
+      "relative_seconds": 18.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0380-front.png",
+      "sha256": "7d4c27656ff5caf84161a8445618de74e340e3fdd1ab0076880f8ad887fa4587",
+      "pts": 412672,
+      "time_base": "1/10240",
+      "video_seconds": 40.3,
+      "episode_index": 226,
+      "relative_seconds": 19.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0390-front.png",
+      "sha256": "c8ea06a9af38230299606ca6f9a708c64f62b6aa1fbf8e9d5f7b4da8ca6d6af7",
+      "pts": 417792,
+      "time_base": "1/10240",
+      "video_seconds": 40.8,
+      "episode_index": 226,
+      "relative_seconds": 19.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0400-front.png",
+      "sha256": "48e1b64f2183e7f2f513cae4647be13b8ee934071caeec8711a5d1573959babf",
+      "pts": 422912,
+      "time_base": "1/10240",
+      "video_seconds": 41.3,
+      "episode_index": 226,
+      "relative_seconds": 20.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0410-front.png",
+      "sha256": "cfe30dffe868cd79655c9e05f3a6ff0e7dedb4e4d69171c025338b22e637ae66",
+      "pts": 428032,
+      "time_base": "1/10240",
+      "video_seconds": 41.8,
+      "episode_index": 226,
+      "relative_seconds": 20.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0420-front.png",
+      "sha256": "5d64f5c783bc0122c0e984f2b140a9ac5a37b7c614d4f7454d4f210d23dcc39a",
+      "pts": 433152,
+      "time_base": "1/10240",
+      "video_seconds": 42.3,
+      "episode_index": 226,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0430-front.png",
+      "sha256": "43a9fd80952143fba64a8465d3a4b11260e4eb0a7f3b3547c79159a315ae4c2d",
+      "pts": 438272,
+      "time_base": "1/10240",
+      "video_seconds": 42.8,
+      "episode_index": 226,
+      "relative_seconds": 21.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0440-front.png",
+      "sha256": "e2fcd2723db6dc95fc380915f244c4650207449378406b5a2b0eaa1ce712f380",
+      "pts": 443392,
+      "time_base": "1/10240",
+      "video_seconds": 43.3,
+      "episode_index": 226,
+      "relative_seconds": 22.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0450-front.png",
+      "sha256": "9100917335875c3d7927766a5cb4f82848c61bede92953ab06c5c34ed5fa7913",
+      "pts": 448512,
+      "time_base": "1/10240",
+      "video_seconds": 43.8,
+      "episode_index": 226,
+      "relative_seconds": 22.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0460-front.png",
+      "sha256": "95bfe53c948bcb5fa7c4dae925460dff20993b1503c57627f02bc779bc9b97d7",
+      "pts": 453632,
+      "time_base": "1/10240",
+      "video_seconds": 44.3,
+      "episode_index": 226,
+      "relative_seconds": 23.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0470-front.png",
+      "sha256": "61eb1c3f8eaf587a29b7acea2d56934e49badce06f2e4c01a5435780a3e9ce10",
+      "pts": 458752,
+      "time_base": "1/10240",
+      "video_seconds": 44.8,
+      "episode_index": 226,
+      "relative_seconds": 23.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0480-front.png",
+      "sha256": "239fa24d170b9ef3de25e78bfde3dbfaab112a9d02bf247fa43aebe3d45f3aba",
+      "pts": 463872,
+      "time_base": "1/10240",
+      "video_seconds": 45.3,
+      "episode_index": 226,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0490-front.png",
+      "sha256": "59629d45f80a697b1e0f7bd315f91cde446424a7d8b443cf0e10589e473863ba",
+      "pts": 468992,
+      "time_base": "1/10240",
+      "video_seconds": 45.8,
+      "episode_index": 226,
+      "relative_seconds": 24.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0500-front.png",
+      "sha256": "80fa0545254ba9c28402d96ba04a393006364cd92c6e5401a7b861f33cadd027",
+      "pts": 474112,
+      "time_base": "1/10240",
+      "video_seconds": 46.3,
+      "episode_index": 226,
+      "relative_seconds": 25.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0510-front.png",
+      "sha256": "43914e66de1f66818f10fec1839e368d5ef89c80d40c1aa142c2a920f1346baf",
+      "pts": 479232,
+      "time_base": "1/10240",
+      "video_seconds": 46.8,
+      "episode_index": 226,
+      "relative_seconds": 25.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0520-front.png",
+      "sha256": "ef0725d027c4a7cc9b8294a70eab6230ce157c9b35fd95747c94dd43853be135",
+      "pts": 484352,
+      "time_base": "1/10240",
+      "video_seconds": 47.3,
+      "episode_index": 226,
+      "relative_seconds": 26.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0530-front.png",
+      "sha256": "d1d3e864db653e93c6a5edca0aeeca7c9a511392693ab023c24b652ee0ef3e35",
+      "pts": 489472,
+      "time_base": "1/10240",
+      "video_seconds": 47.8,
+      "episode_index": 226,
+      "relative_seconds": 26.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0540-front.png",
+      "sha256": "9e7d1482a2e7ade08b91fd88bbb90dece835bfd34a993ddecb7978f851d6468e",
+      "pts": 494592,
+      "time_base": "1/10240",
+      "video_seconds": 48.3,
+      "episode_index": 226,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0550-front.png",
+      "sha256": "36467656b0dad8e319fb8b26e2e5a4e9de6ecb9ba251ebef7f223dab986353ec",
+      "pts": 499712,
+      "time_base": "1/10240",
+      "video_seconds": 48.8,
+      "episode_index": 226,
+      "relative_seconds": 27.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0560-front.png",
+      "sha256": "dae3513e93306d829b9baf05ec7ad8cf6cdf3cc0d9ebf5721939be988f6b982a",
+      "pts": 504832,
+      "time_base": "1/10240",
+      "video_seconds": 49.3,
+      "episode_index": 226,
+      "relative_seconds": 28.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0567-front.png",
+      "sha256": "9bef713b7724b69b93449133416ba22b115af91cb84fdf4bb65dcb0ec5657bbd",
+      "pts": 508416,
+      "time_base": "1/10240",
+      "video_seconds": 49.65,
+      "episode_index": 226,
+      "relative_seconds": 28.35
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0000-top.png",
+      "sha256": "8e2abad7b61e92858aa72d1175f6968679ba9c52b4f0bf73ae867b5f6e17f080",
+      "pts": 0,
+      "time_base": "1/10240",
+      "video_seconds": 0.0,
+      "episode_index": 225,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0010-top.png",
+      "sha256": "4b880d212771971ee6f2d26a4ee13ec855b40cfe7efc985641ba8a96fb88c6bc",
+      "pts": 5120,
+      "time_base": "1/10240",
+      "video_seconds": 0.5,
+      "episode_index": 225,
+      "relative_seconds": 0.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0020-top.png",
+      "sha256": "ace81fd02c6a9ef125bbc1449dd96be10f8df3c35621bf6ecfc431695c1c9577",
+      "pts": 10240,
+      "time_base": "1/10240",
+      "video_seconds": 1.0,
+      "episode_index": 225,
+      "relative_seconds": 1.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0030-top.png",
+      "sha256": "056406c3b715de1f9bde978bedcf8c5cdfd0f4017a2cc7678d3341477023ef39",
+      "pts": 15360,
+      "time_base": "1/10240",
+      "video_seconds": 1.5,
+      "episode_index": 225,
+      "relative_seconds": 1.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0040-top.png",
+      "sha256": "c79de7bc0f5f010a4c36489aefbc8e40463cf7dc41397492c4a11ad39f80c8a8",
+      "pts": 20480,
+      "time_base": "1/10240",
+      "video_seconds": 2.0,
+      "episode_index": 225,
+      "relative_seconds": 2.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0050-top.png",
+      "sha256": "136446420a89e7defab6c0aa25feb9be5e5c0551986fc9c363693e1aabf0d697",
+      "pts": 25600,
+      "time_base": "1/10240",
+      "video_seconds": 2.5,
+      "episode_index": 225,
+      "relative_seconds": 2.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0060-top.png",
+      "sha256": "0e1dd95f96be76b1663e99fea74cdb99159cf5cc2569991cbc500b0b8a7fd46b",
+      "pts": 30720,
+      "time_base": "1/10240",
+      "video_seconds": 3.0,
+      "episode_index": 225,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0070-top.png",
+      "sha256": "99e52e6a8ef4cef771bd843b72ec373c38ece320342da9edeb8767aec3d6d355",
+      "pts": 35840,
+      "time_base": "1/10240",
+      "video_seconds": 3.5,
+      "episode_index": 225,
+      "relative_seconds": 3.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0080-top.png",
+      "sha256": "aeb40341a05ec65b29cbd75634fdf73b78fb5bdbca53dc90192d7301995cb17f",
+      "pts": 40960,
+      "time_base": "1/10240",
+      "video_seconds": 4.0,
+      "episode_index": 225,
+      "relative_seconds": 4.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0090-top.png",
+      "sha256": "a2a679d94eba44e4c225cc3e6c96c9d9f26015c4118b3ad347bda2797767e095",
+      "pts": 46080,
+      "time_base": "1/10240",
+      "video_seconds": 4.5,
+      "episode_index": 225,
+      "relative_seconds": 4.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0100-top.png",
+      "sha256": "686e7a8e2583b38090865e3d6f13d5f8ba575543622462493deedc4a4725bcc5",
+      "pts": 51200,
+      "time_base": "1/10240",
+      "video_seconds": 5.0,
+      "episode_index": 225,
+      "relative_seconds": 5.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0110-top.png",
+      "sha256": "063547433db9ab9050cab995fb71bd4fa91ca6907411bb5659c4453128d2d7ab",
+      "pts": 56320,
+      "time_base": "1/10240",
+      "video_seconds": 5.5,
+      "episode_index": 225,
+      "relative_seconds": 5.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0120-top.png",
+      "sha256": "a3639f9e85e1b0f5ded0d811f48e8f5f6fddfa54a04438e44a54f98ee09a3007",
+      "pts": 61440,
+      "time_base": "1/10240",
+      "video_seconds": 6.0,
+      "episode_index": 225,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0130-top.png",
+      "sha256": "77df9d8f747cc6464ccde5571b63fd5b49e9e982442b4a691a3a788b09f7b001",
+      "pts": 66560,
+      "time_base": "1/10240",
+      "video_seconds": 6.5,
+      "episode_index": 225,
+      "relative_seconds": 6.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0140-top.png",
+      "sha256": "ddd82ec3e8c6b82484965f54b91e3914c937294535a5c4c31c112b533d4fd8bf",
+      "pts": 71680,
+      "time_base": "1/10240",
+      "video_seconds": 7.0,
+      "episode_index": 225,
+      "relative_seconds": 7.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0150-top.png",
+      "sha256": "3513bb95ca30ea966d98f4f89108d8bffa9eed7c3acde8385fe7ff25ba80b266",
+      "pts": 76800,
+      "time_base": "1/10240",
+      "video_seconds": 7.5,
+      "episode_index": 225,
+      "relative_seconds": 7.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0160-top.png",
+      "sha256": "b4f3dd399572667455ff477315b8d7864fdb4cc37ab078bc2f85b9d295d72318",
+      "pts": 81920,
+      "time_base": "1/10240",
+      "video_seconds": 8.0,
+      "episode_index": 225,
+      "relative_seconds": 8.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0170-top.png",
+      "sha256": "699f467abdb80f3a0999ce20d3fe874ee61d80bd15918384c4f86d011cdb15bb",
+      "pts": 87040,
+      "time_base": "1/10240",
+      "video_seconds": 8.5,
+      "episode_index": 225,
+      "relative_seconds": 8.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0180-top.png",
+      "sha256": "6135b63a99781af183064ae32da45bdfc3e3f7e6140a5490bc838ec3c31675de",
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0,
+      "episode_index": 225,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0190-top.png",
+      "sha256": "283c9946ed5553486e29a35dcc3b5fa1c7953df5c807059e9f9097d7da064030",
+      "pts": 97280,
+      "time_base": "1/10240",
+      "video_seconds": 9.5,
+      "episode_index": 225,
+      "relative_seconds": 9.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0200-top.png",
+      "sha256": "fe62a42bfda0eac76c4a1c010e2ceae93cfe3059cd3d437e27036bd974a28514",
+      "pts": 102400,
+      "time_base": "1/10240",
+      "video_seconds": 10.0,
+      "episode_index": 225,
+      "relative_seconds": 10.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0210-top.png",
+      "sha256": "7b964c50ce0dc5d01fa23c06cfef9a93ada8523b23f1115d27f1d42e840750ab",
+      "pts": 107520,
+      "time_base": "1/10240",
+      "video_seconds": 10.5,
+      "episode_index": 225,
+      "relative_seconds": 10.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0220-top.png",
+      "sha256": "7423852e4ea125e768b6dd830365e0e4ebd2976a10099e5a05b9fd1fccdacbf4",
+      "pts": 112640,
+      "time_base": "1/10240",
+      "video_seconds": 11.0,
+      "episode_index": 225,
+      "relative_seconds": 11.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0230-top.png",
+      "sha256": "0b50c362bdac0979dbe9a999dc795d29a89ced919d0c2dd2ef26e91607b993d2",
+      "pts": 117760,
+      "time_base": "1/10240",
+      "video_seconds": 11.5,
+      "episode_index": 225,
+      "relative_seconds": 11.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0240-top.png",
+      "sha256": "8fad4e89a10613239eb1e14c02ffda8590e65b685413e411ab25d4b9396a9f6e",
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0,
+      "episode_index": 225,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0250-top.png",
+      "sha256": "8fbbca53970a5455524fe1cd56c1446fc3ac0da290451cc5219e7c78eb2b0164",
+      "pts": 128000,
+      "time_base": "1/10240",
+      "video_seconds": 12.5,
+      "episode_index": 225,
+      "relative_seconds": 12.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0260-top.png",
+      "sha256": "7aa3dc88e9cc8e36c90f5d685e23d666eb8cf8f8b70b07fd3e3c78648e0acaba",
+      "pts": 133120,
+      "time_base": "1/10240",
+      "video_seconds": 13.0,
+      "episode_index": 225,
+      "relative_seconds": 13.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0270-top.png",
+      "sha256": "17b78b8dce12784a204574f9105a2842eacd614ebee844d4ef2112e151f49ffb",
+      "pts": 138240,
+      "time_base": "1/10240",
+      "video_seconds": 13.5,
+      "episode_index": 225,
+      "relative_seconds": 13.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0280-top.png",
+      "sha256": "1aaa42dbef4e38eca611fea74a39823ab902e056e7ee8783e0d2a47641e39b47",
+      "pts": 143360,
+      "time_base": "1/10240",
+      "video_seconds": 14.0,
+      "episode_index": 225,
+      "relative_seconds": 14.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0290-top.png",
+      "sha256": "1c618211a942d0d7995594332a2fc76afa317d741acf371a6bcfdeb165ddc077",
+      "pts": 148480,
+      "time_base": "1/10240",
+      "video_seconds": 14.5,
+      "episode_index": 225,
+      "relative_seconds": 14.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0300-top.png",
+      "sha256": "0ccbcb0932056804042c514d058b49ce0fc5403a043a9d424e97b4c229185851",
+      "pts": 153600,
+      "time_base": "1/10240",
+      "video_seconds": 15.0,
+      "episode_index": 225,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0310-top.png",
+      "sha256": "36276cccc1657b16680102c6270f883979a9781c446f2b2747dea3a399f22c77",
+      "pts": 158720,
+      "time_base": "1/10240",
+      "video_seconds": 15.5,
+      "episode_index": 225,
+      "relative_seconds": 15.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0320-top.png",
+      "sha256": "f5db7894defd73e5a4fb4a0b87a664c31c4218992832019d80292fead7921415",
+      "pts": 163840,
+      "time_base": "1/10240",
+      "video_seconds": 16.0,
+      "episode_index": 225,
+      "relative_seconds": 16.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0330-top.png",
+      "sha256": "e8ba4b32a60b9d430d7db849933e0637de24d54ce610c31320f7c5a1ef91feb8",
+      "pts": 168960,
+      "time_base": "1/10240",
+      "video_seconds": 16.5,
+      "episode_index": 225,
+      "relative_seconds": 16.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0340-top.png",
+      "sha256": "70c2500fc7cef0a19a0bdd434eb041a0ab57db974c47052d136d68217b56678b",
+      "pts": 174080,
+      "time_base": "1/10240",
+      "video_seconds": 17.0,
+      "episode_index": 225,
+      "relative_seconds": 17.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0350-top.png",
+      "sha256": "ef7095da15d05968cb8b6feba18b09520aad6672d6f046df53bb27802008295e",
+      "pts": 179200,
+      "time_base": "1/10240",
+      "video_seconds": 17.5,
+      "episode_index": 225,
+      "relative_seconds": 17.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0360-top.png",
+      "sha256": "883b9283fbde8fa0e42740c9ed57af382c43c794e3cb1142ad8751af6558534d",
+      "pts": 184320,
+      "time_base": "1/10240",
+      "video_seconds": 18.0,
+      "episode_index": 225,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0370-top.png",
+      "sha256": "891056997092e64a3c25dde8c65ffcc56bb8994881efa222048c11fffd83888c",
+      "pts": 189440,
+      "time_base": "1/10240",
+      "video_seconds": 18.5,
+      "episode_index": 225,
+      "relative_seconds": 18.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0380-top.png",
+      "sha256": "a8746134a7156918ddda846e23b5e0796774f2b7bbdf1b377a50721d710cc1f0",
+      "pts": 194560,
+      "time_base": "1/10240",
+      "video_seconds": 19.0,
+      "episode_index": 225,
+      "relative_seconds": 19.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0390-top.png",
+      "sha256": "3ef0f4fdcc777f9ead4080495ffcdb345ebe84d2eab15f8c4e85f7237dfa8315",
+      "pts": 199680,
+      "time_base": "1/10240",
+      "video_seconds": 19.5,
+      "episode_index": 225,
+      "relative_seconds": 19.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0400-top.png",
+      "sha256": "293f79de6a4d50b83432a2a9eb7596144765ee65c90b5129d8f400a51ccce7d8",
+      "pts": 204800,
+      "time_base": "1/10240",
+      "video_seconds": 20.0,
+      "episode_index": 225,
+      "relative_seconds": 20.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0410-top.png",
+      "sha256": "3b3d88f2f9ee8b5ca496bb214d5892d6539c73da5e6acb7bb4a09cd624a4ed51",
+      "pts": 209920,
+      "time_base": "1/10240",
+      "video_seconds": 20.5,
+      "episode_index": 225,
+      "relative_seconds": 20.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0420-top.png",
+      "sha256": "0d0e7e5e208ebdd01ae1bca3fc131af545299bc6467819ac84b37055440df863",
+      "pts": 215040,
+      "time_base": "1/10240",
+      "video_seconds": 21.0,
+      "episode_index": 225,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0425-top.png",
+      "sha256": "ab2f0655f04fd0ac56215289fb76e269e148755424b22e5ca568f4850ba19676",
+      "pts": 217600,
+      "time_base": "1/10240",
+      "video_seconds": 21.25,
+      "episode_index": 225,
+      "relative_seconds": 21.25
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0000-top.png",
+      "sha256": "64d33a93f601691cca1ad116cdd6264a832c7db5ff06c975579afb94f3b13bb2",
+      "pts": 218112,
+      "time_base": "1/10240",
+      "video_seconds": 21.3,
+      "episode_index": 226,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0010-top.png",
+      "sha256": "e6a5fe497fbfda307ee8451590fd512973b3015e5fc26d0e78d2c61939da5ff3",
+      "pts": 223232,
+      "time_base": "1/10240",
+      "video_seconds": 21.8,
+      "episode_index": 226,
+      "relative_seconds": 0.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0020-top.png",
+      "sha256": "8e3db23562a24621144dbcdd4042db316c27ec4044e8e45b590a0600e08011f1",
+      "pts": 228352,
+      "time_base": "1/10240",
+      "video_seconds": 22.3,
+      "episode_index": 226,
+      "relative_seconds": 1.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0030-top.png",
+      "sha256": "9224feccb0c1f1a90251e13551868b8e40c5b5de25a9863c8db004b8312e51c2",
+      "pts": 233472,
+      "time_base": "1/10240",
+      "video_seconds": 22.8,
+      "episode_index": 226,
+      "relative_seconds": 1.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0040-top.png",
+      "sha256": "4a51f6d40cff56ccb80315b1432d514f2cfce5486a827c5c4d5f85beb2f32829",
+      "pts": 238592,
+      "time_base": "1/10240",
+      "video_seconds": 23.3,
+      "episode_index": 226,
+      "relative_seconds": 2.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0050-top.png",
+      "sha256": "82d132180de27932df967163a0a6ecd81dbbf877655dacada28982ba2df71a79",
+      "pts": 243712,
+      "time_base": "1/10240",
+      "video_seconds": 23.8,
+      "episode_index": 226,
+      "relative_seconds": 2.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0060-top.png",
+      "sha256": "c710b71163b26a47877b823871090221f3900e48063404523150e9fb888c6320",
+      "pts": 248832,
+      "time_base": "1/10240",
+      "video_seconds": 24.3,
+      "episode_index": 226,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0070-top.png",
+      "sha256": "30617475c1092f713e70aebd28a35eac9d9e247e7094915abde3eb9e0a3acdec",
+      "pts": 253952,
+      "time_base": "1/10240",
+      "video_seconds": 24.8,
+      "episode_index": 226,
+      "relative_seconds": 3.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0080-top.png",
+      "sha256": "b2a0b4cedbc530722f6c61312926566c93b5576a5434dcd4d7664fc4406881f7",
+      "pts": 259072,
+      "time_base": "1/10240",
+      "video_seconds": 25.3,
+      "episode_index": 226,
+      "relative_seconds": 4.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0090-top.png",
+      "sha256": "49ba78165ff0127866a227b4f1c8364618c8b81460345e3d4ea1fcca36f82277",
+      "pts": 264192,
+      "time_base": "1/10240",
+      "video_seconds": 25.8,
+      "episode_index": 226,
+      "relative_seconds": 4.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0100-top.png",
+      "sha256": "da0e081ba484edc75b3f7b27581c6b3468a093ac2a07b021fe22cab478df2151",
+      "pts": 269312,
+      "time_base": "1/10240",
+      "video_seconds": 26.3,
+      "episode_index": 226,
+      "relative_seconds": 5.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0110-top.png",
+      "sha256": "00eecc2ccc4d91e7edd1920e9880c326ecc12b59a4356df1bb78d8f90925df88",
+      "pts": 274432,
+      "time_base": "1/10240",
+      "video_seconds": 26.8,
+      "episode_index": 226,
+      "relative_seconds": 5.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0120-top.png",
+      "sha256": "7a648c8dc58980bb572116b41ad3f105281718d652aa12cd271469624d71b253",
+      "pts": 279552,
+      "time_base": "1/10240",
+      "video_seconds": 27.3,
+      "episode_index": 226,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0130-top.png",
+      "sha256": "a402b683430aaacfcae0b26ec1064cc5439a178700c1f2c291762949658059c1",
+      "pts": 284672,
+      "time_base": "1/10240",
+      "video_seconds": 27.8,
+      "episode_index": 226,
+      "relative_seconds": 6.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0140-top.png",
+      "sha256": "f98d66f9aa6bd101642429a7b511c3ee606468588b2bc32f6ccd7dc6e72cd769",
+      "pts": 289792,
+      "time_base": "1/10240",
+      "video_seconds": 28.3,
+      "episode_index": 226,
+      "relative_seconds": 7.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0150-top.png",
+      "sha256": "a444b3543f1ed46577ff188efd1b55710879abdb0cfa255da11e815b42a6e511",
+      "pts": 294912,
+      "time_base": "1/10240",
+      "video_seconds": 28.8,
+      "episode_index": 226,
+      "relative_seconds": 7.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0160-top.png",
+      "sha256": "cf6d36174bb2bc0e1fb6aefcbeb7aa341b883bdff5eac11e1d86700f4aef6819",
+      "pts": 300032,
+      "time_base": "1/10240",
+      "video_seconds": 29.3,
+      "episode_index": 226,
+      "relative_seconds": 8.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0170-top.png",
+      "sha256": "8204b390f5994848b70f2c1446c85252463cade033c84c63a41165957d9b1188",
+      "pts": 305152,
+      "time_base": "1/10240",
+      "video_seconds": 29.8,
+      "episode_index": 226,
+      "relative_seconds": 8.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0180-top.png",
+      "sha256": "1c98672b9a7d6cc4ca84baf624ffc261fd0b28438a327b181d05f3c59eac2698",
+      "pts": 310272,
+      "time_base": "1/10240",
+      "video_seconds": 30.3,
+      "episode_index": 226,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0190-top.png",
+      "sha256": "77cee82ba8e4db9da41f346d3f6cb141d8800cc7a6364e3a1e9ef6104ac439fe",
+      "pts": 315392,
+      "time_base": "1/10240",
+      "video_seconds": 30.8,
+      "episode_index": 226,
+      "relative_seconds": 9.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0200-top.png",
+      "sha256": "6540c2bd48dcb1e7ca0d293aff20561197e0c9e12b5eec93efe66ae724fa2814",
+      "pts": 320512,
+      "time_base": "1/10240",
+      "video_seconds": 31.3,
+      "episode_index": 226,
+      "relative_seconds": 10.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0210-top.png",
+      "sha256": "a2b420a9419e937f7ed76250876ccbc0f64263e65b570958ce8098a59c721601",
+      "pts": 325632,
+      "time_base": "1/10240",
+      "video_seconds": 31.8,
+      "episode_index": 226,
+      "relative_seconds": 10.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0220-top.png",
+      "sha256": "6a64cbaae774f416effa73d62f5020638e7b57f88ce401368e2981c538f3ffe3",
+      "pts": 330752,
+      "time_base": "1/10240",
+      "video_seconds": 32.3,
+      "episode_index": 226,
+      "relative_seconds": 11.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0230-top.png",
+      "sha256": "20d43599ef37f29c55f5cff2a7f421bb94e3a3b16d98b7ff3eb1d25586ed6129",
+      "pts": 335872,
+      "time_base": "1/10240",
+      "video_seconds": 32.8,
+      "episode_index": 226,
+      "relative_seconds": 11.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0240-top.png",
+      "sha256": "28a118e38d6c192030d8bc641d47d0268d2ceebf1163365762f0c23d33c468bf",
+      "pts": 340992,
+      "time_base": "1/10240",
+      "video_seconds": 33.3,
+      "episode_index": 226,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0250-top.png",
+      "sha256": "3d87e5272166baf11880c5e2ebf08a9b32952978249bc21ff365d4abce46d127",
+      "pts": 346112,
+      "time_base": "1/10240",
+      "video_seconds": 33.8,
+      "episode_index": 226,
+      "relative_seconds": 12.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0260-top.png",
+      "sha256": "92cffdeea476b625059366973eaae21bb5a38471678254e10ed87fa9465b2aae",
+      "pts": 351232,
+      "time_base": "1/10240",
+      "video_seconds": 34.3,
+      "episode_index": 226,
+      "relative_seconds": 13.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0270-top.png",
+      "sha256": "eccf4a7ff0e8f2c810c668d876fa7f4f06772d012e3a84d4ee9ddb6ebb9b761a",
+      "pts": 356352,
+      "time_base": "1/10240",
+      "video_seconds": 34.8,
+      "episode_index": 226,
+      "relative_seconds": 13.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0280-top.png",
+      "sha256": "836de310dc8ab33f696b3fe33c93974b8605062531295d0f8ea94d334b83a8ba",
+      "pts": 361472,
+      "time_base": "1/10240",
+      "video_seconds": 35.3,
+      "episode_index": 226,
+      "relative_seconds": 14.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0290-top.png",
+      "sha256": "431a819c3edbf4a4054e523d8cd915b03c08aba0b8db1eea5a2801041757c818",
+      "pts": 366592,
+      "time_base": "1/10240",
+      "video_seconds": 35.8,
+      "episode_index": 226,
+      "relative_seconds": 14.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0300-top.png",
+      "sha256": "b80d2065ba21ead7ff703f751060e7cc4f4341c1c395018aa1a675dd610b06d4",
+      "pts": 371712,
+      "time_base": "1/10240",
+      "video_seconds": 36.3,
+      "episode_index": 226,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0310-top.png",
+      "sha256": "79bb327b7c1d7091da2e9563283a93f4b11339fa99b55182688790b9b877c86c",
+      "pts": 376832,
+      "time_base": "1/10240",
+      "video_seconds": 36.8,
+      "episode_index": 226,
+      "relative_seconds": 15.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0320-top.png",
+      "sha256": "fb8e805319d200204b26e80416e98c710b4247033418d4cda2cb2fbc41e1d63e",
+      "pts": 381952,
+      "time_base": "1/10240",
+      "video_seconds": 37.3,
+      "episode_index": 226,
+      "relative_seconds": 16.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0330-top.png",
+      "sha256": "6e3630010baf6820df62d305348dedd206907430c746ccef748aa0ba90d6ce82",
+      "pts": 387072,
+      "time_base": "1/10240",
+      "video_seconds": 37.8,
+      "episode_index": 226,
+      "relative_seconds": 16.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0340-top.png",
+      "sha256": "e04a134604f77fd03281cae86ca993e91e65bc2523ab091699a72440bbb9532c",
+      "pts": 392192,
+      "time_base": "1/10240",
+      "video_seconds": 38.3,
+      "episode_index": 226,
+      "relative_seconds": 17.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0350-top.png",
+      "sha256": "b4165d61900c37eb387cd4719fe83a686a0b13bc59b581b83c30f824ed4f4526",
+      "pts": 397312,
+      "time_base": "1/10240",
+      "video_seconds": 38.8,
+      "episode_index": 226,
+      "relative_seconds": 17.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0360-top.png",
+      "sha256": "7b4944e90d743a8c8b071e4395c9a56ead7750a5dcaca86a094d100d683fc7ff",
+      "pts": 402432,
+      "time_base": "1/10240",
+      "video_seconds": 39.3,
+      "episode_index": 226,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0370-top.png",
+      "sha256": "da4d302f0ba9d18f4b5288c0bf6cbad75e1468f74424875bccf39e8e36f0b7b8",
+      "pts": 407552,
+      "time_base": "1/10240",
+      "video_seconds": 39.8,
+      "episode_index": 226,
+      "relative_seconds": 18.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0380-top.png",
+      "sha256": "66ed0b553978b4426b8f03cc447454118f3b1044928ef7f6be821c7a30cbb689",
+      "pts": 412672,
+      "time_base": "1/10240",
+      "video_seconds": 40.3,
+      "episode_index": 226,
+      "relative_seconds": 19.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0390-top.png",
+      "sha256": "145bba9044551ac0a98230e67942a6fb922a97849eaa27da6934f42db8a08867",
+      "pts": 417792,
+      "time_base": "1/10240",
+      "video_seconds": 40.8,
+      "episode_index": 226,
+      "relative_seconds": 19.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0400-top.png",
+      "sha256": "3181f40b3dade27ff3c81e0e97aafdc1f6770b8884c213f126d3b45ff14d60d6",
+      "pts": 422912,
+      "time_base": "1/10240",
+      "video_seconds": 41.3,
+      "episode_index": 226,
+      "relative_seconds": 20.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0410-top.png",
+      "sha256": "fb979100933fba158c288000bee3ad490d9c753dfec0779cec203d22e4b9d34c",
+      "pts": 428032,
+      "time_base": "1/10240",
+      "video_seconds": 41.8,
+      "episode_index": 226,
+      "relative_seconds": 20.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0420-top.png",
+      "sha256": "ab08fe9653ee7bacec37d45bc0f8afe53e5c3773f9da2a4802b6007511dbac9d",
+      "pts": 433152,
+      "time_base": "1/10240",
+      "video_seconds": 42.3,
+      "episode_index": 226,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0430-top.png",
+      "sha256": "2f9a00c6a239d04cbbb7c64712127ac4edd758dac00e8ee83489864897608ba5",
+      "pts": 438272,
+      "time_base": "1/10240",
+      "video_seconds": 42.8,
+      "episode_index": 226,
+      "relative_seconds": 21.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0440-top.png",
+      "sha256": "4478cfedee944edf52082b2cfb41be2ef65208acdb361d581496f006c096b460",
+      "pts": 443392,
+      "time_base": "1/10240",
+      "video_seconds": 43.3,
+      "episode_index": 226,
+      "relative_seconds": 22.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0450-top.png",
+      "sha256": "6d4a82bc56b76a76ec102cfb47ab69ac3eda48ea6ce7356a068dd806133baeb4",
+      "pts": 448512,
+      "time_base": "1/10240",
+      "video_seconds": 43.8,
+      "episode_index": 226,
+      "relative_seconds": 22.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0460-top.png",
+      "sha256": "7b262a2aef6f93f53854d22a66bd7c43566512488a226a450d2bb9dc5cdd2f71",
+      "pts": 453632,
+      "time_base": "1/10240",
+      "video_seconds": 44.3,
+      "episode_index": 226,
+      "relative_seconds": 23.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0470-top.png",
+      "sha256": "81d11eefe6551ef37c1c6e940ce4c23d449262a0ce08b4508a7df28cfbbc3d89",
+      "pts": 458752,
+      "time_base": "1/10240",
+      "video_seconds": 44.8,
+      "episode_index": 226,
+      "relative_seconds": 23.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0480-top.png",
+      "sha256": "f6cba91697625baef601fbf0b848b2ee7102c6ccc0b2fe608141079feb18255f",
+      "pts": 463872,
+      "time_base": "1/10240",
+      "video_seconds": 45.3,
+      "episode_index": 226,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0490-top.png",
+      "sha256": "abb342f19a30066922474080287a0ac67622f7704bdd41ce66586358cdabce1e",
+      "pts": 468992,
+      "time_base": "1/10240",
+      "video_seconds": 45.8,
+      "episode_index": 226,
+      "relative_seconds": 24.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0500-top.png",
+      "sha256": "926bb51a74bd3654ad4f9cd54b291fa4292c2c500d7b3eb8723e775287a9fea3",
+      "pts": 474112,
+      "time_base": "1/10240",
+      "video_seconds": 46.3,
+      "episode_index": 226,
+      "relative_seconds": 25.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0510-top.png",
+      "sha256": "19c3cee0dae7cd766f6f1f1447569c4685872543ffbfc60d383442ab9c0235a9",
+      "pts": 479232,
+      "time_base": "1/10240",
+      "video_seconds": 46.8,
+      "episode_index": 226,
+      "relative_seconds": 25.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0520-top.png",
+      "sha256": "1ee470b25779cfcaeb35861f664494dd044490c4eab1012f50500c777120204f",
+      "pts": 484352,
+      "time_base": "1/10240",
+      "video_seconds": 47.3,
+      "episode_index": 226,
+      "relative_seconds": 26.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0530-top.png",
+      "sha256": "5ca5360de98c67d2f03c3b82656c2bc97c2aed7905883c87d9934cf238893704",
+      "pts": 489472,
+      "time_base": "1/10240",
+      "video_seconds": 47.8,
+      "episode_index": 226,
+      "relative_seconds": 26.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0540-top.png",
+      "sha256": "0c71ac087a6b9a9bff2cd63c63b34152fffdf2840ac8172b9366ba4570496ea8",
+      "pts": 494592,
+      "time_base": "1/10240",
+      "video_seconds": 48.3,
+      "episode_index": 226,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0550-top.png",
+      "sha256": "89770154bcdb9230a1de8283d619d2d6fba122ed6abe31768b60e801111682e1",
+      "pts": 499712,
+      "time_base": "1/10240",
+      "video_seconds": 48.8,
+      "episode_index": 226,
+      "relative_seconds": 27.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0560-top.png",
+      "sha256": "b5bab756697bb548f050bdf0cc6c55a214fa8caaf799dacc37b40490ab665d2c",
+      "pts": 504832,
+      "time_base": "1/10240",
+      "video_seconds": 49.3,
+      "episode_index": 226,
+      "relative_seconds": 28.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0567-top.png",
+      "sha256": "a9ce0ce7bebd867f2ae9a5de0819fa6a042fb0d101d01d1f20f2634f3a71b777",
+      "pts": 508416,
+      "time_base": "1/10240",
+      "video_seconds": 49.65,
+      "episode_index": 226,
+      "relative_seconds": 28.35
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0000-wrist.png",
+      "sha256": "0594eb23d1924fa180052c00d02e830b01f61234f156877936b55dde1ae5e69b",
+      "pts": 0,
+      "time_base": "1/10240",
+      "video_seconds": 0.0,
+      "episode_index": 225,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0010-wrist.png",
+      "sha256": "92c49c815890fc9db9ac85bf59b0a1a1b42b6a8a416365eaa1395e7a1d4efd21",
+      "pts": 5120,
+      "time_base": "1/10240",
+      "video_seconds": 0.5,
+      "episode_index": 225,
+      "relative_seconds": 0.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0020-wrist.png",
+      "sha256": "617de54070ef13948a563ea07f31facaba3c4642c2f53cc57c17ba3b07f21968",
+      "pts": 10240,
+      "time_base": "1/10240",
+      "video_seconds": 1.0,
+      "episode_index": 225,
+      "relative_seconds": 1.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0030-wrist.png",
+      "sha256": "e9d71fcea486d68e6a4f5d6f2288b725b9c961cf80d025af27e12a51f99be0fb",
+      "pts": 15360,
+      "time_base": "1/10240",
+      "video_seconds": 1.5,
+      "episode_index": 225,
+      "relative_seconds": 1.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0040-wrist.png",
+      "sha256": "7caaa7c552409a98d25438876d8457b38c32e73e9cf39a5f5eaf8eea0d4bdebf",
+      "pts": 20480,
+      "time_base": "1/10240",
+      "video_seconds": 2.0,
+      "episode_index": 225,
+      "relative_seconds": 2.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0050-wrist.png",
+      "sha256": "3faba10d1873491412cbcd07e5b6ced25b32c6b7775aede02d325a2338cb6c17",
+      "pts": 25600,
+      "time_base": "1/10240",
+      "video_seconds": 2.5,
+      "episode_index": 225,
+      "relative_seconds": 2.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0060-wrist.png",
+      "sha256": "e85cb88184f0f5d163cbcf32ef5a7d56bb65fb7c7a69e5aa08ab1db025a365e7",
+      "pts": 30720,
+      "time_base": "1/10240",
+      "video_seconds": 3.0,
+      "episode_index": 225,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0070-wrist.png",
+      "sha256": "14aa8bc493bf64520697437173629bf9dc9d16d40e41c2808ed04d3c1484b8c1",
+      "pts": 35840,
+      "time_base": "1/10240",
+      "video_seconds": 3.5,
+      "episode_index": 225,
+      "relative_seconds": 3.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0080-wrist.png",
+      "sha256": "84ea473ae389d7624cd824dca265b3c0c4c5f5803d3aae1ef16f7399f0509dea",
+      "pts": 40960,
+      "time_base": "1/10240",
+      "video_seconds": 4.0,
+      "episode_index": 225,
+      "relative_seconds": 4.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0090-wrist.png",
+      "sha256": "0c130bca5c0e853172d36864e809660589c64383534352aaeae0b48d1a1939a7",
+      "pts": 46080,
+      "time_base": "1/10240",
+      "video_seconds": 4.5,
+      "episode_index": 225,
+      "relative_seconds": 4.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0100-wrist.png",
+      "sha256": "b94dc5c0ecae52123ae537a76f2cb628041d44bfb12314c1c469807cd559d213",
+      "pts": 51200,
+      "time_base": "1/10240",
+      "video_seconds": 5.0,
+      "episode_index": 225,
+      "relative_seconds": 5.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0110-wrist.png",
+      "sha256": "3e44985c142b308000d03eadb468fe77d1d451af4e0995fe0d0a384528ee3f53",
+      "pts": 56320,
+      "time_base": "1/10240",
+      "video_seconds": 5.5,
+      "episode_index": 225,
+      "relative_seconds": 5.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0120-wrist.png",
+      "sha256": "0caa10bb7d707628b7f16f40eeb681580a3d201255285c07b9230f0f2b0abdbc",
+      "pts": 61440,
+      "time_base": "1/10240",
+      "video_seconds": 6.0,
+      "episode_index": 225,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0130-wrist.png",
+      "sha256": "5956d82b348c46ecf4067b8393912f1b89bfe37f2ddb2833c2ba1f9ed5088bb3",
+      "pts": 66560,
+      "time_base": "1/10240",
+      "video_seconds": 6.5,
+      "episode_index": 225,
+      "relative_seconds": 6.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0140-wrist.png",
+      "sha256": "58eb0f35d89043bee4f3576acc488eb992df202ff96a5c5a3c94b19999635c4e",
+      "pts": 71680,
+      "time_base": "1/10240",
+      "video_seconds": 7.0,
+      "episode_index": 225,
+      "relative_seconds": 7.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0150-wrist.png",
+      "sha256": "e09eda98b26b051230b31db0842c4fcf89ba03d9dc9954d910037ac66bcf11e7",
+      "pts": 76800,
+      "time_base": "1/10240",
+      "video_seconds": 7.5,
+      "episode_index": 225,
+      "relative_seconds": 7.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0160-wrist.png",
+      "sha256": "1fe82a2689364d90e9108e9a537ebbe23679737f34fd8a4961bae4844eaef91b",
+      "pts": 81920,
+      "time_base": "1/10240",
+      "video_seconds": 8.0,
+      "episode_index": 225,
+      "relative_seconds": 8.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0170-wrist.png",
+      "sha256": "904f1fae15eb6bb5fc5ff0d9c7f73ea5f81cb54da8ee87235c38ff6b0ed37cfe",
+      "pts": 87040,
+      "time_base": "1/10240",
+      "video_seconds": 8.5,
+      "episode_index": 225,
+      "relative_seconds": 8.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0180-wrist.png",
+      "sha256": "e314c942862de11baa7c85ff05c456ca91cc8fe9a5e297bca5f1d8eeb82e5d54",
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0,
+      "episode_index": 225,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0190-wrist.png",
+      "sha256": "1bc2e7ed6cb7f27ef401197e41112ee83cf322a673ff7da8e1bf6d5a39daabaa",
+      "pts": 97280,
+      "time_base": "1/10240",
+      "video_seconds": 9.5,
+      "episode_index": 225,
+      "relative_seconds": 9.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0200-wrist.png",
+      "sha256": "0147146d2e17693e1451a4b473b017df1f55da8c5ef2e3fbb4c062d93ebcef54",
+      "pts": 102400,
+      "time_base": "1/10240",
+      "video_seconds": 10.0,
+      "episode_index": 225,
+      "relative_seconds": 10.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0210-wrist.png",
+      "sha256": "e13b19765c9e137a82afad8ca66b92bdfbac5522fb97112b7320b2269845bebb",
+      "pts": 107520,
+      "time_base": "1/10240",
+      "video_seconds": 10.5,
+      "episode_index": 225,
+      "relative_seconds": 10.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0220-wrist.png",
+      "sha256": "51457ce39ee3ca3217fc0e6c7416a8c8e1e0a462f77e8c90a34c06ea47c8df74",
+      "pts": 112640,
+      "time_base": "1/10240",
+      "video_seconds": 11.0,
+      "episode_index": 225,
+      "relative_seconds": 11.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0230-wrist.png",
+      "sha256": "335eb85938341a62ae6c80a9a6591717bf8506c84cee5ada0df67db58dcb303c",
+      "pts": 117760,
+      "time_base": "1/10240",
+      "video_seconds": 11.5,
+      "episode_index": 225,
+      "relative_seconds": 11.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0240-wrist.png",
+      "sha256": "93cba4fe9716fcc9f2fa140e0dea3925242ba17ba85f62f1233d4db2e68b50b9",
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0,
+      "episode_index": 225,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0250-wrist.png",
+      "sha256": "f067ada13331a17f5151f40091d67b55b874ad311a8897e3e9d3c096904ed88a",
+      "pts": 128000,
+      "time_base": "1/10240",
+      "video_seconds": 12.5,
+      "episode_index": 225,
+      "relative_seconds": 12.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0260-wrist.png",
+      "sha256": "3a7dee784833e213b5f618ee9985de38b6555d898d6a455c33d1a562ee36886f",
+      "pts": 133120,
+      "time_base": "1/10240",
+      "video_seconds": 13.0,
+      "episode_index": 225,
+      "relative_seconds": 13.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0270-wrist.png",
+      "sha256": "7040a75377802ed7386e58cd8a316bc0f8e23c802284fe931e220fcb62c83519",
+      "pts": 138240,
+      "time_base": "1/10240",
+      "video_seconds": 13.5,
+      "episode_index": 225,
+      "relative_seconds": 13.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0280-wrist.png",
+      "sha256": "b0345ec58fc2015506c0046d6a8e4a2d85700725d7a4fd4fc60d5e5e057e9ef2",
+      "pts": 143360,
+      "time_base": "1/10240",
+      "video_seconds": 14.0,
+      "episode_index": 225,
+      "relative_seconds": 14.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0290-wrist.png",
+      "sha256": "cbd154379367486865443eab401db1853b761f58daf6023eafa2dc397648f36c",
+      "pts": 148480,
+      "time_base": "1/10240",
+      "video_seconds": 14.5,
+      "episode_index": 225,
+      "relative_seconds": 14.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0300-wrist.png",
+      "sha256": "dc7b27bc1b7a4646a5cb30396deb0e0b1df411bdd9f583e7d7aee847402ffabf",
+      "pts": 153600,
+      "time_base": "1/10240",
+      "video_seconds": 15.0,
+      "episode_index": 225,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0310-wrist.png",
+      "sha256": "a15b76dc748ebb7c48e9891bc7aa25bcec868cd8387e1f8940fe147820f0aaa6",
+      "pts": 158720,
+      "time_base": "1/10240",
+      "video_seconds": 15.5,
+      "episode_index": 225,
+      "relative_seconds": 15.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0320-wrist.png",
+      "sha256": "3823e1657671fd07567a34a3f727ff3835a2d64c1dbf76a6c55d79fa850c03eb",
+      "pts": 163840,
+      "time_base": "1/10240",
+      "video_seconds": 16.0,
+      "episode_index": 225,
+      "relative_seconds": 16.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0330-wrist.png",
+      "sha256": "fc0c0f071284ecbd1ef5e1b65e3faf6162f0c6dd4ef8c3082704a51ba0b30cab",
+      "pts": 168960,
+      "time_base": "1/10240",
+      "video_seconds": 16.5,
+      "episode_index": 225,
+      "relative_seconds": 16.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0340-wrist.png",
+      "sha256": "17e8fe128f62c5c27eaf6bdd977fd9e20700e14ebad57ccb4fcce08112a02e5b",
+      "pts": 174080,
+      "time_base": "1/10240",
+      "video_seconds": 17.0,
+      "episode_index": 225,
+      "relative_seconds": 17.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0350-wrist.png",
+      "sha256": "d0b2960c09fb1416968e07d6b3a9d1008ef25891f8db1a8b383ae58cee6e8f33",
+      "pts": 179200,
+      "time_base": "1/10240",
+      "video_seconds": 17.5,
+      "episode_index": 225,
+      "relative_seconds": 17.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0360-wrist.png",
+      "sha256": "9867c400611ea4f5316dd49eabef5f6172794d2ce21f80cf4d312c4105c42b45",
+      "pts": 184320,
+      "time_base": "1/10240",
+      "video_seconds": 18.0,
+      "episode_index": 225,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0370-wrist.png",
+      "sha256": "066ae9193f2c18a7098a0d7b87cce19e8b97b1462f3f3f86bb47bbc813e2fafd",
+      "pts": 189440,
+      "time_base": "1/10240",
+      "video_seconds": 18.5,
+      "episode_index": 225,
+      "relative_seconds": 18.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0380-wrist.png",
+      "sha256": "236f37a1455b3914df2658b8061227a3eee47919f7217c856d9022141c0db1dc",
+      "pts": 194560,
+      "time_base": "1/10240",
+      "video_seconds": 19.0,
+      "episode_index": 225,
+      "relative_seconds": 19.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0390-wrist.png",
+      "sha256": "f2f14f54e03472c4d6ccd749386428b3b43313905796cfe176efb4fce2bd86ce",
+      "pts": 199680,
+      "time_base": "1/10240",
+      "video_seconds": 19.5,
+      "episode_index": 225,
+      "relative_seconds": 19.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0400-wrist.png",
+      "sha256": "75c0ac55da21599183019e6c73f0716611380c70ed3a477f5084ea3a69ff1baf",
+      "pts": 204800,
+      "time_base": "1/10240",
+      "video_seconds": 20.0,
+      "episode_index": 225,
+      "relative_seconds": 20.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0410-wrist.png",
+      "sha256": "b14c8a47b8220280a303cb760c014cab8e14a3b7ad65b024ac1c3fa8a44ca3f6",
+      "pts": 209920,
+      "time_base": "1/10240",
+      "video_seconds": 20.5,
+      "episode_index": 225,
+      "relative_seconds": 20.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0420-wrist.png",
+      "sha256": "77038c16c71d68d3b0146c8e8e02d7cac3a95c10d89d590b212ee7000c108cc4",
+      "pts": 215040,
+      "time_base": "1/10240",
+      "video_seconds": 21.0,
+      "episode_index": 225,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep225-tick0425-wrist.png",
+      "sha256": "c187b76b11f97302ab10f8dbd41b7714e131ea0b9bc498d9e89f7d8b2f0dbef0",
+      "pts": 217600,
+      "time_base": "1/10240",
+      "video_seconds": 21.25,
+      "episode_index": 225,
+      "relative_seconds": 21.25
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0000-wrist.png",
+      "sha256": "c8d36a1450512652b0d803bd76947f64fd2b42497665acbe9f05f9a42142e6b6",
+      "pts": 218112,
+      "time_base": "1/10240",
+      "video_seconds": 21.3,
+      "episode_index": 226,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0010-wrist.png",
+      "sha256": "c66458d5e6d619f7e2c9c8205204fa950922fb92a8885f6cc24092a70356e008",
+      "pts": 223232,
+      "time_base": "1/10240",
+      "video_seconds": 21.8,
+      "episode_index": 226,
+      "relative_seconds": 0.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0020-wrist.png",
+      "sha256": "bf74e10e609e8826ba0654e9a521bf55889c0ec1bdc22f6748f62bb152bb72df",
+      "pts": 228352,
+      "time_base": "1/10240",
+      "video_seconds": 22.3,
+      "episode_index": 226,
+      "relative_seconds": 1.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0030-wrist.png",
+      "sha256": "b7ab9935c466fb158eef1e2702869385c6fcae283807e47ea18cd475f28d2bd2",
+      "pts": 233472,
+      "time_base": "1/10240",
+      "video_seconds": 22.8,
+      "episode_index": 226,
+      "relative_seconds": 1.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0040-wrist.png",
+      "sha256": "ea7fef88e1b4a861910bbcebe29eb045e51561d7689b6e633459e2d93bb53cb0",
+      "pts": 238592,
+      "time_base": "1/10240",
+      "video_seconds": 23.3,
+      "episode_index": 226,
+      "relative_seconds": 2.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0050-wrist.png",
+      "sha256": "78430bb39ff8106075c91ac2ca3ebd8302bda51493dec5721def860394c747f3",
+      "pts": 243712,
+      "time_base": "1/10240",
+      "video_seconds": 23.8,
+      "episode_index": 226,
+      "relative_seconds": 2.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0060-wrist.png",
+      "sha256": "b689b6bddcc300e8cffc5416736580fb1a1ef4cdf7f7fe4427dbbc8282f08df0",
+      "pts": 248832,
+      "time_base": "1/10240",
+      "video_seconds": 24.3,
+      "episode_index": 226,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0070-wrist.png",
+      "sha256": "a609205f71a978e32900408a380ea4558fdc57202e5813b529e515168d718142",
+      "pts": 253952,
+      "time_base": "1/10240",
+      "video_seconds": 24.8,
+      "episode_index": 226,
+      "relative_seconds": 3.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0080-wrist.png",
+      "sha256": "141801590565fc1b6666e734550ba52dff0b9c7550f547d2276181d6a1c2d517",
+      "pts": 259072,
+      "time_base": "1/10240",
+      "video_seconds": 25.3,
+      "episode_index": 226,
+      "relative_seconds": 4.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0090-wrist.png",
+      "sha256": "f4a3ffa0f8459a345ce0e09236ceb183e75ab0a7366923ceb0bf3a5f38198cad",
+      "pts": 264192,
+      "time_base": "1/10240",
+      "video_seconds": 25.8,
+      "episode_index": 226,
+      "relative_seconds": 4.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0100-wrist.png",
+      "sha256": "735434ac6296c3c3ea6bec7106265ac52f451cbab5d66bd53971e23897294376",
+      "pts": 269312,
+      "time_base": "1/10240",
+      "video_seconds": 26.3,
+      "episode_index": 226,
+      "relative_seconds": 5.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0110-wrist.png",
+      "sha256": "0907310088f67a6693d933c53f1ad5fc751f8507b2479fa07d7bdbb3c00db9c5",
+      "pts": 274432,
+      "time_base": "1/10240",
+      "video_seconds": 26.8,
+      "episode_index": 226,
+      "relative_seconds": 5.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0120-wrist.png",
+      "sha256": "a95d6ed8fbc84f05c1e55fe0437a40b9278505c354fbbfb3c080ebade9276dbb",
+      "pts": 279552,
+      "time_base": "1/10240",
+      "video_seconds": 27.3,
+      "episode_index": 226,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0130-wrist.png",
+      "sha256": "f60840d107d04291dda3e1a5461d5fc730631b47be520fc6175f6f9c18af9760",
+      "pts": 284672,
+      "time_base": "1/10240",
+      "video_seconds": 27.8,
+      "episode_index": 226,
+      "relative_seconds": 6.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0140-wrist.png",
+      "sha256": "b9d80ed2204a721edb84525f387d5a426bcf6b67016e616eba12f1d1bb009146",
+      "pts": 289792,
+      "time_base": "1/10240",
+      "video_seconds": 28.3,
+      "episode_index": 226,
+      "relative_seconds": 7.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0150-wrist.png",
+      "sha256": "f20a7bff242563d96024971e80ff2a5aefb6f725ac7a30f08118744264416100",
+      "pts": 294912,
+      "time_base": "1/10240",
+      "video_seconds": 28.8,
+      "episode_index": 226,
+      "relative_seconds": 7.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0160-wrist.png",
+      "sha256": "3ddf18305efcb45726ce3a7c557d329ac2911e9c24cff16f703456ea73e531de",
+      "pts": 300032,
+      "time_base": "1/10240",
+      "video_seconds": 29.3,
+      "episode_index": 226,
+      "relative_seconds": 8.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0170-wrist.png",
+      "sha256": "1d2d8765bbfacce38694346a28817b61df6454f51008cfe6ff441b415ffdbe9a",
+      "pts": 305152,
+      "time_base": "1/10240",
+      "video_seconds": 29.8,
+      "episode_index": 226,
+      "relative_seconds": 8.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0180-wrist.png",
+      "sha256": "09947efe5112fddeb065c4f101f62f2ca06d2ce3386d2c8e428ef7fa85636ed0",
+      "pts": 310272,
+      "time_base": "1/10240",
+      "video_seconds": 30.3,
+      "episode_index": 226,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0190-wrist.png",
+      "sha256": "a3933dbc8f85d9da43634a30366324b72f9690c04029c956ec392a102d7efb70",
+      "pts": 315392,
+      "time_base": "1/10240",
+      "video_seconds": 30.8,
+      "episode_index": 226,
+      "relative_seconds": 9.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0200-wrist.png",
+      "sha256": "f383fbc0d6f7c27b96c19550d7e050ec664419e23e5e7e0fb4842508245d872a",
+      "pts": 320512,
+      "time_base": "1/10240",
+      "video_seconds": 31.3,
+      "episode_index": 226,
+      "relative_seconds": 10.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0210-wrist.png",
+      "sha256": "3432151d9824a17c389c3816a4c9f85445a8b133c4008280936dcba96fa85d00",
+      "pts": 325632,
+      "time_base": "1/10240",
+      "video_seconds": 31.8,
+      "episode_index": 226,
+      "relative_seconds": 10.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0220-wrist.png",
+      "sha256": "cc5d77a5cdd388e1fa7cc87dc249301ef075d78157e89b250302f4f1e5adabe9",
+      "pts": 330752,
+      "time_base": "1/10240",
+      "video_seconds": 32.3,
+      "episode_index": 226,
+      "relative_seconds": 11.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0230-wrist.png",
+      "sha256": "8e238bb5ae549addeb7948c18db09d0bdb21c77f44611d14d28463d62d5f6655",
+      "pts": 335872,
+      "time_base": "1/10240",
+      "video_seconds": 32.8,
+      "episode_index": 226,
+      "relative_seconds": 11.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0240-wrist.png",
+      "sha256": "ed205e14bb6598db3d1d591e9fc8e1859a45e329de17b1a238de1bb6218aba34",
+      "pts": 340992,
+      "time_base": "1/10240",
+      "video_seconds": 33.3,
+      "episode_index": 226,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0250-wrist.png",
+      "sha256": "d568d95922650aec610240deb653ecda759fac9c84dee7c63b6d0fa58b568e0a",
+      "pts": 346112,
+      "time_base": "1/10240",
+      "video_seconds": 33.8,
+      "episode_index": 226,
+      "relative_seconds": 12.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0260-wrist.png",
+      "sha256": "baf45f3d6eca8c82b64e7c23db7f072be5244d38077ab3f86cd0c7c41e30003c",
+      "pts": 351232,
+      "time_base": "1/10240",
+      "video_seconds": 34.3,
+      "episode_index": 226,
+      "relative_seconds": 13.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0270-wrist.png",
+      "sha256": "2a7f1ecddf1d6b3beb419d639f2a143f90f339ddcade10cd9a7771297916ce27",
+      "pts": 356352,
+      "time_base": "1/10240",
+      "video_seconds": 34.8,
+      "episode_index": 226,
+      "relative_seconds": 13.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0280-wrist.png",
+      "sha256": "9eb5637b39ddcd19284a66c23c29d50eb07db2836e2f795df8bfe2392537c85a",
+      "pts": 361472,
+      "time_base": "1/10240",
+      "video_seconds": 35.3,
+      "episode_index": 226,
+      "relative_seconds": 14.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0290-wrist.png",
+      "sha256": "01479efc7820ddde79daeda40f331c0d2ed918954816e5c17f3ff084af1a21b9",
+      "pts": 366592,
+      "time_base": "1/10240",
+      "video_seconds": 35.8,
+      "episode_index": 226,
+      "relative_seconds": 14.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0300-wrist.png",
+      "sha256": "0b9fa61fc21aa2105bd92fcc21a3f6ae4d65a3db53c4b49e8b3a6587c254fed9",
+      "pts": 371712,
+      "time_base": "1/10240",
+      "video_seconds": 36.3,
+      "episode_index": 226,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0310-wrist.png",
+      "sha256": "4d9853d254dc421ccd30632436e5372a8d1041b51dfa370d298763cd0b5ec879",
+      "pts": 376832,
+      "time_base": "1/10240",
+      "video_seconds": 36.8,
+      "episode_index": 226,
+      "relative_seconds": 15.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0320-wrist.png",
+      "sha256": "28fedb1e16d695e0fbde1464d2e0fe525fbb33d19e47c22e59cc702ecec8ca04",
+      "pts": 381952,
+      "time_base": "1/10240",
+      "video_seconds": 37.3,
+      "episode_index": 226,
+      "relative_seconds": 16.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0330-wrist.png",
+      "sha256": "a6a89f7e057d797fca422f1f2dea90a2324ecbc09e94e698df0225caf56c8cb3",
+      "pts": 387072,
+      "time_base": "1/10240",
+      "video_seconds": 37.8,
+      "episode_index": 226,
+      "relative_seconds": 16.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0340-wrist.png",
+      "sha256": "7d4304627b1c071f56e536a569dcabde774952b14a0b2451e65ed2f581b98c70",
+      "pts": 392192,
+      "time_base": "1/10240",
+      "video_seconds": 38.3,
+      "episode_index": 226,
+      "relative_seconds": 17.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0350-wrist.png",
+      "sha256": "f1a5e5396dbe51aed0384cb5fa5b9338caa902d72ab3d036aff4c8879c40a7fe",
+      "pts": 397312,
+      "time_base": "1/10240",
+      "video_seconds": 38.8,
+      "episode_index": 226,
+      "relative_seconds": 17.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0360-wrist.png",
+      "sha256": "072d280d180526d100c9c7f1962269ba11a811d90a83b14f7857758d37fb74d0",
+      "pts": 402432,
+      "time_base": "1/10240",
+      "video_seconds": 39.3,
+      "episode_index": 226,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0370-wrist.png",
+      "sha256": "6f14eda679b7110de6ee6f484d167b0278b8e1f6e9501f8b5384c5edf13e5e1f",
+      "pts": 407552,
+      "time_base": "1/10240",
+      "video_seconds": 39.8,
+      "episode_index": 226,
+      "relative_seconds": 18.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0380-wrist.png",
+      "sha256": "c29b542c2c5145fe26a4efc6322df26645e5ee30062383d11fbbf741bfdc8182",
+      "pts": 412672,
+      "time_base": "1/10240",
+      "video_seconds": 40.3,
+      "episode_index": 226,
+      "relative_seconds": 19.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0390-wrist.png",
+      "sha256": "2a5fe14661fa336fe0caf051e627e4effe975dbfbcb0936af7e105230f888137",
+      "pts": 417792,
+      "time_base": "1/10240",
+      "video_seconds": 40.8,
+      "episode_index": 226,
+      "relative_seconds": 19.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0400-wrist.png",
+      "sha256": "98eecd3f076617614d4e672c454c86d85c90bdb1800429a5c966880adc0596a1",
+      "pts": 422912,
+      "time_base": "1/10240",
+      "video_seconds": 41.3,
+      "episode_index": 226,
+      "relative_seconds": 20.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0410-wrist.png",
+      "sha256": "acc7e56fe2fb0df2bc2ccf0587a00c378e10e9558118f5cd758a0d3c9e73031a",
+      "pts": 428032,
+      "time_base": "1/10240",
+      "video_seconds": 41.8,
+      "episode_index": 226,
+      "relative_seconds": 20.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0420-wrist.png",
+      "sha256": "1bc533c994d53bdce67b8ae08487038061bfce7d6e2f20f80424248e853192a7",
+      "pts": 433152,
+      "time_base": "1/10240",
+      "video_seconds": 42.3,
+      "episode_index": 226,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0430-wrist.png",
+      "sha256": "bab0ff952f49b366b0e3818d9332328b39a3ce2c08888b143098d40f137b8761",
+      "pts": 438272,
+      "time_base": "1/10240",
+      "video_seconds": 42.8,
+      "episode_index": 226,
+      "relative_seconds": 21.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0440-wrist.png",
+      "sha256": "dfde4028f9af1ef5133976e203a11b7e29ac42e5270d41e4200737d4d391fd38",
+      "pts": 443392,
+      "time_base": "1/10240",
+      "video_seconds": 43.3,
+      "episode_index": 226,
+      "relative_seconds": 22.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0450-wrist.png",
+      "sha256": "635cd838c988fb643b94bdf39df9a185b4f6e31c08b90f8e6ed2e7d20abea621",
+      "pts": 448512,
+      "time_base": "1/10240",
+      "video_seconds": 43.8,
+      "episode_index": 226,
+      "relative_seconds": 22.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0460-wrist.png",
+      "sha256": "db3275f90a11b1cfe6522d4195f04df2dc80a45d12923f261fdf63561b5c8896",
+      "pts": 453632,
+      "time_base": "1/10240",
+      "video_seconds": 44.3,
+      "episode_index": 226,
+      "relative_seconds": 23.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0470-wrist.png",
+      "sha256": "07c550d368ee38955e4d52cd492d6e7a1b1bd33f30d4da28d5dabadb58a37a3f",
+      "pts": 458752,
+      "time_base": "1/10240",
+      "video_seconds": 44.8,
+      "episode_index": 226,
+      "relative_seconds": 23.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0480-wrist.png",
+      "sha256": "08ce9fd20469f6bba3a7fceb963bdef88a000192a13eba6fce2f0a00b5a51d8c",
+      "pts": 463872,
+      "time_base": "1/10240",
+      "video_seconds": 45.3,
+      "episode_index": 226,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0490-wrist.png",
+      "sha256": "90e6a9a142b5e990cba9a7327c777d502caa5edaf2bf3c558a4d007c620bf3ed",
+      "pts": 468992,
+      "time_base": "1/10240",
+      "video_seconds": 45.8,
+      "episode_index": 226,
+      "relative_seconds": 24.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0500-wrist.png",
+      "sha256": "5eb555a5708de6ed380875a5ac92bda0c7d9dc1d05fe50872f1c4a2cf0129a32",
+      "pts": 474112,
+      "time_base": "1/10240",
+      "video_seconds": 46.3,
+      "episode_index": 226,
+      "relative_seconds": 25.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0510-wrist.png",
+      "sha256": "0ebb21f2694c052dbb27965d2f8dd80efd705523b8863410bcfc994150e27b6c",
+      "pts": 479232,
+      "time_base": "1/10240",
+      "video_seconds": 46.8,
+      "episode_index": 226,
+      "relative_seconds": 25.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0520-wrist.png",
+      "sha256": "5fb1ee3452ac7b6df03add6b32c748ef937c5b29fec7a5148821529d8dbc33c5",
+      "pts": 484352,
+      "time_base": "1/10240",
+      "video_seconds": 47.3,
+      "episode_index": 226,
+      "relative_seconds": 26.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0530-wrist.png",
+      "sha256": "49834a8d7c3bd65d451d28c63a357aca604daecfd1b25d8754744a3a28e4fa8c",
+      "pts": 489472,
+      "time_base": "1/10240",
+      "video_seconds": 47.8,
+      "episode_index": 226,
+      "relative_seconds": 26.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0540-wrist.png",
+      "sha256": "3e7051598c6ef5c8024201d7918d6f2eb53381403acc4dce26d28e195eadb596",
+      "pts": 494592,
+      "time_base": "1/10240",
+      "video_seconds": 48.3,
+      "episode_index": 226,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0550-wrist.png",
+      "sha256": "d6a0cfe0ded9c4bd154e51d84e579df6d79e2bcd55ab7183f228218e74ce0ff5",
+      "pts": 499712,
+      "time_base": "1/10240",
+      "video_seconds": 48.8,
+      "episode_index": 226,
+      "relative_seconds": 27.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0560-wrist.png",
+      "sha256": "496d1f5dc3cc2d7fa4e875f8161d56f555d38851a91ae6884d56cb0add62edfe",
+      "pts": 504832,
+      "time_base": "1/10240",
+      "video_seconds": 49.3,
+      "episode_index": 226,
+      "relative_seconds": 28.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/ep226-tick0567-wrist.png",
+      "sha256": "b7dbf00236fb8bed6b70a0353404a0998be1a98e1c97f05cf8c9527690d42114",
+      "pts": 508416,
+      "time_base": "1/10240",
+      "video_seconds": 49.65,
+      "episode_index": 226,
+      "relative_seconds": 28.35
+    }
+  ],
+  "pages": [
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-1.png",
+      "sha256": "667e65bec99913c3f5a5b62c00183f78c3b7ee75fb9ba325c42959d0ef484f67"
+    },
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-2.png",
+      "sha256": "ab9a4eef2593d844a0394908d79e85415b5ec728820e9540443c9c39142d29bb"
+    },
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-3.png",
+      "sha256": "19e3e03dccd6341a866800f46ebec3424d8b1c94fb91b2167e0555f3f5b9d834"
+    },
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-4.png",
+      "sha256": "50b16e4438b61eff5a3494ba2b74a9c6501433e3565e83b1d7acc6fe0a260079"
+    },
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-5.png",
+      "sha256": "4de66336867c4f91e23ae1165fea1252780a23eafd854b5001e44ad73a0dcc2a"
+    },
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-6.png",
+      "sha256": "379b28cc08f06d5f0918a1294ee199dd9a2da4252b2cb0398328818f98b271af"
+    },
+    {
+      "file": "data/discovery/deployment-failures-20261115/process-review-v1/process-sheet-7.png",
+      "sha256": "cf4dac8971b84e1f7c8595fefb18453d9a25a47b327be2bd3603d69f233fa1b6"
+    }
+  ],
+  "grid_times_per_episode": {
+    "225": 44,
+    "226": 58
+  },
+  "limits": [
+    "0.5s grid is not every-frame continuous playback.",
+    "Camera correspondence is metadata nominal time, not verified exposure/action synchronization.",
+    "Earliest selected success and failure; unmatched initial states, no causal or prevalence inference."
+  ]
+}

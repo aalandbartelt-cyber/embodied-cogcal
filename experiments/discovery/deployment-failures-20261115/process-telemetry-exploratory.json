@@ -1,0 +1,100 @@
+{
+  "kind": "exploratory recorded-telemetry check; not preregistered mechanism or detector",
+  "input_sha256": "3e3065c1fc7b8f175ca54aeca6406e494aa777b85e5e32d4fce50a8e4e9156f4",
+  "episodes": [
+    {
+      "episode_index": 225,
+      "full_frames": 426,
+      "window": "[10,20) nominal seconds; frames 200..399; exploratory after image review",
+      "recorded_samples": 200,
+      "action": {
+        "native_unit_range": [
+          8.18743371963501,
+          74.57885456085205,
+          74.00178527832031,
+          60.48008930683136,
+          22.54234027862549,
+          23.737357407808304
+        ],
+        "unique_full_rows": 200,
+        "native_unit_max_abs_adjacent_delta": [
+          1.063614845275879,
+          5.3021087646484375,
+          6.236583709716797,
+          6.174470901489258,
+          2.91416072845459,
+          7.960186958312988
+        ]
+      },
+      "observation.state": {
+        "native_unit_range": [
+          7.648351192474365,
+          62.9450569152832,
+          71.38461875915527,
+          57.40659189969301,
+          21.362637519836426,
+          22.646657645702362
+        ],
+        "unique_full_rows": 196,
+        "native_unit_max_abs_adjacent_delta": [
+          1.1428570747375488,
+          5.8022003173828125,
+          4.923076629638672,
+          4.923076629638672,
+          2.5494505763053894,
+          5.661664009094238
+        ]
+      }
+    },
+    {
+      "episode_index": 226,
+      "full_frames": 568,
+      "window": "[10,20) nominal seconds; frames 200..399; exploratory after image review",
+      "recorded_samples": 200,
+      "action": {
+        "native_unit_range": [
+          4.750502586364746,
+          19.119778633117676,
+          12.682178497314453,
+          10.635018587112427,
+          1.806417465209961,
+          15.537967085838318
+        ],
+        "unique_full_rows": 200,
+        "native_unit_max_abs_adjacent_delta": [
+          2.252476692199707,
+          6.7775163650512695,
+          2.3594436645507812,
+          1.5063304901123047,
+          1.1615056991577148,
+          4.862646579742432
+        ]
+      },
+      "observation.state": {
+        "native_unit_range": [
+          3.8681325912475586,
+          15.7362642288208,
+          11.780220031738281,
+          10.285713911056519,
+          1.0549449920654297,
+          14.802183151245117
+        ],
+        "unique_full_rows": 192,
+        "native_unit_max_abs_adjacent_delta": [
+          1.0549449920654297,
+          3.868131637573242,
+          1.75823974609375,
+          0.9670333862304688,
+          0.6153850555419922,
+          3.95634388923645
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Window selected after viewing fixed grid; no significance test or threshold fitting.",
+    "Native units, nominal clocks only; not TCP error or true motor-read/action-send synchronization.",
+    "Nonidentical logged rows exclude literal identical-row logging here; not proof of fresh model inference or root cause.",
+    "Two unmatched episodes do not estimate failure prevalence."
+  ]
+}
