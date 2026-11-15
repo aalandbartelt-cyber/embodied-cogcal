@@ -1,0 +1,48 @@
+{
+  "saved_utc": "2026-11-15T02:23:23.657675+00:00",
+  "scope": "bounded primary source and asset metadata reads, no upstream install or weights",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2606.18043v2",
+      "cache": "data/discovery/vfd-assets-20261115/uq-v2.html",
+      "status": 200,
+      "bytes": 1193672,
+      "sha256": "752b810c8f4b22b233cb5bb2faf2573c74edaa19624c16f76b68d858cb48fa40"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.28010v1",
+      "cache": "data/discovery/vfd-assets-20261115/cfm-nll-v1.html",
+      "status": 200,
+      "bytes": 1216787,
+      "sha256": "7c239bfd7b6500873398b69790a10ee1312a2a3ad474bb4a24b45d10a3e4065a"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.11650v1",
+      "cache": "data/discovery/vfd-assets-20261115/floweval-v1.html",
+      "status": 200,
+      "bytes": 322248,
+      "sha256": "2630c3534367cd0a86c2807a315994df9901554979eb4ea0ca454ced35cab506"
+    },
+    {
+      "url": "https://api.github.com/repos/mcobzarenco/flow-matching/commits/main",
+      "cache": "data/discovery/vfd-assets-20261115/bijou-commit.json",
+      "status": 200,
+      "bytes": 172463,
+      "sha256": "cfa61c8b54f0c37311193e9424eeb5f5b12bfb44f125792d9e4d3ef5441e590d"
+    },
+    {
+      "url": "https://huggingface.co/api/models/mcobzarenco/bijou-checkpoints",
+      "cache": "data/discovery/vfd-assets-20261115/bijou-hf.json",
+      "status": 200,
+      "bytes": 10705,
+      "sha256": "92ed28af80eb8912b294e7067fe21ced9613cae29f97800ffde4b3fd848239fa"
+    },
+    {
+      "url": "https://huggingface.co/api/models/mcobzarenco/fontaine-checkpoints",
+      "cache": "data/discovery/vfd-assets-20261115/fontaine-hf.json",
+      "status": 200,
+      "bytes": 41166,
+      "sha256": "14ab7ed4b691232e028e7d930e4eb141b80ecd64599221b5bc1a4fbe6261003e"
+    }
+  ]
+}

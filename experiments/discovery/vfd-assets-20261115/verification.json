@@ -1,0 +1,18 @@
+{
+  "kind": "provenance_and_read_only_replay_not_policy_reproduction_or_novelty",
+  "fresh_contract_replay_identical": true,
+  "independent_sql_counts_match": true,
+  "source_files_verified": 33,
+  "fetch_errors_preserved": [
+    {
+      "manifest": "experiments/discovery/vfd-assets-20261115/bijou-sources.json",
+      "url": "https://huggingface.co/mcobzarenco/fontaine-checkpoints/resolve/0806a456b58c11d17a7183f8e72de55e08bdf818/README.md",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "result_sha256": "3c75342410279b6d674c32c49c3991278b7f84eace79e06583059ae29a9ea19d",
+  "initial_zone_diagnostic_sha256": "6e713383cca39a48394cfe5abba607239b28aaa2203b45b54db60beec70c476e",
+  "local_links_checked": 23,
+  "original_four_probe_results_and_three_tpsc_assets_unchanged": true,
+  "upstream_install_execution_or_policy_weights": false
+}

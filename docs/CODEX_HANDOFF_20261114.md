@@ -450,3 +450,19 @@ SciPy1.16.3只以 --no-deps补装到cogcal-sim，NumPy/MuJoCo未改；原source�
 
 下一证据必须来自同数据/不同seed且有任务能力的真实learned ensemble，以及冻结动作生成过程的评分/示教或转交后果。
 目前无此证据，不自动启动神经网络训练或声称同题真机可行，也不把该解析线索当方向确定。
+
+## 19. VFD版本与资产后续：当前线索移出主推荐
+
+入口：`experiments/discovery/vfd-assets-20261115/README.md`；上轮属于progress，提交570ef7c。
+补读UQ v2 §4/A.2/§7/C.7，连续OT条件仍保留且已有评分时刻消融；CFM/NLL 2608.28010v1
+§6.2/A.5已有保持Gaussian边缘分布而改变CFM比率的构造，不把不同的一维例子当新原理。
+
+- 新查Bijou ebaa8e0和两个公开HF权重库metadata：有raw checkpoint入口，但本轮未验证合格独立flow ensemble或任务成功。
+- 固定Drishti eeaaaf4，实际只读SQLite63条/4607步/546图像行，tree有756embedding文件覆盖60条（34成功/26失败标签）。
+- 六维q/action完整；805步32维head mean/std是压缩摘要、非完整action chunk/ODE，不可恢复VFD；t是步号，非物理秒。
+- 3条仅1步的成功标签记录初态已在当前xy区域，逐步cube/contact缺失，不能复算物理抓放；不改标签、不作任务能力通过。
+- Drishti官方AUC含样本内评分；本轮没有重训检测器/复算AUC，没有下载策略权重或执行上游。
+- FlowEval A.2已描述事后重建动作标签与真实命令不一致及hold-position对照，不包装为新核心。
+
+当前VFD路径线移出主推荐，停止扩大纯解析构造；下一动作恢复具体任务失效发现。
+不是证明空间不存在，不是因无公开权重就否决科学问题；完整目标active，无候选通过立项门槛。

@@ -1,0 +1,44 @@
+{
+  "kind": "post_inspection_initial_zone_crosscheck_not_physical_outcome_replay",
+  "input_sha256": "3c75342410279b6d674c32c49c3991278b7f84eace79e06583059ae29a9ea19d",
+  "current_script_sha256": "2db849156cf1e1f1cb2a59b128963658f2de54f09b6879496d3e0bf9cb7f6d8d",
+  "computation": "abs(recorded_cube_x-0.34)<0.045 and abs(recorded_cube_y-0.02)<0.03",
+  "rows": [
+    {
+      "run_id": "run_0daf780ab35d",
+      "recorded_success": true,
+      "steps": 1,
+      "cube_xy_recorded": [
+        0.3007,
+        -0.0037
+      ],
+      "embeddings_in_tree": true
+    },
+    {
+      "run_id": "run_431940dae1c1",
+      "recorded_success": true,
+      "steps": 1,
+      "cube_xy_recorded": [
+        0.297,
+        -0.0055
+      ],
+      "embeddings_in_tree": true
+    },
+    {
+      "run_id": "run_da1856e01231",
+      "recorded_success": true,
+      "steps": 1,
+      "cube_xy_recorded": [
+        0.3067,
+        0.0084
+      ],
+      "embeddings_in_tree": true
+    }
+  ],
+  "limits": [
+    "Initial cube xy is rounded metadata, not complete reset state.",
+    "Current source oracle also requires z<0.06; historical per-step cube z not recorded.",
+    "No seed-matched physical replay, no relabeling, no detector retraining.",
+    "This is an adaptive diagnostic after the main contract audit."
+  ]
+}

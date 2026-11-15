@@ -1,0 +1,49 @@
+{
+  "saved_utc": "2026-11-15T02:26:30.575180+00:00",
+  "repo": "Advaitic/drishti",
+  "revision": "eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/Advaitic/drishti/commits/main",
+      "cache": "data/discovery/vfd-assets-20261115/drishti-commit.json",
+      "status": 200,
+      "bytes": 4826,
+      "sha256": "3e091c8ca77ce53f92ed60f4bb63171f656945fe720ccb5287e39b71c4550c8e"
+    },
+    {
+      "url": "https://api.github.com/repos/Advaitic/drishti/git/trees/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627?recursive=1",
+      "cache": "data/discovery/vfd-assets-20261115/drishti-tree.json",
+      "status": 200,
+      "bytes": 412278,
+      "sha256": "88c2bf962ef17de5a6d4144cf70d76aab7b19c7b83bd6e09ddb8d61ce098c210"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/README.md",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__README.md",
+      "status": 200,
+      "bytes": 22343,
+      "sha256": "259ba75293a058679252e26207b105f1ca458a38f8bdc830fe2f6f1dde0e563e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/LICENSE",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__LICENSE",
+      "status": 200,
+      "bytes": 11307,
+      "sha256": "566ec1951cdccd32dc6fc8c151ba2871f91d2d4d8bbde7378f2ece196b12ab2b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/docs/LEARNINGS.md",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__docs__LEARNINGS.md",
+      "status": 200,
+      "bytes": 18053,
+      "sha256": "fc2995a38eee8df69a4c88c540abd2e4d30f4c3e6c696e89caa7f47446510568"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/pyproject.toml",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__pyproject.toml",
+      "status": 200,
+      "bytes": 2518,
+      "sha256": "2825cdfc24700c35cd51a6d1c50274f30feda665f78badbeec153ccdbef91f17"
+    }
+  ]
+}

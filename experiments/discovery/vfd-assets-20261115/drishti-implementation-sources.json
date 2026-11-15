@@ -1,0 +1,70 @@
+{
+  "saved_utc": "2026-11-15T02:27:22.971963+00:00",
+  "revision": "eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627",
+  "sources": [
+    {
+      "repo_path": "data/README.md",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/data/README.md",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__data__README.md",
+      "status": 200,
+      "bytes": 2046,
+      "sha256": "3d56a97a0c18de67c343ee0dfe579df5488f71b735623f2e41ff108f0ab80535"
+    },
+    {
+      "repo_path": "data/demo/MANIFEST.json",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/data/demo/MANIFEST.json",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__data__demo__MANIFEST.json",
+      "status": 200,
+      "bytes": 385,
+      "sha256": "007a8648f3da66b51dffff5a2d0f78d7261d94fc468fb1f00fcac3e5b1102727"
+    },
+    {
+      "repo_path": "docs/results/calibration/report.json",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/docs/results/calibration/report.json",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__docs__results__calibration__report.json",
+      "status": 200,
+      "bytes": 834,
+      "sha256": "22e5a2a16d30cf3d8ca43b91dafcfe8ee56bea040796ae01d580cc19b3322917"
+    },
+    {
+      "repo_path": "drishti/drivers/rollout_record.py",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/drishti/drivers/rollout_record.py",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__drishti__drivers__rollout_record.py",
+      "status": 200,
+      "bytes": 5542,
+      "sha256": "5f5ba07be6f677fde299d1b4f546d4e7953535b7250c7712df79a500d132bc2a"
+    },
+    {
+      "repo_path": "drishti/sim/task.py",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/drishti/sim/task.py",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__drishti__sim__task.py",
+      "status": 200,
+      "bytes": 906,
+      "sha256": "da10e1e67c656df36fa0bd034672a29e05a740ba9beafd137ed6656624ac076d"
+    },
+    {
+      "repo_path": "drishti/sim/so101_env.py",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/drishti/sim/so101_env.py",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__drishti__sim__so101_env.py",
+      "status": 200,
+      "bytes": 4125,
+      "sha256": "cc33ed35378ea1b7eac09e1da06f107ea4d0350c9aa3ae8220c6acd15bb1f42e"
+    },
+    {
+      "repo_path": "docs/rl-corrector/RESULTS.md",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/docs/rl-corrector/RESULTS.md",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__docs__rl-corrector__RESULTS.md",
+      "status": 200,
+      "bytes": 35039,
+      "sha256": "bcbfbf1e2538041d5e8dee73ed96ff91b029a3858e0cb69e8ff3c7f7840a494b"
+    },
+    {
+      "repo_path": "NOTICE",
+      "url": "https://raw.githubusercontent.com/Advaitic/drishti/eeaaaf4dbc0f0d8f15acd52dbd116c84f127c627/NOTICE",
+      "cache": "data/discovery/vfd-assets-20261115/drishti__NOTICE",
+      "status": 200,
+      "bytes": 3197,
+      "sha256": "d9b331ecd9bade4565362521dcb131bffc5459b7b4f0da096ffe4509b1991c28"
+    }
+  ]
+}

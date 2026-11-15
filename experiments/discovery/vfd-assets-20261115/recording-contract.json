@@ -1,0 +1,1449 @@
+{
+  "kind": "public_telemetry_qualification_not_reproduced_robot_success_or_vfd",
+  "summary": {
+    "runs": 63,
+    "steps": 4607,
+    "frame_rows": 546,
+    "embedding_files_in_tree_not_downloaded": 756,
+    "success_labels": 35,
+    "failure_labels": 28,
+    "runs_with_embeddings_in_tree": 60,
+    "runs_with_images_in_tree": 6,
+    "embedding_subset_success": 34,
+    "embedding_subset_failure": 26,
+    "model_id_counts": {
+      "smolvla_ft@4500 (nas=6)": 20,
+      "smolvla_ft@4500 \u00b7 Fleet 1": 43
+    },
+    "success_runs_under_20_steps": 7,
+    "declared_step_count_mismatches": 0,
+    "noncontiguous_runs": 0,
+    "runs_with_t_equal_step_index": 63,
+    "metadata_key_run_counts": {
+      "checkpoint": 20,
+      "cube_xy": 63,
+      "lane": 20,
+      "nas": 20,
+      "rollout": 20,
+      "sim": 20,
+      "fleet": 43,
+      "live": 43,
+      "threshold": 43
+    },
+    "available_step_vectors": {
+      "observation_state": {
+        "6": 4607
+      },
+      "action": {
+        "6": 4607
+      },
+      "action_head_mean": {
+        "32": 805
+      },
+      "action_head_std": {
+        "32": 805
+      }
+    },
+    "non_null_step_field_counts": {
+      "observation_state": 4607,
+      "action": 4607,
+      "action_head_mean": 805,
+      "action_head_std": 805,
+      "smd": 4607,
+      "rnd": 4607,
+      "ace": 4607,
+      "latency_ms": 4607
+    }
+  },
+  "per_run": [
+    {
+      "run_id": "run_0004b84449b0",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 66,
+      "declared_steps": 66,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2485,
+        0.0005
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_08f2c692f841",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 67,
+      "declared_steps": 67,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2644,
+        0.0152
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": true,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_0daf780ab35d",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 1,
+      "declared_steps": 1,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.3007,
+        -0.0037
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_14c5fc372147",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 15,
+      "declared_steps": 15,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2931,
+        0.0176
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_167b34505aaf",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.3089,
+        -0.0133
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": false,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_1a5c1d2c8a99",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 22,
+      "declared_steps": 22,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2617,
+        -0.0158
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_1ed92775e84d",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 13,
+      "declared_steps": 13,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2942,
+        0.0152
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_1f7de3c0ebe4",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 58,
+      "declared_steps": 58,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2729,
+        0.025
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_2b23bb9bbaf1",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 54,
+      "declared_steps": 54,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2444,
+        -0.0221
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_2f5f85b7a067",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2436,
+        -0.0298
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_31cb67dfe914",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2611,
+        0.0133
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": true,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_431940dae1c1",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 1,
+      "declared_steps": 1,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.297,
+        -0.0055
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_43e428009015",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 67,
+      "declared_steps": 67,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.25,
+        0.0
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": true,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_45f73590175b",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 82,
+      "declared_steps": 82,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2422,
+        -0.0227
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": true,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_4b245efb93d3",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 25,
+      "declared_steps": 25,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2815,
+        0.0097
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_54338c988b06",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.255,
+        0.004
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_545af8b0760f",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2695,
+        -0.0288
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_56291d73ff44",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.3098,
+        -0.0285
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_56b3f0f96c0a",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.3043,
+        -0.0285
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_60ab43f47b8e",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2818,
+        -0.0041
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_68d3c0a0657e",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 14,
+      "declared_steps": 14,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2922,
+        -0.0061
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_6c42a015470c",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2886,
+        -0.0173
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_6e36fbe94f0d",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 64,
+      "declared_steps": 64,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2752,
+        0.0142
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": false,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_6eb89251c8aa",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2848,
+        -0.0251
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": true,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_6fb6465e864f",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2531,
+        0.0088
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_761e36cca83d",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 61,
+      "declared_steps": 61,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2736,
+        0.0222
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_7ab17a5021ea",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.268,
+        0.0092
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_85f12f993b98",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2728,
+        0.0028
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_862c1c7182db",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2572,
+        0.0008
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_87da6b216c1d",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2616,
+        -0.013
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_8831bdcbcb68",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2786,
+        -0.0276
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_8b6193bff57d",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 42,
+      "declared_steps": 42,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2892,
+        0.023
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_918b6cc2d53a",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2767,
+        0.0021
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_93096da04a70",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2686,
+        -0.0287
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": true,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_9a7c85b2c6f9",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2911,
+        -0.0299
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_9bc4a7ade51e",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2533,
+        -0.0259
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_9deca0ca3656",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2749,
+        0.0136
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_9e5f7c44b4d9",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 36,
+      "declared_steps": 36,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2886,
+        -0.0012
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_a528a00a436e",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 55,
+      "declared_steps": 55,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2563,
+        -0.0105
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_ac95e57dbaad",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 50,
+      "declared_steps": 50,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2727,
+        -0.0049
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_b0c78ace1d35",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 44,
+      "declared_steps": 44,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2501,
+        0.0188
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_b123902431cd",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 57,
+      "declared_steps": 57,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2437,
+        0.0074
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_b6f3fe4f7fbd",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.27,
+        0.0
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_ba86142f21a6",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 46,
+      "declared_steps": 46,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2937,
+        -0.0192
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_bcda283767b3",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 56,
+      "declared_steps": 56,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2492,
+        0.0226
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_bde80fa959bd",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.305,
+        -0.028
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_c9a65abb918b",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 45,
+      "declared_steps": 45,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2427,
+        -0.0016
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_ce5a8a542c53",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 15,
+      "declared_steps": 15,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2936,
+        0.0103
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_d508b1b47d08",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2581,
+        0.0028
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_da03bd06e3aa",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 60,
+      "declared_steps": 60,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2469,
+        0.0298
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_da1856e01231",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 1,
+      "declared_steps": 1,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.3067,
+        0.0084
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_db9b42f13718",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": true,
+      "steps": 50,
+      "declared_steps": 50,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2596,
+        0.0203
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_dbb2cf03d830",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 55,
+      "declared_steps": 55,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2855,
+        -0.0257
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_e2e48b398e56",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 44,
+      "declared_steps": 44,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2517,
+        0.0206
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_ea173cbab3c4",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2459,
+        -0.0172
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_eb8f9fdc8502",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 58,
+      "declared_steps": 58,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2597,
+        -0.0094
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_ec48c95e2271",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 61,
+      "declared_steps": 61,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2585,
+        -0.0098
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_ef2c31d83d8f",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 58,
+      "declared_steps": 58,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2624,
+        0.0219
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_f058a01fc71e",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 51,
+      "declared_steps": 51,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.255,
+        0.004
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_f2540aa79080",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2631,
+        0.0136
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_f4713289de99",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": true,
+      "steps": 33,
+      "declared_steps": 33,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2776,
+        0.0246
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_f61d03e2fd8e",
+      "model_id": "smolvla_ft@4500 \u00b7 Fleet 1",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.305,
+        -0.028
+      ],
+      "meta_keys": [
+        "cube_xy",
+        "fleet",
+        "live",
+        "threshold"
+      ],
+      "embeddings_in_tree": false,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    },
+    {
+      "run_id": "run_f7c35ab66484",
+      "model_id": "smolvla_ft@4500 (nas=6)",
+      "recorded_success": false,
+      "steps": 110,
+      "declared_steps": 110,
+      "contiguous_zero_based_steps": true,
+      "cube_xy_recorded": [
+        0.2969,
+        -0.0299
+      ],
+      "meta_keys": [
+        "checkpoint",
+        "cube_xy",
+        "lane",
+        "nas",
+        "rollout",
+        "sim"
+      ],
+      "embeddings_in_tree": true,
+      "images_in_tree": false,
+      "logged_t_equals_step_index": true
+    }
+  ],
+  "table_schemas": {
+    "runs": "CREATE TABLE runs (\n\trun_id TEXT NOT NULL, \n\tmodel_id TEXT, \n\ttask TEXT, \n\tbackend TEXT, \n\tcapture_mode TEXT, \n\tstatus TEXT, \n\tstarted_at FLOAT, \n\tended_at FLOAT, \n\tn_steps INTEGER, \n\tn_episodes INTEGER, \n\tsuccess_rate FLOAT, \n\tmeta JSON, \n\tPRIMARY KEY (run_id)\n)",
+    "steps": "CREATE TABLE steps (\n\tid INTEGER NOT NULL, \n\trun_id TEXT, \n\tep_idx INTEGER, \n\tstep_idx INTEGER, \n\tt FLOAT, \n\tobservation_state JSON, \n\taction JSON, \n\tlatency_ms FLOAT, \n\tactor INTEGER, \n\tvision_embed_norm FLOAT, \n\tvision_embed_std FLOAT, \n\taction_head_mean JSON, \n\taction_head_std JSON, \n\tsmd FLOAT, \n\trnd FLOAT, \n\tace FLOAT, \n\tPRIMARY KEY (id)\n)",
+    "frames": "CREATE TABLE frames (\n\tid INTEGER NOT NULL, \n\trun_id TEXT, \n\tep_idx INTEGER, \n\tstep_idx INTEGER, \n\tt FLOAT, \n\tcamera TEXT, \n\tblob_path TEXT, \n\tPRIMARY KEY (id)\n)",
+    "events": "CREATE TABLE events (\n\tid INTEGER NOT NULL, \n\trun_id TEXT, \n\ttype TEXT, \n\tts FLOAT, \n\tpayload JSON, \n\tPRIMARY KEY (id)\n)"
+  },
+  "source_database_sha256": "cca68a88c65297e98d8920d5229983ba73602225684b9795a072b0f95b389f9b",
+  "source_tree_sha256": "88c2bf962ef17de5a6d4144cf70d76aab7b19c7b83bd6e09ddb8d61ce098c210",
+  "audit_script_sha256": "d4eeef0a5ea62b22a77e6e749cafc1094e1846d35a5b65ab66c13e16b16995c4",
+  "plan_sha256": "09eac6a4c774c5ffeaca5094c54d21e16bef9ace5af996eba6cabf4cc2d04f03",
+  "scope": {
+    "database_opened_read_only": true,
+    "database_integrity_ok": true,
+    "frame_blobs_checked_against_tree_only": true,
+    "upstream_code_executed": false,
+    "policy_weights_downloaded": false
+  },
+  "missing_for_vfd": [
+    "Bound policy weight hash and training/data revisions",
+    "Independent trained ensemble member",
+    "Full action chunks and intermediate ODE states/velocities at common points"
+  ],
+  "missing_for_physical_outcome_recomputation": [
+    "Per-step cube state and finger contacts",
+    "Complete reset qpos/qvel and historical scene binding"
+  ]
+}

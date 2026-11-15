@@ -1,0 +1,54 @@
+{
+  "saved_utc": "2026-11-15T02:23:58.667250+00:00",
+  "repo": "mcobzarenco/flow-matching",
+  "revision": "ebaa8e0cb5251910880998f244a75e7f1c785aa5",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/mcobzarenco/flow-matching/ebaa8e0cb5251910880998f244a75e7f1c785aa5/README.md",
+      "cache": "data/discovery/vfd-assets-20261115/README.md",
+      "status": 200,
+      "bytes": 9966,
+      "sha256": "99ab2d97a9808833e491fe22dad6fc32b92f2937f8fcbe37576d745327f394f8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mcobzarenco/flow-matching/ebaa8e0cb5251910880998f244a75e7f1c785aa5/docs/rollout_so101.md",
+      "cache": "data/discovery/vfd-assets-20261115/docs__rollout_so101.md",
+      "status": 200,
+      "bytes": 14949,
+      "sha256": "ef019ce3f79148aaca5e1a9f0b1d40cbcbd06992ab9242d84226dd66e0f5f05e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mcobzarenco/flow-matching/ebaa8e0cb5251910880998f244a75e7f1c785aa5/docs/architecture.md",
+      "cache": "data/discovery/vfd-assets-20261115/docs__architecture.md",
+      "status": 200,
+      "bytes": 131700,
+      "sha256": "65bf52068421d683d475a3fa2073a21fafca6fc2f46db7a8b62e6f5610533dc9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mcobzarenco/flow-matching/ebaa8e0cb5251910880998f244a75e7f1c785aa5/.gitignore",
+      "cache": "data/discovery/vfd-assets-20261115/.gitignore",
+      "status": 200,
+      "bytes": 165,
+      "sha256": "1a7935fd93e6eb27740c9f3f68e0c49cb0418fe243f56ca2e34f4c1a2b294617"
+    },
+    {
+      "url": "https://api.github.com/repos/mcobzarenco/flow-matching/git/trees/ebaa8e0cb5251910880998f244a75e7f1c785aa5?recursive=1",
+      "cache": "data/discovery/vfd-assets-20261115/bijou-tree.json",
+      "status": 200,
+      "bytes": 303593,
+      "sha256": "22e31494debdbba98d6a83203d65e4853e953fa9e01c806829736657b7f6f65a"
+    },
+    {
+      "url": "https://huggingface.co/mcobzarenco/bijou-checkpoints/resolve/2578852b026b4812d32125c6f3060d08490db676/README.md",
+      "cache": "data/discovery/vfd-assets-20261115/bijou-checkpoints__README.md",
+      "status": 200,
+      "bytes": 1642,
+      "sha256": "071fa179b13d6b031297fd33fa5db7aa56b52d330c70a4d56b83d9329f108423"
+    },
+    {
+      "url": "https://huggingface.co/mcobzarenco/fontaine-checkpoints/resolve/0806a456b58c11d17a7183f8e72de55e08bdf818/README.md",
+      "cache": "data/discovery/vfd-assets-20261115/fontaine-checkpoints__README.md",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
