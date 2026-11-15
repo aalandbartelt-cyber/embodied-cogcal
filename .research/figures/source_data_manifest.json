@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "figure_id": "vfd_grid_analytic_20261115",
+      "panels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "source": "experiments/discovery/vfd-quadrature-20261115/analytic-results.json",
+      "source_sha256": "6637afaa3ca86e8969a090cd107129ed48683740cca574a7205aaa0454406879",
+      "script": ".research/figures/scripts/plot_vfd_grid.py",
+      "script_sha256": "e7e13298f5d4a00a3754188dabbeaac25e090b1860a12dc496658786258bde25",
+      "outputs": [
+        ".research/figures/vfd_grid_analytic_20261115.svg",
+        ".research/figures/vfd_grid_analytic_20261115.pdf",
+        ".research/figures/vfd_grid_analytic_20261115.png"
+      ],
+      "example_row_indices": [
+        1,
+        27
+      ],
+      "selection": "first saved lexicographic inversion, post-result illustration",
+      "notes": "Deterministic analytic probe. No robot, learned-policy risk or time advantage claimed.",
+      "svg_export_formatting": "Strip trailing whitespace from Matplotlib SVG; all XML attributes/tags/text preserved modulo whitespace."
+    }
+  ]
+}

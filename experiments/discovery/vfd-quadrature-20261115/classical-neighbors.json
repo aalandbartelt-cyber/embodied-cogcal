@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2509.20609v1",
+      "cache": "data/discovery/vfd-quadrature-20261115/mmg-v1.html",
+      "sha256": "527f7d7ee45ff8f3919939dd3398fba6925d324e947800d0318903f44c641034",
+      "read_scope": "S4.SS1 targeted subsection; not full paper audit"
+    },
+    {
+      "url": "https://arxiv.org/html/2310.09031v2",
+      "cache": "data/discovery/vfd-quadrature-20261115/minde-v2.html",
+      "sha256": "1d15760275bbf644a622155252e8f521ca420bddf1ae6749364a5303280900b8",
+      "read_scope": "S3.SS1 targeted subsection; not full paper audit"
+    }
+  ]
+}

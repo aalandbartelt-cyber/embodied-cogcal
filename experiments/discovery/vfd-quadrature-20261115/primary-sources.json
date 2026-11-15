@@ -1,0 +1,65 @@
+{
+  "saved_utc": "2026-11-14T16:13:42.787986+00:00",
+  "repo": "learnsyslab/uq_vla",
+  "revision": "bcc2433d2549afee27bf5d0a73ae528375bca686",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/README.md",
+      "scope_or_repo_path": "README.md",
+      "cache": "data/discovery/vfd-quadrature-20261115/README.md",
+      "sha256": "ef79bf1f96ff3801c6f4934d1aadd0af49d21ee722da2a8430a145c882f312b3",
+      "bytes": 9339
+    },
+    {
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/LICENSE",
+      "scope_or_repo_path": "LICENSE",
+      "cache": "data/discovery/vfd-quadrature-20261115/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/src/lerobot/uncertainty/uncertainty_samplers/cross_bayesian_sampler.py",
+      "scope_or_repo_path": "active_learning/src/lerobot/uncertainty/uncertainty_samplers/cross_bayesian_sampler.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__src__lerobot__uncertainty__uncertainty_samplers__cross_bayesian_sampler.py",
+      "sha256": "e4f653e8a409d2350a9f8536457055b6a59834daeb13ac2c44c6f8d3b0a48cbf",
+      "bytes": 14509
+    },
+    {
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/src/lerobot/uncertainty/uncertainty_samplers/configuration_uncertainty_sampler.py",
+      "scope_or_repo_path": "active_learning/src/lerobot/uncertainty/uncertainty_samplers/configuration_uncertainty_sampler.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__src__lerobot__uncertainty__uncertainty_samplers__configuration_uncertainty_sampler.py",
+      "sha256": "b4caf4a7e93556d8b9910c95da3dcbbd50e2e2afdfa1eb033e766fb1d89f7a82",
+      "bytes": 11513
+    },
+    {
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/configs/active_learning/smolvla/vfd.yaml",
+      "scope_or_repo_path": "active_learning/configs/active_learning/smolvla/vfd.yaml",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__configs__active_learning__smolvla__vfd.yaml",
+      "sha256": "2f90afbe88e4b1f555b4baeb6219e79b47ba69ce413a8163fbd36ad0b3da0a7b",
+      "bytes": 2651
+    },
+    {
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/src/lerobot/policies/smolvla/configuration_smolvla.py",
+      "scope_or_repo_path": "active_learning/src/lerobot/policies/smolvla/configuration_smolvla.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__src__lerobot__policies__smolvla__configuration_smolvla.py",
+      "sha256": "e63bdcb9ee18f465392274cf8375b215dbe909bbd48b186fc1b8fce159cf40f5",
+      "bytes": 6326
+    },
+    {
+      "url": "https://arxiv.org/html/2606.18043v1",
+      "scope_or_repo_path": "paper: section4/A.1/A.2/Algorithm2",
+      "cache": "data/discovery/vfd-quadrature-20261115/uqvla-v1.html",
+      "sha256": "313473d4d1f4352a22514a76b124985a02462944c5fb2f51f0a1d39ddf94b8da",
+      "bytes": 639129
+    }
+  ],
+  "scholar": {
+    "url": "https://scholar.google.com/scholar?q=%22velocity-field+disagreement%22",
+    "status_code": 429,
+    "result_list_read": false
+  },
+  "limits": [
+    "Fixed-source targeted reading, no weights downloaded or full VLA ensemble run.",
+    "No exhaustive novelty search or claim of Scholar results."
+  ]
+}

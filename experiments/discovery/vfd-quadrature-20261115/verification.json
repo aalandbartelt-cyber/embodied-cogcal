@@ -1,0 +1,37 @@
+{
+  "kind": "replay_and_provenance_check_not_robot_validation_or_novelty",
+  "four_fresh_result_replays_identical": true,
+  "result_sha256": {
+    "analytic-results.json": "6637afaa3ca86e8969a090cd107129ed48683740cca574a7205aaa0454406879",
+    "boundary-fit-results.json": "621ebd7df5a24ffae7a3e23a527acbb7910a5f8635b70744a2441e92510e4fec",
+    "finite-data-results.json": "907cdf304542de23aae5eafd271aadf46f7208ed874febf55619f0314126fe59",
+    "same-data-results.json": "4ae2edf49569672ac84a53a1e5c13af374e2be7058883991dce3ae369661193a"
+  },
+  "primary_cache_files_verified": 20,
+  "relative_links_checked": 17,
+  "frozen_plan_formula_excluded_from_link_regex": [
+    {
+      "file": "experiments/discovery/vfd-quadrature-20261115/PLAN.md",
+      "text": "x\u2212s\u03bc",
+      "reason": "algebraic multiplication in frozen plan, not intended path"
+    }
+  ],
+  "figure_source_and_script_hashes_match": true,
+  "figure_visual_review": "PNG opened and read; four panels legible, negative/classical controls included",
+  "protected_original_sha256": {
+    "experiments/so101/smolvla-interface-preflight/summary-degree-assumption.json": "48fce62e85353a8dc0c81214bd8c6f8963ca8e5745226c2b40824af85b4b3a81",
+    "experiments/so101/tpsc-pilot/manifest-pilot.jsonl": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+    "experiments/so101/tpsc-pilot/manifest-full.jsonl": "ced15f2b419275c89cff76516e17d2468324512eb7b32e10002a4148f6be39e5"
+  },
+  "limits": [
+    "No true VLA ensemble or SO101 risk experiment.",
+    "Numerical and source integrity is not novelty or method effectiveness."
+  ],
+  "svg_trailing_whitespace_normalization": {
+    "preformat_cache": "data/discovery/vfd-quadrature-20261115/figure-before-formatting.svg",
+    "preformat_sha256": "478a78840096dac49bf5cd539463409807d0a006f3636909fb3e36f577de39f8",
+    "normalized_sha256": "91fc04396850c887645b8c812b3ef04071eb8035f034944e09987c0a9a57e89e",
+    "xml_content_preserved_modulo_whitespace": true,
+    "reason": "git diff --cached --check exposed Matplotlib export trailing whitespace; numeric results unchanged"
+  }
+}

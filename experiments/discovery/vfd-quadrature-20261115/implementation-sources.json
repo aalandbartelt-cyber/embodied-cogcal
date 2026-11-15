@@ -1,0 +1,26 @@
+{
+  "revision": "bcc2433d2549afee27bf5d0a73ae528375bca686",
+  "sources": [
+    {
+      "path": "active_learning/src/lerobot/uncertainty/uncertainty_scoring/scoring_metrics.py",
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/src/lerobot/uncertainty/uncertainty_scoring/scoring_metrics.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__src__lerobot__uncertainty__uncertainty_scoring__scoring_metrics.py",
+      "sha256": "bbc797e258d0109df5ed106b4bc98481fdd070111b083fd2058166a237f9e1db",
+      "bytes": 25484
+    },
+    {
+      "path": "active_learning/src/lerobot/uncertainty/uncertainty_samplers/uncertainty_sampler.py",
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/src/lerobot/uncertainty/uncertainty_samplers/uncertainty_sampler.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__src__lerobot__uncertainty__uncertainty_samplers__uncertainty_sampler.py",
+      "sha256": "48e8ef93d7938ff5f5264378adff83f9eada583e5a0bfc13d7af3f200d42d700",
+      "bytes": 7335
+    },
+    {
+      "path": "active_learning/src/lerobot/policies/common/flow_matching/ode_solver.py",
+      "url": "https://raw.githubusercontent.com/learnsyslab/uq_vla/bcc2433d2549afee27bf5d0a73ae528375bca686/active_learning/src/lerobot/policies/common/flow_matching/ode_solver.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/active_learning__src__lerobot__policies__common__flow_matching__ode_solver.py",
+      "sha256": "ee6f063377247e074474e2cdff2056dedf953ceab7e34980dee8f27a6f2bda88",
+      "bytes": 24688
+    }
+  ]
+}

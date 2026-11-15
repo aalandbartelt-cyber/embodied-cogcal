@@ -1,0 +1,3096 @@
+{
+  "kind": "finite_data_two_parameter_cfm_not_vla_or_robot_experiment",
+  "model_pairs": 72,
+  "model_fits": 144,
+  "rows": [
+    {
+      "n": 256,
+      "pair_index": 0,
+      "members": [
+        {
+          "seed": 2026137100,
+          "samples": 256,
+          "coefficient": [
+            -0.04424819381745949,
+            -0.04897168277299807
+          ],
+          "empirical_residual_mse": 1.451200976333505,
+          "population_excess_cfm_mse": 0.0021577547989090565,
+          "normal_equation_max_per_sample": 8.673617379884035e-18
+        },
+        {
+          "seed": 2026137101,
+          "samples": 256,
+          "coefficient": [
+            -0.02048636127361746,
+            -0.19717050391362387
+          ],
+          "empirical_residual_mse": 1.7561008087900447,
+          "population_excess_cfm_mse": 0.0036593749660292036,
+          "normal_equation_max_per_sample": 1.3877787807814457e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.055153182435315314,
+        -0.025535234848699524
+      ],
+      "exact_pairwise_kl": 0.00043861140962176,
+      "epistemic_mi_reference": 0.00010964083041475892,
+      "mi_reference_error_estimate": 6.309915585152824e-13,
+      "raw_source_default_vfd": 0.0029806272739665387,
+      "oracle_zero_time_term_score": 0.0013714554373160208,
+      "oracle_projected_source_score": 0.0013714554373160206,
+      "coefficient_difference": [
+        -0.023761832543842027,
+        0.1481988211406258
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 1,
+      "members": [
+        {
+          "seed": 2026137102,
+          "samples": 256,
+          "coefficient": [
+            0.029500137867386613,
+            -0.442923298702499
+          ],
+          "empirical_residual_mse": 1.690433966297336,
+          "population_excess_cfm_mse": 0.017218678845320082,
+          "normal_equation_max_per_sample": 2.8189256484623115e-17
+        },
+        {
+          "seed": 2026137103,
+          "samples": 256,
+          "coefficient": [
+            -0.09255637213620993,
+            0.04004228609566563
+          ],
+          "empirical_residual_mse": 1.8092556728283964,
+          "population_excess_cfm_mse": 0.008700297412663838,
+          "normal_equation_max_per_sample": 9.540979117872439e-18
+        }
+      ],
+      "exact_terminal_means": [
+        0.036770461013143865,
+        -0.11536693450219597
+      ],
+      "exact_pairwise_kl": 0.011572893557095473,
+      "epistemic_mi_reference": 0.002884884708127755,
+      "mi_reference_error_estimate": 6.299615491004806e-13,
+      "raw_source_default_vfd": 0.020435723780530116,
+      "oracle_zero_time_term_score": 0.036186262933846663,
+      "oracle_projected_source_score": 0.03618626293384667,
+      "coefficient_difference": [
+        0.12205651000359655,
+        -0.48296558479816465
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 2,
+      "members": [
+        {
+          "seed": 2026137104,
+          "samples": 256,
+          "coefficient": [
+            0.13292686075769192,
+            0.025185240430372388
+          ],
+          "empirical_residual_mse": 1.4216794450838417,
+          "population_excess_cfm_mse": 0.017722408338856122,
+          "normal_equation_max_per_sample": 3.903127820947816e-17
+        },
+        {
+          "seed": 2026137105,
+          "samples": 256,
+          "coefficient": [
+            0.051114051158572885,
+            -0.05182435655049713
+          ],
+          "empirical_residual_mse": 1.5735156479859471,
+          "population_excess_cfm_mse": 0.0028364598868306275,
+          "normal_equation_max_per_sample": 4.466912950640278e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.1656867494335991,
+        0.06371113361568324
+      ],
+      "exact_pairwise_kl": 0.005199513110721585,
+      "epistemic_mi_reference": 0.0012981915131882182,
+      "mi_reference_error_estimate": 6.304037865970463e-13,
+      "raw_source_default_vfd": 0.02774308736940295,
+      "oracle_zero_time_term_score": 0.016257900206573382,
+      "oracle_projected_source_score": 0.01625790020657339,
+      "coefficient_difference": [
+        0.08181280959911903,
+        0.07700959698086951
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 3,
+      "members": [
+        {
+          "seed": 2026137106,
+          "samples": 256,
+          "coefficient": [
+            0.004069594053981817,
+            -0.09607642739449747
+          ],
+          "empirical_residual_mse": 1.6470652747729966,
+          "population_excess_cfm_mse": 0.0007857849208383829,
+          "normal_equation_max_per_sample": 4.85722573273506e-17
+        },
+        {
+          "seed": 2026137107,
+          "samples": 256,
+          "coefficient": [
+            0.07173293921705977,
+            0.33642725554615827
+          ],
+          "empirical_residual_mse": 1.365365248842004,
+          "population_excess_cfm_mse": 0.014577556091578398,
+          "normal_equation_max_per_sample": 5.811323644522304e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.005072547463132145,
+        0.08941155653903328
+      ],
+      "exact_pairwise_kl": 0.0035565342259524673,
+      "epistemic_mi_reference": 0.0008883439331471843,
+      "mi_reference_error_estimate": 6.305189488723002e-13,
+      "raw_source_default_vfd": 0.11513227417068742,
+      "oracle_zero_time_term_score": 0.011120614045104978,
+      "oracle_projected_source_score": 0.01112061404510497,
+      "coefficient_difference": [
+        -0.06766334516307795,
+        -0.4325036829406557
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 4,
+      "members": [
+        {
+          "seed": 2026137108,
+          "samples": 256,
+          "coefficient": [
+            0.12861242756720107,
+            -0.6409910082693275
+          ],
+          "empirical_residual_mse": 1.5544664968005926,
+          "population_excess_cfm_mse": 0.0507802792482393,
+          "normal_equation_max_per_sample": 5.2909066017292616e-17
+        },
+        {
+          "seed": 2026137109,
+          "samples": 256,
+          "coefficient": [
+            -0.09236349387441327,
+            -0.0856531463465425
+          ],
+          "empirical_residual_mse": 1.6611672381847535,
+          "population_excess_cfm_mse": 0.00914238679061063,
+          "normal_equation_max_per_sample": 4.163336342344337e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.1603090221111738,
+        -0.11512652130014386
+      ],
+      "exact_pairwise_kl": 0.03793236928714393,
+      "epistemic_mi_reference": 0.009394274406795633,
+      "mi_reference_error_estimate": 6.305484912936966e-13,
+      "raw_source_default_vfd": 0.029544797225633815,
+      "oracle_zero_time_term_score": 0.11860738906449066,
+      "oracle_projected_source_score": 0.1186073890644907,
+      "coefficient_difference": [
+        0.22097592144161432,
+        -0.555337861922785
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 5,
+      "members": [
+        {
+          "seed": 2026137110,
+          "samples": 256,
+          "coefficient": [
+            -0.11852426426987192,
+            0.04596963146145945
+          ],
+          "empirical_residual_mse": 1.5431746190032851,
+          "population_excess_cfm_mse": 0.014224101805439638,
+          "normal_equation_max_per_sample": 2.0816681711721685e-17
+        },
+        {
+          "seed": 2026137111,
+          "samples": 256,
+          "coefficient": [
+            0.004121025740529543,
+            -0.20281427456717505
+          ],
+          "empirical_residual_mse": 1.4714917420216256,
+          "population_excess_cfm_mse": 0.0034447853505048965,
+          "normal_equation_max_per_sample": 9.020562075079397e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.14773462612407018,
+        0.005136654513531192
+      ],
+      "exact_pairwise_kl": 0.011684814221890136,
+      "epistemic_mi_reference": 0.002912703122611382,
+      "mi_reference_error_estimate": 6.298532844262745e-13,
+      "raw_source_default_vfd": 0.009695042905361731,
+      "oracle_zero_time_term_score": 0.036536217816263046,
+      "oracle_projected_source_score": 0.036536217816263025,
+      "coefficient_difference": [
+        -0.12264529001040146,
+        0.24878390602863448
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 6,
+      "members": [
+        {
+          "seed": 2026137112,
+          "samples": 256,
+          "coefficient": [
+            0.034448586214420526,
+            -0.2516716437200547
+          ],
+          "empirical_residual_mse": 1.6277626416812014,
+          "population_excess_cfm_mse": 0.0064649231132352086,
+          "normal_equation_max_per_sample": 6.331740687315346e-17
+        },
+        {
+          "seed": 2026137113,
+          "samples": 256,
+          "coefficient": [
+            -0.04721448887814096,
+            0.4486844194725944
+          ],
+          "empirical_residual_mse": 1.4485300294767218,
+          "population_excess_cfm_mse": 0.019005683649812352,
+          "normal_equation_max_per_sample": 4.7704895589362195e-18
+        }
+      ],
+      "exact_terminal_means": [
+        0.042938456831947344,
+        -0.0588505223383553
+      ],
+      "exact_pairwise_kl": 0.0051804981402661515,
+      "epistemic_mi_reference": 0.0012934500746756283,
+      "mi_reference_error_estimate": 6.304383843790784e-13,
+      "raw_source_default_vfd": 0.08482850726414923,
+      "oracle_zero_time_term_score": 0.01619844396797714,
+      "oracle_projected_source_score": 0.016198443967977136,
+      "coefficient_difference": [
+        0.08166307509256149,
+        -0.7003560631926491
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 7,
+      "members": [
+        {
+          "seed": 2026137114,
+          "samples": 256,
+          "coefficient": [
+            -0.04139775581832629,
+            -0.2660307531584903
+          ],
+          "empirical_residual_mse": 1.446269859703308,
+          "population_excess_cfm_mse": 0.007611470988966567,
+          "normal_equation_max_per_sample": 2.439454888092385e-17
+        },
+        {
+          "seed": 2026137115,
+          "samples": 256,
+          "coefficient": [
+            0.021519342032304507,
+            0.2156109594672537
+          ],
+          "empirical_residual_mse": 1.4752030900822624,
+          "population_excess_cfm_mse": 0.004337089235035784,
+          "normal_equation_max_per_sample": 3.122502256758253e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.05160025262228606,
+        0.02682279421148547
+      ],
+      "exact_pairwise_kl": 0.0030750871373459616,
+      "epistemic_mi_reference": 0.0007681813789219838,
+      "mi_reference_error_estimate": 6.306643545184928e-13,
+      "raw_source_default_vfd": 0.12947719557080364,
+      "oracle_zero_time_term_score": 0.009615219490916883,
+      "oracle_projected_source_score": 0.009615219490916888,
+      "coefficient_difference": [
+        -0.0629170978506308,
+        -0.48164171262574396
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 8,
+      "members": [
+        {
+          "seed": 2026137116,
+          "samples": 256,
+          "coefficient": [
+            0.06559121323576801,
+            -0.2237602413090254
+          ],
+          "empirical_residual_mse": 1.866013248986489,
+          "population_excess_cfm_mse": 0.008474594386296094,
+          "normal_equation_max_per_sample": 1.5612511283791264e-17
+        },
+        {
+          "seed": 2026137117,
+          "samples": 256,
+          "coefficient": [
+            0.00860286379842799,
+            -0.14353579313456705
+          ],
+          "empirical_residual_mse": 1.4047749390911222,
+          "population_excess_cfm_mse": 0.0017908862580984048,
+          "normal_equation_max_per_sample": 4.163336342344337e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.08175619923990118,
+        0.01072304371333796
+      ],
+      "exact_pairwise_kl": 0.00252285459203046,
+      "epistemic_mi_reference": 0.0006303161823060233,
+      "mi_reference_error_estimate": 6.305893852734577e-13,
+      "raw_source_default_vfd": 0.0029652956925894165,
+      "oracle_zero_time_term_score": 0.007888492118300361,
+      "oracle_projected_source_score": 0.007888492118300375,
+      "coefficient_difference": [
+        0.05698834943734002,
+        -0.08022444817445834
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 9,
+      "members": [
+        {
+          "seed": 2026137118,
+          "samples": 256,
+          "coefficient": [
+            0.18419352574203593,
+            0.45807017645343956
+          ],
+          "empirical_residual_mse": 1.5011501877553277,
+          "population_excess_cfm_mse": 0.05141294547162249,
+          "normal_equation_max_per_sample": 2.5153490401663703e-17
+        },
+        {
+          "seed": 2026137119,
+          "samples": 256,
+          "coefficient": [
+            -0.03609227348617208,
+            -0.13890527928175406
+          ],
+          "empirical_residual_mse": 1.5942379372837752,
+          "population_excess_cfm_mse": 0.002910541923095815,
+          "normal_equation_max_per_sample": 3.382710778154774e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.2295881086257122,
+        -0.04498723162125295
+      ],
+      "exact_pairwise_kl": 0.03769580873586833,
+      "epistemic_mi_reference": 0.009336231928379402,
+      "mi_reference_error_estimate": 6.305590500093704e-13,
+      "raw_source_default_vfd": 0.43146975429879947,
+      "oracle_zero_time_term_score": 0.11786770868412581,
+      "oracle_projected_source_score": 0.1178677086841258,
+      "coefficient_difference": [
+        0.220285799228208,
+        0.5969754557351936
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 10,
+      "members": [
+        {
+          "seed": 2026137120,
+          "samples": 256,
+          "coefficient": [
+            -0.031157306278843413,
+            -0.09861884720223942
+          ],
+          "empirical_residual_mse": 1.7394563547436188,
+          "population_excess_cfm_mse": 0.001781250819845209,
+          "normal_equation_max_per_sample": 6.505213034913027e-17
+        },
+        {
+          "seed": 2026137121,
+          "samples": 256,
+          "coefficient": [
+            0.04409179442355274,
+            -0.004319627019894003
+          ],
+          "empirical_residual_mse": 1.8009786250469568,
+          "population_excess_cfm_mse": 0.001945641266954753,
+          "normal_equation_max_per_sample": 4.553649124439119e-18
+        }
+      ],
+      "exact_terminal_means": [
+        -0.0388360393755098,
+        0.054958238335664676
+      ],
+      "exact_pairwise_kl": 0.004398683265680461,
+      "epistemic_mi_reference": 0.0010984633087368634,
+      "mi_reference_error_estimate": 6.30516004592393e-13,
+      "raw_source_default_vfd": 0.027392190013827693,
+      "oracle_zero_time_term_score": 0.013753855803593248,
+      "oracle_projected_source_score": 0.013753855803593262,
+      "coefficient_difference": [
+        -0.07524910070239615,
+        -0.0942992201823454
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 11,
+      "members": [
+        {
+          "seed": 2026137122,
+          "samples": 256,
+          "coefficient": [
+            -0.010824207573827257,
+            0.2837816537110993
+          ],
+          "empirical_residual_mse": 1.4024164961926635,
+          "population_excess_cfm_mse": 0.006828165718185156,
+          "normal_equation_max_per_sample": 1.7780915628762273e-17
+        },
+        {
+          "seed": 2026137123,
+          "samples": 256,
+          "coefficient": [
+            0.08438580855796145,
+            -0.4412691790618703
+          ],
+          "empirical_residual_mse": 1.5244735063699435,
+          "population_excess_cfm_mse": 0.02334750538514233,
+          "normal_equation_max_per_sample": 3.8163916471489756e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.01349183872905239,
+        0.1051827316059261
+      ],
+      "exact_pairwise_kl": 0.007041826822095878,
+      "epistemic_mi_reference": 0.0017573647406218251,
+      "mi_reference_error_estimate": 6.301306525712504e-13,
+      "raw_source_default_vfd": 0.08378661832191477,
+      "oracle_zero_time_term_score": 0.02201846890423907,
+      "oracle_projected_source_score": 0.02201846890423906,
+      "coefficient_difference": [
+        -0.0952100161317887,
+        0.7250508327729697
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 12,
+      "members": [
+        {
+          "seed": 2026137124,
+          "samples": 256,
+          "coefficient": [
+            0.0789823549215152,
+            -0.19106981272049747
+          ],
+          "empirical_residual_mse": 1.449822563441788,
+          "population_excess_cfm_mse": 0.009280518500035362,
+          "normal_equation_max_per_sample": 1.8431436932253575e-17
+        },
+        {
+          "seed": 2026137125,
+          "samples": 256,
+          "coefficient": [
+            0.018451884572813246,
+            0.03438451594107868
+          ],
+          "empirical_residual_mse": 1.57121436467118,
+          "population_excess_cfm_mse": 0.0004389966223302813,
+          "normal_equation_max_per_sample": 1.3010426069826053e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.09844759422560448,
+        0.022999360387862704
+      ],
+      "exact_pairwise_kl": 0.002846217994617281,
+      "epistemic_mi_reference": 0.0007110486683536976,
+      "mi_reference_error_estimate": 6.305629243479973e-13,
+      "raw_source_default_vfd": 0.004246578082529163,
+      "oracle_zero_time_term_score": 0.00889958869941562,
+      "oracle_projected_source_score": 0.008899588699415612,
+      "coefficient_difference": [
+        0.06053047034870196,
+        -0.22545432866157616
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 13,
+      "members": [
+        {
+          "seed": 2026137126,
+          "samples": 256,
+          "coefficient": [
+            -0.01287718113633977,
+            0.16211829553375065
+          ],
+          "empirical_residual_mse": 1.6087296831807938,
+          "population_excess_cfm_mse": 0.0023560169395821476,
+          "normal_equation_max_per_sample": 1.3877787807814457e-17
+        },
+        {
+          "seed": 2026137127,
+          "samples": 256,
+          "coefficient": [
+            -0.010159282118531197,
+            -0.1911785722519033
+          ],
+          "empirical_residual_mse": 1.551872080302723,
+          "population_excess_cfm_mse": 0.003148981553853592,
+          "normal_equation_max_per_sample": 6.938893903907228e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.016050768612049203,
+        -0.012663042075947912
+      ],
+      "exact_pairwise_kl": 5.738345541702424e-06,
+      "epistemic_mi_reference": 1.4345843272201009e-06,
+      "mi_reference_error_estimate": 6.30849148791537e-13,
+      "raw_source_default_vfd": 0.03819913158141814,
+      "oracle_zero_time_term_score": 1.7942727940325567e-05,
+      "oracle_projected_source_score": 1.7942727940325194e-05,
+      "coefficient_difference": [
+        -0.0027178990178085734,
+        0.35329686778565395
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 14,
+      "members": [
+        {
+          "seed": 2026137128,
+          "samples": 256,
+          "coefficient": [
+            -0.1224195998957346,
+            -0.18372728425778195
+          ],
+          "empirical_residual_mse": 1.3740950159385128,
+          "population_excess_cfm_mse": 0.017799534687026726,
+          "normal_equation_max_per_sample": 8.673617379884035e-18
+        },
+        {
+          "seed": 2026137129,
+          "samples": 256,
+          "coefficient": [
+            -0.008448059756928984,
+            0.3989555886457159
+          ],
+          "empirical_residual_mse": 1.5868913074447768,
+          "population_excess_cfm_mse": 0.013335166522960781,
+          "normal_equation_max_per_sample": 1.8388068845354155e-16
+        }
+      ],
+      "exact_terminal_means": [
+        -0.1525899690857803,
+        -0.010530088141462168
+      ],
+      "exact_pairwise_kl": 0.01009050488695692,
+      "epistemic_mi_reference": 0.0025162838492179818,
+      "mi_reference_error_estimate": 6.299615010644481e-13,
+      "raw_source_default_vfd": 0.24059385567366948,
+      "oracle_zero_time_term_score": 0.03155111218929494,
+      "oracle_projected_source_score": 0.03155111218929496,
+      "coefficient_difference": [
+        -0.11397154013880562,
+        -0.5826828729034979
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 15,
+      "members": [
+        {
+          "seed": 2026137130,
+          "samples": 256,
+          "coefficient": [
+            5.721477288703499e-05,
+            -0.15222676792340814
+          ],
+          "empirical_residual_mse": 1.4004877501626771,
+          "population_excess_cfm_mse": 0.0019310856795641668,
+          "normal_equation_max_per_sample": 1.951563910473908e-17
+        },
+        {
+          "seed": 2026137131,
+          "samples": 256,
+          "coefficient": [
+            -0.004348454665952134,
+            -0.10206137029662851
+          ],
+          "empirical_residual_mse": 1.5980264496378767,
+          "population_excess_cfm_mse": 0.0008869526668839681,
+          "normal_equation_max_per_sample": 3.5561831257524545e-17
+        }
+      ],
+      "exact_terminal_means": [
+        7.131538114418227e-05,
+        -0.00542013340685385
+      ],
+      "exact_pairwise_kl": 1.5078004895602526e-05,
+      "epistemic_mi_reference": 3.7694870147486625e-06,
+      "mi_reference_error_estimate": 6.309231958691555e-13,
+      "raw_source_default_vfd": 0.0005096352313301925,
+      "oracle_zero_time_term_score": 4.714608727525852e-05,
+      "oracle_projected_source_score": 4.714608727525903e-05,
+      "coefficient_difference": [
+        0.004405669438839168,
+        -0.05016539762677963
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 16,
+      "members": [
+        {
+          "seed": 2026137132,
+          "samples": 256,
+          "coefficient": [
+            0.053936623876322407,
+            -0.37964948655651026
+          ],
+          "empirical_residual_mse": 1.6409683317934163,
+          "population_excess_cfm_mse": 0.014920303782061028,
+          "normal_equation_max_per_sample": 3.122502256758253e-17
+        },
+        {
+          "seed": 2026137133,
+          "samples": 256,
+          "coefficient": [
+            0.011798994535440172,
+            0.14908546852943683
+          ],
+          "empirical_residual_mse": 1.3897186255948677,
+          "population_excess_cfm_mse": 0.001991422682600822,
+          "normal_equation_max_per_sample": 2.1304572689340162e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.06722933073534866,
+        0.014706862405525939
+      ],
+      "exact_pairwise_kl": 0.0013793048397286152,
+      "epistemic_mi_reference": 0.0003447073594388117,
+      "mi_reference_error_estimate": 6.307179633660734e-13,
+      "raw_source_default_vfd": 0.059152600223489935,
+      "oracle_zero_time_term_score": 0.004312826982301704,
+      "oracle_projected_source_score": 0.0043128269823017006,
+      "coefficient_difference": [
+        0.042137629340882235,
+        -0.528734955085947
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 17,
+      "members": [
+        {
+          "seed": 2026137134,
+          "samples": 256,
+          "coefficient": [
+            0.0004028723001344563,
+            -0.0929607032366994
+          ],
+          "empirical_residual_mse": 1.5584170660072134,
+          "population_excess_cfm_mse": 0.0007203033349453568,
+          "normal_equation_max_per_sample": 1.431146867680866e-17
+        },
+        {
+          "seed": 2026137135,
+          "samples": 256,
+          "coefficient": [
+            0.07237256589265394,
+            0.15365754463171338
+          ],
+          "empirical_residual_mse": 1.4558857139922277,
+          "population_excess_cfm_mse": 0.007205341712407118,
+          "normal_equation_max_per_sample": 1.496198998029996e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.0005021603719942872,
+        0.09020881951602783
+      ],
+      "exact_pairwise_kl": 0.004023642347391909,
+      "epistemic_mi_reference": 0.001004900084456195,
+      "mi_reference_error_estimate": 6.30588650459141e-13,
+      "raw_source_default_vfd": 0.05894779416107979,
+      "oracle_zero_time_term_score": 0.012581173344086814,
+      "oracle_projected_source_score": 0.012581173344086819,
+      "coefficient_difference": [
+        -0.07196969359251948,
+        -0.2466182478684128
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 18,
+      "members": [
+        {
+          "seed": 2026137136,
+          "samples": 256,
+          "coefficient": [
+            0.08249017281807944,
+            0.06002268748320942
+          ],
+          "empirical_residual_mse": 1.507155811993738,
+          "population_excess_cfm_mse": 0.007104855529282197,
+          "normal_equation_max_per_sample": 6.071532165918825e-17
+        },
+        {
+          "seed": 2026137137,
+          "samples": 256,
+          "coefficient": [
+            -0.14800709121001931,
+            0.08917972884887028
+          ],
+          "empirical_residual_mse": 1.5517688837598378,
+          "population_excess_cfm_mse": 0.022568851051580813,
+          "normal_equation_max_per_sample": 2.7755575615628914e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.10281991552751336,
+        -0.1844835099236426
+      ],
+      "exact_pairwise_kl": 0.04127162913798396,
+      "epistemic_mi_reference": 0.010212876407922455,
+      "mi_reference_error_estimate": 6.310797363987145e-13,
+      "raw_source_default_vfd": 0.11907663486534101,
+      "oracle_zero_time_term_score": 0.1290486269770998,
+      "oracle_projected_source_score": 0.12904862697709976,
+      "coefficient_difference": [
+        0.23049726402809875,
+        -0.029157041365660857
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 19,
+      "members": [
+        {
+          "seed": 2026137138,
+          "samples": 256,
+          "coefficient": [
+            0.01513651709139263,
+            -0.14839473938854442
+          ],
+          "empirical_residual_mse": 1.4831201776433476,
+          "population_excess_cfm_mse": 0.0020641973728408557,
+          "normal_equation_max_per_sample": 7.806255641895632e-18
+        },
+        {
+          "seed": 2026137139,
+          "samples": 256,
+          "coefficient": [
+            -0.025267684139431718,
+            0.2475609655746983
+          ],
+          "empirical_residual_mse": 1.6493629100154927,
+          "population_excess_cfm_mse": 0.005745658501459835,
+          "normal_equation_max_per_sample": 3.2959746043559335e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.018866918998339754,
+        -0.03149491703116966
+      ],
+      "exact_pairwise_kl": 0.001268157264131596,
+      "epistemic_mi_reference": 0.00031693884456041044,
+      "mi_reference_error_estimate": 6.30809440025936e-13,
+      "raw_source_default_vfd": 0.02938072325293258,
+      "oracle_zero_time_term_score": 0.003965289404497976,
+      "oracle_projected_source_score": 0.003965289404497972,
+      "coefficient_difference": [
+        0.040404201230824346,
+        -0.3959557049632427
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 20,
+      "members": [
+        {
+          "seed": 2026137140,
+          "samples": 256,
+          "coefficient": [
+            0.054599222714473136,
+            -0.05427039298226738
+          ],
+          "empirical_residual_mse": 1.4195605581382387,
+          "population_excess_cfm_mse": 0.0032265147505621174,
+          "normal_equation_max_per_sample": 1.734723475976807e-17
+        },
+        {
+          "seed": 2026137141,
+          "samples": 256,
+          "coefficient": [
+            -0.016452848795332816,
+            0.19683845160412064
+          ],
+          "empirical_residual_mse": 1.334490338723001,
+          "population_excess_cfm_mse": 0.0034994775693077294,
+          "normal_equation_max_per_sample": 2.2985086056692694e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.0680552273753949,
+        -0.020507661282924396
+      ],
+      "exact_pairwise_kl": 0.003921692623752931,
+      "epistemic_mi_reference": 0.000979463179854867,
+      "mi_reference_error_estimate": 6.304763447495622e-13,
+      "raw_source_default_vfd": 0.00509960443825481,
+      "oracle_zero_time_term_score": 0.012262395720545024,
+      "oracle_projected_source_score": 0.012262395720545022,
+      "coefficient_difference": [
+        0.07105207150980596,
+        -0.25110884458638805
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 21,
+      "members": [
+        {
+          "seed": 2026137142,
+          "samples": 256,
+          "coefficient": [
+            0.01996580012733075,
+            0.14301202773706725
+          ],
+          "empirical_residual_mse": 1.7116310522299147,
+          "population_excess_cfm_mse": 0.0021030031811801616,
+          "normal_equation_max_per_sample": 5.204170427930421e-17
+        },
+        {
+          "seed": 2026137143,
+          "samples": 256,
+          "coefficient": [
+            0.010200958026549271,
+            -0.24040360864396576
+          ],
+          "empirical_residual_mse": 1.3991573784719025,
+          "population_excess_cfm_mse": 0.00492021746541284,
+          "normal_equation_max_per_sample": 5.637851296924623e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.024886381157895106,
+        0.012714989031513165
+      ],
+      "exact_pairwise_kl": 7.407139314707615e-05,
+      "epistemic_mi_reference": 1.8517505384618715e-05,
+      "mi_reference_error_estimate": 6.309377707584614e-13,
+      "raw_source_default_vfd": 0.052629440437537436,
+      "oracle_zero_time_term_score": 0.00023160732405190596,
+      "oracle_projected_source_score": 0.00023160732405190797,
+      "coefficient_difference": [
+        0.009764842100781478,
+        0.38341563638103304
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 22,
+      "members": [
+        {
+          "seed": 2026137144,
+          "samples": 256,
+          "coefficient": [
+            0.06041351360010788,
+            -0.03906373443436197
+          ],
+          "empirical_residual_mse": 1.5579430041607734,
+          "population_excess_cfm_mse": 0.003776957237840283,
+          "normal_equation_max_per_sample": 2.7755575615628914e-17
+        },
+        {
+          "seed": 2026137145,
+          "samples": 256,
+          "coefficient": [
+            0.11010748020678418,
+            -0.0357058278990253
+          ],
+          "empirical_residual_mse": 1.4222118661519576,
+          "population_excess_cfm_mse": 0.012229899376316938,
+          "normal_equation_max_per_sample": 1.0495077029659683e-16
+        }
+      ],
+      "exact_terminal_means": [
+        0.07530245304228465,
+        0.13724352158621753
+      ],
+      "exact_pairwise_kl": 0.0019183479861820951,
+      "epistemic_mi_reference": 0.0004793571397577745,
+      "mi_reference_error_estimate": 6.308337736943239e-13,
+      "raw_source_default_vfd": 0.00625619595661164,
+      "oracle_zero_time_term_score": 0.005998313583731156,
+      "oracle_projected_source_score": 0.005998313583731162,
+      "coefficient_difference": [
+        -0.0496939666066763,
+        -0.0033579065353366716
+      ]
+    },
+    {
+      "n": 256,
+      "pair_index": 23,
+      "members": [
+        {
+          "seed": 2026137146,
+          "samples": 256,
+          "coefficient": [
+            -0.026128543910444346,
+            0.21256038251164666
+          ],
+          "empirical_residual_mse": 1.5165986176728485,
+          "population_excess_cfm_mse": 0.004447860491338147,
+          "normal_equation_max_per_sample": 2.42861286636753e-17
+        },
+        {
+          "seed": 2026137147,
+          "samples": 256,
+          "coefficient": [
+            0.12417976460983497,
+            0.25932149060084586
+          ],
+          "empirical_residual_mse": 1.4881873261843719,
+          "population_excess_cfm_mse": 0.021024583562507738,
+          "normal_equation_max_per_sample": 1.9949319973733282e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.032567936106202476,
+        0.1547839272390434
+      ],
+      "exact_pairwise_kl": 0.017550360349467845,
+      "epistemic_mi_reference": 0.004368450547603264,
+      "mi_reference_error_estimate": 6.296142783935535e-13,
+      "raw_source_default_vfd": 0.06628251739783925,
+      "oracle_zero_time_term_score": 0.05487667808023903,
+      "oracle_projected_source_score": 0.05487667808023903,
+      "coefficient_difference": [
+        -0.15030830852027932,
+        -0.0467611080891992
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 0,
+      "members": [
+        {
+          "seed": 2026213900,
+          "samples": 1024,
+          "coefficient": [
+            -0.00837538692623432,
+            -0.030146881463134066
+          ],
+          "empirical_residual_mse": 1.4533758418478109,
+          "population_excess_cfm_mse": 0.0001458833113268248,
+          "normal_equation_max_per_sample": 3.122502256758253e-17
+        },
+        {
+          "seed": 2026213901,
+          "samples": 1024,
+          "coefficient": [
+            0.010926152991350193,
+            0.14061116985614527
+          ],
+          "empirical_residual_mse": 1.546568892403652,
+          "population_excess_cfm_mse": 0.0017670059098832023,
+          "normal_equation_max_per_sample": 2.0816681711721685e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.010439505056739466,
+        0.013618908643686246
+      ],
+      "exact_pairwise_kl": 0.0002894036348904158,
+      "epistemic_mi_reference": 7.234567457337082e-05,
+      "mi_reference_error_estimate": 6.309264471257142e-13,
+      "raw_source_default_vfd": 0.015188925057465066,
+      "oracle_zero_time_term_score": 0.0009049107705423229,
+      "oracle_projected_source_score": 0.000904910770542327,
+      "coefficient_difference": [
+        -0.019301539917584515,
+        -0.17075805131927935
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 1,
+      "members": [
+        {
+          "seed": 2026213902,
+          "samples": 1024,
+          "coefficient": [
+            0.01135257834968631,
+            -0.10096747019716192
+          ],
+          "empirical_residual_mse": 1.5075940551665825,
+          "population_excess_cfm_mse": 0.000978416871686998,
+          "normal_equation_max_per_sample": 3.122502256758253e-17
+        },
+        {
+          "seed": 2026213903,
+          "samples": 1024,
+          "coefficient": [
+            0.040185054982714255,
+            0.26793159295185703
+          ],
+          "empirical_residual_mse": 1.5801690457871447,
+          "population_excess_cfm_mse": 0.0075971168524404005,
+          "normal_equation_max_per_sample": 6.245004513516506e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.014150426736388068,
+        0.050088681083300925
+      ],
+      "exact_pairwise_kl": 0.0006457790627517004,
+      "epistemic_mi_reference": 0.00016141870688390902,
+      "mi_reference_error_estimate": 6.309831140600194e-13,
+      "raw_source_default_vfd": 0.06145197356409821,
+      "oracle_zero_time_term_score": 0.0020192297498129765,
+      "oracle_projected_source_score": 0.002019229749812974,
+      "coefficient_difference": [
+        -0.028832476633027945,
+        -0.36889906314901894
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 2,
+      "members": [
+        {
+          "seed": 2026213904,
+          "samples": 1024,
+          "coefficient": [
+            -0.004887039550984229,
+            0.022868196185534564
+          ],
+          "empirical_residual_mse": 1.4551976485030143,
+          "population_excess_cfm_mse": 6.746268863789226e-05,
+          "normal_equation_max_per_sample": 8.012254054667878e-17
+        },
+        {
+          "seed": 2026213905,
+          "samples": 1024,
+          "coefficient": [
+            0.04144535841696066,
+            0.22432623192097345
+          ],
+          "empirical_residual_mse": 1.5543132446593761,
+          "population_excess_cfm_mse": 0.005911239261632196,
+          "normal_equation_max_per_sample": 2.992397996059992e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.006091452795473902,
+        0.05165958690421647
+      ],
+      "exact_pairwise_kl": 0.0016675912931976068,
+      "epistemic_mi_reference": 0.00041672411601489934,
+      "mi_reference_error_estimate": 6.307469151838212e-13,
+      "raw_source_default_vfd": 0.03232961242274362,
+      "oracle_zero_time_term_score": 0.005214244536522541,
+      "oracle_projected_source_score": 0.005214244536522539,
+      "coefficient_difference": [
+        -0.04633239796794489,
+        -0.20145803573543888
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 3,
+      "members": [
+        {
+          "seed": 2026213906,
+          "samples": 1024,
+          "coefficient": [
+            0.06016932754332268,
+            0.006789719465209879
+          ],
+          "empirical_residual_mse": 1.6044207278143068,
+          "population_excess_cfm_mse": 0.00362418966788367,
+          "normal_equation_max_per_sample": 3.729655473350135e-17
+        },
+        {
+          "seed": 2026213907,
+          "samples": 1024,
+          "coefficient": [
+            0.03996157267279934,
+            0.0009699199763414242
+          ],
+          "empirical_residual_mse": 1.568322234734103,
+          "population_excess_cfm_mse": 0.0015970056858801316,
+          "normal_equation_max_per_sample": 5.898059818321144e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.07499808721452694,
+        0.04981012145077329
+      ],
+      "exact_pairwise_kl": 0.000317216809658013,
+      "epistemic_mi_reference": 7.92979139228045e-05,
+      "mi_reference_error_estimate": 6.309047336677219e-13,
+      "raw_source_default_vfd": 0.0011818614619213757,
+      "oracle_zero_time_term_score": 0.0009918773403288592,
+      "oracle_projected_source_score": 0.0009918773403288577,
+      "coefficient_difference": [
+        0.020207754870523342,
+        0.005819799488868455
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 4,
+      "members": [
+        {
+          "seed": 2026213908,
+          "samples": 1024,
+          "coefficient": [
+            0.06622035959275441,
+            0.015432229165379903
+          ],
+          "empirical_residual_mse": 1.6097446282682488,
+          "population_excess_cfm_mse": 0.004404982166011435,
+          "normal_equation_max_per_sample": 7.209944447028604e-17
+        },
+        {
+          "seed": 2026213909,
+          "samples": 1024,
+          "coefficient": [
+            0.05510859087028213,
+            0.055146503610331785
+          ],
+          "empirical_residual_mse": 1.5604295938611639,
+          "population_excess_cfm_mse": 0.0032903848594118376,
+          "normal_equation_max_per_sample": 1.338989683019598e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.08254039901873358,
+        0.06869012955784261
+      ],
+      "exact_pairwise_kl": 9.591498206964463e-05,
+      "epistemic_mi_reference": 2.3978170555438716e-05,
+      "mi_reference_error_estimate": 6.309208606257897e-13,
+      "raw_source_default_vfd": 0.0001283404080377625,
+      "oracle_zero_time_term_score": 0.00029990812093310575,
+      "oracle_projected_source_score": 0.00029990812093310456,
+      "coefficient_difference": [
+        0.011111768722472277,
+        -0.03971427444495188
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 5,
+      "members": [
+        {
+          "seed": 2026213910,
+          "samples": 1024,
+          "coefficient": [
+            -0.050622568790539224,
+            0.033926888934506065
+          ],
+          "empirical_residual_mse": 1.6229421338122476,
+          "population_excess_cfm_mse": 0.0026585639536840684,
+          "normal_equation_max_per_sample": 2.42861286636753e-17
+        },
+        {
+          "seed": 2026213911,
+          "samples": 1024,
+          "coefficient": [
+            0.05030019228398163,
+            -0.011700044309959605
+          ],
+          "empirical_residual_mse": 1.6398118031180196,
+          "population_excess_cfm_mse": 0.00254151693021011,
+          "normal_equation_max_per_sample": 8.714274961352242e-18
+        }
+      ],
+      "exact_terminal_means": [
+        -0.06309852518199831,
+        0.06269669883056846
+      ],
+      "exact_pairwise_kl": 0.007912219192185927,
+      "epistemic_mi_reference": 0.001974152366028714,
+      "mi_reference_error_estimate": 6.300600212069312e-13,
+      "raw_source_default_vfd": 0.018383679816753547,
+      "oracle_zero_time_term_score": 0.024740022248206515,
+      "oracle_projected_source_score": 0.02474002224820652,
+      "coefficient_difference": [
+        -0.10092276107452086,
+        0.04562693324446567
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 6,
+      "members": [
+        {
+          "seed": 2026213912,
+          "samples": 1024,
+          "coefficient": [
+            0.00789539475334968,
+            -0.09454591101371901
+          ],
+          "empirical_residual_mse": 1.6447080167152337,
+          "population_excess_cfm_mse": 0.0008072480324290611,
+          "normal_equation_max_per_sample": 1.734723475976807e-17
+        },
+        {
+          "seed": 2026213913,
+          "samples": 1024,
+          "coefficient": [
+            -0.021590153351603136,
+            0.014357503231138704
+          ],
+          "empirical_residual_mse": 1.5759213570084158,
+          "population_excess_cfm_mse": 0.00048331287999842,
+          "normal_equation_max_per_sample": 8.239936510889834e-18
+        }
+      ],
+      "exact_terminal_means": [
+        0.009841218582316541,
+        -0.02691105701443454
+      ],
+      "exact_pairwise_kl": 0.0006753648807697725,
+      "epistemic_mi_reference": 0.00016881271924951147,
+      "mi_reference_error_estimate": 6.308056467874051e-13,
+      "raw_source_default_vfd": 0.0009850834933577395,
+      "oracle_zero_time_term_score": 0.0021117390418610746,
+      "oracle_projected_source_score": 0.002111739041861081,
+      "coefficient_difference": [
+        0.029485548104952818,
+        -0.10890341424485771
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 7,
+      "members": [
+        {
+          "seed": 2026213914,
+          "samples": 1024,
+          "coefficient": [
+            0.06368445871389562,
+            -0.1464791907332078
+          ],
+          "empirical_residual_mse": 1.5936308435531534,
+          "population_excess_cfm_mse": 0.005843723058169832,
+          "normal_equation_max_per_sample": 4.195862407518902e-17
+        },
+        {
+          "seed": 2026213915,
+          "samples": 1024,
+          "coefficient": [
+            0.023252830249173,
+            -0.16690065565058648
+          ],
+          "empirical_residual_mse": 1.7181705033762693,
+          "population_excess_cfm_mse": 0.0028620131859798253,
+          "normal_equation_max_per_sample": 1.0733601507606494e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.0793795241503364,
+        0.02898350143196172
+      ],
+      "exact_pairwise_kl": 0.0012698795529154684,
+      "epistemic_mi_reference": 0.00031736914372759717,
+      "mi_reference_error_estimate": 6.307301490798377e-13,
+      "raw_source_default_vfd": 0.005361432065847082,
+      "oracle_zero_time_term_score": 0.003970674677807001,
+      "oracle_projected_source_score": 0.003970674677807002,
+      "coefficient_difference": [
+        0.04043162846472262,
+        0.020421464917378673
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 8,
+      "members": [
+        {
+          "seed": 2026213916,
+          "samples": 1024,
+          "coefficient": [
+            0.05007290611880176,
+            0.06583705923831007
+          ],
+          "empirical_residual_mse": 1.6259660728044352,
+          "population_excess_cfm_mse": 0.0028685057912780643,
+          "normal_equation_max_per_sample": 4.597017211338539e-17
+        },
+        {
+          "seed": 2026213917,
+          "samples": 1024,
+          "coefficient": [
+            0.05506590121985475,
+            -0.08522750222188409
+          ],
+          "empirical_residual_mse": 1.511212842563462,
+          "population_excess_cfm_mse": 0.0036375640717365727,
+          "normal_equation_max_per_sample": 6.857578740970816e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.0624133978808189,
+        0.0686369190225644
+      ],
+      "exact_pairwise_kl": 1.936610770087656e-05,
+      "epistemic_mi_reference": 4.841503484898091e-06,
+      "mi_reference_error_estimate": 6.31039815596944e-13,
+      "raw_source_default_vfd": 0.006159259596565955,
+      "oracle_zero_time_term_score": 6.055417876365513e-05,
+      "oracle_projected_source_score": 6.055417876365461e-05,
+      "coefficient_difference": [
+        -0.0049929951010529924,
+        0.15106456146019415
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 9,
+      "members": [
+        {
+          "seed": 2026213918,
+          "samples": 1024,
+          "coefficient": [
+            -0.007391765937047683,
+            -0.2174110115778393
+          ],
+          "empirical_residual_mse": 1.6318751300267413,
+          "population_excess_cfm_mse": 0.003993600533276379,
+          "normal_equation_max_per_sample": 6.201636426617085e-17
+        },
+        {
+          "seed": 2026213919,
+          "samples": 1024,
+          "coefficient": [
+            -0.05845388998475345,
+            -0.1630800184134714
+          ],
+          "empirical_residual_mse": 1.6201920670168235,
+          "population_excess_cfm_mse": 0.00563311495482784,
+          "normal_equation_max_per_sample": 2.5804011705155006e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.009213470202353838,
+        -0.07285987924575718
+      ],
+      "exact_pairwise_kl": 0.002025432692060107,
+      "epistemic_mi_reference": 0.0005061019473029393,
+      "mi_reference_error_estimate": 6.307279071093577e-13,
+      "raw_source_default_vfd": 0.003042829486850021,
+      "oracle_zero_time_term_score": 0.006333147331572859,
+      "oracle_projected_source_score": 0.006333147331572863,
+      "coefficient_difference": [
+        0.05106212404770576,
+        -0.0543309931643679
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 10,
+      "members": [
+        {
+          "seed": 2026213920,
+          "samples": 1024,
+          "coefficient": [
+            -0.022792225813132474,
+            0.003154541532929385
+          ],
+          "empirical_residual_mse": 1.5888897918661584,
+          "population_excess_cfm_mse": 0.0005203148185404037,
+          "normal_equation_max_per_sample": 4.5102810375396984e-17
+        },
+        {
+          "seed": 2026213921,
+          "samples": 1024,
+          "coefficient": [
+            0.010148915186666463,
+            -0.08072927988086526
+          ],
+          "empirical_residual_mse": 1.677282680118107,
+          "population_excess_cfm_mse": 0.0006461018653064056,
+          "normal_equation_max_per_sample": 4.336808689942018e-18
+        }
+      ],
+      "exact_terminal_means": [
+        -0.028409380811439698,
+        0.01265012020874608
+      ],
+      "exact_pairwise_kl": 0.0008429413120133187,
+      "epistemic_mi_reference": 0.00021069093109649106,
+      "mi_reference_error_estimate": 6.30921954211499e-13,
+      "raw_source_default_vfd": 0.0006595571288287607,
+      "oracle_zero_time_term_score": 0.0026357190450104814,
+      "oracle_projected_source_score": 0.0026357190450104874,
+      "coefficient_difference": [
+        -0.03294114099979894,
+        0.08388382141379463
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 11,
+      "members": [
+        {
+          "seed": 2026213922,
+          "samples": 1024,
+          "coefficient": [
+            0.009785861419709213,
+            0.0022057579270674597
+          ],
+          "empirical_residual_mse": 1.6386141187465078,
+          "population_excess_cfm_mse": 9.616853106182163e-05,
+          "normal_equation_max_per_sample": 1.5829351718288365e-17
+        },
+        {
+          "seed": 2026213923,
+          "samples": 1024,
+          "coefficient": [
+            -0.010528058111998247,
+            0.050783797352250235
+          ],
+          "empirical_residual_mse": 1.502075333300171,
+          "population_excess_cfm_mse": 0.00032575618040248024,
+          "normal_equation_max_per_sample": 6.938893903907228e-18
+        }
+      ],
+      "exact_terminal_means": [
+        0.012197591666554585,
+        -0.013122703090120822
+      ],
+      "exact_pairwise_kl": 0.00032055866328246213,
+      "epistemic_mi_reference": 8.013324414080092e-05,
+      "mi_reference_error_estimate": 6.309867925586732e-13,
+      "raw_source_default_vfd": 0.00024797996802998327,
+      "oracle_zero_time_term_score": 0.0010023266884840233,
+      "oracle_projected_source_score": 0.0010023266884840217,
+      "coefficient_difference": [
+        0.020313919531707463,
+        -0.048578039425182774
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 12,
+      "members": [
+        {
+          "seed": 2026213924,
+          "samples": 1024,
+          "coefficient": [
+            0.05614301585194786,
+            0.02709717711296695
+          ],
+          "empirical_residual_mse": 1.6063948257032612,
+          "population_excess_cfm_mse": 0.0032132263129096934,
+          "normal_equation_max_per_sample": 1.1926223897340549e-17
+        },
+        {
+          "seed": 2026213925,
+          "samples": 1024,
+          "coefficient": [
+            0.011806812561999622,
+            0.013726415418811087
+          ],
+          "empirical_residual_mse": 1.5789842151467812,
+          "population_excess_cfm_mse": 0.0001551020295616733,
+          "normal_equation_max_per_sample": 1.8539857149502126e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.06997948907305396,
+        0.014716607188485812
+      ],
+      "exact_pairwise_kl": 0.0015269930570938652,
+      "epistemic_mi_reference": 0.0003816026066425504,
+      "mi_reference_error_estimate": 6.307909010290544e-13,
+      "raw_source_default_vfd": 0.0057348247947753735,
+      "oracle_zero_time_term_score": 0.004774620278804754,
+      "oracle_projected_source_score": 0.004774620278804747,
+      "coefficient_difference": [
+        0.04433620328994824,
+        0.013370761694155861
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 13,
+      "members": [
+        {
+          "seed": 2026213926,
+          "samples": 1024,
+          "coefficient": [
+            -0.06865410490299885,
+            0.05347418783256708
+          ],
+          "empirical_residual_mse": 1.5728493888336212,
+          "population_excess_cfm_mse": 0.0049516768503946925,
+          "normal_equation_max_per_sample": 3.0140820395097023e-17
+        },
+        {
+          "seed": 2026213927,
+          "samples": 1024,
+          "coefficient": [
+            0.04827413691817183,
+            -0.05541276058793042
+          ],
+          "empirical_residual_mse": 1.5372646335374491,
+          "population_excess_cfm_mse": 0.0025862734648590085,
+          "normal_equation_max_per_sample": 2.5153490401663703e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.08557394202956808,
+        0.060171321146780025
+      ],
+      "exact_pairwise_kl": 0.010620840869171482,
+      "epistemic_mi_reference": 0.0026481848715915746,
+      "mi_reference_error_estimate": 6.299016765832214e-13,
+      "raw_source_default_vfd": 0.017572055773903195,
+      "oracle_zero_time_term_score": 0.03320937312473143,
+      "oracle_projected_source_score": 0.03320937312473144,
+      "coefficient_difference": [
+        -0.11692824182117068,
+        0.1088869484204975
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 14,
+      "members": [
+        {
+          "seed": 2026213928,
+          "samples": 1024,
+          "coefficient": [
+            -0.05882208465341867,
+            -0.11822153411616461
+          ],
+          "empirical_residual_mse": 1.5448648361130881,
+          "population_excess_cfm_mse": 0.004624731903705575,
+          "normal_equation_max_per_sample": 1.85940672581264e-17
+        },
+        {
+          "seed": 2026213929,
+          "samples": 1024,
+          "coefficient": [
+            -0.09705128318381974,
+            0.18632146321805898
+          ],
+          "empirical_residual_mse": 1.5333332797627393,
+          "population_excess_cfm_mse": 0.012311925538935847,
+          "normal_equation_max_per_sample": 1.328147661294743e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.07331881566735166,
+        -0.12096961853630717
+      ],
+      "exact_pairwise_kl": 0.0011352995070280298,
+      "epistemic_mi_reference": 0.0002837443506599202,
+      "mi_reference_error_estimate": 6.308515086716501e-13,
+      "raw_source_default_vfd": 0.01526501831953724,
+      "oracle_zero_time_term_score": 0.0035498681697279403,
+      "oracle_projected_source_score": 0.0035498681697279403,
+      "coefficient_difference": [
+        0.03822919853040107,
+        -0.3045429973342236
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 15,
+      "members": [
+        {
+          "seed": 2026213930,
+          "samples": 1024,
+          "coefficient": [
+            0.04654272439327283,
+            0.17657067345491845
+          ],
+          "empirical_residual_mse": 1.6687743764314091,
+          "population_excess_cfm_mse": 0.004764325420975107,
+          "normal_equation_max_per_sample": 7.22078646875346e-17
+        },
+        {
+          "seed": 2026213931,
+          "samples": 1024,
+          "coefficient": [
+            -0.0055275866776115295,
+            -0.0696932450431039
+          ],
+          "empirical_residual_mse": 1.5492327719424348,
+          "population_excess_cfm_mse": 0.0004353165815316856,
+          "normal_equation_max_per_sample": 1.9820570965750628e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.05801320117355606,
+        -0.00688986306910077
+      ],
+      "exact_pairwise_kl": 0.0021062038740432202,
+      "epistemic_mi_reference": 0.0005262739069850086,
+      "mi_reference_error_estimate": 6.306250680252859e-13,
+      "raw_source_default_vfd": 0.04538978599651257,
+      "oracle_zero_time_term_score": 0.00658570363603541,
+      "oracle_projected_source_score": 0.006585703636035405,
+      "coefficient_difference": [
+        0.05207031107088436,
+        0.24626391849802234
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 16,
+      "members": [
+        {
+          "seed": 2026213932,
+          "samples": 1024,
+          "coefficient": [
+            0.005721569411145061,
+            0.021903648759946163
+          ],
+          "empirical_residual_mse": 1.6385966109202497,
+          "population_excess_cfm_mse": 7.271717560980842e-05,
+          "normal_equation_max_per_sample": 2.1738253558334364e-17
+        },
+        {
+          "seed": 2026213933,
+          "samples": 1024,
+          "coefficient": [
+            0.02883337102419436,
+            -0.1507070016041891
+          ],
+          "empirical_residual_mse": 1.694181440696981,
+          "population_excess_cfm_mse": 0.002724079978995939,
+          "normal_equation_max_per_sample": 3.729655473350135e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.007131652940479757,
+        0.03593936916121179
+      ],
+      "exact_pairwise_kl": 0.00041494225692711377,
+      "epistemic_mi_reference": 0.00010372480465226097,
+      "mi_reference_error_estimate": 6.308997961207664e-13,
+      "raw_source_default_vfd": 0.0046810356629770405,
+      "oracle_zero_time_term_score": 0.001297446445649049,
+      "oracle_projected_source_score": 0.0012974464456490492,
+      "coefficient_difference": [
+        -0.023111801613049297,
+        0.17261065036413525
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 17,
+      "members": [
+        {
+          "seed": 2026213934,
+          "samples": 1024,
+          "coefficient": [
+            0.013312102633044373,
+            0.07159292317037574
+          ],
+          "empirical_residual_mse": 1.506586529371027,
+          "population_excess_cfm_mse": 0.0006043409638526506,
+          "normal_equation_max_per_sample": 6.884683795282953e-18
+        },
+        {
+          "seed": 2026213935,
+          "samples": 1024,
+          "coefficient": [
+            0.14911564129046365,
+            0.0998030299800563
+          ],
+          "empirical_residual_mse": 1.5209731683533938,
+          "population_excess_cfm_mse": 0.023065528210232895,
+          "normal_equation_max_per_sample": 1.1709383462843448e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.01659287672050095,
+        0.1858652627038274
+      ],
+      "exact_pairwise_kl": 0.014326570328244125,
+      "epistemic_mi_reference": 0.0035688751391390605,
+      "mi_reference_error_estimate": 6.296772602959702e-13,
+      "raw_source_default_vfd": 0.050887627148583886,
+      "oracle_zero_time_term_score": 0.04479649262134927,
+      "oracle_projected_source_score": 0.044796492621349285,
+      "coefficient_difference": [
+        -0.1358035386574193,
+        -0.028210106809680557
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 18,
+      "members": [
+        {
+          "seed": 2026213936,
+          "samples": 1024,
+          "coefficient": [
+            -0.030884960944797306,
+            0.006752982240595336
+          ],
+          "empirical_residual_mse": 1.7127522275398477,
+          "population_excess_cfm_mse": 0.0009576810433234712,
+          "normal_equation_max_per_sample": 5.4752209710517974e-17
+        },
+        {
+          "seed": 2026213937,
+          "samples": 1024,
+          "coefficient": [
+            -0.027352464058694296,
+            -0.028556083087863858
+          ],
+          "empirical_residual_mse": 1.5066165873724537,
+          "population_excess_cfm_mse": 0.0008161114468589119,
+          "normal_equation_max_per_sample": 2.222614453595284e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.03849657440308589,
+        -0.03409349196281356
+      ],
+      "exact_pairwise_kl": 9.69356748791727e-06,
+      "epistemic_mi_reference": 2.4233859990951956e-06,
+      "mi_reference_error_estimate": 6.30986446095728e-13,
+      "raw_source_default_vfd": 0.00023620942984111385,
+      "oracle_zero_time_term_score": 3.0309963550100948e-05,
+      "oracle_projected_source_score": 3.0309963550099996e-05,
+      "coefficient_difference": [
+        -0.00353249688610301,
+        0.03530906532845919
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 19,
+      "members": [
+        {
+          "seed": 2026213938,
+          "samples": 1024,
+          "coefficient": [
+            0.002173488126469762,
+            0.03101176855750195
+          ],
+          "empirical_residual_mse": 1.6218146542213818,
+          "population_excess_cfm_mse": 8.486819972457724e-05,
+          "normal_equation_max_per_sample": 1.5829351718288365e-17
+        },
+        {
+          "seed": 2026213939,
+          "samples": 1024,
+          "coefficient": [
+            0.005912137005842987,
+            -0.0813011693168666
+          ],
+          "empirical_residual_mse": 1.5819761323128398,
+          "population_excess_cfm_mse": 0.0005857767083333424,
+          "normal_equation_max_per_sample": 3.176712365382528e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.0027091453191221146,
+        0.00736918601041688
+      ],
+      "exact_pairwise_kl": 1.0857989622261493e-05,
+      "epistemic_mi_reference": 2.714490036859196e-06,
+      "mi_reference_error_estimate": 6.310169246572759e-13,
+      "raw_source_default_vfd": 0.003400522592759709,
+      "oracle_zero_time_term_score": 3.3950892701612656e-05,
+      "oracle_projected_source_score": 3.395089270161344e-05,
+      "coefficient_difference": [
+        -0.003738648879373225,
+        0.11231293787436855
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 20,
+      "members": [
+        {
+          "seed": 2026213940,
+          "samples": 1024,
+          "coefficient": [
+            0.025864505525789422,
+            0.0819733127512076
+          ],
+          "empirical_residual_mse": 1.453405999602035,
+          "population_excess_cfm_mse": 0.0012289413130441994,
+          "normal_equation_max_per_sample": 5.659535340374333e-17
+        },
+        {
+          "seed": 2026213941,
+          "samples": 1024,
+          "coefficient": [
+            -0.06315119865608125,
+            0.19677236043517987
+          ],
+          "empirical_residual_mse": 1.586082992140093,
+          "population_excess_cfm_mse": 0.007214687377635866,
+          "normal_equation_max_per_sample": 1.0570971181733668e-16
+        }
+      ],
+      "exact_terminal_means": [
+        0.032238825334836865,
+        -0.07871484189515929
+      ],
+      "exact_pairwise_kl": 0.006155358135892363,
+      "epistemic_mi_reference": 0.0015364763469732923,
+      "mi_reference_error_estimate": 6.3026225521338e-13,
+      "raw_source_default_vfd": 0.007859159751607446,
+      "oracle_zero_time_term_score": 0.01924664794145879,
+      "oracle_projected_source_score": 0.01924664794145879,
+      "coefficient_difference": [
+        0.08901570418187067,
+        -0.11479904768397227
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 21,
+      "members": [
+        {
+          "seed": 2026213942,
+          "samples": 1024,
+          "coefficient": [
+            0.05349711448689417,
+            0.07045630265770361
+          ],
+          "empirical_residual_mse": 1.5387732293368643,
+          "population_excess_cfm_mse": 0.0032756154737733564,
+          "normal_equation_max_per_sample": 3.1604493327952454e-17
+        },
+        {
+          "seed": 2026213943,
+          "samples": 1024,
+          "coefficient": [
+            0.07701204651260506,
+            0.05132888029491448
+          ],
+          "empirical_residual_mse": 1.487700894901707,
+          "population_excess_cfm_mse": 0.006150409804087116,
+          "normal_equation_max_per_sample": 7.32920668600201e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.06668150404580805,
+        0.0959917023630178
+      ],
+      "exact_pairwise_kl": 0.0004295438626970821,
+      "epistemic_mi_reference": 0.00010737443557928827,
+      "mi_reference_error_estimate": 6.308328225160288e-13,
+      "raw_source_default_vfd": 0.0007738552597514894,
+      "oracle_zero_time_term_score": 0.0013431029224015283,
+      "oracle_projected_source_score": 0.0013431029224015277,
+      "coefficient_difference": [
+        -0.023514932025710887,
+        0.01912742236278913
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 22,
+      "members": [
+        {
+          "seed": 2026213944,
+          "samples": 1024,
+          "coefficient": [
+            -0.04195340660505826,
+            -0.037165428228512105
+          ],
+          "empirical_residual_mse": 1.5216190554951736,
+          "population_excess_cfm_mse": 0.0018751940803867363,
+          "normal_equation_max_per_sample": 1.599198204416119e-16
+        },
+        {
+          "seed": 2026213945,
+          "samples": 1024,
+          "coefficient": [
+            0.004758545569267923,
+            0.06476089666806226
+          ],
+          "empirical_residual_mse": 1.4480638277960853,
+          "population_excess_cfm_mse": 0.00037214156737241916,
+          "normal_equation_max_per_sample": 1.1535911115245767e-16
+        }
+      ],
+      "exact_terminal_means": [
+        -0.05229284381227634,
+        0.005931291410250464
+      ],
+      "exact_pairwise_kl": 0.001695024961205543,
+      "epistemic_mi_reference": 0.000423576772300871,
+      "mi_reference_error_estimate": 6.307869040195426e-13,
+      "raw_source_default_vfd": 0.01585562395177366,
+      "oracle_zero_time_term_score": 0.005300024460002992,
+      "oracle_projected_source_score": 0.005300024460002995,
+      "coefficient_difference": [
+        -0.04671195217432618,
+        -0.10192632489657436
+      ]
+    },
+    {
+      "n": 1024,
+      "pair_index": 23,
+      "members": [
+        {
+          "seed": 2026213946,
+          "samples": 1024,
+          "coefficient": [
+            0.04310144975449185,
+            0.00929841385556574
+          ],
+          "empirical_residual_mse": 1.7300301691545321,
+          "population_excess_cfm_mse": 0.0018649400126247672,
+          "normal_equation_max_per_sample": 1.2576745200831851e-17
+        },
+        {
+          "seed": 2026213947,
+          "samples": 1024,
+          "coefficient": [
+            -0.007504823458548457,
+            0.012211963328499734
+          ],
+          "empirical_residual_mse": 1.5830175176316346,
+          "population_excess_cfm_mse": 6.875004583869775e-05,
+          "normal_equation_max_per_sample": 5.854691731421724e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.053723822747270535,
+        -0.009354390804327796
+      ],
+      "exact_pairwise_kl": 0.0019894305124305216,
+      "epistemic_mi_reference": 0.0004971104273320259,
+      "mi_reference_error_estimate": 6.308030152479439e-13,
+      "raw_source_default_vfd": 0.005998571667793625,
+      "oracle_zero_time_term_score": 0.006220575282772755,
+      "oracle_projected_source_score": 0.006220575282772757,
+      "coefficient_difference": [
+        0.05060627321304031,
+        -0.0029135494729339937
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 0,
+      "members": [
+        {
+          "seed": 2026521100,
+          "samples": 4096,
+          "coefficient": [
+            -0.009899524343318585,
+            -0.0533682969753574
+          ],
+          "empirical_residual_mse": 1.5816130115796176,
+          "population_excess_cfm_mse": 0.0003353485090614524,
+          "normal_equation_max_per_sample": 1.4907779871675686e-18
+        },
+        {
+          "seed": 2026521101,
+          "samples": 4096,
+          "coefficient": [
+            0.010320912151616981,
+            0.039297523998263514
+          ],
+          "empirical_residual_mse": 1.5932742923262309,
+          "population_excess_cfm_mse": 0.0002352125103409031,
+          "normal_equation_max_per_sample": 7.090682208055199e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.012339266872277568,
+        0.012864505908315435
+      ],
+      "exact_pairwise_kl": 0.00031761508118788035,
+      "epistemic_mi_reference": 7.939746600549302e-05,
+      "mi_reference_error_estimate": 6.310067256460546e-13,
+      "raw_source_default_vfd": 0.006576011272831382,
+      "oracle_zero_time_term_score": 0.0009931226605443908,
+      "oracle_projected_source_score": 0.0009931226605443925,
+      "coefficient_difference": [
+        -0.020220436494935566,
+        -0.09266582097362092
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 1,
+      "members": [
+        {
+          "seed": 2026521102,
+          "samples": 4096,
+          "coefficient": [
+            -0.008331222231216734,
+            0.07671575972122537
+          ],
+          "empirical_residual_mse": 1.5163979042330484,
+          "population_excess_cfm_mse": 0.0005598515796663187,
+          "normal_equation_max_per_sample": 5.3017486234541167e-17
+        },
+        {
+          "seed": 2026521103,
+          "samples": 4096,
+          "coefficient": [
+            0.003505806570116466,
+            0.0381779760405937
+          ],
+          "empirical_residual_mse": 1.5799018729151173,
+          "population_excess_cfm_mse": 0.00013375383425341732,
+          "normal_equation_max_per_sample": 1.553119612085485e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.010384455951423354,
+        0.004369814283092066
+      ],
+      "exact_pairwise_kl": 0.00010884424507655386,
+      "epistemic_mi_reference": 2.7210320854065273e-05,
+      "mi_reference_error_estimate": 6.310163817554788e-13,
+      "raw_source_default_vfd": 0.00011685494919768462,
+      "oracle_zero_time_term_score": 0.0003403354961958828,
+      "oracle_projected_source_score": 0.00034033549619588244,
+      "coefficient_difference": [
+        -0.0118370288013332,
+        0.03853778368063167
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 2,
+      "members": [
+        {
+          "seed": 2026521104,
+          "samples": 4096,
+          "coefficient": [
+            -0.000896452974507333,
+            0.0481783384376173
+          ],
+          "empirical_residual_mse": 1.5061640536945178,
+          "population_excess_cfm_mse": 0.00019423298581963571,
+          "normal_equation_max_per_sample": 3.0357660829594124e-18
+        },
+        {
+          "seed": 2026521105,
+          "samples": 4096,
+          "coefficient": [
+            0.010312603279131909,
+            0.08977085049722835
+          ],
+          "empirical_residual_mse": 1.6388433916915877,
+          "population_excess_cfm_mse": 0.0007779169196424059,
+          "normal_equation_max_per_sample": 1.8092623753351855e-18
+        }
+      ],
+      "exact_terminal_means": [
+        -0.0011173842406235132,
+        0.012854149310215827
+      ],
+      "exact_pairwise_kl": 9.760187488111467e-05,
+      "epistemic_mi_reference": 2.439987335667304e-05,
+      "mi_reference_error_estimate": 6.308880232230674e-13,
+      "raw_source_default_vfd": 0.0015651337646119764,
+      "oracle_zero_time_term_score": 0.0003051827176893893,
+      "oracle_projected_source_score": 0.0003051827176893863,
+      "coefficient_difference": [
+        -0.011209056253639242,
+        -0.04159251205961106
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 3,
+      "members": [
+        {
+          "seed": 2026521106,
+          "samples": 4096,
+          "coefficient": [
+            -0.0011177684978569075,
+            0.07200750701861318
+          ],
+          "empirical_residual_mse": 1.6323134191969224,
+          "population_excess_cfm_mse": 0.0004333394953344368,
+          "normal_equation_max_per_sample": 4.2825985813177425e-18
+        },
+        {
+          "seed": 2026521107,
+          "samples": 4096,
+          "coefficient": [
+            0.013501162234299242,
+            -0.01816429396031955
+          ],
+          "empirical_residual_mse": 1.516557287287665,
+          "population_excess_cfm_mse": 0.00020977651293327653,
+          "normal_equation_max_per_sample": 2.642742795433417e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.0013932430809961121,
+        0.016828530151286717
+      ],
+      "exact_pairwise_kl": 0.0001660165098643695,
+      "epistemic_mi_reference": 4.150240496869628e-05,
+      "mi_reference_error_estimate": 6.309655011613167e-13,
+      "raw_source_default_vfd": 0.0010927137690189205,
+      "oracle_zero_time_term_score": 0.0005191024221965945,
+      "oracle_projected_source_score": 0.0005191024221965956,
+      "coefficient_difference": [
+        -0.01461893073215615,
+        0.09017180097893274
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 4,
+      "members": [
+        {
+          "seed": 2026521108,
+          "samples": 4096,
+          "coefficient": [
+            0.03204250601806179,
+            0.08621685421864841
+          ],
+          "empirical_residual_mse": 1.587507768418448,
+          "population_excess_cfm_mse": 0.0016461676878641652,
+          "normal_equation_max_per_sample": 1.7780915628762273e-17
+        },
+        {
+          "seed": 2026521109,
+          "samples": 4096,
+          "coefficient": [
+            -0.026724068397816877,
+            0.026349370081908657
+          ],
+          "empirical_residual_mse": 1.5406486086797253,
+          "population_excess_cfm_mse": 0.00077203327370731,
+          "normal_equation_max_per_sample": 1.9569849213363355e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.03993939701560268,
+        -0.033310227889506744
+      ],
+      "exact_pairwise_kl": 0.002682753774369614,
+      "epistemic_mi_reference": 0.0006702390221861032,
+      "mi_reference_error_estimate": 6.306047544943797e-13,
+      "raw_source_default_vfd": 0.014888478817664164,
+      "oracle_zero_time_term_score": 0.008388466807126923,
+      "oracle_projected_source_score": 0.008388466807126928,
+      "coefficient_difference": [
+        0.05876657441587867,
+        0.05986748413673976
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 5,
+      "members": [
+        {
+          "seed": 2026521110,
+          "samples": 4096,
+          "coefficient": [
+            -0.029499683308546937,
+            0.011440509549333046
+          ],
+          "empirical_residual_mse": 1.5529925288777784,
+          "population_excess_cfm_mse": 0.0008811384202002611,
+          "normal_equation_max_per_sample": 6.965998958219366e-18
+        },
+        {
+          "seed": 2026521111,
+          "samples": 4096,
+          "coefficient": [
+            -0.009834939795565177,
+            -0.002712341883644171
+          ],
+          "empirical_residual_mse": 1.6159985173879097,
+          "population_excess_cfm_mse": 9.733910732353915e-05,
+          "normal_equation_max_per_sample": 4.2934406030425976e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.036769894428059835,
+        -0.012258765431711637
+      ],
+      "exact_pairwise_kl": 0.0003003977223378107,
+      "epistemic_mi_reference": 7.509379122450088e-05,
+      "mi_reference_error_estimate": 6.308471744106765e-13,
+      "raw_source_default_vfd": 0.0005787679834802922,
+      "oracle_zero_time_term_score": 0.0009392872155624378,
+      "oracle_projected_source_score": 0.0009392872155624388,
+      "coefficient_difference": [
+        -0.01966474351298176,
+        0.014152851432977218
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 6,
+      "members": [
+        {
+          "seed": 2026521112,
+          "samples": 4096,
+          "coefficient": [
+            -0.0035844598273476404,
+            0.1206311010134119
+          ],
+          "empirical_residual_mse": 1.5732510815320175,
+          "population_excess_cfm_mse": 0.0012255035632295346,
+          "normal_equation_max_per_sample": 3.0140820395097023e-17
+        },
+        {
+          "seed": 2026521113,
+          "samples": 4096,
+          "coefficient": [
+            -0.006543538913076906,
+            0.032007457969712355
+          ],
+          "empirical_residual_mse": 1.583342585306418,
+          "population_excess_cfm_mse": 0.00012819101531386028,
+          "normal_equation_max_per_sample": 5.366800753803247e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.004467851673343485,
+        -0.008156197220938598
+      ],
+      "exact_pairwise_kl": 6.801946439232342e-06,
+      "epistemic_mi_reference": 1.700483718058976e-06,
+      "mi_reference_error_estimate": 6.308516348663244e-13,
+      "raw_source_default_vfd": 0.0029155325936118747,
+      "oracle_zero_time_term_score": 2.126840803448799e-05,
+      "oracle_projected_source_score": 2.1268408034487742e-05,
+      "coefficient_difference": [
+        0.002959079085729266,
+        0.08862364304369955
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 7,
+      "members": [
+        {
+          "seed": 2026521114,
+          "samples": 4096,
+          "coefficient": [
+            -4.244859592278524e-05,
+            0.005670382728130657
+          ],
+          "empirical_residual_mse": 1.564077281570099,
+          "population_excess_cfm_mse": 2.6812385735860218e-06,
+          "normal_equation_max_per_sample": 2.1955093992831465e-18
+        },
+        {
+          "seed": 2026521115,
+          "samples": 4096,
+          "coefficient": [
+            0.007184193877115273,
+            -0.08054637992025693
+          ],
+          "empirical_residual_mse": 1.6282771454325067,
+          "population_excess_cfm_mse": 0.0005922559181855113,
+          "normal_equation_max_per_sample": 2.8297676701871666e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -5.2910072775186884e-05,
+        0.008954741908558281
+      ],
+      "exact_pairwise_kl": 4.0568897108410374e-05,
+      "epistemic_mi_reference": 1.0142121413703187e-05,
+      "mi_reference_error_estimate": 6.309820872310942e-13,
+      "raw_source_default_vfd": 0.001538283629983027,
+      "oracle_zero_time_term_score": 0.00012685131600480672,
+      "oracle_projected_source_score": 0.00012685131600480672,
+      "coefficient_difference": [
+        -0.0072266424730380585,
+        0.08621676264838758
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 8,
+      "members": [
+        {
+          "seed": 2026521116,
+          "samples": 4096,
+          "coefficient": [
+            -0.0082178773272227,
+            -0.09525249964347236
+          ],
+          "empirical_residual_mse": 1.5192037705565995,
+          "population_excess_cfm_mse": 0.0008236200651260895,
+          "normal_equation_max_per_sample": 1.2278589603398338e-17
+        },
+        {
+          "seed": 2026521117,
+          "samples": 4096,
+          "coefficient": [
+            -0.00036872489753380234,
+            0.025319691777179562
+          ],
+          "empirical_residual_mse": 1.6013404727354923,
+          "population_excess_cfm_mse": 5.355985735767584e-05,
+          "normal_equation_max_per_sample": 3.2146594414195206e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.010243177141402647,
+        -0.0004595973256223718
+      ],
+      "exact_pairwise_kl": 4.785921700587162e-05,
+      "epistemic_mi_reference": 1.196466109709693e-05,
+      "mi_reference_error_estimate": 6.309173177450517e-13,
+      "raw_source_default_vfd": 0.006209321109203309,
+      "oracle_zero_time_term_score": 0.00014964677604942472,
+      "oracle_projected_source_score": 0.00014964677604942627,
+      "coefficient_difference": [
+        -0.007849152429688899,
+        -0.12057219142065193
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 9,
+      "members": [
+        {
+          "seed": 2026521118,
+          "samples": 4096,
+          "coefficient": [
+            -0.032458762323011696,
+            -0.004410246999082659
+          ],
+          "empirical_residual_mse": 1.5162339079119984,
+          "population_excess_cfm_mse": 0.0010551921080911735,
+          "normal_equation_max_per_sample": 6.380529785077194e-17
+        },
+        {
+          "seed": 2026521119,
+          "samples": 4096,
+          "coefficient": [
+            0.038510176204505676,
+            -0.006162701772694958
+          ],
+          "empirical_residual_mse": 1.5794295051796823,
+          "population_excess_cfm_mse": 0.0014861985790636733,
+          "normal_equation_max_per_sample": 7.204523436166177e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.04045823988682727,
+        0.04800102762579129
+      ],
+      "exact_pairwise_kl": 0.003912521004434506,
+      "epistemic_mi_reference": 0.0009771747570349598,
+      "mi_reference_error_estimate": 6.305051690756165e-13,
+      "raw_source_default_vfd": 0.012045157512936184,
+      "oracle_zero_time_term_score": 0.012233717790816534,
+      "oracle_projected_source_score": 0.012233717790816535,
+      "coefficient_difference": [
+        -0.07096893852751737,
+        0.0017524547736122989
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 10,
+      "members": [
+        {
+          "seed": 2026521120,
+          "samples": 4096,
+          "coefficient": [
+            0.005234172182036467,
+            0.06325729458091678
+          ],
+          "empirical_residual_mse": 1.5713416573584311,
+          "population_excess_cfm_mse": 0.000360853668239278,
+          "normal_equation_max_per_sample": 1.3552527156068805e-18
+        },
+        {
+          "seed": 2026521121,
+          "samples": 4096,
+          "coefficient": [
+            -0.009192543938632468,
+            -0.024204590266464373
+          ],
+          "empirical_residual_mse": 1.5348724114478305,
+          "population_excess_cfm_mse": 0.00013332471322764035,
+          "normal_equation_max_per_sample": 5.800481622797449e-18
+        }
+      ],
+      "exact_terminal_means": [
+        0.0065241364301699845,
+        -0.011458050807307682
+      ],
+      "exact_pairwise_kl": 0.00016167952892185233,
+      "epistemic_mi_reference": 4.041824855161025e-05,
+      "mi_reference_error_estimate": 6.309569764629168e-13,
+      "raw_source_default_vfd": 0.004858103573915837,
+      "oracle_zero_time_term_score": 0.000505541497960081,
+      "oracle_projected_source_score": 0.0005055414979600777,
+      "coefficient_difference": [
+        0.014426716120668936,
+        0.08746188484738115
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 11,
+      "members": [
+        {
+          "seed": 2026521122,
+          "samples": 4096,
+          "coefficient": [
+            -0.01229663767785524,
+            -0.09887774417469596
+          ],
+          "empirical_residual_mse": 1.5577482955233846,
+          "population_excess_cfm_mse": 0.0009659413226035008,
+          "normal_equation_max_per_sample": 6.277530578691071e-17
+        },
+        {
+          "seed": 2026521123,
+          "samples": 4096,
+          "coefficient": [
+            -0.013480467986916718,
+            0.038702871216881464
+          ],
+          "empirical_residual_mse": 1.6169926551267855,
+          "population_excess_cfm_mse": 0.00030654903718216244,
+          "normal_equation_max_per_sample": 1.6398557858843255e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.01532714993939748,
+        -0.016802735796697724
+      ],
+      "exact_pairwise_kl": 1.0886768111322512e-06,
+      "epistemic_mi_reference": 2.7216912867888965e-07,
+      "mi_reference_error_estimate": 6.308733156738436e-13,
+      "raw_source_default_vfd": 0.00576718317156196,
+      "oracle_zero_time_term_score": 3.4040877627756078e-06,
+      "oracle_projected_source_score": 3.4040877627755476e-06,
+      "coefficient_difference": [
+        0.001183830309061478,
+        -0.13758061539157743
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 12,
+      "members": [
+        {
+          "seed": 2026521124,
+          "samples": 4096,
+          "coefficient": [
+            -0.026147069555208128,
+            -0.03272260591059617
+          ],
+          "empirical_residual_mse": 1.570786247615605,
+          "population_excess_cfm_mse": 0.0007728999911232403,
+          "normal_equation_max_per_sample": 4.1904413966564746e-17
+        },
+        {
+          "seed": 2026521125,
+          "samples": 4096,
+          "coefficient": [
+            -0.0522698544954138,
+            0.05156995749636791
+          ],
+          "empirical_residual_mse": 1.5958275245821318,
+          "population_excess_cfm_mse": 0.002953759398653163,
+          "normal_equation_max_per_sample": 7.513521055324546e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.0325910274050158,
+        -0.06515178523999836
+      ],
+      "exact_pairwise_kl": 0.000530101475394189,
+      "epistemic_mi_reference": 0.00013250780897744452,
+      "mi_reference_error_estimate": 6.308457682565747e-13,
+      "raw_source_default_vfd": 0.0005585601367991111,
+      "oracle_zero_time_term_score": 0.0016575276766866338,
+      "oracle_projected_source_score": 0.0016575276766866336,
+      "coefficient_difference": [
+        0.02612278494020567,
+        -0.08429256340696409
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 13,
+      "members": [
+        {
+          "seed": 2026521126,
+          "samples": 4096,
+          "coefficient": [
+            0.004331027277020744,
+            -0.006559117475781526
+          ],
+          "empirical_residual_mse": 1.52921908504045,
+          "population_excess_cfm_mse": 2.2342965779389608e-05,
+          "normal_equation_max_per_sample": 5.759824041329242e-17
+        },
+        {
+          "seed": 2026521127,
+          "samples": 4096,
+          "coefficient": [
+            -0.02697055553096376,
+            0.08452438494859683
+          ],
+          "empirical_residual_mse": 1.5936906567599438,
+          "population_excess_cfm_mse": 0.0013227751698936818,
+          "normal_equation_max_per_sample": 4.336808689942018e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.005398411029550285,
+        -0.03361746189500063
+      ],
+      "exact_pairwise_kl": 0.0007611191700323526,
+      "epistemic_mi_reference": 0.00019024359529007384,
+      "mi_reference_error_estimate": 6.30854317161588e-13,
+      "raw_source_default_vfd": 0.0006699711025997349,
+      "oracle_zero_time_term_score": 0.0023798765861710973,
+      "oracle_projected_source_score": 0.002379876586171099,
+      "coefficient_difference": [
+        0.03130158280798451,
+        -0.09108350242437836
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 14,
+      "members": [
+        {
+          "seed": 2026521128,
+          "samples": 4096,
+          "coefficient": [
+            -0.03620043482699831,
+            0.040997668820584705
+          ],
+          "empirical_residual_mse": 1.5494742971352702,
+          "population_excess_cfm_mse": 0.0014505388857239472,
+          "normal_equation_max_per_sample": 7.101524229780054e-18
+        },
+        {
+          "seed": 2026521129,
+          "samples": 4096,
+          "coefficient": [
+            -0.015222739938386617,
+            0.07574486723579965
+          ],
+          "empirical_residual_mse": 1.583436295599402,
+          "population_excess_cfm_mse": 0.0007098388872791607,
+          "normal_equation_max_per_sample": 1.9081958235744878e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.04512204937647357,
+        -0.018974391507386557
+      ],
+      "exact_pairwise_kl": 0.00034185000601941407,
+      "epistemic_mi_reference": 8.545519849778582e-05,
+      "mi_reference_error_estimate": 6.309255746354564e-13,
+      "raw_source_default_vfd": 0.0025632263665305763,
+      "oracle_zero_time_term_score": 0.001068900715341949,
+      "oracle_projected_source_score": 0.0010689007153419495,
+      "coefficient_difference": [
+        -0.02097769488861169,
+        -0.034747198415214946
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 15,
+      "members": [
+        {
+          "seed": 2026521130,
+          "samples": 4096,
+          "coefficient": [
+            -0.012144438069163772,
+            0.08281639061746353
+          ],
+          "empirical_residual_mse": 1.4693008332663255,
+          "population_excess_cfm_mse": 0.0007190335889244461,
+          "normal_equation_max_per_sample": 2.6454533008646308e-17
+        },
+        {
+          "seed": 2026521131,
+          "samples": 4096,
+          "coefficient": [
+            0.0001477024911631932,
+            0.06248903195108679
+          ],
+          "empirical_residual_mse": 1.5484789704264714,
+          "population_excess_cfm_mse": 0.00032542840887455797,
+          "normal_equation_max_per_sample": 1.3931997916438732e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.015137440664045501,
+        0.00018410384104898273
+      ],
+      "exact_pairwise_kl": 0.0001173748630107955,
+      "epistemic_mi_reference": 2.9342854732661294e-05,
+      "mi_reference_error_estimate": 6.308366290159193e-13,
+      "raw_source_default_vfd": 0.00011745999078389166,
+      "oracle_zero_time_term_score": 0.00036700913507743926,
+      "oracle_projected_source_score": 0.00036700913507743823,
+      "coefficient_difference": [
+        -0.012292140560326965,
+        0.020327358666376735
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 16,
+      "members": [
+        {
+          "seed": 2026521132,
+          "samples": 4096,
+          "coefficient": [
+            -0.033447241006438984,
+            0.007555485333843685
+          ],
+          "empirical_residual_mse": 1.5376455201823431,
+          "population_excess_cfm_mse": 0.001123475044161974,
+          "normal_equation_max_per_sample": 4.5672016515951874e-17
+        },
+        {
+          "seed": 2026521133,
+          "samples": 4096,
+          "coefficient": [
+            -0.001590558951738005,
+            0.06092247009995397
+          ],
+          "empirical_residual_mse": 1.5756288656763817,
+          "population_excess_cfm_mse": 0.000311825491368936,
+          "normal_equation_max_per_sample": 5.759824041329242e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.04169032961653221,
+        -0.0019825529693082234
+      ],
+      "exact_pairwise_kl": 0.0007883537631329132,
+      "epistemic_mi_reference": 0.00019704960713207154,
+      "mi_reference_error_estimate": 6.307731441678378e-13,
+      "raw_source_default_vfd": 0.0059605094824527844,
+      "oracle_zero_time_term_score": 0.0024650340398339266,
+      "oracle_projected_source_score": 0.0024650340398339322,
+      "coefficient_difference": [
+        -0.03185668205470098,
+        -0.053366984766110286
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 17,
+      "members": [
+        {
+          "seed": 2026521134,
+          "samples": 4096,
+          "coefficient": [
+            -0.010317122993288134,
+            0.1285416430069473
+          ],
+          "empirical_residual_mse": 1.4906950867154771,
+          "population_excess_cfm_mse": 0.0014833558591024246,
+          "normal_equation_max_per_sample": 7.489126506443622e-17
+        },
+        {
+          "seed": 2026521135,
+          "samples": 4096,
+          "coefficient": [
+            0.01879134852391867,
+            0.01806907193778673
+          ],
+          "empirical_residual_mse": 1.5846999654178862,
+          "population_excess_cfm_mse": 0.00038032239273845644,
+          "normal_equation_max_per_sample": 7.697835424647081e-18
+        }
+      ],
+      "exact_terminal_means": [
+        -0.012859782910096585,
+        0.023422485392755963
+      ],
+      "exact_pairwise_kl": 0.0006582014966000894,
+      "epistemic_mi_reference": 0.0001645233032624427,
+      "mi_reference_error_estimate": 6.308069724138199e-13,
+      "raw_source_default_vfd": 0.001033725073105233,
+      "oracle_zero_time_term_score": 0.0020580723655597107,
+      "oracle_projected_source_score": 0.0020580723655597086,
+      "coefficient_difference": [
+        -0.029108471517206806,
+        0.11047257106916056
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 18,
+      "members": [
+        {
+          "seed": 2026521136,
+          "samples": 4096,
+          "coefficient": [
+            0.00862987581436298,
+            0.033354117725427714
+          ],
+          "empirical_residual_mse": 1.572155355757336,
+          "population_excess_cfm_mse": 0.0001671828540081347,
+          "normal_equation_max_per_sample": 1.870248747537495e-17
+        },
+        {
+          "seed": 2026521137,
+          "samples": 4096,
+          "coefficient": [
+            -0.010895678040507738,
+            -0.0802228718600149
+          ],
+          "empirical_residual_mse": 1.6184282785158202,
+          "population_excess_cfm_mse": 0.0006550248974181,
+          "normal_equation_max_per_sample": 2.7159264420761886e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.010756712853573474,
+        -0.013580923126572145
+      ],
+      "exact_pairwise_kl": 0.00029616026255103924,
+      "epistemic_mi_reference": 7.40345842473733e-05,
+      "mi_reference_error_estimate": 6.308537555324219e-13,
+      "raw_source_default_vfd": 0.008402846377438145,
+      "oracle_zero_time_term_score": 0.0009260374752741327,
+      "oracle_projected_source_score": 0.0009260374752741375,
+      "coefficient_difference": [
+        0.019525553854870717,
+        0.1135769895854426
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 19,
+      "members": [
+        {
+          "seed": 2026521138,
+          "samples": 4096,
+          "coefficient": [
+            0.01443783668117581,
+            0.011640513125949587
+          ],
+          "empirical_residual_mse": 1.550823381401889,
+          "population_excess_cfm_mse": 0.00021974292351858944,
+          "normal_equation_max_per_sample": 2.8758462625178005e-17
+        },
+        {
+          "seed": 2026521139,
+          "samples": 4096,
+          "coefficient": [
+            -0.021337835417921558,
+            -0.012383517073953005
+          ],
+          "empirical_residual_mse": 1.5983385033068298,
+          "population_excess_cfm_mse": 0.0004680825115823815,
+          "normal_equation_max_per_sample": 3.6808663755882876e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.017996048465462447,
+        -0.02659655520481376
+      ],
+      "exact_pairwise_kl": 0.0009942501510471654,
+      "epistemic_mi_reference": 0.00024850077488991484,
+      "mi_reference_error_estimate": 6.307443920381074e-13,
+      "raw_source_default_vfd": 0.004601961187494175,
+      "oracle_zero_time_term_score": 0.003108833344946031,
+      "oracle_projected_source_score": 0.0031088333449460297,
+      "coefficient_difference": [
+        0.035775672099097364,
+        0.024024030199902593
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 20,
+      "members": [
+        {
+          "seed": 2026521140,
+          "samples": 4096,
+          "coefficient": [
+            0.007478088907456913,
+            -0.02528206978664486
+          ],
+          "empirical_residual_mse": 1.5557673836866392,
+          "population_excess_cfm_mse": 0.00010918706809922855,
+          "normal_equation_max_per_sample": 2.677979366039196e-17
+        },
+        {
+          "seed": 2026521141,
+          "samples": 4096,
+          "coefficient": [
+            0.0021141331847161385,
+            -0.04105030367003875
+          ],
+          "empirical_residual_mse": 1.5347560292003906,
+          "population_excess_cfm_mse": 0.00014489684507291775,
+          "normal_equation_max_per_sample": 1.1248597539537109e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.00932106751027966,
+        0.002635162323466292
+      ],
+      "exact_pairwise_kl": 2.2350664083528952e-05,
+      "epistemic_mi_reference": 5.587634798964736e-06,
+      "mi_reference_error_estimate": 6.309672481535355e-13,
+      "raw_source_default_vfd": 0.00027775514295919133,
+      "oracle_zero_time_term_score": 6.988632560063469e-05,
+      "oracle_projected_source_score": 6.988632560063427e-05,
+      "coefficient_difference": [
+        0.005363955722740775,
+        0.01576823388339389
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 21,
+      "members": [
+        {
+          "seed": 2026521142,
+          "samples": 4096,
+          "coefficient": [
+            -0.055965967364993346,
+            0.014481721955426755
+          ],
+          "empirical_residual_mse": 1.51801310951082,
+          "population_excess_cfm_mse": 0.003149666192332358,
+          "normal_equation_max_per_sample": 4.052205619664573e-17
+        },
+        {
+          "seed": 2026521143,
+          "samples": 4096,
+          "coefficient": [
+            0.01937469879640254,
+            -0.0898605490494428
+          ],
+          "empirical_residual_mse": 1.5373627864329995,
+          "population_excess_cfm_mse": 0.001048288809740265,
+          "normal_equation_max_per_sample": 2.3960868011929648e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.06975880690145658,
+        0.02414960262006522
+      ],
+      "exact_pairwise_kl": 0.004409394689430923,
+      "epistemic_mi_reference": 0.0011011352809210395,
+      "mi_reference_error_estimate": 6.305262977036808e-13,
+      "raw_source_default_vfd": 0.005265099754960815,
+      "oracle_zero_time_term_score": 0.013787348412361986,
+      "oracle_projected_source_score": 0.013787348412361972,
+      "coefficient_difference": [
+        -0.07534066616139588,
+        0.10434227100486955
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 22,
+      "members": [
+        {
+          "seed": 2026521144,
+          "samples": 4096,
+          "coefficient": [
+            -0.018844920294412624,
+            0.022555393844484864
+          ],
+          "empirical_residual_mse": 1.550584326325167,
+          "population_excess_cfm_mse": 0.0003975265035260836,
+          "normal_equation_max_per_sample": 2.347297703431117e-17
+        },
+        {
+          "seed": 2026521145,
+          "samples": 4096,
+          "coefficient": [
+            0.034059843484469575,
+            0.0996974112913374
+          ],
+          "empirical_residual_mse": 1.52122893794485,
+          "population_excess_cfm_mse": 0.001988370756369405,
+          "normal_equation_max_per_sample": 1.826880660638075e-17
+        }
+      ],
+      "exact_terminal_means": [
+        -0.023489259951817627,
+        0.04245390826949444
+      ],
+      "exact_pairwise_kl": 0.0021742507175321313,
+      "epistemic_mi_reference": 0.0005432674328409437,
+      "mi_reference_error_estimate": 6.307827683216207e-13,
+      "raw_source_default_vfd": 0.014908166883893334,
+      "oracle_zero_time_term_score": 0.006798473325669196,
+      "oracle_projected_source_score": 0.006798473325669195,
+      "coefficient_difference": [
+        -0.0529047637788822,
+        -0.07714201744685253
+      ]
+    },
+    {
+      "n": 4096,
+      "pair_index": 23,
+      "members": [
+        {
+          "seed": 2026521146,
+          "samples": 4096,
+          "coefficient": [
+            0.030176271605226932,
+            0.11086471185489016
+          ],
+          "empirical_residual_mse": 1.6077186141084487,
+          "population_excess_cfm_mse": 0.0019348560625480774,
+          "normal_equation_max_per_sample": 5.421010862427522e-18
+        },
+        {
+          "seed": 2026521147,
+          "samples": 4096,
+          "coefficient": [
+            -0.0078022812516204965,
+            -0.010180683419780085
+          ],
+          "empirical_residual_mse": 1.5619099517642097,
+          "population_excess_cfm_mse": 6.951278563720413e-05,
+          "normal_equation_max_per_sample": 2.222614453595284e-17
+        }
+      ],
+      "exact_terminal_means": [
+        0.037613228235408754,
+        -0.009725157213365606
+      ],
+      "exact_pairwise_kl": 0.0011204613684483657,
+      "epistemic_mi_reference": 0.0002800369067922359,
+      "mi_reference_error_estimate": 6.307468143935179e-13,
+      "raw_source_default_vfd": 0.015163071980191654,
+      "oracle_zero_time_term_score": 0.0035034720993378033,
+      "oracle_projected_source_score": 0.003503472099337807,
+      "coefficient_difference": [
+        0.037978552856847425,
+        0.12104539527467024
+      ]
+    }
+  ],
+  "summary": {
+    "256": {
+      "pairs": 24,
+      "raw": {
+        "strict_kl_pairs": 276,
+        "inversions": 95,
+        "first_inversion_indices": [
+          0,
+          8
+        ]
+      },
+      "oracle_zero_time_term": {
+        "strict_kl_pairs": 276,
+        "inversions": 0,
+        "first_inversion_indices": null
+      }
+    },
+    "1024": {
+      "pairs": 24,
+      "raw": {
+        "strict_kl_pairs": 276,
+        "inversions": 75,
+        "first_inversion_indices": [
+          0,
+          3
+        ]
+      },
+      "oracle_zero_time_term": {
+        "strict_kl_pairs": 276,
+        "inversions": 0,
+        "first_inversion_indices": null
+      }
+    },
+    "4096": {
+      "pairs": 24,
+      "raw": {
+        "strict_kl_pairs": 276,
+        "inversions": 99,
+        "first_inversion_indices": [
+          0,
+          12
+        ]
+      },
+      "oracle_zero_time_term": {
+        "strict_kl_pairs": 276,
+        "inversions": 0,
+        "first_inversion_indices": null
+      }
+    }
+  },
+  "checks": {
+    "max_endpoint_mean_formula_error": 2.3592239273284576e-16,
+    "max_ode_central_difference_error": 4.2620706963703014e-10,
+    "max_source_vs_formula_score_error": 5.551115123125783e-17
+  },
+  "source_sha256": "0ebd2f14bae8c8c8a7b69dde48ff2c4eed16d2b8f17a70128d326d33412986b6",
+  "plan_sha256": "593fd53a0e3ee2a00fe4bd27f12bf8d4cd51c681c93cbdbca5ac9585b454519d",
+  "external_source_files_verified": 11,
+  "limits": [
+    "Known population velocity basis and two fitted time coefficients; not a neural VLA.",
+    "Members use independent finite datasets from the same law, unlike same-data training-seed ensembles.",
+    "Oracle removal of the null-terminal term is a diagnostic, not a deployable new method.",
+    "Pairwise ranking counts are dependent comparisons; no statistical significance claimed.",
+    "No action-risk, demonstration-acquisition or hardware performance gain established."
+  ]
+}

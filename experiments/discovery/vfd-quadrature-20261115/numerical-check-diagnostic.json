@@ -1,0 +1,22 @@
+{
+  "stage": "before first completed boundary-fit run",
+  "failure": "quad absolute tolerance1e-11 exceeds epsilon1e-6 truncated integral scale near1e-11",
+  "observed": [
+    {
+      "epsilon": 1e-06,
+      "cutoff": 0.9999,
+      "closed_form": 6.877506998644294e-12,
+      "quad": 5.818710540310355e-12,
+      "quad_error_estimate": 8.724658006399739e-12
+    },
+    {
+      "epsilon": 1e-06,
+      "cutoff": 0.99999,
+      "closed_form": 9.179642131241448e-12,
+      "quad": 6.04517718455313e-12,
+      "quad_error_estimate": 9.115356872839566e-12
+    }
+  ],
+  "correction": "Integrate unit-epsilon integrand independently, then scale value and error by epsilon squared. No conditions removed or theory weakened.",
+  "partial_result_file_created": false
+}

@@ -1,0 +1,65 @@
+{
+  "repos": [
+    {
+      "repo": "rrrrrrzy/fm-geometry",
+      "head_status": 200,
+      "revision": "1cb8af483f1f018fcbca2a0ded9c374e84c0ea83",
+      "files": 101,
+      "selected_paths": [
+        "LICENSE",
+        "README.md",
+        "cli/score.py",
+        "data/README.md",
+        "experiments/accel_prefix_probe.py",
+        "fmaccel/__init__.py",
+        "fmaccel/core/__init__.py",
+        "fmaccel/core/args.py",
+        "fmaccel/core/bootstrap.py",
+        "fmaccel/core/io.py",
+        "fmaccel/core/runs.py",
+        "fmaccel/core/sharding.py",
+        "fmaccel/datasets/__init__.py",
+        "fmaccel/datasets/base.py",
+        "fmaccel/datasets/libero.py",
+        "fmaccel/detection/__init__.py",
+        "fmaccel/detection/captures.py",
+        "fmaccel/detection/cusum.py",
+        "fmaccel/detection/score.py",
+        "fmaccel/detectors/__init__.py",
+        "fmaccel/detectors/accel.py",
+        "fmaccel/detectors/ace.py",
+        "fmaccel/detectors/base.py",
+        "fmaccel/detectors/density.py",
+        "fmaccel/detectors/fiper.py",
+        "fmaccel/detectors/fm_loss.py",
+        "fmaccel/detectors/logpzo.py",
+        "fmaccel/detectors/oracle.py",
+        "fmaccel/detectors/registry.py",
+        "fmaccel/detectors/rnd.py",
+        "fmaccel/detectors/safe.py",
+        "fmaccel/detectors/sparc.py",
+        "fmaccel/detectors/stac.py",
+        "fmaccel/detectors/straightness.py",
+        "fmaccel/eval.py"
+      ]
+    },
+    {
+      "repo": "MAGICS-LAB/flow_kl",
+      "head_status": 200,
+      "revision": "b6f1cbea1d92d4204ddeb00f40744ff02b344b0a",
+      "files": 38,
+      "selected_paths": [
+        "LICENSE",
+        "README.md",
+        "scripts/nolearning_test.py",
+        "tests/__init__.py",
+        "tests/test_eps_curves.py",
+        "tests/test_golden_path.py",
+        "tests/test_learn_pt2.py",
+        "tests/test_pt2.py",
+        "tests/test_rhs.py"
+      ]
+    }
+  ],
+  "scope": "metadata/tree paths only; no implementation/performance reproduction"
+}

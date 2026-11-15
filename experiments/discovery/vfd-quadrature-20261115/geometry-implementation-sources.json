@@ -1,0 +1,42 @@
+{
+  "repo": "rrrrrrzy/fm-geometry",
+  "revision": "1cb8af483f1f018fcbca2a0ded9c374e84c0ea83",
+  "sources": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rrrrrrzy/fm-geometry/1cb8af483f1f018fcbca2a0ded9c374e84c0ea83/README.md",
+      "cache": "data/discovery/vfd-quadrature-20261115/fm-geometry__README.md",
+      "bytes": 7011,
+      "sha256": "bdb99edc9343c7161b0798a9eaec6ccfca1702d646db4ece66d3da5a053fb115"
+    },
+    {
+      "path": "data/README.md",
+      "url": "https://raw.githubusercontent.com/rrrrrrzy/fm-geometry/1cb8af483f1f018fcbca2a0ded9c374e84c0ea83/data/README.md",
+      "cache": "data/discovery/vfd-quadrature-20261115/fm-geometry__data__README.md",
+      "bytes": 952,
+      "sha256": "22dc45dfafe52d31d227a27733972320451c2d2b4b5b45c991bd3237539af178"
+    },
+    {
+      "path": "fmaccel/detectors/accel.py",
+      "url": "https://raw.githubusercontent.com/rrrrrrzy/fm-geometry/1cb8af483f1f018fcbca2a0ded9c374e84c0ea83/fmaccel/detectors/accel.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/fm-geometry__fmaccel__detectors__accel.py",
+      "bytes": 3547,
+      "sha256": "3034350c26e0117dcd392ddfb7d6dad2e7f31cbdd2e6e1b55059f02472e8a8d1"
+    },
+    {
+      "path": "experiments/accel_prefix_probe.py",
+      "url": "https://raw.githubusercontent.com/rrrrrrzy/fm-geometry/1cb8af483f1f018fcbca2a0ded9c374e84c0ea83/experiments/accel_prefix_probe.py",
+      "cache": "data/discovery/vfd-quadrature-20261115/fm-geometry__experiments__accel_prefix_probe.py",
+      "bytes": 6463,
+      "sha256": "89a0ab7eb547e34ab8bb827f8c17a8cba6c634bf84885c76f89b13b85621a544"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/rrrrrrzy/fm-geometry/1cb8af483f1f018fcbca2a0ded9c374e84c0ea83/LICENSE",
+      "cache": "data/discovery/vfd-quadrature-20261115/fm-geometry__LICENSE",
+      "bytes": 11350,
+      "sha256": "b4d40c3c5fb845f484b28dae480e3d07497d1838bab67ee7f4cbb7459ebf4c6b"
+    }
+  ],
+  "scope": "targeted read-only code/README/license; no performance reproduction"
+}

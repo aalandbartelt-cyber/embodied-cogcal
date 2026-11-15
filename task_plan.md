@@ -23,6 +23,13 @@ SAGE/GapONet 和 SimuGuard 进一步限制后接补偿、仿真假失败审计�
 见[全部物理结果与范围](experiments/discovery/so101-retarget-physical-20261114/README.md)。
 最终物体误差6.38–33.34mm，不称精度补偿成果；没有learned policy/真机结果。完整选题仍未完成。
 
+11月15日新线索：[VFD测量边界](experiments/discovery/vfd-quadrature-20261115/README.md)。
+48个精确OT条件中，公开默认评分网格有20个/1062个明确MI次序反转；连续恒等式未被否定。
+传统Gauss–Legendre20点消除这组反转；末端相同的路径误差仍可产生正/发散VFD，
+但同数据两参数拟合充分收敛后分歧约为1e−30或更小。全部正/负对照保留。
+尚无真实VLA/示教选择/转交损害；只保留机制线索，不将求积更换、prefix截断或校准器作为新核心。
+下一步优先核真实ensemble及最近邻可复核资产，避免再次从无任务能力模型解释风险。
+
 ## 当前结论优先入口（2026-11-14 23:00）
 
 完整研究目标仍active；本地5070Ti优先是用户最新决定，A100是后续资源。

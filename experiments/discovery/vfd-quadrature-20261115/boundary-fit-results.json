@@ -1,0 +1,501 @@
+{
+  "kind": "analytic_finite_fit_boundary_probe_not_neural_model_or_robot_failure",
+  "conditions": 6,
+  "rows": [
+    {
+      "epsilon": 0.0,
+      "exact_terminal_pairwise_kl": 0.0,
+      "exact_epistemic_mi": 0.0,
+      "terminal_maps_identical_for_every_noise": true,
+      "population_cfm_excess_mse_per_member": 0.0,
+      "max_ode_finite_difference_error": 1.2926149040026758e-10,
+      "source_default_score": 0.0,
+      "independent_default_formula": 0.0,
+      "discrete": [
+        {
+          "n": 5,
+          "uniform_left": 0.0,
+          "uniform_left_exact_harmonic_sum": 0.0,
+          "gauss_legendre": 0.0
+        },
+        {
+          "n": 10,
+          "uniform_left": 0.0,
+          "uniform_left_exact_harmonic_sum": 0.0,
+          "gauss_legendre": 0.0
+        },
+        {
+          "n": 20,
+          "uniform_left": 0.0,
+          "uniform_left_exact_harmonic_sum": 0.0,
+          "gauss_legendre": 0.0
+        },
+        {
+          "n": 50,
+          "uniform_left": 0.0,
+          "uniform_left_exact_harmonic_sum": 0.0,
+          "gauss_legendre": 0.0
+        },
+        {
+          "n": 100,
+          "uniform_left": 0.0,
+          "uniform_left_exact_harmonic_sum": 0.0,
+          "gauss_legendre": 0.0
+        },
+        {
+          "n": 500,
+          "uniform_left": 0.0,
+          "uniform_left_exact_harmonic_sum": 0.0,
+          "gauss_legendre": 0.0
+        }
+      ],
+      "truncated_integrals": [
+        {
+          "cutoff": 0.9,
+          "closed_form": 0.0,
+          "adaptive_quad": 0.0,
+          "quad_error_estimate": 0.0
+        },
+        {
+          "cutoff": 0.99,
+          "closed_form": 0.0,
+          "adaptive_quad": 0.0,
+          "quad_error_estimate": 0.0
+        },
+        {
+          "cutoff": 0.999,
+          "closed_form": 0.0,
+          "adaptive_quad": 0.0,
+          "quad_error_estimate": 0.0
+        },
+        {
+          "cutoff": 0.9999,
+          "closed_form": 0.0,
+          "adaptive_quad": 0.0,
+          "quad_error_estimate": 0.0
+        },
+        {
+          "cutoff": 0.99999,
+          "closed_form": 0.0,
+          "adaptive_quad": 0.0,
+          "quad_error_estimate": 0.0
+        }
+      ],
+      "continuous_vfd_integral": "zero"
+    },
+    {
+      "epsilon": 1e-06,
+      "exact_terminal_pairwise_kl": 0.0,
+      "exact_epistemic_mi": 0.0,
+      "terminal_maps_identical_for_every_noise": true,
+      "population_cfm_excess_mse_per_member": 8.333333333333334e-14,
+      "max_ode_finite_difference_error": 1.7595946921744599e-10,
+      "source_default_score": 1.2704682538397935e-12,
+      "independent_default_formula": 1.2704682539682537e-12,
+      "discrete": [
+        {
+          "n": 5,
+          "uniform_left": 3.233333333333335e-13,
+          "uniform_left_exact_harmonic_sum": 3.2333333333333323e-13,
+          "gauss_legendre": 2.2333333333333318e-12
+        },
+        {
+          "n": 10,
+          "uniform_left": 7.889682539682541e-13,
+          "uniform_left_exact_harmonic_sum": 7.889682539682539e-13,
+          "gauss_legendre": 3.5246031746031746e-12
+        },
+        {
+          "n": 20,
+          "uniform_left": 1.3627396571436811e-12,
+          "uniform_left_exact_harmonic_sum": 1.3627396571436817e-12,
+          "gauss_legendre": 4.862145980954168e-12
+        },
+        {
+          "n": 50,
+          "uniform_left": 2.2056053383294235e-12,
+          "uniform_left_exact_harmonic_sum": 2.205605338329423e-12,
+          "gauss_legendre": 6.665077343327913e-12
+        },
+        {
+          "n": 100,
+          "uniform_left": 2.8739775176396185e-12,
+          "uniform_left_exact_harmonic_sum": 2.873977517639621e-12,
+          "gauss_legendre": 8.041421701929698e-12
+        },
+        {
+          "n": 500,
+          "uniform_left": 4.463487429990521e-12,
+          "uniform_left_exact_harmonic_sum": 4.4634874299905205e-12,
+          "gauss_legendre": 1.1252313528263118e-11
+        }
+      ],
+      "truncated_integrals": [
+        {
+          "cutoff": 0.9,
+          "closed_form": 4.305850929940458e-13,
+          "adaptive_quad": 4.305850929940461e-13,
+          "quad_error_estimate": 6.536698410493915e-25
+        },
+        {
+          "cutoff": 0.99,
+          "closed_form": 2.32143818598809e-12,
+          "adaptive_quad": 2.3214381859880887e-12,
+          "quad_error_estimate": 2.647617215579552e-26
+        },
+        {
+          "cutoff": 0.999,
+          "closed_form": 4.579417946982136e-12,
+          "adaptive_quad": 4.579417946982173e-12,
+          "quad_error_estimate": 8.731777269026294e-26
+        },
+        {
+          "cutoff": 0.9999,
+          "closed_form": 6.877506998644294e-12,
+          "adaptive_quad": 6.877506998644179e-12,
+          "quad_error_estimate": 2.3023542561637573e-24
+        },
+        {
+          "cutoff": 0.99999,
+          "closed_form": 9.179642131241448e-12,
+          "adaptive_quad": 9.1796421312377e-12,
+          "quad_error_estimate": 7.52772200753638e-23
+        }
+      ],
+      "continuous_vfd_integral": "diverges_to_positive_infinity"
+    },
+    {
+      "epsilon": 0.0001,
+      "exact_terminal_pairwise_kl": 0.0,
+      "exact_epistemic_mi": 0.0,
+      "terminal_maps_identical_for_every_noise": true,
+      "population_cfm_excess_mse_per_member": 8.333333333333334e-10,
+      "max_ode_finite_difference_error": 2.223701223158514e-10,
+      "source_default_score": 1.2704682539694449e-08,
+      "independent_default_formula": 1.2704682539682534e-08,
+      "discrete": [
+        {
+          "n": 5,
+          "uniform_left": 3.233333333333335e-09,
+          "uniform_left_exact_harmonic_sum": 3.2333333333333325e-09,
+          "gauss_legendre": 2.233333333333332e-08
+        },
+        {
+          "n": 10,
+          "uniform_left": 7.889682539682544e-09,
+          "uniform_left_exact_harmonic_sum": 7.889682539682539e-09,
+          "gauss_legendre": 3.524603174603174e-08
+        },
+        {
+          "n": 20,
+          "uniform_left": 1.362739657143681e-08,
+          "uniform_left_exact_harmonic_sum": 1.3627396571436819e-08,
+          "gauss_legendre": 4.8621459809541674e-08
+        },
+        {
+          "n": 50,
+          "uniform_left": 2.2056053383294237e-08,
+          "uniform_left_exact_harmonic_sum": 2.205605338329423e-08,
+          "gauss_legendre": 6.665077343327914e-08
+        },
+        {
+          "n": 100,
+          "uniform_left": 2.873977517639618e-08,
+          "uniform_left_exact_harmonic_sum": 2.8739775176396212e-08,
+          "gauss_legendre": 8.041421701929699e-08
+        },
+        {
+          "n": 500,
+          "uniform_left": 4.463487429990521e-08,
+          "uniform_left_exact_harmonic_sum": 4.4634874299905205e-08,
+          "gauss_legendre": 1.1252313528263117e-07
+        }
+      ],
+      "truncated_integrals": [
+        {
+          "cutoff": 0.9,
+          "closed_form": 4.305850929940458e-09,
+          "adaptive_quad": 4.305850929940461e-09,
+          "quad_error_estimate": 6.536698410493915e-21
+        },
+        {
+          "cutoff": 0.99,
+          "closed_form": 2.32143818598809e-08,
+          "adaptive_quad": 2.3214381859880886e-08,
+          "quad_error_estimate": 2.647617215579552e-22
+        },
+        {
+          "cutoff": 0.999,
+          "closed_form": 4.579417946982137e-08,
+          "adaptive_quad": 4.5794179469821734e-08,
+          "quad_error_estimate": 8.731777269026293e-22
+        },
+        {
+          "cutoff": 0.9999,
+          "closed_form": 6.877506998644294e-08,
+          "adaptive_quad": 6.877506998644179e-08,
+          "quad_error_estimate": 2.302354256163757e-20
+        },
+        {
+          "cutoff": 0.99999,
+          "closed_form": 9.179642131241447e-08,
+          "adaptive_quad": 9.179642131237699e-08,
+          "quad_error_estimate": 7.527722007536381e-19
+        }
+      ],
+      "continuous_vfd_integral": "diverges_to_positive_infinity"
+    },
+    {
+      "epsilon": 0.01,
+      "exact_terminal_pairwise_kl": 0.0,
+      "exact_epistemic_mi": 0.0,
+      "terminal_maps_identical_for_every_noise": true,
+      "population_cfm_excess_mse_per_member": 8.333333333333334e-06,
+      "max_ode_finite_difference_error": 2.1988211251766643e-10,
+      "source_default_score": 0.0001270468253968249,
+      "independent_default_formula": 0.00012704682539682537,
+      "discrete": [
+        {
+          "n": 5,
+          "uniform_left": 3.233333333333335e-05,
+          "uniform_left_exact_harmonic_sum": 3.2333333333333324e-05,
+          "gauss_legendre": 0.0002233333333333332
+        },
+        {
+          "n": 10,
+          "uniform_left": 7.889682539682543e-05,
+          "uniform_left_exact_harmonic_sum": 7.889682539682539e-05,
+          "gauss_legendre": 0.00035246031746031744
+        },
+        {
+          "n": 20,
+          "uniform_left": 0.00013627396571436813,
+          "uniform_left_exact_harmonic_sum": 0.0001362739657143682,
+          "gauss_legendre": 0.0004862145980954168
+        },
+        {
+          "n": 50,
+          "uniform_left": 0.00022056053383294236,
+          "uniform_left_exact_harmonic_sum": 0.0002205605338329423,
+          "gauss_legendre": 0.0006665077343327914
+        },
+        {
+          "n": 100,
+          "uniform_left": 0.00028739775176396185,
+          "uniform_left_exact_harmonic_sum": 0.0002873977517639621,
+          "gauss_legendre": 0.0008041421701929698
+        },
+        {
+          "n": 500,
+          "uniform_left": 0.00044634874299905215,
+          "uniform_left_exact_harmonic_sum": 0.00044634874299905204,
+          "gauss_legendre": 0.0011252313528263118
+        }
+      ],
+      "truncated_integrals": [
+        {
+          "cutoff": 0.9,
+          "closed_form": 4.3058509299404584e-05,
+          "adaptive_quad": 4.305850929940462e-05,
+          "quad_error_estimate": 6.536698410493915e-17
+        },
+        {
+          "cutoff": 0.99,
+          "closed_form": 0.000232143818598809,
+          "adaptive_quad": 0.00023214381859880886,
+          "quad_error_estimate": 2.6476172155795525e-18
+        },
+        {
+          "cutoff": 0.999,
+          "closed_form": 0.00045794179469821366,
+          "adaptive_quad": 0.0004579417946982173,
+          "quad_error_estimate": 8.731777269026293e-18
+        },
+        {
+          "cutoff": 0.9999,
+          "closed_form": 0.0006877506998644294,
+          "adaptive_quad": 0.0006877506998644179,
+          "quad_error_estimate": 2.3023542561637573e-16
+        },
+        {
+          "cutoff": 0.99999,
+          "closed_form": 0.0009179642131241448,
+          "adaptive_quad": 0.00091796421312377,
+          "quad_error_estimate": 7.52772200753638e-15
+        }
+      ],
+      "continuous_vfd_integral": "diverges_to_positive_infinity"
+    },
+    {
+      "epsilon": 0.1,
+      "exact_terminal_pairwise_kl": 0.0,
+      "exact_epistemic_mi": 0.0,
+      "terminal_maps_identical_for_every_noise": true,
+      "population_cfm_excess_mse_per_member": 0.0008333333333333335,
+      "max_ode_finite_difference_error": 2.0105073161857945e-10,
+      "source_default_score": 0.01270468253968253,
+      "independent_default_formula": 0.012704682539682537,
+      "discrete": [
+        {
+          "n": 5,
+          "uniform_left": 0.0032333333333333355,
+          "uniform_left_exact_harmonic_sum": 0.0032333333333333333,
+          "gauss_legendre": 0.022333333333333323
+        },
+        {
+          "n": 10,
+          "uniform_left": 0.007889682539682544,
+          "uniform_left_exact_harmonic_sum": 0.00788968253968254,
+          "gauss_legendre": 0.03524603174603175
+        },
+        {
+          "n": 20,
+          "uniform_left": 0.013627396571436814,
+          "uniform_left_exact_harmonic_sum": 0.013627396571436821,
+          "gauss_legendre": 0.04862145980954169
+        },
+        {
+          "n": 50,
+          "uniform_left": 0.022056053383294243,
+          "uniform_left_exact_harmonic_sum": 0.022056053383294232,
+          "gauss_legendre": 0.06665077343327915
+        },
+        {
+          "n": 100,
+          "uniform_left": 0.02873977517639619,
+          "uniform_left_exact_harmonic_sum": 0.028739775176396216,
+          "gauss_legendre": 0.08041421701929699
+        },
+        {
+          "n": 500,
+          "uniform_left": 0.04463487429990523,
+          "uniform_left_exact_harmonic_sum": 0.04463487429990521,
+          "gauss_legendre": 0.11252313528263119
+        }
+      ],
+      "truncated_integrals": [
+        {
+          "cutoff": 0.9,
+          "closed_form": 0.004305850929940459,
+          "adaptive_quad": 0.004305850929940462,
+          "quad_error_estimate": 6.536698410493916e-15
+        },
+        {
+          "cutoff": 0.99,
+          "closed_form": 0.023214381859880905,
+          "adaptive_quad": 0.02321438185988089,
+          "quad_error_estimate": 2.647617215579553e-16
+        },
+        {
+          "cutoff": 0.999,
+          "closed_form": 0.045794179469821374,
+          "adaptive_quad": 0.04579417946982174,
+          "quad_error_estimate": 8.731777269026295e-16
+        },
+        {
+          "cutoff": 0.9999,
+          "closed_form": 0.06877506998644295,
+          "adaptive_quad": 0.06877506998644181,
+          "quad_error_estimate": 2.3023542561637576e-14
+        },
+        {
+          "cutoff": 0.99999,
+          "closed_form": 0.09179642131241449,
+          "adaptive_quad": 0.09179642131237702,
+          "quad_error_estimate": 7.527722007536382e-13
+        }
+      ],
+      "continuous_vfd_integral": "diverges_to_positive_infinity"
+    },
+    {
+      "epsilon": 1.0,
+      "exact_terminal_pairwise_kl": 0.0,
+      "exact_epistemic_mi": 0.0,
+      "terminal_maps_identical_for_every_noise": true,
+      "population_cfm_excess_mse_per_member": 0.08333333333333333,
+      "max_ode_finite_difference_error": 1.810176453176382e-10,
+      "source_default_score": 1.2704682539682537,
+      "independent_default_formula": 1.2704682539682537,
+      "discrete": [
+        {
+          "n": 5,
+          "uniform_left": 0.3233333333333335,
+          "uniform_left_exact_harmonic_sum": 0.32333333333333325,
+          "gauss_legendre": 2.2333333333333316
+        },
+        {
+          "n": 10,
+          "uniform_left": 0.7889682539682543,
+          "uniform_left_exact_harmonic_sum": 0.7889682539682539,
+          "gauss_legendre": 3.5246031746031745
+        },
+        {
+          "n": 20,
+          "uniform_left": 1.3627396571436812,
+          "uniform_left_exact_harmonic_sum": 1.3627396571436818,
+          "gauss_legendre": 4.862145980954168
+        },
+        {
+          "n": 50,
+          "uniform_left": 2.2056053383294234,
+          "uniform_left_exact_harmonic_sum": 2.205605338329423,
+          "gauss_legendre": 6.665077343327914
+        },
+        {
+          "n": 100,
+          "uniform_left": 2.8739775176396183,
+          "uniform_left_exact_harmonic_sum": 2.873977517639621,
+          "gauss_legendre": 8.041421701929698
+        },
+        {
+          "n": 500,
+          "uniform_left": 4.463487429990521,
+          "uniform_left_exact_harmonic_sum": 4.46348742999052,
+          "gauss_legendre": 11.252313528263116
+        }
+      ],
+      "truncated_integrals": [
+        {
+          "cutoff": 0.9,
+          "closed_form": 0.4305850929940458,
+          "adaptive_quad": 0.4305850929940461,
+          "quad_error_estimate": 6.536698410493915e-13
+        },
+        {
+          "cutoff": 0.99,
+          "closed_form": 2.32143818598809,
+          "adaptive_quad": 2.3214381859880886,
+          "quad_error_estimate": 2.6476172155795522e-14
+        },
+        {
+          "cutoff": 0.999,
+          "closed_form": 4.5794179469821366,
+          "adaptive_quad": 4.579417946982173,
+          "quad_error_estimate": 8.731777269026293e-14
+        },
+        {
+          "cutoff": 0.9999,
+          "closed_form": 6.877506998644294,
+          "adaptive_quad": 6.877506998644179,
+          "quad_error_estimate": 2.302354256163757e-12
+        },
+        {
+          "cutoff": 0.99999,
+          "closed_form": 9.179642131241447,
+          "adaptive_quad": 9.1796421312377,
+          "quad_error_estimate": 7.52772200753638e-11
+        }
+      ],
+      "continuous_vfd_integral": "diverges_to_positive_infinity"
+    }
+  ],
+  "source_files_verified": 11,
+  "source_revision": "bcc2433d2549afee27bf5d0a73ae528375bca686",
+  "source_sha256": "02e84d5cba53b575dcaff47c2f2cdceaec74878867b0ca20e1d9c86188d278b9",
+  "plan_sha256": "06248e6bba31c710aefc5d58225d702e47b3e9d202e3cf9d61f9c3a5fa6f25f2",
+  "limits": [
+    "These perturbed fields do not obey exact population-optimal OT marginals.",
+    "This does not contradict the original continuous theorem under its assumptions.",
+    "No actual trained VLA, empirical risk ranking or robot task tested."
+  ]
+}
