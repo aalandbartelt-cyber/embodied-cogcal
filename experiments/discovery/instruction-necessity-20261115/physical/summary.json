@@ -1,0 +1,300 @@
+{
+  "rows": [
+    {
+      "case": "scan_AB",
+      "order": [
+        "A",
+        "B"
+      ],
+      "controls": 462,
+      "sim_time_s": 15.40000000000733,
+      "clip_vectors": 0,
+      "first_physical_completion_s": {
+        "A": 4.74400000000009,
+        "B": 12.444000000003717
+      },
+      "first_completed_object": "A",
+      "longest_two_finger_lift_s": {
+        "A": 1.241,
+        "B": 1.241
+      },
+      "max_penetration_m": {
+        "A": 6.157476041304021e-05,
+        "B": 0.00011708108567483395
+      },
+      "contact_gate_passed": true,
+      "ever_physical_completion": {
+        "A": true,
+        "B": true
+      },
+      "terminal_held_now": {
+        "A": false,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": true,
+        "B": false
+      },
+      "object_pose_writes_after_reset": 0,
+      "final_qpos": [
+        6.038168247015426e-08,
+        -0.5497792955014459,
+        0.9503578735924869,
+        0.8200434366678296,
+        -3.1694217590650493e-09,
+        0.27999806493628654,
+        0.20555435655097168,
+        -0.06808022430210826,
+        0.013998761340986897,
+        0.9812530070164034,
+        -1.4166308913739405e-17,
+        -2.826587486581442e-17,
+        -0.1927239897399027,
+        0.21094789324424632,
+        0.06541143178680373,
+        0.013998761340986878,
+        0.9993175907669201,
+        7.918747285945278e-13,
+        1.863518175516101e-13,
+        0.03693714639489816
+      ]
+    },
+    {
+      "case": "scan_BA",
+      "order": [
+        "B",
+        "A"
+      ],
+      "controls": 462,
+      "sim_time_s": 15.40000000000733,
+      "clip_vectors": 0,
+      "first_physical_completion_s": {
+        "A": 12.444000000003717,
+        "B": 4.74400000000009
+      },
+      "first_completed_object": "B",
+      "longest_two_finger_lift_s": {
+        "A": 1.241,
+        "B": 1.241
+      },
+      "max_penetration_m": {
+        "A": 6.157575598698939e-05,
+        "B": 0.00011701867899498701
+      },
+      "contact_gate_passed": true,
+      "ever_physical_completion": {
+        "A": true,
+        "B": true
+      },
+      "terminal_held_now": {
+        "A": false,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": false,
+        "B": true
+      },
+      "object_pose_writes_after_reset": 0,
+      "final_qpos": [
+        -8.219228812852297e-08,
+        -0.5497792736676012,
+        0.9503578728730375,
+        0.8200434367211863,
+        -3.972457608024395e-09,
+        0.27999806493851825,
+        0.20555435724449056,
+        -0.06808022452450536,
+        0.013998761340986876,
+        0.9812529932523204,
+        3.524023020683099e-13,
+        7.256232834464108e-13,
+        -0.1927240598196301,
+        0.21094774962758917,
+        0.06541046570179629,
+        0.013998761340986892,
+        0.999318214558368,
+        -4.535010230507567e-17,
+        5.392613720362267e-17,
+        0.03692026614037718
+      ]
+    },
+    {
+      "case": "single_A",
+      "order": [
+        "A"
+      ],
+      "controls": 231,
+      "sim_time_s": 7.699999999998452,
+      "clip_vectors": 0,
+      "first_physical_completion_s": {
+        "A": 4.74400000000009,
+        "B": null
+      },
+      "first_completed_object": "A",
+      "longest_two_finger_lift_s": {
+        "A": 1.241,
+        "B": 0.0
+      },
+      "max_penetration_m": {
+        "A": 6.157476041304021e-05,
+        "B": 0
+      },
+      "contact_gate_passed": true,
+      "ever_physical_completion": {
+        "A": true,
+        "B": false
+      },
+      "terminal_held_now": {
+        "A": false,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": true,
+        "B": false
+      },
+      "object_pose_writes_after_reset": 0,
+      "final_qpos": [
+        -8.219228812180385e-08,
+        -0.5497792736676013,
+        0.9503578728730374,
+        0.8200434367211863,
+        -3.972457608031824e-09,
+        0.27999806493851825,
+        0.20555435655194987,
+        -0.06808022430284681,
+        0.01399876134098688,
+        0.9812529940063753,
+        3.531373158396036e-13,
+        7.257857759536613e-13,
+        -0.19272405598036427,
+        0.199999999997515,
+        0.07499999999652421,
+        0.013998761340986904,
+        0.9999999999999989,
+        3.365681709524348e-17,
+        1.492524250245011e-18,
+        6.208906350382748e-08
+      ]
+    },
+    {
+      "case": "single_B",
+      "order": [
+        "B"
+      ],
+      "controls": 231,
+      "sim_time_s": 7.699999999998452,
+      "clip_vectors": 0,
+      "first_physical_completion_s": {
+        "A": null,
+        "B": 4.74400000000009
+      },
+      "first_completed_object": "B",
+      "longest_two_finger_lift_s": {
+        "A": 0.0,
+        "B": 1.241
+      },
+      "max_penetration_m": {
+        "A": 0,
+        "B": 0.00011701867899498701
+      },
+      "contact_gate_passed": true,
+      "ever_physical_completion": {
+        "A": false,
+        "B": true
+      },
+      "terminal_held_now": {
+        "A": false,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": false,
+        "B": true
+      },
+      "object_pose_writes_after_reset": 0,
+      "final_qpos": [
+        6.039251365026669e-08,
+        -0.5497792955168319,
+        0.9503578735936932,
+        0.8200434366677569,
+        -3.1694130338816846e-09,
+        0.2799980649362847,
+        0.19999999999986456,
+        -0.07500000000415574,
+        0.013998761340986874,
+        0.9999999999999989,
+        1.7436613382130176e-17,
+        -4.242906337368696e-17,
+        6.236178757585741e-08,
+        0.21094774962803992,
+        0.06541046570012714,
+        0.01399876134098688,
+        0.9993182170115781,
+        8.093331890303756e-13,
+        1.8719829882339187e-13,
+        0.0369201997394381
+      ]
+    },
+    {
+      "case": "no_op",
+      "order": [],
+      "controls": 462,
+      "sim_time_s": 15.40000000000733,
+      "clip_vectors": 0,
+      "first_physical_completion_s": {
+        "A": null,
+        "B": null
+      },
+      "first_completed_object": null,
+      "longest_two_finger_lift_s": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "max_penetration_m": {
+        "A": 0,
+        "B": 0
+      },
+      "contact_gate_passed": true,
+      "ever_physical_completion": {
+        "A": false,
+        "B": false
+      },
+      "terminal_held_now": {
+        "A": false,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": false,
+        "B": false
+      },
+      "object_pose_writes_after_reset": 0,
+      "final_qpos": [
+        5.3107136453026294e-14,
+        -0.5497792526311713,
+        0.9503578737806042,
+        0.8200434368086481,
+        -3.568056273888792e-09,
+        0.2799980649406709,
+        0.19999999999986356,
+        -0.07500000000413842,
+        0.013998761340986864,
+        0.9999999999999922,
+        -2.9393334546230756e-18,
+        -3.769263034483705e-18,
+        1.3123085963006073e-07,
+        0.1999999999975145,
+        0.07499999999650778,
+        0.013998761340986871,
+        0.9999999999999922,
+        1.031620489892579e-17,
+        1.6703304507570856e-18,
+        1.309307613642341e-07
+      ]
+    }
+  ],
+  "limits": [
+    "Five fixed deterministic controller cases, not statistical replicates.",
+    "No language input to the schedule, privileged IK sees fixed object positions.",
+    "This MuJoCo scene is not an InstructMove Isaac reproduction or a learned-policy experiment.",
+    "No physical hardware and no novelty or new-method effectiveness established."
+  ]
+}

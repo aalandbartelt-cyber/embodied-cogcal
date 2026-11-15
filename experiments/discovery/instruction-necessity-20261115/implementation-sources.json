@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-15T02:40:25.676502+00:00",
+  "repo": "HorizonRobotics/RoboOrchardSim",
+  "revision": "f2e041e5fabe354c1398ea97c934f603bb65d14d",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/HorizonRobotics/RoboOrchardSim/commits/master",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim-commit.json",
+      "status": 200,
+      "bytes": 5737,
+      "sha256": "d061cb511ad56ccec910767e014a7fde0dbcb3c524be3c749c6478666242b5d6"
+    },
+    {
+      "url": "https://api.github.com/repos/HorizonRobotics/RoboOrchardSim/git/trees/f2e041e5fabe354c1398ea97c934f603bb65d14d?recursive=1",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim-tree.json",
+      "status": 200,
+      "bytes": 211848,
+      "sha256": "ed48f443ca395c26db0bd1aa93cd94aa09e06f9eeb8f438b79cac5337ab501b2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/README.md",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__README.md",
+      "status": 200,
+      "bytes": 6074,
+      "sha256": "40035d23f3aea705324e442a6d14155faa60f834a1cac6aa558ec24611935c1f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/LICENSE",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__LICENSE",
+      "status": 200,
+      "bytes": 11446,
+      "sha256": "0e1c12afd3a8d89512a0fc5e0cc75df9f678447b202bdd794b8af75fc5283a6b"
+    }
+  ]
+}

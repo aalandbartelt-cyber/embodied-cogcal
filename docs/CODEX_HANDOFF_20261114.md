@@ -466,3 +466,20 @@ SciPy1.16.3只以 --no-deps补装到cogcal-sim，NumPy/MuJoCo未改；原source�
 
 当前VFD路径线移出主推荐，停止扩大纯解析构造；下一动作恢复具体任务失效发现。
 不是证明空间不存在，不是因无公开权重就否决科学问题；完整目标active，无候选通过立项门槛。
+
+## 20. 指令必要性测量：组件反例与双物体物理见证
+
+入口：`experiments/discovery/instruction-necessity-20261115/README.md`。上轮7e49b34属于progress。
+当前新线索是静态多候选/唯一语言目标不自动保证完整轨迹评分需要语言；不是重启TPSC/VFD。
+
+- 固定RoboOrchard f2e041e（2026-10-22），原样AST scorer/builder及episode loop，物理checker接受控事实。
+- N=2/3/6正反扫描的原始累计评分全通过；informed-single仅单目标、no-op/reach-only无终态success、dwell边界正常。
+- 原始loop对两目标在24/53步分别停止，同一policy忽略instruction；只改为56步、保留累计评分仍全成功。
+- 另冻结本地MuJoCo物理计划，外部b02b8b2显式新增第二同参数cube，不改原XML。A→B/B→A均实际抬升两对象、每个最长1.241s；single A/B及no-op完整。5条1848命令，0clip，max penetration约.117mm，物体rollout无pose写入。
+- fresh replay全部trace字节一致；audit v2核单目标和相应scan前231步命令/物理状态完全一致。不是随机独立重复或VLA能力通过。
+- 原始ContactChecker含力阈值/法向，本地仅双指接触见证，不混成完整Isaac复现。代码4阶段0.25与论文v1 2阶段0.5不同。
+- 已读InstructMove v1、One Word v2及Inner Monologue/Code as Policies原始终止对照；去oracle、严格首选择/commit均不能当新算法。若允许额外操作，扫描可合法，准确问题是成功率不足以识别语言依赖。
+- Scholar HTTP200实际Verifying挑战页，result cards0，不算成功检索。SciSpace先发现8条metadata后工具被移除，不当全文证据。
+
+保留为下一轮优先深审的测量问题；仍缺完整发布基准同预算攻击、成熟模型判断变化、独立核心增量与同题真机。
+不继续堆纯组件反例替代这些门槛，不把首选择简单修正包装新方法。完整目标active，尚未确定方向。

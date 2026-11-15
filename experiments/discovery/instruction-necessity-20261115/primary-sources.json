@@ -1,0 +1,33 @@
+{
+  "saved_utc": "2026-11-15T02:40:00.840518+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2608.22990v1",
+      "cache": "data/discovery/instruction-necessity-20261115/instructmove-v1.html",
+      "status": 200,
+      "bytes": 361079,
+      "sha256": "a0145cd16d72c56c73939ecf86db12a4a31b1f7a066a8fd460b2e4f525c0614f"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.05260v1",
+      "cache": "data/discovery/instruction-necessity-20261115/oneword-v1.html",
+      "status": 200,
+      "bytes": 151305,
+      "sha256": "49622eea01a97d85df54c6cd569823a954cdaa221fe08c1743c6394d88a5295f"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.12105v1",
+      "cache": "data/discovery/instruction-necessity-20261115/dam-vla-v1.html",
+      "status": 200,
+      "bytes": 301527,
+      "sha256": "d1f26e36c43be677369dd060e0e754753a4f734c4c8c6b555d8d8f36d5fa60e5"
+    },
+    {
+      "url": "https://api.github.com/repos/HorizonRobotics/RoboOrchardSim",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim-meta.json",
+      "status": 200,
+      "bytes": 6870,
+      "sha256": "04506497308c2e34104087604073b51b7cdb01141f247849686f61cac82e569b"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "source_component_and_physical_witness_verification_not_full_benchmark_vla_hardware_or_novelty",
+  "source_hashes_verified": 28,
+  "fetch_errors_preserved": [],
+  "scholar_access": "HTTP200 verification challenge, no result cards",
+  "component_and_loop_fresh_replays_identical": true,
+  "all_five_physics_trace_bytes_replayed_identically": true,
+  "physics_audit_v2_sha256": "482b16d15923ce316de2f6133fd73d5e9edc2c4b0aad7fd7d13046a171a406cb",
+  "static_qpos_writes_in_execute_before_physics_loop_lines": [
+    93,
+    98
+  ],
+  "local_links_checked": 13,
+  "original_four_vfd_results_and_three_tpsc_assets_unchanged": true
+}

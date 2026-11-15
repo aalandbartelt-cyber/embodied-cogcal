@@ -1,0 +1,27 @@
+{
+  "saved_utc": "2026-11-15T06:14:37.504080+00:00",
+  "scope": "Targeted termination passages only; Scholar only if accessible",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2209.07753v4",
+      "cache": "data/discovery/instruction-necessity-20261115/code-as-policies-v4.html",
+      "status": 200,
+      "bytes": 346651,
+      "sha256": "c72fb1d07cd42f5b7e0e812c866f298eafb87252f90e27c2516707871e1233bb"
+    },
+    {
+      "url": "https://sermanet.github.io/papers/huang-corl-22.pdf",
+      "cache": "data/discovery/instruction-necessity-20261115/inner-monologue-author.pdf",
+      "status": 200,
+      "bytes": 1980158,
+      "sha256": "5da51ba02c75ae24fe21e77434c3bd4adbaa9b3dc825ecfc76c6462668e75f68"
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=robot+language+grounding+oracle+termination+benchmark",
+      "cache": "data/discovery/instruction-necessity-20261115/scholar-necessity.html",
+      "status": 200,
+      "bytes": 81592,
+      "sha256": "10aa3f4bb5c100337c37e71e7096f03781e7c743178672a9b96a30c2da0bd176"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "object": "A",
+    "position_error_m": 9.358831441633921e-06,
+    "direction_error_deg": 0.00017605963610519936
+  },
+  {
+    "object": "A",
+    "position_error_m": 9.022307279690595e-06,
+    "direction_error_deg": 0.00023444599452841156
+  },
+  {
+    "object": "A",
+    "position_error_m": 9.702088868123932e-06,
+    "direction_error_deg": 0.00016845107658523866
+  },
+  {
+    "object": "B",
+    "position_error_m": 9.486089958339647e-06,
+    "direction_error_deg": 0.0001781238661517519
+  },
+  {
+    "object": "B",
+    "position_error_m": 9.099784839813664e-06,
+    "direction_error_deg": 0.00023601707311463356
+  },
+  {
+    "object": "B",
+    "position_error_m": 8.04287899165787e-06,
+    "direction_error_deg": 0.0001393849214892913
+  }
+]

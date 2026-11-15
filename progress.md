@@ -238,3 +238,15 @@
 - FlowEval A.2已有事后关节标签重建导致近hold-position的具体失败；SO101 Bench是此前已审资产，本轮命中不当新发现。
 - 当前VFD线移出主推荐、停止扩展纯解析反例，恢复具体任务问题发现。没有确定方向或方法有效性主张；无模型训练/权重下载/上游代码执行。
 - 技术检查首次Ruff仅报新审计程序import顺序，执行前修正后通过；不存在失败后删研究条件的操作。
+
+## 2026-11-15 具体失效发现：评分过程与指令必要性
+
+- 上轮7e49b34为progress；本轮停止追VFD并检索同步观测/语义任务可区分性。DAM-VLA/UMI、InstructMove/One Word直接覆盖宽题，缩到“静态多目标不代表轨迹评分需要语言”。
+- 固定RoboOrchard f2e041e原样AST评分定义及PickTask builder：N=2/3/6正反序共同扫描均让各目标累计success；single/no-op/reach-only/dwell强对照保留。物理checker是显式事实适配器，非Isaac。
+- 原样episode loop组件对双目标各24/53步早停成功；强制同56步但保留累计评分也成功。首完成目标仅匹配其一，这是已知简单对照非新方法。
+- 物理计划冻结后实际执行SO101双cube见证：scan AB/BA各462命令/15.4s，两个single各231/7.7s，no-op462/15.4s。真实双指持物抬升每个1.241s，0clip，max穿透约.117mm，无rollout物体pose写入。
+- 全5条/1848命令保留；fresh physics replay所有命令、JSON及trace字节一致。audit v2另核single与对应scan全部前缀相同，控制率抬升37连续样本；v1保留。无VLA/原Isaac完整基准/真机或独立随机n主张。
+- 初次组件执行因AST遗漏scene_name_of原函数报NameError，输出前失败；查源并加载原helper后恢复，未改源码/删条件。Ruff动态namespace和闭包/import诊断在输出前修正。
+- 查新定向读One Word最新v2、InstructMove v1及Inner Monologue作者PDF/Code as Policies v4原始oracle对照，排除简单去oracle/首选择/commit的新颖性。
+- Scholar实际HTTP200为验证挑战，0结果卡；保留HTML/hash。SciSpace本轮发现8项metadata后被移除，未借其作全文证据。
+- 当前优先深审该测量问题，尚缺对成熟方法判断的实际影响及独立核心增量；完整目标仍active，尚不能确定方向。下一阶段不以增加同类反例替代完整基准与近邻门槛。

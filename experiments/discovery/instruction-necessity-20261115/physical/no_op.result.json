@@ -1,0 +1,56 @@
+{
+  "case": "no_op",
+  "order": [],
+  "controls": 462,
+  "sim_time_s": 15.40000000000733,
+  "clip_vectors": 0,
+  "first_physical_completion_s": {
+    "A": null,
+    "B": null
+  },
+  "first_completed_object": null,
+  "longest_two_finger_lift_s": {
+    "A": 0.0,
+    "B": 0.0
+  },
+  "max_penetration_m": {
+    "A": 0,
+    "B": 0
+  },
+  "contact_gate_passed": true,
+  "ever_physical_completion": {
+    "A": false,
+    "B": false
+  },
+  "terminal_held_now": {
+    "A": false,
+    "B": false
+  },
+  "first_completion_matches": {
+    "A": false,
+    "B": false
+  },
+  "object_pose_writes_after_reset": 0,
+  "final_qpos": [
+    5.3107136453026294e-14,
+    -0.5497792526311713,
+    0.9503578737806042,
+    0.8200434368086481,
+    -3.568056273888792e-09,
+    0.2799980649406709,
+    0.19999999999986356,
+    -0.07500000000413842,
+    0.013998761340986864,
+    0.9999999999999922,
+    -2.9393334546230756e-18,
+    -3.769263034483705e-18,
+    1.3123085963006073e-07,
+    0.1999999999975145,
+    0.07499999999650778,
+    0.013998761340986871,
+    0.9999999999999922,
+    1.031620489892579e-17,
+    1.6703304507570856e-18,
+    1.309307613642341e-07
+  ]
+}

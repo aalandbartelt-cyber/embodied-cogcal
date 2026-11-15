@@ -1,0 +1,9 @@
+{
+  "query": "robot language grounding oracle termination benchmark",
+  "http_status": 200,
+  "result_cards": 0,
+  "html_cache": "data/discovery/instruction-necessity-20261115/scholar-necessity.html",
+  "results": [],
+  "scope": "No result list read. HTTP200 is not successful Scholar search.",
+  "access_outcome": "HTTP200 verification challenge, no scholarly result cards"
+}

@@ -1,0 +1,46 @@
+{
+  "saved_utc": "2026-11-15T02:42:45.983310+00:00",
+  "revision": "f2e041e5fabe354c1398ea97c934f603bb65d14d",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/orchard_env/task_templates/pick_task.py",
+      "repo_path": "robo_orchard_sim/orchard_env/task_templates/pick_task.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__orchard_env__task_templates__pick_task.py",
+      "status": 200,
+      "bytes": 14174,
+      "sha256": "85b0128470f10e6857383caae80658a3cadfaa81246591e91b8c1107cfed7d07"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/examples/manipulation-app/scripts/eval_policy.py",
+      "repo_path": "examples/manipulation-app/scripts/eval_policy.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__examples__manipulation-app__scripts__eval_policy.py",
+      "status": 200,
+      "bytes": 52221,
+      "sha256": "02fa38fea8ff47bf6c51347720af0c43e1f8c4a089c4b6a2a6256c4d5bb251c2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/orchard_env/orchard_env.py",
+      "repo_path": "robo_orchard_sim/orchard_env/orchard_env.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__orchard_env__orchard_env.py",
+      "status": 200,
+      "bytes": 3874,
+      "sha256": "3377a6fa7e9e4452bb2a41a7cfb030c585b33724fe87800142a342977bf3cbed"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/benchmark/manipulation/semantic_pick/configs/pick_category.yaml",
+      "repo_path": "robo_orchard_sim/benchmark/manipulation/semantic_pick/configs/pick_category.yaml",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__benchmark__manipulation__semantic_pick__configs__pick_category.yaml",
+      "status": 200,
+      "bytes": 1711,
+      "sha256": "72620c3161c5d191878281e81afbdfc9c0acfc3f70276b1f4555ea20d470f13e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/role_scope.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/role_scope.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__role_scope.py",
+      "status": 200,
+      "bytes": 3986,
+      "sha256": "7cde7f8c1c9f62de68322a8821467aed38a72c407b353565f7664c5fb7bc4fbf"
+    }
+  ]
+}

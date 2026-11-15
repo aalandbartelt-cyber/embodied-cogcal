@@ -1,0 +1,8 @@
+{
+  "reason": "Added after component adapter NameError, before successful component output",
+  "error": "NameError: scene_name_of is not defined in original MetricStore._validate",
+  "cause": "AST loader omitted an imported source helper; upstream source unchanged",
+  "fix": "Read physical_entity.py and load the original scene_name_of definition; no weakening of validation",
+  "original_probe_plan_sha256": "d15f6154be51039058bbffefca2bf38503f8cc9a57821218a281d39c81fa2c64",
+  "other_preexecution_lint": "Explicit AST namespace bindings/import order and loop closure binding fixed before outputs."
+}

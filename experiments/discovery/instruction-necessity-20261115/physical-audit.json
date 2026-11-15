@@ -1,0 +1,156 @@
+{
+  "kind": "all_record_audit_and_same_code_physics_replay_not_hardware_or_novelty",
+  "cases": [
+    {
+      "case": "scan_AB",
+      "controls": 462,
+      "command_sha256": "7456dfb526c53f371054fd76e6979ef2f4bb671e31caabf5d7d6687f98ed23c6",
+      "trace_sha256": "6ae5141150bfa35cf410a6eedc6aa6fc5f45cfb0a72ee7e00eb17beed329ba1f",
+      "max_lift_above_initial_m": {
+        "A": 0.06942634099891823,
+        "B": 0.06939533694862542
+      },
+      "longest_consecutive_contact_samples_at_30hz": {
+        "A": 37,
+        "B": 37
+      },
+      "samples_both_within_0p2_m": 462,
+      "ever_completed": {
+        "A": true,
+        "B": true
+      },
+      "first_completion_matches": {
+        "A": true,
+        "B": false
+      }
+    },
+    {
+      "case": "scan_BA",
+      "controls": 462,
+      "command_sha256": "a83ace86523a7e7ed49b46677151c485627a558744b669534e9f0598bdec315c",
+      "trace_sha256": "c27b576fcc2c0fe45e111d80a0876c9c7237e4ed0141591b12cd83b205826cdc",
+      "max_lift_above_initial_m": {
+        "A": 0.06942634096763338,
+        "B": 0.06939533693428436
+      },
+      "longest_consecutive_contact_samples_at_30hz": {
+        "A": 37,
+        "B": 37
+      },
+      "samples_both_within_0p2_m": 462,
+      "ever_completed": {
+        "A": true,
+        "B": true
+      },
+      "first_completion_matches": {
+        "A": false,
+        "B": true
+      }
+    },
+    {
+      "case": "single_A",
+      "controls": 231,
+      "command_sha256": "5f0504b861eacff8c3957a098ca30b4fb80740f3d26a99fd19cea4d4b0f4d5fe",
+      "trace_sha256": "6a29bac0cba9400be4f24bd7b2835caa77412bf12490f8258fb1496303614658",
+      "max_lift_above_initial_m": {
+        "A": 0.06942634099891823,
+        "B": 0.0
+      },
+      "longest_consecutive_contact_samples_at_30hz": {
+        "A": 37,
+        "B": 0
+      },
+      "samples_both_within_0p2_m": 231,
+      "ever_completed": {
+        "A": true,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": true,
+        "B": false
+      }
+    },
+    {
+      "case": "single_B",
+      "controls": 231,
+      "command_sha256": "0eb23a62f5dc8983862e627012b70f57a7c7d02641bb790fdfe40f77dece3c1e",
+      "trace_sha256": "56deb1b13a5a41a3bcec113c3867fa4896159c73fa22e8f3d5bd2e1aa626281e",
+      "max_lift_above_initial_m": {
+        "A": 0.0,
+        "B": 0.06939533693428436
+      },
+      "longest_consecutive_contact_samples_at_30hz": {
+        "A": 0,
+        "B": 37
+      },
+      "samples_both_within_0p2_m": 231,
+      "ever_completed": {
+        "A": false,
+        "B": true
+      },
+      "first_completion_matches": {
+        "A": false,
+        "B": true
+      }
+    },
+    {
+      "case": "no_op",
+      "controls": 462,
+      "command_sha256": "c3b2b546031cffd02fe31e054475cbcaeb4cfd8cbb47c3bc151c12f31b99caa0",
+      "trace_sha256": "0005171469850efaa867b799164040316b2ad41b091c92df7deb70717ca02ee0",
+      "max_lift_above_initial_m": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "longest_consecutive_contact_samples_at_30hz": {
+        "A": 0,
+        "B": 0
+      },
+      "samples_both_within_0p2_m": 462,
+      "ever_completed": {
+        "A": false,
+        "B": false
+      },
+      "first_completion_matches": {
+        "A": false,
+        "B": false
+      }
+    }
+  ],
+  "total_controls": 1848,
+  "cases_checked": 5,
+  "fresh_physics_replay_trace_bytes_identical": true,
+  "inventory": {
+    "experiments/discovery/instruction-necessity-20261115/physical/contract.json": "c9194d31b5557a364bb9de8d581c3bcbb2f9408d5a17574aaaeea4d34779c35b",
+    "experiments/discovery/instruction-necessity-20261115/physical/executed-runner.py": "6afa2588449c81cbaf0c1ebe22f5e4dac7f9aecbc22a2c8c570d751dbf9a3f40",
+    "experiments/discovery/instruction-necessity-20261115/physical/no_op.commands.npy": "c3b2b546031cffd02fe31e054475cbcaeb4cfd8cbb47c3bc151c12f31b99caa0",
+    "experiments/discovery/instruction-necessity-20261115/physical/no_op.ik.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "experiments/discovery/instruction-necessity-20261115/physical/no_op.result.json": "774f888a204b55a9d8badc06c0790b0e2fabda794e5f747f5c4c6c4ba2bc2a0f",
+    "experiments/discovery/instruction-necessity-20261115/physical/no_op.trace.jsonl": "0005171469850efaa867b799164040316b2ad41b091c92df7deb70717ca02ee0",
+    "experiments/discovery/instruction-necessity-20261115/physical/plan-before-execution.md": "3e0e043a7259dc049abdee8ed339aa612222d2faa44b50144258b3926fd0b8d5",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_AB.commands.npy": "7456dfb526c53f371054fd76e6979ef2f4bb671e31caabf5d7d6687f98ed23c6",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_AB.ik.json": "b0492d1ce58e5819bb438ad6242c379a04b851ac65aa27cd6f9cc97a7eafddf3",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_AB.result.json": "f67dfa876a31bca166709f746c6f81cc4b2afeba5e78c4933e011f3e67b86a6e",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_AB.trace.jsonl": "6ae5141150bfa35cf410a6eedc6aa6fc5f45cfb0a72ee7e00eb17beed329ba1f",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_BA.commands.npy": "a83ace86523a7e7ed49b46677151c485627a558744b669534e9f0598bdec315c",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_BA.ik.json": "daa026e6c8f3746c1477930ed7db3547900b643bd9201e734b10152e562f52e4",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_BA.result.json": "c3f9898e09a44d73b91392a839983d7e415294800073749b3c88470d8ba7a680",
+    "experiments/discovery/instruction-necessity-20261115/physical/scan_BA.trace.jsonl": "c27b576fcc2c0fe45e111d80a0876c9c7237e4ed0141591b12cd83b205826cdc",
+    "experiments/discovery/instruction-necessity-20261115/physical/scene-override.xml": "999e8f190f4c9536f8a2fa19241433f509082fb7d473a46eb29865cd33ded3f8",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_A.commands.npy": "5f0504b861eacff8c3957a098ca30b4fb80740f3d26a99fd19cea4d4b0f4d5fe",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_A.ik.json": "5269bbe462750fbda237e0bd150ac0018bdba8b40aa3cd4d82e43e458ec78a42",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_A.result.json": "a3b9d5319fa9d9bab61f5270c75abd5555d10d9a45cd98dce7041f147046b757",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_A.trace.jsonl": "6a29bac0cba9400be4f24bd7b2835caa77412bf12490f8258fb1496303614658",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_B.commands.npy": "0eb23a62f5dc8983862e627012b70f57a7c7d02641bb790fdfe40f77dece3c1e",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_B.ik.json": "b2f7f7e59bf28f7a617341aad07fdb6d4a7fd9b938e2bff18631675c026bf461",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_B.result.json": "87c337f4b489da40ea886c6285df0bce9dcf1428ac0a99208835dc620e4f7003",
+    "experiments/discovery/instruction-necessity-20261115/physical/single_B.trace.jsonl": "56deb1b13a5a41a3bcec113c3867fa4896159c73fa22e8f3d5bd2e1aa626281e",
+    "experiments/discovery/instruction-necessity-20261115/physical/summary.json": "fa320e709f09828d5dcd926991020fc4f83608587fbbc7a5e349f6c7372e0adb"
+  },
+  "audit_script_sha256": "2975ab8b891634e459f2af977ee77619d3bbc5ae238098c536ec6e457d8aafe3",
+  "limits": [
+    "Contact durations at physical rate are recorded by the runner; this audit independently checks control-rate contact runs.",
+    "Fresh replay verifies numerical reproducibility, not statistical independence.",
+    "0.2m proximity diagnostic is post-result and not the full Isaac checker."
+  ]
+}

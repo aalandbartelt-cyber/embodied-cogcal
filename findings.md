@@ -175,3 +175,25 @@ IMEP已有事实/同事实/重复/最小扰动对照与delivery、决策/执行�
 - 2608.28010v1 §6.2与A.5已读：用二维反对称旋转场保持整个Gaussian边缘分布不变，但CFM比率非零。该论文目标是CFM/NLL比率，不是直接VFD；它已占据路径无关性失效的一般原理，不可据我们的不同一维构造宣称首次。
 - Bijou确有公开raw weights及本地低显存推理说明，但现有同seed对比多为AR或采样噪声多draw，不等于独立训练flow ensemble；完整许可/任务成功审查仍待后续，不安装其代码。
 - 新的优先资产入口：Advaitic/drishti声称MuJoCo SO101 SmolVLA有带成功/失败标签rollout；SO101 Bench 2610.36420发现。此处仅检索命中，尚未将摘要数字采信为本项目证据。
+
+## 2026-11-15 新问题发现：两条有边界的检索
+
+- 上轮为progress：7e49b34实际审计公开63条/4607步、补核UQ v2并降低VFD优先级。当前新筛同步观测与语言任务可区分性，最多深审两项。
+- 同步宽题已有UMI原始论文RSS2024 p045：按最慢流对齐、q插值/相机软同步、测观测及执行延迟并丢弃过期动作。Koide OAGM2019原稿已有robot-camera重投影时间偏置估计；不能把补时间戳或在线offset校准直接当新核心。此时仅检索命中/摘要范围，待定向阅读。
+- SciSpace新发现InstructMove、One Word Different Action；CAST/CAG/ECT/CounterAlign也命中。当前仅摘要元数据，不用命中数量宣称查新覆盖或通过。任务成功集交叠可能造成语言诊断无区分力的假设尚无本项目新证据。
+
+- 定向已读InstructMove v1 §3.1–3.4/4.3/5：已有多可行候选/唯一语言目标/同场景换指令和阶段分数；普通任务可区分性宽题不能立项。§4.3明确target-specific成功lift可提前结束，generic等运行全时域。拟核一个更窄问题：忽略语言但遍历候选的共同策略能否因目标特定停止而两边得分；尚未读实现，不能认定原基准有此漏洞。
+- 已读One Word v1 §III：固定可执行动作集合，按唯一正确动作/集合/序列严格匹配，不仅比较action差异。它已有稳定/变化配对和排除/数量/顺序约束；不能把严格首选择/多约束配对称新贡献。
+- 已读DAM-VLA v1 §3/5：已有异步modality buffers、q100Hz/视觉25Hz、独立gate、训练统一100Hz标签及执行延迟处理；局限是力尚未chunk内修正、视觉固定timer。宽泛异步或加力修正直接落入既有/直接下一步，停止该宽题。
+
+- 固定RoboOrchard f2e041e（2026-10-22）原样AST定义+显式布尔checker适配器：共同scan正反顺序在N=2/3/6的累计success全通过，固定末时刻当前条件仅末对象通过；no-op/reach-only失败、single各1对象通过，14/15 dwell边界正常。不是Isaac/VLA结果；源码当前4阶段与论文v1 2阶段分开。
+- 接续物理见证执行前另冻结PLAN-physical；同MuJoCo SO101显式新增第二同物理cube，5条固定测试全部保留。正反scan都实际持物抬升两个对象，各最长1.241s，单目标仅相应对象、no-op均无抬升；0限幅，最大穿透约.117mm，无rollout物体pose写入。没有真实VLA或原Isaac复现。
+- 源码普通Evaluator._step_episode见target成功即break，counterfactual固定时域；单纯固定时域保留ever-score不能排除共同scan。此时原始loop组件对照仍待输出。
+- 注意语义边界：若用户/任务本就允许额外操作，依次完成两对象可合法；问题是成功指标不能识别语言必要性，不是无条件错误标注。首目标或显式只选一个/commit规则是既有简单修正，不当新算法。
+
+- 原始Evaluator._step_episode组件已实跑：正反共同序列在两目标绑定都成功，目标first-hit在24/53步分别停止；强制56步但保留累计评分也全成功。此为原样loop+显式假环境，未运行完整Isaac wrapper。
+- 老近邻已检索定位：Inner Monologue CoRL2022已有oracle-vs-fixed termination对照；Code as Policies同类对照。需要细读后限制新颖性，不能把去oracle/固定horizon称新原理。SciSpace本轮先前发现8条，之后工具被移除，不尝试当全文来源。
+
+- 查新补核Inner Monologue作者原稿§4.1、Code as Policies v4附录K：oracle和固定动作数/末状态评价早已对照；去oracle/显式停止不是新方法。新问题若有贡献，只能是多候选静态text-indispensability与整个轨迹验收语言必要性的区别及实际影响；当前尚无跨基准/learned排序影响。
+- Scholar请求HTTP200但标题Verifying...，result cards=0；这是验证拦截，非成功检索或无相关文献。原响应/hash保留，不将HTTP状态当查新覆盖。
+- 物理fresh replay五条轨迹逐字节一致，全部1848个命令；独立控制率接触检查每个实际抓取37连续样本，未抓对象为0。所有trace中的两对象均在TCP .2m内只是事后本场景距离诊断，非原Isaac行为统计。

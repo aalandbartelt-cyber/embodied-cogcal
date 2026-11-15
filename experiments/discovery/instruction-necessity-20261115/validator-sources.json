@@ -1,0 +1,62 @@
+{
+  "saved_utc": "2026-11-15T02:41:56.737707+00:00",
+  "revision": "f2e041e5fabe354c1398ea97c934f603bb65d14d",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/base.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/base.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__base.py",
+      "status": 200,
+      "bytes": 12078,
+      "sha256": "c1c6e9608984dbd8b5a447e89a4a99dd5c7a8cb89c7fc40e22a5f4895168532a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/checkers.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/checkers.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__checkers.py",
+      "status": 200,
+      "bytes": 34234,
+      "sha256": "42d518b3edff960fe0465be718a2334de498b1ba0434abaeb0b9b2f78ee31551"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/counterfactual.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/counterfactual.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__counterfactual.py",
+      "status": 200,
+      "bytes": 11253,
+      "sha256": "c29441a6cd04b836b6ac69621725c7a45c0f5318a32bb933b654427fd6410599"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/metrics.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/metrics.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__metrics.py",
+      "status": 200,
+      "bytes": 29383,
+      "sha256": "2405d5179b97affe2868b5ffae34b391ee9d192db12bd098d2f49f242c12a528"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/contact_binding.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/contact_binding.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__contact_binding.py",
+      "status": 200,
+      "bytes": 6809,
+      "sha256": "e6bc9f9b0c7a44dadad6683b4afb1b32d0c21014727935ac65b301ecad3c1d4f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/tests/python/test_scene_metrics.py",
+      "repo_path": "tests/python/test_scene_metrics.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__tests__python__test_scene_metrics.py",
+      "status": 200,
+      "bytes": 7129,
+      "sha256": "8ab21596de1e415b2443fa0cb0fed6437c2ec1680ef959943b6dfc323d71723c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/tests/python/test_counterfactual_validator.py",
+      "repo_path": "tests/python/test_counterfactual_validator.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__tests__python__test_counterfactual_validator.py",
+      "status": 200,
+      "bytes": 4603,
+      "sha256": "41e39043181db111da131989a91bba10c826e5bd66cddb14a6860564a54f2b40"
+    }
+  ]
+}

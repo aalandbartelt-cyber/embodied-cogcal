@@ -1,0 +1,27 @@
+{
+  "kind": "privileged_scripted_physical_witness_not_vla",
+  "bindings": {
+    "experiments/discovery/instruction-necessity-20261115/physical_witness.py": "6afa2588449c81cbaf0c1ebe22f5e4dac7f9aecbc22a2c8c570d751dbf9a3f40",
+    "experiments/discovery/instruction-necessity-20261115/PLAN-physical.md": "3e0e043a7259dc049abdee8ed339aa612222d2faa44b50144258b3926fd0b8d5",
+    "experiments/discovery/matched_bc/carrier.py": "ca135ddf700cc97828afc07232c11b88e133bf37f9794723c5841dd5dca374da",
+    "data/discovery/so101-manipulation-eval-20261114/assets/so101/sim_replay.xml": "d68b503cd3120456cd22bad710ec775ace7ad395b0daa02402d4ddc4227cae8a"
+  },
+  "external_revision": "b02b8b2e300733dbe76cead4f3a57425c37955fe",
+  "mujoco": "4.0.1",
+  "numpy": "2.5.4",
+  "fps": 30,
+  "physics_timestep_s": 0.0005,
+  "scene_override_sha256": "999e8f190f4c9536f8a2fa19241433f509082fb7d473a46eb29865cd33ded3f8",
+  "initial_xyz_m": {
+    "A": [
+      0.2,
+      -0.075,
+      0.014
+    ],
+    "B": [
+      0.2,
+      0.075,
+      0.014
+    ]
+  }
+}

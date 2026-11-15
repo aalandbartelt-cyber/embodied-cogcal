@@ -1,0 +1,26 @@
+{
+  "saved_utc": "2026-11-15T02:45:47.838908+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2609.05260v2",
+      "cache": "data/discovery/instruction-necessity-20261115/oneword-v2.html",
+      "status": 200,
+      "bytes": 178911,
+      "sha256": "0d12ab9e5ef24b13a0008f0ac757b1c3798510e3abbdfcf90030367ecdcfb826"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/pipeline/evaluator/execution.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__execution.py",
+      "status": 200,
+      "bytes": 5611,
+      "sha256": "33b707be6ed1400aaa5128654150ce45c55bfc0d6978d4511bea9ef0d4b1ce94"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/pipeline/evaluator/batch_evaluation.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__batch_evaluation.py",
+      "status": 200,
+      "bytes": 8642,
+      "sha256": "a203ca900c878fd0758a9e4685ef8a5da6c29d2d42baf73015f94a67df1e51d9"
+    }
+  ]
+}

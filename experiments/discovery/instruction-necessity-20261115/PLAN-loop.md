@@ -1,0 +1,8 @@
+# 执行前冻结：原始episode loop与停止规则
+
+在组件与本地物理见证之后，单独检验目标绑定停止是否允许同一个无语言序列分别成功。
+固定同一源码f2e041e5；原样AST加载Evaluator._step_episode，场景/输入/日志适配器不含物理。
+只测双目标正反顺序；policy只递增固定动作index，不读取instruction或评分。
+原始普通模式应由各目标validator首次成功停止；对照强制固定horizon但保留累计success评分。
+另比较first-completion匹配，它是已有简单规则而非新方法。
+这不是Isaac/VLA rollout；如有环境其他终止条件，本组件适配器不能替代完整wrapper验证。

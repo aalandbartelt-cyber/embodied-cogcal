@@ -1,0 +1,21 @@
+{
+  "saved_utc": "2026-11-15T02:48:44.621339+00:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/task_components/validators/physical_entity.py",
+      "repo_path": "robo_orchard_sim/task_components/validators/physical_entity.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__task_components__validators__physical_entity.py",
+      "bytes": 16123,
+      "sha256": "a6ff2028a318ef5a258e04eab7f7249a1f2f766406351a13c71de4b652cee92d",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/pipeline/evaluator/evaluator.py",
+      "repo_path": "robo_orchard_sim/pipeline/evaluator/evaluator.py",
+      "cache": "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__pipeline__evaluator__evaluator.py",
+      "bytes": 39271,
+      "sha256": "f20e627b946a03ae80d88ca962d720b291abd23de5e2dd96907c68882b1cdc18",
+      "status": 200
+    }
+  ]
+}
