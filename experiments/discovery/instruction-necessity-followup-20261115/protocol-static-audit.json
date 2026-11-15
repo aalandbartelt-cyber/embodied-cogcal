@@ -1,0 +1,54 @@
+{
+  "claim": "static source observations only; no Isaac run or learned-policy inference",
+  "revision": "f2e041e5fabe354c1398ea97c934f603bb65d14d",
+  "source_sha256": {
+    "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__ext__envs__manager_based_env.py": "9bfdd6779431da83e531ec607c9e2a55ebab7ef40b1ec7e1c115f955e6a24cb5",
+    "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__pipeline__evaluator__evaluator.py": "f20e627b946a03ae80d88ca962d720b291abd23de5e2dd96907c68882b1cdc18",
+    "data/discovery/instruction-necessity-20261115/roboorchardsim__examples__manipulation-app__scripts__eval_policy.py": "02fa38fea8ff47bf6c51347720af0c43e1f8c4a089c4b6a2a6256c4d5bb251c2",
+    "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__policy__canonicalizer.py": "e92f26fd6a70955be94f9cb8ddf589baa5d5c10f4ea9296c625611ef84049981",
+    "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__ext__envs__managers__events__pose_reset.py": "c8b82f8603c47855e5ab40bbb8341b11d65eff82900869cb68f0f42cd8429cc9",
+    "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__orchard_env__task_templates__pick_task.py": "85b0128470f10e6857383caae80658a3cadfaa81246591e91b8c1107cfed7d07",
+    "data/discovery/instruction-necessity-20261115/roboorchardsim__robo_orchard_sim__benchmark__manipulation__semantic_pick__configs__pick_category.yaml": "72620c3161c5d191878281e81afbdfc9c0acfc3f70276b1f4555ea20d470f13e"
+  },
+  "environment_return_fields": {
+    "step": {
+      "lines": [
+        118,
+        172
+      ],
+      "terminated": null,
+      "truncated": null
+    },
+    "reset": {
+      "lines": [
+        174,
+        205
+      ],
+      "terminated": null,
+      "truncated": null
+    }
+  },
+  "evaluator_none_done_flag": false,
+  "canonical_policy_fields": [
+    "instruction",
+    "cameras",
+    "manipulators",
+    "action_layout"
+  ],
+  "canonicalizer_reads_raw_object_group": false,
+  "pick_pose_reset_uses_all_asset_names": true,
+  "pose_reset_call_reads_role_bindings": false,
+  "config_defaults": {
+    "evaluator_max_steps": 1000,
+    "script_max_steps": 1000,
+    "selected_pick_step_fps": 30,
+    "default_control_budget_seconds": 33.333333333333336,
+    "scope": "defaults, not the paper experiment settings"
+  },
+  "limits": [
+    "Does not execute scene sampling, Isaac physics, sensors or controller.",
+    "Does not prove absence of arbitrary event exceptions or every config override.",
+    "No cross-engine timing or benchmark-wide success claim.",
+    "No novelty certification or evidence of an algorithmic increment."
+  ]
+}

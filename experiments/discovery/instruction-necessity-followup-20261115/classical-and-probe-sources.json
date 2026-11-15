@@ -1,0 +1,51 @@
+{
+  "saved_utc": "2026-11-15T06:30:53.461879+00:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ripl/ManipulationBenchmarkAudit/a5ad04ab0f26d46680c4d1c24911c728d37f7d16/shortcut_solvability/code/shortcut_policy/models.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit__shortcut_solvability__code__shortcut_policy__models.py",
+      "status": 200,
+      "bytes": 13975,
+      "sha256": "f0b458d8ceb70e3297b5ac929428b0987c6aedf8ea15644216cdcc39069176ce"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ripl/ManipulationBenchmarkAudit/a5ad04ab0f26d46680c4d1c24911c728d37f7d16/shortcut_solvability/code/shortcut_policy/libero.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit__shortcut_solvability__code__shortcut_policy__libero.py",
+      "status": 200,
+      "bytes": 17731,
+      "sha256": "aee12b7ce6453adf9cbe3c9a7d54c985ad39b6459f50280def547587dc756caa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ripl/ManipulationBenchmarkAudit/a5ad04ab0f26d46680c4d1c24911c728d37f7d16/shortcut_solvability/README.md",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit__shortcut_solvability__README.md",
+      "status": 200,
+      "bytes": 9743,
+      "sha256": "7f653bf4795b689aea535c1c6534497aa797b47e9ed8c0ab147deb7f4168ac77"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ripl/ManipulationBenchmarkAudit/a5ad04ab0f26d46680c4d1c24911c728d37f7d16/REPRODUCIBILITY.md",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit__REPRODUCIBILITY.md",
+      "status": 200,
+      "bytes": 7001,
+      "sha256": "a59bcf735fcee11c07f10cfa666dab9563e8857e1cd8a00fed265ea3b8601bf4"
+    },
+    {
+      "url": "https://users.cecs.anu.edu.au/~sgould/papers/cvpr18-vgn.pdf",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1807.06757v1",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/nav-evaluation-v1.pdf",
+      "status": 200,
+      "bytes": 169216,
+      "sha256": "340604b15502d321510d74c2e506963eca31520afbc6d46ff2c00c63702dad79"
+    },
+    {
+      "url": "https://easypapersniper.github.io/projects/blog_post/the_unstoppable_robot/the_unstoppable_robot.html",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/unstoppable-author-blog.html",
+      "status": 200,
+      "bytes": 5134948,
+      "sha256": "732493ede971a0eba10e223bc7cfa8283cdbd4839fd245d412f761a178fe01e7"
+    }
+  ]
+}

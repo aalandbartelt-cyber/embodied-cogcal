@@ -1,0 +1,19 @@
+{
+  "saved_utc": "2026-11-15T06:27:57.373403+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/ripl/ManipulationBenchmarkAudit/branches/main",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit-branch.json",
+      "status": 200,
+      "bytes": 3967,
+      "sha256": "25c7287157208222c3524e37f6155a7c95a01df4d3880f0cf9ef1245dcbd36c7"
+    },
+    {
+      "url": "https://api.github.com/repos/DAGroup-PKU/PyRUA-Lean/git/trees/62eb1ce1a9878512356a41631fba6c340f0a8db6?recursive=1",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/criteria-tree.json",
+      "status": 200,
+      "bytes": 74943,
+      "sha256": "5e56cf028024de64087991c0cbd2a9fa02fe4d0516a853689afcd4075a191e95"
+    }
+  ]
+}

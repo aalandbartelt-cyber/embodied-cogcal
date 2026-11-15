@@ -1,0 +1,47 @@
+{
+  "saved_utc": "2026-11-15T06:27:06.365354+00:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/orchard_env/env_builder/builder.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__orchard_env__env_builder__builder.py",
+      "status": 200,
+      "bytes": 9273,
+      "sha256": "ef157035ebecf9706eb1bef84eaa04de28072d590aac999e2bd3ae196af4d59d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/orchard_env/task_templates/task_base.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__orchard_env__task_templates__task_base.py",
+      "status": 200,
+      "bytes": 10343,
+      "sha256": "bfd2edab8572427d1c997a5cc388efd6f381db46bcc588f01f2cbb5fd53afc61"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/ext/envs/manager_based_env.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__ext__envs__manager_based_env.py",
+      "status": 200,
+      "bytes": 8733,
+      "sha256": "9bfdd6779431da83e531ec607c9e2a55ebab7ef40b1ec7e1c115f955e6a24cb5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/ext/cfg_wrappers/envs/env_cfg.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__ext__cfg_wrappers__envs__env_cfg.py",
+      "status": 200,
+      "bytes": 3071,
+      "sha256": "cb6294d9fca3e10aba3f1ca3696e60a021f0a4b4f671c246945eafed3a35f790"
+    },
+    {
+      "url": "https://api.github.com/repos/ripl/ManipulationBenchmarkAudit",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit-repo.json",
+      "status": 200,
+      "bytes": 6693,
+      "sha256": "6503e013e427ee27a509ae7776ec455b6741460755b2997d8e06446e1908d752"
+    },
+    {
+      "url": "https://api.github.com/repos/DAGroup-PKU/PyRUA-Lean/branches/RSIJudge",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/criteria-branch.json",
+      "status": 200,
+      "bytes": 2148,
+      "sha256": "dc6c223b789b890c9399eef121b5c34fee8ce41e6ee888df1c616765c3014d0e"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "saved_utc": "2026-11-15T06:28:25.608380+00:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/policy/canonicalizer.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__policy__canonicalizer.py",
+      "status": 200,
+      "bytes": 6557,
+      "sha256": "e92f26fd6a70955be94f9cb8ddf589baa5d5c10f4ea9296c625611ef84049981"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/contracts/policy_binding.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__contracts__policy_binding.py",
+      "status": 200,
+      "bytes": 2631,
+      "sha256": "36e3d85e9c0448aa122a9922457e39a846a3b36075e1ed0263f4297e915065c0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HorizonRobotics/RoboOrchardSim/f2e041e5fabe354c1398ea97c934f603bb65d14d/robo_orchard_sim/ext/envs/managers/events/pose_reset.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/robo__robo_orchard_sim__ext__envs__managers__events__pose_reset.py",
+      "status": 200,
+      "bytes": 32073,
+      "sha256": "c8b82f8603c47855e5ab40bbb8341b11d65eff82900869cb68f0f42cd8429cc9"
+    },
+    {
+      "url": "https://api.github.com/repos/ripl/ManipulationBenchmarkAudit/git/trees/a5ad04ab0f26d46680c4d1c24911c728d37f7d16?recursive=1",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit-tree.json",
+      "status": 200,
+      "bytes": 100953,
+      "sha256": "a8b4a399436ab329c82b9a1467ae8bc3f743d73544262b17d3229a53f91dbe3a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ripl/ManipulationBenchmarkAudit/a5ad04ab0f26d46680c4d1c24911c728d37f7d16/README.md",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/audit-readme.md",
+      "status": 200,
+      "bytes": 2622,
+      "sha256": "5f03850c269813d2e63af8ed3fbf55cc761b8ec694f602843b63824f236cf193"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DAGroup-PKU/PyRUA-Lean/62eb1ce1a9878512356a41631fba6c340f0a8db6/README.md",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/criteria-readme.md",
+      "status": 200,
+      "bytes": 14934,
+      "sha256": "bc3c6abb668bc1be4351c498c56d6e3774961c25a47ce46e8313c6779658a3b2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DAGroup-PKU/PyRUA-Lean/62eb1ce1a9878512356a41631fba6c340f0a8db6/faithful_criteria/README.md",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/criteria-faithful-readme.md",
+      "status": 200,
+      "bytes": 25561,
+      "sha256": "4aa7e9e3cfbae4f72a7fada68903be3b2d5eade4373cd51f0205621715f106b3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DAGroup-PKU/PyRUA-Lean/62eb1ce1a9878512356a41631fba6c340f0a8db6/faithful_criteria/dual_table.py",
+      "cache": "data/discovery/instruction-necessity-followup-20261115/criteria-dual.py",
+      "status": 200,
+      "bytes": 5886,
+      "sha256": "26076cff5af1a039a537944a7f1809ee619ad9c7bc2ca2d550b2b5cc1f35b005"
+    }
+  ]
+}

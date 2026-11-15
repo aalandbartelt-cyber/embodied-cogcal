@@ -1,0 +1,28 @@
+{
+  "claim": "verification of research audit assets only; not research objective achieved",
+  "source_hashes_verified": 29,
+  "source_fetch_errors_preserved": [
+    {
+      "url": "https://users.cecs.anu.edu.au/~sgould/papers/cvpr18-vgn.pdf",
+      "error": "The read operation timed out"
+    }
+  ],
+  "fresh_static_audit_identical": true,
+  "ruff_check": "passed",
+  "git_diff_check": "passed",
+  "protected_original_hashes": {
+    "experiments/so101/smolvla-interface-preflight/summary-degree-assumption.json": "48fce62e85353a8dc0c81214bd8c6f8963ca8e5745226c2b40824af85b4b3a81",
+    "experiments/so101/tpsc-pilot/manifest-pilot.jsonl": "2b351ca811adbe9672973cebe17597827b902a1f1be12210ae5030eda2baf883",
+    "experiments/so101/tpsc-pilot/manifest-full.jsonl": "ced15f2b419275c89cff76516e17d2468324512eb7b32e10002a4148f6be39e5",
+    "experiments/discovery/vfd-quadrature-20261115/analytic-results.json": "6637afaa3ca86e8969a090cd107129ed48683740cca574a7205aaa0454406879",
+    "experiments/discovery/vfd-quadrature-20261115/boundary-fit-results.json": "621ebd7df5a24ffae7a3e23a527acbb7910a5f8635b70744a2441e92510e4fec",
+    "experiments/discovery/vfd-quadrature-20261115/finite-data-results.json": "907cdf304542de23aae5eafd271aadf46f7208ed874febf55619f0314126fe59",
+    "experiments/discovery/vfd-quadrature-20261115/same-data-results.json": "4ae2edf49569672ac84a53a1e5c13af374e2be7058883991dce3ae369661193a"
+  },
+  "prior_instruction_assets_match_head_except_README": 50,
+  "local_links_checked": 26,
+  "official_model_worktree_clean": true,
+  "new_physical_rollouts": 0,
+  "new_policy_inferences": 0,
+  "direction_selected": false
+}

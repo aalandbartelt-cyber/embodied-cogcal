@@ -1,5 +1,14 @@
 # 准备阶段事实与边界
 
+## 2026-11-15 当前裁决更新
+
+指令必要性候选从优先深审降为诊断工具，详见
+[独立贡献门槛与源码复核](experiments/discovery/instruction-necessity-followup-20261115/README.md)。
+新增2018 DONE规范、2026 shortcut审计及双judge近邻；不把无语言encoder但读task index混成目标盲。
+RoboOrchard固定源码step返回两个done字段None，默认1000步/指定配置30Hz；这是静态事实，非原论文预算/完整攻击。
+具体反例是否已发表尚未证明，也未验证对成熟VLA结论的影响；不宣布查新不通过或方向完成。
+核心方法增量不足，停止将更多相同扫描、普通commit或Isaac移植当下一主任务。
+
 ## 新目标启动的实际检索（2026-11-14）
 
 - 再次直接访问Scholar：VLA calibration/compensation 与 selective reasoning/uncertainty 两个查询均被工具返回不可访问；未看到Scholar结果列表。

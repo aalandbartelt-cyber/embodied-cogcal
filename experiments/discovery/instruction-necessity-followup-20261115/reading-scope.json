@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-15",
+  "goal": "Determine a feasible, novel research direction; not achieved.",
+  "primary_reading": [
+    {
+      "id": "2606.04233v1",
+      "scope": [
+        "section 3",
+        "appendix A.1",
+        "sections 7-8"
+      ],
+      "latest_abs_history": "v1 only at retrieval",
+      "code_revision": "a5ad04ab0f26d46680c4d1c24911c728d37f7d16",
+      "code_scope": [
+        "shortcut_solvability/code/shortcut_policy/models.py: task embedding and forward",
+        "shortcut_solvability/code/shortcut_policy/libero.py: language-to-index and task_id input",
+        "README.md and REPRODUCIBILITY.md: availability only"
+      ],
+      "not_done": [
+        "policy loading",
+        "training",
+        "inference",
+        "reproducing paper scores"
+      ]
+    },
+    {
+      "id": "2611.08318v1",
+      "scope": [
+        "sections 3.2-3.4",
+        "section 4.2"
+      ],
+      "latest_abs_history": "v1 only at retrieval",
+      "code_revision": "62eb1ce1a9878512356a41631fba6c340f0a8db6",
+      "code_scope": [
+        "faithful_criteria/README.md: principles and dual judging",
+        "faithful_criteria/dual_table.py: dual result table reader",
+        "root README: research assets only"
+      ],
+      "not_done": [
+        "full task overlay audit",
+        "simulation",
+        "reproducing paper scores"
+      ]
+    },
+    {
+      "id": "1807.06757v1",
+      "scope": [
+        "PDF page 3, section 4, recommendation 1"
+      ],
+      "not_done": [
+        "a claim of full paper review",
+        "running navigation agents"
+      ]
+    },
+    {
+      "url": "https://easypapersniper.github.io/projects/blog_post/the_unstoppable_robot/the_unstoppable_robot.html",
+      "scope": [
+        "experiment setup and limitations, through lines 145 of web extraction"
+      ],
+      "role": "primary author report of completion-check experiments only",
+      "not_done": [
+        "model benchmark validation",
+        "API calls",
+        "reproducing offline judging"
+      ]
+    }
+  ],
+  "search_queries": [
+    "robot manipulation evaluation oracle termination language blind policy sweep benchmark",
+    "\"language\" \"benchmark\" \"ever\" \"success\" robot instruction",
+    "\"InstructMove\" \"evaluation\"",
+    "\"robot\" \"language\" \"oracle termination\" benchmark",
+    "\"instruction\" \"benchmark\" \"sweep\" \"robot\" -site:reddit.com",
+    "\"language-independent\" \"robot\" evaluation policy",
+    "\"robot\" \"language grounding\" \"stopping\" benchmark",
+    "\"InstructMove\" \"blind\" OR \"sweep\" OR \"termination\"",
+    "\"robot\" \"instruction\" \"common trajectory\" evaluation",
+    "vision language navigation oracle success rate stopping all locations evaluation Anderson 2018",
+    "\"blind\" \"oracle success\" navigation",
+    "\"On Evaluation of Embodied Navigation Agents\" stop success"
+  ],
+  "failures_and_limits": [
+    "Initial rg on three source paths returned exit 1 (no matches), not an execution error.",
+    "ANU R2R PDF web open initially readable, later web find timed out twice; direct fetch read timeout preserved in manifest. No additional conclusion depends on that PDF.",
+    "1807.06757 HTML contains a PDF placeholder, so section 4 was read from the downloaded PDF.",
+    "No successful Google Scholar result-page retrieval in this follow-up; no exhaustive novelty or absence claim.",
+    "Before first execution, incorrect guessed TaskEntry owner name corrected to TaskCfg after source inspection. Audit first execution passed.",
+    "All simulator and policy evidence in this follow-up is static source inspection; no new physical rollout."
+  ],
+  "decision": {
+    "status": "diagnostic reserve; remove from primary recommendation",
+    "reason": "General shortcut, oracle-stop, and rejudging principles already occupied; no independent increment or mature-policy consequence demonstrated.",
+    "not_claimed": "Not proof that the precise InstructMove component counterexample was previously published."
+  }
+}
