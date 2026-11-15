@@ -1,0 +1,19 @@
+{
+  "saved_utc": "2026-11-15T06:50:33.004207+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/RoboColosseum/robocolosseum-finetune-so101/git/trees/7733d412f45d634c10c297a9e86adcf7085d8162?recursive=1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum-so101-tree.json",
+      "bytes": 327834,
+      "sha256": "df131b91549bd919c73daf6ab5c7627026dd58e6f26100b60c25246bbf8cbbee"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RoboColosseum/robocolosseum-finetune-so101/7733d412f45d634c10c297a9e86adcf7085d8162/README.md",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum-so101-readme.md",
+      "bytes": 16036,
+      "sha256": "0b189a4e7da79677841d9294768a4f2ce0c0a0381e01acfa96fd182d81ef52ad"
+    }
+  ]
+}

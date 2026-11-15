@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-15T06:48:09.398122+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/RoboColosseum/robocolosseum-finetune-so101/branches/main",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum-so101-branch.json",
+      "bytes": 1731,
+      "sha256": "9859aaa5d4f7188b7ea36dc5ab3b4d451559a8e5f1f5b2af0abc72109a19d75c"
+    },
+    {
+      "url": "https://huggingface.co/api/models/RoboColosseum/so101-cube-drawer-pi0.5/revision/003b28426c9d5446ae7a636d5829763b2c89f104",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-pi05-info.json",
+      "bytes": 5191,
+      "sha256": "8c8d0772573b43b5ddbb1cd4609fbb543b21de73b9de50708667174078f44961"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/RoboColosseum/so101-cube-drawer/revision/5d07c27a375fadc57132b76d2c13b3864a438e25",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-data-info.json",
+      "bytes": 26378,
+      "sha256": "f2259246bbe94cd7ae87f28e99fabe7c0bcf9adb10df4685adb394dfb2b516b1"
+    },
+    {
+      "url": "https://huggingface.co/datasets/RoboColosseum/so101-cube-drawer/resolve/5d07c27a375fadc57132b76d2c13b3864a438e25/meta/info.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-data-info-meta.json",
+      "bytes": 3685,
+      "sha256": "9ddd4e6e2fb41641bdeba59be1d954647864154734a933d3be4957a78a813978"
+    },
+    {
+      "url": "https://huggingface.co/RoboColosseum/so101-cube-drawer-pi0.5/resolve/003b28426c9d5446ae7a636d5829763b2c89f104/README.md",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-pi05-readme.md",
+      "bytes": 6171,
+      "sha256": "80629934731194f9f112360535aa707ea2a14167278deeff584396d7c1803eab"
+    }
+  ]
+}

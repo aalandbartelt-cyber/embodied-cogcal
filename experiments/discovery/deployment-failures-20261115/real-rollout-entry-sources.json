@@ -1,0 +1,19 @@
+{
+  "saved_utc": "2026-11-15T11:58:02.491268+00:00",
+  "sources": [
+    {
+      "url": "https://huggingface.co/api/datasets/armnet/armnetbench_v01_lerobot_so101/revision/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-fixed-info.json",
+      "bytes": 43191,
+      "sha256": "420dcd457c50ba7f7e1231128f0e24aa255dc70eea1e658be8732599cd5b38e1"
+    },
+    {
+      "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/meta/info.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-meta-info.json",
+      "bytes": 4878,
+      "sha256": "2bba6714747f578d6d5afe0376e6dd001e59dcdd600f2d70d8cbdd98a74a8cab"
+    }
+  ]
+}

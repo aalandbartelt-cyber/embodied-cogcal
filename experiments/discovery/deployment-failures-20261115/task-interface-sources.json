@@ -1,0 +1,75 @@
+{
+  "saved_utc": "2026-11-15T06:52:10.154817+00:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/RoboColosseum/robocolosseum-finetune-so101/7733d412f45d634c10c297a9e86adcf7085d8162/configs/tasks.tsv",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum__configs__tasks.tsv",
+      "bytes": 497,
+      "sha256": "a277ee773965d40ebd24f4052dfb239e5f2376761fe4742d7c15eef8d2e80c90"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RoboColosseum/robocolosseum-finetune-so101/7733d412f45d634c10c297a9e86adcf7085d8162/docs/baseline_results.md",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum__docs__baseline_results.md",
+      "bytes": 1167,
+      "sha256": "98ceca1f74b0302b6155e0afd1574f97d0efbd0840ad106304fed8b10c59bed3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RoboColosseum/robocolosseum-finetune-so101/7733d412f45d634c10c297a9e86adcf7085d8162/scripts/multi_rollout.py",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum__scripts__multi_rollout.py",
+      "bytes": 16606,
+      "sha256": "0ecd87a5977c36337c340c6327cde24dac2f1a2326f0618071e7f6e8371ac5d7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RoboColosseum/robocolosseum-finetune-so101/7733d412f45d634c10c297a9e86adcf7085d8162/scripts/trial_recording.py",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum__scripts__trial_recording.py",
+      "bytes": 18536,
+      "sha256": "69d28854360f3516ec23c8cfbf6fc23e6281612c6f91f4f9f52211ba0b6bbd19"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RoboColosseum/robocolosseum-finetune-so101/7733d412f45d634c10c297a9e86adcf7085d8162/tools/offline_chunk_eval.py",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum__tools__offline_chunk_eval.py",
+      "bytes": 3735,
+      "sha256": "9c4c5c793b105a60acef5baf48db68929bb2cde74377274b0dac35f9952536bf"
+    },
+    {
+      "url": "https://huggingface.co/RoboColosseum/so101-cube-drawer-pi0.5/resolve/003b28426c9d5446ae7a636d5829763b2c89f104/checkpoints/040000/pretrained_model/config.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-pi05-40k-config.json",
+      "bytes": 2611,
+      "sha256": "28fd3a493a299ab3f9fd3c71ceb5cbdd0cb5c333c79df31f3a8dafda3ea78f53"
+    },
+    {
+      "url": "https://huggingface.co/RoboColosseum/so101-cube-drawer-pi0.5/resolve/003b28426c9d5446ae7a636d5829763b2c89f104/checkpoints/040000/pretrained_model/train_config.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-pi05-40k-train_config.json",
+      "bytes": 7539,
+      "sha256": "02d089ad1d8ee246512c521bc1f28c84579c6b3a2b98c5630a4b9b60b744375b"
+    },
+    {
+      "url": "https://huggingface.co/RoboColosseum/so101-cube-drawer-pi0.5/resolve/003b28426c9d5446ae7a636d5829763b2c89f104/checkpoints/040000/pretrained_model/policy_preprocessor.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-pi05-40k-policy_preprocessor.json",
+      "bytes": 2110,
+      "sha256": "859dab1821c85c8cb640ce796ab1f6db4c3b650bfd0b58001cabd4e3d0d873cb"
+    },
+    {
+      "url": "https://huggingface.co/RoboColosseum/so101-cube-drawer-pi0.5/resolve/003b28426c9d5446ae7a636d5829763b2c89f104/checkpoints/040000/pretrained_model/policy_postprocessor.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-pi05-40k-policy_postprocessor.json",
+      "bytes": 779,
+      "sha256": "70d0bb5836f9b68e1beff1688d0c6e4550f08479f95867e0a669705f2a8853f7"
+    },
+    {
+      "url": "https://huggingface.co/datasets/RoboColosseum/so101-cube-drawer/resolve/5d07c27a375fadc57132b76d2c13b3864a438e25/meta/stats.json",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/cube-drawer-data-stats.json",
+      "bytes": 13043,
+      "sha256": "ab6d286b4abb3d9f70cc13d31099addf74b0f1c84bf0e6ee57539a271830ba7e"
+    }
+  ]
+}

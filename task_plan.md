@@ -49,6 +49,13 @@ SO-101显式双物体场景实际正反扫描均抬升两对象，各1.241秒；
 具体基准问题的价值未被否定，但重启需完整同预算证据改变成熟策略判断及独立贡献。
 继续寻找具体任务失败和针对性新方法；尚无候选通过全部选题门槛，完整目标仍active。
 
+当前接续：[真实SO101失败入口](experiments/discovery/deployment-failures-20261115/README.md)。
+已按事前规则读取同一π0.5套环任务12条、5421行及72张指定顶视图；只有现象，没有因果归因。
+旧SmolVLA两个processor与固定训练数据stats一致，不因外部未验证报告重启微调。
+当前只优先核[配对几何监督是否改变CFM总体最优场](experiments/discovery/deployment-failures-20261115/QUESTION-geometric-supervision.md)：
+GRASP公式提供问题来源，显式penalty/RFM/预条件化为直接近邻；尚无任务损害或独立创新证据。
+不将Armnet的失败当GRASP结果，不先实现修正模块，不扩大无任务后果的解析扫描。
+
 ## 当前结论优先入口（2026-11-14 23:00）
 
 完整研究目标仍active；本地5070Ti优先是用户最新决定，A100是后续资源。

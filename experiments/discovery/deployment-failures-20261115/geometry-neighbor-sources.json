@@ -1,0 +1,33 @@
+{
+  "saved_utc": "2026-11-15T12:14:12.751449+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.23123v1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/grasp-v1.html",
+      "bytes": 191496,
+      "sha256": "9a8d490abba369855060adf7d691b22b2ddb10f39baec288ef8e984b3fdcf9f5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.23123",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/grasp-abs.html",
+      "bytes": 43921,
+      "sha256": "e85829d8619f4307e2bccf069d843c34195a0ee5419ecc5b7ffa094b3b98fef9"
+    },
+    {
+      "url": "https://sequential-dexterity.github.io/assets/images/2023_CoRL_SeqDex.pdf",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/seqdex-author.pdf",
+      "bytes": 9157063,
+      "sha256": "3afa80fc0ce24a8122f4b2668a16d6a1edffafe1597ecfbcd0db0a094d1ddab6"
+    },
+    {
+      "url": "https://motion.cs.illinois.edu/RoboticSystems/AdvancedTopicsInPlanning.html",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/grasp-planning-author.html",
+      "bytes": 5967996,
+      "sha256": "5240c9ab51e2fb83ce48b9071fbd3058b59c64189f09362b13368e8d9e776996"
+    }
+  ]
+}

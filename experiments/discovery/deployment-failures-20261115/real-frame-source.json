@@ -1,0 +1,12 @@
+{
+  "saved_utc": "2026-11-15T12:01:12.051334+00:00",
+  "sources": [
+    {
+      "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/data/chunk-000/file-011.parquet",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-data-chunk000-file011.parquet",
+      "bytes": 361776,
+      "sha256": "3e3065c1fc7b8f175ca54aeca6406e494aa777b85e5e32d4fce50a8e4e9156f4"
+    }
+  ]
+}

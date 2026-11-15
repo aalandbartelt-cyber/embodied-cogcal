@@ -15,6 +15,14 @@
 “提高执行精度破坏阶段线索”只是未实测的问题，未立项；一般补偿与仿真假失败审计已有直接近邻。
 **目前没有通过选题门槛的主方法，完整目标 active。**
 
+当前新增[真实失败检查与下一问题](../experiments/discovery/deployment-failures-20261115/README.md)：
+固定同一π0.5/SO101套环任务，事前取6成功/6失败，实际核对5421行和72张指定顶视图；
+看到了正确套环与环移到另一侧凹槽的可见差异，尚不能归因于机械/感知/决策。
+旧20k SmolVLA的pre/post stats与固定数据一致；不因外部issue猜测就换stats或重训。
+下一项优先科学核查是[配对几何监督与CFM条件均值](../experiments/discovery/deployment-failures-20261115/QUESTION-geometric-supervision.md)，
+独立来自GRASP公式，**不是上述真实失败的已知原因或已通过查新的新方向**。
+普通FK损失、预条件化与约束penalty已有近邻；先核数学对象与零效应对照，再谈任务后果和方法。
+
 位姿重定向线已实际完成15条物理回放：两种普通IK各4/4，本工作区没有任务损害，停止当前核心。
 新检查的[flow分歧测量机制](../experiments/discovery/vfd-quadrature-20261115/README.md)
 有48条件的有限网格排序反转、末端相同路径误差的解析边界以及有限数据/同数据优化对照。

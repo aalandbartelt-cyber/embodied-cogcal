@@ -1,0 +1,54 @@
+{
+  "saved_utc": "2026-11-15T06:45:59.789963+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/orgs/RoboColosseum/repos?per_page=100",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum-github-repos.json",
+      "bytes": 42516,
+      "sha256": "9bb8ba4b6a62bd54a44d9900f99cae5ff93a9c967443b8a23598ce4e5badaecb"
+    },
+    {
+      "url": "https://huggingface.co/api/models?author=RoboColosseum&limit=100&full=true",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum-hf-models.json",
+      "bytes": 188717,
+      "sha256": "9c604f76b9581599844a41a60961858150c38f7d22817d652f0e5ceac2c84147"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets?author=RoboColosseum&limit=100&full=true",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/colosseum-hf-datasets.json",
+      "bytes": 20191,
+      "sha256": "2580e67e5af6654eabafcfcc4837abdf9eb23da6b1f33ee93f8f53762e3cafc0"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.30092v1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/self-adaptive-v1.html",
+      "bytes": 181585,
+      "sha256": "856659ffd22e3c1f9149e36197df92c58a6cb0e756963690845d6a2b189741d4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30092",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/self-adaptive-abs.html",
+      "bytes": 43018,
+      "sha256": "4e036cea2c67c120b19f95c370a55a0666f41fb173380a25d36258b414cb55a6"
+    },
+    {
+      "url": "https://sohyun-l.github.io/SelfCompensatingVLA_project_page/",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/selfcomp-project.html",
+      "bytes": 65109,
+      "sha256": "d68aa438cc1366f2cb49314109281f30a0303865dfaa73d3917bef25ee2e8994"
+    },
+    {
+      "url": "https://api.github.com/repos/huggingface/lerobot/pulls/5091/files?per_page=100",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/pr5091-files.json",
+      "bytes": 5569,
+      "sha256": "f87ee417dd2c89dfa5fdbe23f4818c474b2f39e9b548d8239e9d552b4970242a"
+    }
+  ]
+}

@@ -1,5 +1,24 @@
 # A100 前准备进度
 
+## 2026-11-15 真实失败检查与配对几何监督问题入口
+
+- 上轮ed2f5b3属于实际progress，改变了主推荐排序。本轮保留完整研究目标，不恢复已降级扫描/VFD或旧BC微调。
+- 只读旧20k SmolVLA：原checkpoint 7文件SHA通过，pre/post action/state mean/std共8组与数据float32一致；
+  20episode/600query/30000完整chunk行/6000命令的幅度复算保留，不能据此识别0/20原因。
+- 新核Warp最新v4的强随机residual对照、Self-Adaptive VLA原文与RoboColosseum固定SO101代码/模型/数据入口。
+  原数据镜像未证明等于训练源；作者要求24GB GPU，未安装/推理或声称本地12GB载体已就绪。
+- 固定Armnet revision，先冻结同checkpoint/ring_insert前6成功+6失败（225–236）；实际核5421行和固定1/3秒前缀。
+  下载top视频110353625 bytes，SHA与LFS一致；按PTS提取72张固定图并看完3页。
+  可见正确套环与另一侧凹槽放置差异，接触/位姿/错误原因仍不明，不能把日志差写成机械误差原因。
+- GRASP §III-A提供新的待证伪问题：配对非线性FK监督与CFM条件均值；显式penalty、RFM、预条件化为直接近邻。
+  没有GRASP模型结果，Armnet π0.5也不声称使用该损失。当前只核数学对象，不先造新算法或宣布创新。
+- 首次视频提取因relative/absolute路径混用中止，partial保留；定位后只改路径解析，在新v2目录成功。
+  无ffmpeg CLI，使用已安装PyAV；没有新增包、训练或策略rollout。
+- 原始结果、source hashes、接续问题与范围在
+  [本轮记录](experiments/discovery/deployment-failures-20261115/README.md)。完整选题仍active，尚无最终方向。
+- 验证：49份来源SHA、3份数值/选择审计全新输出逐字节相同、72张帧/3图新目录重放hash一致；
+  98份旧tracked资产与HEAD字节不变，指定TPSC SHA、Ruff、diff检查通过。重放不增加n或证明新颖性。
+
 ## 2026-11-15 指令必要性候选进一步裁决
 
 - 新核2018导航DONE规范、2026 shortcut审计与双judge研究的一手限定章节和固定代码入口。

@@ -1,0 +1,9 @@
+{
+  "kind": "first extraction aborted before manifest",
+  "script_sha256": "b777315290ac1b4be5e9e63334ab9516491d11bccae0023dea10603de801893f",
+  "exception": "ValueError: relative output path cannot be relative_to absolute ROOT",
+  "cause": "CLI --out was not resolved before global relative path serialization",
+  "partial_output": "data/discovery/deployment-failures-20261115/visual-review/ep225-0.png",
+  "retained": true,
+  "repair": "Resolve output path once; rerun in a new output directory. No data/source/timestamps change."
+}

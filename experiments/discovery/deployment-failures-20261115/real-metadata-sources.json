@@ -1,0 +1,26 @@
+{
+  "saved_utc": "2026-11-15T11:59:24.348138+00:00",
+  "sources": [
+    {
+      "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/meta/episodes/chunk-000/file-000.parquet",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-episodes.parquet",
+      "bytes": 3865933,
+      "sha256": "13500b8e45ec14536dfb2a4bbe29f1be70de7bae521db094c498bb6bcd710b45"
+    },
+    {
+      "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/meta/tasks.parquet",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-tasks.parquet",
+      "bytes": 2534,
+      "sha256": "8c9c3638070217c2181bf47ff93fda69722c7386a75eb83465ba8280c93a752f"
+    },
+    {
+      "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/README.md",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-readme.md",
+      "bytes": 13006,
+      "sha256": "783c2d3adb2e9b58a242979cb46bb25944663c919a90a0c5aea5ef26748931e9"
+    }
+  ]
+}

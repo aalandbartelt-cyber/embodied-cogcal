@@ -1,0 +1,12 @@
+{
+  "saved_utc": "2026-11-15T12:22:39.157377+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2603.02337v5",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/preconditioned-fm-v5.html",
+      "bytes": 1020110,
+      "sha256": "c1d7b84196d532a36ffbeb4f19cc1c35f433cfd18912dcd395dc49e31563f500"
+    }
+  ]
+}

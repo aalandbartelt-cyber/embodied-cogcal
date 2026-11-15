@@ -1,0 +1,14 @@
+{
+  "saved_utc": "2026-11-15T12:05:15.344787+00:00",
+  "sources": [
+    {
+      "url": "https://huggingface.co/datasets/armnet/armnetbench_v01_lerobot_so101/resolve/1db69c82b589c7172ee31a6b8f7ef58d1fc2c663/videos/observation.images.top/chunk-000/file-014.mp4",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/armnet-top-file014.mp4",
+      "bytes": 110353625,
+      "sha256": "13b2e1bd78f4618f8ff285e8cb806fd4219c5a2352e63ef4f04ff8b85baa19c3",
+      "lfs_sha256_matches": true,
+      "elapsed_s": 16.6816482610011
+    }
+  ]
+}

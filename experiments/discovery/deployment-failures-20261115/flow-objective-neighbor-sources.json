@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-15T12:17:56.345333+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.15689v1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/penalty-fm-v1.html",
+      "bytes": 859906,
+      "sha256": "0e1d75b1a82d96f740252da986420eeff9680cea93209427ff890479b1a97ed9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15689",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/penalty-fm-abs.html",
+      "bytes": 41329,
+      "sha256": "4c4b6582de84fb6dae99815ba7f57e09c19a80edd6b04386bde0d14794ec18a3"
+    },
+    {
+      "url": "https://arxiv.org/html/2210.02747v2",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/flow-matching-original-v2.html",
+      "bytes": 580568,
+      "sha256": "8a4f27444cfb13dc823a51e3334c971e039218aef08a011f816da4d8c90b378f"
+    },
+    {
+      "url": "https://arxiv.org/html/2603.02337v1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/preconditioned-fm-v1.html",
+      "bytes": 554467,
+      "sha256": "7692fc124e578f6a7f9030f9f0e38ac50fb65dabd667cd43d91d1b47c80e5575"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.02337",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/preconditioned-fm-abs.html",
+      "bytes": 44147,
+      "sha256": "3b3ec78ab748c99d297eed62eee927470df90f5ec6f8544ee5fe3f9e4733c06b"
+    }
+  ]
+}

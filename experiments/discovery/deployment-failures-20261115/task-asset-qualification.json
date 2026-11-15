@@ -1,0 +1,96 @@
+{
+  "kind": "published task asset qualification, not an executable local carrier",
+  "code_revision": "7733d412f45d634c10c297a9e86adcf7085d8162",
+  "tree_entries": 1133,
+  "tree_truncated": false,
+  "models_api_returned": 100,
+  "api_model_listing_limit": 100,
+  "so101_model_entries_in_returned_page": 25,
+  "model_repo": "RoboColosseum/so101-cube-drawer-pi0.5",
+  "model_revision": "003b28426c9d5446ae7a636d5829763b2c89f104",
+  "checkpoint_subpath": "checkpoints/040000/pretrained_model",
+  "checkpoint_step_basis": "author baseline_results states 040000; not selected using our performance",
+  "model_config": {
+    "type": "pi05",
+    "chunk_size": 32,
+    "n_action_steps": 32,
+    "normalization_mapping": {
+      "ACTION": "QUANTILES",
+      "STATE": "QUANTILES",
+      "VISUAL": "IDENTITY"
+    },
+    "use_relative_actions": false,
+    "input_features": {
+      "observation.state": {
+        "type": "STATE",
+        "shape": [
+          6
+        ]
+      },
+      "observation.images.front": {
+        "type": "VISUAL",
+        "shape": [
+          3,
+          480,
+          640
+        ]
+      },
+      "observation.images.wrist": {
+        "type": "VISUAL",
+        "shape": [
+          3,
+          480,
+          640
+        ]
+      },
+      "observation.images.empty_camera_0": {
+        "type": "VISUAL",
+        "shape": [
+          3,
+          224,
+          224
+        ]
+      }
+    },
+    "output_features": {
+      "action": {
+        "type": "ACTION",
+        "shape": [
+          6
+        ]
+      }
+    },
+    "action_feature_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ]
+  },
+  "dataset_repo": "RoboColosseum/so101-cube-drawer",
+  "dataset_revision": "5d07c27a375fadc57132b76d2c13b3864a438e25",
+  "dataset_metadata": {
+    "robot_type": "so_follower",
+    "total_episodes": 100,
+    "total_frames": 38687,
+    "fps": 30
+  },
+  "actual_training_config_dataset_repo": "Jiamo0912/so101-cube-drawer",
+  "actual_training_config_dataset_revision": null,
+  "mirror_training_data_equality_verified": false,
+  "declared_repository_minimum_gpu_GB": 24,
+  "our_gpu_memory_requirement_measured": false,
+  "native_mujoco_scene_qualified": false,
+  "hardware_calibration_qualified": false,
+  "raw_arm_units_independently_qualified": false,
+  "weights_downloaded_or_inferred": false,
+  "root_license_file_found_in_tree": false,
+  "license_scope": "metadata and author text only; no new implementation reuse",
+  "important_limits": [
+    "so_follower metadata alone does not establish SO101 same-body identity.",
+    "Paper/source mean stage scores are not binary success rates.",
+    "Repository VRAM requirement is author-declared; no local/A100 measurement."
+  ]
+}

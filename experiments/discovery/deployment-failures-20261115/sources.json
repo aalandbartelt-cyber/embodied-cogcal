@@ -1,0 +1,54 @@
+{
+  "saved_utc": "2026-11-15T06:40:17.962908+00:00",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2606.31043v4",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/warp-v4.html",
+      "bytes": 190439,
+      "sha256": "779a11d5d31f6dfc53637e5bc8cd7d715b118ba9e33e52df2b51a058ebfb6ed1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.31043",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/warp-abs.html",
+      "bytes": 42145,
+      "sha256": "40ccbc4fc890cdbd1f5412500e60dec1396b47269d83c3d857eb30fa8111b14a"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.02497v1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/robocolosseum-v1.html",
+      "bytes": 993820,
+      "sha256": "16e05534e107b57c70fc277e9259ad7ea1a1a76122d26c328a250bb7d6d15f0b"
+    },
+    {
+      "url": "https://api.github.com/repos/huggingface/lerobot/issues/5082",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/issue5082.json",
+      "bytes": 7954,
+      "sha256": "7011132093d22a4a7222c944cef35dda1f907c5c2124d668b9cf2f8fd551f692"
+    },
+    {
+      "url": "https://api.github.com/repos/huggingface/lerobot/issues/5082/comments?per_page=100",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/issue5082-comments.json",
+      "bytes": 13647,
+      "sha256": "f23f288016fc44b98d0d56953f9d7ebe479e2066f497f2992aac228c4f9f65b4"
+    },
+    {
+      "url": "https://api.github.com/repos/huggingface/lerobot/pulls/5091",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/pr5091.json",
+      "bytes": 19681,
+      "sha256": "562d63fd48e5bd1f73d5e06b3cf883673b3ea3c5492183bd5c781d697bc26237"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.21358v1",
+      "status": 200,
+      "cache": "data/discovery/deployment-failures-20261115/fan-v1.html",
+      "bytes": 186152,
+      "sha256": "7e538d40bad3bc7cc54e5f4872de12a561b8881a8f07652b6b6173eef05d977f"
+    }
+  ]
+}

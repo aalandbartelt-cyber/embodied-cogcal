@@ -1,0 +1,41 @@
+{
+  "scope": "All 3 fixed contact sheets (72 samples) inspected, top view only; not continuous-video review or independent outcome relabelling.",
+  "source_manifest": "visual-samples-manifest.json",
+  "observations": [
+    {
+      "episode": 225,
+      "operator_label": "successful",
+      "visible": "At the last saved frame (21.25s), the yellow ring appears around the central peg and the arm is withdrawn.",
+      "not_established": [
+        "metric insertion depth",
+        "contact force",
+        "6D object pose"
+      ]
+    },
+    {
+      "episode": 233,
+      "operator_label": "failure",
+      "visible": "At 0s the yellow ring is in a left-side recess; at 9s and the last frame (28.55s) it appears in a right-side recess rather than around the central peg.",
+      "not_established": [
+        "precise grasp/lift/release timing",
+        "whether slip or wrong targeting caused the displacement",
+        "actuator tracking accuracy during placement"
+      ]
+    },
+    {
+      "episode": 226,
+      "operator_label": "failure",
+      "visible": "The yellow ring remains visible near the left-side recess in the 6s, 9s and last sampled views.",
+      "not_established": [
+        "continuous absence of any lift",
+        "gripper contact state",
+        "root cause of failure"
+      ]
+    }
+  ],
+  "all_other_episodes": "Sheets viewed, but no fine-grained stage verdict is asserted from sparse/occluded frames.",
+  "causal_conclusion": "No causal mechanism identified. Early joint gaps and later object locations cannot be joined into a tracking-error explanation.",
+  "next_decisive_evidence": "For any grasp-frame or decision-vs-execution hypothesis, inspect another synchronized view or object truth, then test a matched intervention against ordinary geometric servo/tool-frame correction. No new algorithm justified yet.",
+  "sampling_bias": "Outcome labels were visible; last frames follow outcome-dependent author trimming. No blinded adjudication or prevalence estimate.",
+  "created_utc": "2026-11-15T12:13:02.920243+00:00"
+}
