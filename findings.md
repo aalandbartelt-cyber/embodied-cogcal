@@ -347,3 +347,11 @@ IMEP已有事实/同事实/重复/最小扰动对照与delivery、决策/执行�
   "覆盖重要"这一结论）；State-free 已研究去本体输入。新增"条数假说"对照（P6）。
 - 查新未通过：Scholar 仍为验证拦截，arXiv 官方 API 返回 429/超时；本方向只
   能称"唯一保留候选"，不能称查新通过。
+
+## 2026-11-17 查新执行记录：部分通过，主张必须收缩
+
+- 可用通道（OpenAlex、GitHub）完成短语级与标题级排除：`"demonstration support"` 260 命中、`"input remapping"` 9 命中，均无机器人学习的对应义；`"insufficient adjustment" + robot` 99 命中全为手术/康复/设计固化，Kahneman 式偏差进机器人学习的通道基本空着。
+- 机制级近邻已占位：推理期输入适应有四篇 2024–2026 工作（UMI-on-Air、Agentic Test-Time Control、Single-Demo Visual Domain Adaptation、Gated Memory Policy）。**不能**把"输入侧适应"当新颖点。
+- 站得住的只剩变量级差异：固定示教条数下改变空间支撑宽度、测 $g(\delta)$ 曲线、由曲线直接算补偿。三条需同时成立。
+- 失效通道：Semantic Scholar 429（两次）、arXiv API 超时+跨域重定向被拒、Scholar 重定向到 google.com。均记为渠道失败，不是覆盖证据。
+- 判定：**部分通过**，见 [docs/report/NOVELTY_STATUS_20261117.md](docs/report/NOVELTY_STATUS_20261117.md)。

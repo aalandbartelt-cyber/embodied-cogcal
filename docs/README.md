@@ -20,6 +20,7 @@
 4. [研究准备度与剩余工作](RESEARCH_READINESS.md)、[新问题搜索](NEXT_PROBLEM_SEARCH_20261116.md)。
 5. [换任务决策矩阵](../experiments/discovery/task-change-20261116/DECISION_MATRIX.md)：
    已填并 no-go，只用于筛选，不是训练计划。
+6. [查新执行记录与新颖性判定](report/NOVELTY_STATUS_20261117.md)：三通道失效、短语级排除、机制近邻占位，判定为部分通过。
 6. [定位增益支撑边界与近邻核验](report/DIRECTION_ANCHOR_AUDIT_20261116.md)：2611.17658 核验、P1–P6 与最小实验；唯一保留候选，未查新通过。
 6. [研究现状/文献库](literature/README.md)、[导师汇报提纲](report/PROGRESS_REPORT.md)、
    [论文相关工作准备稿](paper/RELATED_WORK_DRAFT.md)。
