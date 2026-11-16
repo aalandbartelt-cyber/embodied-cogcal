@@ -1,14 +1,17 @@
 # 方向 A：姿态锚定、二维容差包络与取向补偿
 
-日期：2026-11-18 · 状态：**draft，未预注册，未开跑**
+日期：2026-11-18 · 状态：**查新预检通过（有条件）；E4 已执行，E3/E5′ 未开跑**
+查新预检：[NOVELTY.md](NOVELTY.md)（检索日志、近邻矩阵、主张逐条裁决、给查新机构的检索式）
 上位决策：用户 2026-11-18 选定方向 A（依据 E2 否定单一 δ 预算、E1′ ΔAUC 不胜 |δ|）。
-证据基座：[E2 RESULTS](../experiments/discovery/e2-size-tolerance-20261118/RESULTS.md)、
-[ANCHOR_PROBE](../experiments/discovery/e2-size-tolerance-20261118/ANCHOR_PROBE.md)、
-[E1P_RESULT](../experiments/discovery/e1-delta-mechanism-20261117/E1P_RESULT.md)。
+证据基座：[E2 RESULTS](../../experiments/discovery/e2-size-tolerance-20261118/RESULTS.md)、
+[ANCHOR_PROBE](../../experiments/discovery/e2-size-tolerance-20261118/ANCHOR_PROBE.md)、
+[E1P_RESULT](../../experiments/discovery/e1-delta-mechanism-20261117/E1P_RESULT.md)。
 
 > 术语避碰：`DIRECTION_ANCHOR_AUDIT_20261116.md` 的"锚定"指**位置**读数锚（proprioceptive
 > anchor）。本方向指**姿态**锚定（pose anchoring），是同一"输入适应增益"框架的另一根轴，
 > 两者不冲突、可合并叙述：**平移增益 g≈1（支撑内）/0.19（支撑外），旋转增益 α≈0.004。**
+> 命名避碰（2026-11-18 起）：论文写作中旋转增益记作 **γ_rot**，不再用 α——α 已被
+> 2611.17658 用作噪声-读数增益比；本文件保留 α 以与 [ANCHOR_PROBE](../../experiments/discovery/e2-size-tolerance-20261118/ANCHOR_PROBE.md) 的历史记号一致。
 
 ## 0. 结论
 
@@ -39,29 +42,49 @@
 - **P5**：补偿后残余失败集中在"放置段"而非"闭合段"——阶段分解可预测失败转移。
 - **P6**：把 α 作为协变量加入 δ 的失败预测，AUC 提升（对照 E1′ 的 ΔAUC 不胜 |δ| 的负结果）。
 
-## 3. 近邻与差异（**查新未完成，以下为待核清单**）
+## 3. 近邻与差异（查新预检完成，2026-11-18）
 
-已知占位（方法侧，拥挤，勿碰）：
-- SO(2)/SO(3) 等变策略与等变扩散头（Equivariant Diffusion Policy；EquiVLA 一类）。
-- 测试期规范化 wrapper / learned canonicalization（SAVLA 一类：先把输入映射到规范系，
-  输出再映射回去）。**这就是候选 (a) 的通用版本，不能作为方法新颖点。**
-- 示教位姿随机化/旋转增广是常识（"10 common mistakes" 类教程即列出）。
+完整矩阵、检索日志、逐条裁决与检索式见 [NOVELTY.md](NOVELTY.md)。要点：
 
-可能仍空的位置（诊断侧，需正式查新确认）：
-- 用**响应增益 α**（而非成功率）量化策略对物体朝向的"没反应"，并与位置增益对照；
-- **二维 (δ,θ) 容差包络 + 阶段分解**作为评测协议（而非单一成功率曲线）；
-- 由 α 与包络直接算补偿量的"测量→干预"闭环（若 E5′ 成立）。
+**已被占（只能引用，不能当贡献）**
+- "本体锚 + 可靠性加权 + 闭环放大"：[Malili 2026, arXiv 2611.17658](https://arxiv.org/abs/2611.17658)；
+  "本体状态捷径 → 空间泛化差"：[Zhao 2025, arXiv 2509.18644](https://arxiv.org/abs/2509.18644)；
+  "本体梯度压制视觉学习"：[GAP, arXiv 2602.12032](https://arxiv.org/abs/2602.12032)。
+- "anchoring" 术语（2611.17658 的本体锚；ResVLA 另义）；System 1/2 架构叙事
+  （[Fast-in-Slow, NeurIPS 2025](https://papers.neurips.cc/paper_files/paper/2025/hash/8cf3760422b9d4505589a97c8f9569e7-Abstract-Conference.html)）。
+- 认知偏差基准路线（CorrectVLA、SO-101 failure/recovery benchmark；本项目 2026-11-16 已裁 no-go）。
+
+**方法侧拥挤（不碰）**
+- 等变策略/扩散头：[EquiBim](https://github.com/ZhangZhiyuanZhang/lerobot-equibim)（IROS 2026）、
+  [E3Flow](https://github.com/zql-kk/E3Flow)（CVPR 2026 Highlight）、
+  [VISTA](https://github.com/Kenn3o3/Vista)（CoRL 2026）、
+  [Pix2Act](https://arxiv.org/abs/2607.11167)、[KeyGen](https://arxiv.org/abs/2609.28818)。
+- 物体系动作框架：[Oriented Affordance Frames](https://arxiv.org/abs/2410.12124)。
+- 测试期纠偏：[RTCF](https://arxiv.org/abs/2608.04527)（检索记忆 + 低频残差）、
+  [ARC](https://arxiv.org/abs/2610.37547)（人类纠正 + 残差 RL）、
+  [TATE](http://agentic-intelligence-lab.org/files/TATE.pdf)（标定侧取向校正）。
+
+**仍可守（按证据强度）**
+- **T1 位精确孪生归因**（clear，本轮未命中）：同 RGB、只改碰撞几何（及反向），
+  E4 已给 20/20 vs 0/20，Fisher p=7.25e-12。
+- **T2 取向增益各向异性**（adjacent）：增益探针已有位置/噪声版（2611.17658），
+  **取向通道 + 与位置增益 250× 的对照**未见。
+- **T3 (δ,θ) 二维包络 + 阶段分解**（adjacent）：LIBERO-Plus 是 7 类扰动/21 子维、
+  L1–L5 离散阶梯 + 聚合成功率；抓取/装配容差文献在硬件/规划侧。
+- **T4 增益导出的单参数指令侧补偿**（adjacent，待 E5′）：RTCF 需成功记忆、ARC 需人类、
+  TATE 校数据标签；本文无记忆、无重训、无新数据。
 
 必答的审稿人问题：这与"BC 不具旋转等变性"的常识差别在哪？
-答：常识是定性断言；本方向给出**定量增益 + 包络形状 + 阶段定位 + 补偿增益**，
-并证明失败可被"接近段碰撞"这一几何机制解释（E4 解耦后）。
+答：常识是定性断言；本方向给出**定量增益（γ≈0.004 vs g≈1）、包络形状（d<0）、
+阶段定位（闭合 vs 放置）、补偿增益（dφ/dq5=1.0000）**，并证明失败可被"接近段碰撞"
+这一几何机制解释（E4 孪生）。常识不能预测"补多少、补哪一段、补了之后失败移到哪"。
 
-## 4. 实验阶梯（成本均为估计，未开跑）
+## 4. 实验阶梯（E4 已完成；其余未开跑，成本为估计）
 
-- **E4 解耦（最高优先，~40 集 ≈ 5 min）**：同一 θ=15°，三条件——(i) 视觉与碰撞都转、
+- **E4 解耦（已完成 2026-11-18，80 集；结果见 §6）**：同一 θ=15°，三条件——(i) 视觉与碰撞都转、
   (ii) 只转视觉（碰撞体轴对齐）、(iii) 只转碰撞（视觉轴对齐）。判别 C2 是"没看见"
   还是"没行动"。实现：给方块 body 加一个 `contype=0` 的视觉 geom，旋转它；碰撞 geom 保持
-  原朝向（或反之）。需要确认渲染里透明/隐藏碰撞体的做法。
+  原朝向（或反之）。
 - **E3 二维网格（~240 集 ≈ 20 min）**：θ∈{0,5,10,15}° × δ∈{2,8,14} mm × 20 seed；
   已有 (θ, δ≈1 mm) 的 5 个格，补 12 格。拟合 `P=σ(a+bδ+cθ+dδθ)`，检验 d<0；
   同步记录 q5 停位与抬升高度做阶段模型。
@@ -69,8 +92,10 @@
   θ̂ 偏置，抬升段再减回。可行性已用 FK 核过：dφ/dq5=1.0000、roll 轴竖直且过抓取点、
   q5 偏 15° 时抓取点位移 0.00 mm（ANCHOR_PROBE §5），故是纯关节偏置；再跑 θ=15°、
   δ~1 mm、20 seed，对照 E2 的 1/20。
-- **E6（可选，大额）**：带随机偏航示范重训 ACT（20 集示范 × 30k 步 ≈ GPU 小时级），
-  给出"示范覆盖 → α → 包络"的因果曲线。**须先估成本再派发，不默认执行。**
+- **E6（可选，大额）**：带随机偏航示范重训 ACT（20 集示范 × 30k 步），
+  给出"示范覆盖 → γ → 包络"的因果曲线。**只估成本，不执行**：≈4.5 GPU-h + ~1 h 人工
+  + ~1 天复验（换 checkpoint 会失去冻结锚点，E1′–E5′ 需整套复跑），故排在论文 1 之后。
+  详见 [NOVELTY.md](NOVELTY.md) §6。
 
 **kill criteria**：若 E4 显示失败完全由外观（视觉 OOD）驱动、碰撞几何无关，则 C2 降级为
 "视觉敏感性"，方向 A 收缩为纯测量学（备选 B）；若 E5′ 在 15° 不能把成功率拉过 50%，
@@ -78,11 +103,17 @@
 
 ## 5. 论文骨架与风险
 
-- 骨架：① α 与 g 的各向异性（C1）→ ② 阶段分解与碰撞机制（C2）→ ③ (δ,θ) 包络（C3）
-  → ④ 补偿验证（C4，若成立）→ ⑤ 评测协议建议。
-- 风险 1：α 只在单策略单物体上测过（外推性弱）→ 至少补一个 seed 重训或另一个物体（小成本）。
-- 风险 2：E2 §5 的外观/接触混杂若 E4 不能解耦，C2 会被审稿人打回。
-- 风险 3：等变策略文献已把"方法"占满 → 论文必须定位为**测量与诊断**，不是新架构。
+- 定位（2026-11-18 查新后）：**"测量—归因—补偿"的校准研究**，不是基准、不是新架构、
+  不是"发现认知偏差"。
+- 骨架：① γ 与 g 的各向异性（C1）→ ② 孪生归因与碰撞机制（C2）→ ③ (δ,θ) 包络与阶段（C3）
+  → ④ 补偿验证（C4，若成立）→ ⑤ 校准协议与可复现工件（C5）。
+- 风险 1：γ 只在单策略单物体上测过（外推性弱）→ 至少补一个 seed 重训或另一个物体（E7）。
+- 风险 2（已关闭）：E2 §5 的外观/接触混杂已由 E4 解耦（20/20 vs 0/20），C2 不再悬空。
+- 风险 3：等变策略文献已把"方法"占满 → 论文必须定位为**测量与诊断 + 补偿**，不是新架构。
+- 风险 4：认知偏差叙事只能当透镜——CorrectVLA / SO-101 benchmark 已占基准生态位；
+  不得声称复现人类机制或"新基准"。
+- 风险 5：补偿被视为 trivial → 必须给 naive 固定偏置对照 + 补偿量预测 + 0° 不降 +
+  阶段转移（P5），证明不是"随手加个偏置"。
 
 ## 6. 已裁决（2026-11-17 用户确认）
 
@@ -103,4 +134,8 @@ visual−collision = +20，单边 Fisher p=7.3e-12。详见
 4. `"tolerance" AND ("envelope" OR "operating range") AND "manipulation policy"`
 5. `"pose prior" AND "demonstration" AND "grasp" AND "orientation"`
 6. `"anchoring" AND ("imitation" OR "behavior cloning")`（预期空；空即支持 C1 的变量级差异）
-7. 中文：`姿态 泛化 模仿学习 抓取`、`朝向 偏差 机器人 策略`、`操作 容差 包络`
+7. `"counterfactual" AND ("rendering" OR "simulator") AND "robot policy" AND ("appearance" OR "collision")`
+8. `"test-time" AND ("correction" OR "compensation") AND "frozen policy" AND "manipulation"`
+9. 中文：`姿态 泛化 模仿学习 抓取`、`朝向 偏差 机器人 策略`、`操作 容差 包络`
+
+完整 9 条英文 + 5 条中文检索式、判定口径与"命中即降级"规则见 [NOVELTY.md](NOVELTY.md) §10。
