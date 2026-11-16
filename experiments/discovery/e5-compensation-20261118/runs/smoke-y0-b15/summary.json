@@ -1,0 +1,95 @@
+{
+  "yaw_deg": 0.0,
+  "w_eff_mm": 28.0,
+  "delta_center_mm": 1.0,
+  "q5_bias_deg": 15.0,
+  "tag": "smoke",
+  "episodes": 2,
+  "task_successes": 1,
+  "new_method_effect": "not_tested",
+  "novelty": "not_established",
+  "rows": [
+    {
+      "seed": 12940,
+      "yaw_deg": 0.0,
+      "w_eff_mm": 28.0,
+      "delta_center_mm": 1.0,
+      "delta_mm": 1.1005019426194311,
+      "tag": "smoke",
+      "q5_bias_deg": 15.0,
+      "wall_s": 4.38990431700222,
+      "source_xyz_m": [
+        0.20309033237162913,
+        -0.07577517412107995,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "physics_path": "runs/smoke-y0-b15-physics/12940.npz",
+      "physics_sha256": "c8865606e20c952fc397a3daceb3a59e194a15f89a81880d12c9613a8185d7a8",
+      "trace_sha256": "6274536b7fa2b20b40c0a6b5cc3f8827638a54f0fa005fd90206b7b6d4421852",
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 3.089,
+      "max_object_z_m": 0.08480006169726766,
+      "final_object_xyz_m": [
+        0.19726047173863456,
+        0.0714413354928405,
+        0.013998761340986886
+      ],
+      "goal_error_xy_m": 0.0044910030248639056,
+      "max_object_robot_penetration_m": 7.998249978154958e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.009692602329524975,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    },
+    {
+      "seed": 12941,
+      "yaw_deg": 0.0,
+      "w_eff_mm": 28.0,
+      "delta_center_mm": 1.0,
+      "delta_mm": 1.0279650660725421,
+      "tag": "smoke",
+      "q5_bias_deg": 15.0,
+      "wall_s": 3.157457745001011,
+      "source_xyz_m": [
+        0.1973340068458871,
+        -0.07434318376960676,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "physics_path": "runs/smoke-y0-b15-physics/12941.npz",
+      "physics_sha256": "430543c06e998a3cc8871634473bb8a0f72eba653db6288f6cba85429029c64f",
+      "trace_sha256": "65e5ecfb900f198d24b97c906be811077bc2763d1c440b13607e120330b52686",
+      "task_success": false,
+      "placed": true,
+      "released": false,
+      "longest_two_finger_lift_s": 0.632,
+      "max_object_z_m": 0.06511139421388161,
+      "final_object_xyz_m": [
+        0.20492368948473047,
+        0.07434638494750781,
+        0.014249158304481575
+      ],
+      "goal_error_xy_m": 0.0049668834070158785,
+      "max_object_robot_penetration_m": 0.00017059564409862833,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.015187249201578563,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": "release_not_verified"
+    }
+  ]
+}

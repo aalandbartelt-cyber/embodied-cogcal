@@ -1,0 +1,95 @@
+{
+  "yaw_deg": 15.0,
+  "w_eff_mm": 34.29285639896449,
+  "delta_center_mm": 1.0,
+  "q5_bias_deg": 15.0,
+  "tag": "smoke",
+  "episodes": 2,
+  "task_successes": 2,
+  "new_method_effect": "not_tested",
+  "novelty": "not_established",
+  "rows": [
+    {
+      "seed": 12940,
+      "yaw_deg": 15.0,
+      "w_eff_mm": 34.29285639896449,
+      "delta_center_mm": 1.0,
+      "delta_mm": 0.5779417770584593,
+      "tag": "smoke",
+      "q5_bias_deg": 15.0,
+      "wall_s": 4.439558213001874,
+      "source_xyz_m": [
+        0.20256777220606817,
+        -0.07629773428664093,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "physics_path": "runs/smoke-y15-b15-physics/12940.npz",
+      "physics_sha256": "903a2dd173cf4f82f3177c24fb214c3967ae75a820b81a08ae536b0cc64dfdf3",
+      "trace_sha256": "dc2ff1bbde1406d031360a01dd6f10f0ae970ebec3fa8258e81abad9a714db77",
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 3.6155,
+      "max_object_z_m": 0.08468462409883426,
+      "final_object_xyz_m": [
+        0.19851858391274982,
+        0.06999441052195804,
+        0.013998761340986895
+      ],
+      "goal_error_xy_m": 0.005220203027301527,
+      "max_object_robot_penetration_m": 7.214856990474667e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.007464204169607993,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    },
+    {
+      "seed": 12941,
+      "yaw_deg": 15.0,
+      "w_eff_mm": 34.29285639896449,
+      "delta_center_mm": 1.0,
+      "delta_mm": 1.2234232069002728,
+      "tag": "smoke",
+      "q5_bias_deg": 15.0,
+      "wall_s": 3.2003535219992045,
+      "source_xyz_m": [
+        0.1975294649867148,
+        -0.07414772562877903,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "physics_path": "runs/smoke-y15-b15-physics/12941.npz",
+      "physics_sha256": "65521b2334b580a40485cbe36e1a3653f05f29258b6b0789ddbd94a3ddba3b11",
+      "trace_sha256": "a1fdebf9f847a07cdfa955887251fb544b3ca072a42eb68f650780b521049900",
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.956,
+      "max_object_z_m": 0.08461446075639872,
+      "final_object_xyz_m": [
+        0.2013239112465155,
+        0.0663241217970713,
+        0.013998761340986885
+      ],
+      "goal_error_xy_m": 0.008776309223170268,
+      "max_object_robot_penetration_m": 8.302819018947302e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.007653079386183211,
+      "controls": 285,
+      "sim_time_s": 9.500000000000119,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    }
+  ]
+}

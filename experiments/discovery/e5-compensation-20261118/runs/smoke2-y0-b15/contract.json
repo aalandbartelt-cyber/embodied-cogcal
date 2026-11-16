@@ -1,0 +1,54 @@
+{
+  "kind": "e5p_command_side_q5_compensation_not_method",
+  "yaw_deg": 0.0,
+  "q5_bias_deg": 15.0,
+  "q5_bias_rad": 0.2617993877991494,
+  "q5_index": 4,
+  "q5_joint": "wrist_roll",
+  "injection": "target[4] += bias for all 285 control steps; policy inputs untouched",
+  "cube_edge_mm": 28.0,
+  "w_eff_mm": 28.0,
+  "delta_center_mm": 1.0,
+  "delta_halfwidth_mm": 0.5,
+  "delta_mm_per_seed": {
+    "12942": 1.1485880396781365,
+    "12943": 0.7899023064074885
+  },
+  "tag": "smoke",
+  "worker": {
+    "ready": true,
+    "checkpoint_sha256": "71439fda2a7ae13114f6930218a68280d3c7a51c857385907d21e4bfd3cb6f26",
+    "training_step": 20000,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "inputs": [
+      "current_two_RGB",
+      "current_measured_q_rad"
+    ]
+  },
+  "checkpoint": "/home/mary/research/embodied-cogcal/checkpoints/official-act-20261116/final-20000.pt",
+  "checkpoint_sha256": "71439fda2a7ae13114f6930218a68280d3c7a51c857385907d21e4bfd3cb6f26",
+  "carrier_pyc": "/home/mary/research/embodied-cogcal/.carrier-rt/a/b/carrier.pyc",
+  "carrier_pyc_sha256": "01761f2f7ebb6d92d8042dc17b7654b062c374355fb1962620a2aa7241fb6ab6",
+  "carrier_source": "deleted after the audit; loaded from surviving bytecode",
+  "training_contract_sha256": "87fe8d2459cb08a2ddbfe9ee9f101ed5bacbec14803f9e8bf17c980e929f1573",
+  "prereg_sha256": "3220e6976d999fbcc8062e4a7bbb067b36ec819b6828f20838c4e3c7b55abf79",
+  "seeds": [
+    12942,
+    12943
+  ],
+  "control_fps": 30,
+  "control_budget": 285,
+  "horizon": 100,
+  "execute": 30,
+  "policy_inputs": [
+    "current_two_RGB",
+    "current_measured_q_rad"
+  ],
+  "source_sha256": {
+    "/home/mary/research/embodied-cogcal/.carrier-rt/a/b/carrier.pyc": "01761f2f7ebb6d92d8042dc17b7654b062c374355fb1962620a2aa7241fb6ab6",
+    "/home/mary/research/embodied-cogcal/experiments/discovery/e5-compensation-20261118/rollout_e5p.py": "9c3a49ab0562e63ad91a2de57c35d044dbea4050277f8031e71bb7835c0d47a6",
+    "/home/mary/research/embodied-cogcal/experiments/discovery/official-act-20261116/rollout.py": "e968a4161252cff785420e57d05da94ebf36409b7d9b30ebd68a6af05ce2ff07",
+    "/home/mary/research/embodied-cogcal/experiments/discovery/official-act-20261116/infer_worker.py": "17edb352c944c68b6e69c5b709954601516af9fc33accf3b9e0acebc3df0b7a0",
+    "/home/mary/research/embodied-cogcal/experiments/discovery/official-act-20261116/act_interface.py": "f090e844c192e8941725373c53f05580ecbb35a5834396c127557d97b830aaa2"
+  }
+}
