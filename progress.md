@@ -1,5 +1,24 @@
 # A100 前准备进度
 
+## 2026-11-16 固定真实阶段复核与近邻/载体边界
+
+- 上轮84525e1是实际progress，已同步；本轮完整选题继续active，不恢复几何监督toy或旧BC微调。
+- 沿用冻结12条ring_insert/pi0.5，事前绝对3秒网格+末帧，109时点/327帧/7页均实际看完。
+  真实失败含原槽停留与搬离后未完成，成功229/236也有中途到其他槽；没有从阶段现象拼因果。
+- 定向读ProbeAct v1 §3.2–3.5/4/5与RESCUE v1 §III–V；已有对象同步、分级CBF、
+  干预价值/非单调可恢复性/时长控制，不立通用恢复新模块。
+  2609.05376另只读阶段视觉grounding方法/结果，未当已核完整SO101载体。
+- 新查两组公开小ACT与数据metadata、两位作者直接链接的GitHub身份及相关固定repo。
+  教学repo/训练notebook没有补录制scene/相机/控制器绑定；dataset revision=None，未证训练源精确版本。
+  没有下载权重、安装依赖、执行上游或新训练/物理/硬件试验。
+- Scholar题名429/challenge、0结果卡；未成功取得Scholar结果页。
+  旧包装cache树schema误读TypeError后按原source-scan恢复；讨论API首次错读字段，核latest.raw后确认为bot说明。
+- [本轮入口](experiments/discovery/real-stage-screen-20261116/README.md)保存全部网格、原文边界、资产资格。
+  下一步停止扩充同类联系表，先核本地官方ACT与自有匹配物理数据的接口/固定能力screen条件。
+- 技术核验通过：完整grid327帧/7图/3视频，37源快照；与两次旧提取各60个重叠帧完全同SHA，
+  145旧tracked资产及3指定原始SHA不变，官方模型/ACT模块tracked干净，Ruff/diff与31既有本地链接通过。
+  没有新策略/物理/硬件试验；不把技术核验当选题通过。
+
 ## 2026-11-15 几何监督有界检查与真实过程接续
 
 - 原GRASP参数与RFM条件等价/最新Preconditioned FM方法、KADP/STG-DP运动学目标已定向核。

@@ -1,0 +1,25 @@
+{
+  "full_preregistered_grid_verified": true,
+  "native_frame_hashes": 327,
+  "public_sheet_hashes": 7,
+  "pinned_video_hashes": 3,
+  "independent_prior_extraction_overlap": [
+    {
+      "previous_manifest": "visual-samples-manifest.json",
+      "identical_shared_native_frames": 60
+    },
+    {
+      "previous_manifest": "process-samples-manifest.json",
+      "identical_shared_native_frames": 60
+    }
+  ],
+  "source_snapshot_hashes_verified": 37,
+  "protected_original_sha_verified": 3,
+  "previous_tracked_assets_byte_identical": 145,
+  "official_model_worktree_clean": true,
+  "official_act_modules_tracked_clean": true,
+  "local_links_verified": 31,
+  "ruff": "pass",
+  "git_diff_check": "pass",
+  "new_training_inference_physics_hardware_trials": 0
+}

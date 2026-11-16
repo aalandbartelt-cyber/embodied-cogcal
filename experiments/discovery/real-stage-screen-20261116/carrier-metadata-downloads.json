@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data/discovery/real-stage-screen-20261116/act-config.json",
+    "url": "https://huggingface.co/ngocthuong2212/icra_2026_SIM_ONLY/resolve/5d9827d9b75ab3aa602bd5fc2aa57acc13f20586/config.json",
+    "bytes": 1730,
+    "sha256": "2b2713d2264a5b2ad9db82a66f149f688496ddfca3efaa8e15ce8a76a5f28081"
+  },
+  {
+    "path": "data/discovery/real-stage-screen-20261116/act-train-config.json",
+    "url": "https://huggingface.co/ngocthuong2212/icra_2026_SIM_ONLY/resolve/5d9827d9b75ab3aa602bd5fc2aa57acc13f20586/train_config.json",
+    "bytes": 6147,
+    "sha256": "79cc4e51f8a5bb467a6dd121dcba74616612f48425e1453f50888bc186713822"
+  },
+  {
+    "path": "data/discovery/real-stage-screen-20261116/act-readme.md",
+    "url": "https://huggingface.co/ngocthuong2212/icra_2026_SIM_ONLY/resolve/5d9827d9b75ab3aa602bd5fc2aa57acc13f20586/README.md",
+    "bytes": 5722,
+    "sha256": "d35efa53ca0a01c36367cabd78efbc578de0c42e924828ba1e1cd31526c257c8"
+  },
+  {
+    "path": "data/discovery/real-stage-screen-20261116/szk-readme.md",
+    "url": "https://huggingface.co/datasets/szk1ck/so101-pickplace-sim-mujoco/resolve/1405bdc99f86b646938599155d49b9d339fc987f/README.md",
+    "bytes": 1338,
+    "sha256": "21780b433aefa00b547f48a7ade0a1eabcef54f5c698254a2d0bae413cd36632"
+  },
+  {
+    "path": "data/discovery/real-stage-screen-20261116/szk-info.json",
+    "url": "https://huggingface.co/datasets/szk1ck/so101-pickplace-sim-mujoco/resolve/1405bdc99f86b646938599155d49b9d339fc987f/meta/info.json",
+    "bytes": 2172,
+    "sha256": "1655e6d9912a6042cde3004e3f582326f9dc28634db2cf82f80163b11eb5c6db"
+  }
+]

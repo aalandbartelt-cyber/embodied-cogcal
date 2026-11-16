@@ -1,0 +1,187 @@
+[
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/act-config.json",
+    "bytes": 1730,
+    "sha256": "2b2713d2264a5b2ad9db82a66f149f688496ddfca3efaa8e15ce8a76a5f28081"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/act-readme.md",
+    "bytes": 5722,
+    "sha256": "d35efa53ca0a01c36367cabd78efbc578de0c42e924828ba1e1cd31526c257c8"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/act-train-config.json",
+    "bytes": 6147,
+    "sha256": "79cc4e51f8a5bb467a6dd121dcba74616612f48425e1453f50888bc186713822"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/akh1r0ck-repos.json",
+    "bytes": 96293,
+    "sha256": "b790940ed8f56e438f3d943858cdef7a152ed0a5d6e6414a604c9e2ff0a7958b"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/backtrack-abs.html",
+    "bytes": 41565,
+    "sha256": "64925b098c27d4ad81c5cef61ad7ba649770764c030780c267978fd48326de9e"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/colab-commit.json",
+    "bytes": 98293,
+    "sha256": "f6b9521ae4993b6a3eef3cb9701e2a84acf78b14b89e11ef108a2400c9d8f543"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/colab-source/260818_so101_pick_and_place_ycb.ipynb",
+    "bytes": 85245,
+    "sha256": "4b94225acf9de1b7479b0b66e74aa00527d827e67c5ad5b2202a16cd261bfc37"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/colab-source/README.md",
+    "bytes": 15,
+    "sha256": "183dce7d0ec00d1b92f58c9201b82b66a80ee96b98e0415179c191191787022c"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/colab-tree.json",
+    "bytes": 661,
+    "sha256": "d58480cc32161986f80161abc55d9c2ccd0209048bbcc3e8031aa7d1d7631322"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/conditional-grounding-abs.html",
+    "bytes": 42854,
+    "sha256": "a72a9ddc201ecbad06bd3977dde6ff533a8884c582e2157ff4c72f29af35a678"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/conditional-grounding-v1.html",
+    "bytes": 86737,
+    "sha256": "b0dfed342f4c2da80d923370fc05b8e08d78a157e7ce2fc4a71086e39ede79d3"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/ngoc-discussion-1.json",
+    "bytes": 10235,
+    "sha256": "c929cccd521f892bb0a50cb237c2976995e9bfad10e2d9b0b2730be5532851b5"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/ngoc-discussions.json",
+    "bytes": 776,
+    "sha256": "47e67b086714eda2e405deb17021d076335a71c7e358f343d8712560f1fe0d2a"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/ngoc-icra-sim-model.json",
+    "bytes": 1285,
+    "sha256": "bc182bf86782676dd5ca6187ce28bd4b200f163c6d082238006a9b7b14753e94"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/ngoc-public-repos.json",
+    "bytes": 36866,
+    "sha256": "f4c0da9447ca6725fe003878e9c34f58bea1b3bf52d905175263bf68bc332846"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/practice-commit.json",
+    "bytes": 187203,
+    "sha256": "dfddaea9d8e5d624c5a6a482dd7c245b6f7dac85610cc426323d909e5686b741"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/practice-readme.md",
+    "bytes": 13091,
+    "sha256": "f026374eec0c63dbd7e131aad9bef42aa1102fce86c72a35c6690c5faba0819d"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/practice-tree.json",
+    "bytes": 29043,
+    "sha256": "9167222f6091f77169e2e8da1b1fbb62e001995e2d7ecdecf7ae9204e3a24a24"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/probeact-abs.html",
+    "bytes": 43758,
+    "sha256": "df7eb1d0c8302ca5b1bb87357f0589e8784058214c7076c79196bf0009d52245"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/probeact-v1.html",
+    "bytes": 153432,
+    "sha256": "440684f40dcdf0810e8b7a944ad5ed8b7627ec3244eeec111b7fb56752e189d8"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/rescue-abs.html",
+    "bytes": 43058,
+    "sha256": "a7c082784b64a8a767b506ed8718994a8f3b191d55ba67eb77b1ba5f2fa1e20c"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/rescue-v1.html",
+    "bytes": 189063,
+    "sha256": "62cec2efdafd9a2dcae87a6ce5f5aa38c22dee37904aaf085548d1679dd18c87"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/scholar-probeact.html",
+    "bytes": 1972,
+    "sha256": "f7999178b496bb28b33d6b2bc20ce7f7cf212433b23e7219ba83855f1f6ae85f"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-discussion-1.json",
+    "bytes": 10195,
+    "sha256": "ed29b837ea33fe9100c849c4238ac2f52b7b501d6b2f9e946e7be25361e019b2"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-discussions.json",
+    "bytes": 760,
+    "sha256": "5ce3930dcc24f87b9fb61ebd10e715faedd080a503d133f01d81b89c2bded129"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-info.json",
+    "bytes": 2172,
+    "sha256": "1655e6d9912a6042cde3004e3f582326f9dc28634db2cf82f80163b11eb5c6db"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-model-README.md",
+    "bytes": 1685,
+    "sha256": "07db59d812fc5c48158ceb0839b09e4ccebeafef2d6bbd2d95bd1092f0f0ed90"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-model-api.json",
+    "bytes": 1261,
+    "sha256": "74f7d1c84aa52cd719a452e2f3297377f8b7b3698466f9262381f841f32ed9ed"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-model-config.json",
+    "bytes": 1699,
+    "sha256": "da72413fc3a2e6ec852ac97332fdf940fee8e7ed5bd21ed4e01a8500ab671f72"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-model-train_config.json",
+    "bytes": 5660,
+    "sha256": "59c65c95777d5eb5e9e5f587fa51b4eaf12beee08f7ea616b8c5a05b09a492ba"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-models.json",
+    "bytes": 2367,
+    "sha256": "9ab21fd57e459c4886b3bdfe493fd3220d0690957aa3b965a4a45b36b095174d"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-mujoco-dataset.json",
+    "bytes": 712558,
+    "sha256": "6bf11b0fe0987612abef4ba29339f628c6955755cdc4aaeb3f2ead3af34787e0"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-profile.html",
+    "bytes": 209687,
+    "sha256": "8b6bf142395963656e261d615a7d505d6a865808275eb77bfb749b3137dc5301"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/szk-readme.md",
+    "bytes": 1338,
+    "sha256": "21780b433aefa00b547f48a7ade0a1eabcef54f5c698254a2d0bae413cd36632"
+  },
+  {
+    "local_module_path": "/tmp/tpsc-lerobot-v043/src/lerobot/policies/act/configuration_act.py",
+    "lerobot_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+    "sha256": "4bc1605c6b7d522465c53e3826adadbd0d91b54a9731ad9d6153ed1c9f261d37"
+  },
+  {
+    "local_module_path": "/tmp/tpsc-lerobot-v043/src/lerobot/policies/act/modeling_act.py",
+    "lerobot_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+    "sha256": "69301fff11cbb8f4ba7bfe473a55ba488c3d2f89c25ecdfe512347a93b4ad04f"
+  },
+  {
+    "local_module_path": "/tmp/tpsc-lerobot-v043/src/lerobot/policies/act/processor_act.py",
+    "lerobot_revision": "0b067df57d21d3a02d6c511f1609172fa39ac29b",
+    "sha256": "25ea62c315f8b85a58ee0b8ddea7e488bc87b806eb46307bf2b06ef6b50a86f4"
+  }
+]

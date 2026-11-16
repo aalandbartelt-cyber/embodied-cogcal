@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/discovery/real-stage-screen-20261116/ngoc-public-repos.json",
+    "url": "https://api.github.com/users/thuongtran21112004-star/repos?per_page=100&sort=updated",
+    "bytes": 36866,
+    "sha256": "f4c0da9447ca6725fe003878e9c34f58bea1b3bf52d905175263bf68bc332846"
+  },
+  {
+    "path": "data/discovery/real-stage-screen-20261116/ngoc-icra-sim-model.json",
+    "url": "https://huggingface.co/api/models/ngocthuong2212/icra_2026_SIM_ONLY",
+    "bytes": 1285,
+    "sha256": "bc182bf86782676dd5ca6187ce28bd4b200f163c6d082238006a9b7b14753e94"
+  },
+  {
+    "path": "data/discovery/real-stage-screen-20261116/szk-mujoco-dataset.json",
+    "url": "https://huggingface.co/api/datasets/szk1ck/so101-pickplace-sim-mujoco",
+    "bytes": 712558,
+    "sha256": "6bf11b0fe0987612abef4ba29339f628c6955755cdc4aaeb3f2ead3af34787e0"
+  }
+]

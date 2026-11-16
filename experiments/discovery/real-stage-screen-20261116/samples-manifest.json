@@ -1,0 +1,3359 @@
+{
+  "source_code_sha256": "01d0e3cd68d1e6c57b15d384914f8c00af441a843043782ba066e6ed0b3ccc64",
+  "selection_sha256": "0f34992d04cf0343524e9b6671bcc221938b71e4b3aa734c4e1b3ba32fb61c92",
+  "plan_sha256": "6e4879bc30f29f2fb24ae584af027679307bd9e9be4e91ed85544a6cff9a3aa5",
+  "sources": [
+    {
+      "camera": "front",
+      "cache_path": "data/discovery/deployment-failures-20261115/armnet-front-file011.mp4",
+      "sha256": "9ded72fecd2c418a75b82685450c07a8f0c9d906392a7819b56f62df342b1e31",
+      "bytes": 93156054,
+      "width": 1024,
+      "height": 576,
+      "time_base": "1/10240",
+      "average_rate": "20"
+    },
+    {
+      "camera": "top",
+      "cache_path": "data/discovery/deployment-failures-20261115/armnet-top-file014.mp4",
+      "sha256": "13b2e1bd78f4618f8ff285e8cb806fd4219c5a2352e63ef4f04ff8b85baa19c3",
+      "bytes": 110353625,
+      "width": 1024,
+      "height": 576,
+      "time_base": "1/10240",
+      "average_rate": "20"
+    },
+    {
+      "camera": "wrist",
+      "cache_path": "data/discovery/deployment-failures-20261115/armnet-wrist-file012.mp4",
+      "sha256": "30e4863acbee60914f04b23270600389a90d7c07fd6b2f0b0909289bfe588739",
+      "bytes": 108839727,
+      "width": 1280,
+      "height": 720,
+      "time_base": "1/10240",
+      "average_rate": "20"
+    }
+  ],
+  "av_version": "15.1.0",
+  "samples": [
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0000-front.png",
+      "sha256": "b8f92cccf93c13037a309957556507fa3a767d508dabcdf3b21a186b94c239f8",
+      "pts": 0,
+      "time_base": "1/10240",
+      "video_seconds": 0.0,
+      "episode_index": 225,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0060-front.png",
+      "sha256": "21e87582bbc246e06e52d128d3f2c9b7ed3177d2c621d525afc180be25605e82",
+      "pts": 30720,
+      "time_base": "1/10240",
+      "video_seconds": 3.0,
+      "episode_index": 225,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0120-front.png",
+      "sha256": "8dee8fb38e31904efe7e60d46e485e2a80d37a18a792d37a22ca566ce9e69d04",
+      "pts": 61440,
+      "time_base": "1/10240",
+      "video_seconds": 6.0,
+      "episode_index": 225,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0180-front.png",
+      "sha256": "411206c2e99b8471995ec94d33be0d92fe8ae1ba81ae660895a4e56096d6c4dc",
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0,
+      "episode_index": 225,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0240-front.png",
+      "sha256": "0c9e29e1b9ff01b38ae3b739cf9da09cc00db111ca5896e6c731ae65bbf0d148",
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0,
+      "episode_index": 225,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0300-front.png",
+      "sha256": "1ce7000f0de4d264f96dc5acc9cbf8f6b560799d7e617d3a9758174e32932258",
+      "pts": 153600,
+      "time_base": "1/10240",
+      "video_seconds": 15.0,
+      "episode_index": 225,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0360-front.png",
+      "sha256": "0ab482d420b155680846b13e064e23000fdbe3ece71b5a97bd064433b7a985af",
+      "pts": 184320,
+      "time_base": "1/10240",
+      "video_seconds": 18.0,
+      "episode_index": 225,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0420-front.png",
+      "sha256": "1d13f6914128171a22b1800bfb98317c2b05e9d4f54236f98f7676e053853a19",
+      "pts": 215040,
+      "time_base": "1/10240",
+      "video_seconds": 21.0,
+      "episode_index": 225,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0425-front.png",
+      "sha256": "c38f4915c8d1377bb2938dd8760464e9c6d04bb5a4d8c19e7befebca8906f931",
+      "pts": 217600,
+      "time_base": "1/10240",
+      "video_seconds": 21.25,
+      "episode_index": 225,
+      "relative_seconds": 21.25
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0000-front.png",
+      "sha256": "037b56eea1c84bb170231cd2b180ce969d609bee86c5580a1c2a1cb406aad7b1",
+      "pts": 218112,
+      "time_base": "1/10240",
+      "video_seconds": 21.3,
+      "episode_index": 226,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0060-front.png",
+      "sha256": "db5fbf5ddefa07fda8e5d560d6cd07822ad207238bb91c959c5c81b3874865cb",
+      "pts": 248832,
+      "time_base": "1/10240",
+      "video_seconds": 24.3,
+      "episode_index": 226,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0120-front.png",
+      "sha256": "8c416b2860305fc363db519758154901151e3e9365d1e9e304aebaa65455cf92",
+      "pts": 279552,
+      "time_base": "1/10240",
+      "video_seconds": 27.3,
+      "episode_index": 226,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0180-front.png",
+      "sha256": "f4d70cac44edfbb6957fa09614665556adabf62f13cd6ed50d4df365710ffbf1",
+      "pts": 310272,
+      "time_base": "1/10240",
+      "video_seconds": 30.3,
+      "episode_index": 226,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0240-front.png",
+      "sha256": "323386a834af550573c7014bf1976084801f57dc1f85fb24f20fc3278e24ad7d",
+      "pts": 340992,
+      "time_base": "1/10240",
+      "video_seconds": 33.3,
+      "episode_index": 226,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0300-front.png",
+      "sha256": "d61405536523c64a6b29298b8c391599dd41d605451a3b7ea980950ac588157f",
+      "pts": 371712,
+      "time_base": "1/10240",
+      "video_seconds": 36.3,
+      "episode_index": 226,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0360-front.png",
+      "sha256": "38b64ed80af08c5574fc10d0fe18ac6af47c1d67f27bf36639ffd694664d50dd",
+      "pts": 402432,
+      "time_base": "1/10240",
+      "video_seconds": 39.3,
+      "episode_index": 226,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0420-front.png",
+      "sha256": "5d64f5c783bc0122c0e984f2b140a9ac5a37b7c614d4f7454d4f210d23dcc39a",
+      "pts": 433152,
+      "time_base": "1/10240",
+      "video_seconds": 42.3,
+      "episode_index": 226,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0480-front.png",
+      "sha256": "239fa24d170b9ef3de25e78bfde3dbfaab112a9d02bf247fa43aebe3d45f3aba",
+      "pts": 463872,
+      "time_base": "1/10240",
+      "video_seconds": 45.3,
+      "episode_index": 226,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0540-front.png",
+      "sha256": "9e7d1482a2e7ade08b91fd88bbb90dece835bfd34a993ddecb7978f851d6468e",
+      "pts": 494592,
+      "time_base": "1/10240",
+      "video_seconds": 48.3,
+      "episode_index": 226,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0567-front.png",
+      "sha256": "9bef713b7724b69b93449133416ba22b115af91cb84fdf4bb65dcb0ec5657bbd",
+      "pts": 508416,
+      "time_base": "1/10240",
+      "video_seconds": 49.65,
+      "episode_index": 226,
+      "relative_seconds": 28.35
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0000-front.png",
+      "sha256": "b1b4f48acf0ff093b645d1c0b024e04f93640e4ff6055f2623a9f1e220559e6e",
+      "pts": 508928,
+      "time_base": "1/10240",
+      "video_seconds": 49.7,
+      "episode_index": 227,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0060-front.png",
+      "sha256": "e3d38be20fc763c7daba5b7df4e60356a8209853e6d7dd45c02c418472ab01a9",
+      "pts": 539648,
+      "time_base": "1/10240",
+      "video_seconds": 52.7,
+      "episode_index": 227,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0120-front.png",
+      "sha256": "800d750b2758f0e55172e250c1c5db86c06f2638d9205542f30fc6897dc1f506",
+      "pts": 570368,
+      "time_base": "1/10240",
+      "video_seconds": 55.7,
+      "episode_index": 227,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0180-front.png",
+      "sha256": "3eb8e1513f2aa06e370bc160d6474eaf0179db95aed6cecc806ab1c986ce2ab2",
+      "pts": 601088,
+      "time_base": "1/10240",
+      "video_seconds": 58.7,
+      "episode_index": 227,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0240-front.png",
+      "sha256": "c227cbeae527e0560d86fb7481c8c691d31ba34f691dda8513deb8314ad683d0",
+      "pts": 631808,
+      "time_base": "1/10240",
+      "video_seconds": 61.7,
+      "episode_index": 227,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0300-front.png",
+      "sha256": "7be37cb68a44f92cd061b81811b3c374cc939b3ee7144f1116d43490ef3c7dc0",
+      "pts": 662528,
+      "time_base": "1/10240",
+      "video_seconds": 64.7,
+      "episode_index": 227,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0360-front.png",
+      "sha256": "432ee51f4c80cf16bc2735280ba71482be3696e1a98b634a003a6024ab0f8749",
+      "pts": 693248,
+      "time_base": "1/10240",
+      "video_seconds": 67.7,
+      "episode_index": 227,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0379-front.png",
+      "sha256": "5cf8f4ce5f45d3ee495f3123f81515f3c0432afb145ea4cb68d2785e8fc5aee1",
+      "pts": 702976,
+      "time_base": "1/10240",
+      "video_seconds": 68.65,
+      "episode_index": 227,
+      "relative_seconds": 18.95
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0000-front.png",
+      "sha256": "967ab5cf7c5c4c47de7e70fe1a66956a24ed17b8e7f56fdfd499156c5b1b6218",
+      "pts": 750592,
+      "time_base": "1/10240",
+      "video_seconds": 73.3,
+      "episode_index": 228,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0060-front.png",
+      "sha256": "3b6e87121c7d1b43caf2a7edd406552c83ae8f360156bf5af76d44c779e59609",
+      "pts": 781312,
+      "time_base": "1/10240",
+      "video_seconds": 76.3,
+      "episode_index": 228,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0120-front.png",
+      "sha256": "508a73e1aff02d8db6da3cc2de6861bba021b8c4491079bef30644355a70bd6d",
+      "pts": 812032,
+      "time_base": "1/10240",
+      "video_seconds": 79.3,
+      "episode_index": 228,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0180-front.png",
+      "sha256": "d4eff7bc956859fa3b13c7c695fb02ff4e6a9aaf244ba0b32e587c4e31331ce6",
+      "pts": 842752,
+      "time_base": "1/10240",
+      "video_seconds": 82.3,
+      "episode_index": 228,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0199-front.png",
+      "sha256": "215d1b68534c9aad93eb2c819ce00023e58066b9d94b723e66e6c061093dd85a",
+      "pts": 852480,
+      "time_base": "1/10240",
+      "video_seconds": 83.25,
+      "episode_index": 228,
+      "relative_seconds": 9.95
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0000-front.png",
+      "sha256": "e8ad0e9800839f0224cbc8ce9ddf937820da08341f3b1020643b548a08a53840",
+      "pts": 892928,
+      "time_base": "1/10240",
+      "video_seconds": 87.2,
+      "episode_index": 229,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0060-front.png",
+      "sha256": "28cfecf34706f1a8ab02c71ca38c7078c17fd31682fa845a8f200a37b4769266",
+      "pts": 923648,
+      "time_base": "1/10240",
+      "video_seconds": 90.2,
+      "episode_index": 229,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0120-front.png",
+      "sha256": "c28579b4f5f0ce6400f024ebbb53a71e56b60678e1e8694b35a33fdf65c17a53",
+      "pts": 954368,
+      "time_base": "1/10240",
+      "video_seconds": 93.2,
+      "episode_index": 229,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0180-front.png",
+      "sha256": "3f15f5bfcfb71f4fda4280c61931b2aa42694bc13d0e62001028793825f7e4e6",
+      "pts": 985088,
+      "time_base": "1/10240",
+      "video_seconds": 96.2,
+      "episode_index": 229,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0240-front.png",
+      "sha256": "0c772e20e485bb40a52314ca02d46bff3f5dfffaf39fdc82883953eb5d7442c3",
+      "pts": 1015808,
+      "time_base": "1/10240",
+      "video_seconds": 99.2,
+      "episode_index": 229,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0300-front.png",
+      "sha256": "1dd1b24d3557b9c4f05463b20827988dcd09539585109b14962919df15ad9a56",
+      "pts": 1046528,
+      "time_base": "1/10240",
+      "video_seconds": 102.2,
+      "episode_index": 229,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0360-front.png",
+      "sha256": "33432215fc59adcec104f1d1e312d074cd29ab3505399bbd0009174386951129",
+      "pts": 1077248,
+      "time_base": "1/10240",
+      "video_seconds": 105.2,
+      "episode_index": 229,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0420-front.png",
+      "sha256": "0a1aab16c0b23c3678b54cfc027d7db372389b6151b0a5a88d7bb65bc9edcb37",
+      "pts": 1107968,
+      "time_base": "1/10240",
+      "video_seconds": 108.2,
+      "episode_index": 229,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0466-front.png",
+      "sha256": "16528926ae8b7e109537f9f66adc7d0c3c1e1bfc18a50a138b994694d2dfee1a",
+      "pts": 1131520,
+      "time_base": "1/10240",
+      "video_seconds": 110.5,
+      "episode_index": 229,
+      "relative_seconds": 23.3
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0000-front.png",
+      "sha256": "57b253a595624a82d58270b79110d79d239260f76b92f2cdccea062b084c8114",
+      "pts": 1132032,
+      "time_base": "1/10240",
+      "video_seconds": 110.55,
+      "episode_index": 230,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0060-front.png",
+      "sha256": "ac11a95a4b427c16c63fa3fa3059cdbb0602147c95122e3bc064e51ef6027e8c",
+      "pts": 1162752,
+      "time_base": "1/10240",
+      "video_seconds": 113.55,
+      "episode_index": 230,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0120-front.png",
+      "sha256": "6611803bd487f0274380f6ae59e9551f1ace9851264f5d3962bfd7112daeede4",
+      "pts": 1193472,
+      "time_base": "1/10240",
+      "video_seconds": 116.55,
+      "episode_index": 230,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0180-front.png",
+      "sha256": "bd2ed567416a7c5d2fef11ef564f9fa67e1beca929a5fbc5240b49ece1b0c340",
+      "pts": 1224192,
+      "time_base": "1/10240",
+      "video_seconds": 119.55,
+      "episode_index": 230,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0203-front.png",
+      "sha256": "2c492588e4b5c1b50254f40650f54f60bac256817e348feadc07307f34c62d66",
+      "pts": 1235968,
+      "time_base": "1/10240",
+      "video_seconds": 120.7,
+      "episode_index": 230,
+      "relative_seconds": 10.15
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0000-front.png",
+      "sha256": "a7e01c72c18d7ed37163f403d7aaaa12b9cbd5dc4e6ff05722557b48a804a0d2",
+      "pts": 1290240,
+      "time_base": "1/10240",
+      "video_seconds": 126.0,
+      "episode_index": 231,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0060-front.png",
+      "sha256": "0d8b0c14fdd192fce7e4275894114d423a2ed15bcd443b600021458136ac899d",
+      "pts": 1320960,
+      "time_base": "1/10240",
+      "video_seconds": 129.0,
+      "episode_index": 231,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0120-front.png",
+      "sha256": "3cab6660e2432bf9acd6f3db07304254205e4922b7f059141563fa56a5ac6824",
+      "pts": 1351680,
+      "time_base": "1/10240",
+      "video_seconds": 132.0,
+      "episode_index": 231,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0180-front.png",
+      "sha256": "13414c50baddc9afde49a9f0749e932f8fde8d4cc54ada26909a4f2bc4990c7f",
+      "pts": 1382400,
+      "time_base": "1/10240",
+      "video_seconds": 135.0,
+      "episode_index": 231,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0240-front.png",
+      "sha256": "5d541dfeb6073d8a9ccc2332a29540cee28c23c8c20c9db59757e50c5c683320",
+      "pts": 1413120,
+      "time_base": "1/10240",
+      "video_seconds": 138.0,
+      "episode_index": 231,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0300-front.png",
+      "sha256": "34db3074666708d27fef72be131956ad36022cb825c19ed72492013f16c99d5a",
+      "pts": 1443840,
+      "time_base": "1/10240",
+      "video_seconds": 141.0,
+      "episode_index": 231,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0360-front.png",
+      "sha256": "d4a72a9a646bea3b67bdd9779c954ae89316c73ff71e63b68c02107648f2ccdc",
+      "pts": 1474560,
+      "time_base": "1/10240",
+      "video_seconds": 144.0,
+      "episode_index": 231,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0420-front.png",
+      "sha256": "fe206dcfbd1d0e9487fff69f1b87ad4a15666323a023cb70930604ed9ef11599",
+      "pts": 1505280,
+      "time_base": "1/10240",
+      "video_seconds": 147.0,
+      "episode_index": 231,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0480-front.png",
+      "sha256": "d3dd24dc62948333575b36e67afddf5eb8c90cfc80df72d05a5cab9ea8bc5a2b",
+      "pts": 1536000,
+      "time_base": "1/10240",
+      "video_seconds": 150.0,
+      "episode_index": 231,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0540-front.png",
+      "sha256": "18639beb0507f44ff615ae069db7340c00f906e3eb6f177160b77e0a870a7ec1",
+      "pts": 1566720,
+      "time_base": "1/10240",
+      "video_seconds": 153.0,
+      "episode_index": 231,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0566-front.png",
+      "sha256": "547318c7abfe5c131500d53a937ece9ce02d50136b641327678b34db7733590c",
+      "pts": 1580032,
+      "time_base": "1/10240",
+      "video_seconds": 154.3,
+      "episode_index": 231,
+      "relative_seconds": 28.3
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0000-front.png",
+      "sha256": "827424622148943cbb8bac26ea5e67588c83c9966ab4d90a4d5c85818f8d0632",
+      "pts": 1580544,
+      "time_base": "1/10240",
+      "video_seconds": 154.35,
+      "episode_index": 232,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0060-front.png",
+      "sha256": "c312dd691982257ab7ef6fb17e3b520d8d9ed6a0ff66e8150ce1e6400ba03b25",
+      "pts": 1611264,
+      "time_base": "1/10240",
+      "video_seconds": 157.35,
+      "episode_index": 232,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0120-front.png",
+      "sha256": "4eaeeda6ebcc4b93cd6cd0fc0e59a9d485374aec953f93f8c2d1a99b089c554b",
+      "pts": 1641984,
+      "time_base": "1/10240",
+      "video_seconds": 160.35,
+      "episode_index": 232,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0180-front.png",
+      "sha256": "7ef695c522afe30ad046ce4b94a77baf25cb0e3082feb796c586302b955c56d7",
+      "pts": 1672704,
+      "time_base": "1/10240",
+      "video_seconds": 163.35,
+      "episode_index": 232,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0240-front.png",
+      "sha256": "02c77de9a16982147d5fbaf3c5650c673d60d9514b8ba4eede332201db0971c5",
+      "pts": 1703424,
+      "time_base": "1/10240",
+      "video_seconds": 166.35,
+      "episode_index": 232,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0300-front.png",
+      "sha256": "8bdc0b6cc705c1ba7ad9ac2f57c6402e240e9e6ab2efe1b7ab82fdf135c70d58",
+      "pts": 1734144,
+      "time_base": "1/10240",
+      "video_seconds": 169.35,
+      "episode_index": 232,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0360-front.png",
+      "sha256": "988c21aeb2d2ac38c33d67f304544128072f432ee814381a9677855a81f14900",
+      "pts": 1764864,
+      "time_base": "1/10240",
+      "video_seconds": 172.35,
+      "episode_index": 232,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0420-front.png",
+      "sha256": "7c776d143d266bf858462a07be924cdfd87d2a19cba9dce0cac0dff596cc1c94",
+      "pts": 1795584,
+      "time_base": "1/10240",
+      "video_seconds": 175.35,
+      "episode_index": 232,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0480-front.png",
+      "sha256": "7e7da212a7ad899257c6cdb4e79aaa878b25d4a9ab40085d26c271078820a8cd",
+      "pts": 1826304,
+      "time_base": "1/10240",
+      "video_seconds": 178.35,
+      "episode_index": 232,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0540-front.png",
+      "sha256": "51340d15c7a415ecd45ffbb454369099dd9a157befe70710af23d0850315b392",
+      "pts": 1857024,
+      "time_base": "1/10240",
+      "video_seconds": 181.35,
+      "episode_index": 232,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0544-front.png",
+      "sha256": "39fb80a93e6551bc1325b2e034f8ca41f914116f3e3958db3eb23434ec46f3f1",
+      "pts": 1859072,
+      "time_base": "1/10240",
+      "video_seconds": 181.55,
+      "episode_index": 232,
+      "relative_seconds": 27.2
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0000-front.png",
+      "sha256": "56adb99c99ce33614001dc1b801bfa646e7113cd00a0eec2e60e25d039dcd136",
+      "pts": 1859584,
+      "time_base": "1/10240",
+      "video_seconds": 181.6,
+      "episode_index": 233,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0060-front.png",
+      "sha256": "770ce396ec91326bc16d19225b3122cc3db0f63ee336041dd6afa55028ecf2bb",
+      "pts": 1890304,
+      "time_base": "1/10240",
+      "video_seconds": 184.6,
+      "episode_index": 233,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0120-front.png",
+      "sha256": "370121b45bf64fe5e095f6731a1c926474e12ad53a228e1f50f111e6780b00e7",
+      "pts": 1921024,
+      "time_base": "1/10240",
+      "video_seconds": 187.6,
+      "episode_index": 233,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0180-front.png",
+      "sha256": "8e676b6c820a94c1442568c18452e8db51012c41656cc7dbb28da8a908cecd32",
+      "pts": 1951744,
+      "time_base": "1/10240",
+      "video_seconds": 190.6,
+      "episode_index": 233,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0240-front.png",
+      "sha256": "916de02a6282706c0f2916472d35db41cd83e2537390fdd008db69198be41817",
+      "pts": 1982464,
+      "time_base": "1/10240",
+      "video_seconds": 193.6,
+      "episode_index": 233,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0300-front.png",
+      "sha256": "259f6c9cb9c9b3519fe5dc99899d21aba4bc2b253e6627bcaf7edaf4201d05ae",
+      "pts": 2013184,
+      "time_base": "1/10240",
+      "video_seconds": 196.6,
+      "episode_index": 233,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0360-front.png",
+      "sha256": "fd0d6cf38401f4c2856fd1ee575bd124a6b8dcaa15420e02b44f773e09cc98b2",
+      "pts": 2043904,
+      "time_base": "1/10240",
+      "video_seconds": 199.6,
+      "episode_index": 233,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0420-front.png",
+      "sha256": "83b2e6ca5fc6b10e5779f65295ee55d3d9f49e6eb8ba6e9ccf4ecbf05f8e6439",
+      "pts": 2074624,
+      "time_base": "1/10240",
+      "video_seconds": 202.6,
+      "episode_index": 233,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0480-front.png",
+      "sha256": "515c958fad39a4d68bdc8d4d9b6f2b9cef95ec71b33bac8880c5649cbfe7fc50",
+      "pts": 2105344,
+      "time_base": "1/10240",
+      "video_seconds": 205.6,
+      "episode_index": 233,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0540-front.png",
+      "sha256": "a73d34ab81ff1c58af995c487d11bb9fe6e2a5aac32e211dda4fad56c77ef441",
+      "pts": 2136064,
+      "time_base": "1/10240",
+      "video_seconds": 208.6,
+      "episode_index": 233,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0571-front.png",
+      "sha256": "331a0a638603d0bf4b5974ca6f4b44f9fdc4e7a5a0b074d9e195cf2b56e8df40",
+      "pts": 2151936,
+      "time_base": "1/10240",
+      "video_seconds": 210.15,
+      "episode_index": 233,
+      "relative_seconds": 28.55
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0000-front.png",
+      "sha256": "242e9041437bbe98ab9d18debc706be907800aff66ecca24190808abdfe8868f",
+      "pts": 2152448,
+      "time_base": "1/10240",
+      "video_seconds": 210.2,
+      "episode_index": 234,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0060-front.png",
+      "sha256": "257d06a9164e6f708f8005e4a7b31dedf098ebd0112052845b7c3fcce6af3d04",
+      "pts": 2183168,
+      "time_base": "1/10240",
+      "video_seconds": 213.2,
+      "episode_index": 234,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0120-front.png",
+      "sha256": "9243b4387fd6e6095d915b75e1ca1f2b42819ca6d42f099954d907a61c9442ad",
+      "pts": 2213888,
+      "time_base": "1/10240",
+      "video_seconds": 216.2,
+      "episode_index": 234,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0180-front.png",
+      "sha256": "06a8307bb43f86de27ffe59ebb5d43ee5ae68fcf70dbd9705bf16f534eefbf5a",
+      "pts": 2244608,
+      "time_base": "1/10240",
+      "video_seconds": 219.2,
+      "episode_index": 234,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0240-front.png",
+      "sha256": "6bd813cb22f83b2f847427aa7ec0ff1f05f8ac2c800e300a65bccf4816bb69df",
+      "pts": 2275328,
+      "time_base": "1/10240",
+      "video_seconds": 222.2,
+      "episode_index": 234,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0300-front.png",
+      "sha256": "f7d26d0a2c04f27395989e308dca258d2981afa9802faf61f80bb4b0e449e994",
+      "pts": 2306048,
+      "time_base": "1/10240",
+      "video_seconds": 225.2,
+      "episode_index": 234,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0360-front.png",
+      "sha256": "d6265382c852b90223273829697814882bfec2257881fbb5a02ecf02bd688f6a",
+      "pts": 2336768,
+      "time_base": "1/10240",
+      "video_seconds": 228.2,
+      "episode_index": 234,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0420-front.png",
+      "sha256": "ef5e70869c3e7dcf97e1ec474bff3c78f99e80731d87d9c8c788ee8a4475299b",
+      "pts": 2367488,
+      "time_base": "1/10240",
+      "video_seconds": 231.2,
+      "episode_index": 234,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0480-front.png",
+      "sha256": "4abf9b46ac12dfb20531bf852d449959293d69167851b0f487e825b46655828a",
+      "pts": 2398208,
+      "time_base": "1/10240",
+      "video_seconds": 234.2,
+      "episode_index": 234,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0540-front.png",
+      "sha256": "a5f135d3ffbd437fd318f0e6dbf0c44c273115f6fca640c6b84193096d9f25dc",
+      "pts": 2428928,
+      "time_base": "1/10240",
+      "video_seconds": 237.2,
+      "episode_index": 234,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0000-front.png",
+      "sha256": "71bc2905f126bcda400d6a73dc100a6af857b71826ca21e39842f3d4c1f587ae",
+      "pts": 2429440,
+      "time_base": "1/10240",
+      "video_seconds": 237.25,
+      "episode_index": 235,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0060-front.png",
+      "sha256": "94cd5d8b81b4aba3235d793a4cc1d4ffc95ffa7546e4878457d90066a7aff928",
+      "pts": 2460160,
+      "time_base": "1/10240",
+      "video_seconds": 240.25,
+      "episode_index": 235,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0120-front.png",
+      "sha256": "06eb4f2689d77bf056b259f11dabd2023447e114c5fc641da0090c17573de06f",
+      "pts": 2490880,
+      "time_base": "1/10240",
+      "video_seconds": 243.25,
+      "episode_index": 235,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0180-front.png",
+      "sha256": "77145afcc7e23bf3de2eca2609b4a1742c74c5b602b9ccbd9c581b42ed9ac57e",
+      "pts": 2521600,
+      "time_base": "1/10240",
+      "video_seconds": 246.25,
+      "episode_index": 235,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0240-front.png",
+      "sha256": "d169a38fec3654da99629580693d48b92037ac4d0a3962a63ee7c1c220ac981d",
+      "pts": 2552320,
+      "time_base": "1/10240",
+      "video_seconds": 249.25,
+      "episode_index": 235,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0300-front.png",
+      "sha256": "a01307fd459d3d1bd3ca5843e2e6e5a79b499aa849bf1b311337eb4bfe8a0fd1",
+      "pts": 2583040,
+      "time_base": "1/10240",
+      "video_seconds": 252.25,
+      "episode_index": 235,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0360-front.png",
+      "sha256": "0cbdf38dbc1cb8cafcee0c0f08b285177a41f219b8ab0fcd6c9c85cb6bbdc75e",
+      "pts": 2613760,
+      "time_base": "1/10240",
+      "video_seconds": 255.25,
+      "episode_index": 235,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0420-front.png",
+      "sha256": "58c232bb51a5c0c93611065880072e8c00a429c3369262aff27e630ca71e256c",
+      "pts": 2644480,
+      "time_base": "1/10240",
+      "video_seconds": 258.25,
+      "episode_index": 235,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0480-front.png",
+      "sha256": "ec498ed6a835d1ef3146141c79909013cea946023eac1a124cde3e8f0e9b2ac5",
+      "pts": 2675200,
+      "time_base": "1/10240",
+      "video_seconds": 261.25,
+      "episode_index": 235,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0540-front.png",
+      "sha256": "cfac62eb4542f380771d6c8d1e3ccf6d250667bd41df6b0760099c04c6684528",
+      "pts": 2705920,
+      "time_base": "1/10240",
+      "video_seconds": 264.25,
+      "episode_index": 235,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0550-front.png",
+      "sha256": "559a6fdeb361660b9c3991f119156f9c9db77bd9f0dab522596c1583a6135220",
+      "pts": 2711040,
+      "time_base": "1/10240",
+      "video_seconds": 264.75,
+      "episode_index": 235,
+      "relative_seconds": 27.5
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0000-front.png",
+      "sha256": "da4684c690cc338c3c191cdc8115f241b45f0d3dcfc83c55b48468ca9d8fc31f",
+      "pts": 2711552,
+      "time_base": "1/10240",
+      "video_seconds": 264.8,
+      "episode_index": 236,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0060-front.png",
+      "sha256": "3dec28f33fdf3150e5dc22e060d4eb00e7fdaa7b15abdd692f5f1c261b613255",
+      "pts": 2742272,
+      "time_base": "1/10240",
+      "video_seconds": 267.8,
+      "episode_index": 236,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0120-front.png",
+      "sha256": "4042cbaaf9e0e10abe7063848b94e207b79ac514f14fc10165a69a40055a9745",
+      "pts": 2772992,
+      "time_base": "1/10240",
+      "video_seconds": 270.8,
+      "episode_index": 236,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0180-front.png",
+      "sha256": "2fea856f070c94ca10fdcd3bf343fd3b8c2e6ad672ea6c2c1374985b330a3172",
+      "pts": 2803712,
+      "time_base": "1/10240",
+      "video_seconds": 273.8,
+      "episode_index": 236,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0240-front.png",
+      "sha256": "34813151a8d27a01477cce2d14897a20eda6d9749ad304fbb9862fda033d0219",
+      "pts": 2834432,
+      "time_base": "1/10240",
+      "video_seconds": 276.8,
+      "episode_index": 236,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0300-front.png",
+      "sha256": "6b9d167bda5c8a3d090d79f91e6cba0628e4c74a782feff6f14b9248bcda542b",
+      "pts": 2865152,
+      "time_base": "1/10240",
+      "video_seconds": 279.8,
+      "episode_index": 236,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0360-front.png",
+      "sha256": "716ff13b53c31fed35d00fb9f264a077d6036621f20a61901c3dd923072aac79",
+      "pts": 2895872,
+      "time_base": "1/10240",
+      "video_seconds": 282.8,
+      "episode_index": 236,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "front",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0399-front.png",
+      "sha256": "8cfaa4a473e8694fc8148e8ac2856ccaed87ef82c5a37ab6135066efb467b01f",
+      "pts": 2915840,
+      "time_base": "1/10240",
+      "video_seconds": 284.75,
+      "episode_index": 236,
+      "relative_seconds": 19.95
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0000-top.png",
+      "sha256": "8e2abad7b61e92858aa72d1175f6968679ba9c52b4f0bf73ae867b5f6e17f080",
+      "pts": 0,
+      "time_base": "1/10240",
+      "video_seconds": 0.0,
+      "episode_index": 225,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0060-top.png",
+      "sha256": "0e1dd95f96be76b1663e99fea74cdb99159cf5cc2569991cbc500b0b8a7fd46b",
+      "pts": 30720,
+      "time_base": "1/10240",
+      "video_seconds": 3.0,
+      "episode_index": 225,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0120-top.png",
+      "sha256": "a3639f9e85e1b0f5ded0d811f48e8f5f6fddfa54a04438e44a54f98ee09a3007",
+      "pts": 61440,
+      "time_base": "1/10240",
+      "video_seconds": 6.0,
+      "episode_index": 225,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0180-top.png",
+      "sha256": "6135b63a99781af183064ae32da45bdfc3e3f7e6140a5490bc838ec3c31675de",
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0,
+      "episode_index": 225,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0240-top.png",
+      "sha256": "8fad4e89a10613239eb1e14c02ffda8590e65b685413e411ab25d4b9396a9f6e",
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0,
+      "episode_index": 225,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0300-top.png",
+      "sha256": "0ccbcb0932056804042c514d058b49ce0fc5403a043a9d424e97b4c229185851",
+      "pts": 153600,
+      "time_base": "1/10240",
+      "video_seconds": 15.0,
+      "episode_index": 225,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0360-top.png",
+      "sha256": "883b9283fbde8fa0e42740c9ed57af382c43c794e3cb1142ad8751af6558534d",
+      "pts": 184320,
+      "time_base": "1/10240",
+      "video_seconds": 18.0,
+      "episode_index": 225,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0420-top.png",
+      "sha256": "0d0e7e5e208ebdd01ae1bca3fc131af545299bc6467819ac84b37055440df863",
+      "pts": 215040,
+      "time_base": "1/10240",
+      "video_seconds": 21.0,
+      "episode_index": 225,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0425-top.png",
+      "sha256": "ab2f0655f04fd0ac56215289fb76e269e148755424b22e5ca568f4850ba19676",
+      "pts": 217600,
+      "time_base": "1/10240",
+      "video_seconds": 21.25,
+      "episode_index": 225,
+      "relative_seconds": 21.25
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0000-top.png",
+      "sha256": "64d33a93f601691cca1ad116cdd6264a832c7db5ff06c975579afb94f3b13bb2",
+      "pts": 218112,
+      "time_base": "1/10240",
+      "video_seconds": 21.3,
+      "episode_index": 226,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0060-top.png",
+      "sha256": "c710b71163b26a47877b823871090221f3900e48063404523150e9fb888c6320",
+      "pts": 248832,
+      "time_base": "1/10240",
+      "video_seconds": 24.3,
+      "episode_index": 226,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0120-top.png",
+      "sha256": "7a648c8dc58980bb572116b41ad3f105281718d652aa12cd271469624d71b253",
+      "pts": 279552,
+      "time_base": "1/10240",
+      "video_seconds": 27.3,
+      "episode_index": 226,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0180-top.png",
+      "sha256": "1c98672b9a7d6cc4ca84baf624ffc261fd0b28438a327b181d05f3c59eac2698",
+      "pts": 310272,
+      "time_base": "1/10240",
+      "video_seconds": 30.3,
+      "episode_index": 226,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0240-top.png",
+      "sha256": "28a118e38d6c192030d8bc641d47d0268d2ceebf1163365762f0c23d33c468bf",
+      "pts": 340992,
+      "time_base": "1/10240",
+      "video_seconds": 33.3,
+      "episode_index": 226,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0300-top.png",
+      "sha256": "b80d2065ba21ead7ff703f751060e7cc4f4341c1c395018aa1a675dd610b06d4",
+      "pts": 371712,
+      "time_base": "1/10240",
+      "video_seconds": 36.3,
+      "episode_index": 226,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0360-top.png",
+      "sha256": "7b4944e90d743a8c8b071e4395c9a56ead7750a5dcaca86a094d100d683fc7ff",
+      "pts": 402432,
+      "time_base": "1/10240",
+      "video_seconds": 39.3,
+      "episode_index": 226,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0420-top.png",
+      "sha256": "ab08fe9653ee7bacec37d45bc0f8afe53e5c3773f9da2a4802b6007511dbac9d",
+      "pts": 433152,
+      "time_base": "1/10240",
+      "video_seconds": 42.3,
+      "episode_index": 226,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0480-top.png",
+      "sha256": "f6cba91697625baef601fbf0b848b2ee7102c6ccc0b2fe608141079feb18255f",
+      "pts": 463872,
+      "time_base": "1/10240",
+      "video_seconds": 45.3,
+      "episode_index": 226,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0540-top.png",
+      "sha256": "0c71ac087a6b9a9bff2cd63c63b34152fffdf2840ac8172b9366ba4570496ea8",
+      "pts": 494592,
+      "time_base": "1/10240",
+      "video_seconds": 48.3,
+      "episode_index": 226,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0567-top.png",
+      "sha256": "a9ce0ce7bebd867f2ae9a5de0819fa6a042fb0d101d01d1f20f2634f3a71b777",
+      "pts": 508416,
+      "time_base": "1/10240",
+      "video_seconds": 49.65,
+      "episode_index": 226,
+      "relative_seconds": 28.35
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0000-top.png",
+      "sha256": "03bba5c58bcfe706a19fbbd15ed8d0c9e1f307e96c55819ae7542947a6e5853f",
+      "pts": 508928,
+      "time_base": "1/10240",
+      "video_seconds": 49.7,
+      "episode_index": 227,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0060-top.png",
+      "sha256": "ee4c35993dc15843119feeb6c9d54aef575fcc776c376c95c152f769445c28ba",
+      "pts": 539648,
+      "time_base": "1/10240",
+      "video_seconds": 52.7,
+      "episode_index": 227,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0120-top.png",
+      "sha256": "b4752c707b9af6d15c3051ec9cf14ba99e7d2429686574389a8a0514b2c48795",
+      "pts": 570368,
+      "time_base": "1/10240",
+      "video_seconds": 55.7,
+      "episode_index": 227,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0180-top.png",
+      "sha256": "b5f6753dea973ad2428f4332e2b98615baa178491ef1f839484e159173195eec",
+      "pts": 601088,
+      "time_base": "1/10240",
+      "video_seconds": 58.7,
+      "episode_index": 227,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0240-top.png",
+      "sha256": "92b69969e31738ab7a680003a8c20760f145f2e5112c607c3656fa2c0a907478",
+      "pts": 631808,
+      "time_base": "1/10240",
+      "video_seconds": 61.7,
+      "episode_index": 227,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0300-top.png",
+      "sha256": "72461ce34e1305c73f7abddfdd15c49727b7a2031b918008192c81e6ff185f8a",
+      "pts": 662528,
+      "time_base": "1/10240",
+      "video_seconds": 64.7,
+      "episode_index": 227,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0360-top.png",
+      "sha256": "215afc8dd9569f06417bd9a7538e0d543a4982482f4de2ba66ce0f617d2cf7ef",
+      "pts": 693248,
+      "time_base": "1/10240",
+      "video_seconds": 67.7,
+      "episode_index": 227,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0379-top.png",
+      "sha256": "41d0678e4eb908100cc72ec4b856fca4bb8ba19eeb0d4f928fe7c5e76500efa0",
+      "pts": 702976,
+      "time_base": "1/10240",
+      "video_seconds": 68.65,
+      "episode_index": 227,
+      "relative_seconds": 18.95
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0000-top.png",
+      "sha256": "5b97529db2e52a7e261b3e8cb493d3a802b1213c90d91b3c9a14e827e8ef3a39",
+      "pts": 750592,
+      "time_base": "1/10240",
+      "video_seconds": 73.3,
+      "episode_index": 228,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0060-top.png",
+      "sha256": "5eb0e507c9aeb9fe69b5a453ca5e10df9bf7530a6f578756741ba8375956fcda",
+      "pts": 781312,
+      "time_base": "1/10240",
+      "video_seconds": 76.3,
+      "episode_index": 228,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0120-top.png",
+      "sha256": "73f6d900ac8c07b78b0c2fe2751f6865a9a95a69f1e0b3105942078547b721ca",
+      "pts": 812032,
+      "time_base": "1/10240",
+      "video_seconds": 79.3,
+      "episode_index": 228,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0180-top.png",
+      "sha256": "7b063fa43315164331d5057483d8cfec84c631ec9284f8f90cb9905e203f1fd7",
+      "pts": 842752,
+      "time_base": "1/10240",
+      "video_seconds": 82.3,
+      "episode_index": 228,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0199-top.png",
+      "sha256": "7cf487ab69c1c84c29ef00f9f223a231248fbfc7d57ae2090b38114a556423eb",
+      "pts": 852480,
+      "time_base": "1/10240",
+      "video_seconds": 83.25,
+      "episode_index": 228,
+      "relative_seconds": 9.95
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0000-top.png",
+      "sha256": "75350d89b9871c6e08867137dd24d383b73588e8e05a2d68d5121764a7f2a730",
+      "pts": 892928,
+      "time_base": "1/10240",
+      "video_seconds": 87.2,
+      "episode_index": 229,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0060-top.png",
+      "sha256": "9172fed12dd6b52c45bb7171fc1baa8c83a6f86e21401310713c8a02e3bce433",
+      "pts": 923648,
+      "time_base": "1/10240",
+      "video_seconds": 90.2,
+      "episode_index": 229,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0120-top.png",
+      "sha256": "41ad79a179367c7b5bb5c2f86e963f45301997fad916f077a2a189c68cd1ef8a",
+      "pts": 954368,
+      "time_base": "1/10240",
+      "video_seconds": 93.2,
+      "episode_index": 229,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0180-top.png",
+      "sha256": "55a3bab8b48b4d8bbd46dd59e5b72d11db2024ae46e0a562c4383640ec47f251",
+      "pts": 985088,
+      "time_base": "1/10240",
+      "video_seconds": 96.2,
+      "episode_index": 229,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0240-top.png",
+      "sha256": "06ec111081b4ee03b03c4f38ce996d153139af42d2d2146814dabf051c979298",
+      "pts": 1015808,
+      "time_base": "1/10240",
+      "video_seconds": 99.2,
+      "episode_index": 229,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0300-top.png",
+      "sha256": "8f105ea10287ca127d136be48aca54ccc74bc2b41d08c22b9498cfe65e11657d",
+      "pts": 1046528,
+      "time_base": "1/10240",
+      "video_seconds": 102.2,
+      "episode_index": 229,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0360-top.png",
+      "sha256": "e4560433d39d04df03dca30fc0b9449fdda11e7a25160a775659eccfef96333c",
+      "pts": 1077248,
+      "time_base": "1/10240",
+      "video_seconds": 105.2,
+      "episode_index": 229,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0420-top.png",
+      "sha256": "7430ac5949fe50406c3a9712d918356cd188fdf1a37be8b6cf6f0d803611bb63",
+      "pts": 1107968,
+      "time_base": "1/10240",
+      "video_seconds": 108.2,
+      "episode_index": 229,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0466-top.png",
+      "sha256": "6beffda26a212b95e95132603f878dc3be4fc78e5b788d15dfff23df74807754",
+      "pts": 1131520,
+      "time_base": "1/10240",
+      "video_seconds": 110.5,
+      "episode_index": 229,
+      "relative_seconds": 23.3
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0000-top.png",
+      "sha256": "54a92f2dc73585ac008efdca5f3ce18b82db67f4dc137b77ab395f05bcd8d75d",
+      "pts": 1132032,
+      "time_base": "1/10240",
+      "video_seconds": 110.55,
+      "episode_index": 230,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0060-top.png",
+      "sha256": "ba1b0e1a14c1ca1571b918ee4fd2ce58f5a69945e0349c2f20d476d9cce596e6",
+      "pts": 1162752,
+      "time_base": "1/10240",
+      "video_seconds": 113.55,
+      "episode_index": 230,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0120-top.png",
+      "sha256": "8dfe5902d53da518459779e8443a019285d71b983a1a6fbe43bf38b11d179276",
+      "pts": 1193472,
+      "time_base": "1/10240",
+      "video_seconds": 116.55,
+      "episode_index": 230,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0180-top.png",
+      "sha256": "dc782c6a91155fd27b76308a37f8e2b5373aab594983f25cca151a18a401b5f1",
+      "pts": 1224192,
+      "time_base": "1/10240",
+      "video_seconds": 119.55,
+      "episode_index": 230,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0203-top.png",
+      "sha256": "438c41c114bf2d4bb06ee7edf3e03fe0f96da5a2bb82414d1bc57e7e3a0702e9",
+      "pts": 1235968,
+      "time_base": "1/10240",
+      "video_seconds": 120.7,
+      "episode_index": 230,
+      "relative_seconds": 10.15
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0000-top.png",
+      "sha256": "613cf5e7860450d4d7a9abbec4b0c01cd4daa733c6e46ce9c285c25452136db2",
+      "pts": 1290240,
+      "time_base": "1/10240",
+      "video_seconds": 126.0,
+      "episode_index": 231,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0060-top.png",
+      "sha256": "d5aac1a5541fdbdf8fbf307b529e6bdabfa6cf5aa246ca3aed8511152191d7d0",
+      "pts": 1320960,
+      "time_base": "1/10240",
+      "video_seconds": 129.0,
+      "episode_index": 231,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0120-top.png",
+      "sha256": "89959d6a4871a7844860da00d97f638ee1a4d9d5e96dbdcf6677503ddf405e6c",
+      "pts": 1351680,
+      "time_base": "1/10240",
+      "video_seconds": 132.0,
+      "episode_index": 231,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0180-top.png",
+      "sha256": "a8584fd26691882f1e4d64161919b592b81ec2a1e5c0e3c45cb45f1ab8903e54",
+      "pts": 1382400,
+      "time_base": "1/10240",
+      "video_seconds": 135.0,
+      "episode_index": 231,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0240-top.png",
+      "sha256": "58e6174f778ad38fe3ea70853cbfb18c6131e9d4e32d205bf36179439aefd83e",
+      "pts": 1413120,
+      "time_base": "1/10240",
+      "video_seconds": 138.0,
+      "episode_index": 231,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0300-top.png",
+      "sha256": "bfe5631f3165560b95537d49f1b526959b2791ac46fd7cb18ac3f3979c111fdf",
+      "pts": 1443840,
+      "time_base": "1/10240",
+      "video_seconds": 141.0,
+      "episode_index": 231,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0360-top.png",
+      "sha256": "3b74b84ff26c76cc2b2cbebdd7249f3190c3f386e06dd38dacf0be0379d229de",
+      "pts": 1474560,
+      "time_base": "1/10240",
+      "video_seconds": 144.0,
+      "episode_index": 231,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0420-top.png",
+      "sha256": "a5cd7d394a4cedc016dd39924c8e2c7b02deda8121e604802f9b38c8bd1e5b4d",
+      "pts": 1505280,
+      "time_base": "1/10240",
+      "video_seconds": 147.0,
+      "episode_index": 231,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0480-top.png",
+      "sha256": "4f85330c8a9b3f7dfd2b959cd572e329a47714009a1a5564c46f5fbd70bbb237",
+      "pts": 1536000,
+      "time_base": "1/10240",
+      "video_seconds": 150.0,
+      "episode_index": 231,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0540-top.png",
+      "sha256": "1c72be31f1df4387b94c5157c98ecb4e117352a143e4586ced813357478455f5",
+      "pts": 1566720,
+      "time_base": "1/10240",
+      "video_seconds": 153.0,
+      "episode_index": 231,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0566-top.png",
+      "sha256": "789e1a24a35abb8ca6540e7bf3f02a073bf96d0f05c4de94c7503c64d9b251f3",
+      "pts": 1580032,
+      "time_base": "1/10240",
+      "video_seconds": 154.3,
+      "episode_index": 231,
+      "relative_seconds": 28.3
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0000-top.png",
+      "sha256": "ebd238a3e5b45188ab25bc116c3da0d689f1af3ca22ab7e6b73423978fd2caa1",
+      "pts": 1580544,
+      "time_base": "1/10240",
+      "video_seconds": 154.35,
+      "episode_index": 232,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0060-top.png",
+      "sha256": "99223b7463da6c2edce360313246382ab83d9a277b0e25fea265a33ae34d0745",
+      "pts": 1611264,
+      "time_base": "1/10240",
+      "video_seconds": 157.35,
+      "episode_index": 232,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0120-top.png",
+      "sha256": "86836a11bd9e3c8b12e4667d2e5bacb358446f245e3006ba1b3c960917ff3b0c",
+      "pts": 1641984,
+      "time_base": "1/10240",
+      "video_seconds": 160.35,
+      "episode_index": 232,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0180-top.png",
+      "sha256": "c2d1fbe7f2645f25b34b82e5496fb98ac0a1667621135d2508aa97f9694f0a3a",
+      "pts": 1672704,
+      "time_base": "1/10240",
+      "video_seconds": 163.35,
+      "episode_index": 232,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0240-top.png",
+      "sha256": "9ad62e59c2272af66b31024f57f3c6de6c59fe36fa2af018bcdca06cc194ea02",
+      "pts": 1703424,
+      "time_base": "1/10240",
+      "video_seconds": 166.35,
+      "episode_index": 232,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0300-top.png",
+      "sha256": "5dc5a0ca66b355897db0903064a809520cb2a8673df858dd2932196f84273713",
+      "pts": 1734144,
+      "time_base": "1/10240",
+      "video_seconds": 169.35,
+      "episode_index": 232,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0360-top.png",
+      "sha256": "8cff1ca522fed0920df302d9670e8195cf302d4e48ddad2a286d4be608787e75",
+      "pts": 1764864,
+      "time_base": "1/10240",
+      "video_seconds": 172.35,
+      "episode_index": 232,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0420-top.png",
+      "sha256": "279ad589bf78a1824c2d4e0168d4bfdda831e6ae02ee977d8bf81a1c2dec44c2",
+      "pts": 1795584,
+      "time_base": "1/10240",
+      "video_seconds": 175.35,
+      "episode_index": 232,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0480-top.png",
+      "sha256": "3d91323233acb6dd170317b90983eba41eed98cbdfc08fa72554d03ae5113c67",
+      "pts": 1826304,
+      "time_base": "1/10240",
+      "video_seconds": 178.35,
+      "episode_index": 232,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0540-top.png",
+      "sha256": "ab5e5e6e9275c5964291398ea16711aa41a3919884bc65f0ea5de2978b3b5fa6",
+      "pts": 1857024,
+      "time_base": "1/10240",
+      "video_seconds": 181.35,
+      "episode_index": 232,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0544-top.png",
+      "sha256": "cffc0247d02e73d5a2fa42ca452ae89be3fba0d6a5b0f9966e540864a07a4747",
+      "pts": 1859072,
+      "time_base": "1/10240",
+      "video_seconds": 181.55,
+      "episode_index": 232,
+      "relative_seconds": 27.2
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0000-top.png",
+      "sha256": "eececf1161c17a957c6e62c1cf4b3bd924f9f3c62e9f2dac9d5bc4ba9dba9e69",
+      "pts": 1859584,
+      "time_base": "1/10240",
+      "video_seconds": 181.6,
+      "episode_index": 233,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0060-top.png",
+      "sha256": "6be65520ce260404a4624ca98b316e590f0b0f6ba35b003db06a0f399142f6a2",
+      "pts": 1890304,
+      "time_base": "1/10240",
+      "video_seconds": 184.6,
+      "episode_index": 233,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0120-top.png",
+      "sha256": "d4733a5f7478b4eeb977442adb2ad3f4885fffd0c6bceec9394795197573bdd9",
+      "pts": 1921024,
+      "time_base": "1/10240",
+      "video_seconds": 187.6,
+      "episode_index": 233,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0180-top.png",
+      "sha256": "774c0da3dbf5096b3d74bdf34600712e083f5e39310eddbeed200d704d3dcd70",
+      "pts": 1951744,
+      "time_base": "1/10240",
+      "video_seconds": 190.6,
+      "episode_index": 233,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0240-top.png",
+      "sha256": "f212c1de3b4a001ee5c45f7c56d2c8e3476adbe1d1827c390c7629167ad05380",
+      "pts": 1982464,
+      "time_base": "1/10240",
+      "video_seconds": 193.6,
+      "episode_index": 233,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0300-top.png",
+      "sha256": "1a5cf66eb939f5c130c9e0683b2e6687fa553331b3ce2f34e431b7df61d402d0",
+      "pts": 2013184,
+      "time_base": "1/10240",
+      "video_seconds": 196.6,
+      "episode_index": 233,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0360-top.png",
+      "sha256": "1cc2240edd430f346f2209a25cbd47a8737c673264a827ce799633f90b21911e",
+      "pts": 2043904,
+      "time_base": "1/10240",
+      "video_seconds": 199.6,
+      "episode_index": 233,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0420-top.png",
+      "sha256": "1a6df1a7bd1fab955b0c4986b9a205114d33a96cc1063cd6d1bbc24f9b5bd45e",
+      "pts": 2074624,
+      "time_base": "1/10240",
+      "video_seconds": 202.6,
+      "episode_index": 233,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0480-top.png",
+      "sha256": "c1d0f83772b38fd321847cc7e68ca94d3424ee2ddd3449258ffc7dba45f81f32",
+      "pts": 2105344,
+      "time_base": "1/10240",
+      "video_seconds": 205.6,
+      "episode_index": 233,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0540-top.png",
+      "sha256": "21b2c1f19f5e967b3d59a15ae7b1ff3f1971b0b446677a613745a753fa58d3df",
+      "pts": 2136064,
+      "time_base": "1/10240",
+      "video_seconds": 208.6,
+      "episode_index": 233,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0571-top.png",
+      "sha256": "551d6560c038b02f0a9bf727ea295d2f3f4dc50090c2b662200f0325293b1c20",
+      "pts": 2151936,
+      "time_base": "1/10240",
+      "video_seconds": 210.15,
+      "episode_index": 233,
+      "relative_seconds": 28.55
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0000-top.png",
+      "sha256": "6a21cb3bee4405f7d0af62d73465ae430687a5fde8ae3e0bcaa3afeb26418a6d",
+      "pts": 2152448,
+      "time_base": "1/10240",
+      "video_seconds": 210.2,
+      "episode_index": 234,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0060-top.png",
+      "sha256": "bde2e81d24b18e819712595afd7df7c4eb179eec7cffd5ca8807030abfdcb45e",
+      "pts": 2183168,
+      "time_base": "1/10240",
+      "video_seconds": 213.2,
+      "episode_index": 234,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0120-top.png",
+      "sha256": "fb682f5e84c26703aa2668b4074f6b3d4c0ca8515efb79a4477554e99103eb65",
+      "pts": 2213888,
+      "time_base": "1/10240",
+      "video_seconds": 216.2,
+      "episode_index": 234,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0180-top.png",
+      "sha256": "bb3f106a727446fd88e6810d4931eba0c734eb38cc0b00b89811fe2618ddc02f",
+      "pts": 2244608,
+      "time_base": "1/10240",
+      "video_seconds": 219.2,
+      "episode_index": 234,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0240-top.png",
+      "sha256": "4a0899de46f2b22e25f21113796a2a480a1fb9cbca0a36bf2612e4fc19b88fcf",
+      "pts": 2275328,
+      "time_base": "1/10240",
+      "video_seconds": 222.2,
+      "episode_index": 234,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0300-top.png",
+      "sha256": "41f084b28581468809e89545850149c0cba8be535a6cc2127623b7a3b5675f89",
+      "pts": 2306048,
+      "time_base": "1/10240",
+      "video_seconds": 225.2,
+      "episode_index": 234,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0360-top.png",
+      "sha256": "e0180c884729ad4ab6283a89f2129322df7f0ef8db0b8a2217a468c8a22ca9ad",
+      "pts": 2336768,
+      "time_base": "1/10240",
+      "video_seconds": 228.2,
+      "episode_index": 234,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0420-top.png",
+      "sha256": "10248ad0f370d633a615cc9ebabdfd47bfc72bb7250b87a8e82bd06bd0429940",
+      "pts": 2367488,
+      "time_base": "1/10240",
+      "video_seconds": 231.2,
+      "episode_index": 234,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0480-top.png",
+      "sha256": "47fc00e0a3aff0f221c9ee1d11b48e934aea8e7fddb692b8da47ad0ec8a64864",
+      "pts": 2398208,
+      "time_base": "1/10240",
+      "video_seconds": 234.2,
+      "episode_index": 234,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0540-top.png",
+      "sha256": "039b914a2f649bd97ddc358a43cb0beb0ef1f8bd13093c89d553a93fafec67df",
+      "pts": 2428928,
+      "time_base": "1/10240",
+      "video_seconds": 237.2,
+      "episode_index": 234,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0000-top.png",
+      "sha256": "1f6389e823578f8448b8d8ef016e3745e08dc1bab584e17b7670758d980645a6",
+      "pts": 2429440,
+      "time_base": "1/10240",
+      "video_seconds": 237.25,
+      "episode_index": 235,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0060-top.png",
+      "sha256": "dd629a625bd77c89d3a7d349171f254d7967f4882b6812e88a75e1b4d901cb02",
+      "pts": 2460160,
+      "time_base": "1/10240",
+      "video_seconds": 240.25,
+      "episode_index": 235,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0120-top.png",
+      "sha256": "4cbb7d92829dface23a04b566d06a7586260aa60c8253f81c17b33f2ca27dd50",
+      "pts": 2490880,
+      "time_base": "1/10240",
+      "video_seconds": 243.25,
+      "episode_index": 235,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0180-top.png",
+      "sha256": "c9afd740cf19b9805eab6b4379470db6b8c929a2e321b82a1d918f2afb4237b5",
+      "pts": 2521600,
+      "time_base": "1/10240",
+      "video_seconds": 246.25,
+      "episode_index": 235,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0240-top.png",
+      "sha256": "5388dbebfc68c62eb4b004e9c613ef39166de71c3eb7d71238d63c4ae614c2d1",
+      "pts": 2552320,
+      "time_base": "1/10240",
+      "video_seconds": 249.25,
+      "episode_index": 235,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0300-top.png",
+      "sha256": "be373a2faa44e9467512a46ca7196bb048eb7de1c0978fda44d0755098a3519a",
+      "pts": 2583040,
+      "time_base": "1/10240",
+      "video_seconds": 252.25,
+      "episode_index": 235,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0360-top.png",
+      "sha256": "8ea7c07e8895117eb29d3742f90650a24eb2b78662fb37f8f51643281c5ec287",
+      "pts": 2613760,
+      "time_base": "1/10240",
+      "video_seconds": 255.25,
+      "episode_index": 235,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0420-top.png",
+      "sha256": "994fcaa88cfa7cc38c637e15ef20efeec559ba3edf0343ed72372d8c5f6855f3",
+      "pts": 2644480,
+      "time_base": "1/10240",
+      "video_seconds": 258.25,
+      "episode_index": 235,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0480-top.png",
+      "sha256": "7b9fcacd808f65781980a9e9b0a840b161c9d503cdf0453a6f7b60b8a1590c09",
+      "pts": 2675200,
+      "time_base": "1/10240",
+      "video_seconds": 261.25,
+      "episode_index": 235,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0540-top.png",
+      "sha256": "dccd154d0bbd1509b734b7da48d48c4a2b1c8611cd1fbb68a461b89a870de6fd",
+      "pts": 2705920,
+      "time_base": "1/10240",
+      "video_seconds": 264.25,
+      "episode_index": 235,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0550-top.png",
+      "sha256": "6eba53a46d0e9a7efbba9fe1dd4c3748eaff484e3233a75d61a8ecf992f360e6",
+      "pts": 2711040,
+      "time_base": "1/10240",
+      "video_seconds": 264.75,
+      "episode_index": 235,
+      "relative_seconds": 27.5
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0000-top.png",
+      "sha256": "eb2582c2afd2d28c6037dcb6ecc500e8fac205cdfad444c068ad408594217e67",
+      "pts": 2711552,
+      "time_base": "1/10240",
+      "video_seconds": 264.8,
+      "episode_index": 236,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0060-top.png",
+      "sha256": "360bd9ebc637e68ce564e6f3097d6947f3f935f4b1a8d6eb44f6ec9dac16584f",
+      "pts": 2742272,
+      "time_base": "1/10240",
+      "video_seconds": 267.8,
+      "episode_index": 236,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0120-top.png",
+      "sha256": "e322f429e27a458b1cdf37fa8a3c6fc53524668a9100af9b852099ae168b8186",
+      "pts": 2772992,
+      "time_base": "1/10240",
+      "video_seconds": 270.8,
+      "episode_index": 236,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0180-top.png",
+      "sha256": "5def8859403f272f7a4ad0860f9e4802784d71cd382b2afcd018be61ffced9bf",
+      "pts": 2803712,
+      "time_base": "1/10240",
+      "video_seconds": 273.8,
+      "episode_index": 236,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0240-top.png",
+      "sha256": "f3954ceff19359176b769df996b264a7ca6f901a9d4baff1d25032f34e592dfe",
+      "pts": 2834432,
+      "time_base": "1/10240",
+      "video_seconds": 276.8,
+      "episode_index": 236,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0300-top.png",
+      "sha256": "7600a2743586d01a9c96101c94e355b8a0ae5fbe5b0b2863dd32a9ee3a6d356d",
+      "pts": 2865152,
+      "time_base": "1/10240",
+      "video_seconds": 279.8,
+      "episode_index": 236,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0360-top.png",
+      "sha256": "e6e52f830c0aa046a59ab1018d5b28a6996e4137524ee79a0b5b84f83374ff8e",
+      "pts": 2895872,
+      "time_base": "1/10240",
+      "video_seconds": 282.8,
+      "episode_index": 236,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "top",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0399-top.png",
+      "sha256": "f62b715830c21423341eb4e878a46457a48580be86eb7de1355800bbc59777d0",
+      "pts": 2915840,
+      "time_base": "1/10240",
+      "video_seconds": 284.75,
+      "episode_index": 236,
+      "relative_seconds": 19.95
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0000-wrist.png",
+      "sha256": "0594eb23d1924fa180052c00d02e830b01f61234f156877936b55dde1ae5e69b",
+      "pts": 0,
+      "time_base": "1/10240",
+      "video_seconds": 0.0,
+      "episode_index": 225,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0060-wrist.png",
+      "sha256": "e85cb88184f0f5d163cbcf32ef5a7d56bb65fb7c7a69e5aa08ab1db025a365e7",
+      "pts": 30720,
+      "time_base": "1/10240",
+      "video_seconds": 3.0,
+      "episode_index": 225,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0120-wrist.png",
+      "sha256": "0caa10bb7d707628b7f16f40eeb681580a3d201255285c07b9230f0f2b0abdbc",
+      "pts": 61440,
+      "time_base": "1/10240",
+      "video_seconds": 6.0,
+      "episode_index": 225,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0180-wrist.png",
+      "sha256": "e314c942862de11baa7c85ff05c456ca91cc8fe9a5e297bca5f1d8eeb82e5d54",
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0,
+      "episode_index": 225,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0240-wrist.png",
+      "sha256": "93cba4fe9716fcc9f2fa140e0dea3925242ba17ba85f62f1233d4db2e68b50b9",
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0,
+      "episode_index": 225,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0300-wrist.png",
+      "sha256": "dc7b27bc1b7a4646a5cb30396deb0e0b1df411bdd9f583e7d7aee847402ffabf",
+      "pts": 153600,
+      "time_base": "1/10240",
+      "video_seconds": 15.0,
+      "episode_index": 225,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0360-wrist.png",
+      "sha256": "9867c400611ea4f5316dd49eabef5f6172794d2ce21f80cf4d312c4105c42b45",
+      "pts": 184320,
+      "time_base": "1/10240",
+      "video_seconds": 18.0,
+      "episode_index": 225,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0420-wrist.png",
+      "sha256": "77038c16c71d68d3b0146c8e8e02d7cac3a95c10d89d590b212ee7000c108cc4",
+      "pts": 215040,
+      "time_base": "1/10240",
+      "video_seconds": 21.0,
+      "episode_index": 225,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep225-tick0425-wrist.png",
+      "sha256": "c187b76b11f97302ab10f8dbd41b7714e131ea0b9bc498d9e89f7d8b2f0dbef0",
+      "pts": 217600,
+      "time_base": "1/10240",
+      "video_seconds": 21.25,
+      "episode_index": 225,
+      "relative_seconds": 21.25
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0000-wrist.png",
+      "sha256": "c8d36a1450512652b0d803bd76947f64fd2b42497665acbe9f05f9a42142e6b6",
+      "pts": 218112,
+      "time_base": "1/10240",
+      "video_seconds": 21.3,
+      "episode_index": 226,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0060-wrist.png",
+      "sha256": "b689b6bddcc300e8cffc5416736580fb1a1ef4cdf7f7fe4427dbbc8282f08df0",
+      "pts": 248832,
+      "time_base": "1/10240",
+      "video_seconds": 24.3,
+      "episode_index": 226,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0120-wrist.png",
+      "sha256": "a95d6ed8fbc84f05c1e55fe0437a40b9278505c354fbbfb3c080ebade9276dbb",
+      "pts": 279552,
+      "time_base": "1/10240",
+      "video_seconds": 27.3,
+      "episode_index": 226,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0180-wrist.png",
+      "sha256": "09947efe5112fddeb065c4f101f62f2ca06d2ce3386d2c8e428ef7fa85636ed0",
+      "pts": 310272,
+      "time_base": "1/10240",
+      "video_seconds": 30.3,
+      "episode_index": 226,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0240-wrist.png",
+      "sha256": "ed205e14bb6598db3d1d591e9fc8e1859a45e329de17b1a238de1bb6218aba34",
+      "pts": 340992,
+      "time_base": "1/10240",
+      "video_seconds": 33.3,
+      "episode_index": 226,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0300-wrist.png",
+      "sha256": "0b9fa61fc21aa2105bd92fcc21a3f6ae4d65a3db53c4b49e8b3a6587c254fed9",
+      "pts": 371712,
+      "time_base": "1/10240",
+      "video_seconds": 36.3,
+      "episode_index": 226,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0360-wrist.png",
+      "sha256": "072d280d180526d100c9c7f1962269ba11a811d90a83b14f7857758d37fb74d0",
+      "pts": 402432,
+      "time_base": "1/10240",
+      "video_seconds": 39.3,
+      "episode_index": 226,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0420-wrist.png",
+      "sha256": "1bc533c994d53bdce67b8ae08487038061bfce7d6e2f20f80424248e853192a7",
+      "pts": 433152,
+      "time_base": "1/10240",
+      "video_seconds": 42.3,
+      "episode_index": 226,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0480-wrist.png",
+      "sha256": "08ce9fd20469f6bba3a7fceb963bdef88a000192a13eba6fce2f0a00b5a51d8c",
+      "pts": 463872,
+      "time_base": "1/10240",
+      "video_seconds": 45.3,
+      "episode_index": 226,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0540-wrist.png",
+      "sha256": "3e7051598c6ef5c8024201d7918d6f2eb53381403acc4dce26d28e195eadb596",
+      "pts": 494592,
+      "time_base": "1/10240",
+      "video_seconds": 48.3,
+      "episode_index": 226,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep226-tick0567-wrist.png",
+      "sha256": "b7dbf00236fb8bed6b70a0353404a0998be1a98e1c97f05cf8c9527690d42114",
+      "pts": 508416,
+      "time_base": "1/10240",
+      "video_seconds": 49.65,
+      "episode_index": 226,
+      "relative_seconds": 28.35
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0000-wrist.png",
+      "sha256": "55941cc998463c878f3f343169adf7f7f75720476ed5f69cd616553bc7ef17a1",
+      "pts": 508928,
+      "time_base": "1/10240",
+      "video_seconds": 49.7,
+      "episode_index": 227,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0060-wrist.png",
+      "sha256": "2ae24218ec716edb17010c4697f5bfa58cfd20d12a8147fed5d8699e6b19efcf",
+      "pts": 539648,
+      "time_base": "1/10240",
+      "video_seconds": 52.7,
+      "episode_index": 227,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0120-wrist.png",
+      "sha256": "f733c79fd6c1b7dde570a559f3dc389e94416db5f51343f749d705820afc00ad",
+      "pts": 570368,
+      "time_base": "1/10240",
+      "video_seconds": 55.7,
+      "episode_index": 227,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0180-wrist.png",
+      "sha256": "2080572a448b4f4c3db7993cd7b67f05857c5e60b293f462dcaf9664c8d078c1",
+      "pts": 601088,
+      "time_base": "1/10240",
+      "video_seconds": 58.7,
+      "episode_index": 227,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0240-wrist.png",
+      "sha256": "9847aabd68ba4cf4fc45bd18b49c9417a64f43cf5d48d4e2f31e06e8037d8b97",
+      "pts": 631808,
+      "time_base": "1/10240",
+      "video_seconds": 61.7,
+      "episode_index": 227,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0300-wrist.png",
+      "sha256": "c2fdb89ad833a25f9db4233f17f375481c4d51e1d2af221ae64035a71ddc1f0a",
+      "pts": 662528,
+      "time_base": "1/10240",
+      "video_seconds": 64.7,
+      "episode_index": 227,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0360-wrist.png",
+      "sha256": "7be89e42e1740acdb0256a60c4e5616eb72476714c0ad1ee7ad41fde41d6cf91",
+      "pts": 693248,
+      "time_base": "1/10240",
+      "video_seconds": 67.7,
+      "episode_index": 227,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep227-tick0379-wrist.png",
+      "sha256": "e5bdfdacd8ed260af16390fe50180c3f345532794401fa401d6ffb7988213b11",
+      "pts": 702976,
+      "time_base": "1/10240",
+      "video_seconds": 68.65,
+      "episode_index": 227,
+      "relative_seconds": 18.95
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0000-wrist.png",
+      "sha256": "3dc34d31f8c82fa8b85a12977f200a55cec76c912faf9ec6a2ca09f3583aafa8",
+      "pts": 750592,
+      "time_base": "1/10240",
+      "video_seconds": 73.3,
+      "episode_index": 228,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0060-wrist.png",
+      "sha256": "a9d5309ed9a8cd6ed5ead336356bc363ac33863b95e1431cce83b35b3bfc4470",
+      "pts": 781312,
+      "time_base": "1/10240",
+      "video_seconds": 76.3,
+      "episode_index": 228,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0120-wrist.png",
+      "sha256": "494c458a69c140fede6f8bf4a978b469285faf70b3c6c4e6bac4de06fd5ac68a",
+      "pts": 812032,
+      "time_base": "1/10240",
+      "video_seconds": 79.3,
+      "episode_index": 228,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0180-wrist.png",
+      "sha256": "a56d8c0c25efa89f0e4a333b02454c73b8faa9f809d3d0532e32784dabb90163",
+      "pts": 842752,
+      "time_base": "1/10240",
+      "video_seconds": 82.3,
+      "episode_index": 228,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep228-tick0199-wrist.png",
+      "sha256": "b98e3a5bb2fb7791abd2ab1ec3e1d97c76d9b09d46bf47b1f307144f1471fa28",
+      "pts": 852480,
+      "time_base": "1/10240",
+      "video_seconds": 83.25,
+      "episode_index": 228,
+      "relative_seconds": 9.95
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0000-wrist.png",
+      "sha256": "1b8e3aa2b4787f1c2dae066eee289367aff35c900bf5864c60ac5ad8da83819d",
+      "pts": 892928,
+      "time_base": "1/10240",
+      "video_seconds": 87.2,
+      "episode_index": 229,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0060-wrist.png",
+      "sha256": "07d7378e236b7b1e75915aff4d22a8c0044da4bed071ddaca8c86daa779fc30c",
+      "pts": 923648,
+      "time_base": "1/10240",
+      "video_seconds": 90.2,
+      "episode_index": 229,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0120-wrist.png",
+      "sha256": "6f374fda9c4c0eb9570568c152cab6ad3a7e217c30ff3f79704b77e839df37a4",
+      "pts": 954368,
+      "time_base": "1/10240",
+      "video_seconds": 93.2,
+      "episode_index": 229,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0180-wrist.png",
+      "sha256": "9a2634bfa5365387171cffbddf51d030767fe7c7a036dcbbbdc51649d91c273d",
+      "pts": 985088,
+      "time_base": "1/10240",
+      "video_seconds": 96.2,
+      "episode_index": 229,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0240-wrist.png",
+      "sha256": "37b7c0ffd1fd68f15ff0da643f4539f1bd9373a05b38ecddebd43c35236d1408",
+      "pts": 1015808,
+      "time_base": "1/10240",
+      "video_seconds": 99.2,
+      "episode_index": 229,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0300-wrist.png",
+      "sha256": "e66c45d3e119974bccd408987fa5d6eeb68dce1fe04d989ee920968c79774a66",
+      "pts": 1046528,
+      "time_base": "1/10240",
+      "video_seconds": 102.2,
+      "episode_index": 229,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0360-wrist.png",
+      "sha256": "bb43951f4c3e39a76b89fbb604f6c5b3b3601bd9dbb4c3ed3ecabfd21068f349",
+      "pts": 1077248,
+      "time_base": "1/10240",
+      "video_seconds": 105.2,
+      "episode_index": 229,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0420-wrist.png",
+      "sha256": "d2fc73e95cb0bf1fe3d670dbe4e492c32b74ffd2dd6800e91096938e396c5cad",
+      "pts": 1107968,
+      "time_base": "1/10240",
+      "video_seconds": 108.2,
+      "episode_index": 229,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep229-tick0466-wrist.png",
+      "sha256": "ec4c2816b8e06d73d82caa22f17d209a5427fcd8f58fcb19cd9f0b4afd6c5da7",
+      "pts": 1131520,
+      "time_base": "1/10240",
+      "video_seconds": 110.5,
+      "episode_index": 229,
+      "relative_seconds": 23.3
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0000-wrist.png",
+      "sha256": "6be28817790d02cd02160faef4d2d1e59bfc9f7721174703d3dc3fc086821411",
+      "pts": 1132032,
+      "time_base": "1/10240",
+      "video_seconds": 110.55,
+      "episode_index": 230,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0060-wrist.png",
+      "sha256": "d4834a4ab68ee78e5e98d9d6b1940ee20c499a9a27eefb9bfeb3f0f46ab775af",
+      "pts": 1162752,
+      "time_base": "1/10240",
+      "video_seconds": 113.55,
+      "episode_index": 230,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0120-wrist.png",
+      "sha256": "388718607dbc3b3613d79162470ebca11580ad5f5fb514a57043a495a02c1398",
+      "pts": 1193472,
+      "time_base": "1/10240",
+      "video_seconds": 116.55,
+      "episode_index": 230,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0180-wrist.png",
+      "sha256": "662cb4d55a5a754cbcc24cc12be330fa2b2ab36bedeedecb90d3fcc1ec97c41c",
+      "pts": 1224192,
+      "time_base": "1/10240",
+      "video_seconds": 119.55,
+      "episode_index": 230,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep230-tick0203-wrist.png",
+      "sha256": "b5459faecdc369d596806bca5948b5d2079546bcc4bbf261139cb4dfae64f1f2",
+      "pts": 1235968,
+      "time_base": "1/10240",
+      "video_seconds": 120.7,
+      "episode_index": 230,
+      "relative_seconds": 10.15
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0000-wrist.png",
+      "sha256": "6565546f95a3d360a005293ef1c89a0b3bcddc69fad9b85e0be29a6beaec93ae",
+      "pts": 1290240,
+      "time_base": "1/10240",
+      "video_seconds": 126.0,
+      "episode_index": 231,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0060-wrist.png",
+      "sha256": "4c512086476ac5915135f0f243e9163d7519468bfacfb7f3177499db12a75ae4",
+      "pts": 1320960,
+      "time_base": "1/10240",
+      "video_seconds": 129.0,
+      "episode_index": 231,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0120-wrist.png",
+      "sha256": "2210c509ce7f16fbb12431f4a4caa89d35f82b122a91b83e53000c9e149f4d4b",
+      "pts": 1351680,
+      "time_base": "1/10240",
+      "video_seconds": 132.0,
+      "episode_index": 231,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0180-wrist.png",
+      "sha256": "99524af3116f78afb7d40fe5588f21fa2c0e8b2287afe4f041e73cedb8d83142",
+      "pts": 1382400,
+      "time_base": "1/10240",
+      "video_seconds": 135.0,
+      "episode_index": 231,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0240-wrist.png",
+      "sha256": "eaae647faf0d60a4e3683a3cd5cc89170c9466e5efbb094fec06050a797370fc",
+      "pts": 1413120,
+      "time_base": "1/10240",
+      "video_seconds": 138.0,
+      "episode_index": 231,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0300-wrist.png",
+      "sha256": "81706843f0e1f629705aea48ad9626177e98f7e4320d8eb8fb2545028de23218",
+      "pts": 1443840,
+      "time_base": "1/10240",
+      "video_seconds": 141.0,
+      "episode_index": 231,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0360-wrist.png",
+      "sha256": "7fe06b9c4753c68409b50130e36d28bb000a7528e463bdd50cbac1f6e24e1b69",
+      "pts": 1474560,
+      "time_base": "1/10240",
+      "video_seconds": 144.0,
+      "episode_index": 231,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0420-wrist.png",
+      "sha256": "c76dd2bc909c1dac05d79307a0c35adc5921c4e8f6a33c1a505a28604400df6f",
+      "pts": 1505280,
+      "time_base": "1/10240",
+      "video_seconds": 147.0,
+      "episode_index": 231,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0480-wrist.png",
+      "sha256": "4c4028db7970499b1d653f2f2c6fce554962493b45c97071955c430e709eaec2",
+      "pts": 1536000,
+      "time_base": "1/10240",
+      "video_seconds": 150.0,
+      "episode_index": 231,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0540-wrist.png",
+      "sha256": "f467b170a98b57988ce7b78656bf0eed45b1d1d6f9e877648b37ef66ad4b56f5",
+      "pts": 1566720,
+      "time_base": "1/10240",
+      "video_seconds": 153.0,
+      "episode_index": 231,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep231-tick0566-wrist.png",
+      "sha256": "8bdbf41982ab74ea0fc86b79f7782a0a9361e23b13b8263f85df7c73a86452c1",
+      "pts": 1580032,
+      "time_base": "1/10240",
+      "video_seconds": 154.3,
+      "episode_index": 231,
+      "relative_seconds": 28.3
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0000-wrist.png",
+      "sha256": "9d36988bf667ec2aecab2b16e5ab91bb184ea3d6db3be05f007ca72a67dda7ab",
+      "pts": 1580544,
+      "time_base": "1/10240",
+      "video_seconds": 154.35,
+      "episode_index": 232,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0060-wrist.png",
+      "sha256": "adfccfeabf5d7e4bebde231981afc5bcd92da99349c0aa42f2bf2f5f31e2c020",
+      "pts": 1611264,
+      "time_base": "1/10240",
+      "video_seconds": 157.35,
+      "episode_index": 232,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0120-wrist.png",
+      "sha256": "ed8bf58ed5a678cb06cdcc1ab38755596567a74851bcf06baab427a8f49010cb",
+      "pts": 1641984,
+      "time_base": "1/10240",
+      "video_seconds": 160.35,
+      "episode_index": 232,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0180-wrist.png",
+      "sha256": "99dc926025db37875ab08431dd7b7c53221b3e85887428ab412b9e7cd65f5c3a",
+      "pts": 1672704,
+      "time_base": "1/10240",
+      "video_seconds": 163.35,
+      "episode_index": 232,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0240-wrist.png",
+      "sha256": "f167b60bd49a23317c14b30e42fc7e2687639110b7950f9aa0d98ed562a3d9c5",
+      "pts": 1703424,
+      "time_base": "1/10240",
+      "video_seconds": 166.35,
+      "episode_index": 232,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0300-wrist.png",
+      "sha256": "00bb17eeaa7c7ddd3d303bd82d6e5d572897a084f37136b0c20ae55a8041788c",
+      "pts": 1734144,
+      "time_base": "1/10240",
+      "video_seconds": 169.35,
+      "episode_index": 232,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0360-wrist.png",
+      "sha256": "aa0348a5b94fb60edaa6c0bd6ec9958c235342e9ee079ee7606fc472f36a2d77",
+      "pts": 1764864,
+      "time_base": "1/10240",
+      "video_seconds": 172.35,
+      "episode_index": 232,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0420-wrist.png",
+      "sha256": "8ee6ed30da0d8fdcec04d3269108c7a1526fcd9b37e7758efe37f2c7dd00d9ca",
+      "pts": 1795584,
+      "time_base": "1/10240",
+      "video_seconds": 175.35,
+      "episode_index": 232,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0480-wrist.png",
+      "sha256": "78c3ae420565e6b327392425ee2b0dfeb02d7bacd3eecd2fa5f356f9de297746",
+      "pts": 1826304,
+      "time_base": "1/10240",
+      "video_seconds": 178.35,
+      "episode_index": 232,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0540-wrist.png",
+      "sha256": "42de1b8121fc292c5213b84863c735fe37c226e2167495e9f736e92c1c8f77a6",
+      "pts": 1857024,
+      "time_base": "1/10240",
+      "video_seconds": 181.35,
+      "episode_index": 232,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep232-tick0544-wrist.png",
+      "sha256": "65ba9e6c988c763e0cffb360f76fb43897eb5a22b2ebced2b89e619f7a35214d",
+      "pts": 1859072,
+      "time_base": "1/10240",
+      "video_seconds": 181.55,
+      "episode_index": 232,
+      "relative_seconds": 27.2
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0000-wrist.png",
+      "sha256": "4f62b7affd6f02cc96b3faddde9c85561ee4aadd609d63b1fe257d83dec4d312",
+      "pts": 1859584,
+      "time_base": "1/10240",
+      "video_seconds": 181.6,
+      "episode_index": 233,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0060-wrist.png",
+      "sha256": "c537d9fe5830d325e5273a878605a260307a231daaa837ec8972e44a264a4366",
+      "pts": 1890304,
+      "time_base": "1/10240",
+      "video_seconds": 184.6,
+      "episode_index": 233,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0120-wrist.png",
+      "sha256": "13c5bd866d87657022bf3672e6a09bd41eb7b92e267281160a80b7adf8e86766",
+      "pts": 1921024,
+      "time_base": "1/10240",
+      "video_seconds": 187.6,
+      "episode_index": 233,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0180-wrist.png",
+      "sha256": "13aaba83b9f80442db7733a618f63b4697d3c03f888ebcf8346e9400e5780cea",
+      "pts": 1951744,
+      "time_base": "1/10240",
+      "video_seconds": 190.6,
+      "episode_index": 233,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0240-wrist.png",
+      "sha256": "952d02eef7501b0f8e608ba1e3f09bc4b073fd95d2c9a1ae615eab81c3d81ac1",
+      "pts": 1982464,
+      "time_base": "1/10240",
+      "video_seconds": 193.6,
+      "episode_index": 233,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0300-wrist.png",
+      "sha256": "e2a15175064f93f157bbc3e3325787616f0397c8514f471bbdfb6abf0140362c",
+      "pts": 2013184,
+      "time_base": "1/10240",
+      "video_seconds": 196.6,
+      "episode_index": 233,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0360-wrist.png",
+      "sha256": "f3ce32343adbfcf3e251fb71e33f4a9142b56b97b56e608db058e4d82d3bc139",
+      "pts": 2043904,
+      "time_base": "1/10240",
+      "video_seconds": 199.6,
+      "episode_index": 233,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0420-wrist.png",
+      "sha256": "7d76987d3698fa6b7f028e1d22b9acc710c318b4a526496acd454c8e7bdd4dce",
+      "pts": 2074624,
+      "time_base": "1/10240",
+      "video_seconds": 202.6,
+      "episode_index": 233,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0480-wrist.png",
+      "sha256": "1609e5dcd6abcc091d6e059658d92e55ff2a3d2c2871ca0039adda5c4ac4e5b3",
+      "pts": 2105344,
+      "time_base": "1/10240",
+      "video_seconds": 205.6,
+      "episode_index": 233,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0540-wrist.png",
+      "sha256": "690234bea5f5d5f226704408fc5d3e4aff3191b531b7a08349a119999dc2e2c9",
+      "pts": 2136064,
+      "time_base": "1/10240",
+      "video_seconds": 208.6,
+      "episode_index": 233,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep233-tick0571-wrist.png",
+      "sha256": "f7845edfb99b4f0af8cb2e6359f83db7eb23f58335e1a15e48d4cc66b453a4a9",
+      "pts": 2151936,
+      "time_base": "1/10240",
+      "video_seconds": 210.15,
+      "episode_index": 233,
+      "relative_seconds": 28.55
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0000-wrist.png",
+      "sha256": "8e359b26961ed3793a339823b0f1c35d43ea3549969f89547dc21925593181b6",
+      "pts": 2152448,
+      "time_base": "1/10240",
+      "video_seconds": 210.2,
+      "episode_index": 234,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0060-wrist.png",
+      "sha256": "b82c86e025582d34e2fe72a1a82e91a2aaacf18c418e3daf989249c5f33a2153",
+      "pts": 2183168,
+      "time_base": "1/10240",
+      "video_seconds": 213.2,
+      "episode_index": 234,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0120-wrist.png",
+      "sha256": "a4b33162d17f0e6893f52458922409cabe31768912a379135ea20c78a91eadd8",
+      "pts": 2213888,
+      "time_base": "1/10240",
+      "video_seconds": 216.2,
+      "episode_index": 234,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0180-wrist.png",
+      "sha256": "e068576aa2abbe72b5efd3fb5415819297318b598ca614bdf6768b7d2880085a",
+      "pts": 2244608,
+      "time_base": "1/10240",
+      "video_seconds": 219.2,
+      "episode_index": 234,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0240-wrist.png",
+      "sha256": "b6da1e7422d7846dcced48217dd198da789f22baa4419492d249ac2a16b8419e",
+      "pts": 2275328,
+      "time_base": "1/10240",
+      "video_seconds": 222.2,
+      "episode_index": 234,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0300-wrist.png",
+      "sha256": "338e71bb7c92d03f93a32100fe1dd628cc8a8295bebe2950dcb95f17b147394b",
+      "pts": 2306048,
+      "time_base": "1/10240",
+      "video_seconds": 225.2,
+      "episode_index": 234,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0360-wrist.png",
+      "sha256": "325404e7bacb7eaef5c27d8b9f1602a5e36ff5017e58278ac4903337be85982d",
+      "pts": 2336768,
+      "time_base": "1/10240",
+      "video_seconds": 228.2,
+      "episode_index": 234,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0420-wrist.png",
+      "sha256": "b68f0eda99232aab0081630d2409388b4bbcb71fc822e091707b11201507ed4a",
+      "pts": 2367488,
+      "time_base": "1/10240",
+      "video_seconds": 231.2,
+      "episode_index": 234,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0480-wrist.png",
+      "sha256": "dcfe3d416c356d88a4dbad4b94c741df0cc02a53f6d14d89ee8e3e25afce1649",
+      "pts": 2398208,
+      "time_base": "1/10240",
+      "video_seconds": 234.2,
+      "episode_index": 234,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep234-tick0540-wrist.png",
+      "sha256": "6a4b3311759aed219bb556c68609d34bc13c67f071ac3cedd4e050f6b5683d63",
+      "pts": 2428928,
+      "time_base": "1/10240",
+      "video_seconds": 237.2,
+      "episode_index": 234,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0000-wrist.png",
+      "sha256": "1bd3ed4c9aed88d20cd4de1b8c35894a13884dfe64138f44f343faf497904137",
+      "pts": 2429440,
+      "time_base": "1/10240",
+      "video_seconds": 237.25,
+      "episode_index": 235,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0060-wrist.png",
+      "sha256": "4ec05461e6d69c9d3c8c6729e70b3513ed9db53fc4cfdc7fe2f9c619bd134c02",
+      "pts": 2460160,
+      "time_base": "1/10240",
+      "video_seconds": 240.25,
+      "episode_index": 235,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0120-wrist.png",
+      "sha256": "ba175e12b0e07c5060b6108d59642bdc0e076e7048523a5fd222301883e1bb0c",
+      "pts": 2490880,
+      "time_base": "1/10240",
+      "video_seconds": 243.25,
+      "episode_index": 235,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0180-wrist.png",
+      "sha256": "987920370448778b2190e7e0bf1a36eeb90208254733d5ea4e1bb8ced702de1d",
+      "pts": 2521600,
+      "time_base": "1/10240",
+      "video_seconds": 246.25,
+      "episode_index": 235,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0240-wrist.png",
+      "sha256": "daf80b55dc7125f7e89b9631e053fc604e596dd89ee59a2be40a25844394119e",
+      "pts": 2552320,
+      "time_base": "1/10240",
+      "video_seconds": 249.25,
+      "episode_index": 235,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0300-wrist.png",
+      "sha256": "f41c0736ca19d77bd90407fc161f6288b8ed3cc9fbde29a0ba0f0b11fa0bae80",
+      "pts": 2583040,
+      "time_base": "1/10240",
+      "video_seconds": 252.25,
+      "episode_index": 235,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0360-wrist.png",
+      "sha256": "24378881848885898c1b4a5a87f013ee809eb1de8ffe980151fe3befd1b96834",
+      "pts": 2613760,
+      "time_base": "1/10240",
+      "video_seconds": 255.25,
+      "episode_index": 235,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0420-wrist.png",
+      "sha256": "996b6be0c8dc5ae0e25e0e512d9127b54f139dfccd7654ca27db00dc3e36778c",
+      "pts": 2644480,
+      "time_base": "1/10240",
+      "video_seconds": 258.25,
+      "episode_index": 235,
+      "relative_seconds": 21.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0480-wrist.png",
+      "sha256": "f110fb42f6ce5c5af197ce5d3a28ae743a780c35f7cf51fe264145840a5e1d67",
+      "pts": 2675200,
+      "time_base": "1/10240",
+      "video_seconds": 261.25,
+      "episode_index": 235,
+      "relative_seconds": 24.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0540-wrist.png",
+      "sha256": "7e9d419219a1cfff381056e41ae9efdb0e3f4c0ad0b72aeaa8c1cdb3d27e6cf0",
+      "pts": 2705920,
+      "time_base": "1/10240",
+      "video_seconds": 264.25,
+      "episode_index": 235,
+      "relative_seconds": 27.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep235-tick0550-wrist.png",
+      "sha256": "a877d79b2ee744287171df1c58445d25cee22d405bb353d89fa3a6a4909bd9b3",
+      "pts": 2711040,
+      "time_base": "1/10240",
+      "video_seconds": 264.75,
+      "episode_index": 235,
+      "relative_seconds": 27.5
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0000-wrist.png",
+      "sha256": "8974cd2f59f8a71c0fff485278ed9316ce909cb697ee72e1c321d148f1003336",
+      "pts": 2711552,
+      "time_base": "1/10240",
+      "video_seconds": 264.8,
+      "episode_index": 236,
+      "relative_seconds": 0.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0060-wrist.png",
+      "sha256": "6d84a336bc889ef8f773979d0f681321cbc7aacf464a012db409605554c90c84",
+      "pts": 2742272,
+      "time_base": "1/10240",
+      "video_seconds": 267.8,
+      "episode_index": 236,
+      "relative_seconds": 3.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0120-wrist.png",
+      "sha256": "0254d0d9abecc36cf3320361de86bd98fa6bec88be167cee6e8b840ac90806d3",
+      "pts": 2772992,
+      "time_base": "1/10240",
+      "video_seconds": 270.8,
+      "episode_index": 236,
+      "relative_seconds": 6.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0180-wrist.png",
+      "sha256": "fd3768b566ad94d0927c7714bbc7f9ec637716e0c3c6abc0a5c4a3143f66fc14",
+      "pts": 2803712,
+      "time_base": "1/10240",
+      "video_seconds": 273.8,
+      "episode_index": 236,
+      "relative_seconds": 9.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0240-wrist.png",
+      "sha256": "4a1e63c12e8abe1272fac45141b733b12e27dc52ff4492a874401d51d43465ac",
+      "pts": 2834432,
+      "time_base": "1/10240",
+      "video_seconds": 276.8,
+      "episode_index": 236,
+      "relative_seconds": 12.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0300-wrist.png",
+      "sha256": "d97f759c6e5c95df4e5d5f9df87889731210478b50638ec73540c5eb94807757",
+      "pts": 2865152,
+      "time_base": "1/10240",
+      "video_seconds": 279.8,
+      "episode_index": 236,
+      "relative_seconds": 15.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0360-wrist.png",
+      "sha256": "58086835e5e181283d80ff65b9028ace536d2fce6926be42d27b95a8fa1be195",
+      "pts": 2895872,
+      "time_base": "1/10240",
+      "video_seconds": 282.8,
+      "episode_index": 236,
+      "relative_seconds": 18.0
+    },
+    {
+      "camera": "wrist",
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/ep236-tick0399-wrist.png",
+      "sha256": "460e64c019bf2d019b75ef4d20d0172c05e0e512cc10be40f118037cbdc1bf01",
+      "pts": 2915840,
+      "time_base": "1/10240",
+      "video_seconds": 284.75,
+      "episode_index": 236,
+      "relative_seconds": 19.95
+    }
+  ],
+  "pages": [
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-1.png",
+      "sha256": "a4a9a05a310615ee54a0b17bb7ba79b7c6fbdc05a5e6af5d59e0430e17515ace"
+    },
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-2.png",
+      "sha256": "87442600edb47d5fa47fced782ba37d1df678e120ee32c66db785eb621bf1086"
+    },
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-3.png",
+      "sha256": "27a5f9c13d84c4f4dad2d11b6750b2f1a44a53a535fe7f3e06c9d04559cd3f73"
+    },
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-4.png",
+      "sha256": "704945ec2456a2b3e4ef8c591d515e22b219ff84f433cafe3af363f198ca4671"
+    },
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-5.png",
+      "sha256": "9bf06484a534d59ac28bdb281529811e8cea8d6fe1a46d2b96166ba37a543b71"
+    },
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-6.png",
+      "sha256": "45f2f0fb9cd10a2d19d1d0c0e2fa9be68aac2de9c5457b40ba5687050bf2ea74"
+    },
+    {
+      "file": "data/discovery/real-stage-screen-20261116/cohort-review-v1/process-sheet-7.png",
+      "sha256": "6b2500e8bb882c97bd017a0b8dae78e409acaf5ca6a4da29e8a071038678474e"
+    }
+  ],
+  "grid_times_per_episode": {
+    "225": 9,
+    "226": 11,
+    "227": 8,
+    "228": 5,
+    "229": 9,
+    "230": 5,
+    "231": 11,
+    "232": 11,
+    "233": 11,
+    "234": 10,
+    "235": 11,
+    "236": 8
+  },
+  "limits": [
+    "3s grid is not every-frame continuous playback.",
+    "Camera correspondence is metadata nominal time, not verified exposure/action synchronization.",
+    "All 12 previously stratified episodes; unmatched initial states, no causal or prevalence inference."
+  ]
+}

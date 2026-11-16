@@ -1,0 +1,32 @@
+[
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/probeact-v1.html",
+    "url": "https://arxiv.org/html/2606.09740v1",
+    "bytes": 153432,
+    "sha256": "440684f40dcdf0810e8b7a944ad5ed8b7627ec3244eeec111b7fb56752e189d8"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/probeact-abs.html",
+    "url": "https://arxiv.org/abs/2606.09740",
+    "bytes": 43758,
+    "sha256": "df7eb1d0c8302ca5b1bb87357f0589e8784058214c7076c79196bf0009d52245"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/rescue-v1.html",
+    "url": "https://arxiv.org/html/2610.13516v1",
+    "bytes": 189063,
+    "sha256": "62cec2efdafd9a2dcae87a6ce5f5aa38c22dee37904aaf085548d1679dd18c87"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/rescue-abs.html",
+    "url": "https://arxiv.org/abs/2610.13516",
+    "bytes": 43058,
+    "sha256": "a7c082784b64a8a767b506ed8718994a8f3b191d55ba67eb77b1ba5f2fa1e20c"
+  },
+  {
+    "cache_path": "data/discovery/real-stage-screen-20261116/backtrack-abs.html",
+    "url": "https://arxiv.org/abs/2610.32941",
+    "bytes": 41565,
+    "sha256": "64925b098c27d4ad81c5cef61ad7ba649770764c030780c267978fd48326de9e"
+  }
+]

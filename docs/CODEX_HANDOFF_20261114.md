@@ -1,7 +1,7 @@
 # Codex 交接：SmolVLA/SO-101 接口预检接续
 
 日期：2026-11-14。交接对象：Codex 线程 `01a1d541-f599-7ec0-8e72-e53e68ae6395`。
-**2026-11-15当前接续见§23：尚无方向通过门槛；几何监督有界检查不足立题，接着核真实失败多视角过程。**
+**2026-11-16当前接续见§24：尚无方向通过门槛；真实阶段异质，停止扩充同类图，先核可用的官方ACT能力载体。**
 最新状态：**本地20k普通训练与原20条learned pilot已完成，任务成功0/20；载体未就绪，TPSC不进入方法实现。**
 当前事实、文件与下一步见§12；§0–11保留接续历史，旧进程号不是当前运行状态。
 本文不是查新报告，不是 TPSC 立项依据，也不是 A100/VLA 结果。
@@ -560,3 +560,33 @@ SciPy1.16.3只以 --no-deps补装到cogcal-sim，NumPy/MuJoCo未改；原source�
 核可观测量与同题仿真干预是否能区分具体解释，再生成下一科学问题卡。
 不恢复旧BC架构微调、旧VFD解析或共同扫描，不因已搭平台而保留某题。
 本轮没有新策略训练/推理、物理rollout或本项目真机；这些是查新/问题发现进展，目标尚未完成。
+
+## 24. 固定12条真实阶段筛查；通用恢复主张被直接近邻限制
+
+入口：`experiments/discovery/real-stage-screen-20261116/README.md`。
+§23两条密网格结果保留；本轮按新执行前计划读取原12条的绝对3秒网格+末帧，109时点×3相机327帧/7页全看。
+没有新数据视频下载、模型权重下载/推理/训练或物理/硬件回放。
+
+- 226/232在多个后段网格仍近原槽；231/233/234/235已有环离开原槽后未完成套桩的可见过程。
+  成功229/236中途也曾到另一槽，不统一归抓取前失败；结局不是每时点的即时故障/必须干预标签（可用于最终结局预测）。
+  所有接触/滑移/过早release/几何误差原因仍unknown；3秒图、名义日志不能提供反事实。
+- ProbeAct 2606.09740仅v1，已核§3.2–3.5/4/5：真实正文依赖对象probe坐标与同步，
+  不是纯gripper/EE；分级CBF有phase bypass、target proximity clear与Placed清除，不省略保护制造批评。
+- RESCUE 2610.13516仅v1，已核§III–V：状态—干预价值、非单调horizon、时长捷径都已直接研究。
+  泛化“失败检测+恢复价值”不合格；普通阶段监测/CBF/记忆不立新名。
+- 2609.05376仅额外核§III/IV/abs，已有phase视觉grounding；π0.5 case几组指令不同，不能公平比数。
+  2608.08904/2606.31257等只发现，Backtrack仅abs/目录入口，不称全部深审完。
+- Scholar ProbeAct题名查询429/challenge、0结果卡；未取得原文作者代码入口，不称全网无代码。
+  旧cache外层tree包装误读报TypeError，随后读取原source-scan，旧缓存未改。
+- 原数据作者HF ACT `ngocthuong2212/icra_2026_SIM_ONLY` rev5d9827d...，200条、100k步、top/front、chunk100；
+  训练dataset revision=None。作者另外教学repoPractice-Drill固定1d0b395...，76文件，但未绑定原录制scene。
+- 新数据`szk1ck/so101-pickplace-sim-mujoco` rev1405bdc...，5000条/2380000帧/50Hz；
+  同名ACT rev3dcc200...，50k步、front/wrist、chunk100，dataset revision仍None。
+  HF直链GitHub akh1r0ck；colab-lerobot rev787c8f1...仅README+另一个YCB任务训练notebook，无MuJoCo定义。
+  两个dataset community均仅格式转换bot说明，未补原生scene；没有向任何人发消息。
+
+下一步不继续扩大离线联系表，也不盲移植公开checkpoint。
+本地已装LeRobot0.4.3、ACT源rev0b067df...，相关三模块tracked无改；只确认配置/队列接口，尚未实例化。
+可先核与自有teacher32/32匹配数据的batch、normalizer、图像年龄/控制时序，
+若采用成熟ACT作独立能力screen，先冻结单一配置、资源上限、新测试集和停止规则；不恢复旧CNN/GRU微调。
+这是获得可干预科学证据的前置，不等于新方法或选题完成。完整目标active，尚未达成，不标complete/blocked。
