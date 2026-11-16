@@ -1,0 +1,15 @@
+{"t": 1794835626.540445, "at": "2026-11-16T21:27:06+0800", "type": "read", "text": "复核 docs/RESEARCH_DIRECTION_DECISION_20261116.md：关停的是<b>换模块/换任务</b>，不是<b>测误差结构</b>", "html": "复核 <b>上一轮方向裁决</b>：关停的是「换模块 / 换任务 / 提精度」，不是「测误差结构」"}
+{"t": 1794835626.5677679, "at": "2026-11-16T21:27:06+0800", "type": "read", "text": "gain-scan：同 seed 复现 1.19e-4，跨条件 12× → 重复性 ≫ 准确度", "html": "读 gain-scan 结果：同 seed 复现 <b>1.19e-4</b>，跨条件 <b>12×</b> 差异 → 这个策略「重复性 ≫ 准确度」，与工业机床同构"}
+{"t": 1794835626.5920787, "at": "2026-11-16T21:27:06+0800", "type": "search", "text": "arXiv grasp-tolerance x policy = 0; task-space-error x BC = 0", "html": "arXiv：<code>\"grasp tolerance\" AND \"policy\"</code> → <b>0</b>；<code>\"task-space error\" AND \"behavior cloning\"</code> → <b>0</b>"}
+{"t": 1794835626.6146774, "at": "2026-11-16T21:27:06+0800", "type": "search", "text": "GitHub error-budget = 0; test-time-correction = 1", "html": "GitHub：<code>robot policy error budget</code> → <b>0</b>；<code>test-time correction robot policy</code> → 1（<b>awesome-hill-climbing</b>：修正器已被目录化成赛道）"}
+{"t": 1794835626.635509, "at": "2026-11-16T21:27:06+0800", "type": "decide", "text": "范围界定：被排除的是精度作为目标陈述；误差的结构未被排除", "html": "范围界定：上一轮排除的是「精度/鲁棒性」作为<b>目标陈述</b>；<b>误差的结构与可补偿边界</b>不在排除范围内"}
+{"t": 1794835626.6568027, "at": "2026-11-16T21:27:06+0800", "type": "step", "text": "反算残差 r：|d|=28.3mm → r=22.5mm（成功0/20）；r50≈14.5mm", "html": "反算计划残差：<b>|δ|=28.3mm → r=22.5mm</b>（成功 0/20）；插值得 <b>r50 ≈ 14.5mm</b>，与单一容差尺度一致"}
+{"t": 1794835626.6805923, "at": "2026-11-16T21:27:06+0800", "type": "write", "text": "docs/direction-20261116b/PORTFOLIO.md"}
+{"t": 1794835626.7069767, "at": "2026-11-16T21:27:06+0800", "type": "write", "text": "docs/direction-20261116b/F1_POLICY_ERROR_BUDGET.md（H1–H4 / E0–E5 / 决策门）", "html": "落盘 <b>F1 设计稿</b>：H1–H4、E0–E5、预注册骨架、10 天表、<b>kill 判据</b>"}
+{"t": 1794835626.7302763, "at": "2026-11-16T21:27:06+0800", "type": "write", "text": "NOVELTY_PACKAGE.md：主张句三档 + 最近邻对账 + 待查新清单"}
+{"t": 1794835626.7542536, "at": "2026-11-16T21:27:06+0800", "type": "write", "text": "README.md：一页执行摘要 + 三个决策请求"}
+{"t": 1794835684.2532117, "at": "2026-11-16T21:28:04+0800", "type": "sys", "text": "面板上线：poll 1.5s · 进度按里程碑权重自动计算", "html": "面板上线：<b>poll 1.5s</b> · 进度按里程碑权重自动计算（当前 95%，剩余=你的裁决）"}
+{"t": 1794838333.1176457, "at": "2026-11-16T22:12:13+0800", "type": "done", "text": "E1′ 完成：200 集（10 箱 × 20 新种子），verify_e1p 全过；分层 AUC(−obj_pre)=0.981 [0.597,1.0]，ΔAUC vs |δ| CI 含 0"}
+{"t": 1794838333.1177037, "at": "2026-11-16T22:12:13+0800", "type": "note", "text": "查新复核：2611.17658 为\"预测律\"近邻（α=V/(V+s²) 可预测成功率，且作者自陈\"训练噪声同样能预测\"）——我们的 ΔAUC 问题与之同构，风险上调"}
+{"t": 1794838333.1177251, "at": "2026-11-16T22:12:13+0800", "type": "step", "text": "进度面板恢复：systemd --user 服务 live-panel.service，端口 8765，Windows localhost 可达（HTTP 200）"}
+{"t": 1794838474.5252323, "at": "2026-11-16T22:14:34+0800", "type": "note", "text": "查新补跑：deployment envelope 仅 1 条（LLM 多智能体），compensability 引号失效为松散匹配，机器人侧均未发现同构"}

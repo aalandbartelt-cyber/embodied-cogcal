@@ -1,0 +1,325 @@
+{
+ "project": "embodied-cogcal",
+ "round": "direction-20261116b",
+ "phase": "E1′ 已跑通 · 方向待你拍板",
+ "phase_note": "E0/E1′ 已完成；E2 需改协议；外部权威查新待你账号",
+ "updated": "2026-11-16T22:14:39+0800",
+ "progress": 0.95,
+ "progress_items": [
+  {
+   "id": "m1",
+   "label": "复核上一轮方向裁决",
+   "w": 6,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m2",
+   "label": "建立认知/工业双参考框架",
+   "w": 6,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m3",
+   "label": "文献检索：锚定·修正·容差",
+   "w": 14,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m4",
+   "label": "开源生态检索（GitHub）",
+   "w": 6,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m5",
+   "label": "候选方向三重筛选",
+   "w": 12,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m6",
+   "label": "最近邻逐条对账",
+   "w": 10,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m7",
+   "label": "推荐方向 + 证伪设计",
+   "w": 14,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m8",
+   "label": "查新包（关键词/主张句/待办）",
+   "w": 16,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m9",
+   "label": "组合文档 + README 落盘",
+   "w": 11,
+   "done": true,
+   "note": ""
+  },
+  {
+   "id": "m10",
+   "label": "你的裁决（F1 / 备选 / 停）",
+   "w": 5,
+   "done": false,
+   "note": "待你确认"
+  }
+ ],
+ "stages": [
+  {
+   "name": "上一轮裁决复核",
+   "status": "done",
+   "note": "范围界定"
+  },
+  {
+   "name": "参考框架",
+   "status": "done",
+   "note": "System 1/2 · 重复性vs准确度"
+  },
+  {
+   "name": "文献与开源检索",
+   "status": "done",
+   "note": "arXiv · GitHub"
+  },
+  {
+   "name": "候选筛选",
+   "status": "done",
+   "note": "F1–F4"
+  },
+  {
+   "name": "最近邻对账",
+   "status": "done",
+   "note": "逐条剩余差"
+  },
+  {
+   "name": "推荐与证伪",
+   "status": "done",
+   "note": "1–2 天可杀死"
+  },
+  {
+   "name": "落盘",
+   "status": "done",
+   "note": "docs/direction-20261116b/"
+  }
+ ],
+ "metrics": [
+  {
+   "k": "arXiv 检查",
+   "v": "6 组",
+   "hint": "2 条关键查询 0 命中",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "GitHub 检索",
+   "v": "2 项",
+   "hint": "error budget → 0 仓库",
+   "color": "var(--blue)"
+  },
+  {
+   "k": "候选方向",
+   "v": 4,
+   "hint": "F1 推荐 / F2 并入 / F3 备选 / F4 需硬件",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "已冻结数据",
+   "v": "140 eps",
+   "hint": "gain-scan 20261117 · 7 条件",
+   "color": "var(--amber)"
+  },
+  {
+   "k": "Day-0 证伪成本",
+   "v": "0 GPU",
+   "hint": "纯分析现有 trace",
+   "color": "var(--green)"
+  },
+  {
+   "k": "全套实验",
+   "v": "≈70 min",
+   "hint": "≈1190 episodes",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "本轮文档",
+   "v": "4 份",
+   "hint": "PORTFOLIO / F1 / NOVELTY / README",
+   "color": "var(--violet)"
+  },
+  {
+   "k": "E1′ 分层 AUC",
+   "v": "0.981",
+   "hint": "bootstrap 95% CI [0.597, 1.000]，有效箱 {b4,b5}",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "ΔAUC 相对 δ",
+   "v": "+0.037",
+   "hint": "CI [−0.207, +0.160] 含 0 → 未建立\"优于 δ\"",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "成功率过渡带",
+   "v": "14–19 mm",
+   "hint": "机制仅在此窗口可检验；≥22.9 mm 臂未触及物体",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "E1′ 规模",
+   "v": "200 集",
+   "hint": "10 箱 × 20 全新种子，δ 0.07–29.97 mm",
+   "color": "var(--teal)"
+  },
+  {
+   "k": "最近邻风险",
+   "v": "2611.17658",
+   "hint": "预测律先例（α 预测成功率），风险自\"中\"上调",
+   "color": "var(--teal)"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "desc": "Day-0：留出 AUC ≥ 0.80（E0 字面 0.914，但 δ 混杂 → 作废）",
+   "status": "fail"
+  },
+  {
+   "id": "G1′",
+   "desc": "连续 δ 分层 AUC ≥ 0.75、下界 > 0.5：实测 0.981、[0.597, 1.0] → 字面通过，未证明优于 δ",
+   "status": "pass"
+  },
+  {
+   "id": "G2",
+   "desc": "E2：三尺寸 × ≤1 mm 窄 δ 箱在 r/τ 上塌缩（未开跑）",
+   "status": "pending"
+  },
+  {
+   "id": "G3",
+   "desc": "E5′：因果干预把 0/20 提到 ≥12/20（未开跑）",
+   "status": "pending"
+  },
+  {
+   "id": "G4",
+   "desc": "复现与完整性：E1′ 200 集 verify_e1p 全过",
+   "status": "pass"
+  }
+ ],
+ "candidates": [
+  {
+   "id": "F1",
+   "name": "策略误差预算（PEB）",
+   "verdict": "推荐",
+   "why": "E1′：δ 内 obj_pre 分层 AUC 0.981，但 ΔAUC vs |δ| CI 含 0；方向保留，证据降级为\"机制在 14–19 mm 窗口\"，下一步 E2 窄 δ 箱"
+  },
+  {
+   "id": "F2",
+   "name": "偏差场可辨识与补偿",
+   "verdict": "并入F1",
+   "why": "单独立项与 APEX/RTCF 正面相撞"
+  },
+  {
+   "id": "F3",
+   "name": "LLM 智能体偏差校准",
+   "verdict": "备选",
+   "why": "无需硬件，但离具身主轴远、拥挤"
+  },
+  {
+   "id": "F4",
+   "name": "平台变更：双臂/触觉",
+   "verdict": "需授权",
+   "why": "上一轮判定唯一合法重启方式"
+  }
+ ],
+ "searches": [
+  {
+   "q": "all:\"systematic error\" AND all:\"visuomotor\"",
+   "hits": "0"
+  },
+  {
+   "q": "all:\"error budget\" AND cat:cs.RO",
+   "hits": "1"
+  },
+  {
+   "q": "all:\"grasp tolerance\" AND all:\"policy\"",
+   "hits": "0"
+  },
+  {
+   "q": "all:\"task-space error\" AND all:\"behavior cloning\"",
+   "hits": "0"
+  },
+  {
+   "q": "github: robot policy error budget",
+   "hits": "0"
+  },
+  {
+   "q": "github: test-time correction robot policy",
+   "hits": "1"
+  },
+  {
+   "q": "abs:\"tolerance\" AND abs:\"frozen\" AND cat:cs.RO",
+   "hits": "8"
+  },
+  {
+   "q": "2611.17658 全文核对（arXiv abs + 摘要）",
+   "hits": "1"
+  },
+  {
+   "q": "abs:\"deployment envelope\"（arXiv）",
+   "hits": "1"
+  },
+  {
+   "q": "abs:\"compensability\"（arXiv，引号未生效）",
+   "hits": "1.7万"
+  },
+  {
+   "q": "GitHub \"error budget\" robot policy",
+   "hits": "0"
+  }
+ ],
+ "evidence": {
+  "gain": {
+   "delta": [
+    0,
+    3.5,
+    7.1,
+    14.1,
+    21.2,
+    28.3,
+    42.4
+   ],
+   "success": [
+    18,
+    17,
+    20,
+    19,
+    10,
+    0,
+    0
+   ],
+   "planned": [
+    0,
+    2.6,
+    4.65,
+    6.6,
+    6.7,
+    6.43,
+    6.21
+   ]
+  }
+ },
+ "progress_weight": "95/100",
+ "progress_left": [
+  "你的裁决（F1 / 备选 / 停）"
+ ]
+}
