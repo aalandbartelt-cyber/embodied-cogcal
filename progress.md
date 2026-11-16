@@ -454,3 +454,21 @@
   成功率过渡带 14–19 mm；大 δ 端（≥22.9 mm）全失败且 `obj_pre` 回落至 1–4 mm，机制只在过渡带成立。
   记录在 `E1P_RESULT.md`，F1 设计稿补 G1′ 裁决与 E2 协议增补（窄 δ 箱/同 δ 随机化）。
 - 未做：E2 本身、E5′ 干预、外部权威查新（Scholar/CNKI/WoS，需用户侧）。
+
+## 2026-11-16 晚 Round 8：E2 姿态扫描执行完，判为 COLLAPSE
+
+- 接续 Codex thread `01a1d541` 的中断点（中断在 E2 v1 代码刚生成、未 smoke）。本轮先 smoke 尺寸版：
+  28 mm 1/2，20/36 mm 0/2；把 δ 压到 ~1 mm 仍 0/4 → **改尺寸同时改视觉，OOD 致命**，v1 按预注册 §4
+  降级路径作废，改偏航角（外观近乎不变、`W_eff = W(|cosθ|+|sinθ|)`）。
+- 偏航 pilot（10 种子）：2° 9/10、5° 8/10、15° 0/10 → 正式扫描 θ∈{0,2,5,10,15}°×20 种子，
+  δ~U(0.5,1.5) mm，种子 12850–12869 五条件共用，100 集 ≈ 8 min，`verify_e2.py` 全过。
+- 结果：19/20、18/20、18/20、14/20、1/20。P1 +0.90（Fisher 2.9e-9，Newcombe [0.64,0.96]，
+  配对 bootstrap [0.75,1.0]）；P2 CA z=−6.67 p=1.3e-11；P4 对 E1′ b1+b2 37/40 p=1.4e-11 →
+  **COLLAPSE**，单一 δ 预算被否。
+- 机制补充（`mechanism_e2.py`，事后）：钳口停位随 `W_eff` 变宽，斜率 0.90、R² 0.98 → "开口预算"真实；
+  但 10°（+4.4 mm）仍 70%，15° 只再多 1.9 mm 就 5%。失败分两阶段：15° 有 13/20 在闭合时没抓住
+  （停位 ≤ 0.151，抬升集 ≥ 0.155）；被夹住的 7 个里放下仅 1 成功（0° 为 19/20，Fisher p=1.6e-4）。
+- 产物：`experiments/discovery/e2-size-tolerance-20261118/{PREREG.md,RESULTS.md,rollout_e2.py,
+  run_e2.sh,verify_e2.py,analyze_e2.py,mechanism_e2.py,analysis.json,mechanism.json,runs/}`；
+  F1 设计稿补 E2 行、E2 执行段、G2 裁决。
+- 未做：E3（按 COLLAPSE 分支改为 (δ,θ) 二维边界形状）、外观/接触解耦、外部查新（Scholar/CNKI/WoS）。
