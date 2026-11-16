@@ -72,9 +72,31 @@
 - 现有 npz 不含方块四元数，无法判定方块是否在指间转动；放置失败（15° 抬升后 1/7）
   的因果链仍缺这一环。
 
-## 5. 复现
+## 5. 补偿可行性：朝向导数恰为 1.0，补偿是单个关节的偏置
+
+在 20 个 0° episode 的第 55 步**指令目标**上做 FK 有限差分（h=0.05 rad；
+`heading_gain.py` → `heading_gain.json`）：
+
+| 关节 | dφ/dq（rad/rad） |
+|---|---|
+| shoulder_pan | −1.0000 |
+| shoulder_lift / elbow_flex / wrist_flex | −0.0085 |
+| **wrist_roll** | **+1.0000** |
+| gripper | 0.0 |
+
+接近轴的世界 z 分量 = 1.0000（正下抓取，roll 轴严格竖直）。即闭合轴方位与
+`wrist_roll` 一一对应、增益恰 1.0，而 `q5 += 5/10/15°` 时 gripper 原点位移 0.00 mm
+（roll 轴过指尖抓取点）——**补偿只需给 q5 加 θ̂ 弧度，既不要 IK 也不要横向修正**。
+θ 由 `[cos(θ/2),0,0,sin(θ/2)]` 绕 +z 生成（`rollout_e2.py:173`），故符号是 q5 += θ̂。
+
+这把 α 的机制讲完整了：运动学侧朝向增益是 1.0，策略侧是 0.004——差距不在执行器，
+在决策。策略把 q5 停在 0.433±0.001（与 θ 无关），它输出的是"示教位形的关节角"，
+不是"绕物体的朝向"。
+
+## 6. 复现
 
 ```bash
 cd experiments/discovery/e2-size-tolerance-20261118
 /home/mary/miniconda3/envs/cogcal-sim/bin/python anchor_probe.py   # 约 20 s，只读
+/home/mary/miniconda3/envs/cogcal-sim/bin/python heading_gain.py   # 约 1 s，只读
 ```

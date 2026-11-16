@@ -1,0 +1,27 @@
+{
+  "xml": "/home/mary/research/embodied-cogcal/third_party/SO-ARM100/Simulation/SO101/so101_new_calib.xml",
+  "probe": {
+    "tag": "e2-y0-d1",
+    "step": 55,
+    "h_rad": 0.05,
+    "closing_axis": "gripper body local y, world-xy heading (deg)",
+    "n_episodes": 20
+  },
+  "dphi_deg_per_rad": {
+    "shoulder_pan": -57.29577951308215,
+    "shoulder_lift": -0.4884843256905924,
+    "elbow_flex": -0.4884843256905924,
+    "wrist_flex": -0.4884843256905924,
+    "wrist_roll": 57.295760304961476,
+    "gripper": 0.0
+  },
+  "dphi_rad_per_rad": {
+    "shoulder_pan": -0.999999999999997,
+    "shoulder_lift": -0.008525659827685161,
+    "elbow_flex": -0.008525659827685161,
+    "wrist_flex": -0.008525659827685161,
+    "wrist_roll": 0.9999996647550481,
+    "gripper": 0.0
+  },
+  "approach_axis_world_z": 0.9999995139673628
+}

@@ -9,7 +9,9 @@
   产物 `experiments/discovery/e2-size-tolerance-20261118/{anchor_probe.py,anchor_probe.json,ANCHOR_PROBE.md}`。
 - **机制（新）**：θ≥10° 时 100% episode 在闭合前 1.0–1.3 s 已指尖触方块，把方块推走 1.5–2.1 mm；
   θ≤5° 无位移。失败前移为"接近段撞棱"：外伸 3.1 mm（15°）进入 40 mm 开口指垫的下降路径。
-- 更新根目录 `findings.md`；E3 网格与 E5′ 取向补偿仍未开跑；外部查新（Scholar/CNKI/WoS）仍缺。
+- **补偿可行性（FK，完成）**：dφ/dq5=1.0000、roll 轴竖直过抓取点、q5 偏 15° 抓取点位移 0.00 mm
+  → E5′ 是纯 q5 偏置（不用 IK/横向修正），工程量从 1–2 h 降到 ≈1 h。
+- 更新根目录 `findings.md`；E3 网格与 E5′  rollout 仍未开跑；外部查新（Scholar/CNKI/WoS）仍缺。
 - 待裁决：E3（(δ,θ) 稀疏网格）是否先跑、E4（视觉/接触解耦）与 E5′（补偿 wrapper）的先后；
   见 `docs/direction-20261118-pose-prior/DIRECTION.md` 的"需要用户决定"。
 

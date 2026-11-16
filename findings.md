@@ -376,3 +376,8 @@ IMEP已有事实/同事实/重复/最小扰动对照与delivery、决策/执行�
   "闭合瞬间挤出"作为主因；外伸量 `(W_eff−W)/2≈3.1 mm`（15°）与 40 mm 开口的指垫扫掠路径相符。
 - 限度：外观 vs 接触几何仍不可分；npz 无方块四元数；30/45° 实测 φ 受反力偏 0.6–0.7°，以指令为准。
 - 产物：`experiments/discovery/e2-size-tolerance-20261118/{anchor_probe.py,anchor_probe.json,ANCHOR_PROBE.md}`。
+- **补偿可行性（FK，新）**：闭合轴朝向导数 `dφ/dq5 = +1.0000`（`wrist_roll`），
+  `shoulder_pan = −1.0000`，其余关节 ≈−0.0085；接近轴世界 z=1.0000（roll 轴竖直）；
+  q5 偏 5/10/15° 时抓取点位移 0.00 mm。→ 补偿是**单个关节偏置 q5 += θ̂**，无需 IK/横向修正；
+  运动学增益 1.0 对照策略增益 0.004，差距在决策不在执行器。产物
+  `experiments/discovery/e2-size-tolerance-20261118/{heading_gain.py,heading_gain.json}`。
