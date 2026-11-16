@@ -1,5 +1,110 @@
 # 准备阶段事实与边界
 
+## 用户选择 B2 后：新的只读传感问题审查
+
+- 当前入口：[B2 预算与科学问题裁决](docs/B2_BUDGET_DECISION_20261116.md)。
+  官方单轴传感/USB 采集器有公开单价；六维方案需完整报价，不能确认已在预算内。
+  预算留出独立参考、夹具和校准，不因 24bit ADC 或命令码分辨率宣称实际力精度。
+- SDI 出版社预览已有接触力实验；FR-VLA §6 已提出微小力动作的 BC 尺度淹没及残差头建议；
+  FD-VLA 蒸馏 latent force token，不是 N 值。三问题均未获 go；不强造创新。
+- NAD 固定数据卡明确 SO-101 的 force_z 来自重量标签，未装末端 F/T；实测推压子集
+  是 OMX。不能拿它作 SO-101 微小力修正的动态真值，未下载轨迹或执行模型。
+- B2 已明确选择，旧“等待平台选择”条件不再成立；用户新增预算为 **1 万元**，
+  暂将采集设备、夹具加工和独立校准参考全部计入。不采购、不训练。
+- MuJoCo `touch`（法向合力）、`force`（体间力）与 `tactile`（深度/滑动速度）不同，
+  不把仿真深度当真实力或磁/光学原始信号。只核发行元数据为 4.0.1，未实例化新传感器。
+- TacO v2 已做同硬件移除触觉输入及跨材料 vision-only 对照；一般“传感 vs 被动机械效果”
+  问题已有直接覆盖。AnySkin v3 已研究替换皮肤实例后的策略迁移。
+- 2024 continuous F/T bias 稿 §3 已有 bias/drift KF；SDI 等正文仍待核。
+  持续接触时区分参考漂移与真实力变化只作为待核问题，非 go；不能仅以 `y=F+b`
+  的不可辨识性或“接触时冻结校准”作为创新。
+- [B2 首轮审查](docs/B2_SENSOR_SCREEN_20261116.md)记录物理量选择、三问题状态和证明义务。
+  不采购、不修改旧载体、不训练/重放旧 seed；科研方向仍未确定。
+
+## 平台选择前的用户边界：阶段报告，停止同平台搜索与训练（历史）
+
+- 已按顺序读完指定四份接续文件，接受 demo-order、problem-rescreen 及换任务矩阵 no-go。
+- 用户尚未选择第二只 SO-101 或低成本触觉/力传感。本轮不继续检索、训练、策略重放
+  或新预注册，也不以未使用 seed/新任务名绕过停止边界。
+- 当前资源下没有通过门槛的方向；[阶段报告](docs/report/STAGE_REPORT_20261116.md)
+  整理实验事实、否决依据、证据层级、资产和平台变更入口。未把停止裁决写成穷尽不可能性证明。
+- 原始结果、模型和源文件保留；后续研究依赖用户明确选择平台变更。
+
+## 2026-11-16 demo-order 与 problem-rescreen 均 no-go
+
+- demo-order 独立只读审计：canonical 17/19 vs reverse/random 13/13 只是 pilot；
+  训练器从第 1 步起在全部 6,840 帧上均匀采样，episode 存储顺序只重标固定随机
+  索引流，不是 curriculum/primacy/recency；等长 episode 不改变相位序列；旧
+  `train_order.py` 正文未保留（provenance gap）；单侧 p=0.0352 对应双侧
+  p=0.0703，合并 Fisher p=0.0145 不是确认性检验。`verify.py` 只读复跑通过，
+  545 个冻结输入未变。**不再预注册 order-robust 训练，不再用 12900–12919。**
+- problem-rescreen：SO-101 actuator/dynamics/payload 被 NeuralActuator（RSS 2026）
+  与 so101-rt-control 覆盖；action-interface 离线 detection/localization 被 Silent
+  Interface（CoRL 2026 workshop）覆盖，在线有限 probe 被 ActionABI/ActionShift
+  覆盖；Silent Interface exact repair 0/10、simulated mitigation fail；伺服
+  load/current + tube insertion 已有 SO-101 配对 A/B；failure/recovery 有
+  2606.08881v2；经典 drive-gain 有 Gautier & Briot ICRA 2012。**全部 no-go。**
+- **当前没有方向通过选题门槛；完整目标仍 active。** 下一步不是训练，而是换
+  任务/载体/科学问题；新候选须过 `problem-rescreen/RESULT.md` 的 7 条准入条件。
+- **换任务矩阵也已 no-go**：动态抛掷/接取（AthenaZero、Robot Juggling）、
+  颗粒/液体舀取/倾倒（RoboCAP、Matl ICRA 2020、Alloy）、DLO 布线（SILO、
+  WireCraft CoRL 2026）都已有直接近邻，且需要双臂/高速、专用传感或可变形
+  仿真/夹具；当前单 SO-101 不是 capable carrier。详见
+  `experiments/discovery/task-change-20261116/DECISION_MATRIX.md`。
+- **方向裁决：当前平台 no-go，停止同平台搜索与训练。** 下一步是平台级决策
+  （第二只 SO-101、低成本触觉/力传感，或先交付阶段报告），不是再跑一个
+  单臂实验。详见 `docs/RESEARCH_DIRECTION_DECISION_20261116.md`。
+
+## 2026-11-16 固定真实cohort改变问题筛选
+
+[阶段复核](experiments/discovery/real-stage-screen-20261116/README.md)按事前3秒网格读取12条/327帧/7页。
+226/232多个后段时点仍近原槽；231/233/234/235已有环离开原槽后未完成套桩的可见过程。
+成功229/236中途也曾到另一槽，最终结局不能直接当每时点的即时故障/必须干预标签，也不统一归抓取前失败。
+没有接触/滑移/提前release的因果判定，原生单位和曝光/动作同步仍未资格验证。
+ProbeAct正文已用对象probe坐标/相对同步，CBF还有phase bypass/target clear；不删保护后批评。
+RESCUE已有干预价值、非单调recoverability、时长捷径，不能以此为新核心。
+新Scholar题名查询429/challenge、0结果卡；未声称完成Scholar系统查新。
+两组公开51.7M ACT/数据元信息已固定，作者相关repo也定向核，但原生录制scene/接口绑定缺失。
+不下载大权重或盲移植；本地官方ACT模块存在，可继续核自有匹配数据的一次独立能力检查前置。
+当前仍无合格主方向，不把这项平台资格或负面筛选当目标完成。
+
+## 2026-11-15 配对几何监督线降级
+
+[有界结果](experiments/discovery/geometric-supervision-20261115/README.md)：原权重.15、实际SO101 FK、
+单坐标条件CFM的非零几何梯度约.001963，五类零效应对照保留；不称全GRASP复现。
+1024固定Gaussian分位数、两个prior、10/100/1000步：10步非对称有1点合法带损失，
+100/1000步两场所有本组终点相同。普通数值预算对照已消除本组差异，无实际任务损害。
+因此移出当前优先方法方向；RFM条件metric等价已直接限制普通加权/停梯度“创新”。
+完整目标仍active，尚无候选通过门槛。实际失败过程的多视角复核遵循事前选择，不能拼接因果。
+此前最早成功225/失败226的306帧、7页front/top/wrist网格已全看：
+225成功前也有取环区域停留，226多数后段仍在该区域，不能据此命名停滞/记忆新算法。
+探索性10–20秒核查显示226 action200个不同完整行、state192行，排除直接称日志完全冻结；
+仍不能证明真实推理时序或根因。未新增本项目策略/物理/硬件试验。
+
+## 2026-11-15 真实记录与下一科学问题
+
+[真实SO101失败检查](experiments/discovery/deployment-failures-20261115/README.md)
+已固定同一π0.5套环任务12条，核5421行、72张顶视图。环位于不同最终位置是可见事实，
+不是机械误差、抓持偏移或GRASP损害的因果证据；初态未配对，数据作者标签未独立复核。
+旧20k的两个processor均与固定数据stats一致，外部issue的synthetic幅度演示不能解释本项目0/20。
+下一项只优先核GRASP配对FK损失与CFM条件均值；penalty理论/RFM/预条件化已限制宽泛创新，
+不能把普通Jacobian加权、物理loss或停梯度命名成新方法。当前尚未证明任务损害或新颖性。
+
+## 2026-11-15 当前裁决更新
+
+指令必要性候选从优先深审降为诊断工具，详见
+[独立贡献门槛与源码复核](experiments/discovery/instruction-necessity-followup-20261115/README.md)。
+新增2018 DONE规范、2026 shortcut审计及双judge近邻；不把无语言encoder但读task index混成目标盲。
+RoboOrchard固定源码step返回两个done字段None，默认1000步/指定配置30Hz；这是静态事实，非原论文预算/完整攻击。
+具体反例是否已发表尚未证明，也未验证对成熟VLA结论的影响；不宣布查新不通过或方向完成。
+核心方法增量不足，停止将更多相同扫描、普通commit或Isaac移植当下一主任务。
+
+## 新目标启动的实际检索（2026-11-14）
+
+- 再次直接访问Scholar：VLA calibration/compensation 与 selective reasoning/uncertainty 两个查询均被工具返回不可访问；未看到Scholar结果列表。
+- 当前全目标是确定方向；前轮文献准备已完成并不证明新方向成立。不得沿用旧目标complete状态替代新目标。
+- 工作树基线87871e3，干净；旧ECCBF、迁移差值、主动诊断、接触补偿的宽题否决继续作为候选筛选约束。
+
 - 用户已选择 A100 做模型运行，本地 `cogcal-sim` 仅验证物理资产和日志，不安装 OpenVLA 7B。
 - 已有 SO-101 本体资产固定在 a758567c3978dfeefe282ede0500085a48fe8f78。
 - 上一阶段审计起点的 `scene.py` 只有 load/reset；现已补齐基础观测/动作/放置接口并验收，完整任务历史判定仍待实现。
@@ -52,3 +157,193 @@
 - 保留低成本 SO-101、A100、同体仿真—真机；核心研究问题可以更换。
 - 后续不以保留认知偏差/语言冲突/ECCBF为筛选前提；先找精确科学缺口，再判断同平台可实现性。
 - 用户确认的是约束，不是选择接触适配或其他候选；此前四份否决审计继续有效。
+
+## 新一轮候选发现：风险来源而非单一置信度（2026-11-14）
+
+- 直接Scholar查询仍不可访问；GitHub/arXiv/项目原始页面可访问，未把搜索摘要当作正式查新结论。
+- TeAR（arXiv:2609.36182v1）已做遥测条件动作整流和SO-ARM101五自由度物理评估；“热/电流/电压补偿”宽题淘汰。
+- REMM（arXiv:2610.12710v1）已做证据链接、依赖撤回和恢复队列；“可修改具身记忆/错误结论撤回”宽题淘汰。
+- CoVer（arXiv:2602.12281v1）已做语言重述×动作采样验证，Pre-VLA（2605.22446v1）已做候选动作的critic/安全预验证与重采样，DiVeR（2610.04933v1）已用动作表征离散度分配verifier学习权重，GeoAAC（2609.20776v1）已做按可靠性自适应action horizon；“慢推理/多采样/动作置信门控”宽题淘汰。
+- VFD/UQ-VLA（2606.18043v1；官方代码 https://github.com/learnsyslab/uq_vla，Apache-2.0）已做流模型ensemble epistemic uncertainty、失败检测和主动示教；其明确局限是只用初始观测不确定性作任务难度proxy、未处理任务间信息依赖，真实机器人代码不公开。
+- SO-101 failure/recovery benchmark（2606.08881v2）将失败分为semantic/execution两层，并报告恢复率很低；局限写明只覆盖单一SO-101和桌面任务，未来需要区分硬件特有因素与政策结构因素。官方SO-101 Bench（https://github.com/5hadytru/so101_bench，Apache-2.0）则证明仿真可能高估成功率但保持策略排名，不能替代风险校准。
+- 一个仍值得公式级查新的窄候选是：同一失败表象下，策略生成不确定性和执行映射不确定性是否可被识别；在固定算力/动作预算下，按来源选择重采样、缩短chunk、执行整流或暂停，是否比单一verifier/单一rectifier更有效。它不是“把VFD+TeAR拼起来”的贡献；必须证明来源可辨识条件、干预映射和固定预算下的可证伪增量，否则淘汰。
+
+## 风险来源候选的继续检索与降级
+
+- PATCH（2606.16690v1）已做 action-chunk 条件 latent-patch innovation monitor 和暂停/恢复路由；CommitFlow（2609.21908v1）已做 semantic commitment monitor、物理条件验证和局部修正；ReTrace（2610.15814v1）已做跨阶段失败归因与后续修正。因此“策略风险 vs 执行风险监测/归因”不再是主推荐。
+- RoboValue（2610.26663v1）和 RoboLongR（2610.33863v1）进一步覆盖 value consistency、有效执行顺序和因果进度奖励；不要把顺序敏感的进度模型改名为新记忆机制。
+- `Same Weights, Different Robot`（2606.03724v1）给出静态 normalization metadata 的 ExecSpec certificate，但原文限制明确留下 control frequency、action chunk execution、controller convention、contact/hardware；这成为当前新的首要候选边界。
+- PolicyIK（2611.05372v1，Apache-2.0 GitHub固定提交）已覆盖高精度IK/反馈残差；TeAR已覆盖telemetry动作整流，FAN已覆盖continual action normalization。新候选必须是动态 executable-equivalence certificate和证书指导的拒绝/受限补偿，不能是三者拼接。
+- 当前推荐顺序改为：D 动态可执行策略规范/同体等价证书 > B 评测资产；风险来源分解降级为背景/强对照。D尚未查新通过。
+- 现有MuJoCo场景只读预检：6关节×2方向×6执行窗共72条记录；1步窗最大跟踪误差0.079734rad，25步窗平均绝对误差0.011424rad，100步窗最大误差0.000829rad。证据 `experiments/so101/dynamic-interface-precheck.json`，仅证明可观测动态接口，不证明sim-real或VLA效果。
+- 新查到 RACE（2610.05719）、PACT-VLA（2610.28019）和RTC（2506.07339）已覆盖长chunk transition/异步延迟/预提交候选选择；候选D不再包含chunk调度，改为组合式静态+动态 executable-equivalence certificate，并将三者列强对照。
+- Provael开源Apache-2.0红队框架（主分支3ad892e）已在报告schema中记录实际加载的unnormalizer、chunk、clamp和controller convention digest；候选D不能把manifest字段记录当作核心创新，必须产生可计算的动态证书/任务margin结论。
+
+## D / D′ 的最新深审裁决（取代以上推荐顺序）
+
+- 用户选择继续深审动态 executable-policy 证书。SciSpace 提供新近邻线索后，根代理核对原始 arXiv 正文与固定 GitHub 源码；没有把生成的索引摘要当最终证据。
+- **停止 D / D′ 现有核心主张。** ActionABI/ActionShift 覆盖契约等价类、拒绝和有限 probe；ForeReach（2608.02453v1）Algorithm 1 已有 sparse target transitions、residual envelope、task-projected reachable tube 与 margin 比较，缺少有效域外结构假设时必须拒绝。SO-101 真机范围差异本身不足以构成新机制。
+- CARE（2610.08917v1）已有 VLA 整回合配对负迁移风险、FWER、序贯候选认证；不能以“局部误差认证升级为闭环统计认证”再次改名。经典 MTL/STL robustness、时序/时空 robustness 与 Vincent 等 rollout 风险界进一步压缩宽题。
+- 更正实质性错误：Same Weights displacement 漏掉 z×量程差项，已按 Eq. (9) 修复；其 §4.4 已定义 local margin，不是完全未关联；RoboStress 的 friction/backlash/compliance 模型应归 Self-compensating VLA，不能归 TeAR。
+- ActionABI 93cf1e1 与 ActionShift 9991595 已克隆到临时目录，读取 LICENSE、identifiability/converter、DualABI、held-action target-update-mask 源码；本次未构建、训练或复现其性能。
+- 四个数学缺口：有限样本最大误差不等于全域上界；same-command 开环差异不等于视觉反馈闭环等价；q 接近不约束物体/接触；边际 conformal coverage 不等于选择后的接受风险。分析核算单独存档，未当机器人实验。
+- 零失败 IID Bernoulli 完整回合的示例计算：95% 置信上界小于5%，单个固定候选需59回合；10候选简单Bonferroni示例每候选104回合。这不是普遍最小样本量或已执行结果。
+- discovery sources 现为27条版本化arXiv记录、10项GitHub来源及1项经典作者机构来源；新增6篇原始元数据独立核对。主文献库50条未改动，不把二者数量混加为全文精读数。
+- SO-101、A100、MuJoCo 与日志共用资产继续保留。尚未确定可立项主方向；不将“否决完毕/资料提交”作为持续研究目标完成。
+
+## DeepSeek 提案与共享前缀候选的后续审计
+
+- 用户提供了 DeepSeek 扫描；原稿保存在 `docs/prior-art/cognitive-compensation-scan-20261114.md`，独立复核见 `review-deepseek-rcbt.md`。没有把其关键词未命中和自评评分当作查新证据。
+- RCBT 的“参考类＋分层 GP＋残差迁移”被 NIPS 2007 MTGP、AAAI 2010 AT-GP、UAI 2018 latent-GP meta-RL、ALPaCA 和 RA-L 2022 MRPL 直接约束；单示范均值偏差会破坏多模态正确动作，反例已存 JSON。
+- BAS-VLA 原文 §4.2/C.2 已证明统一 semantic separation margin 的局部性质；构造了共享动作前缀任务的目标函数反例，但尚未测 BAS-VLA 训练/真实失效。
+- One Word, Different Action（2609.05260）已提供真实机器人 Decision Invariance/Sensitivity 基准；RT-H 已共享语言动作层；Stage-Aware VLA 处理长任务 one-to-many；Acting While Understanding 处理 stale semantics；PHASER/Hide-and-Seek 处理 phase/failure onset。新候选不能宣称首次研究这些宽问题。
+- 新候选单独报告：`docs/prior-art/temporal-prefix-calibration-audit.md`。核心只暂称 outcome-aligned temporal semantic calibration/TPSC，必须先证明 uniform separation 在 shared-prefix 上造成错误纠偏，并超过 action-only mask/阶段状态/层级语言等强基线。
+- 新增分析核算 `experiments/so101/shared-prefix-separation-audit.json`：6 步 toy chunk、3 步共享前缀、分叉支持 2 步；统一 margin 的 toy penalty 2.0、只在分叉支持上施加分离时 penalty 0.0。这是目标函数几何，不是策略实验。
+- `mechanism-first-sources-20261114.json` 已补齐 One Word、RT-H、Acting While Understanding、PHASER、Hide-and-Seek 和 Still Grounded 的 6 个版本化 arXiv 元数据；哈希只证明取到的 API 响应可追溯，不证明已完成全文复现。
+- 新一轮原文审计加入 AtomSkill（2512.18368v2）、TRA（2502.05454v2）、Counterfactual Memory Audit（2609.27247v1）和 REFACTOR-VLA（2609.01215v1）。AtomSkill/TRA/REFACTOR-VLA 分别压缩语义时间对齐、组合表示和结果型行为等价的宽泛新意；TPSC 只能继续审计 paired-language 的逐时刻保持/分叉支持。
+- CriticHack（2610.02527v1）已把视觉 reward 错误对象放大、总体指标掩盖语义误排和 task-specific verifier 修正做成闭环 MuJoCo 实验；完成判定线降为强对照/复现线，不再作为主创新候选。
+- 载体可行性新增可核验证据：`lerobot/smolvla_base`（450M 级、Apache-2.0 模型卡）和 `lerobot/svla_so101_pickplace`（Apache-2.0 数据卡）均为公开、非 gated Hub 资产；官方文档给出 SO-101/多相机/状态/语言/action-chunk 微调路径。它只证明可启动基线，不证明本项目方法或仿真—真机一致性。
+- 公开数据接口预检进一步确认：6 维字段顺序与本项目关节名一致，但 LeRobot 公共关节值按角度、夹爪按 0–100 表示；转换到当前 MuJoCo 后 `elbow_flex`、`wrist_flex` 范围越界。证据在 `experiments/so101/smolvla-interface-preflight/summary.json`；在解释策略结果前必须解决版本/校准/关节范围差异。
+- 接续分析补上数据集时代证据：`svla_so101_pickplace` 创建于 2025-05-23，早于 LeRobot v0.3.2；旧版 `manipulator.py` 明确使用 degrees（[-180,180]）+ gripper 0–100，因此角度假设成立。`elbow_flex`/`wrist_flex` 真实越界 +3.17°/+4.49°；`robot_type=so100_follower`，不能声称 SO-101 同体。决策：只作 carrier smoke test，TPSC 同体实验需项目自有 SO-101 校准数据。详见 `experiments/so101/smolvla-interface-preflight/range-mismatch-analysis.md`。
+- 公开数据集扫描补充：真实 `so101_follower` 数据 `kristaqp/so101-pick-place`（50 eps）elbow 也到 100.0°，复现 +3.17° 越界；说明 XML 96.83° 是保守限位，不是 SO-100 独有。`ngocthuong2212/so101_mujoco_follower_7_31`（200 eps、MuJoCo、SO-101、degrees）action 范围与 XML 逐关节吻合，作仿真载体首选；`kristaqp` 作真实参考；`svla` 保留 SO-100 负对照。证据 `real-so101-reference.json` / `public-dataset-scan.md`。
+- TPSC pilot 的 scripted IK 检查：full 120 中 shared-prefix 的 target/executed prefix diff = 0；no-common 从 `above_object` 起 diff >1.2 rad；multi-valid prefix 0、route diff >1.15 rad。kinematic-carry `place_success=120/120`，物理抓取 pilot 0/20、final 56/120。它验证任务结构与路径，不是 learned policy 的 shared prefix，也不是物理抓取 benchmark。
+- 完整研究目标仍 active；当前候选未查新通过、未实现、未获得 A100/VLA/真机结果。
+
+## 2026-11-14 后续关键更正（优先于上文旧候选描述）
+
+- 真正调用固定BAS-VLA源码后，旧6步toy的2.0只对应逐步hinge求和；展平chunk损失0。正惩罚不意味着非零输出梯度或任务伤害。公开artifact仍是per_step，必须区分布局与完整损失preset。
+- 等未来损失不能作为shared-correct-action判据：同样失败也可等损失；需要分别成功续接的证据，且“允许共用”不等于强制多模态策略输出同一动作。
+- 用户15项目盘点带来强对照与载体线索，没有自动带来新方法。MolmoAct2-SO100_101为5.44B、q01/q99、horizon30，与当前角度零位/normalizer不同；TurboVLA的公开LIBERO为7D、H12；StarVLA的SO101待支持。原始revision和hash已落盘。
+- 原scripted物理teacher前提有具体错误：OPEN0/CLOSED1.4与实测张合相反；IK追踪转轴而不是官方TCP，相距8.207cm。原数学共享路径不能升级成成功物理共享前缀。
+- 本地EGL实测通过，OSMesa库缺失；队列v1取消、v2等待训练完成后才执行20条。载体未就绪时科学结论仍不可辨识；完整选题目标active。
+
+## 20k/20条正式能力screen的最新结论
+
+固定20k checkpoint已完成原20条learned pilot，任务成功/抬升/放置均0/20，10对全部保留。
+本轮只证明这套公开单任务训练与当前未验证适配的任务载体未就绪；不支持正确共享前缀、
+语义因果作用或uniform separation伤害。后者未运行，TPSC不进入方法实现。
+
+进一步修正：共同可行动作存在不强制点态一致，强制分离不一定伤害正确性；过大margin也不专属共享前缀问题。
+ECT配对普通imitation是必须比较的简单强基线；通用antithetic flow训练已有机器人工作。
+MolmoAct2公开75条双YAM rollout没有成功标签，不能从固定抽帧或停滞proxy宣称state hallucination。
+当前仍没有通过选题门槛的方向，研究目标active。新证据必须来自合格策略的具体机制和超出强简单对照的结果。
+
+新的积极可行性线索：固定外部SO101控制器b02b8b2在当前MuJoCo4.0.1实际抓放成功，hover负对照未通过，
+独立双指接触记录复跑最长连续持物抬升2.6365s；其显式指垫/friction2/28mm物体不同于原TPSC，不能升级为本项目
+learned能力或真机结论。R3L、DEFLECT-v3与TPC-FM进一步排除通用prefix mask、共享随机数、配对flow时间的宽创新。
+
+## 匹配载体与非Markov近邻的新证据
+
+匹配单任务的物理teacher32/32，但普通小BC固定2000步测试0/20，因此即使不再有公开数据接口混淆，
+也不能从失败解释补偿伤害。同权重val诊断执行30步4/8、执行6步0/8，提示需要检查阶段推进/闭环偏离；
+不是已确定根因。30步8/8持物抬升与放桌，失败4例未释放，不能修改成功谓词把它们算通过。
+
+Why Does Action Chunking Improve…、Revisiting Open-Loop Execution、Measuring the Stability Assumption已有
+非Markov表达、延迟集成、长历史和配对开环/闭环传播探针；TRACT已有未来phase路由与响应亏损积分。
+因此不能把本次horizon诊断直接当新研究机制。APEX/Tune to Learn/NADA/GAP等同时要求
+“精度改善破坏阶段线索”窄问题必须与传统gain/noise/contact及模态捷径解释区分；当前尚无证据。
+原文/来源缓存与固定GAP源码实现问题详见 `docs/prior-art/history-compensation-mechanism-screen.md`。
+
+## 普通循环BC与初始视觉特征的实际边界
+
+相同初始化/采样/参数量的carry/reset在新20个相同初态上为11/20、4/20；
+carry独成功9、reset独成功2，共同成功2、共同失败7。单训练seed只支持此设定下的观察，
+不证明记忆含正确事实或旧CNN失败由非Markov性唯一导致。
+固定初始RGB特征版本在另20个新初态为15/20，19/20持物抬升，仍未达16/20资格门槛。
+不把15/20近似算通过；按计划停止继续微调此小模型，补偿干预仍未运行。
+
+全24train最近的完整输入没有严格相等；近似输入/不同未来chunk不能冒充不可辨识证明。
+初始固定颜色定位的val误差1.49mm只表明图像含位置信息，不是硬件/学习策略定位精度。
+Copycat已有前动作捷径及目标条件对抗器；CSA已有单因素算子混合偏移和延迟顺序；
+IMEP已有事实/同事实/重复/最小扰动对照与delivery、决策/执行分离，不能把这些机制包装成新方向。
+见 `docs/prior-art/feedback-memory-followup.md` 及两组独立能力记录。
+
+新增直接近邻SAGE/GapONet与官方SO101教程，固定源码和检查点契约见
+`docs/prior-art/nvidia-so101-sage-gaponet-audit.md`。不能再把配对sim-real间隙采集、
+历史执行模型、VLA后接神经补偿及同体展示当核心新意；官方SO101闭环集成本身仍为future work。
+新入口有匹配场景/75sim示范/N1.6权重元数据，可作为下一步成熟基线审查对象，但本轮未加载或验证能力。
+
+## 2026-11-15 VFD可行性后续：读取前的边界
+
+- 上轮属于progress：四阶段解析/回归探针、强对照及提交570ef7c改变了下一动作；尚无真实任务损害。
+- 当前只读资产资格检查：官方UQ仓库明确不提供checkpoint/实机代码，逐成员训练资源高于本地12GB，尚非即用SO101 ensemble；资源值仅为作者运行配置，不是硬最小值。
+- 新发现需原文细读：2608.28010v1已经声称相同末端分布也可有不同CFM比率；2611.11650v1 FlowEval诊断部署/适配，并列post-transformed demos为局限。两者此时只完成摘要/目录读取，不能泛化其覆盖。
+- 发现版本一致性问题：UQ当前仓库说明2026-10更新generalist版本，而上轮理论检查明确使用v1；需核最新正文是否新增路径/近似误差讨论。
+
+- 已补核UQ v2 §4/A.2/§7/C.7：连续定理仍明确Gaussian OT条件；learned场评分仍作近似。v2已有子集flow-time消融，后期单点s=.8在四成员中不降balanced accuracy；不能把选时/省节点当新核心。
+- 2608.28010v1 §6.2与A.5已读：用二维反对称旋转场保持整个Gaussian边缘分布不变，但CFM比率非零。该论文目标是CFM/NLL比率，不是直接VFD；它已占据路径无关性失效的一般原理，不可据我们的不同一维构造宣称首次。
+- Bijou确有公开raw weights及本地低显存推理说明，但现有同seed对比多为AR或采样噪声多draw，不等于独立训练flow ensemble；完整许可/任务成功审查仍待后续，不安装其代码。
+- 新的优先资产入口：Advaitic/drishti声称MuJoCo SO101 SmolVLA有带成功/失败标签rollout；SO101 Bench 2610.36420发现。此处仅检索命中，尚未将摘要数字采信为本项目证据。
+
+## 2026-11-15 新问题发现：两条有边界的检索
+
+- 上轮为progress：7e49b34实际审计公开63条/4607步、补核UQ v2并降低VFD优先级。当前新筛同步观测与语言任务可区分性，最多深审两项。
+- 同步宽题已有UMI原始论文RSS2024 p045：按最慢流对齐、q插值/相机软同步、测观测及执行延迟并丢弃过期动作。Koide OAGM2019原稿已有robot-camera重投影时间偏置估计；不能把补时间戳或在线offset校准直接当新核心。此时仅检索命中/摘要范围，待定向阅读。
+- SciSpace新发现InstructMove、One Word Different Action；CAST/CAG/ECT/CounterAlign也命中。当前仅摘要元数据，不用命中数量宣称查新覆盖或通过。任务成功集交叠可能造成语言诊断无区分力的假设尚无本项目新证据。
+
+- 定向已读InstructMove v1 §3.1–3.4/4.3/5：已有多可行候选/唯一语言目标/同场景换指令和阶段分数；普通任务可区分性宽题不能立项。§4.3明确target-specific成功lift可提前结束，generic等运行全时域。拟核一个更窄问题：忽略语言但遍历候选的共同策略能否因目标特定停止而两边得分；尚未读实现，不能认定原基准有此漏洞。
+- 已读One Word v1 §III：固定可执行动作集合，按唯一正确动作/集合/序列严格匹配，不仅比较action差异。它已有稳定/变化配对和排除/数量/顺序约束；不能把严格首选择/多约束配对称新贡献。
+- 已读DAM-VLA v1 §3/5：已有异步modality buffers、q100Hz/视觉25Hz、独立gate、训练统一100Hz标签及执行延迟处理；局限是力尚未chunk内修正、视觉固定timer。宽泛异步或加力修正直接落入既有/直接下一步，停止该宽题。
+
+- 固定RoboOrchard f2e041e（2026-10-22）原样AST定义+显式布尔checker适配器：共同scan正反顺序在N=2/3/6的累计success全通过，固定末时刻当前条件仅末对象通过；no-op/reach-only失败、single各1对象通过，14/15 dwell边界正常。不是Isaac/VLA结果；源码当前4阶段与论文v1 2阶段分开。
+- 接续物理见证执行前另冻结PLAN-physical；同MuJoCo SO101显式新增第二同物理cube，5条固定测试全部保留。正反scan都实际持物抬升两个对象，各最长1.241s，单目标仅相应对象、no-op均无抬升；0限幅，最大穿透约.117mm，无rollout物体pose写入。没有真实VLA或原Isaac复现。
+- 源码普通Evaluator._step_episode见target成功即break，counterfactual固定时域；单纯固定时域保留ever-score不能排除共同scan。此时原始loop组件对照仍待输出。
+- 注意语义边界：若用户/任务本就允许额外操作，依次完成两对象可合法；问题是成功指标不能识别语言必要性，不是无条件错误标注。首目标或显式只选一个/commit规则是既有简单修正，不当新算法。
+
+- 原始Evaluator._step_episode组件已实跑：正反共同序列在两目标绑定都成功，目标first-hit在24/53步分别停止；强制56步但保留累计评分也全成功。此为原样loop+显式假环境，未运行完整Isaac wrapper。
+- 老近邻已检索定位：Inner Monologue CoRL2022已有oracle-vs-fixed termination对照；Code as Policies同类对照。需要细读后限制新颖性，不能把去oracle/固定horizon称新原理。SciSpace本轮先前发现8条，之后工具被移除，不尝试当全文来源。
+
+- 查新补核Inner Monologue作者原稿§4.1、Code as Policies v4附录K：oracle和固定动作数/末状态评价早已对照；去oracle/显式停止不是新方法。新问题若有贡献，只能是多候选静态text-indispensability与整个轨迹验收语言必要性的区别及实际影响；当前尚无跨基准/learned排序影响。
+- Scholar请求HTTP200但标题Verifying...，result cards=0；这是验证拦截，非成功检索或无相关文献。原响应/hash保留，不将HTTP状态当查新覆盖。
+- 物理fresh replay五条轨迹逐字节一致，全部1848个命令；独立控制率接触检查每个实际抓取37连续样本，未抓对象为0。所有trace中的两对象均在TCP .2m内只是事后本场景距离诊断，非原Isaac行为统计。
+## 2026-11-16 官方 ACT 载体与三条候选关闭
+
+- 官方 ACT 固定能力筛查：12100–12119 共 20 条，**18/20 PASS**，独立物理审计
+  `passed=true`；仅载体资格，不是方向/查新/TPSC/补偿/真机。
+- 事后机制诊断：首次释放时 xy 误差仅 2.4–4.3 mm；失败来自学到的成功后返回动作
+  重新接触物体。oracle `freeze_open`（12300–12319）20/20；仅用夹爪命令的
+  task-specific 检测器（12400–12419）也 20/20，最终 2.03–5.45 mm。
+- 广义 post-completion **no-go**：Temporal Aliasing（AJoSR 2026）已有
+  release/retreat/stability/collision 证书；GR-BC（CoRL 2026）已对成功轨迹内
+  regressive chunks 做后果加权。
+- action-chunking 窄线 **关闭**：execute30/10/6 在 12600–12619 为 19/20、7/20、0/20；
+  全局缩短 horizon 反而破坏抓取/抬升；chunk 重叠/边界跳变/跟踪误差不能预测失败。
+- TPSC **no-go**：CMTA 2023（contrastive modules + temporal attention）、
+  Sigma-Agent 2024、AtomSkill 2025 已覆盖核心组合；当前 ACT 单任务，TPSC 场景
+  scripted grasp 仍 0/20。- 认知偏差探针试点：源位置可见偏移 20 mm（12700–12719）从 19/20 → **1/20**，
+  19/20 夹爪更靠近旧训练源；物体透明遮挡（12800–12819）从 17/20 → **0/20**，
+  16/20 完全未抬升。存在“视觉存在门控 vs 空间锚定”的分离。
+- 但该候选 **no-go**：CorrectVLA 2026 的 failure taxonomy 已覆盖 perception/target
+  failure；SO-101 failure/recovery benchmark 2606.08881v2 已有 State Mismatch、
+  Grasp Instability、semantic/execution 分解和 recovery（真实 SO-101/ACT）。
+  最多是已有 taxonomy 下的细粒度诊断，不是新方向。
+- 演示顺序探针（新候选，未查新通过）：同一 24 条示教、只改训练顺序。
+  canonical 两次独立训练 **17/20、19/20**；reverse/random 各 **13/20**。
+  canonical-retrain vs reverse/random McNemar 均 **p=0.0352**；合并 canonical
+  36/40 vs 非 canonical 26/40，Fisher **p=0.0145**；官方 vs 重训 p=0.3125
+  （run-to-run 差 2/20）。初始 chunk L1 0.0031–0.0035 rad；训练/验证损失接近。
+  可能是数据顺序/课程效应，canonical 顺序或与收集/难度相关；`order-robust
+  training` 方法简单，COIL/SGD/curriculum 尚未全文核查；需机制分析和更多
+  orders/seeds。不能据此声称方向。- 当前问题空间（含接触丰富装配 CompVLA/TLA/UniTacVLA/TacVLA、相机标定、多物体、
+  长时序、恢复）均有强近邻；**没有方向通过选题门槛**。下一步应重新定义研究问题/任务，
+  不再换模块名/损失/任务名，也不再跑 20k 训练。详见
+  `docs/NEXT_PROBLEM_SEARCH_20261116.md`。
+
+## 2026-11-16 晚 2611.17658 核验与"定位增益"线的处置
+
+- 上级会话在"新近邻核验"处中断；本轮取得 2611.17658v1 正文（摘要、§1–§5.4、
+  附录 A 说明）。其主张为模仿策略学到一个本体锚并按下式给读数加权
+  α=V/(V+s²)，V 属于学习器；测一次 V 可预测十个留出噪声档的 α（MAE 0.025，
+  经典 EIV 0.37），闭环响应 ρ>α（15/15 过门控），低 α 与低成功率相关。
+- 该文吃掉了"闭环放大""读数打折""perception 误差传导"作为独立新点；本项目
+  上述三条关闭，只保留为机制解释并须引用该文（独立支持，不是本项目发现）。
+- 它只研究**读数噪声**，不研究**支撑外位移**，也不做干预；本项目主现象
+  （教学支撑 ±5 mm，20 mm 位移，规划层 g≈0.19，成功率 19/20→1/20）不在其
+  预测式定义域内（s=0 时该式给 α=1），因此不能被它解释。
+- 保留候选重定义为：**定位增益是学到的后验斜率，示教支撑决定其形状；支撑外
+  增益亏缺是系统性、位置相关偏差，可在示教侧或推理侧校准**。可证伪预测 P1–P6
+  见 `docs/report/DIRECTION_ANCHOR_AUDIT_20261116.md`。
+- 既有强对照不变：Indy7 已在相同示教数量下比较位置覆盖（故本项目不重复
+  "覆盖重要"这一结论）；State-free 已研究去本体输入。新增"条数假说"对照（P6）。
+- 查新未通过：Scholar 仍为验证拦截，arXiv 官方 API 返回 429/超时；本方向只
+  能称"唯一保留候选"，不能称查新通过。

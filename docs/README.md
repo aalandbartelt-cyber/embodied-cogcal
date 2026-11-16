@@ -1,12 +1,34 @@
 # 文档索引
 
-## 当前阅读入口（2026-11-14）
+**最新：用户已选择 B2（低成本触觉／力传感）。** 请先读
+[B2 预算与科学问题裁决](B2_BUDGET_DECISION_20261116.md)及
+[量测首轮审查](B2_SENSOR_SCREEN_20261116.md)。新增预算 1 万元，暂按全包含；仅做只读前期审查，
+当前无方法 go、无新预注册或训练。下面阶段报告反映平台选择前的结论。
 
-1. [查新与换方案裁决](prior-art/ROUTE_DECISION.md)：三个宽泛方案停止作为核心；[限时探索](prior-art/EXPLORATION_PROTOCOL.md)尚未通过新颖性门槛。
-2. [研究现状/文献库](literature/README.md)：47 篇论文/方法文献 + 3 项工程来源，含可导入引用。
-3. [导师汇报提纲与问答](report/PROGRESS_REPORT.md)、[论文相关工作准备稿](paper/RELATED_WORK_DRAFT.md)。
-4. [研究准备度与剩余工作](RESEARCH_READINESS.md)、[主张—证据表](paper/CLAIM_EVIDENCE_MATRIX.md)。
-5. [A100 交接](NEXT_A100.md)：先做环境与本体兼容载体冒烟，不越过选题/协议门槛。
+## 平台选择前的阅读入口（2026-11-16 17:55）
+
+**当前交付：[阶段报告](report/STAGE_REPORT_20261116.md)。** 用户最新决定为停止
+同平台搜索与训练；第二只 SO-101 或触觉/力传感须由用户明确选择。
+以下平台、A100 和历史提纲入口只供查阅，不授权恢复冒烟、训练或旧队列。
+
+1. [方向裁决](RESEARCH_DIRECTION_DECISION_20261116.md)：当前单臂平台 no-go，
+   停止同平台搜索与训练；下一步是平台决策或阶段报告。
+2. [Codex 交接](CODEX_HANDOFF_20261116.md)：ACT 载体、post-release 诊断、
+   demo-order/no-go、problem-rescreen/no-go、换任务矩阵与方向裁决。
+3. [demo-order 机制 no-go](DEMO_ORDER_MECHANISM_20261116.md)、
+   [problem-rescreen 裁决](../experiments/discovery/problem-rescreen-20261116/RESULT.md)。
+4. [研究准备度与剩余工作](RESEARCH_READINESS.md)、[新问题搜索](NEXT_PROBLEM_SEARCH_20261116.md)。
+5. [换任务决策矩阵](../experiments/discovery/task-change-20261116/DECISION_MATRIX.md)：
+   已填并 no-go，只用于筛选，不是训练计划。
+6. [定位增益支撑边界与近邻核验](report/DIRECTION_ANCHOR_AUDIT_20261116.md)：2611.17658 核验、P1–P6 与最小实验；唯一保留候选，未查新通过。
+6. [研究现状/文献库](literature/README.md)、[导师汇报提纲](report/PROGRESS_REPORT.md)、
+   [论文相关工作准备稿](paper/RELATED_WORK_DRAFT.md)。
+7. [A100 交接](NEXT_A100.md)：先做环境与本体兼容载体冒烟，不越过选题/协议门槛。
+
+> 旧入口（2026-11-14）保留： [查新与换方案裁决](prior-art/ROUTE_DECISION.md)、
+> [候选发现报告](prior-art/discovery-direction-20261114.md)、
+> [候选D深审](prior-art/deep-audit-executable-spec.md)。这些是历史审查记录，
+> 不代表当前仍有候选。
 
 ## 0. 先读主记录
 

@@ -1,5 +1,11 @@
 # 主张—证据、对照公平性与停止门槛
 
+**2026-11-16 更新：官方 ACT 载体已通过能力筛查，但 post-completion、
+action-horizon、TPSC、认知偏差探针基准、演示顺序等候选均 no-go/未确认；
+当前没有可立项方向。** 不要把本矩阵当作启动 ECCBF 或任何旧候选的依据；
+最新裁决见 [`../RESEARCH_READINESS.md`](../RESEARCH_READINESS.md) 与
+[`../CODEX_HANDOFF_20261116.md`](../CODEX_HANDOFF_20261116.md)。
+
 **2026-11-14 深审更新：旧 ECCBF 核心主张已停止，以下保留历史候选的证据要求。**
 不得据此启动旧正式矩阵；当前 [路线裁决](../prior-art/ROUTE_DECISION.md) 与
 [探索草案](../prior-art/EXPLORATION_PROTOCOL.md)优先。后者不表示新方法已成立。

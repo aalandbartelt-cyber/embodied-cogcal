@@ -1,4 +1,149 @@
-# A100 部署前准备验收
+# 研究方向确认：当前计划与历史验收
+
+## 目标优先级（用户再次提醒后）
+
+**后续用户选择：B2（低成本触觉／力传感）已明确。** 目前恢复该新传感平台的前期
+只读问题/来源审查；用户后续给出新增预算 **1 万元**，暂按采集、夹具和校准参考均计入
+总额规划，不采购、不训练、不重放旧 seed。
+此前停止决定继续适用于旧平台与所有已关闭路线，旧阶段报告保留。
+本轮入口：`docs/B2_BUDGET_DECISION_20261116.md`。
+
+最终交付是**经有范围的查新支持、有核心增量、能产出同题 SO-101 仿真—真机证据的研究方向**。
+先发现并验证具体失效，再决定方法。《思考，快与慢》与工业精度补偿仅作启发。
+当前没有候选通过门槛；工程验收、更多论文/数据或否决旧题均不算选题完成。
+
+**2026-11-16 平台选择前的接续记录**：demo-order 只读审计与近邻裁决已完成，方法线 no-go，
+见 [最新机制 memo](docs/DEMO_ORDER_MECHANISM_20261116.md) 与 handoff 顶部。
+没有通过门槛的研究方向；按用户最新决定停止同平台搜索与训练，当前只整理阶段报告，
+平台变更待用户明确选择。以下是历史阶段记录：
+
+此前以handoff §24和[固定真实阶段复核](experiments/discovery/real-stage-screen-20261116/README.md)为准。
+12条新增3秒三视角网格327帧/7页，既有原槽停留，也有环搬离后未完成；成功记录也有中途偏离。
+ProbeAct/RESCUE已直接限制通用同步检测/失败位置CBF/恢复价值主张，当前不立这些宽题。
+停止继续堆同类视频；两组公开ACT入口尚缺原生scene/接口绑定，未下载权重或训练。
+下一步先核本地官方ACT与自有匹配物理数据的batch、normalizer、图像时序及固定能力screen条件，
+不恢复旧小CNN/GRU微调；普通能力合格也不等于科研方向合格。完整目标仍active。
+以下保留11月14–15日各轮历史筛查与当时优先级。
+
+本轮新证据：SAGE 三段真实记录 / 16,840 行仅通过离线数据资格检查，未提供 VLA/任务因果证据；
+SAGE/GapONet 和 SimuGuard 进一步限制后接补偿、仿真假失败审计的宽泛创新主张。
+见 [当前证据边界](docs/prior-art/execution-evidence-followup.md)。
+后续最多同时深审两个具体问题；每个必须有任务后果、最近邻差异、强简单对照和同命题真机检查。
+继续停止小 BC 架构微调，不因已有平台投入而保留某个题名。
+
+新增问题发现检查：固定官方模型24个配置的五轴Jacobian/中心差分核查完成；
+不支持把缺失自由度直接写成固定工具旋转轴。
+“增强参考不可行而任务本身可行”的线索尚无任务损害证据，CP-Gen/MoMaGen/位置优先IK必须作强对照。
+见[本轮实际数值与判断](experiments/discovery/so101-retarget-screen-20261114/README.md)。
+它与未证实的“精度改善破坏阶段线索”均不是主推荐；不新增方法名或启动训练。
+
+物理接续已完成：独立见证5/5、identity2/2、完整位姿与简单方向IK各4/4，15条/4275命令。
+本工作区未观察到候选任务损害；按执行前规则停止该核心，降为载体工具，不扩大扰动找失败。
+见[全部物理结果与范围](experiments/discovery/so101-retarget-physical-20261114/README.md)。
+最终物体误差6.38–33.34mm，不称精度补偿成果；没有learned policy/真机结果。完整选题仍未完成。
+
+11月15日新线索：[VFD测量边界](experiments/discovery/vfd-quadrature-20261115/README.md)。
+48个精确OT条件中，公开默认评分网格有20个/1062个明确MI次序反转；连续恒等式未被否定。
+传统Gauss–Legendre20点消除这组反转；末端相同的路径误差仍可产生正/发散VFD，
+但同数据两参数拟合充分收敛后分歧约为1e−30或更小。全部正/负对照保留。
+尚无真实VLA/示教选择/转交损害；只保留机制线索，不将求积更换、prefix截断或校准器作为新核心。
+下一步优先核真实ensemble及最近邻可复核资产，避免再次从无任务能力模型解释风险。
+
+后续已完成[版本与真实记录资格检查](experiments/discovery/vfd-assets-20261115/README.md)：
+UQ v2已有节点消融，CFM/NLL近邻已有同末端分布代理变化原理；三个公开入口未验证所需ensemble。
+实际只读Drishti 63条/4607步，完整chunk/ODE/权重绑定与物理成功复算条件缺失。
+当前VFD线移出主推荐，停止扩展纯解析反例；恢复具体任务失效问题发现，完整目标仍未完成。
+
+新得到[指令必要性的测量机制证据](experiments/discovery/instruction-necessity-20261115/README.md)：
+原始RoboOrchard评分/loop允许同一无语言扫描分别满足多个目标；单纯统一时域但保留累计评分不消除。
+SO-101显式双物体场景实际正反扫描均抬升两对象，各1.241秒；单目标/空动作对照完整，5条1848命令。
+这不是原Isaac完整基准或VLA结果。oracle停止和严格commit已有近邻，当前只优先深审该测量问题，
+核心增量及对成熟方法结论的影响尚未验证，不能据此宣布确定方向或新算法。
+
+11月15日进一步裁决：[近邻与完整停止路径复核](experiments/discovery/instruction-necessity-followup-20261115/README.md)。
+2018导航规范已明确DONE与oracle停止的区别；2026年已有shortcut审计和同episode双judge复评。
+无语言编码器但读取task index与完全目标盲不同，但这个区别本身不构成独立核心增量。
+固定环境step的terminated/truncated均None，排除了一个额外失败早停的源码疑点；未运行完整Isaac。
+当前共同轨迹发现降为诊断工具、暂移出主推荐；不默认扩大扫描/移植平台或重启小BC。
+具体基准问题的价值未被否定，但重启需完整同预算证据改变成熟策略判断及独立贡献。
+继续寻找具体任务失败和针对性新方法；尚无候选通过全部选题门槛，完整目标仍active。
+
+当前接续：[真实SO101失败入口](experiments/discovery/deployment-failures-20261115/README.md)。
+已按事前规则读取同一π0.5套环任务12条、5421行及72张指定顶视图；只有现象，没有因果归因。
+旧SmolVLA两个processor与固定训练数据stats一致，不因外部未验证报告重启微调。
+当前只优先核[配对几何监督是否改变CFM总体最优场](experiments/discovery/deployment-failures-20261115/QUESTION-geometric-supervision.md)：
+GRASP公式提供问题来源，显式penalty/RFM/预条件化为直接近邻；尚无任务损害或独立创新证据。
+不将Armnet的失败当GRASP结果，不先实现修正模块，不扩大无任务后果的解析扫描。
+
+本轮[几何监督有界检查](experiments/discovery/geometric-supervision-20261115/README.md)更新上述优先级：
+受限单坐标梯度非零，但10步仅一个分位数支持损失，100/1000步消失；
+独立MuJoCo/SO3优化与Brent全10步对照通过，无实际任务损害/独立贡献。
+降为诊断储备，不扩大参数或解析扫描，不启动新修正训练。
+后续按[事前规则](experiments/discovery/deployment-failures-20261115/PLAN-continuous-review.md)
+复核最早成功225/失败226的front/top/wrist固定0.5秒网格；不预填接触/滑移/机械根因。
+
+## 当前结论优先入口（2026-11-14 23:00）
+
+完整研究目标仍active；本地5070Ti优先是用户最新决定，A100是后续资源。
+原SmolVLA20k/20条已完成0/20，不能继续阅读下文历史“仍无rollout/训练中”作为当前状态。
+新匹配物理teacher32/32，但固定小BC测试0/20，能力门槛未过；独立验证集诊断执行30步为4/8，
+执行6步0/8，不能当新测试成功率或创新。参见
+`experiments/discovery/matched-bc-lowrate-20261114/README.md`。
+近期原文核查、窄问题及否决风险在 `docs/prior-art/history-compensation-mechanism-screen.md`。
+不以环境跑通、工程修复或否决旧题替代确定方向。
+
+进一步GRU carry11/20、同结构reset4/20，初始视觉特征版本15/20；本轮60条完整保留，
+均未达事前16/20能力门槛，补偿干预仍为0。按计划停止继续微调该小模型，
+先审查具体科学问题/近邻和成熟载体选择。当前接续以handoff §14为准。
+新发现的SAGE/GapONet/官方Workshop固定源码与匹配数据/权重入口优先审查；
+不自动切换Isaac或下载大模型，也不把官方future-work集成当现成结果。
+
+## 当前持续目标：确定可立项研究方向（2026-11-14）
+
+用户新目标完整保留：以确定研究方向为目的，方向应能经查新审查，具有可行性、先进性和成果空间；
+《思考，快与慢》与工业机器人精度补偿仅作启发，最终以查新为准；扩大方向探索，优先Google Scholar与GitHub开源检索。
+保留SO-101、A100、同体仿真—真机。不能以资料整理、提交代码或否决旧题替代本目标完成。
+
+19. [x] 扩大候选池：独立检索执行补偿、认知/记忆纠偏、选择性推理/验证三类问题，包含经典直接解法和GitHub实际状态。
+20. [x] 对候选作第一轮正向机会筛选：淘汰TeAR/REMM/CoVer/Pre-VLA/DiVeR/PATCH/CommitFlow等宽题，形成风险来源候选及动态executable-policy候选。
+21. [ ] 深审最有希望的2–3个候选：原文逐式、引用链、代码/资产/许可/资源，独立红队；被覆盖则换问题而非仅改名。
+    D / D′ 已完成此次原文/源码深审并停止现有核心主张（ForeReach/CARE/ActionABI/ActionShift）；
+    风险来源 A 已因 PATCH/CommitFlow/ReTrace 降级。尚需正向机会发现，不能把全部否决当成选题完成。
+22. [ ] 形成主推荐与备选，给出同一SO-101仿真—真机任务和可产出证据链；验证关键实现/规模前提，不预填实验结论。
+23. [ ] 按完整目标审计：只有真实证据支持核心差异、可行性与先进性才确定方向；未满足时保持目标active，继续研究。
+
+用户已选择机制先行：先发现并验证具体失效，再提出针对性新方法。
+当前正向候选：DeepSeek 提供的跨任务误差迁移（先修单参考动作的测量问题，已被经典 MTGP/AT-GP/MRPL 强约束）；
+从 BAS-VLA 原文得到的共享前缀下过早语义分离线索，现独立审计为 temporal-prefix calibration（仅目标函数条件反例，待查新/实际验证）；
+当前完成判定的动作表象捷径（已构造静态几何对照，尚无模型结果）。不将三者合成一个闭环。
+
+最新查新边界：AtomSkill、TRA、REFACTOR-VLA 已压缩 TPSC 的语义/时间对齐与行为等价宽泛表述；
+CriticHack 已压缩视觉 reward/verifier 宽泛表述。当前只保留 TPSC 的条件版本：有两任务分别成功续接证据的保持/分叉支持；
+等未来损失条件已撤回（可能同样失败）。人工 phase mask 或片段聚类不能作为核心方法。
+A100 载体预检入口为 `docs/NEXT_A100_TPSC.md`，用户已授权选题阶段先用本地5070Ti。
+接口前置条件新增：公开 LeRobot 数据的角度/夹爪表示必须显式转换到 MuJoCo 弧度接口，且 elbow/wrist 范围差异需先解决；
+未解决前不得启动可解释的 VLA 失效实验。
+接续结论：公开数据创建于 2025-05-23，旧版 LeRobot 用 degrees（[-180,180]）+ gripper 0–100；
+`elbow_flex`/`wrist_flex` 真实越界 +3.17°/+4.49°，且 `robot_type=so100_follower`，不能声称 SO-101 同体。
+该数据只作 carrier smoke test；TPSC 同体实验需项目自有 SO-101 校准数据。详见
+`experiments/so101/smolvla-interface-preflight/range-mismatch-analysis.md`。
+公开载体更新：优先 `ngocthuong2212/so101_mujoco_follower_7_31`（MuJoCo SO-101，200 eps）
+做仿真 smoke test；`kristaqp/so101-pick-place`（真实 `so101_follower`，50 eps）做真实参考；
+`svla` 保留 SO-100 负对照。真实 SO-101 elbow 也到 100°，XML 96.83° 是保守限位；
+wrist 4.49° 未复现。详见 `public-dataset-scan.md`。
+TPSC 数据协议已写下（`experiments/so101/tpsc-data-protocol.md`）：三族任务对、校准/单位契约、
+`episodes_meta.jsonl`、拒绝准则、2 周 120-episode 资源盒；先 20-episode 管线试跑。
+TPSC pilot 场景/manifest 已落地：`simulation/so101/tpsc_scene.xml/.py`、
+`probes/generators/tpsc_pairs.py`、`experiments/so101/tpsc-pilot/`。20/120 条几何/配对校验通过，
+MuJoCo 4.0.1 场景 reset 与评估器 smoke 通过；20k 关节采样下 240 个目标物体/goal 点均在夹爪
+5 cm 内（最差约 3.5 cm，几何 proxy）。Scripted IK full 120：shared prefix diff 0、no-common
+>1.2 rad、multi route >1.15 rad；kinematic place 120/120、物理抓取 0/20、final 56/120。
+仍无 VLA/learned policy rollout。
+
+本次启动：上一轮对用户约束的落盘属于实际进展（87871e3），不是已选定方向。研究/代码实施的设计先明确，
+不因硬件适配困难把目标缩成仅能通过现有测试的小任务。
+
+---
 
 目标：并行完成当前可执行的本地准备，并在必须使用 A100 实际运行策略时结束本阶段。
 不以模型图、合成数据或单元测试冒充策略能力、查新通过或真机验证。
@@ -73,3 +218,108 @@
 - 文献库可导入，DOI、作者、会议信息不猜填；预印本和正式发表状态分开。
 - 汇报与论文材料区分他人结果、当前工程证据和待检验假设，无虚构本项目实验数字。
 - 查新保持有范围的证据判断，不能承诺机构查新通过。
+
+## 用户交接的 TPSC pilot 执行（恢复后）
+
+- [x] 读取 handoff、review 原资产并记录问题，保全 degree-assumption 原记录。
+- [x] 重跑分析/仿真测试、manifest 校验和场景 smoke。
+- [x] 提交现有资产 af47281；后续修复单独版本，不覆盖历史实验记录。
+- [x] 冻结指定carrier/SmolVLA revision并下载、哈希；夹爪/相机等价性仍明确待核验。
+- [x] 本地5070Ti真实视频/SmolVLA CUDA前反向与20-step资源试跑。
+- [ ] 固定20k终点普通carrier训练：session74436/PID87789在运行，须先核验后接续，不重复启动。
+- [ ] 20 条 learned-policy rollout、配对 prefix 报告与能力判定。
+- [ ] 只有能力合格且共享前缀成立才检验 uniform separation 伤害；否则 go/no-go 记不可判定。
+
+## 机制可信性与用户新开源线索
+
+- [x] 核到BAS-VLA v2与固定源码，实际CPU调用paper_three_component并核对输出梯度；逐步toy与chunk目标区别已更正，原记录不覆盖。
+- [x] 核到公开BAS artifact元数据的per_step/legacy/7D约定；不把它直接加载到SO101。
+- [x] 读入用户`docs/VLAkaiyuanxiangmu.md`；核验15个原始仓库revision和README哈希。
+- [x] 完成本轮MolmoAct2/TurboVLA等的接口/资源定向审计，更新选题边界；不以开源盘点替代查新。
+- [x] 检查旧scripted物理teacher前提：实测EGL与FK，发现夹爪张合反置及IK点相距官方TCP8.207cm；原记录保留，不冒充抓取成功。
+- [ ] 最终20k checkpoint后的20条能力screen：已设有完成/步数/哈希门槛的v2队列session57985，尚未执行；运行前后须核真实状态。
+
+用户再次强调完整目标：确定经得起查新、有先进性、可产出同体仿真—真机成果的核心科学问题。
+工程资产只作支撑，不能把训练完成、环境打通、资料提交或已有方向被否决当作目标完成。
+
+## 最新执行状态：最终20k / 原20条完成（优先于上方历史进程状态）
+
+- [x] 原训练中断核验，从最近完整18k状态恢复至固定20k，保留采样器恢复限制；训练与队列均正常结束，不重启旧进程。
+- [x] 最终checkpoint执行原20条learned-policy pilot，全部20条/10对/600chunk保留并通过完整性核验。
+- [x] 保存episode级成功/失败、首chunk与全程命令距离、采样实测q分叉区间、checkpoint与完成日志hash。
+- [x] 更新一页go/no-go：任务成功0/20，载体未就绪，正确共享前缀不可识别；uniform separation未测试，当前不实现TPSC。
+- [x] 深审共同支持量词与经典强对照，核验ECT/IntentVLA等一手近邻；独立公开rollout发现与物理teacher探索的失败结果全部保留。
+- [x] 另行复现固定外部SO101物理抓放及hover负对照，增加双独立指垫接触记录；明确contact proxy/物体/工作区差异，不改原pilot。
+- [x] 在明确接触约定的独立场景验证30Hz teacher，采集24train/8val匹配示范；固定小BC2000步与20条测试完整运行。结果0/20，不作机制解释。
+- [x] 冻结同一BC权重作验证集执行长度诊断：6步0/8；30步4/8且8/8双指抬升，失败4例均未释放；全部结果保留。
+- [ ] 定位近静止观测混叠/短前缀闭环偏离等能力问题；先与既有non-Markov、延迟集成、长历史结论比较，不将普通horizon效应包装为新发现。
+- [x] 普通GRU carry/reset的匹配对照、全24train可观测性诊断与固定初始视觉特征对照；未达到能力门槛，按执行前资源边界停止进一步架构微调。
+- [x] 深读Copycat/CSA/IMEP的具体方法和证据限制，不将history、组合补偿或干预记忆评测当新贡献；记录有界阅读而非穷尽查新。
+- [ ] 确定可重复、排除简单解释且有实际任务后果的具体失效机制；不得从不匹配载体的0/20推导机制。
+- [ ] 验证候选超过普通BC、同池配对BC、合理margin/多模态等强对照；若简单对照解决，停止新方法主张。
+- [ ] 在限定核心问题上完成原文/开源/经典方法交叉查新，提出真正增量并验证本地可行性。
+- [ ] 冻结可产出且仿真—SO101真机检验同一命题的研究方向；当前尚未达到，完整目标active。
+# 2026-11-16 接续：demo-order 只读核验与查新裁决
+
+- [x] 核验四个 evaluation 路径、checkpoint/contract/data hashes、seeds 与配对统计；记录历史源码缺口。
+- [x] 只用已有数据重建采样索引、teacher 描述和释放/返回阶段指标。
+- [x] 深读 COIL、SGD/数据顺序/课程近邻及官方 ACT/LeRobot 代码。
+- [x] 写独立机制 memo 与 no-go，更新当前入口；只读核验 545 个冻结输入未变。
+- 用户约束：不训练、不推理重跑已用 seeds、不改原始结果或冻结资产。
+- 本轮输出目录：`experiments/discovery/demo-order-audit-20261116/`。
+- 科研总目标仍未完成；本轮裁决不能冒充方向通过查新。
+
+## 2026-11-16 demo-order 后的新问题筛选（不训练）
+
+- [x] 从近邻原文的限制/失败出发筛问题，核对已关闭边界。
+- [x] 至多三个问题比较经典/近期强对照及 SO-101 同题可测性。
+- [x] 深读最有希望的具体差异；被覆盖就淘汰，不换名保留。
+- [x] 记录裁决：actuator/payload、interface、servo-current insertion、
+  failure/recovery、demo-order 与经典 drive-gain 全部 no-go。
+- 输出：`experiments/discovery/problem-rescreen-20261116/RESULT.md`。
+- [x] 写 task-change decision matrix（3 个新任务，7 条准入条件）。
+- [x] 结果：动态抛掷/接取、颗粒/液体舀取/倾倒、DLO 布线均 no-go；不训练。
+- 输出：`experiments/discovery/task-change-20261116/DECISION_MATRIX.md`、
+  `SOURCE_NOTES.md`、`FEASIBILITY.md`。
+- [x] 方向裁决：当前单臂 SO-101 + ACT + MuJoCo 平台 no-go；停止同平台搜索与训练。
+- [x] 默认行动：整理阶段报告/负结果，不训练；B1（第二只 SO-101）/B2（低成本
+  触觉/力传感）仅作为未来可选路径，需用户明确授权硬件/预算后重新预注册。
+- 整个选题目标保持 active，但当前平台不再继续搜索。
+
+## 2026-11-16 用户选择 B2 后的前期审查
+
+- [x] 区分标量力/向量力/空间触觉与官方 MuJoCo 输出；尚未验收本地新传感器。
+- [x] 首轮核对三个具体问题：材料/信息分离、一般力反馈、持续接触校准；两个宽题不立项。
+- [x] 记录 TacO/AnySkin/KF bias observer 近邻及强简单对照；持续接触问题仍待全文/信息条件审查，非 go。
+- [ ] 预算已明确；待科学物理量与完整报价明确后选择实际平台。当前不采购、不实现、不训练。
+
+## B2 新增预算 1 万元后的审查
+
+- [x] 用官方规格/价格或明确报价状态核对量测配置与总成本边界；尚无实际完整报价。
+- [x] 审查持续接触校准的可得原文/预览，与微小力动作及视觉力表示比较；SDI 全文未取得，精确差异未知。
+- [x] 区分工程适配与科学增量，记录强简单对照和剩余证据。
+- [x] 形成预算约束下的裁决与下一项可证伪证据；无方法 go、不直接训练。
+- 输出：`experiments/discovery/b2-budgeted-screen-20261116/`。
+- [x] 只读核对 NAD 固定数据卡：SO-101 仅重量标签、无末端实测力，不能承担微小力动作归因；未下载/运行数据。
+- [ ] 微小力动作问题仍缺近邻排除与实际可辨识数据，不预注册、不选方法；必要字段列于预算裁决。
+- 完整科研目标未完成；平台与预算已明确，不沿用旧等待用户选择的阻塞条件。
+
+## B2 机制深审：从具体失效寻找科学增量
+
+- [ ] 将“微小力动作”问题与直接方法、经典强对照进一步对齐，避免变成旧 actuator/interface 线。
+- [ ] 最多深审另一个有原始失效依据的机制；先检索力/触觉反馈中的因果混淆与自生成信号。
+- [ ] 优先尝试 Scholar 并核 GitHub；访问受限时保留记录，结论依原始论文/源码。
+- [ ] 对可能保留项写明核心可证伪主张、强对照、同题仿真—真机和 1 万元边界。
+- [ ] 若无剩余科学差异，明确否决；不训练、不采购、不更改冻结数据或场景。
+- 输出：`experiments/discovery/b2-mechanism-followup-20261116/`。
+
+## 定位增益支撑边界（2026-11-16 晚 重定义）
+
+- [x] 核验 2611.17658v1 正文，写出与本项目的逐条差异（自变量/预测式/载体/测量层/目标）。
+- [x] 关闭"闭环放大/读数打折"作为独立新点；保留条须引用该文。
+- [x] 给出可证伪预测 P1–P6 与最小实验网格（成本以 GPU×小时计，复用现有 harness）。
+- [ ] 支撑扫描 ±5/±10/±20 mm × 2 seed；每支撑 6 个位移 × 10 episode；先 P1–P4。
+- [ ] 条数对照（±5 mm、48 条）检验 P6；同 checkpoint 与 pre-registered 判据。
+- [ ] 输入重映射补偿检验（P5）：单位增益占位对照，20 mm、20 episode。
+- [ ] 查新补全：Scholar/Semantic Scholar 或 arXiv 列表页，精确检索式见报告 §7。
+- [ ] 若 P1–P3 失败，公开否决，不换任务名继续；若成立再谈平台（B2 或现有臂）。
