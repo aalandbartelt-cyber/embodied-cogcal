@@ -1,0 +1,9 @@
+runs/
+smoke/
+logs/
+__pycache__/
+deg0/
+visual/
+collision/
+both/
+variant-source/

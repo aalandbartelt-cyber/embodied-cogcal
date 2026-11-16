@@ -1,0 +1,131 @@
+{
+  "seed": 12880,
+  "replay_seeds": [
+    12850,
+    12851
+  ],
+  "mujoco": "4.0.1",
+  "carrier_pyc_sha256": "01761f2f7ebb6d92d8042dc17b7654b062c374355fb1962620a2aa7241fb6ab6",
+  "variants_sha256": "0368dc0eeb2865e37ffd8a82faac80df032d4f07b446ede4b0b9b4c9bb15b9f2",
+  "checks_passed": true,
+  "problems": [],
+  "conditions": {
+    "deg0": {
+      "tree": "deg0",
+      "source": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/deg0",
+      "model_xml": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/deg0/assets/so101/sim_replay.xml",
+      "xml_sha256": "e3e275ec6849065b14441a8749e83be01a75df571210f0b480cb4720ae842ce1",
+      "body_yaw_deg": 0.0,
+      "geom_model_yaw_deg": {
+        "cube_look": 0.0,
+        "cube_visual": 0.0
+      },
+      "geom_world_yaw_deg": {
+        "cube_look": 0.0,
+        "cube_visual": 0.0
+      },
+      "rgb_sha256": "9154d9466720d575d4e3863454b75a0cc349ff768a675f5fd1db4b996622f92e",
+      "body_simple_cube": 1,
+      "body_iquat_cube": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "visual": {
+      "tree": "visual",
+      "source": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/visual",
+      "model_xml": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/visual/assets/so101/sim_replay.xml",
+      "xml_sha256": "a1dfaabbd8bffdec11845724a6df47d40e8f557f7914a6ddc1d8cc15621c8886",
+      "body_yaw_deg": 0.0,
+      "geom_model_yaw_deg": {
+        "cube_look": 14.999999980590829,
+        "cube_visual": 0.0
+      },
+      "geom_world_yaw_deg": {
+        "cube_look": 14.999999980590832,
+        "cube_visual": 0.0
+      },
+      "rgb_sha256": "6862ebf391d65d3ab719b9290fb139b04882a5d4f0069f1d860d2c5d4187f839",
+      "body_simple_cube": 1,
+      "body_iquat_cube": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "collision": {
+      "tree": "collision",
+      "source": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/collision",
+      "model_xml": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/collision/assets/so101/sim_replay.xml",
+      "xml_sha256": "38255ea02364b23363a63802988af24af32eab4730372cc9939885a6d297bdb7",
+      "body_yaw_deg": 15.0,
+      "geom_model_yaw_deg": {
+        "cube_look": -14.999999980590829,
+        "cube_visual": 0.0
+      },
+      "geom_world_yaw_deg": {
+        "cube_look": 1.9409169554787674e-08,
+        "cube_visual": 15.000000000000002
+      },
+      "rgb_sha256": "9154d9466720d575d4e3863454b75a0cc349ff768a675f5fd1db4b996622f92e",
+      "body_simple_cube": 1,
+      "body_iquat_cube": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "both": {
+      "tree": "deg0",
+      "source": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/deg0",
+      "model_xml": "/home/mary/research/embodied-cogcal/experiments/discovery/e4-appearance-contact-20261118/deg0/assets/so101/sim_replay.xml",
+      "xml_sha256": "e3e275ec6849065b14441a8749e83be01a75df571210f0b480cb4720ae842ce1",
+      "body_yaw_deg": 15.0,
+      "geom_model_yaw_deg": {
+        "cube_look": 0.0,
+        "cube_visual": 0.0
+      },
+      "geom_world_yaw_deg": {
+        "cube_look": 15.000000000000002,
+        "cube_visual": 15.000000000000002
+      },
+      "rgb_sha256": "6862ebf391d65d3ab719b9290fb139b04882a5d4f0069f1d860d2c5d4187f839",
+      "body_simple_cube": 1,
+      "body_iquat_cube": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "images": {
+    "deg0": "9154d9466720d575d4e3863454b75a0cc349ff768a675f5fd1db4b996622f92e",
+    "visual": "6862ebf391d65d3ab719b9290fb139b04882a5d4f0069f1d860d2c5d4187f839",
+    "collision": "9154d9466720d575d4e3863454b75a0cc349ff768a675f5fd1db4b996622f92e",
+    "both": "6862ebf391d65d3ab719b9290fb139b04882a5d4f0069f1d860d2c5d4187f839"
+  },
+  "image_upstream": "9154d9466720d575d4e3863454b75a0cc349ff768a675f5fd1db4b996622f92e",
+  "replay": {
+    "12850": {
+      "self_check_q_max_diff": 0.0,
+      "both_vs_collision_pos_max_diff_m": 0.0,
+      "both_vs_collision_ori_max_diff": 0.0,
+      "both_vs_collision_ncon_mismatch_steps": 0,
+      "deg0_vs_visual_pos_max_diff_m": 0.0,
+      "deg0_vs_visual_ori_max_diff": 0.0
+    },
+    "12851": {
+      "self_check_q_max_diff": 0.0,
+      "both_vs_collision_pos_max_diff_m": 0.0,
+      "both_vs_collision_ori_max_diff": 0.0,
+      "both_vs_collision_ncon_mismatch_steps": 0,
+      "deg0_vs_visual_pos_max_diff_m": 0.0,
+      "deg0_vs_visual_ori_max_diff": 0.0
+    }
+  }
+}
