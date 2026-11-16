@@ -89,7 +89,10 @@ E5′（2026-11-17 凌晨，40 集 2×2）进一步给出因果闭环：在指�
 - 物体系动作框架：[Oriented Affordance Frames](https://arxiv.org/abs/2410.12124)。
 - 测试期纠偏：[RTCF](https://arxiv.org/abs/2608.04527)（检索记忆 + 低频残差）、
   [ARC](https://arxiv.org/abs/2610.37547)（人类纠正 + 残差 RL）、
-  [TATE](http://agentic-intelligence-lab.org/files/TATE.pdf)（标定侧取向校正）。
+  [TATE](http://agentic-intelligence-lab.org/files/TATE.pdf)（标定侧取向校正）、
+  [ShadowVLA](https://neurips.cc/virtual/2026/loc/sydney/164319)（规范场景参考 rollout 重接地）、
+  [Retrieve-then-Steer](https://arxiv.org/abs/2605.10094)（在线成功记忆 + 动作先验）、
+  [DHS](https://arxiv.org/abs/2610.21666)（专家示范回放 + 隐藏态几何 steering）。
 
 **仍可守（按证据强度）**
 - **T1 位精确孪生归因**（clear，本轮未命中）：同 RGB、只改碰撞几何（及反向），
@@ -99,7 +102,8 @@ E5′（2026-11-17 凌晨，40 集 2×2）进一步给出因果闭环：在指�
 - **T3 (δ,θ) 二维包络 + 阶段分解**（adjacent）：LIBERO-Plus 是 7 类扰动/21 子维、
   L1–L5 离散阶梯 + 聚合成功率；抓取/装配容差文献在硬件/规划侧。
 - **T4 增益导出的单参数指令侧补偿**（adjacent，E5′ 已成立）：E5′ 19/20 vs 1/20；RTCF 需
-  成功记忆、ARC 需人类、TATE 校数据标签；本文无记忆、无重训、无新数据。仍需 E5″ 证明
+  成功记忆、ARC 需人类、TATE 校数据标签、ShadowVLA 需参考 rollout、RTS 需在线成功
+  记忆、DHS 需示范回放；本文无记忆、无参考、无重训、无新数据。仍需 E5″ 证明
   "不是随手加一个 oracle 偏置"（剂量-反应、回零、释放死锁）。
 
 必答的审稿人问题：这与"BC 不具旋转等变性"的常识差别在哪？
