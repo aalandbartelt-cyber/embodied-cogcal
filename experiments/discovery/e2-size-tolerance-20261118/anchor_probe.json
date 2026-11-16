@@ -1,0 +1,174 @@
+{
+  "xml": "/home/mary/research/embodied-cogcal/third_party/SO-ARM100/Simulation/SO101/so101_new_calib.xml",
+  "body": "gripper",
+  "conditions": {
+    "e2-y0-d1": {
+      "theta_deg": 0.0,
+      "n": 20,
+      "phi_cmd_close_deg": 86.69325839394614,
+      "phi_meas_close_deg": 86.70390635313575,
+      "phi_cmd_by_step_deg": {
+        "50": 86.77105683418733,
+        "60": 86.75960546312686,
+        "70": 86.78641559344601,
+        "80": 86.69572769275437
+      },
+      "servo_gap_deg": 0.00563161216159358,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.43259279979561166,
+        "close": 0.43342600295219574,
+        "lift": 0.4256389156711026,
+        "place": -0.4144888721264909
+      },
+      "early_contact_frac": 0.2,
+      "median_first_contact_s": 2.5970000000000346,
+      "median_close_onset_s": 2.550000000000019,
+      "median_preclose_drift_mm": 4.206220686077472e-09
+    },
+    "e2-y2-d1": {
+      "theta_deg": 2.0,
+      "n": 20,
+      "phi_cmd_close_deg": 86.71526571319158,
+      "phi_meas_close_deg": 86.73620943535914,
+      "phi_cmd_by_step_deg": {
+        "50": 86.77051275316413,
+        "60": 86.74610595714219,
+        "70": 86.75332378425139,
+        "80": 86.7187463825079
+      },
+      "servo_gap_deg": 0.009063608313297777,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.43435737398005636,
+        "close": 0.42997156787203294,
+        "lift": 0.4212261821652913,
+        "place": -0.44360367604696943
+      },
+      "early_contact_frac": 0.25,
+      "median_first_contact_s": 2.4504999999999857,
+      "median_close_onset_s": 2.4832499999999964,
+      "median_preclose_drift_mm": 4.188124288818155e-09
+    },
+    "e2-y5-d1": {
+      "theta_deg": 5.0,
+      "n": 20,
+      "phi_cmd_close_deg": 86.71380742692168,
+      "phi_meas_close_deg": 86.71941445056996,
+      "phi_cmd_by_step_deg": {
+        "50": 86.76590368583473,
+        "60": 86.74848248015795,
+        "70": 86.72776213999434,
+        "80": 86.72033442875727
+      },
+      "servo_gap_deg": 0.007597243442887702,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.4291962688561237,
+        "close": 0.43034730332187554,
+        "lift": 0.4195135397886791,
+        "place": -0.3327882316163846
+      },
+      "early_contact_frac": 0.55,
+      "median_first_contact_s": 2.2784999999999282,
+      "median_close_onset_s": 2.3334999999999466,
+      "median_preclose_drift_mm": 0.048805119234684
+    },
+    "e2-y10-d1": {
+      "theta_deg": 10.0,
+      "n": 20,
+      "phi_cmd_close_deg": 86.74949431004967,
+      "phi_meas_close_deg": 86.75153233987777,
+      "phi_cmd_by_step_deg": {
+        "50": 86.76780840485094,
+        "60": 86.88226743703837,
+        "70": 86.84428453967199,
+        "80": 86.74261386579684
+      },
+      "servo_gap_deg": 0.04162079746773628,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.4327867452907205,
+        "close": 0.4269976527820052,
+        "lift": 0.4236886477087185,
+        "place": -0.4454873716084811
+      },
+      "early_contact_frac": 1.0,
+      "median_first_contact_s": 1.5822499999998811,
+      "median_close_onset_s": 2.6000000000000356,
+      "median_preclose_drift_mm": 1.477094131910651
+    },
+    "e2-y15-d1": {
+      "theta_deg": 15.0,
+      "n": 20,
+      "phi_cmd_close_deg": 86.74125070099487,
+      "phi_meas_close_deg": 86.55951804505173,
+      "phi_cmd_by_step_deg": {
+        "50": 86.77500548332318,
+        "60": 86.87669080546245,
+        "70": 86.87019893841628,
+        "80": 86.73176068706428
+      },
+      "servo_gap_deg": 0.1878088061538037,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.4334486031192729,
+        "close": 0.4220861161834247,
+        "lift": 0.41592203953965573,
+        "place": 0.22071461599506842
+      },
+      "early_contact_frac": 1.0,
+      "median_first_contact_s": 1.5732499999998821,
+      "median_close_onset_s": 2.850000000000119,
+      "median_preclose_drift_mm": 2.1424236682410887
+    },
+    "smoke-y30-d1": {
+      "theta_deg": 30.0,
+      "n": 2,
+      "phi_cmd_close_deg": 86.88891324090457,
+      "phi_meas_close_deg": 86.15182705380397,
+      "phi_cmd_by_step_deg": {
+        "50": 86.77908836596833,
+        "60": 86.88612025452888,
+        "70": 86.97489320035281,
+        "80": 86.88941170806112
+      },
+      "servo_gap_deg": 0.7370861871005943,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.433911605951549,
+        "close": 0.41380781111301845,
+        "lift": 0.4109258647891863,
+        "place": -0.36248646037633503
+      },
+      "early_contact_frac": 1.0,
+      "median_first_contact_s": 1.693499999999869,
+      "median_close_onset_s": 2.8335000000001136,
+      "median_preclose_drift_mm": 2.5610531927747764
+    },
+    "smoke-y45-d1": {
+      "theta_deg": 45.0,
+      "n": 2,
+      "phi_cmd_close_deg": 86.85979388682114,
+      "phi_meas_close_deg": 86.26694153658076,
+      "phi_cmd_by_step_deg": {
+        "50": 86.73169928528529,
+        "60": 86.88428715589808,
+        "70": 86.93447161270494,
+        "80": 86.83176993162897
+      },
+      "servo_gap_deg": 0.5928523502403706,
+      "wrist_roll_by_stage_rad": {
+        "approach": 0.43087144391547255,
+        "close": 0.4155912915106047,
+        "lift": 0.41389527673948534,
+        "place": -0.40117038336599564
+      },
+      "early_contact_frac": 1.0,
+      "median_first_contact_s": 1.7522499999998624,
+      "median_close_onset_s": 2.866750000000125,
+      "median_preclose_drift_mm": 1.9380886230950405
+    }
+  },
+  "alpha_cmd": 0.004349775876779069,
+  "alpha_meas": -0.011114407072155667,
+  "ee_spread_step_mm": {
+    "50": 0.9816543546733699,
+    "60": 0.7651739551917928,
+    "70": 1.1354789813350943
+  }
+}
