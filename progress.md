@@ -437,3 +437,20 @@
 - 结论：短语级空（`demonstration support` / `input remapping` 在领域内无对应用法），机制级被占（推理期输入适应 4 篇 2024–2026），变量级未发现覆盖。综合为**部分通过**。
 - 主张收缩：只保留"示教支撑宽度 → 实测增益曲线 → 可算输入补偿"三点同时成立；任一条在 P0/P1 被否，方向降级为诊断工具，回退 B2。
 - 未完成：5 mm 位移点复算、P0 协议闸门、P1；以及 §5 列出的五条待跑检索式（需可用网络/S2 key）。
+
+## 2026-11-17 会话接续：Codex 面板网络修复 + E1′ 执行
+
+- 接续 Codex thread `01a1d541` 的中断点（最后一条人工消息是转贴外部批评，之后 compact 流断开）。
+  本轮把中断点落到两件可执行的事上：VS Code 面板的网络根因、E1′（E1 的重设计）执行。
+- VS Code 面板：根因是 WSL server 进程环境无代理（Windows `http.proxy` 设置不传给 Node/Rust），
+  `remoteWSL` 扩展在 server 启动时 source `~/.vscode-server/server-env-setup`；
+  写入 `http_proxy/https_proxy/all_proxy=127.0.0.1:7890` + `no_proxy` 后杀掉旧 server，
+  重连后 `/proc/<pid>/environ` 已带代理，codex app-server（PID 477578）已用新环境启动，
+  最新 `Codex.log` 无 plugin-sync/rmcp 报错（仅 bubblewrap 提示，无关）。
+- E1′：`experiments/discovery/e1-delta-mechanism-20261117/` 按预注册跑完 10 箱 × 20 种子 = 200 集
+  （fresh seeds 12800–12819，δ 0.07–29.97 mm），`verify_e1p.py` 全部通过。
+  结果：分层 `AUC(−obj_pre)=0.981`，95% CI [0.597, 1.000]，有效箱 {b4,b5} → G1′ 字面 PASS；
+  次端点 `ΔAUC` 相对 `|δ|` 为 +0.037，CI [−0.207,+0.160] 含 0 → **"比 δ 多信息"未建立**；
+  成功率过渡带 14–19 mm；大 δ 端（≥22.9 mm）全失败且 `obj_pre` 回落至 1–4 mm，机制只在过渡带成立。
+  记录在 `E1P_RESULT.md`，F1 设计稿补 G1′ 裁决与 E2 协议增补（窄 δ 箱/同 δ 随机化）。
+- 未做：E2 本身、E5′ 干预、外部权威查新（Scholar/CNKI/WoS，需用户侧）。
