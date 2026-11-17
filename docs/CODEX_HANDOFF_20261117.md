@@ -52,8 +52,9 @@ WSL 中运行 `python3 tools/live-panel/research_panel.py --port 8766`，Windows
 | 18:55 | M3（A2） | E8 时间线复原完成：预注册早于全部闭环运行，±45° 修正属"观察后、冻结前"的披露式修订；已提交 `0462485` |
 | 19:02 | M4（A5/A7 前置） | 自查发现本轮产物含 61 处绝对路径，已改为仓库相对路径（`c9275c6`）；公开范围审查成文（`b9ccb68`） |
 | 19:14 | M5（A7） | 首次推送完成：`87871e3..dae200e`，远端与本地一致；WSL 侧 git 无法直连，改由 Windows git 经代理推送（见 §6） |
-| 19:56 | M6 | 面板主视觉改为 MuJoCo 真实渲染：`sim_render.py` 离屏渲染 + `/api/sim-frame` 代理；移除连杆示意图；面板改为常驻 systemd 用户单元 |
+| 19:56 | M6 | 面板主视觉改为 MuJoCo 真实渲染；面板改为常驻 systemd 用户单元（原为 systemd-run 临时单元，stop 后无法重启） |
 | 20:05 | M7 | 尾窗读取、`/api/live` 聚合、跟随最新集合并入（`03c8abd`/`41fca79`/`f66b2e5`） |
+| 20:10 | M8 | 视角卡顿不可接受 → 改为浏览器内 MuJoCo WASM + three.js（`sim_view.js`），删除服务端离屏渲染；vendor `@mujoco/mujoco` 4.0.1 与 three 0.160.1 |
 
 ## 3. 决策与理由
 

@@ -10,7 +10,6 @@ import re
 import shlex
 import research_live
 import research_runs
-import research_sim
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -200,24 +199,32 @@ class Handler(BaseHTTPRequestHandler):
             if data is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
-        if parsed.path == '/api/sim-frame':
-            query = parse_qs(parsed.query)
-            relative = query.get('path', [''])[0]
-            if not relative.startswith('experiments/discovery/') or not relative.endswith('.trace.jsonl'):
-                return self.send_bytes(400, b'bad path', 'text/plain')
+        if parsed.path == '/sim_view.js':
+            target = HERE / 'sim_view.js'
+            if not target.is_file():
+                return self.send_bytes(404, b'not found', 'text/plain')
+            return self.send_bytes(200, target.read_bytes(), 'text/javascript; charset=utf-8')
+        if parsed.path.startswith('/vendor/'):
+            name = parsed.path[len('/vendor/'):]
+            target = (HERE / 'vendor' / name).resolve()
+            if not str(target).startswith(str((HERE / 'vendor').resolve())) or not target.is_file():
+                return self.send_bytes(404, b'not found', 'text/plain')
+            kind = {'.js': 'text/javascript; charset=utf-8', '.wasm': 'application/wasm',
+                    '.xml': 'application/xml; charset=utf-8'}.get(target.suffix, 'application/octet-stream')
+            return self.send_bytes(200, target.read_bytes(), kind)
+        if parsed.path == '/api/mj-asset':
+            name = parse_qs(parsed.query).get('name', [''])[0]
+            if name == 'scene':
+                target = HERE / 'vendor/scene/scene.xml'
+            else:
+                target = ROOT / 'third_party/SO-ARM100/Simulation/SO101/assets' / name
             try:
-                step = int(query.get('step', ['-1'])[0])
-                azimuth = float(query.get('az', ['-115'])[0])
-                elevation = float(query.get('el', ['24'])[0])
-                distance = float(query.get('dist', ['1.05'])[0])
-                payload, actual = research_sim.frame(relative, step, azimuth, elevation, distance)
-            except (TypeError, ValueError, RuntimeError, OSError) as error:
-                body = json.dumps({'error': str(error)}, ensure_ascii=False).encode()
-                return self.send_bytes(503, body, 'application/json; charset=utf-8')
-            return self.send_bytes(200, payload, 'image/jpeg', {'X-Sim-Step': str(actual)})
-        if parsed.path == '/api/sim-health':
-            return self.send_bytes(200, json.dumps(research_sim.health(), ensure_ascii=False).encode(),
-                                   'application/json; charset=utf-8')
+                target = target.resolve()
+            except OSError:
+                return self.send_bytes(404, b'not found', 'text/plain')
+            if not target.is_file() or target.suffix.lower() not in {'.stl', '.obj', '.png', '.xml'}:
+                return self.send_bytes(404, b'not found', 'text/plain')
+            return self.send_bytes(200, target.read_bytes(), 'application/octet-stream')
         if parsed.path == '/api/trace':
             query = parse_qs(parsed.query)
             relative = query.get('path', [''])[0]
