@@ -18,6 +18,10 @@
 
 结果与原报告的逐臂成功数一致；+15° 无补偿臂和负偏航剂量臂为事后对照。−15° 全量补偿在这批数据的成功数较低，但双侧配对检验不显著，不能声称已证明对总体有害，也不能据这 20 个种子认定 −7.5° 为最优剂量。固定反号诊断只表明该特定条件在此批数据中的严重退化。单场景、单物体、单策略限制不变。该结果不验证跨 checkpoint、跨物体或真机有效性。
 
+独立的 `audit_e8_paired_offline.py` 进一步检查负偏航的无补偿、−7.5° 和估计补偿三臂共 60 集：比对记录中的轨迹与物理文件哈希，并由已存物理序列复核成功谓词、抬升与释放计数，以及各臂记录的初始条件。检查通过；它仍依赖已存接触数据，不能还原未记录的随机状态，也不构成对仿真或模型的独立重跑。
+
 ## 复现
 
 在仓库根目录执行 `python3 experiments/discovery/e8-theta-estimator-20261118/audit_e8_pairs.py`。脚本只读文件，不调用模型或写工件。
+
+物理序列检查需 NumPy：`/home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/audit_e8_paired_offline.py`。
