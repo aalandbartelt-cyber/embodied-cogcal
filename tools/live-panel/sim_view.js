@@ -12,6 +12,7 @@ let geoms = [];
 let host = null;
 let pending = null;   // { joints, objectPos }
 let dirty = true;
+const physics = { running: false, speed: 1, ctrl: null, carry: 0, steps: 0, mode: 'replay' };
 
 const asView = (value) => (value && typeof value.GetView === 'function') ? value.GetView() : value;
 
@@ -123,6 +124,9 @@ function applyPending() {
   dirty = false;
 }
 
+let needsRender = true, drawn = 0, fpsWindow = Date.now();
+function markDirty() { needsRender = true; }
+
 function resize() {
   if (!renderer || !host) return;
   const width = host.clientWidth || 640;
@@ -130,20 +134,58 @@ function resize() {
   renderer.setSize(width, height, false);
   camera.aspect = width / height;
   camera.updateProjectionMatrix();
+  needsRender = true;
 }
 
-function loop() {
+function advancePhysics(dtSeconds) {
+  if (!model || !data) return;
+  const timestep = model.opt.timestep || 0.002;
+  const budget = Math.min(dtSeconds, 0.1) * physics.speed;
+  physics.carry += budget;
+  let guard = 0;
+  while (physics.carry >= timestep && guard < 400) {
+    const ctrl = physics.ctrl;
+    if (ctrl) {
+      const nu = Math.min(ctrl.length, model.nu);
+      for (let i = 0; i < nu; i += 1) setScalar(data.ctrl, i, ctrl[i]);
+    }
+    mujoco.mj_step(model, data);
+    physics.carry -= timestep;
+    physics.steps += 1;
+    guard += 1;
+  }
+  syncGeoms();
+  needsRender = true;
+}
+
+function loop(ts) {
   requestAnimationFrame(loop);
   if (!renderer) return;
+  const dt = physics.last ? (ts - physics.last) / 1000 : 0;
+  physics.last = ts;
+  if (physics.running) {
+    try { advancePhysics(dt); } catch (error) { status.error = String(error); physics.running = false; }
+  }
   if (dirty) {
     try {
       applyPending();
     } catch (error) {
       status.error = String(error);
     }
+    needsRender = true;
   }
-  controls.update();
-  renderer.render(scene, camera);
+  const moving = controls.update();
+  if (needsRender || moving) {
+    renderer.render(scene, camera);
+    needsRender = false;
+    drawn += 1;
+  }
+  const now = Date.now();
+  if (now - fpsWindow >= 500) {
+    status.fps = Math.round((drawn * 1000) / (now - fpsWindow));
+    drawn = 0;
+    fpsWindow = now;
+  }
 }
 
 async function boot(element) {
@@ -166,8 +208,9 @@ async function boot(element) {
   data = new mujoco.MjData(model);
   mujoco.mj_forward(model, data);
 
-  renderer = new three.WebGLRenderer({ antialias: true, alpha: false });
+  renderer = new three.WebGLRenderer({ antialias: (window.devicePixelRatio || 1) <= 1.5, alpha: false, powerPreference: 'high-performance' });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setClearColor(0x0c1512, 1);
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = three.PCFSoftShadowMap;
   host.replaceChildren(renderer.domElement);
@@ -204,6 +247,7 @@ async function boot(element) {
   controls.dampingFactor = 0.06;
   controls.minDistance = 0.35;
   controls.maxDistance = 3.0;
+  controls.addEventListener('change', markDirty);
   controls.update();
 
   resize();
@@ -218,6 +262,40 @@ async function boot(element) {
 
 window.WBSim = {
   status,
+  physics,
+  startPhysics(ctrl) {
+    if (!model) return;
+    physics.ctrl = ctrl ? Array.from(ctrl) : null;
+    physics.running = true;
+    physics.mode = 'physics';
+    physics.last = 0;
+  },
+  pausePhysics() { physics.running = false; },
+  stepPhysics(count) {
+    if (!model) return;
+    const ctrl = physics.ctrl;
+    if (ctrl) {
+      const nu = Math.min(ctrl.length, model.nu);
+      for (let i = 0; i < nu; i += 1) setScalar(data.ctrl, i, ctrl[i]);
+    }
+    for (let i = 0; i < (count || 1); i += 1) { mujoco.mj_step(model, data); physics.steps += 1; }
+    syncGeoms();
+    needsRender = true;
+  },
+  setSpeed(value) { physics.speed = Number(value) || 1; },
+  setCtrl(ctrl) { physics.ctrl = ctrl ? Array.from(ctrl) : null; },
+  resetSimulation(joints) {
+    if (!model) return;
+    mujoco.mj_resetData(model, data);
+    for (let i = 0; i < Math.min(joints.length, 6); i += 1) setScalar(data.qpos, i, joints[i]);
+    physics.steps = 0;
+    physics.carry = 0;
+    physics.running = false;
+    physics.mode = 'replay';
+    mujoco.mj_forward(model, data);
+    syncGeoms();
+    needsRender = true;
+  },
   setPose(joints, objectPos) {
     pending = { joints: joints || [], objectPos: objectPos || null };
     dirty = true;
