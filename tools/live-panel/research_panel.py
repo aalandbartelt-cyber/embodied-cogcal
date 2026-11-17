@@ -8,6 +8,8 @@ import json
 import mimetypes
 import os
 import re
+import shlex
+import research_runs
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -128,6 +130,35 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_bytes(200, (HERE / 'research.html').read_bytes(), 'text/html; charset=utf-8')
         if parsed.path == '/api/catalog':
             return self.send_bytes(200, json.dumps(build_catalog(PROJECT), ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+        if parsed.path == '/api/runs':
+            experiment = parse_qs(parsed.query).get('experiment', [''])[0]
+            data = research_runs.discover_runs(PROJECT, experiment)
+            if data is None:
+                return self.send_bytes(404, b'not found', 'text/plain')
+            # Match only explicit --out paths, not directory names or stale log files.
+            processes = live_processes(PROJECT)
+            for run in data['runs']:
+                run['pids'] = []
+                for process in processes:
+                    try:
+                        parts = shlex.split(process['command'])
+                        outputs = [parts[i+1] for i, part in enumerate(parts[:-1]) if part == '--out']
+                        outputs += [part[6:] for part in parts if part.startswith('--out=')]
+                        for output in outputs:
+                            path = Path(output)
+                            if not path.is_absolute(): path = Path(process['cwd']) / path
+                            if path.resolve() == (PROJECT / run['id']).resolve():
+                                run['pids'].append(process['pid'])
+                                break
+                    except (ValueError, OSError):
+                        continue
+            return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+        if parsed.path == '/api/trace':
+            relative = parse_qs(parsed.query).get('path', [''])[0]
+            data = research_runs.load_trace(PROJECT, relative)
+            if data is None:
+                return self.send_bytes(404, b'not found', 'text/plain')
+            return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
         if parsed.path == '/api/history':
             try:
                 lines = (HERE / 'events.jsonl').read_text(encoding='utf-8').splitlines()[-60:]
