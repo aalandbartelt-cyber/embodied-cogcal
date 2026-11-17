@@ -42,3 +42,18 @@ E7B/E8 进展是人工核对摘要（research-brief.json），标注核对时间
 附加验证：`python3 tools/live-panel/test_research_physics.py`（需要 NumPy）。
 
 当前后台运行：已改为常驻用户单元 `~/.config/systemd/user/embodied-cogcal-research-panel.service`（`ExecStart=/usr/bin/python3 -u tools/live-panel/research_panel.py --port 8766`，`Restart=on-failure`，并设置 `WB_SIM_PYTHON` 与 `MUJOCO_GL=egl`）。用 `systemctl --user status|restart|stop embodied-cogcal-research-panel` 管理；已 `enable`，登录后自动启动。渲染子进程由面板按需拉起，日志写入 `/tmp/wb-sim-render.log`。
+
+## 工作站结构（二期）
+
+首屏分三块，各自职责不重叠：
+
+| 区域 | 回答的问题 | 说明 |
+|---|---|---|
+| 舞台（左） | 「机器人现在是什么姿态」 | 浏览器内 MuJoCo WASM 渲染；`实时 / 录制` 切换，录制模式放 `results/videos` 的归档视频 |
+| 右栏 | 「谁在算、能不能动它」 | `运行现场` 列 `/proc` 匹配到的实验进程（不渲染画面）；`仿真控制` 提供 `开始物理 / 暂停 / 单步 / 0.5–2×`，浏览器内 `mj_step` 是**新的 rollout**，不是历史证据 |
+| 作业中心（下） | 「下一步能跑什么」 | v0 只做预演：选模板与参数，生成命令、输出目录与预计时长，并显示 GPU 余量；**不启动进程**，执行开关待评审 |
+| 研究路线 | 「这个实验走到哪一步」 | 七道门禁判定，红项给出依据；`docs/RESEARCH_STANDARD.md` 是判定依据 |
+
+交互：拖拽旋转、滚轮缩放（距离自适应）、双击复位、`1/3/7/0` 切换前/侧/顶/默认视角、空格播放暂停；拖拽期间自动暂停"跟随最新集"，松手约 2.5 秒后恢复。
+
+测试：`python3 tools/live-panel/test_research_standard.py`（门禁判定）、`test_jobs.py`（模板参数校验），其余四份照旧。

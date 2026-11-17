@@ -8,6 +8,22 @@
 .workbench{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:14px;align-items:start;margin:14px 0 6px}
 .stage-col{min-width:0}
 .stage{margin:0}
+.stepper{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.step-chip{border:1px solid var(--line);border-radius:10px;padding:6px 10px;background:rgba(10,20,18,.5);min-width:112px}
+.step-chip b{display:block;font:600 18px var(--mono);color:var(--lime)}
+.step-chip span{font-size:11px;color:var(--muted)}
+.stage-table{display:grid;gap:4px}
+.stage-row{display:grid;grid-template-columns:1.6fr 92px 1fr;gap:10px;align-items:center;font-size:12px;padding:4px 0;border-bottom:1px solid rgba(48,68,60,.4)}
+.stage-row .id{font-family:var(--mono);color:var(--sub);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stage-row .blk{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pill{display:inline-block;border-radius:999px;padding:2px 8px;font-size:11px;border:1px solid var(--line)}
+.pill.ok{color:#0b1512;background:var(--lime);border-color:var(--lime)}
+.pill.warn{color:var(--orange);border-color:var(--orange)}
+.pill.bad{color:var(--red);border-color:var(--red)}
+@media(max-width:800px){.stage-row{grid-template-columns:1fr 80px}.stage-row .blk{display:none}}
+.jobsel,.jobnum{background:rgba(10,20,18,.85);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:4px 8px;font-size:12px}
+.jobnum{width:78px}
+.jobout{margin:8px 0 0;padding:8px;border-radius:8px;background:rgba(5,11,9,.8);border:1px solid var(--line);color:var(--sub);font:11px/1.5 var(--mono);white-space:pre-wrap;word-break:break-all;max-height:150px;overflow:auto}
 .simctl{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:6px 0}
 .simctl button{background:rgba(10,20,18,.8);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:4px 10px;font-size:12px;cursor:pointer}
 .simctl button:hover{border-color:var(--lime);color:var(--lime)}
@@ -56,7 +72,8 @@
 <div id="stage-video" hidden><div id="simulation"><div class="empty">正在检查录像工件…</div></div></div>
 <div class="stage-scrim"></div>
 <div class="stage-foot"><button id="sim-play" type="button">播放</button><input id="sim-scrub" type="range" min="0" max="0" value="0" step="1" aria-label="轨迹时间轴"><button id="sim-latest" type="button">回到最新</button><button id="sim-reset" type="button">视角复位</button></div>
-<p class="stage-error" id="sim-error" hidden></p><p class="stage-note">浏览器内 MuJoCo（WebAssembly）做前向计算，three.js 绘制；场景由 <code>simulation/so101</code> 展平生成，关节角取自逐控制步记录，物体位姿取自已保存的物理快照。加载失败会明确报错，不会用示意图代替。</p></section></div><aside class="rail" id="rail"><section class="rail-card"><div class="cardhead"><h2>运行现场</h2><span class="index">PROCESSES</span></div><div class="body"><div id="processes" aria-live="polite" class="small">正在读取…</div><p class="boundary">仅列出工作目录或命令指向本项目实验目录的进程；未列出不代表计算已结束。此处不渲染画面，画面由左侧舞台负责。</p></div></section><section class="rail-card"><div class="cardhead"><h2>仿真控制</h2><span class="index">PHYSICS</span></div><div class="body"><div class="simctl"><button id="sim-phys" type="button">开始物理</button><button id="sim-pause" type="button">暂停</button><button id="sim-step" type="button">单步</button></div><div class="simctl"><span class="small">速度</span><button data-speed="0.5" type="button">0.5×</button><button data-speed="1" type="button" class="on">1×</button><button data-speed="2" type="button">2×</button></div><p class="boundary">浏览器内物理自成一路：从当前记录姿态出发，用记录的控制量驱动 <code>mj_step</code>。它是新的 rollout，不是历史证据，也不写入实验目录。</p></div></section></aside></div>
+<p class="stage-error" id="sim-error" hidden></p><p class="stage-note">浏览器内 MuJoCo（WebAssembly）做前向计算，three.js 绘制；场景由 <code>simulation/so101</code> 展平生成，关节角取自逐控制步记录，物体位姿取自已保存的物理快照。加载失败会明确报错，不会用示意图代替。</p></section></div><aside class="rail" id="rail"><section class="rail-card"><div class="cardhead"><h2>运行现场</h2><span class="index">PROCESSES</span></div><div class="body"><div id="processes" aria-live="polite" class="small">正在读取…</div><p class="boundary">仅列出工作目录或命令指向本项目实验目录的进程；未列出不代表计算已结束。此处不渲染画面，画面由左侧舞台负责。</p></div></section><section class="rail-card"><div class="cardhead"><h2>仿真控制</h2><span class="index">PHYSICS</span></div><div class="body"><div class="simctl"><button id="sim-phys" type="button">开始物理</button><button id="sim-pause" type="button">暂停</button><button id="sim-step" type="button">单步</button></div><div class="simctl"><span class="small">速度</span><button data-speed="0.5" type="button">0.5×</button><button data-speed="1" type="button" class="on">1×</button><button data-speed="2" type="button">2×</button></div><p class="boundary">浏览器内物理自成一路：从当前记录姿态出发，用记录的控制量驱动 <code>mj_step</code>。它是新的 rollout，不是历史证据，也不写入实验目录。</p></div></section></aside><aside class="rail" id="rail2"><section class="rail-card"><div class="cardhead"><h2>作业中心</h2><span class="index">JOBS · v0</span></div><div class="body"><div class="simctl"><select id="job-template" class="jobsel"></select></div><div class="simctl"><select id="job-arm" class="jobsel"></select><input id="job-seed" class="jobnum" type="number" value="12870" aria-label="起始种子"><input id="job-count" class="jobnum" type="number" value="20" aria-label="集数"></div><div class="simctl"><button id="job-plan" type="button">预演命令</button><button id="job-run" type="button" disabled title="执行开关待评审">启动</button></div><pre id="job-out" class="jobout">选择模板后预演：只生成命令与输出目录，不启动进程。</pre><p class="boundary">作业在 WSL GPU 上运行；v0 仅预演。执行需显式开启，且只接受白名单模板与参数区间。</p></div></section></aside></div>
+<section class="card" id="route-card"><div class="cardhead"><h2>研究路线</h2><span class="index">00 / PROTOCOL</span></div><div class="body"><div id="stage-stepper" class="stepper"><span class="empty">正在判定各实验所处阶段…</span></div><div id="stage-table" class="stage-table"></div></div></section>
 <div class="bar"><div class="stat"><span class="num" id="count">—</span><span class="label">发现的实验目录</span></div><div class="stat"><span class="num" id="process-count">—</span><span class="label">当前匹配的实验进程</span></div><div class="stat"><span class="num" id="evidence-count">—</span><span class="label">同时具有预注册与结果的目录</span></div></div>
 <section class="card" style="margin-top:18px"><div class="cardhead"><h2>研究进展与下一步</h2><span class="index">00 / RESEARCH</span></div><div class="body"><div id="brief" class="brief-grid"><span class="empty">正在核对记录…</span></div><p class="workflow">研究流程：问题与假设 → 预注册 → 执行与计算 → 完整性验证 → 结果和负结果归档 → 独立复核及下一轮设计。各步以对应文件与验证结果为准。</p></div></section><main class="layout"><section class="card"><div class="cardhead"><h2>实验目录</h2><span class="index">01 / CATALOG</span></div><div class="list" id="experiments"><div class="body empty">正在读取…</div></div></section><section class="card"><div class="cardhead"><h2>证据链与工件</h2><span class="index">02 / EVIDENCE</span></div><div class="detail" id="detail"><span class="empty">选择实验以查看来源</span></div></section></main>
 <section class="card" style="margin-top:18px"><div class="cardhead"><h2>条件运行与控制轨迹</h2><span class="index">03 / RUNS &amp; TRACE</span></div><div class="body"><div class="run-controls"><label for="run-select">条件运行</label><select id="run-select"><option>正在读取…</option></select><label for="trace-select">种子轨迹</label><select id="trace-select"><option>无轨迹</option></select></div><div id="run-summary" class="run-summary" aria-live="polite">等待实验数据</div><div id="run-source" class="small"></div><canvas id="trace-chart" class="chart" width="1000" height="290" aria-label="控制轨迹：关节第 5 维实际位置与控制指令，单位弧度"></canvas><div id="trace-note" class="small">请选择有轨迹的运行。</div><h3>已完成集的物体与接触记录</h3><canvas id="physics-chart" class="chart" width="1000" height="290" aria-label="已保存物理序列：物体高度和穿透深度，单位毫米"></canvas><div id="physics-note" class="small" aria-live="polite">请选择带物理记录的轨迹。</div><p class="boundary">物理曲线来自逐集保存的原始数据，只有 episode 索引、轨迹与物理文件的哈希匹配时才展示。曲线为下采样记录，可能遗漏短暂峰值；峰值指标来自全部原始采样。此处是已完成集的回放，不是在线画面。</p><p class="boundary">曲线来自所选控制轨迹：运行中每 1 秒读取尾部窗口，集结束后可查看完整记录。轨迹由 runner 逐控制步写入但不 flush，首个采样点可能延迟约 1 秒；活动标记仅在进程命令显式指向该输出目录时显示。完成数是 episodes.jsonl 中完整记录的唯一 seed 数，不代表独立验证通过。</p></div></section>
@@ -73,6 +90,22 @@ function renderDetail(item){if(!item){$('detail').innerHTML='<span class="empty"
 function renderBrief(entries){const key=JSON.stringify(entries);if(key===renderedBrief)return;renderedBrief=key;$('brief').innerHTML=entries?.length?entries.map(b=>{const verified=b.source_status==='matched';const state=verified?'来源未变':'来源已变化或缺失 · 请重新核对';return `<article class="brief-card"><h3>${esc(b.label)}</h3><p class="empty">人工核对 ${esc(b.reviewed)} · ${state}</p>${verified?`<p><strong>当前记录：</strong>${esc(b.summary)}</p><p><strong>证据边界：</strong>${esc(b.boundary)}</p><p><strong>待完成：</strong>${esc(b.next)}</p>`:'<p>此前摘要已隐藏，打开原始记录重新核对。</p>'}${b.url?`<a class="file" href="${esc(b.url)}" target="_blank" rel="noopener">查看来源 ↗</a>`:''}</article>`}).join(''):'<span class="empty">未发现经核对的研究摘要。</span>'}
 function render(data){catalog=data;renderBrief(data.brief);const rows=data.experiments;if(!rows.some(x=>x.id===current))current=rows[0]?.id||null;$('count').textContent=rows.length;$('process-count').textContent=data.processes.length;$('evidence-count').textContent=rows.filter(x=>x.prereg.length&&x.results.length).length;$('asof').textContent='读取于 '+stamp(data.generated_at);const catalogKey=JSON.stringify([current,rows.map(x=>[x.id,...[x.prereg,x.results,x.verification,x.analysis,x.logs].map(a=>a.map(f=>f.path))])]);if(catalogKey!==renderedCatalog){const focus=document.activeElement?.dataset?.id;renderedCatalog=catalogKey;$('experiments').innerHTML=rows.length?rows.map(x=>`<button class="exp ${x.id===current?'active':''}" data-id="${esc(x.id)}" aria-pressed="${x.id===current}"><strong>${esc(x.id)}</strong><span>预注册 ${x.prereg.length} · 结果 ${x.results.length} · 验证 ${x.verification.length}</span></button>`).join(''):'<div class="body empty">未发现实验工件。</div>';renderDetail(rows.find(x=>x.id===current));if(focus)Array.from(document.querySelectorAll('.exp')).find(e=>e.dataset.id===focus)?.focus()}const selected=rows.find(x=>x.id===current);if(selected&&$('detail-updated'))$('detail-updated').textContent=stamp(selected.updated);$('processes').innerHTML=data.processes.length?data.processes.map(p=>`<div class="process"><b>PID ${p.pid}</b><code>${esc(p.command)}</code><span class="empty">${esc(p.cwd)}</span></div>`).join(''):'当前未发现匹配的实验进程。';const sim=data.simulation;const key=sim?.video?.path||'none';if(key!==simulationKey){simulationKey=key;$('simulation').innerHTML=sim?`<video controls preload="metadata" src="${esc(sim.video.url)}"></video><p class="boundary">${esc(sim.description)}<br>${sim.trace?`<a href="${esc(sim.trace.url)}" target="_blank" rel="noopener">查看对应轨迹记录 ↗</a>`:'未发现对应轨迹记录。'}</p>`:'<div class="empty">未发现可用的回放工件。</div>'}}
 $('experiments').addEventListener('click',e=>{const b=e.target.closest('button[data-id]');if(!b||!catalog)return;current=b.dataset.id;selectedRun=null;selectedTrace=null;runsKey=null;tracesKey=null;render(catalog);refreshRuns()});
+async function refreshStandard(){
+ try{
+  const response=await fetch('/api/standard',{cache:'no-store'});
+  if(!response.ok)throw Error(response.status);
+  const data=await response.json();
+  const labels=data.stages.map(s=>s.label);
+  $('stage-stepper').innerHTML=data.stages.map((s,i)=>`<div class="step-chip"><b>${data.counts[s.key]||0}</b><span>${esc(s.label)}</span></div>`).join('');
+  const rows=data.experiments.slice(0,14).map(item=>{
+   const tone=item.stage>=4?'ok':(item.stage>=2?'warn':'bad');
+   const label=item.stage>=labels.length?'已完成':(item.stage===0?'未立项':'已过 '+labels[item.stage-1]);
+   const blocker=(item.blockers[0]||'').replace(/：.*/,'');
+   return `<div class="stage-row"><span class="id">${esc(item.id)}</span><span class="pill ${tone}">${esc(label)}</span><span class="blk">${esc(item.blockers[0]||'无阻塞')}</span></div>`;
+  }).join('');
+  $('stage-table').innerHTML=rows||'<span class="empty">未发现实验目录。</span>';
+ }catch(e){$('stage-table').innerHTML='<span class="empty">研究路线判定失败：'+esc(String(e))+'</span>'}
+}
 async function refresh(){try{const response=await fetch('/api/catalog',{cache:'no-store'});if(!response.ok)throw Error(response.status);render(await response.json());refreshRuns();$('light').classList.remove('off');$('connection').textContent='已连接'}catch(e){$('light').classList.add('off');$('connection').textContent='连接中断 · 显示上次数据'}}
 function sourceLink(path,label){return path?`<a class="file" target="_blank" rel="noopener" href="/artifact?path=${encodeURIComponent(path)}">${esc(label)} ↗</a>`:''}
 function drawTrace(data){const c=$('trace-chart'),ctx=c.getContext('2d'),w=c.width,h=c.height;ctx.clearRect(0,0,w,h);ctx.fillStyle='#0d1916';ctx.fillRect(0,0,w,h);const p=data?.points||[];ctx.font='15px Consolas';if(!p.length){ctx.fillStyle='#91a79a';ctx.fillText('此轨迹没有可绘制的 q_after_rad[4] 数据',20,40);return}const xs=p.map(r=>r[0]),ys=p.flatMap(r=>r.slice(1).filter(v=>v!==null));let xmin=Math.min(...xs),xmax=Math.max(...xs),ymin=Math.min(...ys),ymax=Math.max(...ys);if(xmin===xmax)xmax=xmin+1;if(ymin===ymax){ymin-=.1;ymax+=.1}const pad={l:75,r:25,t:30,b:46};const px=x=>pad.l+(x-xmin)/(xmax-xmin)*(w-pad.l-pad.r),py=y=>h-pad.b-(y-ymin)/(ymax-ymin)*(h-pad.t-pad.b);ctx.strokeStyle='#30443c';ctx.fillStyle='#9db1a5';ctx.lineWidth=1;for(let i=0;i<=4;i++){let yy=pad.t+i*(h-pad.t-pad.b)/4;ctx.beginPath();ctx.moveTo(pad.l,yy);ctx.lineTo(w-pad.r,yy);ctx.stroke();ctx.fillText((ymax-i*(ymax-ymin)/4).toFixed(2),8,yy+5)}ctx.fillText(xmin.toFixed(2),pad.l,h-14);ctx.fillText(xmax.toFixed(2),w-pad.r-60,h-14);ctx.fillText(data.axis==='sim_time_s'?'仿真时间 s':'控制步',w/2-32,h-14);for(const [j,color] of [[1,'#c8e77c'],[2,'#f3b77c']]){ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();let started=false;for(const row of p){if(row[j]===null){started=false;continue}if(!started){ctx.moveTo(px(row[0]),py(row[j]));started=true}else ctx.lineTo(px(row[0]),py(row[j]))}ctx.stroke()}ctx.fillStyle='#c8e77c';ctx.fillText('测得 q[4] / rad',pad.l,18);ctx.fillStyle='#f3b77c';ctx.fillText('指令[4] / rad',pad.l+210,18)}
@@ -202,11 +235,36 @@ document.querySelectorAll('[data-speed]').forEach(b=>b.addEventListener('click',
  document.querySelectorAll('[data-speed]').forEach(x=>x.classList.toggle('on',x===b));
  if(window.WBSim)WBSim.setSpeed(Number(b.dataset.speed));
 }));
+let JOB=null;
+async function loadJobs(){
+ try{
+  const r=await fetch('/api/jobs',{cache:'no-store'});if(!r.ok)throw Error(r.status);
+  JOB=await r.json();
+  $('job-template').innerHTML=JOB.templates.map(t=>`<option value="${esc(t.id)}">${esc(t.label)}</option>`).join('');
+  syncArms();
+  if(JOB.gpu)$('job-out').textContent=`GPU ${JOB.gpu.name} · 已用 ${JOB.gpu.used_mb}/${JOB.gpu.total_mb} MB · 利用率 ${JOB.gpu.util}%`;
+ }catch(e){$('job-out').textContent='作业模板读取失败：'+String(e)}
+}
+function syncArms(){
+ const t=JOB&&JOB.templates.find(x=>x.id===$('job-template').value);
+ $('job-arm').innerHTML=t?t.arms.map(a=>`<option value="${esc(a)}">${esc(a)}</option>`).join(''):'';
+ if(t){$('job-seed').value=t.seed_min;$('job-count').value=Math.min(20,t.count_max)}
+}
+$('job-template').addEventListener('change',syncArms);
+$('job-plan').addEventListener('click',async()=>{
+ const q=new URLSearchParams({template:$('job-template').value,arm:$('job-arm').value,seed:$('job-seed').value,count:$('job-count').value});
+ const r=await fetch('/api/job-plan?'+q,{cache:'no-store'});
+ const d=await r.json();
+ if(!r.ok){$('job-out').textContent='参数不合法：'+(d.error||r.status);return}
+ $('job-out').textContent=[`模板：${d.label}`,`命令：${d.argv.join(' ')}`,`输出：${d.out}`,`预计：${d.eta_min} 分钟`,
+  d.gpu?`GPU：${d.gpu.used_mb}/${d.gpu.total_mb} MB · ${d.gpu.util}%`:'GPU：不可读',`说明：${d.note}`].join('\n');
+});
+loadJobs();
 setInterval(()=>{
  const f=window.WBSim&&WBSim.status&&WBSim.status.fps;
  $('sim-fps').textContent=(f&&f>3)?f+' fps':'待机';
  if(window.WBSim&&WBSim.physics&&SIM.physicsOn){$('sim-mode').textContent='物理 · '+(WBSim.physics.running?'运行':'暂停')}
 },600);
 
-refresh();history();pollLive();setInterval(refresh,30000);setInterval(history,30000);
+refresh();history();refreshStandard();pollLive();setInterval(refresh,30000);setInterval(history,30000);setInterval(refreshStandard,30000);
 </script></body></html>

@@ -10,6 +10,8 @@ import re
 import shlex
 import research_live
 import research_runs
+import research_standard
+import jobs as job_templates
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -187,6 +189,27 @@ class Handler(BaseHTTPRequestHandler):
                                             if expected in process['outputs']]))
             body = {'runs': runs, 'limited': data.get('limited'), 'visited': data.get('visited')}
             return self.send_bytes(200, json.dumps(body, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+        if parsed.path == '/api/jobs':
+            return self.send_bytes(200, json.dumps(job_templates.catalog(ROOT), ensure_ascii=False).encode(),
+                                   'application/json; charset=utf-8')
+        if parsed.path == '/api/job-plan':
+            query = parse_qs(parsed.query)
+            try:
+                data = job_templates.plan(ROOT,
+                                          query.get('template', [''])[0],
+                                          query.get('arm', [''])[0],
+                                          int(query.get('seed', ['0'])[0]),
+                                          int(query.get('count', ['1'])[0]))
+            except (TypeError, ValueError) as error:
+                return self.send_bytes(400, json.dumps({'error': str(error)}, ensure_ascii=False).encode(),
+                                       'application/json; charset=utf-8')
+            return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(),
+                                   'application/json; charset=utf-8')
+        if parsed.path == '/api/standard':
+            data = research_live.standard_cached(
+                ROOT, lambda: research_standard.evaluate_all(ROOT))
+            return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(),
+                                   'application/json; charset=utf-8')
         if parsed.path == '/api/live':
             query = parse_qs(parsed.query)
             processes = research_live.processes_cached(ROOT, lambda: live_processes(ROOT))

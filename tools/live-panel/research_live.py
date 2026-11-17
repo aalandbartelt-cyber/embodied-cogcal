@@ -94,6 +94,10 @@ def processes_cached(root, scanner):
     return _PROCESSES.get_or(('proc', str(root)), PROCESS_TTL_S, scanner)
 
 
+def standard_cached(root, builder):
+    return _CATALOG.get_or(('standard', str(root)), CATALOG_TTL_S, builder)
+
+
 def runs_cached(root, experiment):
     return _RUNS.get_or(('runs', str(root), experiment), RUNS_TTL_S,
                         lambda: research_runs.discover_runs(root, experiment))
