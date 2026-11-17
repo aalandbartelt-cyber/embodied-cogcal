@@ -1,0 +1,306 @@
+{
+  "contrasts": [
+    {
+      "arm_a": "e5p-y15-b15",
+      "arm_b": "e5p-y0-b15",
+      "baseline": "A>B",
+      "baseline_stats": {
+        "a_only": 12,
+        "b_only": 0,
+        "cell": {
+          "budget": 330,
+          "lift_s": 0.5,
+          "penetration_m": 0.0015,
+          "place_xy_m": 0.035,
+          "release_s": 0.1
+        },
+        "delta": 0.6,
+        "n": 20,
+        "p": 0.000488,
+        "verdict": "A>B"
+      },
+      "by_param": {
+        "budget": [
+          "A>B"
+        ],
+        "lift_s": [
+          "A>B"
+        ],
+        "penetration_m": [
+          "A>B"
+        ],
+        "place_xy_m": [
+          "A>B"
+        ],
+        "release_s": [
+          "A>B"
+        ]
+      },
+      "cells": 243,
+      "experiment": "e5-compensation-20261118",
+      "flipped_to": [],
+      "flips": 0,
+      "paired": 20,
+      "sensitive_param": "place_xy_m",
+      "verdict_robust": true
+    },
+    {
+      "arm_a": "e5pp-d10",
+      "arm_b": "e5pp-d75",
+      "baseline": "tie",
+      "baseline_stats": {
+        "a_only": 5,
+        "b_only": 1,
+        "cell": {
+          "budget": 330,
+          "lift_s": 0.5,
+          "penetration_m": 0.0015,
+          "place_xy_m": 0.035,
+          "release_s": 0.1
+        },
+        "delta": 0.2,
+        "n": 20,
+        "p": 0.21875,
+        "verdict": "tie"
+      },
+      "by_param": {
+        "budget": [
+          "tie"
+        ],
+        "lift_s": [
+          "tie"
+        ],
+        "penetration_m": [
+          "tie"
+        ],
+        "place_xy_m": [
+          "tie"
+        ],
+        "release_s": [
+          "tie"
+        ]
+      },
+      "cells": 243,
+      "experiment": "e5-compensation-20261118",
+      "flipped_to": [],
+      "flips": 0,
+      "paired": 20,
+      "sensitive_param": "place_xy_m",
+      "verdict_robust": true
+    },
+    {
+      "arm_a": "est15",
+      "arm_b": "nocomp15",
+      "baseline": "A>B",
+      "baseline_stats": {
+        "a_only": 13,
+        "b_only": 1,
+        "cell": {
+          "budget": 330,
+          "lift_s": 0.5,
+          "penetration_m": 0.0015,
+          "place_xy_m": 0.035,
+          "release_s": 0.1
+        },
+        "delta": 0.6,
+        "n": 20,
+        "p": 0.001831,
+        "verdict": "A>B"
+      },
+      "by_param": {
+        "budget": [
+          "A>B"
+        ],
+        "lift_s": [
+          "A>B"
+        ],
+        "penetration_m": [
+          "A>B"
+        ],
+        "place_xy_m": [
+          "A>B"
+        ],
+        "release_s": [
+          "A>B"
+        ]
+      },
+      "cells": 243,
+      "experiment": "e8-theta-estimator-20261118",
+      "flipped_to": [],
+      "flips": 0,
+      "paired": 20,
+      "sensitive_param": "place_xy_m",
+      "verdict_robust": true
+    },
+    {
+      "arm_a": "est-15",
+      "arm_b": "nocomp-15",
+      "baseline": "tie",
+      "baseline_stats": {
+        "a_only": 2,
+        "b_only": 6,
+        "cell": {
+          "budget": 330,
+          "lift_s": 0.5,
+          "penetration_m": 0.0015,
+          "place_xy_m": 0.035,
+          "release_s": 0.1
+        },
+        "delta": -0.2,
+        "n": 20,
+        "p": 0.289062,
+        "verdict": "tie"
+      },
+      "by_param": {
+        "budget": [
+          "tie"
+        ],
+        "lift_s": [
+          "tie"
+        ],
+        "penetration_m": [
+          "tie"
+        ],
+        "place_xy_m": [
+          "tie"
+        ],
+        "release_s": [
+          "tie"
+        ]
+      },
+      "cells": 243,
+      "experiment": "e8-theta-estimator-20261118",
+      "flipped_to": [],
+      "flips": 0,
+      "paired": 20,
+      "sensitive_param": "place_xy_m",
+      "verdict_robust": true
+    },
+    {
+      "arm_a": "e4-collision",
+      "arm_b": "e4-deg0",
+      "baseline": "B>A",
+      "baseline_stats": {
+        "a_only": 0,
+        "b_only": 18,
+        "cell": {
+          "budget": 330,
+          "lift_s": 0.5,
+          "penetration_m": 0.0015,
+          "place_xy_m": 0.035,
+          "release_s": 0.1
+        },
+        "delta": -0.9,
+        "n": 20,
+        "p": 8e-06,
+        "verdict": "B>A"
+      },
+      "by_param": {
+        "budget": [
+          "B>A"
+        ],
+        "lift_s": [
+          "B>A"
+        ],
+        "penetration_m": [
+          "B>A"
+        ],
+        "place_xy_m": [
+          "B>A"
+        ],
+        "release_s": [
+          "B>A"
+        ]
+      },
+      "cells": 243,
+      "experiment": "e4-appearance-contact-20261118",
+      "flipped_to": [],
+      "flips": 0,
+      "paired": 20,
+      "sensitive_param": "place_xy_m",
+      "verdict_robust": true
+    },
+    {
+      "arm_a": "e4-visual",
+      "arm_b": "e4-deg0",
+      "baseline": "tie",
+      "baseline_stats": {
+        "a_only": 2,
+        "b_only": 0,
+        "cell": {
+          "budget": 330,
+          "lift_s": 0.5,
+          "penetration_m": 0.0015,
+          "place_xy_m": 0.035,
+          "release_s": 0.1
+        },
+        "delta": 0.1,
+        "n": 20,
+        "p": 0.5,
+        "verdict": "tie"
+      },
+      "by_param": {
+        "budget": [
+          "tie"
+        ],
+        "lift_s": [
+          "tie"
+        ],
+        "penetration_m": [
+          "tie"
+        ],
+        "place_xy_m": [
+          "tie"
+        ],
+        "release_s": [
+          "tie"
+        ]
+      },
+      "cells": 243,
+      "experiment": "e4-appearance-contact-20261118",
+      "flipped_to": [],
+      "flips": 0,
+      "paired": 20,
+      "sensitive_param": "place_xy_m",
+      "verdict_robust": true
+    }
+  ],
+  "defaults": {
+    "budget": 330,
+    "lift_s": 0.5,
+    "penetration_m": 0.0015,
+    "place_xy_m": 0.035,
+    "release_s": 0.1
+  },
+  "grid": {
+    "budget": [
+      285,
+      320,
+      330
+    ],
+    "lift_s": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "penetration_m": [
+      0.001,
+      0.0015,
+      0.002
+    ],
+    "place_xy_m": [
+      0.03,
+      0.035,
+      0.04
+    ],
+    "release_s": [
+      0.05,
+      0.1,
+      0.15
+    ]
+  },
+  "rule": {
+    "alpha": 0.05,
+    "min_delta": 0.1
+  }
+}

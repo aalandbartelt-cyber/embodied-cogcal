@@ -1,0 +1,11 @@
+{
+  "note": "Registered contrasts to re-check under endpoint perturbation. Pairs must share seeds.",
+  "contrasts": [
+    {"experiment": "e5-compensation-20261118", "arm_a": "e5p-y15-b15", "arm_b": "e5p-y0-b15", "label": "yaw15+full-bias vs yaw0+full-bias"},
+    {"experiment": "e5-compensation-20261118", "arm_a": "e5pp-d10", "arm_b": "e5pp-d75", "label": "10deg vs 7.5deg dose"},
+    {"experiment": "e8-theta-estimator-20261118", "arm_a": "est15", "arm_b": "nocomp15", "label": "estimated +15 vs no compensation +15"},
+    {"experiment": "e8-theta-estimator-20261118", "arm_a": "est-15", "arm_b": "nocomp-15", "label": "estimated -15 vs no compensation -15"},
+    {"experiment": "e4-appearance-contact-20261118", "arm_a": "e4-collision", "arm_b": "e4-deg0", "label": "collision-only vs yaw0"},
+    {"experiment": "e4-appearance-contact-20261118", "arm_a": "e4-visual", "arm_b": "e4-deg0", "label": "appearance-only vs yaw0"}
+  ]
+}
