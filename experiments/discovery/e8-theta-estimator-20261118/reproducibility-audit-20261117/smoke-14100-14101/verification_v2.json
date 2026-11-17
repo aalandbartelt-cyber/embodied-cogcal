@@ -1,0 +1,100 @@
+{
+  "purpose": "tooling smoke only; not confirmatory",
+  "arms": {
+    "zero": {
+      "dose_deg": 0.0,
+      "entries": [
+        {
+          "seed": 14100,
+          "task_success": true,
+          "trace_sha256": "87f3f08f7268c67198a730eba4f8b4cc707d2268494136a87a12cd13373e850a",
+          "physics_sha256": "47ea401b108fc061c49824965e475aa622ac537ddf463e8260a27a4217f4ac58",
+          "max_penetration_m": 0.00012341735713207672,
+          "clip_events": 0,
+          "command_changed_steps_per_joint": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "seed": 14101,
+          "task_success": true,
+          "trace_sha256": "f54691eeafded39a40a258f574aefe35dfdddacae69d97b59b44d4b0625996d0",
+          "physics_sha256": "67c420adb9ab4f42a66ce3cb7ce107812b061b7c927ad84b041aad47d80ed9c8",
+          "max_penetration_m": 9.290050296610198e-05,
+          "clip_events": 0,
+          "command_changed_steps_per_joint": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "contract_sha256": "a5bc565481a6af01716d1ff506e7e4f539a367149acbe222ae4e108c4d6020ea",
+      "stdout_sha256": "b697050abca0388a742b935c59f68150df721af2d151c47ee7d7468aa0278484",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "half": {
+      "dose_deg": -7.5,
+      "entries": [
+        {
+          "seed": 14100,
+          "task_success": true,
+          "trace_sha256": "694b17fbba9619f4a910be0a1f438e809a72f1f9fb6ec702d8ad46ad4c6f444b",
+          "physics_sha256": "93b150a831da21d9acb65445443f24fcf9157344b7da665e4b8c8a80d088db26",
+          "max_penetration_m": 0.00014444121626362846,
+          "clip_events": 1,
+          "command_changed_steps_per_joint": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "seed": 14101,
+          "task_success": true,
+          "trace_sha256": "b981f2a3a6692a15f23daf83e995252fb4135e9cf0638fb1214f2807bc95121c",
+          "physics_sha256": "f6aaaec139d3282e1d470202c65e1a0e4d5457987bf7e811e1e20cd788c9aa5e",
+          "max_penetration_m": 0.00019248405070680565,
+          "clip_events": 0,
+          "command_changed_steps_per_joint": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "contract_sha256": "8addc3a6bee19fca43886807954a958ff493acd07d664cf2b768c4bd0b220bc3",
+      "stdout_sha256": "c9ef0d471338bedbc6cd44623bed1d5cfedeb3bea71bb7d19cba3edf97b6b60c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "pairs": {
+    "14100": {
+      "recorded_initial_match": true
+    },
+    "14101": {
+      "recorded_initial_match": true
+    }
+  },
+  "limitations": [
+    "The E8 fixed-dose mode also applies an RGB estimator quality gate",
+    "E8 contract points to old E8 preregistration; it is not this smoke protocol",
+    "row q5_bias_est_deg records the visual estimate, not the fixed dose",
+    "Matching recorded initial observations does not prove hidden RNG equivalence",
+    "Contact quantities come from recorded simulation arrays, not independent measurements"
+  ]
+}

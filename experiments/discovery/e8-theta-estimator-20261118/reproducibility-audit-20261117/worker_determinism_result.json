@@ -1,0 +1,214 @@
+{
+  "recorded_at_utc": "2026-11-17T09:17:22.140693+00:00",
+  "description": "Two fresh official ACT worker processes; three existing training observations; within each worker each input is requested twice without reset and once after reset.",
+  "limitations": [
+    "Fixed inputs from a single training demonstration",
+    "No simulation or rollout",
+    "Does not establish deterministic GPU execution across devices, releases, or full closed-loop trajectories"
+  ],
+  "input_file": "/home/mary/research/embodied-cogcal/data/discovery/matched-bc-lowrate-20261114/train-4100.npz",
+  "input_file_sha256": "342d23e4bbdd062677fbc6da1ac61a59063b7469b2f34257a583993e9c6e1ff2",
+  "input_index_sha256": "206411125c4b9314afa84ffc6a9e72b0aba6c0efa3f568bd10f9041cbe0b19db",
+  "frame_indices": [
+    0,
+    90,
+    180
+  ],
+  "input_hashes": [
+    {
+      "rgb_sha256": "9f03ef2921f1c0d2acdccdd0d3d88a59417e6c728f31de38f4db971420cca3ea",
+      "q_sha256": "511fbf7a874396ed0482b79dc1c480539b87355133d86f3393bc5e5a81a3d307"
+    },
+    {
+      "rgb_sha256": "4d88c687eace60586a31f24d15b4b9ff1572b08516448211fecce8b445b0fdbd",
+      "q_sha256": "472832bc7237e5424e32babb102d9fd3bccc4986d687069e8b00288b0627e792"
+    },
+    {
+      "rgb_sha256": "59a8b56ba7da6f04048071956a6a6a738525c7ba69bbbb6bc10789de8bab6875",
+      "q_sha256": "5b2b3f755649e778d215ece6ccbc9b1d0f2b7a0e41a4ebe74a8a5b78bb3c1ba5"
+    }
+  ],
+  "checkpoint_sha256": "71439fda2a7ae13114f6930218a68280d3c7a51c857385907d21e4bfd3cb6f26",
+  "training_contract_sha256": "87fe8d2459cb08a2ddbfe9ee9f101ed5bacbec14803f9e8bf17c980e929f1573",
+  "worker_sha256": "17edb352c944c68b6e69c5b709954601516af9fc33accf3b9e0acebc3df0b7a0",
+  "audit_script_sha256": "7edbc73f1ef6dc4c831f2b03457ecd8eb43eeaab73264ec15393d24a68eeddc8",
+  "python_version": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "numpy_version": "2.2.6",
+  "torch_version": "2.7.1+cu128",
+  "torch_cuda_build": "12.8",
+  "cudnn_version": 90701,
+  "ready": [
+    {
+      "ready": true,
+      "checkpoint_sha256": "71439fda2a7ae13114f6930218a68280d3c7a51c857385907d21e4bfd3cb6f26",
+      "training_step": 20000,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+      "inputs": [
+        "current_two_RGB",
+        "current_measured_q_rad"
+      ]
+    },
+    {
+      "ready": true,
+      "checkpoint_sha256": "71439fda2a7ae13114f6930218a68280d3c7a51c857385907d21e4bfd3cb6f26",
+      "training_step": 20000,
+      "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+      "inputs": [
+        "current_two_RGB",
+        "current_measured_q_rad"
+      ]
+    }
+  ],
+  "result": {
+    "all_exact_equal": true,
+    "comparisons_not_exact": 0,
+    "max_abs_difference": 0.0,
+    "comparisons": [
+      {
+        "worker": 0,
+        "observation": 0,
+        "trial": 0,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "4a40debb6841211ca9669e6d6effbbf38ec642a0fd21dffdc18bcc73c9990767"
+      },
+      {
+        "worker": 0,
+        "observation": 0,
+        "trial": 1,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "4a40debb6841211ca9669e6d6effbbf38ec642a0fd21dffdc18bcc73c9990767"
+      },
+      {
+        "worker": 0,
+        "observation": 0,
+        "trial": 2,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "4a40debb6841211ca9669e6d6effbbf38ec642a0fd21dffdc18bcc73c9990767"
+      },
+      {
+        "worker": 0,
+        "observation": 1,
+        "trial": 0,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "00cfe71b031d5e74917c1069326a137de462e77bed48a3540f25f7d637ee115d"
+      },
+      {
+        "worker": 0,
+        "observation": 1,
+        "trial": 1,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "00cfe71b031d5e74917c1069326a137de462e77bed48a3540f25f7d637ee115d"
+      },
+      {
+        "worker": 0,
+        "observation": 1,
+        "trial": 2,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "00cfe71b031d5e74917c1069326a137de462e77bed48a3540f25f7d637ee115d"
+      },
+      {
+        "worker": 0,
+        "observation": 2,
+        "trial": 0,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "047a2450411d12c31cc865701d2e389407b68029b5e7e8ad8ce3404b6379cf8b"
+      },
+      {
+        "worker": 0,
+        "observation": 2,
+        "trial": 1,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "047a2450411d12c31cc865701d2e389407b68029b5e7e8ad8ce3404b6379cf8b"
+      },
+      {
+        "worker": 0,
+        "observation": 2,
+        "trial": 2,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "047a2450411d12c31cc865701d2e389407b68029b5e7e8ad8ce3404b6379cf8b"
+      },
+      {
+        "worker": 1,
+        "observation": 0,
+        "trial": 0,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "4a40debb6841211ca9669e6d6effbbf38ec642a0fd21dffdc18bcc73c9990767"
+      },
+      {
+        "worker": 1,
+        "observation": 0,
+        "trial": 1,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "4a40debb6841211ca9669e6d6effbbf38ec642a0fd21dffdc18bcc73c9990767"
+      },
+      {
+        "worker": 1,
+        "observation": 0,
+        "trial": 2,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "4a40debb6841211ca9669e6d6effbbf38ec642a0fd21dffdc18bcc73c9990767"
+      },
+      {
+        "worker": 1,
+        "observation": 1,
+        "trial": 0,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "00cfe71b031d5e74917c1069326a137de462e77bed48a3540f25f7d637ee115d"
+      },
+      {
+        "worker": 1,
+        "observation": 1,
+        "trial": 1,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "00cfe71b031d5e74917c1069326a137de462e77bed48a3540f25f7d637ee115d"
+      },
+      {
+        "worker": 1,
+        "observation": 1,
+        "trial": 2,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "00cfe71b031d5e74917c1069326a137de462e77bed48a3540f25f7d637ee115d"
+      },
+      {
+        "worker": 1,
+        "observation": 2,
+        "trial": 0,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "047a2450411d12c31cc865701d2e389407b68029b5e7e8ad8ce3404b6379cf8b"
+      },
+      {
+        "worker": 1,
+        "observation": 2,
+        "trial": 1,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "047a2450411d12c31cc865701d2e389407b68029b5e7e8ad8ce3404b6379cf8b"
+      },
+      {
+        "worker": 1,
+        "observation": 2,
+        "trial": 2,
+        "exact_equal": true,
+        "max_abs_difference": 0.0,
+        "sha256_float32": "047a2450411d12c31cc865701d2e389407b68029b5e7e8ad8ce3404b6379cf8b"
+      }
+    ]
+  }
+}
