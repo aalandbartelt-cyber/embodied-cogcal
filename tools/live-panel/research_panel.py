@@ -40,8 +40,48 @@ def info(root: Path, path: Path):
             'updated': datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()}
 
 
+def describe_process(root: Path, cwd: str, args: list[str]):
+    """Identify repo experiment processes from untruncated /proc argv."""
+    if not args:
+        return None
+    try:
+        base = (root.resolve() / 'experiments/discovery').resolve()
+        current = Path(cwd).resolve()
+        outputs = []
+        for index, arg in enumerate(args):
+            if arg == '--out' and index + 1 < len(args):
+                outputs.append(args[index + 1])
+            elif arg.startswith('--out='):
+                outputs.append(arg[6:])
+        candidates = [arg for arg in args if arg and not arg.startswith('-')] + outputs
+        inside = False
+        for arg in candidates:
+            try:
+                path = Path(arg)
+                path = path if path.is_absolute() else current / path
+                if path.resolve().is_relative_to(base):
+                    inside = True
+                    break
+            except (OSError, ValueError):
+                continue
+        if not inside:
+            return None
+        resolved = []
+        for out in outputs:
+            try:
+                path = Path(out)
+                path = path if path.is_absolute() else current / path
+                path = path.resolve()
+                if path.is_relative_to(base):
+                    resolved.append(str(path))
+            except (OSError, ValueError):
+                continue
+        return {'command': shlex.join(args)[:350], 'cwd': str(current), 'outputs': resolved}
+    except (OSError, ValueError):
+        return None
+
+
 def live_processes(root: Path):
-    # A process is shown only when its working directory or command references this repository.
     records = []
     proc = Path('/proc')
     if not proc.exists():
@@ -50,10 +90,11 @@ def live_processes(root: Path):
         if not entry.name.isdigit() or int(entry.name) == os.getpid():
             continue
         try:
-            cmd = (entry / 'cmdline').read_bytes().replace(b'\0', b' ').decode('utf-8', 'replace').strip()
-            cwd = os.readlink(entry / 'cwd')
-            if ('experiments/discovery/' in cmd or '/experiments/discovery/' in cwd) and (str(root) in cmd or cwd.startswith(str(root) + '/')):
-                records.append({'pid': int(entry.name), 'command': cmd[:350], 'cwd': cwd})
+            args = [part.decode('utf-8', 'replace') for part in
+                    (entry / 'cmdline').read_bytes().split(b'\0') if part]
+            description = describe_process(root, os.readlink(entry / 'cwd'), args)
+            if description is not None:
+                records.append({'pid': int(entry.name), **description})
         except (OSError, ValueError):
             continue
     return records
@@ -135,23 +176,12 @@ class Handler(BaseHTTPRequestHandler):
             data = research_runs.discover_runs(PROJECT, experiment)
             if data is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
-            # Match only explicit --out paths, not directory names or stale log files.
+            # Match only explicit --out paths from the full, untruncated argv.
             processes = live_processes(PROJECT)
             for run in data['runs']:
-                run['pids'] = []
-                for process in processes:
-                    try:
-                        parts = shlex.split(process['command'])
-                        outputs = [parts[i+1] for i, part in enumerate(parts[:-1]) if part == '--out']
-                        outputs += [part[6:] for part in parts if part.startswith('--out=')]
-                        for output in outputs:
-                            path = Path(output)
-                            if not path.is_absolute(): path = Path(process['cwd']) / path
-                            if path.resolve() == (PROJECT / run['id']).resolve():
-                                run['pids'].append(process['pid'])
-                                break
-                    except (ValueError, OSError):
-                        continue
+                expected = str((PROJECT / run['id']).resolve())
+                run['pids'] = [process['pid'] for process in processes
+                               if expected in process['outputs']]
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
         if parsed.path == '/api/trace':
             relative = parse_qs(parsed.query).get('path', [''])[0]

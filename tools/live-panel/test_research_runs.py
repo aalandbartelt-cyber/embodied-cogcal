@@ -38,6 +38,20 @@ class RunTest(unittest.TestCase):
                 stream.write('{"control_step":1,"q_after_rad":[0,0,0,0,2]}\n')
             self.assertEqual(runs.load_trace(root,rel)['total'],2)
 
+    def test_empty_episode_index_and_growing_trace_are_visible_before_first_result(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); path=root/'experiments/discovery/e1/runs/live'; path.mkdir(parents=True)
+            (path/'episodes.jsonl').write_text('')
+            (path/'contract.json').write_text('{"seeds":[123]}')
+            trace=path/'123.trace.jsonl'
+            trace.write_text('{"control_step":0,"q_after_rad":[0,0,0,0,1]}\n')
+            row=runs.discover_runs(root,'e1')['runs'][0]
+            self.assertEqual((row['completed'], row['planned']), (0, 1))
+            self.assertEqual(row['traces'], [trace.relative_to(root).as_posix()])
+            with trace.open('a') as stream:
+                stream.write('{"control_step":1,"q_after_rad":[0,0,0,0,2]}\n')
+            self.assertEqual(runs.load_trace(root,row['traces'][0])['total'], 2)
+
     def test_rejects_traversal(self):
         with tempfile.TemporaryDirectory() as tmp:
             self.assertIsNone(runs.load_trace(Path(tmp),'../escape.trace.jsonl'))

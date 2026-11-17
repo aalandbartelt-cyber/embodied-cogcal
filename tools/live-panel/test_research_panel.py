@@ -36,6 +36,27 @@ class CatalogTest(unittest.TestCase):
             entry = {'source': 'experiments/discovery/e7/RESULTS.md', 'sha256': 'old'}
             self.assertEqual(panel.check_brief(root, entry)['source_status'], 'changed')
 
+    def test_root_cwd_and_long_argv_match_output_without_string_truncation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / 'experiments/discovery/e8/runs/one'
+            args = ['python', 'experiments/discovery/e8/rollout.py', '--label', 'x' * 500,
+                    '--out', str(output)]
+            process = panel.describe_process(root, str(root), args)
+            self.assertIsNotNone(process)
+            self.assertEqual(process['outputs'], [str(output)])
+            self.assertLessEqual(len(process['command']), 350)
+
+    def test_unrelated_process_and_prefix_sibling_are_excluded(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / 'repo'
+            root.mkdir()
+            sibling = Path(tmp) / 'repo-elsewhere'
+            sibling.mkdir()
+            self.assertIsNone(panel.describe_process(root, str(root), ['python', 'unrelated.py']))
+            self.assertIsNone(panel.describe_process(root, str(sibling),
+                ['python', 'experiments/discovery/e8/run.py']))
+
     def test_safe_artifact_rejects_traversal_and_symlinks(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
