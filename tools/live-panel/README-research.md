@@ -17,3 +17,9 @@ SO-101 回放仅在视频存在时展示，明确标注为脚本化连通性测�
 E7B/E8 进展是人工核对摘要（research-brief.json），标注核对时间及来源；每次请求检查来源 SHA-256，源文件发生变化或缺失时隐藏摘要，等待重新人工核对。摘要不会自动生成或视为实时裁决。
 
 条件运行区每 5 秒读取所选实验中 episodes.jsonl、contract.json 和所选 *.trace.jsonl；仅统计完整行的唯一 seed，保留重复和缺失计数，计划数来自合同 seeds。轨迹图展示 q_after_rad[4] 与 command_rad[4]，横轴为存在时的 sim_time_s，否则 control_step；缺少字段时不伪造。每文件 episode 最多读取 2 MB、trace 8 MB，单实验读取 episode 总量最多 16 MB，最多扫描 2500 个目录、展示 300 个运行，轨迹最多 1500 点。受限或未完整写入时界面标明；仅当运行命令的 --out 精确匹配目录才标活动进程。
+
+已完成集的物理回放：选择控制轨迹后，从同一运行的完整 `episodes.jsonl` 找到对应 seed，只展示其记录的轨迹和 NPZ 哈希均匹配的物理文件；显示物体高度、穿透和双指接触，峰值按全部采样计算。曲线最多 1500 点，短时峰值可能未落入采样点。NPZ 在当前实验中于每集完成后产生，不能当作在线仿真帧。服务默认仍可无 NumPy 启动，缺少 NumPy 时此功能显示不可用。每个 NPZ/轨迹受尺寸限制，读取拒绝 object pickle 及超限解压。
+
+附加验证：`python3 tools/live-panel/test_research_physics.py`（需要 NumPy）。
+
+当前后台运行：使用 `systemd-run --user --unit=embodied-cogcal-research-panel --working-directory=/home/mary/research/embodied-cogcal /usr/bin/python3 -u tools/live-panel/research_panel.py --port 8766` 创建临时用户服务。用 `systemctl --user status embodied-cogcal-research-panel` 查看，`systemctl --user stop embodied-cogcal-research-panel` 停止；该临时服务不保证 WSL 关闭或用户会话结束后自动启动。

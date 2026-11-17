@@ -159,6 +159,10 @@ class Handler(BaseHTTPRequestHandler):
             if data is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+        if parsed.path == '/api/physics':
+            relative = parse_qs(parsed.query).get('path', [''])[0]
+            data = research_runs.load_physics(PROJECT, relative)
+            return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
         if parsed.path == '/api/history':
             try:
                 lines = (HERE / 'events.jsonl').read_text(encoding='utf-8').splitlines()[-60:]
