@@ -1,0 +1,90 @@
+{
+  "n_per_condition": 20,
+  "seeds": [
+    12880,
+    12881,
+    12882,
+    12883,
+    12884,
+    12885,
+    12886,
+    12887,
+    12888,
+    12889,
+    12890,
+    12891,
+    12892,
+    12893,
+    12894,
+    12895,
+    12896,
+    12897,
+    12898,
+    12899
+  ],
+  "successes": {
+    "deg0": 18,
+    "visual": 20,
+    "collision": 0,
+    "both": 1
+  },
+  "wilson95": {
+    "deg0": [
+      0.699,
+      0.9721
+    ],
+    "visual": [
+      0.8389,
+      1.0
+    ],
+    "collision": [
+      0.0,
+      0.1611
+    ],
+    "both": [
+      0.0089,
+      0.2361
+    ]
+  },
+  "paired_patterns(deg0,visual,collision,both)": {
+    "1100": 17,
+    "0100": 2,
+    "1101": 1
+  },
+  "registered_contrast_visual_minus_collision": 20,
+  "registered_fisher_one_sided_p": 7.254444551924844e-12,
+  "single_factor": {
+    "appearance_only_deg0_to_visual": {
+      "delta_success": 2,
+      "fisher_one_sided_p": 0.24358974358974358,
+      "mcnemar_exact_p": 0.5
+    },
+    "contact_only_deg0_to_collision": {
+      "delta_success": -18,
+      "fisher_one_sided_p": 1.675776691494639e-09,
+      "mcnemar_exact_p": 7.62939453125e-06
+    }
+  },
+  "factorial_main_effects": {
+    "appearance_A_avg_over_contact": 1.5,
+    "contact_C_avg_over_appearance": -18.5,
+    "difference_of_differences": -1
+  },
+  "stratified_main_effect_tests": {
+    "appearance": {
+      "discordant_gained": 3,
+      "discordant_lost": 0,
+      "p_one_sided_gain": 0.125,
+      "p_one_sided_loss": 1.0,
+      "p_two_sided": 0.25
+    },
+    "contact": {
+      "discordant_gained": 0,
+      "discordant_lost": 37,
+      "p_one_sided_gain": 1.0,
+      "p_one_sided_loss": 7e-12,
+      "p_two_sided": 1.5e-11
+    }
+  },
+  "consistency_problems": []
+}

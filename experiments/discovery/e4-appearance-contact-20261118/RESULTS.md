@@ -1,5 +1,7 @@
 # E4 RESULTS — appearance vs collision decoupling at one fixed yaw
 
+> 勘误（2026-11-17，未改动本文件结论段）：注册对比 `visual − collision` 为同时翻转两个因素的双重差分，且 `both` 实为 1/20 而非全失败。见 [E4_DECOUPLING_AUDIT_20261117.md](E4_DECOUPLING_AUDIT_20261117.md)。
+
 Status: **run complete, verified**. 80 episodes, inference only, frozen ACT
 checkpoint, same carrier bytecode and control budget as E2. Registration:
 `PREREG.md` (unchanged since before the 20-seed runs; its sha is recorded in
