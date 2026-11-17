@@ -51,6 +51,7 @@ WSL 中运行 `python3 tools/live-panel/research_panel.py --port 8766`，Windows
 | 18:53 | M2（A1） | E4 复核完成：注册对比为双重差分，`both` 计数描述有误；析因重算支持原结论方向；已提交 `3aa5c15` |
 | 18:55 | M3（A2） | E8 时间线复原完成：预注册早于全部闭环运行，±45° 修正属"观察后、冻结前"的披露式修订；已提交 `0462485` |
 | 19:02 | M4（A5/A7 前置） | 自查发现本轮产物含 61 处绝对路径，已改为仓库相对路径（`c9275c6`）；公开范围审查成文（`b9ccb68`） |
+| 19:14 | M5（A7） | 首次推送完成：`87871e3..dae200e`，远端与本地一致；WSL 侧 git 无法直连，改由 Windows git 经代理推送（见 §6） |
 
 ## 3. 决策与理由
 
@@ -81,7 +82,6 @@ WSL 中运行 `python3 tools/live-panel/research_panel.py --port 8766`，Windows
 **P0（阻塞交还质量）**
 
 1. 面板实时性仍缺：真实运行中的帧流、求解指标流、三维实时画面未接入；当前为每集结束后的 NPZ 回放。需先核实在运行任务的输出格式与资源占用。
-2. 推送待决策：本地领先远端 35 个提交（确切数用 `git rev-list --count origin/main..HEAD` 查，本节自身的提交会使该数继续增加）。公开范围审查已完成（见 `docs/PUBLIC_REVIEW_20261117.md`）：无凭据、无 Windows 路径、无个人信息，唯一暴露面为合同中的 `/home/mary/...`（57 文件 228 处，不可改写）。推送与否取决于是否接受该路径公开。
 
 **P1（影响解释力）**
 
@@ -105,3 +105,24 @@ WSL 中运行 `python3 tools/live-panel/research_panel.py --port 8766`，Windows
 3. `git log --oneline a2468eb..HEAD` 查看本轮三个提交；`git status` 确认接管期未引入新的未提交改动（历史工件保持原样）。
 
 **接管期未触碰**：所有 `PREREG*`、`contract.json`、`episodes.jsonl`、`results` 原始数据、`progress.md`/`findings.md`/`task_plan.md` 等历史未提交工件、`source_versions/` 与 `reproducibility-audit-20261117/` 的既有内容。
+
+## 7. 推送通道（重要，勿重复踩坑）
+
+WSL 内 `git push` 必然失败，原因是两点叠加：
+
+1. WSL 的 DNS 把 `github.com` 解析到 `198.18.0.112`（Windows 代理的 fake-ip），而 WSL 没有任何 `https_proxy`，直连该地址不可达 → `gnutls_handshake() failed`。
+2. 仓库级 `credential.helper` 指向 WSL 路径 `/mnt/c/Program Files/GitHub CLI/gh.exe`，Windows 侧 git 读不懂该路径。
+
+可用组合（在 Windows 侧执行，仅推送、不写工作区）：
+
+```bash
+cd "//wsl.localhost/Ubuntu-22.04/home/mary/research/embodied-cogcal"
+git -c "http.https://github.com.proxy=http://127.0.0.1:65015" \
+    -c credential.helper= \
+    -c 'credential.helper=!"C:/Program Files/GitHub CLI/gh.exe" auth git-credential' \
+    -c core.filemode=false --no-optional-locks push origin main
+```
+
+注意：`~/.gitconfig` 里有 `http.https://github.com.proxy=http://127.0.0.1:7892`，该端口当前无监听，是失败的直接原因；上面用 `-c` 覆盖为当前可用端口（`65015` 随代理软件会话变化，用前先 `netstat -ano | findstr LISTENING | findstr 6` 确认）。
+
+**不要**用 Windows git 做 `add`/`commit`：该仓库 `core.filemode=true`、`core.autocrlf=true`，会产生 9 条 0 行差异的假改动与 CRLF 噪音。提交一律在 WSL 内完成。
