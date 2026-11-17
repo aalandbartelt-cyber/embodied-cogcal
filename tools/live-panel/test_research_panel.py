@@ -68,5 +68,56 @@ class CatalogTest(unittest.TestCase):
             (root / 'experiments/discovery/link.md').symlink_to('/etc/passwd')
             self.assertIsNone(panel.safe_artifact(root, 'experiments/discovery/link.md'))
 
+class LiveEndpointTest(unittest.TestCase):
+    def _serve(self, root):
+        import threading
+        from http.server import ThreadingHTTPServer
+        panel.ROOT = root
+        server = ThreadingHTTPServer(('127.0.0.1', 0), panel.Handler)
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        self.addCleanup(server.shutdown)
+        self.addCleanup(server.server_close)
+        return f'http://127.0.0.1:{server.server_address[1]}'
+
+    def _fixture(self, tmp):
+        import json
+        from pathlib import Path
+        root = Path(tmp)
+        folder = root / 'experiments/discovery/demo/runs/live'
+        folder.mkdir(parents=True)
+        (folder / 'contract.json').write_text(json.dumps({'seeds': [11], 'control_budget': 3}))
+        (folder / 'episodes.jsonl').write_text('')
+        (folder / '11.trace.jsonl').write_text(
+            '{"control_step":0,"sim_time_s":0.0,"q_after_rad":[0,0,0,0,0,0]}\n'
+            '{"control_step":1,"sim_time_s":0.5,"q_after_rad":[0,0,0,0,0,0]}\n')
+        return root
+
+    def test_live_endpoint_returns_run_trace_and_follow_target(self):
+        import json
+        import urllib.request
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._fixture(tmp)
+            base = self._serve(root)
+            with urllib.request.urlopen(base + '/api/live?experiment=demo') as response:
+                self.assertEqual(response.status, 200)
+                data = json.loads(response.read())
+            self.assertEqual(data['run']['id'], 'experiments/discovery/demo/runs/live')
+            self.assertEqual(data['trace']['total'], 2)
+            self.assertEqual(data['live']['following_trace'], 'experiments/discovery/demo/runs/live/11.trace.jsonl')
+            self.assertEqual(data['live']['last_step'], 1)
+
+    def test_live_endpoint_reports_writing_instead_of_missing_physics(self):
+        import json
+        import urllib.request
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._fixture(tmp)
+            base = self._serve(root)
+            with urllib.request.urlopen(base + '/api/live?experiment=demo') as response:
+                data = json.loads(response.read())
+            self.assertEqual(data['physics']['state'], 'writing')
+            self.assertNotIn('points', data['physics'])
+
+
 if __name__ == '__main__':
     unittest.main()

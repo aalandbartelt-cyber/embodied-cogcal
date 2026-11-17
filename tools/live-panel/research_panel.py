@@ -3,12 +3,12 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import mimetypes
 import os
 import re
 import shlex
+import research_live
 import research_runs
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -17,6 +17,7 @@ from urllib.parse import parse_qs, quote, urlparse
 
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parents[1]
+ROOT = PROJECT
 ALLOWED = ('experiments/discovery/', 'results/videos/', 'results/validation/')
 EXTENSIONS = {'.md', '.json', '.jsonl', '.log', '.txt', '.py', '.sh', '.mp4'}
 
@@ -106,7 +107,7 @@ def check_brief(root: Path, entry: dict):
     if source is None:
         result['source_status'] = 'missing'
     else:
-        result['source_status'] = 'matched' if hashlib.sha256(source.read_bytes()).hexdigest() == entry.get('sha256') else 'changed'
+        result['source_status'] = 'matched' if research_live.digest_cached(source) == entry.get('sha256') else 'changed'
         result['url'] = '/artifact?path=' + quote(entry['source'], safe='')
     return result
 
@@ -170,28 +171,56 @@ class Handler(BaseHTTPRequestHandler):
         if parsed.path in ('/', '/index.html'):
             return self.send_bytes(200, (HERE / 'research.html').read_bytes(), 'text/html; charset=utf-8')
         if parsed.path == '/api/catalog':
-            return self.send_bytes(200, json.dumps(build_catalog(PROJECT), ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+            catalog = research_live.catalog_cached(ROOT, lambda: build_catalog(ROOT))
+            return self.send_bytes(200, json.dumps(catalog, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
         if parsed.path == '/api/runs':
             experiment = parse_qs(parsed.query).get('experiment', [''])[0]
-            data = research_runs.discover_runs(PROJECT, experiment)
+            data = research_live.runs_cached(ROOT, experiment)
             if data is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
             # Match only explicit --out paths from the full, untruncated argv.
-            processes = live_processes(PROJECT)
+            processes = research_live.processes_cached(ROOT, lambda: live_processes(ROOT))
+            runs = []
             for run in data['runs']:
-                expected = str((PROJECT / run['id']).resolve())
-                run['pids'] = [process['pid'] for process in processes
-                               if expected in process['outputs']]
+                expected = str((ROOT / run['id']).resolve())
+                runs.append(dict(run, pids=[process['pid'] for process in processes
+                                            if expected in process['outputs']]))
+            body = {'runs': runs, 'limited': data.get('limited'), 'visited': data.get('visited')}
+            return self.send_bytes(200, json.dumps(body, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+        if parsed.path == '/api/live':
+            query = parse_qs(parsed.query)
+            processes = research_live.processes_cached(ROOT, lambda: live_processes(ROOT))
+            data = research_live.live_payload(
+                ROOT,
+                query.get('experiment', [''])[0],
+                query.get('run', [None])[0],
+                query.get('trace', [None])[0],
+                processes=processes)
+            if data is None:
+                return self.send_bytes(404, b'not found', 'text/plain')
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+        if parsed.path == '/api/arm-model':
+            try:
+                payload = (HERE / 'arm-model.json').read_bytes()
+            except OSError:
+                return self.send_bytes(404, b'not found', 'text/plain')
+            return self.send_bytes(200, payload, 'application/json; charset=utf-8')
         if parsed.path == '/api/trace':
-            relative = parse_qs(parsed.query).get('path', [''])[0]
-            data = research_runs.load_trace(PROJECT, relative)
+            query = parse_qs(parsed.query)
+            relative = query.get('path', [''])[0]
+            mode = query.get('mode', ['auto'])[0]
+            if mode not in ('auto', 'tail', 'full'):
+                mode = 'auto'
+            data = research_live.load_trace_cached(ROOT, relative, mode)
             if data is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
         if parsed.path == '/api/physics':
             relative = parse_qs(parsed.query).get('path', [''])[0]
-            data = research_runs.load_physics(PROJECT, relative)
+            data = research_runs.load_physics(ROOT, relative)
+            trace = research_live.load_trace_cached(ROOT, relative)
+            if trace:
+                data = dict(data, live_growing=trace.get('live', {}).get('partial_line'))
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
         if parsed.path == '/api/history':
             try:
@@ -210,7 +239,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_bytes(200, b'ok', 'text/plain; charset=utf-8')
         if parsed.path == '/artifact':
             relative = parse_qs(parsed.query).get('path', [''])[0]
-            path = safe_artifact(PROJECT, relative)
+            path = safe_artifact(ROOT, relative)
             if path is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
             try:
@@ -231,12 +260,16 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main():
+    global ROOT
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--host', default='127.0.0.1')
     parser.add_argument('--port', type=int, default=8766)
+    parser.add_argument('--root', default=str(PROJECT),
+                        help='repository root to read (defaults to this checkout)')
     args = parser.parse_args()
+    ROOT = Path(args.root).resolve()
     server = ThreadingHTTPServer((args.host, args.port), Handler)
-    print(f'Research console: http://{args.host}:{args.port}', flush=True)
+    print(f'Research console: http://{args.host}:{args.port}  root={ROOT}', flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
