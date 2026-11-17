@@ -161,5 +161,22 @@ class StructureTest(unittest.TestCase):
             self.assertEqual(before, sorted(p.as_posix() for p in root.rglob('*')))
 
 
+class DocTest(unittest.TestCase):
+    def setUp(self):
+        self.doc = (Path(__file__).resolve().parents[2] / 'docs/RESEARCH_STANDARD.md').read_text(encoding='utf-8')
+
+    def test_doc_has_five_stages_with_required_sections(self):
+        for index in range(5):
+            self.assertIn(f'### D{index}', self.doc)
+        for marker in ('退出谓词', 'kill criterion', '降级映射'):
+            self.assertGreaterEqual(self.doc.count(marker), 5, marker)
+
+    def test_doc_mapping_matches_code(self):
+        for gate in research_standard.D_STAGE_GATES[0]:
+            self.assertIn(gate, self.doc)
+        self.assertIn('D4 论文级', self.doc)
+        self.assertIn('manual', self.doc)
+
+
 if __name__ == '__main__':
     unittest.main()
