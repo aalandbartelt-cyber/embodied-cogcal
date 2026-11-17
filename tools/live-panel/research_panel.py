@@ -11,6 +11,7 @@ import shlex
 import research_live
 import research_runs
 import research_standard
+import review
 import jobs as job_templates
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -207,7 +208,7 @@ class Handler(BaseHTTPRequestHandler):
                                    'application/json; charset=utf-8')
         if parsed.path == '/api/standard':
             data = research_live.standard_cached(
-                ROOT, lambda: research_standard.evaluate_all(ROOT))
+                ROOT, lambda: research_standard.evaluate_all(ROOT, reviews=review.fold(ROOT)))
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(),
                                    'application/json; charset=utf-8')
         if parsed.path == '/api/live':
