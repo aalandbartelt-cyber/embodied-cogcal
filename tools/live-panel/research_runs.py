@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import stat as stat_module
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,6 +12,12 @@ MAX_TRACE_BYTES = 8_000_000
 MAX_DIRS = 2500
 MAX_RUNS = 300
 MAX_TOTAL_EPISODE_BYTES = 16_000_000
+
+# Live console limits.  A trace above the window is read from the tail so the
+# newest points stay visible; below it the historical path is used unchanged.
+LIVE_TRACE_BYTES = 2_000_000
+LIVE_MAX_POINTS = 1500
+LIVE_STALE_S = 5.0
 
 
 def inside(root, path):
@@ -40,6 +47,63 @@ def read_lines(path, limit):
         except (ValueError, UnicodeDecodeError):
             invalid += 1
     return records, partial, invalid
+
+
+def read_tail_lines(path, max_bytes):
+    """Read the last ``max_bytes`` of a JSONL file that may still be written.
+
+    Returns ``(records, meta)``.  The first partial line at the window boundary
+    and the trailing line without a newline are dropped rather than parsed, so a
+    growing file never yields a half-decoded row.
+    """
+    meta = {'size': 0, 'start': 0, 'truncated_head': False,
+            'partial_line': False, 'invalid': 0, 'bytes_read': 0}
+    try:
+        fd = os.open(path, os.O_RDONLY)
+    except OSError:
+        return [], meta
+    try:
+        st = os.fstat(fd)
+        if not stat_module.S_ISREG(st.st_mode):
+            return [], meta
+        size = st.st_size
+        meta['size'] = size
+        if size == 0:
+            return [], meta
+        start = max(0, size - max_bytes)
+        meta['start'] = start
+        meta['truncated_head'] = start > 0
+        os.lseek(fd, start, os.SEEK_SET)
+        raw = b''
+        while len(raw) < size - start:
+            chunk = os.read(fd, size - start - len(raw))
+            if not chunk:
+                break
+            raw += chunk
+    except OSError:
+        return [], meta
+    finally:
+        os.close(fd)
+
+    meta['bytes_read'] = len(raw)
+    if start > 0:
+        cut = raw.find(b'\n')
+        raw = b'' if cut < 0 else raw[cut + 1:]
+    if raw and not raw.endswith(b'\n'):
+        meta['partial_line'] = True
+    lines = raw.split(b'\n')[:-1]
+
+    records = []
+    for line in lines:
+        try:
+            row = json.loads(line)
+            if isinstance(row, dict):
+                records.append(row)
+            else:
+                meta['invalid'] += 1
+        except (ValueError, UnicodeDecodeError):
+            meta['invalid'] += 1
+    return records, meta
 
 
 def discover_runs(root, experiment):
@@ -94,33 +158,79 @@ def discover_runs(root, experiment):
     return {'runs':out,'limited':limited,'visited':visited}
 
 
-def load_trace(root, relative):
-    root=Path(root).resolve()
+def parse_trace_points(rows):
+    """Extract plottable ``[x, q4, cmd4]`` points from decoded trace rows."""
+    points = []; axis = None; skipped = 0
+    for row in rows:
+        q = row.get('q_after_rad'); command = row.get('command_rad')
+        if not isinstance(q, list) or len(q) < 5:
+            skipped += 1; continue
+        x = row.get('sim_time_s') if isinstance(row.get('sim_time_s'), (int, float)) else row.get('control_step')
+        unit = 'sim_time_s' if isinstance(row.get('sim_time_s'), (int, float)) else 'control_step'
+        val = q[4]; cmd = command[4] if isinstance(command, list) and len(command) >= 5 else None
+        if (not isinstance(x, (int, float)) or not isinstance(val, (int, float))
+                or not math.isfinite(x) or not math.isfinite(val)):
+            skipped += 1; continue
+        if axis and axis != unit:
+            skipped += 1; continue
+        axis = unit
+        if not isinstance(cmd, (int, float)) or not math.isfinite(cmd):
+            cmd = None
+        points.append([x, val, cmd])
+    return points, axis, skipped
+
+
+def last_control_step(rows):
+    """Highest ``control_step`` seen in decoded rows, or None. Never inferred."""
+    steps = [row.get('control_step') for row in rows
+             if isinstance(row.get('control_step'), (int, float)) and not isinstance(row.get('control_step'), bool)]
+    return int(max(steps)) if steps else None
+
+
+def load_trace(root, relative, *, mode='auto', max_bytes=MAX_TRACE_BYTES, max_points=LIVE_MAX_POINTS):
+    """Read one control trace.
+
+    ``mode='auto'`` keeps the historical full read for files up to
+    ``LIVE_TRACE_BYTES`` and switches to a tail window above it, so a growing
+    file never hides its newest points.  ``mode='full'`` reproduces the old
+    behaviour byte for byte.
+    """
+    root = Path(root).resolve()
     if not relative.startswith('experiments/discovery/') or not relative.endswith('.trace.jsonl'):
         return None
-    path=root/relative
-    if path.is_symlink() or not inside(root,path) or not path.is_file(): return None
-    rows,partial,invalid=read_lines(path,MAX_TRACE_BYTES)
-    points=[]; axis=None
-    for row in rows:
-        q=row.get('q_after_rad'); command=row.get('command_rad')
-        if not isinstance(q,list) or len(q)<5: continue
-        x=row.get('sim_time_s') if isinstance(row.get('sim_time_s'),(int,float)) else row.get('control_step')
-        unit='sim_time_s' if isinstance(row.get('sim_time_s'),(int,float)) else 'control_step'
-        val=q[4]; cmd=command[4] if isinstance(command,list) and len(command)>=5 else None
-        if not isinstance(x,(int,float)) or not isinstance(val,(int,float)) or not math.isfinite(x) or not math.isfinite(val): continue
-        if axis and axis!=unit: continue
-        axis=unit
-        if not isinstance(cmd,(int,float)) or not math.isfinite(cmd): cmd=None
-        points.append([x,val,cmd])
+    path = root / relative
+    if path.is_symlink() or not inside(root, path) or not path.is_file(): return None
+    try:
+        size = path.stat().st_size
+    except OSError:
+        size = 0
+    tail = mode == 'tail' or (mode == 'auto' and size > LIVE_TRACE_BYTES)
+    if tail:
+        window = LIVE_TRACE_BYTES
+        rows, meta = read_tail_lines(path, window)
+        while not rows and meta['truncated_head'] and meta['bytes_read'] < MAX_TRACE_BYTES:
+            window *= 2
+            rows, meta = read_tail_lines(path, window)
+        partial = meta['partial_line']
+        invalid = meta['invalid']
+    else:
+        rows, partial, invalid = read_lines(path, max_bytes)
+        meta = {'size': size, 'start': 0, 'truncated_head': False,
+                'partial_line': partial, 'invalid': invalid, 'bytes_read': min(size, max_bytes)}
+    points, axis, skipped = parse_trace_points(rows)
     # Preserve the entire interval when downsampling. Never interpolate.
-    total=len(points)
-    if total>1500:
-        indices=sorted({round(i*(total-1)/1499) for i in range(1500)})
-        points=[points[i] for i in indices]
-    try: updated=datetime.fromtimestamp(path.stat().st_mtime,timezone.utc).isoformat()
-    except OSError: updated=None
-    return {'path':relative,'axis':axis,'points':points,'total':total,'partial':partial,'invalid':invalid,'updated':updated}
+    total = len(points)
+    if total > max_points > 1:
+        indices = sorted({round(i * (total - 1) / (max_points - 1)) for i in range(max_points)})
+        points = [points[i] for i in indices]
+    try: updated = datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
+    except OSError: updated = None
+    return {'path': relative, 'axis': axis, 'points': points, 'total': total,
+            'partial': partial, 'invalid': invalid, 'skipped': skipped, 'updated': updated,
+            'last_step': last_control_step(rows),
+            'live': {'mode': 'tail' if tail else 'full', 'file_bytes': meta['size'],
+                     'window_bytes': meta['bytes_read'], 'truncated_head': meta['truncated_head'],
+                     'partial_line': meta['partial_line']}}
 
 
 def load_physics(root, trace_relative):
