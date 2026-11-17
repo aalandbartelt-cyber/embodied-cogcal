@@ -19,17 +19,31 @@ SEED_CONTEXT = re.compile(r'\bseeds?\b[^\n\d]{0,32}(\d+)(?:\s*[-–—~]\s*(\d+)
 
 def scan(root, low, high, max_bytes=32 * 1024 * 1024):
     root = Path(root).resolve()
-    if not root.is_dir() or low > high or max_bytes <= 0:
+    if (not root.is_dir() or low > high or high - low > 9999
+            or not 0 < max_bytes <= 64 * 1024 * 1024):
         raise ValueError('invalid root, range or size limit')
     coverage = Counter({key: 0 for key in ('text_files_scanned', 'bytes_scanned',
         'binary_skipped', 'oversize_skipped', 'symlink_skipped',
-        'git_directory_skipped', 'read_errors', 'json_parse_errors')})
+        'git_directory_skipped', 'read_errors', 'json_parse_errors',
+        'hit_records_dropped', 'omission_records_dropped')})
     hits = set()
     omissions = []
 
     def add(rel, value, kind):
         if isinstance(value, int) and not isinstance(value, bool) and low <= value <= high:
-            hits.add((rel, value, kind))
+            item = (rel, value, kind)
+            if item in hits:
+                return
+            if len(hits) >= 100000:
+                coverage['hit_records_dropped'] += 1
+            else:
+                hits.add(item)
+
+    def omit(path, reason):
+        if len(omissions) < 10000:
+            omissions.append({'path': path, 'reason': reason})
+        else:
+            coverage['omission_records_dropped'] += 1
 
     def inspect(obj, rel, in_seed=False):
         if isinstance(obj, dict):
@@ -58,7 +72,7 @@ def scan(root, low, high, max_bytes=32 * 1024 * 1024):
 
     def onerror(err):
         coverage['read_errors'] += 1
-        omissions.append({'path': str(getattr(err, 'filename', 'unknown')), 'reason': 'directory_read_error'})
+        omit(str(getattr(err, 'filename', 'unknown')), 'directory_read_error')
 
     for directory, dirs, files in os.walk(root, topdown=True, followlinks=False, onerror=onerror):
         dirs.sort(); files.sort()
@@ -69,7 +83,7 @@ def scan(root, low, high, max_bytes=32 * 1024 * 1024):
                 coverage['git_directory_skipped'] += 1
             elif p.is_symlink():
                 coverage['symlink_skipped'] += 1
-                omissions.append({'path': str(p.relative_to(root)), 'reason': 'symlink'})
+                omit(str(p.relative_to(root)), 'symlink')
             else:
                 retained.append(name)
         dirs[:] = retained
@@ -82,22 +96,22 @@ def scan(root, low, high, max_bytes=32 * 1024 * 1024):
             try:
                 if path.is_symlink():
                     coverage['symlink_skipped'] += 1
-                    omissions.append({'path': rel, 'reason': 'symlink'})
+                    omit(rel, 'symlink')
                     continue
                 if path.stat().st_size > max_bytes:
                     coverage['oversize_skipped'] += 1
-                    omissions.append({'path': rel, 'reason': 'oversize'})
+                    omit(rel, 'oversize')
                     continue
                 raw = path.read_bytes()
                 if b'\0' in raw[:8192]:
                     coverage['binary_skipped'] += 1
-                    omissions.append({'path': rel, 'reason': 'binary'})
+                    omit(rel, 'binary')
                     continue
                 try:
                     content = raw.decode('utf-8-sig')
                 except UnicodeDecodeError:
                     coverage['binary_skipped'] += 1
-                    omissions.append({'path': rel, 'reason': 'non_utf8'})
+                    omit(rel, 'non_utf8')
                     continue
                 coverage['text_files_scanned'] += 1
                 coverage['bytes_scanned'] += len(raw)
@@ -123,7 +137,7 @@ def scan(root, low, high, max_bytes=32 * 1024 * 1024):
                             add(rel, value, 'text_seed_reference')
             except (OSError, ValueError) as exc:
                 coverage['read_errors'] += 1
-                omissions.append({'path': rel, 'reason': type(exc).__name__})
+                omit(rel, type(exc).__name__)
     return {'status': 'incomplete_no_freshness_claim', 'root': str(root),
         'candidate_range': [low, high], 'max_file_bytes': max_bytes,
         'coverage': dict(coverage),
