@@ -95,6 +95,18 @@ def sha(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+def repo_relative(path: str) -> str:
+    """Drop the absolute prefix so the extracted evidence can be published.
+
+    Only the displayed path is shortened; every hash is computed from the file
+    content and is therefore unaffected.
+    """
+    marker = f"experiments/discovery/{EXPERIMENT}/"
+    if marker in path:
+        return marker + path.split(marker, 1)[1]
+    return path.rsplit("/", 1)[-1]
+
+
 def iter_records(path: Path):
     with path.open(encoding="utf-8", errors="replace") as handle:
         for line in handle:
@@ -151,7 +163,7 @@ def main() -> int:
                 path = str(call.get("file_path") or call.get("path") or "")
                 content = call.get("content") or ""
                 shadow[path] = content
-                event.update({"path": path, "bytes": len(content.encode()), "sha256": sha(content)})
+                event.update({"path": repo_relative(path), "bytes": len(content.encode()), "sha256": sha(content)})
             elif name == "edit":
                 path = str(call.get("file_path") or call.get("path") or "")
                 old = call.get("old_string") or ""
@@ -161,7 +173,7 @@ def main() -> int:
                 if before is not None and occurrences:
                     shadow[path] = before.replace(old, new, 1)
                 event.update({
-                    "path": path,
+                    "path": repo_relative(path),
                     "occurrences": occurrences,
                     "replaced": bool(before is not None and occurrences),
                     "sha256": sha(shadow[path]) if path in shadow else None,
@@ -169,7 +181,7 @@ def main() -> int:
                 })
             elif name == "bash":
                 command = str(call.get("command") or "")
-                event["command"] = command[:240]
+                event["command"] = command[:240].replace("/home/mary", "~")
             else:
                 continue
 

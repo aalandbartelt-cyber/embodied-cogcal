@@ -6,7 +6,7 @@
       "seq": 23339,
       "time": "2026-11-17T13:49:03+08:00",
       "tool": "write",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/theta_estimator.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/theta_estimator.py",
       "bytes": 2990,
       "sha256": "ff59291571150a1cc6d8f8800e29fc0dca6664f1c6fdb0c262b4738106bcc89d"
     },
@@ -14,7 +14,7 @@
       "seq": 23346,
       "time": "2026-11-17T13:49:09+08:00",
       "tool": "write",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/validate_estimator.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/validate_estimator.py",
       "bytes": 3908,
       "sha256": "85945d48a1cda50bcbfadd0c95944e5893cfe66d0d5b13673b6f56fc4e72a11a"
     },
@@ -22,7 +22,7 @@
       "seq": 23352,
       "time": "2026-11-17T13:49:19+08:00",
       "tool": "write",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/PREREG_E8.md",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/PREREG_E8.md",
       "bytes": 3032,
       "sha256": "3abfcc15743b244314274af8792d0e682c5d504a586760b1adc9f4aa1ba8d764"
     },
@@ -30,19 +30,19 @@
       "seq": 23358,
       "time": "2026-11-17T13:49:21+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/validate_estimator.py --out experiments/discovery/e8-theta-est"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/validate_estimator.py --out experiments/discovery/e8-theta-est"
     },
     {
       "seq": 23368,
       "time": "2026-11-17T13:49:50+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json\nj=json.load(open('experiments/discovery/e8-theta-estimator-20261118/validation/validation.j"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json\nj=json.load(open('experiments/discovery/e8-theta-estimator-20261118/validation/validation.j"
     },
     {
       "seq": 23375,
       "time": "2026-11-17T13:49:57+08:00",
       "tool": "edit",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/PREREG_E8.md",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/PREREG_E8.md",
       "occurrences": 1,
       "replaced": true,
       "sha256": "d3825996b037cfa93f5aad9955e8680e8574bb7b6e09b7bd7563124af6cb4da5",
@@ -52,13 +52,13 @@
       "seq": 23381,
       "time": "2026-11-17T13:49:58+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/validate_estimator.py --out experiments/discovery/e8-theta-est"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/validate_estimator.py --out experiments/discovery/e8-theta-est"
     },
     {
       "seq": 23401,
       "time": "2026-11-17T13:50:45+08:00",
       "tool": "write",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
       "bytes": 16311,
       "sha256": "00feb89bcfdd474769bdc9d794ce46c6aec38442f336b979cb899be67633dfbc"
     },
@@ -66,25 +66,25 @@
       "seq": 23407,
       "time": "2026-11-17T13:50:48+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 15 --tag smoke --seed-start 12900 --se"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 15 --tag smoke --seed-start 12900 --se"
     },
     {
       "seq": 23414,
       "time": "2026-11-17T13:50:50+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && mkdir -p experiments/discovery/e8-theta-estimator-20261118/runs experiments/discovery/e8-theta-estimator-20261118/physics && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-si"
+      "command": "cd ~/research/embodied-cogcal && mkdir -p experiments/discovery/e8-theta-estimator-20261118/runs experiments/discovery/e8-theta-estimator-20261118/physics && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-si"
     },
     {
       "seq": 23421,
       "time": "2026-11-17T13:51:05+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --tag smoke --seed-start 12901 --s"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --tag smoke --seed-start 12901 --s"
     },
     {
       "seq": 23430,
       "time": "2026-11-17T13:51:14+08:00",
       "tool": "edit",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
       "occurrences": 1,
       "replaced": true,
       "sha256": "2c766676047967e69a155b0a89bdf8d3f287f91c389e1c31a61cc2720b398052",
@@ -94,43 +94,43 @@
       "seq": 23437,
       "time": "2026-11-17T13:51:16+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && rm -rf experiments/discovery/e8-theta-estimator-20261118/runs/smoke-est-15 experiments/discovery/e8-theta-estimator-20261118/physics/smoke-est-15 && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/m"
+      "command": "cd ~/research/embodied-cogcal && rm -rf experiments/discovery/e8-theta-estimator-20261118/runs/smoke-est-15 experiments/discovery/e8-theta-estimator-20261118/physics/smoke-est-15 && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/m"
     },
     {
       "seq": 23446,
       "time": "2026-11-17T13:51:40+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 15 --tag e8 --out experiments/discover"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 15 --tag e8 --out experiments/discover"
     },
     {
       "seq": 23459,
       "time": "2026-11-17T13:53:08+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 0 --tag e8 --out experiments/discovery"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 0 --tag e8 --out experiments/discovery"
     },
     {
       "seq": 23465,
       "time": "2026-11-17T13:54:35+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --tag e8 --out experiments/discove"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --tag e8 --out experiments/discove"
     },
     {
       "seq": 23486,
       "time": "2026-11-17T13:56:15+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 0 --tag ctrl15 --out experiments/disco"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 0 --tag ctrl15 --out experiments/disco"
     },
     {
       "seq": 23492,
       "time": "2026-11-17T13:56:18+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 0 --tag e8 --out experiments/discovery"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg 0 --tag e8 --out experiments/discovery"
     },
     {
       "seq": 23510,
       "time": "2026-11-17T13:59:27+08:00",
       "tool": "edit",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
       "occurrences": 0,
       "replaced": false,
       "sha256": "2c766676047967e69a155b0a89bdf8d3f287f91c389e1c31a61cc2720b398052",
@@ -140,7 +140,7 @@
       "seq": 23535,
       "time": "2026-11-17T13:59:35+08:00",
       "tool": "edit",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
       "occurrences": 1,
       "replaced": true,
       "sha256": "7447e8ecdfe26495527eb153ab132d50d7a520ae0363725e8305e8531f39872b",
@@ -150,7 +150,7 @@
       "seq": 23541,
       "time": "2026-11-17T13:59:36+08:00",
       "tool": "edit",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
       "occurrences": 1,
       "replaced": true,
       "sha256": "c1794f4f9459db69a10d903e7556650d5c5ec4f8d419595fa5117cb8c478a942",
@@ -160,7 +160,7 @@
       "seq": 23547,
       "time": "2026-11-17T13:59:38+08:00",
       "tool": "edit",
-      "path": "/home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
+      "path": "experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py",
       "occurrences": 1,
       "replaced": true,
       "sha256": "aab88f976f1cca419a6d2bcce853f280f2a90e2cad6de9ffdc186e8ed560ee99",
@@ -170,235 +170,235 @@
       "seq": 23553,
       "time": "2026-11-17T13:59:41+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && rm -rf experiments/discovery/e8-theta-estimator-20261118/runs/ctrl15 experiments/discovery/e8-theta-estimator-20261118/physics/ctrl15 experiments/discovery/e8-theta-estimator-20261118/runs/ctrl-15 e"
+      "command": "cd ~/research/embodied-cogcal && rm -rf experiments/discovery/e8-theta-estimator-20261118/runs/ctrl15 experiments/discovery/e8-theta-estimator-20261118/physics/ctrl15 experiments/discovery/e8-theta-estimator-20261118/runs/ctrl-15 e"
     },
     {
       "seq": 23576,
       "time": "2026-11-17T14:02:44+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && /home/mary/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json, pathlib, numpy as np\nbase=pathlib.Path('experiments/discovery/e8-theta-estimator-20261118')\nfor name in ['nocomp15','est15','no"
+      "command": "cd ~/research/embodied-cogcal && ~/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json, pathlib, numpy as np\nbase=pathlib.Path('experiments/discovery/e8-theta-estimator-20261118')\nfor name in ['nocomp15','est15','no"
     },
     {
       "seq": 23599,
       "time": "2026-11-17T14:02:59+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && /home/mary/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport numpy as np\np='experiments/discovery/e8-theta-estimator-20261118/physics/est-15/12850.npz'\nd=np.load(p)\nprint(d.files)\nfor k in d.fil"
+      "command": "cd ~/research/embodied-cogcal && ~/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport numpy as np\np='experiments/discovery/e8-theta-estimator-20261118/physics/est-15/12850.npz'\nd=np.load(p)\nprint(d.files)\nfor k in d.fil"
     },
     {
       "seq": 23612,
       "time": "2026-11-17T14:03:07+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py')\ns=p.read_text()\ns=s.replace('parser.add_argument(\"--bias-mode\", choices=[\"est\", \"ze"
+      "command": "cd ~/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py')\ns=p.read_text()\ns=s.replace('parser.add_argument(\"--bias-mode\", choices=[\"est\", \"ze"
     },
     {
       "seq": 23624,
       "time": "2026-11-17T14:03:11+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --bias-mode fixed --bias-deg 15 --"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --bias-mode fixed --bias-deg 15 --"
     },
     {
       "seq": 23635,
       "time": "2026-11-17T14:04:41+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --bias-mode fixed --bias-deg -7.5 "
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --bias-mode fixed --bias-deg -7.5 "
     },
     {
       "seq": 23644,
       "time": "2026-11-17T14:06:13+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 /home/mary/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --bias-mode fixed --bias-deg -10 -"
+      "command": "cd ~/research/embodied-cogcal && env -u PYTHONPATH PYTHONNOUSERSITE=1 ~/miniconda3/envs/cogcal-sim/bin/python experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py --yaw-deg -15 --bias-mode fixed --bias-deg -10 -"
     },
     {
       "seq": 23675,
       "time": "2026-11-17T14:07:51+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && ls -la experiments/discovery/e8-theta-estimator-20261118 && echo ---- && ls experiments/discovery/e8-theta-estimator-20261118/runs && echo ---- && git status --short | head -30"
+      "command": "cd ~/research/embodied-cogcal && ls -la experiments/discovery/e8-theta-estimator-20261118 && echo ---- && ls experiments/discovery/e8-theta-estimator-20261118/runs && echo ---- && git status --short | head -30"
     },
     {
       "seq": 23719,
       "time": "2026-11-17T14:08:15+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && cat experiments/discovery/e8-theta-estimator-20261118/validation/validation.json | head -20"
+      "command": "cd ~/research/embodied-cogcal && cat experiments/discovery/e8-theta-estimator-20261118/validation/validation.json | head -20"
     },
     {
       "seq": 23726,
       "time": "2026-11-17T14:08:17+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && grep -n \"VALIDATION_JSON\\|validation\" experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py | head -20 && echo ---- && cat experiments/discovery/e8-theta-estimator-20261118/validation_open"
+      "command": "cd ~/research/embodied-cogcal && grep -n \"VALIDATION_JSON\\|validation\" experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py | head -20 && echo ---- && cat experiments/discovery/e8-theta-estimator-20261118/validation_open"
     },
     {
       "seq": 23742,
       "time": "2026-11-17T14:08:34+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && /home/mary/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json, pathlib\nbase=pathlib.Path('experiments/discovery/e8-theta-estimator-20261118/runs')\nfor name in ['diag-15-neg7p5','diag-15-neg1"
+      "command": "cd ~/research/embodied-cogcal && ~/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json, pathlib\nbase=pathlib.Path('experiments/discovery/e8-theta-estimator-20261118/runs')\nfor name in ['diag-15-neg7p5','diag-15-neg1"
     },
     {
       "seq": 23839,
       "time": "2026-11-17T14:09:30+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && cat >> progress.md <<'EOF'\n\n## 2026-11-18 E8：RGB-only θ 估计器；+15° 成立，−15° 方向不对称\n\n- 脚本 `experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py`；估计器只读 top RGB，\n  静态 H1：n=175、max 0.90°、mean 0.0"
+      "command": "cd ~/research/embodied-cogcal && cat >> progress.md <<'EOF'\n\n## 2026-11-18 E8：RGB-only θ 估计器；+15° 成立，−15° 方向不对称\n\n- 脚本 `experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py`；估计器只读 top RGB，\n  静态 H1：n=175、max 0.90°、mean 0.0"
     },
     {
       "seq": 23848,
       "time": "2026-11-17T14:09:32+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && rm -f experiments/discovery/e8-theta-estimator-20261118/runs/ctrl15.stderr.txt experiments/discovery/e8-theta-estimator-20261118/runs/ctrl-15.stderr.txt && python -m py_compile experiments/discovery"
+      "command": "cd ~/research/embodied-cogcal && rm -f experiments/discovery/e8-theta-estimator-20261118/runs/ctrl15.stderr.txt experiments/discovery/e8-theta-estimator-20261118/runs/ctrl-15.stderr.txt && python -m py_compile experiments/discovery"
     },
     {
       "seq": 23863,
       "time": "2026-11-17T14:09:38+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && sed -n '1,140p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py"
+      "command": "cd ~/research/embodied-cogcal && sed -n '1,140p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py"
     },
     {
       "seq": 23895,
       "time": "2026-11-17T14:09:57+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('task_plan.md')\ns=p.read_text()\ns=s.replace('''  [E5PP RESULTS](experiments/discovery/e5-compensation-20261118/RESULTS_E5PP.md)。\n- 下一步：**E7**（第二物体或第二 "
+      "command": "cd ~/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('task_plan.md')\ns=p.read_text()\ns=s.replace('''  [E5PP RESULTS](experiments/discovery/e5-compensation-20261118/RESULTS_E5PP.md)。\n- 下一步：**E7**（第二物体或第二 "
     },
     {
       "seq": 23901,
       "time": "2026-11-17T14:10:00+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && cat >> findings.md <<'EOF'\n\n## 2026-11-18 E8：RGB-only θ̂ 在 +15° 成立，−15° 出现方向不对称\n\n- 静态 H1：n=175、max 0.90°、mean 0.098°（开区间；±45° 的 90° 别名隔离）。\n- 闭环：+15° 18/20（H2a 压线通过，oracle 20/20，p=0.487）、0° 19/20、\n  "
+      "command": "cd ~/research/embodied-cogcal && cat >> findings.md <<'EOF'\n\n## 2026-11-18 E8：RGB-only θ̂ 在 +15° 成立，−15° 出现方向不对称\n\n- 静态 H1：n=175、max 0.90°、mean 0.098°（开区间；±45° 的 90° 别名隔离）。\n- 闭环：+15° 18/20（H2a 压线通过，oracle 20/20，p=0.487）、0° 19/20、\n  "
     },
     {
       "seq": 23911,
       "time": "2026-11-17T14:10:06+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && /home/mary/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json, pathlib\nfrom collections import Counter\nbase=pathlib.Path('experiments/discovery/e8-theta-estimator-20261118/runs')\nfor name in"
+      "command": "cd ~/research/embodied-cogcal && ~/miniconda3/envs/cogcal-sim/bin/python - <<'PY'\nimport json, pathlib\nfrom collections import Counter\nbase=pathlib.Path('experiments/discovery/e8-theta-estimator-20261118/runs')\nfor name in"
     },
     {
       "seq": 23923,
       "time": "2026-11-17T14:10:11+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md')\ns=p.read_text().replace('`neg10-15` 15/20：p = 0.716。','`neg10-15` 15/20：p = 0.695。'"
+      "command": "cd ~/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md')\ns=p.read_text().replace('`neg10-15` 15/20：p = 0.716。','`neg10-15` 15/20：p = 0.695。'"
     },
     {
       "seq": 23949,
       "time": "2026-11-17T14:10:21+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('docs/direction-20261118-pose-prior/NOVELTY.md')\ns=p.read_text()\ns=s.replace('E5′ 是 oracle 恒定偏置；E5″ 已补剂量-反应/回零/释放死锁（80 新集，10° 饱和；R15 14/20；X15 19/20 但"
+      "command": "cd ~/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('docs/direction-20261118-pose-prior/NOVELTY.md')\ns=p.read_text()\ns=s.replace('E5′ 是 oracle 恒定偏置；E5″ 已补剂量-反应/回零/释放死锁（80 新集，10° 饱和；R15 14/20；X15 19/20 但"
     },
     {
       "seq": 23956,
       "time": "2026-11-17T14:10:25+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && git diff --check -- docs/direction-20261118-pose-prior/DIRECTION.md docs/direction-20261118-pose-prior/NOVELTY.md progress.md task_plan.md findings.md experiments/discovery/e8-theta-estimator-202611"
+      "command": "cd ~/research/embodied-cogcal && git diff --check -- docs/direction-20261118-pose-prior/DIRECTION.md docs/direction-20261118-pose-prior/NOVELTY.md progress.md task_plan.md findings.md experiments/discovery/e8-theta-estimator-202611"
     },
     {
       "seq": 23975,
       "time": "2026-11-17T14:10:31+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && du -sh experiments/discovery/e8-theta-estimator-20261118 && find experiments/discovery/e8-theta-estimator-20261118 -maxdepth 2 -type f | wc -l"
+      "command": "cd ~/research/embodied-cogcal && du -sh experiments/discovery/e8-theta-estimator-20261118 && find experiments/discovery/e8-theta-estimator-20261118 -maxdepth 2 -type f | wc -l"
     },
     {
       "seq": 24079,
       "time": "2026-11-17T14:32:47+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && grep -n \"CARRIER\\|carrier\\|red_object\\|blue_object\\|cube\" experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py | head -60 && echo '--- e8 120-300' && sed -n '120,300p' experiments/discove"
+      "command": "cd ~/research/embodied-cogcal && grep -n \"CARRIER\\|carrier\\|red_object\\|blue_object\\|cube\" experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py | head -60 && echo '--- e8 120-300' && sed -n '120,300p' experiments/discove"
     },
     {
       "seq": 24187,
       "time": "2026-11-17T14:33:54+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && python3 - <<'PY'\nimport json,glob\nfor p in ['experiments/discovery/e8-theta-estimator-20261118/runs/est15/episodes.jsonl','experiments/discovery/e8-theta-estimator-20261118/runs/est-15/episodes.json"
+      "command": "cd ~/research/embodied-cogcal && python3 - <<'PY'\nimport json,glob\nfor p in ['experiments/discovery/e8-theta-estimator-20261118/runs/est15/episodes.jsonl','experiments/discovery/e8-theta-estimator-20261118/runs/est-15/episodes.json"
     },
     {
       "seq": 24193,
       "time": "2026-11-17T14:33:59+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && sed -n '1,120p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py && echo '--- tail' && sed -n '300,380p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py"
+      "command": "cd ~/research/embodied-cogcal && sed -n '1,120p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py && echo '--- tail' && sed -n '300,380p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py"
     },
     {
       "seq": 24398,
       "time": "2026-11-17T14:37:33+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && ls -la experiments/discovery/matched-bc-lowrate-20261114/ | head -20; echo '--- find episodes'; find experiments/discovery/matched-bc-lowrate-20261114 -maxdepth 3 -name 'episodes.jsonl' -o -name '*."
+      "command": "cd ~/research/embodied-cogcal && ls -la experiments/discovery/matched-bc-lowrate-20261114/ | head -20; echo '--- find episodes'; find experiments/discovery/matched-bc-lowrate-20261114 -maxdepth 3 -name 'episodes.jsonl' -o -name '*."
     },
     {
       "seq": 24587,
       "time": "2026-11-17T14:40:16+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && wc -l experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py experiments/discovery/e8-theta-estimator-20261118/*.py; sed -n '1,120p' experiments/discovery/e8-theta-estimator-20261118/rollou"
+      "command": "cd ~/research/embodied-cogcal && wc -l experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py experiments/discovery/e8-theta-estimator-20261118/*.py; sed -n '1,120p' experiments/discovery/e8-theta-estimator-20261118/rollou"
     },
     {
       "seq": 24594,
       "time": "2026-11-17T14:40:18+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && sed -n '120,321p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py"
+      "command": "cd ~/research/embodied-cogcal && sed -n '120,321p' experiments/discovery/e8-theta-estimator-20261118/rollout_e8.py"
     },
     {
       "seq": 24615,
       "time": "2026-11-17T14:40:40+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal/experiments/discovery/e7b-second-seed-20261118 && cp ../e8-theta-estimator-20261118/rollout_e8.py rollout_e7b.py && python - <<'PY'\nfrom pathlib import Path\np=Path('rollout_e7b.py')\ns=p.read_text()\nold"
+      "command": "cd ~/research/embodied-cogcal/experiments/discovery/e7b-second-seed-20261118 && cp ../e8-theta-estimator-20261118/rollout_e8.py rollout_e7b.py && python - <<'PY'\nfrom pathlib import Path\np=Path('rollout_e7b.py')\ns=p.read_text()\nold"
     },
     {
       "seq": 24657,
       "time": "2026-11-17T14:41:01+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal/experiments/discovery/e7b-second-seed-20261118 && /home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python -m py_compile rollout_e7b.py && echo COMPILE_OK; tail -3 training.stdout.txt; ls -lh training/upd"
+      "command": "cd ~/research/embodied-cogcal/experiments/discovery/e7b-second-seed-20261118 && ~/.cache/cogcal/venvs/tpsc-policy/bin/python -m py_compile rollout_e7b.py && echo COMPILE_OK; tail -3 training.stdout.txt; ls -lh training/upd"
     },
     {
       "seq": 24664,
       "time": "2026-11-17T14:41:11+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && /home/mary/.cache/cogcal/venvs/tpsc-policy/bin/python - <<'PY'\nimport json,glob\np=glob.glob('experiments/discovery/e8-theta-estimator-20261118/runs/*/summary.json')\nprint(len(p))\nfor f in p[:3]:\n d="
+      "command": "cd ~/research/embodied-cogcal && ~/.cache/cogcal/venvs/tpsc-policy/bin/python - <<'PY'\nimport json,glob\np=glob.glob('experiments/discovery/e8-theta-estimator-20261118/runs/*/summary.json')\nprint(len(p))\nfor f in p[:3]:\n d="
     },
     {
       "seq": 24674,
       "time": "2026-11-17T14:41:26+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && cat experiments/discovery/e8-theta-estimator-20261118/validation_open/validation.json 2>/dev/null | head -30; echo '---'; ls experiments/discovery/e8-theta-estimator-20261118/ | head"
+      "command": "cd ~/research/embodied-cogcal && cat experiments/discovery/e8-theta-estimator-20261118/validation_open/validation.json 2>/dev/null | head -30; echo '---'; ls experiments/discovery/e8-theta-estimator-20261118/ | head"
     },
     {
       "seq": 24854,
       "time": "2026-11-17T15:03:13+08:00",
       "tool": "bash",
-      "command": "ls /home/mary/.cache/cogcal/venvs; cd /home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118 && grep -n \"rollout_e8.py\" -A3 RESULTS_E8.md | head -20; ls /home/mary/.cache/cogcal/venvs/*/bin/python"
+      "command": "ls ~/.cache/cogcal/venvs; cd ~/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118 && grep -n \"rollout_e8.py\" -A3 RESULTS_E8.md | head -20; ls ~/.cache/cogcal/venvs/*/bin/python"
     },
     {
       "seq": 24860,
       "time": "2026-11-17T15:03:15+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118 && sed -n '90,110p' RESULTS_E8.md; grep -R \"PY=\" -n . --exclude='*.json' --exclude='*.npz' 2>/dev/null | head"
+      "command": "cd ~/research/embodied-cogcal/experiments/discovery/e8-theta-estimator-20261118 && sed -n '90,110p' RESULTS_E8.md; grep -R \"PY=\" -n . --exclude='*.json' --exclude='*.npz' 2>/dev/null | head"
     },
     {
       "seq": 24908,
       "time": "2026-11-17T15:03:38+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && grep -R \"canonical-retrain-20261117\\|official-act-20261116\" -n experiments/discovery/e7b-second-seed-20261118/PREREG_E7B.md experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md experiment"
+      "command": "cd ~/research/embodied-cogcal && grep -R \"canonical-retrain-20261117\\|official-act-20261116\" -n experiments/discovery/e7b-second-seed-20261118/PREREG_E7B.md experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md experiment"
     },
     {
       "seq": 25120,
       "time": "2026-11-17T15:26:14+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && ls experiments/discovery/official-act-20261116 | cat; echo '--- e8 dir'; ls experiments/discovery/e8-theta-estimator-20261118 | head -30; grep -n \"training-contract\\|contract\" experiments/discovery/"
+      "command": "cd ~/research/embodied-cogcal && ls experiments/discovery/official-act-20261116 | cat; echo '--- e8 dir'; ls experiments/discovery/e8-theta-estimator-20261118 | head -30; grep -n \"training-contract\\|contract\" experiments/discovery/"
     },
     {
       "seq": 25650,
       "time": "2026-11-17T15:43:46+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('task_plan.md'); s=p.read_text()\nold='''  结果：[E7A](experiments/discovery/e7-return-schedule-20261118/RESULTS_E7A.md)、\n  [E8](experiments/discovery/e8-"
+      "command": "cd ~/research/embodied-cogcal && python - <<'PY'\nfrom pathlib import Path\np=Path('task_plan.md'); s=p.read_text()\nold='''  结果：[E7A](experiments/discovery/e7-return-schedule-20261118/RESULTS_E7A.md)、\n  [E8](experiments/discovery/e8-"
     },
     {
       "seq": 26159,
       "time": "2026-11-17T15:55:01+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && ls experiments/discovery/e8-theta-estimator-20261118 && echo '---' && sed -n '1,60p' experiments/discovery/e8-theta-estimator-20261118/RESULTS.md 2>/dev/null || true"
+      "command": "cd ~/research/embodied-cogcal && ls experiments/discovery/e8-theta-estimator-20261118 && echo '---' && sed -n '1,60p' experiments/discovery/e8-theta-estimator-20261118/RESULTS.md 2>/dev/null || true"
     },
     {
       "seq": 26165,
       "time": "2026-11-17T15:55:02+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && sed -n '1,80p' experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md"
+      "command": "cd ~/research/embodied-cogcal && sed -n '1,80p' experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md"
     },
     {
       "seq": 26323,
       "time": "2026-11-17T15:56:33+08:00",
       "tool": "bash",
-      "command": "cd /home/mary/research/embodied-cogcal && find experiments/discovery/e8-theta-estimator-20261118/runs -mindepth 1 -maxdepth 1 -type d | wc -l && find experiments/discovery/e8-theta-estimator-20261118/runs -mindepth 1 -maxdepth 1 -type d -pr"
+      "command": "cd ~/research/embodied-cogcal && find experiments/discovery/e8-theta-estimator-20261118/runs -mindepth 1 -maxdepth 1 -type d | wc -l && find experiments/discovery/e8-theta-estimator-20261118/runs -mindepth 1 -maxdepth 1 -type d -pr"
     }
   ]
 }
