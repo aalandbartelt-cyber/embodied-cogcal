@@ -1,0 +1,60 @@
+{
+  "yaw_deg": 15.0,
+  "w_eff_mm": 34.29285639896449,
+  "delta_center_mm": 1.0,
+  "tag": "smoke",
+  "episodes": 1,
+  "task_successes": 1,
+  "mean_abs_yaw_est_error_deg": 0.20000000000000284,
+  "max_abs_yaw_est_error_deg": 0.20000000000000284,
+  "new_method_effect": "not_tested",
+  "novelty": "not_established",
+  "rows": [
+    {
+      "seed": 12900,
+      "yaw_deg": 15.0,
+      "w_eff_mm": 34.29285639896449,
+      "delta_center_mm": 1.0,
+      "delta_mm": 1.4711642608050242,
+      "tag": "smoke",
+      "yaw_est_deg": 15.200000000000003,
+      "yaw_est_error_deg": 0.20000000000000284,
+      "q5_bias_est_deg": 15.200000000000003,
+      "q5_bias_est_rad": 0.2652900463031381,
+      "control_budget": 330,
+      "close_onset_step": 61,
+      "wall_s": 5.672037315991474,
+      "source_xyz_m": [
+        0.20197096316926497,
+        -0.07539698060489533,
+        0.014
+      ],
+      "goal_xyz_m": [
+        0.2,
+        0.075,
+        0.014
+      ],
+      "physics_path": "experiments/discovery/e8-theta-estimator-20261118/physics/smoke-est15/12900.npz",
+      "physics_sha256": "2d739abcbe56dc474f8681884bb239be71aa3cb01aabf1ace44c2f3ea5c0efc3",
+      "trace_sha256": "86840091927b92c89808fc07c6080c712c627e6a2d780c9cfe96833972a15319",
+      "task_success": true,
+      "placed": true,
+      "released": true,
+      "longest_two_finger_lift_s": 2.6365,
+      "max_object_z_m": 0.08439069209755891,
+      "final_object_xyz_m": [
+        0.20431958661108096,
+        0.06794931784688256,
+        0.013998761340986881
+      ],
+      "goal_error_xy_m": 0.008268672645287063,
+      "max_object_robot_penetration_m": 7.529445663479928e-05,
+      "clip_events": 0,
+      "mean_abs_tracking_error_rad": 0.006887541066569365,
+      "controls": 330,
+      "sim_time_s": 11.000000000001952,
+      "object_pose_writes_during_rollout": 0,
+      "failure_reason": null
+    }
+  ]
+}
