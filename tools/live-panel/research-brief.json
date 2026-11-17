@@ -1,0 +1,20 @@
+[
+  {
+    "summary": "注册 seed43 的 H1 为 12/20，未达 16/20，后续臂按规则停止；第二 checkpoint 外部效度尚未建立。",
+    "label": "E7B · 第二训练种子",
+    "next": "保留失败闸门；依据已冻结方案寻找不违背停止规则的外部验证设计。",
+    "reviewed": "2026-11-17 17:03 +08:00",
+    "sha256": "7b9277a7df3c0696f6a6c0ba1ce697aaf1d4b5e948066b630e98fc165afb4780",
+    "boundary": "canonical fallback 是原 checkpoint 的稳健性检查，H4 固定剂量安全门失败，不能替代独立训练复现。",
+    "source": "experiments/discovery/e7b-second-seed-20261118/RESULTS_E7B.md"
+  },
+  {
+    "summary": "预注册 +15° 估计臂 18/20 达 H2a 门槛；−15° 估计臂 13/20 未达 H2b 门槛；H3 原文自相矛盾，不能记为通过。",
+    "label": "E8 · 视觉估计与补偿",
+    "next": "先预注册独立种子及剂量/安全检验，再验证 −15° 的差异与跨场景边界。",
+    "reviewed": "2026-11-17 17:03 +08:00",
+    "sha256": "33402bf27a698204da0760ed9fc83953b292a8b7efc804c4e88aa470d1028f64",
+    "boundary": "−15° 的无补偿 17/20 与全量补偿 13/20 是事后探索性比较，Fisher p=0.273，差异未获统计证实。单场景、单 checkpoint、每臂 20 集。",
+    "source": "experiments/discovery/e8-theta-estimator-20261118/RESULTS_E8.md"
+  }
+]
