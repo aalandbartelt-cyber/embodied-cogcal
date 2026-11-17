@@ -159,8 +159,8 @@ def discover_runs(root, experiment):
 
 
 def parse_trace_points(rows):
-    """Extract plottable ``[x, q4, cmd4]`` points from decoded trace rows."""
-    points = []; axis = None; skipped = 0
+    """Extract plottable ``[x, q4, cmd4]`` points plus the full joint vectors."""
+    points = []; joints = []; steps = []; axis = None; skipped = 0
     for row in rows:
         q = row.get('q_after_rad'); command = row.get('command_rad')
         if not isinstance(q, list) or len(q) < 5:
@@ -177,7 +177,11 @@ def parse_trace_points(rows):
         if not isinstance(cmd, (int, float)) or not math.isfinite(cmd):
             cmd = None
         points.append([x, val, cmd])
-    return points, axis, skipped
+        raw_step = row.get('control_step')
+        steps.append(int(raw_step) if isinstance(raw_step, (int, float)) and math.isfinite(raw_step) else None)
+        joints.append([round(float(value), 5) if isinstance(value, (int, float)) and math.isfinite(value) else None
+                       for value in q[:6]])
+    return points, joints, steps, axis, skipped
 
 
 def last_control_step(rows):
@@ -217,15 +221,17 @@ def load_trace(root, relative, *, mode='auto', max_bytes=MAX_TRACE_BYTES, max_po
         rows, partial, invalid = read_lines(path, max_bytes)
         meta = {'size': size, 'start': 0, 'truncated_head': False,
                 'partial_line': partial, 'invalid': invalid, 'bytes_read': min(size, max_bytes)}
-    points, axis, skipped = parse_trace_points(rows)
+    points, joints, steps, axis, skipped = parse_trace_points(rows)
     # Preserve the entire interval when downsampling. Never interpolate.
     total = len(points)
     if total > max_points > 1:
         indices = sorted({round(i * (total - 1) / (max_points - 1)) for i in range(max_points)})
         points = [points[i] for i in indices]
+        joints = [joints[i] for i in indices]
+        steps = [steps[i] for i in indices]
     try: updated = datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
     except OSError: updated = None
-    return {'path': relative, 'axis': axis, 'points': points, 'total': total,
+    return {'path': relative, 'axis': axis, 'points': points, 'joints': joints, 'steps': steps, 'total': total,
             'partial': partial, 'invalid': invalid, 'skipped': skipped, 'updated': updated,
             'last_step': last_control_step(rows),
             'live': {'mode': 'tail' if tail else 'full', 'file_bytes': meta['size'],

@@ -10,6 +10,7 @@ import re
 import shlex
 import research_live
 import research_runs
+import research_sim
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -199,12 +200,24 @@ class Handler(BaseHTTPRequestHandler):
             if data is None:
                 return self.send_bytes(404, b'not found', 'text/plain')
             return self.send_bytes(200, json.dumps(data, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
-        if parsed.path == '/api/arm-model':
+        if parsed.path == '/api/sim-frame':
+            query = parse_qs(parsed.query)
+            relative = query.get('path', [''])[0]
+            if not relative.startswith('experiments/discovery/') or not relative.endswith('.trace.jsonl'):
+                return self.send_bytes(400, b'bad path', 'text/plain')
             try:
-                payload = (HERE / 'arm-model.json').read_bytes()
-            except OSError:
-                return self.send_bytes(404, b'not found', 'text/plain')
-            return self.send_bytes(200, payload, 'application/json; charset=utf-8')
+                step = int(query.get('step', ['-1'])[0])
+                azimuth = float(query.get('az', ['-115'])[0])
+                elevation = float(query.get('el', ['24'])[0])
+                distance = float(query.get('dist', ['1.05'])[0])
+                payload, actual = research_sim.frame(relative, step, azimuth, elevation, distance)
+            except (TypeError, ValueError, RuntimeError, OSError) as error:
+                body = json.dumps({'error': str(error)}, ensure_ascii=False).encode()
+                return self.send_bytes(503, body, 'application/json; charset=utf-8')
+            return self.send_bytes(200, payload, 'image/jpeg', {'X-Sim-Step': str(actual)})
+        if parsed.path == '/api/sim-health':
+            return self.send_bytes(200, json.dumps(research_sim.health(), ensure_ascii=False).encode(),
+                                   'application/json; charset=utf-8')
         if parsed.path == '/api/trace':
             query = parse_qs(parsed.query)
             relative = query.get('path', [''])[0]

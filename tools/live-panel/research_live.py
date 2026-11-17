@@ -211,7 +211,10 @@ def live_payload(root, experiment, run_id=None, trace_relative=None, processes=N
     if not data or not data.get('runs'):
         return None
     runs = data['runs']
-    run = next((item for item in runs if item['id'] == run_id), runs[0])
+    run = next((item for item in runs if item['id'] == run_id), None)
+    if run is None:
+        # Fall back to the most recently updated run, not the first in walk order.
+        run = max(runs, key=lambda item: item.get('updated') or '')
     pids = []
     if processes is not None:
         expected = str((Path(root) / run['id']).resolve())
