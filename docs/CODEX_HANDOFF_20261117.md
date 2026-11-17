@@ -105,4 +105,3 @@ WSL 中运行 `python3 tools/live-panel/research_panel.py --port 8766`，Windows
 3. `git log --oneline a2468eb..HEAD` 查看本轮三个提交；`git status` 确认接管期未引入新的未提交改动（历史工件保持原样）。
 
 **接管期未触碰**：所有 `PREREG*`、`contract.json`、`episodes.jsonl`、`results` 原始数据、`progress.md`/`findings.md`/`task_plan.md` 等历史未提交工件、`source_versions/` 与 `reproducibility-audit-20261117/` 的既有内容。
-
