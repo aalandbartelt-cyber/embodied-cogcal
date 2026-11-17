@@ -35,16 +35,19 @@
 .views{display:flex;gap:6px;pointer-events:auto}
 .views button{background:rgba(10,20,18,.82);border:1px solid var(--line);color:var(--sub);border-radius:999px;padding:3px 11px;font-size:11px;cursor:pointer}
 .views button.on{background:var(--lime);color:#0b1512;border-color:var(--lime)}
-#stage-video{position:absolute;inset:0;z-index:1;background:#050b09;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:10px}
+.stage.replay-mode .stage-foot,.stage.replay-mode .stage-note{display:none}
+#stage-video{position:absolute;left:12px;right:12px;top:46px;bottom:12px;z-index:2;background:#050b09;border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px;overflow:hidden}
 #stage-video[hidden]{display:none}
-#stage-video video{width:100%;height:calc(100% - 40px);object-fit:contain;background:#000}
-#stage-video .boundary{position:static;margin:0;font-size:11px;color:var(--sub);text-align:center}
+#stage-video video{width:100%;height:auto;max-height:100%;object-fit:contain;background:#000;border-radius:6px}
+#stage-video .boundary{display:none}
+#stage-video-close{position:absolute;right:8px;top:8px;z-index:3;background:rgba(16,27,24,.94);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:3px 10px;font-size:11px;cursor:pointer}
+#stage-video-close:hover{border-color:var(--lime);color:var(--lime)}
 @media(max-width:1100px){.workbench{grid-template-columns:1fr}.rail{position:static}}
 .stage{position:relative;margin:14px 0 18px;border:1px solid var(--line);border-radius:14px;background:radial-gradient(ellipse at 62% -10%,#1d3029 0,#0a1411 62%);overflow:hidden;height:min(52vh,470px);min-height:360px}
 .stage #sim-canvas{position:absolute;inset:0}
 .stage #sim-canvas canvas{display:block;width:100%;height:100%;touch-action:none}
 .stage canvas.drag{cursor:grabbing}
-.stage-top{position:absolute;inset:14px 16px auto 16px;display:flex;justify-content:space-between;gap:10px;pointer-events:none}
+.stage-top{position:absolute;inset:14px 16px auto 16px;display:flex;justify-content:space-between;gap:10px;pointer-events:none;z-index:30}
 .badge{font:600 11px var(--mono);letter-spacing:.08em;color:#0b1512;background:var(--lime);padding:4px 9px;border-radius:999px}
 .badge.ghost{background:rgba(16,27,24,.82);color:var(--sub);border:1px solid var(--line)}
 .stage-hud{position:absolute;right:16px;top:52px;display:grid;gap:7px;background:rgba(9,18,16,.74);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:140px}
@@ -69,7 +72,7 @@
 <div class="workbench"><div class="stage-col"><section class="stage" id="stage"><div id="sim-canvas" aria-label="MuJoCo 实时视图"></div>
 <div class="stage-top"><span class="badge" id="sim-mode">等待数据</span><span class="views"><button type="button" data-view="live" class="on">实时</button><button type="button" data-view="replay">录制</button></span><span class="badge ghost" id="sim-source">—</span></div>
 <div class="stage-hud"><div class="hud-row"><span>控制步</span><b id="sim-step">—</b></div><div class="hud-row"><span>仿真秒</span><b id="sim-time">—</b></div><div class="hud-row"><span>步/秒</span><b id="sim-rate">—</b></div><div class="hud-row"><span>渲染</span><b id="sim-fps">—</b></div><div class="hud-row"><span>本集</span><b id="sim-state">—</b></div></div>
-<div id="stage-video" hidden><div id="simulation"><div class="empty">正在检查录像工件…</div></div></div>
+<div id="stage-video" hidden><button id="stage-video-close" type="button" aria-label="关闭录制视图">✕ 关闭</button><div id="simulation"><div class="empty">正在检查录像工件…</div></div></div>
 <div class="stage-scrim"></div>
 <div class="stage-foot"><button id="sim-play" type="button">播放</button><input id="sim-scrub" type="range" min="0" max="0" value="0" step="1" aria-label="轨迹时间轴"><button id="sim-latest" type="button">回到最新</button><button id="sim-reset" type="button">视角复位</button></div>
 <p class="stage-error" id="sim-error" hidden></p><p class="stage-note">浏览器内 MuJoCo（WebAssembly）做前向计算，three.js 绘制；场景由 <code>simulation/so101</code> 展平生成，关节角取自逐控制步记录，物体位姿取自已保存的物理快照。加载失败会明确报错，不会用示意图代替。</p></section></div><aside class="rail" id="rail"><section class="rail-card"><div class="cardhead"><h2>运行现场</h2><span class="index">PROCESSES</span></div><div class="body"><div id="processes" aria-live="polite" class="small">正在读取…</div><p class="boundary">仅列出工作目录或命令指向本项目实验目录的进程；未列出不代表计算已结束。此处不渲染画面，画面由左侧舞台负责。</p></div></section><section class="rail-card"><div class="cardhead"><h2>仿真控制</h2><span class="index">PHYSICS</span></div><div class="body"><div class="simctl"><button id="sim-phys" type="button">开始物理</button><button id="sim-pause" type="button">暂停</button><button id="sim-step" type="button">单步</button></div><div class="simctl"><span class="small">速度</span><button data-speed="0.5" type="button">0.5×</button><button data-speed="1" type="button" class="on">1×</button><button data-speed="2" type="button">2×</button></div><p class="boundary">浏览器内物理自成一路：从当前记录姿态出发，用记录的控制量驱动 <code>mj_step</code>。它是新的 rollout，不是历史证据，也不写入实验目录。</p></div></section></aside><aside class="rail" id="rail2"><section class="rail-card"><div class="cardhead"><h2>作业中心</h2><span class="index">JOBS · v0</span></div><div class="body"><div class="simctl"><select id="job-template" class="jobsel"></select></div><div class="simctl"><select id="job-arm" class="jobsel"></select><input id="job-seed" class="jobnum" type="number" value="12870" aria-label="起始种子"><input id="job-count" class="jobnum" type="number" value="20" aria-label="集数"></div><div class="simctl"><button id="job-plan" type="button">预演命令</button><button id="job-run" type="button" disabled title="执行开关待评审">启动</button></div><pre id="job-out" class="jobout">选择模板后预演：只生成命令与输出目录，不启动进程。</pre><p class="boundary">作业在 WSL GPU 上运行；v0 仅预演。执行需显式开启，且只接受白名单模板与参数区间。</p></div></section></aside></div>
@@ -119,6 +122,7 @@ async function history(){try{const response=await fetch('/api/history',{cache:'n
 function clock(){$('clock').textContent=new Date().toLocaleTimeString('zh-CN',{hour12:false})}clock();setInterval(clock,1000);/* startup runs after the simulation block below */
 
 /* ---------- simulation stage: kinematic playback from recorded joints ---------- */
+let viewMode='live';
 const SIM={joints:[],points:[],steps:[],idx:0,unit:'sim_time_s',pinned:false,playing:false,phys:null,physPath:null,fails:0};
 const LIVE={follow:true,ac:null,timer:null};
 function simStepAt(idx){const v=SIM.steps&&SIM.steps[idx];return (typeof v==='number')?v:idx}
@@ -167,7 +171,7 @@ function applyLive(d){
  $('run-summary').textContent=['已完成 '+r.completed+(r.planned?' / '+r.planned:''),'成功 '+r.success,'失败 '+r.failure,'未评分 '+r.unscored].join(' · ');
  $('run-source').textContent=(r.pids&&r.pids.length)?('活动进程 '+r.pids.join(', ')):'未匹配到活动进程';
  drawTrace(d.trace);applyTraceSim(d.trace);
- $('sim-mode').textContent=d.live.growing===true?'运行中 · 尾窗':(d.live.growing===false?'已静止':'检测中');
+ if(typeof viewMode==='undefined'||viewMode==='live'){$('sim-mode').textContent=d.live.growing===true?'运行中 · 尾窗':(d.live.growing===false?'已静止':'检测中')}
  $('sim-source').textContent=(d.live.following_trace||'').split('/').pop();
  $('sim-rate').textContent=d.live.rate_steps_s?String(Math.round(d.live.rate_steps_s)):'—';
  if(d.trace){$('trace-note').innerHTML='轨迹：'+esc(d.trace.path)+' · '+d.trace.points.length+'/'+d.trace.total+' 个点'+(d.trace.live&&d.trace.live.truncated_head?' · 仅最近 '+Math.round(d.trace.live.window_bytes/1048576*10)/10+' MB':'')+(d.trace.live&&d.trace.live.partial_line?' · 末行未完成':'')+' '+sourceLink(d.trace.path,'原始轨迹')}
@@ -194,17 +198,19 @@ $('sim-play').addEventListener('click',()=>{SIM.playing=!SIM.playing;SIM.pinned=
 $('sim-scrub').addEventListener('input',e=>{SIM.pinned=true;SIM.playing=false;$('sim-play').textContent='播放';SIM.idx=Number(e.target.value);drawSim()});
 $('sim-latest').addEventListener('click',()=>{SIM.pinned=false;SIM.playing=false;$('sim-play').textContent='播放';SIM.idx=Math.max(0,SIM.joints.length-1);const s=$('sim-scrub');if(s)s.value=String(Math.round(SIM.idx));drawSim()});
 $('sim-reset').addEventListener('click',()=>{if(window.WBSim)WBSim.resetView()});
-let viewMode='live';
 function setViewMode(mode){
  viewMode=mode;
  document.querySelectorAll('.views button').forEach(b=>b.classList.toggle('on',b.dataset.view===mode));
  const box=$('stage-video'),live=$('sim-canvas');
  if(!box||!live)return;
  const video=box.querySelector('video');
- if(mode==='replay'){box.hidden=false;live.style.visibility='hidden';if(video)video.play().catch(()=>{})}
+ const stage=$('stage');
+ if(stage)stage.classList.toggle('replay-mode',mode==='replay');
+ if(mode==='replay'){box.hidden=false;live.style.visibility='hidden';$('sim-mode').textContent='历史录像 · 非仿真';if(video)video.play().catch(()=>{})}
  else{box.hidden=true;live.style.visibility='visible';if(video)video.pause()}
 }
 document.querySelectorAll('.views button').forEach(b=>b.addEventListener('click',()=>setViewMode(b.dataset.view)));
+$('stage-video-close').addEventListener('click',()=>setViewMode('live'));
 $('sim-canvas').addEventListener('pointerdown',()=>{SIM.dragging=true;SIM.dragUntil=performance.now()+2500;});
 $('sim-canvas').addEventListener('pointerup',()=>{SIM.dragging=false;});
 $('sim-canvas').addEventListener('dblclick',()=>{if(window.WBSim)WBSim.resetView()});
@@ -214,6 +220,7 @@ window.addEventListener('keydown',e=>{
  if(e.key==='3'&&window.WBSim)WBSim.setView('side');
  if(e.key==='7'&&window.WBSim)WBSim.setView('top');
  if(e.key==='0'&&window.WBSim)WBSim.resetView();
+ if(e.key==='Escape'){setViewMode('live')}
  if(e.key===' '){e.preventDefault();$('sim-play').click()}
 });
 setInterval(()=>{const f=window.WBSim&&WBSim.status&&WBSim.status.fps;$('sim-fps').textContent=f?f+' fps':'—'},600);
@@ -266,5 +273,6 @@ setInterval(()=>{
  if(window.WBSim&&WBSim.physics&&SIM.physicsOn){$('sim-mode').textContent='物理 · '+(WBSim.physics.running?'运行':'暂停')}
 },600);
 
-refresh();history();refreshStandard();pollLive();setInterval(refresh,30000);setInterval(history,30000);setInterval(refreshStandard,30000);
+refresh();history();refreshStandard();pollLive();
+if(new URLSearchParams(location.search).get('view')==='replay')setTimeout(()=>setViewMode('replay'),600);setInterval(refresh,30000);setInterval(history,30000);setInterval(refreshStandard,30000);
 </script></body></html>
